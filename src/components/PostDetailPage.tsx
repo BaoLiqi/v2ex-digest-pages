@@ -35,12 +35,10 @@ function PostDetailPage() {
       <div>
         {post.blocks.map((block, blockIndex) => (
           <div key={blockIndex}>
-            {block.type}
-            <br />
             {block.chunks.map((chunk, chunkIndex) => (
               <div key={chunkIndex}>
                 <details>
-                  <summary>Show Chinese</summary>
+                  <summary>▽</summary>
                   {chunk.zh}
                 </details>
                 <br />

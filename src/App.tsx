@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import allPosts from "../src/all_posts.json";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
