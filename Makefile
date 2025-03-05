@@ -7,6 +7,6 @@ build: copy
 	rm -rf docs
 	mv dist docs
 
-git-commit:
+git-commit: build
 	git add .
 	git commit -am "update data"
