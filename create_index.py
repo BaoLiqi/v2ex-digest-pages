@@ -5,7 +5,7 @@ import re
 from datetime import datetime
 
 
-def create_post_index(input_dir="posts_json", output_dir="src", output_filename="posts_index.json"):
+def create_post_index(input_dir="public/posts_json", output_dir="src", output_filename="posts_index.json"):
     """
     Creates a lightweight index of all posts with just the essential information
     needed for the homepage listing.
