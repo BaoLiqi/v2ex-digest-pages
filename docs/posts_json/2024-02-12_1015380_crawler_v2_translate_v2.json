@@ -1,0 +1,203 @@
+{
+  "id": 1015380,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Windows 竟没有一个匹敌 downie 的下载软件",
+          "en": "Windows doesn't even have a download software comparable to downie"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想从 YouTube 下载一个 4K 视频，各种在线下载要么下载不了 4K ，要么只能下载 4K 无音频版本，在 mac 上用 downie 很容易，在 Windows 搜了半天，据说只有一个 idm 可以，界面看着很古老就算了，价格也很惊人，淘宝买断价格 118 ，有人知道其他方法吗？",
+          "en": "Want to download a 4K video from YouTube, various online downloads either can't download 4K, or can only download 4K without audio versions. It's easy to use downie on Mac. After searching for a long time on Windows, it is said that only idm can be used. The interface looks very old, and the price is also amazing. The Taobao buyout price is 118. Does anyone know other methods?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "果批闹麻了",
+          "en": "Apple fans are going crazy"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "downie 不是强在可以下那种没人适配的小网站吗，可以用图形界面操作，然后抓；单纯下 YouTube 真是一抓一大把啊另外 idm 这个界面不叫古老，win32 的界面就长这样，人家好歹是原生开发的",
+          "en": "Isn't downie powerful in that it can download from small websites that no one has adapted to, and you can use the graphical interface to operate and then capture; just downloading YouTube is really a lot. Also, the idm interface is not called old, the win32 interface looks like this, and at least they are natively developed"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "b64 都不会转的 mac \"爱好者\"，我不好评价",
+          "en": "I can't comment on a Mac \"enthusiast\" who can't even convert b64."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看了楼主的提问才发现 flvcd 已经停止服务了，一个时代的落幕。Downie 跟 IDM 是同价位的，另外就是下载视频和音轨之后可以用 ffmpeg 合成，下载可以用 youtube-dl 实现。",
+          "en": "I just found out that flvcd has stopped service after reading the OP's question, the end of an era. Downie and IDM are in the same price range. Also, you can use ffmpeg to combine video and audio tracks after downloading them, and you can use youtube-dl to download."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "嗨，这需求还要花钱？？不就是 Youtube 上的 4K 视频嘛。你这需求，用 yt-dlp 加上 cookie 参数就行了。随手给你找个示例：yt-dlp  --cookies-from-browser firefox－－－－－－－－PS D:\\> yt-dlp  --cookies-from-browser firefoxExtracting cookies from firefoxExtracted 3012 cookies from firefox[youtube] Extracting URL: [youtube] njX2bu-_Vw4: Downloading webpage[youtube] njX2bu-_Vw4: Downloading ios player API JSON[youtube] njX2bu-_Vw4: Downloading android player API JSON[youtube] njX2bu-_Vw4: Downloading player 5e928255[youtube] njX2bu-_Vw4: Downloading m3u8 information[info] njX2bu-_Vw4: Downloading 1 format(s): 337+258[download] Destination: 2020 LG OLED l  The Black 4K HDR 60fps [njX2bu-_Vw4].f337.webm[download] 100% of  415.36MiB in 00:00:30 at 13.64MiB/s[download] Destination: 2020 LG OLED l  The Black 4K HDR 60fps [njX2bu-_Vw4].f258.m4a[download] 100% of    5.85MiB in 00:00:00 at 20.21MiB/s[Merger] Merging formats into \"2020 LG OLED l  The Black 4K HDR 60fps [njX2bu-_Vw4].mkv\"Deleting original file 2020 LG OLED l  The Black 4K HDR 60fps [njX2bu-_Vw4].f337.webm (pass -k to keep)Deleting original file 2020 LG OLED l  The Black 4K HDR 60fps [njX2bu-_Vw4].f258.m4a (pass -k to keep)PS D:\\>",
+          "en": "Hey, do you still need to spend money on this? Isn't it just a 4K video on Youtube? For your needs, just use yt-dlp plus the cookie parameter. Here's a quick example: yt-dlp --cookies-from-browser firefox－－－－－－－－PS D:\\> yt-dlp --cookies-from-browser firefoxExtracting cookies from firefoxExtracted 3012 cookies from firefox[youtube] Extracting URL: [youtube] njX2bu-_Vw4: Downloading webpage[youtube] njX2bu-_Vw4: Downloading ios player API JSON[youtube] njX2bu-_Vw4: Downloading android player API JSON[youtube] njX2bu-_Vw4: Downloading player 5e928255[youtube] njX2bu-_Vw4: Downloading m3u8 information[info] njX2bu-_Vw4: Downloading 1 format(s): 337+258[download] Destination: 2020 LG OLED l The Black 4K HDR 60fps [njX2bu-_Vw4].f337.webm[download] 100% of 415.36MiB in 00:00:30 at 13.64MiB/s[download] Destination: 2020 LG OLED l The Black 4K HDR 60fps [njX2bu-_Vw4].f258.m4a[download] 100% of 5.85MiB in 00:00:00 at 20.21MiB/s[Merger] Merging formats into \"2020 LG OLED l The Black 4K HDR 60fps [njX2bu-_Vw4].mkv\"Deleting original file 2020 LG OLED l The Black 4K HDR 60fps [njX2bu-_Vw4].f337.webm (pass -k to keep)Deleting original file 2020 LG OLED l The Black 4K HDR 60fps [njX2bu-_Vw4].f258.m4a (pass -k to keep)PS D:\\>"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "vidjiuce unitube ，还有一些 yt-dlp 之类专门下载视频网站的开源软件",
+          "en": "vidjiuce unitube, and some open-source software like yt-dlp specifically for downloading video websites"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这不算啥  哈哈  不用说 4k   用各种软件  下载这个  和在线看声音就是不一样  才无语  ?si=BVfg4XlbkSsuJzoB",
+          "en": "This is nothing, haha. Not to mention 4k, using various software to download this, the sound is different from watching online, it's speechless ?si=BVfg4XlbkSsuJzoB"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://github.com/KurtBestor/Hitomi-Downloader",
+          "en": "https://github.com/KurtBestor/Hitomi-Downloader"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Windows 上除了宇宙最强 IDE VS 之外，还有太阳系最强视频站下载软件：github /KurtBestor / Hitomi-Downloader人家连 Pornhub 都支持，而且开源，downie ，这是啥？下个载还要收费？？我是真不理解，MAC 平台，一个娱乐平台，下载软件还要收费？？真有人会去买？？啥样的人才会去付费？搜索都不会的嘛？",
+          "en": "Besides the most powerful IDE VS in the universe, there is also the most powerful video website download software in the solar system on Windows: github /KurtBestor / Hitomi-Downloader. They even support Pornhub, and it's open source, downie, what's this? Do you still have to pay for a download?? I really don't understand. On the MAC platform, an entertainment platform, do you still have to pay for download software?? Will anyone really buy it?? What kind of people will pay? You can't even search?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "太搞笑了，还怼人急眼……是谁连个视频都不会下载，急得上网求救了？",
+          "en": "It's so funny, and you're still getting angry... Who can't even download a video and urgently asked for help online?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dreamage #43 直接用 idm 就行，文件类型里添加下 m4s ，但是没法下杜比视界的，用这个可以下，还能改善下 b 站的广告https://github.com/the1812/Bilibili-Evolved",
+          "en": "@dreamage #43 Just use idm, add m4s in the file type, but you can't download Dolby Vision. You can use this to download and also improve the ads on bilibili https://github.com/the1812/Bilibili-Evolved"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@geelaw 之前买 downie 记得是七十几块三设备，现在看淘宝三设备版 96 块，idm118 块是单设备。你说的合成音视频方法门槛就有点高了，我就不试了，谢谢了",
+          "en": "@geelaw I remember buying downie for seventy-something yuan for three devices. Now on Taobao, the three-device version is 96 yuan, and idm is 118 yuan for a single device. The method of combining audio and video that you mentioned has a high threshold, so I won't try it. Thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "idm 很好用 当初买 129 ，这么多年 118 还降价了呢没钱就先用破解呗 有 118 了再补票",
+          "en": "idm is very easy to use. I bought it for 129 yuan back then, and the price has dropped to 118 yuan after so many years. If you don't have money, use the cracked version first. Pay for it when you have 118 yuan."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为什么把我的命令行直接给解析了啊……PS D:\\> yt-dlp [URL] --cookies-from-browser firefox",
+          "en": "Why did it directly parse my command line... PS D:\\> yt-dlp [URL] --cookies-from-browser firefox"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "idm 不只是下载视频一个功能。更新频率比 downie 高多了",
+          "en": "idm is not just a video download function. The update frequency is much higher than downie."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "IDM 虽然 UI 不太好看，但功能比 Downie 好用",
+          "en": "Although the UI of IDM is not very good-looking, the function is more useful than Downie."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "IDM 还不错吧，买断好像只限更新三年不是终身授权，一年制三十几块还是四十几块来着不记得了，总之一年的价格才一顿麦当劳钱不用大惊小怪。",
+          "en": "IDM is not bad. The buyout seems to be only for three years of updates, not lifetime authorization. The annual price is thirty-something or forty-something yuan, I don't remember. In short, the annual price is only the price of a McDonald's meal, no need to be surprised."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已经很久没用下载工具了，现在网速够快，基本直接下载，最多换 aria2 支持多线程剩下的就是楼主提到的特殊场景，临时找个工具，比如上面提到的 youtube-dl",
+          "en": "I haven't used download tools for a long time. Now the network speed is fast enough, basically direct download, at most change aria2 to support multithreading. The rest is the special scenarios mentioned by the OP, temporarily find a tool, such as the youtube-dl mentioned above"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我印象中 idm 可以下载 YouTube 视频啊，idm 的视频嗅探非常强，说实话，你在 idm 面前说其他下载工具，真是不是量级的，包括迅雷，idm 把两个特点做到了极致，速度快，第二个就是简洁。",
+          "en": "In my impression, idm can download YouTube videos. The video sniffing of idm is very strong. To be honest, when you talk about other download tools in front of idm, it's really not on the same level, including Xunlei. IDM has done two characteristics to the extreme: fast speed, and the second is simplicity."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "yt-fdlp 不比这个好使么",
+          "en": "Isn't yt-dlp better than this?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

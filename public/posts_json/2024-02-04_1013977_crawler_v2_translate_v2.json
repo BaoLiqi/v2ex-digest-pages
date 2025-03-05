@@ -1,0 +1,203 @@
+{
+  "id": 1013977,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "护士女朋友排班问题。她的上班时间不固定，每天定闹钟很麻烦，有时候是 7 点半上班，有时候是 9 点上班，有没有什么好的想法。",
+          "en": "Nurse girlfriend scheduling problem. Her work hours are not fixed, setting the alarm every day is troublesome, sometimes she works at 7:30, sometimes at 9, any good ideas?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "",
+          "en": ""
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我一般是这样给建议：1 、如果她明天 7 点半上班，那你 7 点起床，做好早餐并叫她起床2 、如果她明天 9 点上班，那你七点起床 ，做好早餐并保温在锅里，给她调好 8 点半闹钟3 、如果她明天休息不需要上班，那你七点起床 ，做好早餐并保温在锅里等她睡到自然醒。😂",
+          "en": "I usually give this advice: 1. If she works at 7:30 tomorrow, then you get up at 7, make breakfast and wake her up. 2. If she works at 9 tomorrow, then you get up at 7, make breakfast and keep it warm in the pot, and set her alarm for 8:30. 3. If she is off tomorrow and does not need to work, then you get up at 7, make breakfast and keep it warm in the pot and wait for her to sleep until she wakes up naturally. 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@pigf #9 不用谢。对睡眠影响最大不是时间，而是作息规律。保证规律的睡觉和起床时间很重要。",
+          "en": "@pigf #9 You're welcome. What affects sleep the most is not time, but the routine. It is important to ensure a regular sleep and wake-up time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "找到排班的规律，最好的办法就是每天都 6:30 点起来，总不会迟到",
+          "en": "Find the pattern of the schedule, the best way is to get up at 6:30 every day, you will never be late"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你们这么多额外的精力么",
+          "en": "Do you have so much extra energy?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果有规律，那就可以按规律的去定，要么就用语音助手定",
+          "en": "If there is a pattern, you can set it according to the pattern, or you can use a voice assistant."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "iOS 的话搞两张 NFC 标签，设置快捷指令设置闹钟",
+          "en": "If it's iOS, get two NFC tags, set shortcut commands to set the alarm"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@evan9527 npy：我谢谢你",
+          "en": "@evan9527 npy: I thank you"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我老婆也是护士，我是用 outlock 日历同步的手机日历，排班出来就填到日历里，把闹钟提醒设置好",
+          "en": "My wife is also a nurse, I use an outlock calendar to sync the phone calendar, fill the schedule into the calendar, and set the alarm reminder"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@littlecreek 手里拿着锤子，看什么都像钉子...",
+          "en": "@littlecreek If you hold a hammer in your hand, everything looks like a nail..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "嗨 siri 早上 7 点的闹钟, 这有多难...",
+          "en": "Hey Siri, 7 am alarm, how difficult is this..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你理解错了，女朋友内心不想让你实现闹钟几点响的方案，而是想让你实现闹钟不用响的方案",
+          "en": "You misunderstood, your girlfriend doesn't want you to implement the alarm clock solution for when it rings, but wants you to implement the solution for no alarm clock"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "真心感受到“没有手机怎么活”",
+          "en": "Really feel “how to live without a phone”"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买个智能音箱，比如我就经常一句：小爱同学，xx 点叫我起床",
+          "en": "Buy a smart speaker, for example, I often say: Xiao Ai, wake me up at xx o'clock"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果医院有排班系统，自己抓下包。 我以前就这么弄的。",
+          "en": "If the hospital has a scheduling system, grab the packets yourself. I used to do it this way."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "excel 导入 再脚本写个闹钟",
+          "en": "Excel import then write a script for an alarm clock"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以一直六点半起来，如果是 9 点半上班就可以做点别的，比如 xxx ，如果七点半就不做了直接去",
+          "en": "You can always get up at 6:30, and if you work at 9:30, you can do something else, such as xxx. If it's 7:30, then don't do it and just go directly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我都是设置好不同时间的闹钟，睡前手动开启",
+          "en": "I set alarms for different times and turn them on manually before going to bed"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "首先你得有排班表，接入到日历或者能用稳定的接口读到或者网页内容识别之类的然后根据排班的时间，可以用类似 IFTTT 、MacroDroid 之类的工具，根据日历来自动设置闹钟",
+          "en": "First, you need to have a schedule, access it to the calendar or be able to read it with a stable interface or web content recognition, and then according to the schedule time, you can use tools like IFTTT, MacroDroid to automatically set the alarm clock based on the calendar."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "siri",
+          "en": "Siri"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "睡觉之前定明天的不就好了",
+          "en": "Just set it for tomorrow before you go to bed"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

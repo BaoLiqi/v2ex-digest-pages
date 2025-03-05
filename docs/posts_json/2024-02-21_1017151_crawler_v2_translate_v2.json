@@ -1,0 +1,203 @@
+{
+  "id": 1017151,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "关于对讲机的传输距离 5000 公里",
+          "en": "About the transmission distance of walkie-talkies, 5000 kilometers"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "某宝上，卖家声称 5000 公里可以对讲，无需插卡，不用流量卡的，\r\n采用数字搭载收音机中转频率来实现远距离对讲，正常情况下收音机可以接收到的地方有效距离内都可以正常使用。\r\n\r\n这其中有何猫腻？牌子是摩托罗拉的。\r\n\r\n难道是改装过？但是我问了机器内是否有卡，说是没有卡的。",
+          "en": "On a certain e-commerce platform, sellers claim that walkie-talkies can communicate over 5000 kilometers without a SIM card or data plan.\r\nThey use digital technology to piggyback on radio relay frequencies to achieve long-distance communication. Under normal circumstances, it should work within the effective range wherever a radio can receive a signal.\r\n\r\nWhat's the catch here? The brand is Motorola.\r\n\r\nIs it modified? But I asked if there was a card inside the device, and they said no."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "无需插卡不等于不用卡...你有没有考虑过是内置卡/esim?",
+          "en": "Not needing a SIM card doesn't mean it doesn't use a card... Have you considered that it might be a built-in card/eSIM?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚考完 A 证的来答：如果不借助互联网，你这个对讲机除非用短波通信、100W 以上功率发射，不然不可能稳定通讯 5000 公里。而且上述发射流程是要考证才能玩的，否则非法。",
+          "en": "Answering as someone who just passed the A license exam: Without the internet, your walkie-talkie cannot stably communicate over 5000 kilometers unless it uses shortwave communication and a transmission power of 100W or more. Furthermore, the aforementioned transmission process requires a license to operate, otherwise it's illegal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "",
+          "en": ""
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@testonly 中波 https://en.wikipedia.org/wiki/Medium_wave 可通过电离层反射传播，不一定是直线传输的，我记得小时候就可以收听到很多外国电台，什么德国之声，美国之声 之类的",
+          "en": "@testonly Medium wave https://en.wikipedia.org/wiki/Medium_wave can propagate through ionospheric reflection, not necessarily in a straight line. I remember as a child I could receive many foreign radio stations, like Deutsche Welle, Voice of America, and so on."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@D33109 VHF 甚高频无线电是视距传播，只有短波或者长波通过天波方式才能传播那么远",
+          "en": "@D33109 VHF (Very High Frequency) radio propagates by line-of-sight, only shortwave or longwave can propagate that far through skywave propagation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想那么多干啥就是走手机网络的对讲机，内置了 esim厂商或卖家统一付费，每月可能有几百 MB 流量吧，不过要是倒闭了后面就用不了",
+          "en": "Why think so much? It's just a walkie-talkie that uses the mobile network, with a built-in eSIM. The manufacturer or seller pays for it, and it might have a few hundred MB of data per month. But it won't work anymore if the company goes out of business."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "5000 公里因为视距不可达，一般需要 HF 频段，也就是无线电 B 证以上。而且对通信条件极为苛刻，需要用到电离层反射，要在太阳活动期间窗口期有可能完成。关于中继，每个地区有不同的中继站，他们的频率不相同，一般也不会给你日常通信用，都是大家上面相互打招呼，因为频率稀缺。想去玩可以考证进圈所以，应该是用到了数据流量。",
+          "en": "For 5000 kilometers, because line-of-sight is not achievable, the HF band is generally required, which means a radio B license or higher. Moreover, the communication conditions are extremely demanding, requiring ionospheric reflection, and it's only possible during the solar activity window. Regarding repeaters, each area has different repeater stations, their frequencies are not the same, and they generally won't be used for your daily communication. They're usually for people to greet each other, because frequencies are scarce. If you want to play, you can get a license and join the circle, so it should use data traffic."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "5000 公里的对讲机？先不说是真是假吧，就这通信距离，我看刑😂",
+          "en": "A 5000-kilometer walkie-talkie? Regardless of whether it is true or false, just considering this communication distance, I see jail time 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "内置的 4G 物联卡，你找个没手机信号的地方它也没信号，一般给你用两年，两年以后需要充值",
+          "en": "It has a built-in 4G IoT card. If you go somewhere with no cell signal, it won't have a signal either. They usually give it to you for two years, and you'll need to recharge it after two years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "手持机肯定是内置 SIM 卡了，走运营商网络能做到 5000 公里是短波无线电（ HF ），但是它需要有巨大的（相对于手持）天馈系统做支撑，手持机做不到",
+          "en": "A handheld device definitely has a built-in SIM card. Achieving 5000 kilometers using a carrier network is shortwave radio (HF), but it requires a huge (compared to a handheld) antenna and feed system to support it, which a handheld device cannot do."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "写号的公网对讲机吧 把对讲平台账号跟 sim 卡数据写到对讲机里头，用起来就跟讲微信一样呗",
+          "en": "It's a public network walkie-talkie that writes a number. They write the walkie-talkie platform account and SIM card data into the walkie-talkie, so it's like talking on WeChat."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "5000km 的对讲机，发射功率怕是已经煮鸡蛋了",
+          "en": "A 5000km walkie-talkie, the transmission power is probably already enough to cook an egg"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "写的很清楚了啊，港澳台不能用，就是基于基站的，也就是所谓的 4G 对讲机",
+          "en": "It's written very clearly, it cannot be used in Hong Kong, Macau and Taiwan, it's based on base stations, that is the so-called 4G walkie-talkie."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看来学 CS 的普遍对无线电没什么概念……5000km 无方向广播，语音码率……要是地球上有这种科技，也不用卫星电话了……",
+          "en": "It seems like people who study CS generally have no concept of radio... 5000km omnidirectional broadcasting, voice bitrate... If the Earth had this technology, we wouldn't need satellite phones..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "从常识来说如果传输距离 5000 公里那还需要电话干嘛....",
+          "en": "Common sense dictates that if the transmission distance is 5000 kilometers, what's the point of needing a phone...."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "确定 5000 公里？我国面积 9,600,000 平方公里。",
+          "en": "Are you sure about 5000 kilometers? The area of our country is 9,600,000 square kilometers."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "收音机是每个县城有中继吧",
+          "en": "Does each county town have a repeater for radio stations?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "链接发出来大家品品呗",
+          "en": "Share the link so everyone can take a look."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@pagxir 一个是面积，一个是距离。。。",
+          "en": "@pagxir One is area, the other is distance..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "内置卡吧",
+          "en": "It's probably a built-in card."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

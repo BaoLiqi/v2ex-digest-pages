@@ -1,0 +1,203 @@
+{
+  "id": 1015793,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "大家如何看待代码中的拼写错误？",
+          "en": "How do you view spelling errors in code?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "举几个例子我看见过的：\r\n\r\n红帽是 redhad ，乌班图是 ubutu ，  \r\n加密是 encript ，解密是 discrypt ，  \r\n前台是 forground ，后台进程是 damon 。  \r\n\r\n\r\n最初是项目里编译出 `lib/redhad/lib*.so`，这个 redhad 让我震惊了一整天。\r\n\r\n--------\r\n\r\n刚接触代码时，我是想去改掉的。但是了解到这个目录 N 年前就是这样了，而且也不清楚到底有多少依赖，便作罢。\r\n\r\n后来我也佛系了，毕竟不关我事，能跑就行。\r\n\r\n直到我某天写代码，要用到一个大写的常量 某 DEFALUT ，怎么看怎么怪，定睛一瞧还是拼错的。一搜发现有三十多处。\r\n\r\n--------\r\n\r\n如果是你，该怎么办？\r\n\r\n1. 全改掉\r\n2. 捏着鼻子继续用\r\n\r\n--------\r\n\r\n...我最终还是选择了 2 ，因为前者会让 git blame 全变成了我，而我并不想背这个锅...",
+          "en": "Here are a few examples I've seen:\r\n\r\nRed Hat is redhad, Ubuntu is ubutu,\r\nencryption is encript, decryption is discrypt,\r\nforeground is forground, background process is damon.\r\n\r\n\r\nInitially, the project compiled `lib/redhad/lib*.so`, and this redhad shocked me for a whole day.\r\n\r\n--------\r\n\r\nWhen I first started coding, I wanted to change it. But I learned that this directory had been like this for N years, and I didn't know how many dependencies there were, so I gave up.\r\n\r\nLater, I became Buddhist-like, after all, it's none of my business, as long as it can run.\r\n\r\nUntil one day I was writing code and needed to use a capital constant, some DEFALUT, no matter how I looked at it, it seemed strange, and when I looked closely, it was still misspelled. A search revealed more than thirty places.\r\n\r\n--------\r\n\r\nIf it were you, what would you do?\r\n\r\n1. Change all of them\r\n2. Keep using them with a pinch of the nose\r\n\r\n--------\r\n\r\n...I finally chose 2, because the former would make git blame all become me, and I didn't want to take the blame..."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@antipro Unix System Resource",
+          "en": "@antipro Unix System Resource"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@littlecreek 为啥我这么说呢? 因为一个工程师偶尔拼错正常, 谁都有不小心的时候, 但是经常拼错, 就说明了一点问题. 这种代码偶尔 merge 进主干, 可能他/她包括 reviewer 都没注意, 也没啥. 但是经常出现低级拼写错误 merge to master 没人提出异议, 说明整个团队都多少有点问题.",
+          "en": "@littlecreek Why do I say this? Because it's normal for an engineer to occasionally make spelling mistakes; everyone has times when they're not careful, but frequent misspellings indicate a problem. This kind of code might occasionally merge into the main branch, and perhaps he/she and the reviewer didn't notice, and that's fine. But if low-level spelling errors frequently appear and merge to master without anyone objecting, it means the whole team has a problem to some extent."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没什么办法，HTTP 头里面的 referer 都错了这么多年了",
+          "en": "There's nothing you can do, the referer in the HTTP header has been wrong for so many years"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果是我, 这种事多了我会跑路, 因为这一般说明同事的技术水平包括态度都不怎么样庆幸的是工作这么多年从来没接触过这么离谱的同事, 倒是在跟第三方对接的时候见识过其他公司的工程师有这样的情况, 并且验证了我上面看似武断不讲理的断言.",
+          "en": "If it were me, I'd leave if this happened often, because it generally shows that the technical skills and attitudes of colleagues are not so good. Fortunately, I've never encountered such absurd colleagues in all these years of work. However, when working with third parties, I have witnessed engineers from other companies having such situations, and it has verified my seemingly arbitrary and unreasonable assertion above."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我寻思这些人的 ide 不可能没波浪线啊，为什么他们就总是无视它",
+          "en": "I figure these people's IDEs must have wavy lines, why do they always ignore them"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "#define mian  main#define ture  true",
+          "en": "#define mian  main\n#define ture  true"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yanyao233 alt + enter -> save 'typo' to dictionary",
+          "en": "@yanyao233 alt + enter -> save 'typo' to dictionary"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这个就是不认真 不要洗什么学历什么的 不认真就是不认真 完全可以查了之后自己背一下的又不是考托福雅思 就这么几个单词",
+          "en": "This is just carelessness. Don't try to defend it by talking about education. Carelessness is just carelessness. You can totally look it up and memorize it. It's not like taking TOEFL or IELTS. It's just a few words."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉和使用非英文变量名（例如 xxglxt 之类的）一样是很不标准的做法",
+          "en": "It feels like the same non-standard practice as using non-English variable names (e.g., xxglxt, etc.)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "另一个角度：因为有 typo ，所以让更多人相对容易地成为了 contributor ，虽然这种 pr 有水分，但至少培养了兴趣、提高了参与度，对社区未来也是有好处的",
+          "en": "Another perspective: because there are typos, it makes it relatively easier for more people to become contributors. Although this kind of PR has some water content, it at least cultivates interest and improves participation, which is also good for the future of the community"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1.对于大头兵,纠结拼写没意义,因为不算产出2.对于 leader,纠结拼写没意义,因为结果导向3.对于个人开发者,纠结拼写没意思,因为成不成功全看你的点子4.对于开源专家,纠结拼写没意义,因为如果你的项目有人蹭 pr 会帮你改的总结:代码洁癖爱好者改,其他人不改",
+          "en": "1. For the rank-and-file, nitpicking about spelling is meaningless, because it's not considered output. 2. For leaders, nitpicking about spelling is meaningless, because it's results-oriented. 3. For individual developers, nitpicking about spelling is meaningless, because success depends entirely on your ideas. 4. For open-source experts, nitpicking about spelling is meaningless, because if someone piggybacks a PR on your project, they will help you correct it. In summary: code-cleanliness enthusiasts correct it, others don't."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哈哈哈我也老出这样的错……sorry",
+          "en": "Haha, I often make such mistakes too... sorry"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在对应 IDE 市场里面找找 code spell check 相关的插件，组会的时候委婉推荐团队装一下呗，或者相关人员平时关系好的话直接提醒下让他改了...",
+          "en": "Look for code spell check plugins in the corresponding IDE marketplace, and subtly recommend that the team install it during team meetings, or, if you have a good relationship with the relevant people, remind them directly to correct it..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "/usr 这个拼写不也是错误的吗？",
+          "en": "Isn't /usr misspelled either?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@naminokoe user system resource",
+          "en": "@naminokoe user system resource"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@antipro 好，然后 perl 或者 ruby 里面的 elsif 呢？",
+          "en": "@antipro Okay, and what about elsif in perl or ruby?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "装拼写检查插件，并在 CI 里警告错误拼写",
+          "en": "Install a spell check plugin and warn about spelling errors in CI"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "cspell 直接在 mr 的 ci 强卡点",
+          "en": "cspell directly enforces points in the MR's CI"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "说明工程师的学历都不高，建议跑路。",
+          "en": "This indicates that the engineers' education levels are not high, it is recommended to leave."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Fish1024 实际上并不是，我见过很多本科学历，写代码依然很多拼写错误，不知道是英语能力问题还是写代码的时候没上心。",
+          "en": "@Fish1024 Actually, that's not the case. I've seen many people with bachelor's degrees who still make many spelling mistakes when writing code. I don't know if it's an issue with their English proficiency or if they're not paying attention when writing code."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

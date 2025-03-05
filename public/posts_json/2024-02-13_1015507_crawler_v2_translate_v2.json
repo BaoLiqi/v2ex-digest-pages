@@ -1,0 +1,203 @@
+{
+  "id": 1015507,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "MySQL 两亿条数据的表用索引也要 1 秒才能查出结果，还有办法优化吗？",
+          "en": "MySQL with a table of 200 million records takes 1 second to retrieve results even with indexes. Are there any other optimization methods?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "",
+          "en": ""
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "贴表结构索引结构查询语句 explain 结果",
+          "en": "Post table structure, index structure, and query statement explain results"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "首先你需要看下数据库物理文件是存放在什么地方的. 是不是 NVME 盘.其次看下设置中 INNODB_BUFFER 设置的多少. 越多越好.还有发一下 mysql 版本.个人认为, MYSQL 的能力并不足以支撑单表 2GB 的数据量. 如果你确实有如此巨大规模的数据量, 建议换 MSSQLServer 或者 Oracle. 别想着什么加什么 ClickHouse, Doris...相比招一些一年要付 20W 年薪的开发比, 买一个数据库产品授权成本并不算高.",
+          "en": "First, you need to check where the database physical files are stored. Are they on an NVME drive? Secondly, check the INNODB_BUFFER setting. The more, the better. Also, what MySQL version are you using? In my opinion, MySQL's capabilities are not sufficient to support a single table with 2GB of data. If you really have such a huge amount of data, I suggest switching to MSSQLServer or Oracle. Don't think about adding ClickHouse, Doris... Compared to hiring developers with an annual salary of 200,000, the cost of purchasing a database product license is not that high."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 你 type IN (...) 少的时候，是不是能快些？若是，我猜是 MySQL 去匹配不同范围的次数太多了。如果你要的数据，都比较集中在最新添加的几天内，那么只使用一个范围，应该能提速很多。假设你的 record_id 越大，created_at 也越大。则可以：select record_id FROM qcs.records x WHERE `query` = \"DEMOQUERY1111\" ORDER BY record_id DESC;这会使用你的 record_query_IDX 索引。接着，你在程序内，一条条读取，直到 (1,2,4,7,2510,27442,440097,800022) 的 type 全部有数据为止。最后，再根据得到的 record_id 集合，去主表拿整行数据。",
+          "en": "@drymonfidelia Is it faster when your type IN (...) has fewer elements? If so, I guess MySQL is matching too many different ranges. If the data you need is concentrated within the latest few days, then using only one range should speed things up a lot. Assuming your record_id is larger, created_at is also larger. Then you can: select record_id FROM qcs.records x WHERE `query` = \"DEMOQUERY1111\" ORDER BY record_id DESC; This will use your record_query_IDX index. Then, read one by one in the program until all types in (1,2,4,7,2510,27442,440097,800022) have data. Finally, get the entire row data from the main table based on the obtained record_id set."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "加缓存？",
+          "en": "Add cache?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不行就分表吧，虽然会增加复杂性，但是速度会大大提升",
+          "en": "If that doesn't work, split the table. Although it will increase complexity, the speed will be greatly improved"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "- 硬盘升级，换 io 更快的- MySQL 同步到 OLAP 型数据库",
+          "en": "- Upgrade the hard drive, replace it with a faster IO one - Synchronize MySQL to an OLAP-type database"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@j1132888093 Column Name\t#\tData Type\tNot Null\tAuto Increment\tKey\tDefault\tExtra\tExpression\tCommentrecord_id\t1\tint(11)\ttrue\ttrue\tPRI\t[NULL]\tauto_increment\t\tquery\t2\tvarchar(20)\tfalse\tfalse\tMUL\t[NULL]\t\t\ttype\t3\tint(11)\tfalse\tfalse\tMUL\t[NULL]\t\t\tdata\t4\ttext\tfalse\tfalse\t[NULL]\t[NULL]\t\t\tcreated_at\t5\tdatetime\tfalse\tfalse\t[NULL]\tCURRENT_TIMESTAMP\t\t\tIndex Name\tColumn\tTable\tIndex Type\tAscending\tNullable\tUnique\tExtra\tCardinality\tCommentPRIMARY\trecorde_id\trecords\tBTree\t[NULL]\t[NULL]\ttrue\t[NULL]\t218924181\trecord_id_IDX\trecord_id\trecords\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t219268402\trecord_query_IDX\tquery\trecords\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t193121862\trecord_query_IDX2\tquery, type\trecord\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t211496542\trecord_type_IDX\ttype\trecords\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t15732\texplain select x.* FROM qcs.records x WHERE `query` = \"DEMOQUERY1111\" AND `type` in (1,2,4,7,2510,27442,440097,800022);|id |select_type|table|partitions|type |possible_keys                                     |key                     |key_len|ref|rows|filtered|Extra                ||---|-----------|-----|----------|-----|--------------------------------------------------|------------------------|-------|---|----|--------|---------------------||1  |SIMPLE     |x    |          |range|record_query_IDX,record_type_IDX,record_query_IDX2|record_query_IDX2       |68     |   |2   |100     |Using index condition|",
+          "en": "@j1132888093 Column Name\t#\tData Type\tNot Null\tAuto Increment\tKey\tDefault\tExtra\tExpression\tCommentrecord_id\t1\tint(11)\ttrue\ttrue\tPRI\t[NULL]\tauto_increment\t\tquery\t2\tvarchar(20)\tfalse\tfalse\tMUL\t[NULL]\t\t\ttype\t3\tint(11)\tfalse\tfalse\tMUL\t[NULL]\t\t\tdata\t4\ttext\tfalse\tfalse\t[NULL]\t[NULL]\t\t\tcreated_at\t5\tdatetime\tfalse\tfalse\t[NULL]\tCURRENT_TIMESTAMP\t\t\tIndex Name\tColumn\tTable\tIndex Type\tAscending\tNullable\tUnique\tExtra\tCardinality\tCommentPRIMARY\trecorde_id\trecords\tBTree\t[NULL]\t[NULL]\ttrue\t[NULL]\t218924181\trecord_id_IDX\trecord_id\trecords\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t219268402\trecord_query_IDX\tquery\trecords\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t193121862\trecord_query_IDX2\tquery, type\trecord\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t211496542\trecord_type_IDX\ttype\trecords\tBTree\t[NULL]\t[NULL]\tfalse\t[NULL]\t15732\texplain select x.* FROM qcs.records x WHERE `query` = \"DEMOQUERY1111\" AND `type` in (1,2,4,7,2510,27442,440097,800022);|id |select_type|table|partitions|type |possible_keys |key |key_len|ref|rows|filtered|Extra |1 SIMPLE x range record_query_IDX,record_type_IDX,record_query_IDX2 record_query_IDX2 68 2 100 Using index condition"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 每个 query 对应 1~10 条数据，只需要按 type 优先级查出一条数据，如果同 type 有超过一条则需要最新的一条，之前的做法是一个个 type 执行查询，直到查到一条返回，优化成了现在这种，还是很慢，有的查询最慢要十几秒",
+          "en": "@drymonfidelia Each query corresponds to 1~10 pieces of data. Only one piece of data needs to be found based on the type priority. If there are more than one of the same type, the latest one is needed. The previous method was to execute queries one type at a time until one was found and returned. It has been optimized into the current method, but it's still slow, and some queries take more than ten seconds."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 因为优先级高的 type 有数据的概率更大，综合看现在这种查法有的查询比以前更慢了",
+          "en": "@drymonfidelia Because high-priority types are more likely to have data, overall, this method is slower than before for some queries."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "每个 query 在哪几个 type 有可能有数据能在查询前知道，所以不需要查全部的 type ，每次需要查询的 type 在 1~7 个之间（ 90%以上的情况在 1~4 个），部分 type 有数据的概率更大，需要平均总查询时间、最大总查询时间尽可能短",
+          "en": "You can know which types each query might have data before querying, so you don't need to query all types. The number of types to query each time is between 1~7 (more than 90% of the time it's 1~4). Some types are more likely to have data. The goal is to minimize the average total query time and the maximum total query time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个字：拆。如果嫌麻烦，先试试看分区表？数据库层面就能很快测试。如果试了，麻烦给个反馈。",
+          "en": "One word: split. If you think it's troublesome, try partition tables first? You can quickly test this at the database level. If you try it, please give feedback."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果服务只是查询的话，可以试试 clickhouse 或者 doris 。",
+          "en": "If the service is only for querying, you can try ClickHouse or Doris."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你看你索引用对了么",
+          "en": "Are you using the right indexes?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "试试  分布式数据库",
+          "en": "Try a distributed database"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果实时性要求不高，换 clickhouse 吧",
+          "en": "If the real-time requirement is not high, switch to ClickHouse."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你是指单表吗？如果是单表 2 亿条也太多了吧，要分表，当然也可以试试分区",
+          "en": "Are you referring to a single table? If it's a single table with 200 million records, that's too much. You need to split the table. Of course, you can also try partitioning."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "性能瓶颈了吧，总共才扫了 68 行，这还慢的话，那就是回表查询了吧",
+          "en": "It's a performance bottleneck. Only 68 rows were scanned in total. If it's still slow, then it's likely a back-to-table query."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "先试试把  select x.* FROM 改成 select `query`, `type` FROM 。感觉是单条记录比较大 (data text 可能有 65535 字节长)读盘慢了。",
+          "en": "First try changing select x.* FROM to select `query`, `type` FROM. It feels like a single record is relatively large (data text may be 65535 bytes long), which makes disk reading slow."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "性能明显不正常。这表是不是已经用了 mysql 的分区功能，区区 2 亿数据完全不用分区，分得不好性能反而大降。",
+          "en": "The performance is obviously abnormal. Has this table already used MySQL's partitioning feature? There's no need to partition 200 million records at all, and if you partition it poorly, the performance will decrease instead."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "mysql 机器内存多少啊？如果索引不能充分放到内存里性能也不行，所以索引用不到的就别留了，query 字段离散度高的话可以考虑索引只建前部分字符可以减小索引大小，除了考虑索引扫描行数索引相对内存大小也是要考虑的",
+          "en": "How much memory does the MySQL machine have? If the index cannot be fully loaded into memory, the performance will also be poor. So don't keep indexes that are not used. If the query field has high dispersion, you can consider building the index only on the first part of the characters to reduce the index size. In addition to considering the number of rows scanned by the index, the index size relative to the memory size also needs to be considered."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 1015550,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "亲测可行：亚马逊 S3 挂到本地当私有网盘使用",
+          "en": "Tested and feasible: Amazon S3 mounted locally as a private cloud drive"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "搞了一下，还不错，价格实惠。\r\n存储便宜，但是操作也要收费。\r\n适合用来放长期备份的数据。\r\n配置全过程写了篇小文章：\r\nhttps://aws.plainenglish.io/i-am-using-amazon-s3-as-a-private-cloud-drive-90b3d8493080?sk=74af49ffc7f8786b793c17ad7f118740",
+          "en": "I tried it out, it's not bad, and the price is affordable.\r\nStorage is cheap, but operations are also charged.\r\nSuitable for long-term backup data.\r\nA small article has been written about the entire configuration process:\r\nhttps://aws.plainenglish.io/i-am-using-amazon-s3-as-a-private-cloud-drive-90b3d8493080?sk=74af49ffc7f8786b793c17ad7f118740"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "完全可行, 只是你看看 1TB s3 一年的费用就知道要不要用了.",
+          "en": "Perfectly feasible, but just look at the annual cost of 1TB S3 and you'll know whether to use it or not."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以深入介绍一下速度 价格各方面的吗",
+          "en": "Can you give a more in-depth introduction to the speed and price aspects?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@pastel 按容量算 Dropbox 更便宜，你要是能用满 Dropbox 会更便宜。但大多数人买 2T 套餐用不到 2T ，比如 Dropbox 比 2T 更低的套餐就是免费的 2GB ，很多人可能 2T 套餐只用了不到 100G ；但 AWS 是完全按量计费，100GB 就比 2T 便宜 20 倍。此外就算 Dropbox 用满，它们也可以根据访问频率优化存储结构来省钱。",
+          "en": "@pastel Dropbox is cheaper in terms of capacity; if you can fill up Dropbox, it will be even cheaper. But most people who buy a 2T plan don't use 2T, for example, Dropbox's plan lower than 2T is a free 2GB, and many people may only use less than 100GB of the 2T plan; but AWS is fully pay-as-you-go, and 100GB is 20 times cheaper than 2T. In addition, even if Dropbox is full, they can also optimize the storage structure according to the access frequency to save money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实挺贵的，不如你直接买 apple 或者谷歌或者微软的云服务其实 dropbox 也很便宜",
+          "en": "Actually, it's quite expensive. It's better to buy cloud services directly from Apple, Google, or Microsoft; Dropbox is also very cheap."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HaroldFinchNYC dropbox 价格怎样的？",
+          "en": "@HaroldFinchNYC What's the price of Dropbox?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HaroldFinchNYC #3 Dropbox 之前就是 run 在 aws 上的，不知道怎么赚钱的，后来迁移走了。",
+          "en": "@HaroldFinchNYC #3 Dropbox used to run on AWS; I don't know how they made money and then they migrated away."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Coderlan 速度和其他网盘差不多，价格看官网的表（ https://aws.amazon.com/s3/pricing/ ），不同地区，不同 plan 不一样，离自己越近的区域速度越快，新开的号应该有免费额度（不一定）。其实其他厂商的对象存储也也可实现，比如腾讯/阿里云的。",
+          "en": "@Coderlan The speed is similar to other cloud drives. Check the price table on the official website (https://aws.amazon.com/s3/pricing/). Different regions and different plans vary. The closer the region is to you, the faster the speed. New accounts should have a free quota (not necessarily). In fact, object storage from other vendors can also be implemented, such as Tencent/Alibaba Cloud."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "DigitalOcean 也有和 S3 兼容的 API",
+          "en": "DigitalOcean also has an S3-compatible API"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当然可行，但是价格。。。",
+          "en": "Of course, it's feasible, but the price..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "价格有点承受不住",
+          "en": "The price is a bit unaffordable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就是速度感人",
+          "en": "The speed is touching."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很有精神！小心一个不注意因为请求数和流量费把房子送给 AWSs3 兼容的对象存储应该都行吧，CF 的免费 15G 放点小东西还算凑合，真要用可以 rclone 挂载 Onedrive/GDrive 各类网盘，性价比更高",
+          "en": "Very spirited! Be careful, if you're not careful, you'll give your house to AWS due to the number of requests and traffic fees. S3-compatible object storage should work. CF's free 15G is acceptable for small things. If you really want to use it, you can rclone to mount OneDrive/GDrive and other cloud drives, which is more cost-effective."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自用没人会用 s3 。便宜？ b2 存储便宜几倍，r2 流量不要钱。各种网盘，1TB 报价，想找出每月 10 美元以上的都有点难。",
+          "en": "No one will use S3 for personal use. Cheap? B2 storage is several times cheaper, and R2 has free traffic. Various cloud drives, 1TB quoted price, it's a little difficult to find anything over $10 per month."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "反向省钱",
+          "en": "Reverse saving"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你有这钱真还不如开个百度网盘了。。",
+          "en": "If you have this money, it's really better to open a Baidu cloud drive..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "网盘随便请求多少，只要容量没超、流量合理，就没有额外成本。但对象存储就是个未知数了……",
+          "en": "No matter how many requests the cloud drive receives, as long as the capacity is not exceeded and the traffic is reasonable, there will be no extra cost. But object storage is an unknown..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然但是，更建议用 rclone 挂载 OneDrive ，毕竟 OneDrive 的流量不要钱",
+          "en": "Although but, it is more recommended to use rclone to mount OneDrive, after all, OneDrive's traffic is free"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我这试图说个公道话, S3 确实贵, 一般适用于对价钱不敏感的商用领域, 但 S3 在 存储/网盘  领域的一些关键指标上是非常高的.Durability 数据持久性 是 99.999999999% ,   11 个 9;Availability 系统可用性 standard S3 是 99.99%, 4 个 9;这 11 个 9 代表了非常非常高的数据可靠性,  是 11 个百度网盘加一起也不能比的. 不同 S3 标准的差价仅仅只在 系统可用性 上. 有时候, 非常重要的个人资料存在上面也是 合适的, 更何况还可以方便的加密.你的重要资料一旦保存到 S3 上, 可能放到地球毁灭, 你的资料还在那 [只要你的信用卡能一直撑到那会]",
+          "en": "I'm trying to be fair here. S3 is indeed expensive and generally suitable for commercial fields that are not sensitive to price. But S3 is very high on some key indicators in the storage/cloud drive field. Durability of data is 99.999999999%, 11 nines; Availability of the system is 99.99%, 4 nines; These 11 nines represent very, very high data reliability, which 11 Baidu cloud drives cannot match combined. The price difference between different S3 standards is only in the availability of the system. Sometimes, it is also appropriate to store very important personal data on it, not to mention that it can be easily encrypted. Once your important data is saved on S3, it may still be there even after the Earth is destroyed [as long as your credit card can last until then]"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "楼主文章写的很好 !",
+          "en": "The author wrote the article very well!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "S3 个人用真的太贵了，价格一丁丁点也不实惠，即便是最便宜的一档 Glacier 都很离谱。排除掉纯个人网盘（ Dropbox ，百度之类）个人用我自己用的是 Blackblaze ，之前用 wasabi ，但是 Blackblaze 改了收费策略以后更便宜了，特别是出站可以走 cloudflare 免去流量费（默认是三倍存储的流量）。",
+          "en": "S3 is really too expensive for personal use, the price is not at all affordable, even the cheapest Glacier is ridiculous. Excluding pure personal cloud drives (Dropbox, Baidu, etc.), I personally use Blackblaze; I used wasabi before, but Blackblaze is cheaper after changing the charging strategy, especially because outbound traffic can go through cloudflare to avoid traffic fees (the default is three times the storage traffic)."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

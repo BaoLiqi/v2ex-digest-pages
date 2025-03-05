@@ -1,0 +1,203 @@
+{
+  "id": 1015283,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "请教下网线水晶头线序该怎么接？",
+          "en": "I'd like to ask how to connect the network cable crystal head wire sequence?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "装修公司做的网线模块是这样接的，好像不是常见的 T568A/B 线序：\r\n https://i.imgur.com/mYDtpYq.jpeg\r\n\r\n 弱电箱的那一头装修公司没做水晶头，买了个网线钳想着自己压水晶头。想问下应该按怎样的线序压呢？",
+          "en": "The wiring module made by the decoration company is connected like this, it doesn't seem to be the common T568A/B wire sequence:\r\n https://i.imgur.com/mYDtpYq.jpeg\r\n\r\nThe decoration company didn't make the crystal head on the other end of the weak current box, I bought a crimping tool and wanted to crimp the crystal head myself. I'd like to ask, which wire sequence should I use?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "模块线序和水晶头不一样，都会标示出来的，比如你图里 AB 那两列，这个模块接的没问题，就是 T568B 。",
+          "en": "The module wire sequence and the crystal head are different, and they will all be marked. For example, the AB columns in your picture, this module is connected correctly, it is T568B."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mzname 因为模块内部走线是有讲究的，需要抗干扰，不是拿铜线直通就行，各家模块走线设计的不一样所以线序也不一样。",
+          "en": "@mzname Because the internal wiring of the module is particular, it needs to be anti-interference, it's not just a direct connection with copper wires. The wiring designs of each module are different, so the wire sequence is also different."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://img.gdsz.net/i/2024/02/11/12k3ggd.jpgT-568B ，按图接",
+          "en": "https://img.gdsz.net/i/2024/02/11/12k3ggd.jpgT-568B, connect according to the picture"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@bao3 闪烁其词，回避实质问题",
+          "en": "@bao3 Evasive and avoiding the substantive issue"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Tumblr 哦哦，水晶头应该按照标准的 T568B 接对嘛？",
+          "en": "@Tumblr Oh, so the crystal head should be connected according to the standard T568B, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一般都是 B ，图中没错",
+          "en": "Usually it's B, the picture is correct"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lyizhuo 对模块按照模块它自己标的颜色打，线序模块自己会调整，不要画蛇添足。网线内四对线序是按顺序顺时针排的，所以水晶头打 B 类线序最轻松，像超六类这种，想打得标准只能打 b 类线序，我试过 a 类就几乎不可能。实测 12 、36 、45 、78 四对颜色成对互换位置，同色两根线位置互换，实测完全不影响使用，不影响网速，没有额外的干扰，不需要重打。如果不是成对互换，不同颜色间打乱，严重影响网速。",
+          "en": "@lyizhuo Connect the module according to the colors marked on the module itself, the wire sequence will be adjusted by the module itself, don't overdo it. The four pairs of wires inside the network cable are arranged clockwise in sequence, so it's easiest to crimp the crystal head with the B type wire sequence. For cables like Cat6a, you can only crimp with the b type wire sequence if you want to do it correctly, I have tried a type and it's almost impossible. The actual measurement shows that swapping the positions of the four pairs of colors 12, 36, 45, and 78, swapping the positions of two wires of the same color, does not affect the use at all, does not affect the network speed, and there is no additional interference, so there is no need to recrimp. If they are not swapped in pairs and the different colors are mixed up, it will seriously affect the network speed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "接的没错，就是 568b ，你网线也按照标准的网线 568b 接就可以了，不过补充一句，这装修公司给你接的，褪绞有点严重",
+          "en": "It’s connected correctly, it’s 568b, you can also connect your network cable according to the standard 568b, but to add one thing, the way this decoration company connected it have some issues"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我一开始照着模块这个线序打了水晶头😭看来只能剪掉重新做了",
+          "en": "I followed the module's wire sequence to crimp the crystal head at first 😭 it seems like I can only cut it off and redo it"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@txydhr 我一开始照着模块的这个线序压了水晶头😭看来只能剪掉重新做了",
+          "en": "@txydhr I followed the module's wire sequence to crimp the crystal head at first 😭 it seems like I can only cut it off and redo it"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "线序错了不一定不能用，有些线本来就不用接，必须接的线路由器发现错误会自动翻转。",
+          "en": "Incorrect wire sequence doesn't necessarily mean it can't be used, some wires don't need to be connected in the first place, and the router will automatically reverse the wires that must be connected if there are any errors."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "直通线两端都是 B 线序，交叉线一端是 A 线序，一端是 B 线序",
+          "en": "Straight-through cables have B wire sequence on both ends, crossover cables have A wire sequence on one end and B wire sequence on the other end"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "模块上已经标了 B 类顺序   按那个顺序打就行了，不要按水晶头的打法来打模块",
+          "en": "The module has already marked the B type sequence, just follow that sequence and crimp, don't follow the crystal head's method to crimp the module"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "血的教训，前几天发现网线面板和水晶头的顺序差得特别大，按照着水晶头的顺序打网线，正反打都不行[苦涩]后来想着试了下按照面板上的顺序打（和楼主你的图一样）秒通看了楼上才明白，面板和水晶头原来就是差这么多有没有大佬能解释下为什么呀😂",
+          "en": "A bloody lesson: a few days ago, I found that the order of the network cable panel and the crystal head was very different. I followed the crystal head's order to crimp the network cable, but it didn't work in either direction [bitter]. Later I thought about trying to crimp according to the order on the panel (the same as the picture of the OP), and it worked instantly. After reading the above comments, I finally understood that the panel and the crystal head were indeed that different. Can any expert explain why?😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "模块怎么标你就怎么接，模块内部的走线不一定是你想象的样子",
+          "en": "Connect it according to how the module is labeled, the internal wiring of the module is not necessarily what you imagine"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lyizhuo 其实不用，不信你试试，只是线对内反了，不影响使用。",
+          "en": "@lyizhuo Actually you don't need to, try it, it's just that the wire pairs are reversed internally, it doesn't affect usage."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@txydhr 我等下把光纤接上试试，不行再剪弱电箱里露出的线已经被我剪得差不多了😂",
+          "en": "@txydhr I will try connecting the fiber optic cable later, if it doesn't work, I will cut the exposed wires in the weak current box, which I have almost cut off 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也是前不久才知道模块的线序都是乱的",
+          "en": "I also recently learned that the wire sequences of the modules are all messed up"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该说颜色仅仅为了让人能区别出来，实际上线序只要两头能对上就行了。所以有可能线序是对的，颜色使用了安装人员自己习惯的",
+          "en": "It should be said that the colors are only for people to distinguish, in fact, as long as the wire sequences match on both ends. So it is possible that the wire sequence is correct, and the colors used are the installer's own habits"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@bao3 张口就来",
+          "en": "@bao3 You are just talking nonsense"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

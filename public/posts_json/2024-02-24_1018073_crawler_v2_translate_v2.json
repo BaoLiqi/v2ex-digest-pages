@@ -1,0 +1,255 @@
+{
+  "id": 1018073,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "分享神级去除 IOS 应用开屏广告的方法",
+          "en": "Share the god-tier method to remove iOS app splash screen ads"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "之前在 v2 搜索去开屏广告, 大多都是通过小火箭或 surge 对广告域名或接口进行屏蔽, 但规则不能覆盖全部互联网 APP, 今天刷小红书发现可以通过快捷指令打开 url schema 跳转的方式来屏蔽广告.",
+          "en": "Previously, searching on v2 for removing splash screen ads mostly involved blocking ad domains or interfaces using Shadowrocket or Surge, but the rules couldn't cover all internet apps. Today, while browsing Xiaohongshu, I found that ads can be blocked by opening url schema jumps through shortcut commands."
+        },
+        {
+          "zh": "这是模拟从其他地方跳转进 APP ，不少 APP 为了更好的体验，此时不会展示开屏广告, 使用步骤:",
+          "en": "This simulates jumping into the app from other places. Many apps, for a better experience, will not display splash screen ads at this time. The steps are:"
+        },
+        {
+          "zh": "1. 新建快捷指令: 添加操作->搜索\"打开 url\"",
+          "en": "1. Create a new shortcut: Add action -> search \"Open url\""
+        },
+        {
+          "zh": "![]( https://i.v2ex.co/27Ju3J89.jpeg)",
+          "en": "![]( https://i.v2ex.co/27Ju3J89.jpeg)"
+        },
+        {
+          "zh": "2. 输入应用的 url schema, 例如 bilibili://, 点击最下方的感叹号, 选择添加到主屏幕",
+          "en": "2. Enter the app's url schema, such as bilibili://, click the exclamation mark at the bottom, and select Add to Home Screen"
+        },
+        {
+          "zh": "![]( https://i.v2ex.co/9gBqNrEs.jpeg)",
+          "en": "![]( https://i.v2ex.co/9gBqNrEs.jpeg)"
+        },
+        {
+          "zh": "bilibili 设置后，不仅可以去开屏广告，还能加快启动速度，因为 bilibili 在启动时会故意延迟进入显示开屏画面😅，估计是在展示开屏画面的期间加载广告.",
+          "en": "After setting up bilibili, not only can you remove splash screen ads, but also speed up the startup time because bilibili deliberately delays entry to display the splash screen😅, probably loading ads during the display of the splash screen."
+        },
+        {
+          "zh": "应用的 url schema 需要自己去找, 或者自己对安装包解包去获取, 我目前用的几个:",
+          "en": "You need to find the app's url schema yourself, or decompress the installation package to obtain it. Here are a few I'm currently using:"
+        },
+        {
+          "zh": "- 小红书: xhsdiscover://home/",
+          "en": "- Xiaohongshu: xhsdiscover://home/"
+        },
+        {
+          "zh": "- 招商银行: cmbmobilebank://",
+          "en": "- China Merchants Bank: cmbmobilebank://"
+        },
+        {
+          "zh": "- 京东读书: openapp.jdreader://",
+          "en": "- JD Reading: openapp.jdreader://"
+        },
+        {
+          "zh": "- 携程: CtripWireless://",
+          "en": "- Ctrip: CtripWireless://"
+        },
+        {
+          "zh": "- 一些合集: https://gist.github.com/zhuziyi1989/3f96a73c45a87778b560e44cb551ebd2",
+          "en": "- Some collections: https://gist.github.com/zhuziyi1989/3f96a73c45a87778b560e44cb551ebd2"
+        },
+        {
+          "zh": "添加到主屏幕可自己配置图标, 建议在[Google Play]( https://play.google.com/store/apps?hl=zh_CN&gl=US)(无牛皮癣图标)上搜索对应的 app, 然后保存其图标",
+          "en": "You can configure the icon when adding it to the home screen. It is recommended to search for the corresponding app on [Google Play]( https://play.google.com/store/apps?hl=zh_CN&gl=US) (without those annoying icons) and then save its icon"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哈哈哈，开屏广告跳转用的就是 url schema ，然后  url schema 跳转就不会再开启开屏广告，所以解决开屏广告的一个办法就是 用开屏广告跳转的方案：url schema 去解决开屏广告。 url schema 本来是一个很好的调起第三方 app 的方式，结果被广告玩烂了，现在又被用来解决 开屏广告。你这个神级方法很早就有人分享过了只能说是谁杀了我，而我又杀了谁？是我( url schema )",
+          "en": "Haha, splash screen ad jumps use url schema, and then the url schema jump will no longer start the splash screen ad, so one way to solve the splash screen ad is to use the splash screen ad jump solution: url schema to solve the splash screen ad. The url schema was originally a very good way to launch third-party apps, but it was ruined by ads, and now it's being used to solve splash screen ads. This god-tier method was shared a long time ago. It can only be said who killed me, and who did I kill? It's me (url schema)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "谢谢 lz 分享技巧，别搭理那些带来负面情绪的肛镜 id",
+          "en": "Thanks to the OP for sharing the technique; don't pay attention to those IDs that bring negative emotions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我搜 v2 也有分享这种方法的帖子, 但热度不高, 对你有用的话顶顶帖子, 让更多人看到💕",
+          "en": "I searched v2 and found posts sharing this method as well, but they weren't very popular. If it's helpful to you, upvote the post so that more people can see it 💕"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Free3 网上搜它的 ipa ，或者自己想办法抓包下载到 ipa （网上应该有教程），解压后看 Info.plist 文件",
+          "en": "@Free3 Search for its IPA online, or try to capture network traffic to download the IPA (there should be tutorials online), decompress it, and then look at the Info.plist file"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NnMmOo 耗费 10 分钟，为你未来的每一天每天减少 5 秒广告时间，何乐而不为😏？",
+          "en": "@NnMmOo Spend 10 minutes and reduce your future ad time by 5 seconds every day. Why not 😏?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@weijancc 不也有不能屏蔽的吗，那你这方法既不全面又不方面，可能还有隐私安全问题，这么烂的方法为什么要用？别用恶心的商业宣传方式在那评论",
+          "en": "@weijancc Aren't there some that can't be blocked? Then this method is neither comprehensive nor convenient, and there may be privacy and security issues. Why use such a bad method? Don't use disgusting commercial promotion methods to comment there"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NnMmOo 如果所有 app 都能屏蔽，那就不是 5 秒了。你戾气也太重了，生活很不顺？我可不是导致你生活糟糕的人😅",
+          "en": "@NnMmOo If all apps could be blocked, it wouldn't be 5 seconds. You're being too aggressive. Is your life not going well? I'm not the reason your life is terrible😅"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "非常好，既可以跳过广告，提高启动速度，又可以不看这些 APP 的牛皮癣图标，就是灵动岛会动一下，还有完善的空间",
+          "en": "Very good. You can skip ads, improve the startup speed, and not see the annoying icons of these apps. The Dynamic Island will move a bit, and there is room for improvement."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "得力 e+ smartoffice:// 。但是对广告无效",
+          "en": "Deli e+ smartoffice://. However, it's not effective for ads"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "牛哇老哥！",
+          "en": "Awesome bro!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "好方法，帮顶一个",
+          "en": "Good method, upvoted"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@chen88ijn 不对还是有广告.",
+          "en": "@chen88ijn Still has ads, unfortunately."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "牛逼啊卧槽顺便微博的 urlscheme 是 sinaweibo://",
+          "en": "Awesome, by the way, Weibo's url scheme is sinaweibo://"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@chen88ijn 不是全部应用都会取消广告",
+          "en": "@chen88ijn Not all apps will remove the ads"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "牛",
+          "en": "Awesome"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@54xavier 哈哈, 因为之前在 v2 搜索, 大伙都是说用代理软件分流, 但规则还是不太全😥",
+          "en": "@54xavier Haha, because I searched on v2 before, everyone suggested using proxy software to divert traffic, but the rules are still not quite comprehensive 😥"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对同花顺 APP 无效",
+          "en": "Ineffective for the Tonghuashun APP"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@chiaf #5 微博貌似这种方式打开依然还是有开屏广告。。。",
+          "en": "@chiaf #5 Weibo still seems to have splash screen ads even when opened this way..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "apps：好好好，外投渠道马上加参数判断弹广告🐶",
+          "en": "apps: Okay, okay, they'll add parameters to external channels immediately to judge and pop up ads 🐶"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "🐂🐂🐂",
+          "en": "🐂🐂🐂"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

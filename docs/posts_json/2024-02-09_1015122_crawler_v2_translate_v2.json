@@ -1,0 +1,203 @@
+{
+  "id": 1015122,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "数据库等服务，到底要不要容器化？体验下来，各自真正的优劣是什么？",
+          "en": "Should database and other services be containerized? What are the real advantages and disadvantages of each based on experience?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一直模糊记得不推荐数据库这类服务放到容器中，但现在好像很多基于 K8s 的数据库产品和服务。\r\n\r\n线上没有用过基于 K8s 部署的 mysql 服务，更多还是用自有的机器搭建&外加一部分腾讯云 CDB ，阿里云 RDS 等。\r\n\r\n容器化数据库服务，究竟解决了什么痛点？又带了什么问题？目前大家接触到的服务都是怎么样的？",
+          "en": "I vaguely remember that it's not recommended to put database services in containers, but now it seems that there are many database products and services based on K8s.\r\n\r\nI haven't used mysql services deployed based on K8s online; I mostly use my own machines for setup & plus some Tencent Cloud CDB, Alibaba Cloud RDS, etc.\r\n\r\nWhat pain points does containerized database service actually solve? What problems does it bring? What kind of services are people currently exposed to?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "",
+          "en": ""
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人感觉把数据库这种重 IO 高稳定性需求的服务塞到 K8s 里面不是啥好主意,`很多基于 K8s 的数据库产品和服务` 很可能只是对稳定性和性能没有那么高,图方便舍弃稳定性的产物. 这里冯若航有一篇文章,也持有相似的观点. https://mp.weixin.qq.com/s/4a8Qy4O80xqsnytC4l9lRg 挺有意思的是,他发出这篇文章后,Sealos 也发了篇持相反观点的文章来\"迎战\":https://mp.weixin.qq.com/s/IDsF_f7ZnB19jEu8ZtO-Nw .但是遗憾的是,这篇文章通篇充斥着对自家产品的吹嘘,而对上文抛出的观点给不出实质性的反驳[like:\"K8s 的稳定性问题?我们由专业的 xxx 团队提供支持,我们的稳定性已经远超许多非专业团队的运维水平(此处没有任何数据)\"].反正看完这篇文章,我更坚持冯若航的观点了🤣.",
+          "en": "I personally feel that putting database services, which have high IO and stability requirements, into K8s is not a good idea. `Many database products and services based on K8s` may just not have very high stability and performance, and are products that sacrifice stability for convenience. Here is an article by Feng Ruohang that also holds a similar view. https://mp.weixin.qq.com/s/4a8Qy4O80xqsnytC4l9lRg It's interesting that after he published this article, Sealos also published an article with the opposite view to \"fight back\": https://mp.weixin.qq.com/s/IDsF_f7ZnB19jEu8ZtO-Nw. But unfortunately, this article is full of boasting about its own products and cannot provide any substantial rebuttal to the viewpoints raised in the previous article [like: \"K8s's stability issues? We are supported by a professional xxx team, and our stability has far surpassed the operation and maintenance level of many non-professional teams (no data here)\"]. Anyway, after reading this article, I am even more convinced of Feng Ruohang's point of view 🤣."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有状态服务适不适合进 k8s ，很重要一个选择因素是 k8s 上的远程存储。云上 ebs 具有的几个特性，高性能、三副本、io burst 、attach 、deattach 等。这些特性，依赖硬件投入，如高性能网络 RDMA ，在自建 IDC 情况下不一定具备。所以，自建 IDC 下的 k8s 和云上是有一些不同的，难度和挑战会更大。云上，云厂商供应有状态服务的云实例，背后已经转向 k8s 化，这个方向已经发生，争议不大的。自建 IDC 场景，有更高的难度，不过 TiDB 针对 IDC 场景也给出了解法 TiDB Operator ，依赖本地磁盘 LPV ，而非远程存储。LPV 有易失性，TiKV 内置三副本特性，正好补充这块的不足。类似的还有 Kafka 的多副本机制。但对于其它不具备三副本的基础服务，进 k8s 没那么容易了，必须面临两难选择：本地磁盘 需要自己解决多副本问题；远程磁盘 性能不高，将有很大的性能损耗。靠远程存储自身来解决这个性能问题，看起来非常难跨越。",
+          "en": "Whether a stateful service is suitable for k8s, an important selection factor is the remote storage on k8s. The cloud EBS has several characteristics, such as high performance, three replicas, IO burst, attach, detach, etc. These characteristics depend on hardware investment, such as high-performance network RDMA, which may not be available in a self-built IDC. Therefore, there are some differences between k8s under a self-built IDC and on the cloud, and the difficulty and challenge will be greater. On the cloud, cloud vendors provide cloud instances of stateful services, and the backend has turned to k8s, this direction has occurred, and there is not much controversy. Self-built IDC scenarios have higher difficulty, but TiDB also provides a solution for IDC scenarios TiDB Operator, which relies on local disk LPV, rather than remote storage. LPV is volatile, and TiKV has built-in three-replica features, which just make up for this shortcoming. Similar to this is Kafka's multi-replica mechanism. But for other basic services that do not have three replicas, it is not so easy to enter k8s, and they must face a dilemma: local disks need to solve the multi-replica problem by themselves; remote disks have low performance and will have a large performance loss. It seems very difficult to overcome this performance issue by relying on remote storage itself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没有必要，本来只需要维护一个数据库，现在有加了个容器，操作系统、网络存储都要非常了解，要不崩了 hold 不住",
+          "en": "It's not necessary. Originally, you only needed to maintain a database, now you have added a container, and you need to know a lot about operating systems and network storage, or you won't be able to hold it if it crashes."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1 楼的两篇文章也看过，下面这个链接是我最近看到的，里面至少有几种容器化方案和压测的数据。但我并不擅长这方面，只能贴出来和大家一起分享下。https://www.infoq.cn/article/Sh2TJYW1dKI4ZqpakUJJ?utm_campaign=geek_search&utm_content=geek_search&utm_medium=geek_search&utm_source=geek_search&utm_term=geek_search",
+          "en": "I've also read the two articles on the first floor. The following link is what I saw recently, and it contains at least several containerization solutions and pressure test data. But I am not good at this aspect, I can only post it and share it with everyone. https://www.infoq.cn/article/Sh2TJYW1dKI4ZqpakUJJ?utm_campaign=geek_search&utm_content=geek_search&utm_medium=geek_search&utm_source=geek_search&utm_term=geek_search"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "容器化的好处是维护时方便迅速低成本管理服务实例，新增删除节点，谁敢没事儿随便增删数据库节点，",
+          "en": "The advantage of containerization is that it is convenient and quick to maintain and manage service instances at a low cost, adding and deleting nodes. Who dares to add and delete database nodes casually without anything to do?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "性能是一方面    离散的数据库 是一个痛苦",
+          "en": "Performance is one aspect. A discrete database is a pain."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "分布式数据库，可以没事扩容缩容，也能自动容错啥的，才比较适合 k8s 吧",
+          "en": "Distributed databases, which can be scaled up and down without problems, and can also automatically fault-tolerant, are more suitable for k8s, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "历史上工业革命出现的时候一些人也是认为马车还是比蒸汽机车好，后来就不用说了吧。现在都有数据库容器化弹性伸缩的云服务并对外提供， 并且还是支持分库分表的，试用一下 plantscale 吧， 基于云原生 vitess 的 mysql 国内创业团体做的 kubeblocks 也可以看看",
+          "en": "In history, when the industrial revolution appeared, some people also thought that horse-drawn carriages were still better than steam locomotives, and the rest is history. Now there are cloud services with containerized elastic scaling for databases and they are provided to the outside, and they also support sharding. Try plantscale, and you can also take a look at kubeblocks, which is made by a domestic startup team based on cloud-native vitess of mysql."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "物理机房上就没法容器化，好点的数据库都需要用 ROCE 光口直连存储设备",
+          "en": "Containerization is not possible on physical machine rooms; good databases all need ROCE optical port direct connection storage devices."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不需要,  容器留给有需要的人吧.",
+          "en": "No need, leave the containers to those who need them."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我赞同 DB 这种**传统**状态化的应用无法直接通过容器现有的服务方便的进行扩展，并且我也不认为未来能够解决这一点。但是在裸机上扩容就容易了吗？另外一方面，新型的分布式存储/数据库也越来越多。我自己目前还是更倾向于将数据库放入容器中，更多的是为了简化环境部署的要求。如果你的产品有部署去不同环境的需求（例如 to B/G 需要部署去用户的自有机房），容器化会极大地降低部署的成本。但如果是你自有+裸金属的环境，容器化可能并不会带来很多收益。",
+          "en": "I agree that **traditional** stateful applications like DB cannot be easily expanded through existing container services, and I don't think this can be solved in the future. But is it easy to expand on bare metal? On the other hand, new distributed storage/databases are also increasing. I myself still prefer to put the database into containers, more to simplify the requirements of environment deployment. If your product has the need to deploy to different environments (for example, to B/G needs to be deployed to the user's own machine room), containerization will greatly reduce the deployment cost. But if it is your own + bare metal environment, containerization may not bring much benefit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "交付方面来说更加简单和方便，只是维护起来会比较心累。。",
+          "en": "In terms of delivery, it is simpler and more convenient, but it will be more tiring to maintain."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "share nothing 架构不适合 k8s",
+          "en": "Share-nothing architecture is not suitable for k8s"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看好容器化",
+          "en": "I am optimistic about containerization"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mightybruce 在电动汽车领域也总有人拿汽车取代马车来做类比，我认为这个类比不合适。从各个方面汽车都是完全优于马车的，但是目前在数据库，尤其是非分布式数据库方面，没有看到这种优势，如果有这种优势的话，早就完全铺开了。",
+          "en": "@mightybruce In the field of electric vehicles, people are always using the analogy of cars replacing horse-drawn carriages, and I think this analogy is inappropriate. Cars are completely superior to horse-drawn carriages in all aspects, but currently, in databases, especially non-distributed databases, there is no such advantage, if there is such an advantage, it would have been completely rolled out long ago."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议不要容器化",
+          "en": "It is recommended not to containerize"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "都是直接用阿里云的数据库服务。",
+          "en": "I directly use Alibaba Cloud's database services."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "数据库适不适合容器化看云厂商就知道了，云厂商的数据库都是有一套自己的运维方式，跟 k8s 没有办法兼容生产上肯定不适合容器化，但是开发测试部署毕竟方便",
+          "en": "You can tell whether a database is suitable for containerization by looking at the cloud vendors. Cloud vendors' databases all have their own operation and maintenance methods, which are not compatible with k8s. It is definitely not suitable for containerization in production, but it is convenient for development, testing, and deployment."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "容器化的前提是，你玩的转~~~人家提供容器化云服务的厂商可不是简简单单 K8S 起个 Pod 就完了。除非你对稳定性、性能、运维什么的全都没要求，跑起来能用就行，那自然是随便",
+          "en": "The premise of containerization is that you know how to play ~~~ the manufacturers that provide containerized cloud services are not just starting a Pod with K8S. Unless you have no requirements for stability, performance, operation and maintenance, and it works when it runs, then it's up to you."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

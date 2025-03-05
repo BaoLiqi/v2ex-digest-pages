@@ -1,0 +1,203 @@
+{
+  "id": 1013898,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "想买一块 2TB 的机械硬盘，各位推荐 西部数据 还是 希捷",
+          "en": "Want to buy a 2TB mechanical hard drive, which do you recommend, Western Digital or Seagate"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最近想买一块 2TB 的机械硬盘，固态有点超预算了，暂时不考虑。\r\n看过西数和希捷这两个牌子，两款价格都是一样的，各位能推荐一下吗。\r\n网上说西数不支持个人送保，不过我在京东上买，出了问题应该可以找京东的售后帮我送保。\r\n还有我本人之前坏过一块 1TB 的西数移动硬盘，所以对西数这个牌子印象有点不好（也有可能是我使用过程中磕碰的问题），但是我看网上好像对希捷的评价也不高，反而西数还可以。\r\n\r\nhttps://i.imgur.com/xisKHJK.jpg\r\nhttps://i.imgur.com/SqM7C9f.jpg",
+          "en": "I recently want to buy a 2TB mechanical hard drive, SSD is a bit over budget, I'm not considering it for the time being.\r\nI've looked at Western Digital and Seagate, both brands have the same price, can you recommend any?\r\nI've read online that Western Digital doesn't support personal warranty, but I bought it on JD.com, and if there's a problem, I should be able to ask JD.com's after-sales service to help me with the warranty.\r\nAlso, I previously had a 1TB Western Digital portable hard drive that broke, so my impression of Western Digital is not very good (it's also possible that it was due to bumping during my use), but I see that the reviews of Seagate don't seem to be very high either, while Western Digital seems to be okay."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "西数紫盘 4T 5400 转",
+          "en": "WD Purple 4T 5400 RPM"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这个疑似叠瓦盘？首先要么选垂直盘，要么干脆 SSD ，叠瓦盘是同时兼具了 SSD 的坏处(一坏就全部数据完蛋，几乎没有救回的机会）和机械硬盘的坏处（慢，更容易坏），当年我机械盘里数据一下子毁了救不回来我才真正领教了什么是叠瓦盘，不过先说明我这是几年前的事，我不清楚这几年叠瓦盘会不会已经进步到跟垂直盘一样可以轻松救数据，如是欢迎指正。",
+          "en": "Are you talking about SMR (Shingled Magnetic Recording)? First, either choose a perpendicular disk, or just go with an SSD. SMR has both the disadvantages of an SSD (when it breaks, all the data is gone, with almost no chance of recovery) and the disadvantages of a mechanical hard drive (slow, easier to break). In the past, the data in my mechanical hard drive was destroyed at once and I couldn't recover it, then I really learned what SMR was. But let me clarify that this was a few years ago, and I don't know if SMR has improved in recent years to the point where it can easily recover data like a perpendicular disk. Please correct me if I'm wrong."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "除非你是企业大批量采购，否则硬盘质量就没法用统计学来衡量，纯靠运气。希捷和西数是最主流的品牌了，只要你别买确实有设计或质量问题的型号，找个提供售后的靠谱的店铺买就可以。我 NAS 用过 3 块西数、5 块希捷。西数的用了两年因为扩容提前淘汰掉了 2 块 3TB 的，剩下一块 4TB 的直到现在用了 5 年了，还一切正常。希捷分别在购买后保修期内有 2 块盘 SMART 报警（但依旧可用），走保修直接给换新了；买的+换新的目前分别用了 2 个月、半年、1 年、2 年、4 年，全都正常。所以因为个人用的盘的数量太少，所以统计学上的质量差异没有任何意义，都是看运气。比较实用的是硬盘不要全都买同一批次的，因为同一批次的通常寿命一样会一起坏。另外就是找个售后靠谱的店铺。最后最重要的，只有备份能保全数据。",
+          "en": "Unless you are a large-scale enterprise purchase, the quality of hard drives cannot be measured by statistics; it's purely based on luck. Seagate and Western Digital are the most mainstream brands. As long as you don't buy models that have design or quality problems, you can buy them from a reliable store that provides after-sales service. I have used 3 Western Digital and 5 Seagate hard drives in my NAS. I had to replace 2 x 3TB Western Digital drives after two years due to expansion, and the remaining 4TB drive is still working normally after 5 years. Two Seagate drives had SMART alerts during the warranty period (but were still usable), and I replaced them directly by warranty. The purchased + replaced drives have been used for 2 months, half a year, 1 year, 2 years, and 4 years respectively, and they are all working normally. So because the number of drives I use personally is too small, the quality difference in statistics is meaningless, it all depends on luck. It is more practical not to buy all the hard drives from the same batch, because the lifespan of the same batch usually fails together. Another thing is to find a reliable store with good after-sales service. Finally, and most importantly, only backups can protect data."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "注：使用场景是 NAS",
+          "en": "Note: The usage scenario is NAS"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@seres 刚搜了下，涨价到快 600 了，不合适",
+          "en": "@seres Just searched, the price has risen to almost 600, not suitable"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "价格这么离谱么,去年 4T 四百块我都没舍得买",
+          "en": "Is the price so outrageous? Last year I didn't even want to buy a 4T for four hundred yuan"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "NAS 用新的 2T 硬盘，实在是性价比极低建议您退掉 NAS ，或者跟您朋友要一块硬盘，或者从旧电脑上拆一块旧硬盘先用着",
+          "en": "Using a new 2T hard drive for NAS, is really very low cost-effective. I suggest you return the NAS, or ask your friend for a hard drive, or take out an old hard drive from an old computer and use it first"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "西部比希捷靠谱",
+          "en": "Western Digital is more reliable than Seagate"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@seres @godwei 对啊，我记得之前的价格好像还没这么离谱，再这么涨下去就和固态一个价了",
+          "en": "@seres @godwei Yes, I remember the previous prices didn't seem so outrageous, if it keeps rising like this, it will be the same price as an SSD"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@totoro625 我确实有块就的 1T 盘，好像是希捷的，这不想着先买一块用着，到时候买新的的了再替到台式机上。",
+          "en": "@totoro625 I do have a used 1T drive, it seems to be Seagate, I was thinking of buying one to use first, and then replace it to the desktop when I buy a new one."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@testonly 我不是很懂这个，谢谢科普，不过网上好像说 2T 以下没有垂直盘，不行就加点钱上 3T 或 4T",
+          "en": "@testonly I don't understand this very well, thanks for the explanation, but it seems that there are no perpendicular disks below 2T, if not, just add some money to get 3T or 4T"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Inzufu 我 20 年京东买的，五百多，记得之后多多都降到四百了",
+          "en": "@Inzufu I bought it on JD.com in 2020 for more than five hundred, I remember that later a lot of them went down to four hundred"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@seres 可能是刻板印象吧，我一般电子产品都在京东买，再不济也是淘宝，不太敢上拼多多，拼多多就买那些便宜到淘宝要额外收我运费的小玩意儿。",
+          "en": "@seres It might be a stereotype, I usually buy electronic products on JD.com, or at worst, Taobao, I don't dare to use Pinduoduo very much, Pinduoduo is only for those small things that are so cheap that Taobao will charge me extra shipping."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "400 多这价格可以买 4T 紫盘了吧~",
+          "en": "You could probably buy a 4T Purple drive for more than 400~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "copilot 的回答对于西部数据（ Western Digital ）和希捷（ Seagate ）的 CMR 硬盘，以下是一些推荐的系列：西部数据：WD Red Plus：这个系列的硬盘使用 CMR 技术 1 。例如，WD20EFRX, WD30EFRX, WD40EFRX, WD50EFRX 和 WD60EFRX 都是 2TB 到 6TB 的 CMR 硬盘 2 。WD Ultrastar：这个系列的硬盘也使用 CMR 技术，包括 Ultrastar DC HC620 (Hs14), Ultrastar DC HC570, Ultrastar DC HC550, Ultrastar DC HC560, Ultrastar DC HC530 (He14), Ultrastar DC HC520 (He12), Ultrastar DC HC510 (He10) 等 1 。希捷：Seagate Exos X：这个系列的硬盘使用 CMR 技术，包括 Exos X12, Exos X14, Exos X16, Exos X18, Exos X20 等 3 。Seagate IronWolf：这个系列的硬盘也使用 CMR 技术，包括 IronWolf 1TB, 2TB, 3TB, 4TB, 6TB, 8TB, 10TB+ 等 3 。以下是你可能感兴趣的 2TB CMR 硬盘的型号和价格：西部数据：WD Red Plus：型号为 WD20EFRX ，价格在 Amazon 上为 $94.991 或 £70.992 ，在 idealo 上为 £73.313 。WD Ultrastar：型号为 HUS722T2TALA604 ，价格在 Amazon 上为 $594 或 £1235 。希捷：Seagate Exos X：我没有找到具体的 2TB 型号的价格信息 6 。Seagate IronWolf：型号为 ST2000VN003 ，价格在 Amazon 上为 $87.997 或 £88.02",
+          "en": "Copilot's answer for Western Digital and Seagate CMR hard drives, here are some recommended series: Western Digital: WD Red Plus: This series of hard drives uses CMR technology 1. For example, WD20EFRX, WD30EFRX, WD40EFRX, WD50EFRX and WD60EFRX are all 2TB to 6TB CMR hard drives 2. WD Ultrastar: This series of hard drives also uses CMR technology, including Ultrastar DC HC620 (Hs14), Ultrastar DC HC570, Ultrastar DC HC550, Ultrastar DC HC560, Ultrastar DC HC530 (He14), Ultrastar DC HC520 (He12), Ultrastar DC HC510 (He10) etc. 1. Seagate: Seagate Exos X: This series of hard drives uses CMR technology, including Exos X12, Exos X14, Exos X16, Exos X18, Exos X20 etc. 3. Seagate IronWolf: This series of hard drives also uses CMR technology, including IronWolf 1TB, 2TB, 3TB, 4TB, 6TB, 8TB, 10TB+ etc. 3. Here are the models and prices of 2TB CMR hard drives that you might be interested in: Western Digital: WD Red Plus: Model WD20EFRX, price on Amazon is $94.991 or £70.992, and on idealo is £73.313. WD Ultrastar: Model HUS722T2TALA604, the price on Amazon is $594 or £1235. Seagate: Seagate Exos X: I haven't found specific price information for the 2TB model 6. Seagate IronWolf: Model ST2000VN003, price on Amazon is $87.997 or £88.02"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对于西部数据的紫盘（ WD Purple ），以下是一些你可能感兴趣的 2TB CMR 硬盘的型号和价格：WD Purple Surveillance：型号为 WD22PURZ ，价格在 Amazon 上为 $53.991 或 £53.992 ，在 Amazon India 上为 ₹750.003 ，在 Philippines 为 ₱ 1,899.004 ，在 South Africa 为 R1 169.00",
+          "en": "For WD Purple, here are some 2TB CMR hard drive models and prices you might be interested in: WD Purple Surveillance: Model WD22PURZ, price on Amazon is $53.991 or £53.992, ₹750.003 on Amazon India, ₱ 1,899.004 in the Philippines, and R1 169.00 in South Africa"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这性价比也太低了，我记得 2T 固态也差不多这个价+100 吧",
+          "en": "This cost performance is too low, I remember the 2T SSD is about the same price + 100, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "以下是你可能感兴趣的 2TB CMR 硬盘的具体参数：西部数据：WD Red Plus：型号为 WD20EFRX ，这款硬盘的转速为 5400 RPM ，接口为 SATA 6 Gb/s ，缓存为 128 MB12 。WD Ultrastar：型号为 HUS722T2TALA604 ，这款硬盘的转速为 7200 RPM ，接口为 SATA 6 Gb/s34 。希捷：Seagate Exos X：我没有找到具体的 2TB 型号的参数信息 5 。Seagate IronWolf：型号为 ST2000VN003 ，这款硬盘的转速为 5900 RPM ，接口为 SATA 6 Gb/s6 。西部数据紫盘：WD Purple Surveillance：型号为 WD22PURZ ，这款硬盘的转速为 5400 RPM ，接口为 SATA 6 Gb/s78 。",
+          "en": "Here are the detailed parameters of the 2TB CMR hard drives that you may be interested in: Western Digital: WD Red Plus: Model WD20EFRX, the speed of this hard drive is 5400 RPM, the interface is SATA 6 Gb / s, and the cache is 128 MB12. WD Ultrastar: Model HUS722T2TALA604, the speed of this hard drive is 7200 RPM, and the interface is SATA 6 Gb / s34. Seagate: Seagate Exos X: I have not found the specific parameters of the 2TB model 5. Seagate IronWolf: Model ST2000VN003, the speed of this hard drive is 5900 RPM, and the interface is SATA 6 Gb/s6. WD Purple: Model WD22PURZ, this hard drive rotates at 5400 RPM and has an interface of SATA 6 Gb / s78."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Donahue 我看的紫盘 4t 是 599 ，今年硬盘价格涨了不少",
+          "en": "@Donahue I saw the Purple 4t is 599, the price of hard drives has increased a lot this year"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kenvix 我看好像 2TB 的固态都上到 800 多了",
+          "en": "@kenvix It seems that 2TB SSDs are all over 800"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

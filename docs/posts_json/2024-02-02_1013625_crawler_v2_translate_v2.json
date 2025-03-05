@@ -1,0 +1,203 @@
+{
+  "id": 1013625,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "学历一般，经历也一般，想进大厂。如何破局？",
+          "en": "Average education, average experience, wanting to get into a big tech company. How to break through?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "op 本科末流 211 计算机，目前在 od 干外包，履历比较烂。。想进大厂只有考研校招了么，各位大佬、前辈点进来给点建议吧",
+          "en": "OP, a computer science graduate from a low-ranking 211 university. Currently working as an outsourcing contractor in OD, with a poor resume. Is it only through postgraduate entrance exams and campus recruitment that I can get into a big tech company? All the big shots and seniors, please come in and give some advice."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "进来前看见学历一般，心想：大专？二本？进来后看到 211 计算机系，现在都这么卷了，211 计算机也算学历一般？不过 211 计算机做外包确实有点颠覆我的想象",
+          "en": "Before coming in, I saw the education level as average, and thought: Junior college? Second-tier undergraduate university? After coming in and seeing it's a 211 computer science department, are things so competitive now that a 211 computer science degree is also considered average? However, a 211 computer science graduate doing outsourcing work is indeed a bit of a shock to my imagination."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yannickwhoo 校招现在就是学历大比拼，而且人均实习，没实习简历都挂。说实话 无效内卷，其实进了这些啥的真没啥差距，亲眼看着前一届前两届的硕士师兄大厂的面试笔试 那个难度也就这样 offer 也没啥难度就发了，现在投直接简历挂了。这就是 23 年开始的转折点，学校的就业去向也断崖式变差，不过看了下其他学校也这样，只能说人的能力抵挡不了时代的车轮，学历一般进大厂是以前吃到时代红利，现在计算机只有尾气了。",
+          "en": "@yannickwhoo Campus recruitment now is a competition of education, and everyone has internships. Resumes are rejected without internships. Frankly speaking, it's ineffective involution. Actually, there's not much difference after getting in. I personally saw the interviews and written tests of master's students from the previous one or two batches, the difficulty was just like that, and offers were issued without much difficulty. Now, submitting a resume directly gets rejected. This is the turning point starting in 2023. The employment prospects of universities have also deteriorated sharply. However, it seems that other universities are also like this. It can only be said that a person's ability cannot withstand the wheels of the times. Getting into a big tech company with an average education was taking advantage of the dividends of the past, and now the computer science field only has exhaust fumes left."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "知乎上看到个二本社招进字节的女生，她做的数仓，主要写 SQL 做业务，但是自己看 Spark 和 Hive 源码，对 SQL 背后底层原理了解很透彻，能做一些源码级别的优化。你这 211 科班直接过了学历门槛了，说这话让 v 站一大堆高职坛友情何以堪",
+          "en": "I saw a girl on Zhihu who got into ByteDance through social recruitment with a second-tier undergraduate degree. She works on data warehousing, mainly writing SQL for business, but she reads the source code of Spark and Hive, understands the underlying principles behind SQL very thoroughly, and can do some source code-level optimization. With your 211 degree in a related field, you've directly passed the education threshold. Saying this, how can many friends in the V station forum with higher vocational qualifications feel?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议换赛道 现在这行情纠结计算机真没必要了 。不然你至少考个好点 211 或者 985 里面计算机不算弱的研，而且校招还得好好准备过五关斩六将。不然现在这行情确实难的。楼上很多都是进的早，没意识到现在学历卡的多恶心，我 23 年校招 不下五家面试全都过了，最后 hr 告诉我排名死了或者没后文了，问的基本都是拿 offer 的老哥比我学校再好一点，面评问 hr 都是很好，但是人太多了。啥 985 本硕，还有某些投完直接机筛挂，还有被蚂蚁面试官老哥直接暗示学校不好被硬性卡了。",
+          "en": "Suggest changing tracks. There's really no need to be so fixated on computer science in the current market. Otherwise, you should at least get into a better 211 or 985 university with a computer science graduate program that's not weak, and you still have to prepare well for campus recruitment to pass all the tests. Otherwise, things are really difficult now. Many people upstairs got in early and didn't realize how disgusting the academic requirements are now. In the 2023 campus recruitment, I passed interviews at no less than five companies, and finally, the HR told me that my ranking was dead or there was no further news. The people HR asked about were basically those who received offers and whose schools were slightly better than mine. The interview evaluation was good, but there were too many people. There were even 985 master's and doctoral candidates, and some were directly screened out by the machine after applying, and some were directly implied by the Ant interviewers that their schools were not good enough and were hard-rejected."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mrReturnTrue 在深圳或者一线城市，211 真的很普通很普通了吧。。",
+          "en": "@mrReturnTrue In Shenzhen or first-tier cities, 211 is really, really ordinary..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "把 od 岗位保住，期间熟练掌握一门外语，然后去试着跟老外混吧，大厂没那么光鲜，身边一堆大厂员工岁数大了出来混的很惨，反倒是有个中专小兄弟靠着一口流利英语在民营企业干外贸越混越好",
+          "en": "Hold on to the OD position, master a foreign language during this time, and then try to mingle with foreigners. Big tech companies aren't that glamorous. There are a lot of big tech company employees around me who are doing very poorly after getting older, but there's this junior high school graduate who is doing better and better in foreign trade in a private enterprise thanks to his fluent English."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是华子的 od 吗",
+          "en": "Is it Huawei's OD?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@blackywkl 是的哥",
+          "en": "@blackywkl Yes, bro."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "od 不是说有转正名额吗。我年前还在脉脉看见说最近 od 转正不发喜报了，因为转正的太多了，喜报发不过来",
+          "en": "Isn't there a quota for OD to be converted to full-time employees? Before the Spring Festival, I saw on Maimai that OD conversions to full-time employees recently didn't issue congratulatory announcements because too many people were converting, and they couldn't announce them all."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "考研校招更难进吧, 我自己的校招经历和后来负责校招招聘的经历, 都让我个人认为头部大厂的校招难度比社招大, 社招很容易进的啊, 岗位需求又多, 面试相对来说放水也比较多.",
+          "en": "It's even harder to get in through postgraduate entrance exams and campus recruitment, I think. Based on my own campus recruitment experience and my later experience in being responsible for campus recruitment, I personally believe that the difficulty of campus recruitment at top tech companies is greater than that of social recruitment. Social recruitment is easy to get into because there are so many job openings, and the interviews are relatively lenient."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那就加油干，外包转正呗；其他的要么自己折腾磨炼技术，要么自学 AI 、算法、大数据等等，没点拿的出手的，凭啥大厂愿意招你呢？",
+          "en": "Then work hard and get converted from the outsourcing position; otherwise, either refine your skills through self-practice, or self-study AI, algorithms, big data, etc. Without anything outstanding, why would a big tech company want to recruit you?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "除非是偏远地区那几个，一般的末流 211 也够进大厂了，现在能进华为 OD ，就代表之前是能进华为的，只不过是华为自己全改 OD 而已，所以问题不在学历，在履历，争取转正比考研靠谱。",
+          "en": "Except for those few in remote areas, a general low-ranking 211 is enough to get into a big tech company. Now, being able to get into Huawei's OD means that you could have gotten into Huawei before, it's just that Huawei itself changed everything to OD. Therefore, the problem is not in your education but in your resume. Striving for conversion to full-time employment is more reliable than taking the postgraduate entrance exam."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "社交，让朋友内推。",
+          "en": "Networking, and have friends give internal referrals."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自己创业，然后被大厂收购不就好了。",
+          "en": "Start your own business, and then get acquired by a big tech company."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "放弃进去大厂吧。赚钱为主",
+          "en": "Give up on getting into a big tech company. Focus on making money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "华为不是大厂???",
+          "en": "Huawei is not a big tech company???"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@d3vil 末流 211 ，一般是石河子大学，青海大学，延边大学、宁夏大学等",
+          "en": "@d3vil Low-ranking 211, generally speaking, are Shihezi University, Qinghai University, Yanbian University, Ningxia University, etc."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "啊。。211 现在都进不了大厂了？！",
+          "en": "Ah... 211 can't get into big tech companies now?!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "社招正常跳就能进",
+          "en": "You can get in through normal job-hopping via social recruitment."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "OD 有转正的啊，我同一批好多都是皇军了。绩效好+过高级是必要条件",
+          "en": "ODs can be converted to full-time employees. Many of my batch are already full-time employees. Good performance + passing the senior level is a necessary condition."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

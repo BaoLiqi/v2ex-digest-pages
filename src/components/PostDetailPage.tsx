@@ -1,29 +1,83 @@
-// import React from "react";
 import { useParams } from "react-router-dom";
-import allPosts from "../all_posts.json"; // Import merged JSON from src
+import { useState, useEffect } from "react";
+import postsIndex from "../posts_index.json";
 
-// Define the type for a chunk
 interface Chunk {
   zh: string;
   en: string;
 }
 
-// Define the type for a block
 interface Block {
   chunks: Chunk[];
   type: string;
 }
 
-// Define the type for a post
 interface Post {
   id: number;
   blocks: Block[];
 }
 
+interface PostIndex {
+  id: number;
+  date: string;
+  filename: string;
+  title: string;
+}
+
 function PostDetailPage() {
   const { postId } = useParams();
-  const postsData: Post[] = allPosts as Post[];
-  const post = postsData.find((p) => p.id === parseInt(postId || ""));
+  const [post, setPost] = useState<Post | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchPost = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+
+        const postIndex = (postsIndex as PostIndex[]).find(
+          (p) => p.id === parseInt(postId || "")
+        );
+
+        if (!postIndex) {
+          setError("Post not found in index");
+          setLoading(false);
+          return;
+        }
+
+        const response = await fetch(
+          `${import.meta.env.BASE_URL}posts_json/${postIndex.filename}`
+        );
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch post: ${response.statusText}`);
+        }
+
+        const postData = await response.json();
+        setPost(postData);
+      } catch (err) {
+        setError(
+          `Error loading post: ${
+            err instanceof Error ? err.message : String(err)
+          }`
+        );
+        console.error("Error fetching post:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPost();
+  }, [postId]);
+
+  if (loading) {
+    return <div>Loading post...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
 
   if (!post) {
     return <div>Post not found</div>;
@@ -37,13 +91,13 @@ function PostDetailPage() {
           <div key={blockIndex}>
             {block.chunks.map((chunk, chunkIndex) => (
               <div key={chunkIndex}>
-                <details>
-                  <summary>▽</summary>
-                  {chunk.zh}
-                </details>
                 <br />
                 {chunk.en}
                 <br />
+                <details>
+                  <summary></summary>
+                  {chunk.zh}
+                </details>
               </div>
             ))}
           </div>

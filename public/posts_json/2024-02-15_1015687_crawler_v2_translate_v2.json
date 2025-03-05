@@ -1,0 +1,203 @@
+{
+  "id": 1015687,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "特斯拉告诉自动驾驶靠谱吗？",
+          "en": "Is Tesla's self-driving reliable?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有特斯拉的说说看，有修路，放有雪糕筒需要变道、前方堵车、前方突然刹车，这些都应该能放心避开吧？",
+          "en": "Those who own a Tesla, share your experience. Can it reliably avoid construction zones, cones needing lane changes, traffic jams ahead, and sudden braking?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自动驾驶 辅助驾驶 智能驾驶名词真是吹了一遍又一遍，但凡了解下原理，就知道这东西对于没有训练过的场景只能是拼运气为何要把自己的小命交到这种玩意手上",
+          "en": "Self-driving, assisted driving, and smart driving, these terms are just being hyped over and over. Anyone who understands the principles knows that this thing is just a matter of luck for untrained scenarios. Why would you put your life in the hands of such a thing?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imsoso 可能是拜 FSD 所赐，特斯拉是美国事故率最高的车型。死了的车主是不会在车主群抱怨的。https://www.forbes.com/sites/stevebanker/2023/12/18/tesla-has-the-highest-accident-rate-of-any-auto-brand/?sh=979d3092894d",
+          "en": "@imsoso Perhaps it's because of FSD that Tesla has the highest accident rate of any car brand in the US. The deceased owners won't complain in the owner's group. https://www.forbes.com/sites/stevebanker/2023/12/18/tesla-has-the-highest-accident-rate-of-any-auto-brand/?sh=979d3092894d"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议出一个法规，要求处于自动驾驶或者自动辅助驾驶状态的车辆，在车身外部通过灯光、标语、声音等展示明显提示，以方便其他的车辆避让。",
+          "en": "It is recommended to issue a regulation requiring vehicles in self-driving or autonomous assistance mode to display clear prompts externally on the vehicle, such as lights, signs, and sounds, to facilitate other vehicles in taking evasive actions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "\"放心避开\"不可能，比如修路每个路口环境都不一样，复杂情况提前自己接管。但能节省 90% 的精力，绝大部分情况下盯着前面看风景听歌不需要自己操作，腰好可以连续开到没电。",
+          "en": "\"Reliably avoid\" is impossible. For example, the environment at each intersection during road construction is different; take over in complex situations in advance. But it can save 90% of your energy; in most cases, you don't need to operate; you can just watch the scenery in front and listen to music. If your back is good, you can drive continuously until the battery runs out."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "举个例子，99.9%能避开，0.1%出现的时候你能来得及接管吗？如果没把握，可行性就很低。而中国复杂多变的路况根本不是 99.9% vs 0.1% 。。。",
+          "en": "Take an example, if it can avoid 99.9% of the time, are you able to take over when the 0.1% arises? If you are not sure, the feasibility is very low. And China's complex and ever-changing road conditions are not 99.9% vs 0.1%..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@balabalaguguji 你要说在国外的水平 还有些可对比的空间。国内的话，第二梯队以下。",
+          "en": "@balabalaguguji If you are talking about the level in foreign countries, there's still some room for comparison. In China, it's below the second tier."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用的没花钱的， 也用过几个月 eap 试用，现在是春节期间也开放试用的，市区基本上很少用，在市区内会限制最高速度不好搞，高速上都会开，节省很多精力。去年有段时间每天通勤差不多 180 公里主要就靠辅助驾驶。修路放雪糕筒能不能避开不知道，都提前手动变道，不敢试😂，前方堵车、刹车没问题能跟停，但是一般如果看到前车急刹车也都提前手动介入。跟某为肯定不能比的，余大嘴说从安徽到深圳开几百公里都不手动介入。另外现阶段不要对这个自动驾驶有太多想法，可靠性都没充分验证，还是别太激进了，fsd 没有进入中国，国产的不能批评不能有负面新闻个人肯定是不会使用的。或者可以花点钱租几个车试试。",
+          "en": "I'm using it without spending money, and have also used the EAP trial for a few months. The trial is also open during the Spring Festival. I rarely use it in the city, as it restricts the maximum speed and is difficult to manage. I always use it on highways, which saves a lot of energy. Last year, I commuted about 180 kilometers a day, mainly relying on assisted driving. I don't know if it can avoid road construction and cones. I always change lanes manually in advance. I dare not test it 😂. There is no problem with avoiding traffic jams and braking; it can stop. However, if I see a sudden brake from the car in front, I will manually intervene in advance. It definitely can't be compared to someone. Yu, the big mouth, said that he drove hundreds of kilometers from Anhui to Shenzhen without manual intervention. Also, don't have too many expectations for this self-driving at this stage; its reliability hasn't been fully verified. Don't be too aggressive. FSD has not entered China, and I personally will definitely not use domestic products that cannot be criticized and cannot have negative news. Or you can spend some money to rent a few cars to try."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "利益相关：特斯拉车主现在都是 L2 的技术我自己快速路高速用起来非常省心，不用担心人类疲劳驾驶的问题。我不相信所谓的自测和媒体测试。这覆盖不了多数的情况。我只相信数据。起码北美有几十万真实的车主购买了 FSD 服务。10000 美金，不是一笔小数目。国产小鹏理想蔚来的数据，也是能查到的。BYD 画龙的技术众所周知，人家也不推这个。我的话，唯独不敢用只见媒体吹不见用户的遥遥领先想要了解车辆的真实情况，加几个车主群就知道了",
+          "en": "Regarding my own interests: I'm a Tesla owner; currently, it's all L2 technology. I find it very convenient to use on expressways and highways, and I don't have to worry about the problem of human fatigue driving. I don't believe in the so-called self-testing and media testing. These don't cover most situations. I only believe in data. At least hundreds of thousands of real car owners in North America have purchased the FSD service. $10,000 is not a small amount. The data of domestic brands like XPeng, Li Auto, and NIO can also be checked. Everyone knows BYD's draw a dragon technology, and they don't promote it either. As for me, I dare not use the ones that only see the media hype and not the user's superior performance. To understand the real situation of the vehicle, just join a few car owner groups."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imsoso 话说 遥遥领先之前和小鹏的事，被何小鹏吐槽的点就是一堆“民间小视频”，咋到你这又成了不见用户了呢",
+          "en": "@imsoso Speaking of the superior performance before and the XPeng incident, the point that He Xiaopeng complained about was a bunch of \"unofficial short videos\". Why does it become invisible users in your case?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同好奇，特斯拉自动驾驶平时有用么，用处大吗？",
+          "en": "I'm also curious, is Tesla's self-driving useful in normal times, and is it very useful?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有些测评说特斯拉自动驾驶已经被国内各大厂超越了，特别是华为的 ads2.0 ，也不知道是不是真的呀，我想换特斯拉高速上轻松点。",
+          "en": "Some reviews say that Tesla's self-driving has been surpassed by major domestic manufacturers, especially Huawei's ads2.0. I don't know if it's true. I want to switch to Tesla for an easier experience on the highway."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "特斯拉自动驾驶在国内不能识别红绿灯在高速上开很方便, 城市道路最好还是自己开",
+          "en": "Tesla's self-driving cannot recognize traffic lights in China; it's very convenient to drive on the highway; it's best to drive yourself on urban roads."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "而且只说高速这个场景，国内头部几个新势力（除理想）早做到完全可替代人驾了",
+          "en": "And just talking about the highway scenario, the top new domestic forces (excluding Li Auto) have long been able to completely replace human driving."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你能打包票说你写的程序肯定没有 bug 么？咱们写的程序出 bug ，最多就是用户访问不了，损失点钱。特斯拉自动驾驶的程序出 bug ，极端情况是要命的！",
+          "en": "Can you guarantee that there are definitely no bugs in the program you wrote? If the program we write has bugs, the worst that can happen is that users can't access it, and we lose some money. If Tesla's self-driving program has bugs, in extreme cases, it can be fatal!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "国内还是 v11.1 ， 估计是 3 年前的版本， 北美已经是 v11.4  和 v12.1 （使用深度学习端到端神经网络），没法比较",
+          "en": "In China, it's still v11.1, which is estimated to be the version from three years ago, while North America is already v11.4 and v12.1 (using deep learning end-to-end neural networks). There's no way to compare."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你都能出来了，自己看油管的实测视频不就好了，比如油管的 whole mars",
+          "en": "You can go out yourself, Why don't you just watch some real test videos on YouTube, like the whole mars on YouTube"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这几种突发情况属于特斯拉紧急避险功能，默认都是开启的，不管你有没开辅助驾驶",
+          "en": "These kinds of emergencies belong to Tesla's emergency avoidance function, which is enabled by default whether or not you have the assisted driving turned on."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wongtk 租辆特斯拉 400 块一天，特斯拉深度试驾 12 小时夜间凌晨免费",
+          "en": "@wongtk Rent a Tesla for 400 yuan a day. Tesla deep test drive 12 hours overnight is free."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wweerrgtc 我家的迈巴赫辅助驾驶也没识别红绿灯，只有个红绿灯摄像头方便大货车挡住了红绿灯的时候看。只有车道居中自动跟车打转向灯辅助变道。跟新势力华为比起来 300 万的车垃圾死了",
+          "en": "@wweerrgtc My Maybach's assisted driving also doesn't recognize traffic lights. It only has a traffic light camera to help see when a large truck blocks the traffic lights. It only has lane centering, automatic following, and turn signal assistance for lane changes. Compared to Huawei's new forces, a 3 million car is trash."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jacksonj297 #14 很不错的建议",
+          "en": "@jacksonj297 #14 Very good suggestion"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}
