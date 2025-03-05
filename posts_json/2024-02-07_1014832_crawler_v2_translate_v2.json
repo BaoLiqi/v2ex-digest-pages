@@ -1,0 +1,203 @@
+{
+  "id": 1014832,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "今天还在上班的，工作量和往常一样吗",
+          "en": "Are you still working today, and is the workload the same as usual?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉公司基本上没什么人了，很安静，键盘声都稀疏了",
+          "en": "It feels like there's basically no one in the company, it's very quiet, and the sound of keyboards is sparse."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "今天主要工作就是打扫卫生，我早上拿个酒精棉片在那边擦电子设备，然后旁边的同事只闻到了味道，惊呼，哥们，你大早上喝了多少啊。",
+          "en": "Today's main work is cleaning. I was wiping electronic devices with an alcohol swab in the morning, and the colleague next to me only smelled the scent and exclaimed, 'Dude, how much did you drink this morning?'"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "怎么能一样呢，比往常更多了，每晚肝到 12 点",
+          "en": "How can it be the same? It's more than usual, working until 12 o'clock every night."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "和往常一样，没工作",
+          "en": "Same as usual, no work."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ide 的界面还停留在前天",
+          "en": "The IDE interface is still stuck on the day before yesterday."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "今天狠狠赚公司的钱",
+          "en": "Earn a lot of money from the company today."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "领导上周就回家了，我们组这周都是打个卡就走",
+          "en": "The leader went home last week, and our group just clocks in and leaves this week."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "并不，handover",
+          "en": "No, handover"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "领导，老实说我知道你知道我知道你比我更想跑回家 lol",
+          "en": "Leader, honestly, I know you know I know you want to run home more than I do, lol"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "摸几天鱼了, 一行代码都不想敲",
+          "en": "Been slacking off for a few days, don't want to write a single line of code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "都摸鱼好几天了",
+          "en": "Been slacking off for days."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "都摸鱼好几天了",
+          "en": "Been slacking off for days."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "打 csgo",
+          "en": "Playing CSGO"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "摸鱼摸到爆",
+          "en": "Slacking off like crazy"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "差不太多，好点就是没人找了，然后效率低一点",
+          "en": "About the same, the good thing is that no one is bothering me, and then the efficiency is a bit lower."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上周六放假回来都没有啥活，舒服咧",
+          "en": "There was nothing to do when I came back from the holiday last Saturday, comfortable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这两天工作量比往常多，因为这个月和上个月的下半个月，几乎没怎么干活，年前心里有点愧疚，就多做了一点事情",
+          "en": "The workload has been higher than usual these two days because I haven't done much work this month and the second half of last month. I feel a little guilty before the New Year, so I did a little more."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我做的东西 deadline 不强，但是停下来会断思路，最近一个月一直在猛干",
+          "en": "The deadline for what I'm doing isn't strict, but stopping will break my train of thought, and I've been working hard for the past month."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没会议了，可以开心写代码了",
+          "en": "No meetings, can write code happily."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "替别人干完不成的活",
+          "en": "Finishing the work that others can't complete."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "摸鱼摸到吐，除了逛 V 站，都不敢做什么明显的摸鱼的迹象；隔壁同事出去剪头发和办证去了",
+          "en": "Slacking off until I'm sick of it, except for browsing V2EX, I don't dare to do anything that gives an obvious indication of slacking off; the colleague next door went out to get a haircut and apply for certificates."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

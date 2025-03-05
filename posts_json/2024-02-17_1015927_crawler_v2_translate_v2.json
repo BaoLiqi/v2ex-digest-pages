@@ -1,0 +1,203 @@
+{
+  "id": 1015927,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "新人求助： Mac 读取 NTFS 格式软件购买推荐及答疑",
+          "en": "Newcomer asks for help: Recommendations and Q&A for purchasing NTFS format software for Mac"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "### 背景信息\r\n近期我购买了 2t 的移动硬盘，因为后续还有连接 Windows 平台使用的需求，为方便 Mac 和 Windows 共同使用（出于数据安全性需要 Exfat 没有考虑），我将硬盘设置为来 NTFS 格式。\r\n\r\n### 软件选择\r\n目前锚定了 Paragon 和 Tuxera 的软件，楼主在购买选择读取软件时候犯了一些困难。\r\n\r\n### 购买疑惑\r\n关于 Paragon 的软件有以下两点疑惑：\r\n1. **关于授权模式：**我在试用 Paragon 的 NTFS for Mac ，感觉还不错准备付费，发现是版本授权，后续更新大版本还需再付费，想问问大佬们是否是需要一个版本一付费的才能使用？\r\n2. **关于购买渠道：**我发现购买渠道是官网（美元/信用卡付费），或者买中国代理公司的，或者一些第三方平台的，我对后两个比较疑惑不知道是什么样的存在？不知道是否靠谱？\r\n\r\n关于 Tuxera 的软件有以下两点疑惑：\r\n1. **关于授权模式：**Tuxera 版本也是一版本一付费还是终身授权呢？\r\n2. **关于购买渠道：**我查询到有官网（美元等）、第三方平台、或者上淘宝（甚至有 10 元的 tuxera ，这靠谱吗？）不知道哪个渠道靠谱？\r\n\r\n同时我也想了解一下大家对于 Mac 端 NTFS 格式软件使用的看法和选取建议，十分感谢。感谢大佬们！第一次发帖如有问题多多海涵。",
+          "en": "### Background Information\r\nRecently I bought a 2TB external hard drive, because I also need to connect to the Windows platform for subsequent use, to facilitate the common use of Mac and Windows (Exfat is not considered for data security reasons), I set the hard drive to NTFS format.\r\n\r\n### Software Selection\r\nCurrently anchored Paragon and Tuxera software, the author encountered some difficulties in choosing to buy reading software.\r\n\r\n### Purchase Questions\r\nThere are two doubts about Paragon software:\r\n1. **Regarding the authorization model:** I'm trying Paragon's NTFS for Mac, and it feels good, so I'm going to pay for it. I found that it's a version license, and you need to pay again for subsequent major version updates. I want to ask if the big guys need to pay for one version to use it?\r\n2. **Regarding the purchase channel:** I found that the purchase channels are the official website (USD/credit card payment), or buying from Chinese agent companies, or some third-party platforms. I'm more confused about the latter two, and I don't know what kind of existence they are? I don't know if they are reliable?\r\n\r\nThere are two doubts about Tuxera software:\r\n1. **Regarding the authorization model:** Is the Tuxera version also a one-time payment per version or a lifetime license?\r\n2. **Regarding the purchase channel:** I have found the official website (USD, etc.), third-party platforms, or Taobao (even 10 yuan Tuxera, is this reliable?) I don't know which channel is reliable?\r\n\r\nAt the same time, I also want to know everyone's views and suggestions on the use of NTFS format software on the Mac side, thank you very much. Thank you, big guys! This is my first post, please forgive me if there are any problems."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://www.drbuho.com/buhontfs  一个新的软件，现在免费，还剩几天时间。",
+          "en": "https://www.drbuho.com/buhontfs A new software, it's free now, only a few days left."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别弄这些，之前用 Paragon 把硬盘的文件系统弄坏了，数据全部丢失。",
+          "en": "Don't do these, I used Paragon before and corrupted the hard drive's file system, and all the data was lost."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果是希捷或者西部数据的硬盘， 有对应免费版本的 Paragon.如果其他品牌， 推荐 Paragon 据说速度比另外一个快很多",
+          "en": "If it's a Seagate or Western Digital hard drive, there's a corresponding free version of Paragon. If it's another brand, I recommend Paragon, which is said to be much faster than the other one"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虚拟机方案+1 ，其实 windows 低版本对内存要求很低，又不需要安装 win10 版本。仅仅只是读取 NTFS ，然后用 smb 分享给 MacOS",
+          "en": "Virtual machine solution +1, in fact, the low version of windows has very low memory requirements, and there is no need to install the win10 version. Just read NTFS, and then use SMB to share it to MacOS"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "偶尔用用的话就直接用 mounty ，用 macos 自带的一个 ntfs driver ，用起来略麻烦，但不用弄 sip 什么的，对系统影响小",
+          "en": "If you use it occasionally, just use mounty, use a built-in ntfs driver in macos, it's a bit troublesome to use, but you don't need to mess with SIP, which has little impact on the system"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "p 的底层 ntfs 驱动都开源给 linux 内核了，它的更新和付费就是卖 gui 给不折腾的普通消费者而已…… 因为它的免费试用都已经告诉你大门敞开让你直接盗版，根本不在乎。你在 Windows 上没有任何权限需求，exFAT 是三平台的首选，最优解。你只是个普通消费者，不关心任何玄学，也没钱，直接 p 盗版，不差钱 p 正版。",
+          "en": "The underlying NTFS driver of P has been open-sourced to the Linux kernel, and its updates and payments are just selling GUIs to ordinary consumers who don't want to mess around... because its free trial has already told you that the door is wide open for you to pirate it, and it doesn't care at all. You don't have any permission requirements on Windows, exFAT is the first choice for three platforms, and the optimal solution. You're just an ordinary consumer, you don't care about any metaphysics or economics, you can directly pirate P, and you can buy the genuine P version if you have the money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买个带 USB3.0 口的便携式路由器譬如 GL.iNET 这款  h:/79 ￥ CA6496 NRbYWk2ene8 ￥  硬盘和路由器一起移动就完事了。",
+          "en": "Buy a portable router with a USB3.0 port, such as the GL.iNET model h:/79 ￥ CA6496 NRbYWk2ene8 ￥, and move the hard drive and router together."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不嫌麻烦的话不如虚拟机安装 Windows ，然后把 USB 直通进虚拟机内",
+          "en": "If you don't mind trouble, it's better to install Windows in a virtual machine and then pass the USB directly into the virtual machine"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ysc3839 手里的 Mac 是 8+256 的，感觉虚拟机会不会比较吃力一些🤔 感觉是个好方法",
+          "en": "@ysc3839 The Mac in hand is 8+256, I feel that the virtual machine will be a bit strenuous 🤔 It feels like a good method"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "目前 Paragon 的速度比其他优势不少，虽然是大版本买断制，但没办法",
+          "en": "Currently, Paragon's speed is much better than others, although it's a major version perpetual license, but there's no way"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SuperXX 手里的是自己组装的移动硬盘盒可能没法用免费的，考虑到速度我准备去看看 Paragon ，谢谢解答！",
+          "en": "@SuperXX What I have is a self-assembled mobile hard disk enclosure, so I may not be able to use the free one. Considering the speed, I am going to take a look at Paragon. Thank you for the answer!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@steveshi 谢谢建议，还是老老实实给 Paragon 掏钱吧",
+          "en": "@steveshi Thanks for the suggestion, I will still honestly pay Paragon"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我 Google 检索关键词“Paragon NTFS for Mac16 在哪买”，除了官网弹出的是这个网站（非打广告） https://www.mairuan.com/ntfsformac/1700272429109.html 。想咨询一下这里购买靠谱吗？官网的要用美元操作起来有点复杂",
+          "en": "I Google searched for the keyword “Paragon NTFS for Mac16 where to buy”, and this website popped up besides the official website (not advertising) https://www.mairuan.com/ntfsformac/1700272429109.html. I would like to ask if it is reliable to buy it here? It's a bit complicated to operate with US dollars on the official website"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Ruttel 8GB 内存是比较吃力，看你选择了，这种方法可以做到完全免费。",
+          "en": "@Ruttel 8GB of memory is quite strenuous, it depends on your choice, this method can be completely free."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@tool2d 谢谢推荐，我后续去尝试一下👍👍👍",
+          "en": "@tool2d Thank you for the recommendation, I will try it later 👍👍👍"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "mac 原生支持 ntfs 去 sip 下打开写开关就行了，但是会提示风险自担",
+          "en": "mac natively supports NTFS, just turn on the write switch under SIP, but it will prompt you to take the risk"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "希捷官网可以直接下载 Paragon ，不知道现在是不是还是这样，链接比较隐蔽，下载的版本没有任何验证，直接安装就可以使用，记得好像是没自动升级，其他完全一样",
+          "en": "You can download Paragon directly from the Seagate official website. I don't know if it's still like this now, the link is relatively hidden, the downloaded version has no verification, and you can use it directly after installation. I remember it didn't automatically update, but everything else was exactly the same"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "搞个 NAS ，什么都搞定了！",
+          "en": "Get a NAS, and everything is done!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "关 sip 系统容易出问题",
+          "en": "Turning off SIP can easily cause problems"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ntfs 两个系统容易出问题。exfat 用了五年没出过问题。",
+          "en": "NTFS is prone to problems on two systems. exfat has been in use for five years without any problems."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

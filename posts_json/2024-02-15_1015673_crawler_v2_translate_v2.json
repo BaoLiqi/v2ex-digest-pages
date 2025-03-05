@@ -1,0 +1,203 @@
+{
+  "id": 1015673,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "长期存储 30T 冷数据性价比最高的方案是什么",
+          "en": "What is the most cost-effective solution for long-term storage of 30T of cold data"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自建 nas/磁带机这类除外，携带大量硬盘过海关会很麻烦",
+          "en": "Excluding self-built NAS/tape drives etc., it's troublesome to carry a large number of hard drives through customs."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "30T 也就两块硬盘, 性价比最高也就这个.",
+          "en": "30T is just two hard drives, this is the most cost-effective."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@KenThompson1729 我进美国的时候从来没被查过，带硬盘的时候也没被查过。你干了什么了大概率会被查？",
+          "en": "@KenThompson1729 I've never been checked when entering the US, nor when carrying hard drives. What did you do that you are likely to be checked?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你为啥要频繁带着数据过海关？",
+          "en": "Why do you need to frequently carry data through customs?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "多长期？多冷？aws deep glacial?",
+          "en": "How long? How cold? aws deep glacial?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一年读三次的话 glacier 可能会很贵，当然是看你全部读一遍还是就只是看几个文件。可以看看 backblaze b2 https://www.backblaze.com/cloud-storage/pricing",
+          "en": "Glacier might be expensive if you read it three times a year, of course it depends on whether you read everything or just a few files. You can check out backblaze b2 https://www.backblaze.com/cloud-storage/pricing"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "天翼云盘 30t",
+          "en": "Tianyiyi Cloud Disk 30t"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "西部数据 HC550 * 2",
+          "en": "Western Digital HC550 * 2"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@KenThompson1729 是因为硬盘太多不行还是因为数据/身份太敏感？   我往访美国几次都带着 SSD ，在中国海关还有美国海关没被问过问题（不过基本是风景照，想查的话我估计直接给密钥了）如果只是因为硬盘太多显眼的话，30TB ssd 考虑么？  BB 30TB 存 3 年的价格基本够买两块 30TB ssd 了，一块传输用一块备份用不然的话能不能把数据调用压到一年两次用 deep glacier ？ 其他网络存储都有点贵啊",
+          "en": "@KenThompson1729 Is it because there are too many hard drives or because the data/identity is too sensitive? I've brought SSDs with me on several visits to the US, and have not been questioned by Chinese or US customs (but it's basically landscape photos, I estimate I'll just give the key if they want to check). If it's just because there are too many hard drives and they're obvious, are you considering a 30TB SSD? The price of storing 30TB on BB for 3 years is basically enough to buy two 30TB SSDs, one for transmission and one for backup, otherwise, can the data retrieval be reduced to twice a year using deep glacier? Other network storage is a bit expensive."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@msg7086 @lithiumii 但海关始终有权力检查的谨慎一点始终没错啦，每次回国我至少都会删掉 telegram twitter 和 1password我虽然没被查过，但身边有人在上海在旧金山被查过（同一个人被两边查也是很厉害。。。）",
+          "en": "@msg7086 @lithiumii But customs always has the right to check, so it's always right to be cautious. I will at least delete telegram, twitter and 1password every time I return to China. Although I haven't been checked, someone around me has been checked in Shanghai and San Francisco (it's amazing that the same person was checked on both sides...)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "问问这个哥们 t/1014276",
+          "en": "Ask this guy t/1014276"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看来你的需求不是 30T 冷数据，而是方便过美国海关的设备方案。LTO-9 磁带吧。",
+          "en": "It seems your need is not 30T of cold data, but a device solution that's convenient for passing through US customs. LTO-9 tape drive."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "16T 硬盘可用容量只有 13t 多，两块可能不够，得三块，双备份就得六块，再搞些 115 盘空间卡，传到 115 ，只有本地损毁无法恢复的时候，再开 115 会员下载到本地",
+          "en": "The usable capacity of a 16T hard drive is only a little over 13t, two might not be enough, you'd need three, and for dual backups, you'd need six. Then get some 115 disk space cards, and upload to 115. Only when local damage cannot be recovered, then open 115 membership to download locally"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人认为最靠谱的是两边都有自己的 nas ，如果两边都有 qnap 的 nas 的话，可以用 qnap 自家的 qudedup 来做远程同步和数据传输，储存数据就更不是问题了",
+          "en": "Personally, the most reliable solution is to have your own NAS on both sides. If you have QNAP NAS on both sides, you can use QNAP's own qudedup to do remote synchronization and data transfer. Then storing data is no longer a problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cest 三年 平均一年读三次",
+          "en": "@cest Three years, read three times a year on average"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "百度网盘?",
+          "en": "Baidu Netdisk?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大量硬盘，指两块？",
+          "en": "A large number of hard drives, does that mean two?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "16T 的 3.5 寸机械硬盘两块，或者 3 块，加点冗余，应该是最便宜的吧。嫌体积太大的话，8t 的 2.5  寸或 m2 固态四块，但这就贵了。企业级什么的可以一个 2.5 寸存下，更贵。",
+          "en": "Two 16T 3.5-inch mechanical hard drives, or three, plus some redundancy, should be the cheapest. If you don't like the size, four 8t 2.5-inch or m2 solid-state drives, but that's more expensive. Enterprise-level or something can be stored on one 2.5-inch, which is even more expensive."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mayli @msg7086  @lithiumii 带硬盘的都不行 过美国海关大概率会被查",
+          "en": "@mayli @msg7086 @lithiumii Carrying hard drives won't work. You're likely to be checked by US customs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "像我从 SFO 转机国内线的时候，中间甚至连海关都没有，边检敲了章出来，拿了行李走两步直接丢回国内线传送带了，就算你带违禁品都没人管……",
+          "en": "When I transferred from SFO to a domestic flight, there wasn't even customs in between. After the border inspection stamped my passport, I took my luggage and walked a couple of steps to the domestic flight conveyor belt. No one would care even if you were carrying contraband..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@disorientatefree 或者混合方案 deep glacier 做备份和偶尔跨国的时候传输（基本每月 30 刀）平时使用数据还是本地硬盘",
+          "en": "@disorientatefree Or a hybrid solution using deep glacier for backups and occasional cross-border transfers (basically 30 dollars a month), and still use local hard drives for everyday data."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

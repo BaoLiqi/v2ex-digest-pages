@@ -1,0 +1,203 @@
+{
+  "id": 1015110,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "如何让非程序员能轻松使用 hexo 发布文章",
+          "en": "How to make non-programmers easily use hexo to publish articles"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "给客户搭建了一个博客，但苦于对方不是程序员，没有用提交表单的方式直接发布一篇文章的功能，所以想问一下有没有比较成熟且简单的方案能让普通人也能使用 hexo ？\r\n已经在服务器上搭建并配置好了，也让他基本了解了 Markdown ，现在的问题是如果提交 md 文件到服务器并进行静态生成",
+          "en": "I've built a blog for a client, but the problem is that they're not a programmer and don't have the ability to publish an article directly using a submission form. So I'm wondering if there's a relatively mature and simple solution to allow ordinary people to use hexo?\r\nIt has been built and configured on the server, and they have a basic understanding of Markdown. The current problem is how to submit the md file to the server and perform static generation."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "教他用 GitHub 的 issues/discussion ，设置好 webhook ，自动触发 hexo 发布",
+          "en": "Teach them to use GitHub issues/discussion, set up a webhook, and automatically trigger hexo publishing"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@0o0O0o0O0o 这种应该教不会，教个 wp 应该都挺难的，服务器和 web 都已经搭好了，就差一个提交生成功能了",
+          "en": "@0o0O0o0O0o This kind of thing probably can't be taught, it's hard to teach them even wp. The server and web are already set up, they just need a submit and generate function."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "只能再写个 web 版文件管理和 md 编辑器，并集成 git 功能了。不是程序员，用 wordpress 不是挺好，干嘛要折腾这个，别人只会说你菜。",
+          "en": "You can only write a web-based file management and md editor, and integrate git functionality. If they are not programmers, wouldn't WordPress be a good choice? Why bother with this, people will just say you're not skilled."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Fish1024 因为 hexo 最符合他的需求，问题是他使用不来，所以才问有没有成熟的解决方案能让这类人群也能使用 hexo",
+          "en": "@Fish1024 Because hexo best suits their needs, but the problem is that they can't use it, so they're asking if there's a mature solution that allows this type of person to use hexo."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我最近在研究 WriteFreely ，感觉轻量又直观。",
+          "en": "I'm recently researching WriteFreely, and it feels lightweight and intuitive."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "既然使用不来那就不符合他的需求。WordPress 用不了，那 Halo 和 Typecho 呢？",
+          "en": "If they can't use it, then it doesn't meet their needs. If WordPress can't be used, what about Halo and Typecho?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不是有现成的 Hexo 后台管理开源程序么https://github.com/jaredly/hexo-admin",
+          "en": "Isn't there a ready-made Hexo backend management open-source program https://github.com/jaredly/hexo-admin"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Netlify 行不行？",
+          "en": "Can Netlify work?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为什么开始不考虑 wordpress 呢",
+          "en": "Why didn't you consider WordPress from the start?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为 hexo 最符合他的需求，问题是他使用不来那你这个符合需求符合在哪儿呢",
+          "en": "hexo best suits his needs, but the problem is that he can't use it, so how does this meet the need?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "像 Halo 这种带后台的，修改博客内容分组打标签什么的都很容易，应该符合你的需求",
+          "en": "With a backend like Halo, it's easy to modify blog content, group and tag, which should meet your needs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "帮他配环境 把创建和发布这两个指令封装成脚本 写文章发文章直接点它丫的",
+          "en": "Help them configure the environment and encapsulate the create and publish commands into a script; they can click the script to write and publish articles directly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "确实想学有什么难，不就 5 块钱不到的 html4+markdown 语法，就整个查询文档放电脑上，或者直接做在那网站上随用随查。隔行如隔山，不想学的人怎么也教不会。",
+          "en": "There's nothing difficult about learning it, it's just the html4+markdown syntax, which costs less than 5 yuan. Just put the query document on the computer, or directly do it on the website and look it up as needed. It's like a mountain between industries, and you can't teach those who don't want to learn."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "整几个 bat 得了",
+          "en": "Just make a few bat files."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最好的方案就是做几个批处理，然后只需要双击运行就行了。",
+          "en": "The best solution is to create a few batch files, and then just double-click to run them."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "干脆你建个网盘账号，让他写好文本后上传到网盘（有同步盘功能的网盘的话会更简单），然后服务端定期扫描有没有更新，有的话就 build",
+          "en": "You can create a cloud disk account. Let him write the text and upload it to the cloud disk (a cloud disk with a synchronization function would be easier), and then the server regularly scans for updates. If there are any, then build."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "无头 cms 可解",
+          "en": "Headless CMS can solve this"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一直很头痛这个问题. 曾经幻想过有一种发邮件提交 github 的方法. 遍寻不果.",
+          "en": "This problem has always been a headache. I once fantasized about a method of submitting to GitHub by sending emails, but couldn't find one."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我自己的博客是 notion+next 的，配置好后直接在 notion 写就行。hexo 应该也有类似的方案吧",
+          "en": "My own blog uses notion+next, and I can write directly in notion after configuration. Hexo should have a similar solution, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你教会 TA 手写 MD 了?Hexo 有没有 WIN CLI 可以提交+生成?如果俩个问题都“是”,那么你写一个 BAT 给 TA 一键执行啊",
+          "en": "Have you taught them to write MD by hand? Does Hexo have a WIN CLI that can submit and generate? If the answer to both questions is \"yes\", then write a BAT file for them to execute with one click."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

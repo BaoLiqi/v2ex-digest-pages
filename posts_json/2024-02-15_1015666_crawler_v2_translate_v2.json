@@ -1,0 +1,203 @@
+{
+  "id": 1015666,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "新入的 macbook m1 续航不到 5h？",
+          "en": "The new Macbook M1's battery life is less than 5h?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://imgur.com/a/fGdAGVt\r\nhttps://imgur.com/a/BzPN9U6\r\n\r\n都在用轻量办公，用浏览器或写文档，没有大型应用\r\n系统 13.6.4",
+          "en": "https://imgur.com/a/fGdAGVt\r\nhttps://imgur.com/a/BzPN9U6\r\n\r\nUsing lightweight office applications, browsers or word processing, no large applications\r\nSystem 13.6.4"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@80houboy 上高配版的钱你替楼主出？",
+          "en": "@80houboy Are you going to pay for the high-spec version for the OP?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@80houboy 高配款千万不能买入门，入门型号根本不能用，m3max 内存和硬盘一定要拉满才舒服，供参考",
+          "en": "@80houboy The high-spec model must not buy the entry-level version, the entry-level model is completely unusable, m3max memory and hard drive must be maxed out to be comfortable, for your reference"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你的使用方式不对吧https://springwood.me/macos-m1-app/不要装 Rosetta2 ，装了的卸掉。保证你续航两天。",
+          "en": "Your usage method is wrong https://springwood.me/macos-m1-app/ Don't install Rosetta2, uninstall it if you have it installed. I guarantee your battery life will be two days."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@aeroyu 看下有没有一个叫 bird 的进程一直在工作",
+          "en": "@aeroyu Check if there is a process called bird that is constantly working"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@natsunoshion 官方检测出来了，说是电池因为太久没用，导致电池损耗了，我这电脑确实是一点没法用，只有插着电才能用今天这家官方店里也有一个同样问题的，也是 tb 百亿补贴，只能说百亿补贴那家店应该都是在清库存机，所以才那么便宜，难以保证没有暗病",
+          "en": "@natsunoshion The official test results showed that the battery had deteriorated because it hadn't been used for too long. This computer is really unusable, it can only be used when plugged in. There is also one with the same problem in this official store today, and it is also tb's 10 billion subsidy. I can only say that the store with the 10 billion subsidy should be clearing out inventory machines, that's why they're so cheap, and it's hard to guarantee that there are no hidden problems"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "活动监视器，对能耗影响倒排，12 小时电源倒排，看看是什么应用在耗电另外就是显示器亮度也是个耗电的大头——来自首发 m1 13 寸 pro ，当前电量还剩 35%，剩余使用时间 3 小时 35 分钟",
+          "en": "Activity Monitor, reverse the impact on energy consumption, reverse the 12-hour power supply, see what applications are consuming power, and the display brightness is also a major consumer of power – from the first release of the m1 13-inch pro, the current battery level is 35%, and the remaining usage time is 3 hours and 35 minutes"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@chendy 请问下是不是你的 app 都是 arm 非转译的？我试了关了所有后台，只开 b 站可以用 14h",
+          "en": "@chendy May I ask if your apps are all arm non-translated? I tried closing all background applications, and only opening Bilibili can last for 14 hours"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@aeroyu 之前开了 raycast clashx istaus ，公司的 vpn 等多个后台，前台基本就是 chrome 和 notion 在用",
+          "en": "@aeroyu Previously opened raycast clashx istaus, company VPN and other multiple background applications, the foreground is basically chrome and notion in use"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买新不买旧，别纠结，上高配版。元旦刚刚入手的 m3 max 入门版，2.1W ，供参考",
+          "en": "Buy new, not old, don't get tangled up, go for the high-spec version. Just bought a m3 max entry-level version on New Year's Day, 2.1W, for your reference"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "几几年了还买 M1 都过时铲品了",
+          "en": "What year is it, and you're still buying M1? It's an outdated product."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "去年底我的 m1 大概也就 6h 左右，主要耗电都是 chrome 了，后续换 Safari 试试。可以先看看主要耗电的 app ，尝试分析看看是什么原因吧",
+          "en": "My M1 was only about 6h at the end of last year, and the main power consumption was chrome. Try switching to Safari later. You can first see the main power-consuming app, and try to analyze what the reason is."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "M1 有一点负载的时候，功耗差不多就是这样，我现在的数据是：13.3 英寸的 MBA 电池只有 50Wh ，MBP 电池只有 58Wh 。算下来前者续航就不到 5 小时了……",
+          "en": "When M1 has a little load, the power consumption is basically like this. My current data is: the 13.3-inch MBA battery is only 50Wh, and the MBP battery is only 58Wh. Calculated, the former's battery life is less than 5 hours..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "续航还是很顶的，看下耗电应用，以及个人使用习惯。总有奇怪的人，明明 op 问的是 am1 续航问题，愣是憋出一句 M1 是几几年的过时产品，呵了个呵的",
+          "en": "The battery life is still very good, see the power-consuming applications, and personal usage habits. There are always strange people, who obviously ask about the battery life of am1, but they squeeze out a sentence that M1 is an outdated product from a few years ago, hehe"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我的 m1 差不多也这续航，东西开的比较多功耗 10W ，M2 的续航要好很多，同样工况下功耗在 7w ，电池也要稍微大一点。。",
+          "en": "My m1's battery life is about the same, I open a lot of things, and the power consumption is 10W. The M2's battery life is much better, the power consumption is 7w under the same conditions, and the battery is also slightly larger.."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@pmgh10 适合自己就好，我是用来轻办公，写写文档，开开会，偶尔看下代码，主力还是在台式机，没没必要上这么高配。我觉得只有适合和不适合，没有落后不落后",
+          "en": "@pmgh10 It's good as long as it suits you. I use it for light office work, writing documents, holding meetings, and occasionally looking at code. My main work is still on the desktop computer. There is no need to get such a high configuration. I think there is only suitable and unsuitable, not backward and not backward"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@naminokoe 我试试，主要有些软件是没有 arm 版的，比较麻烦",
+          "en": "@naminokoe I'll try it, mainly some software does not have an arm version, which is more troublesome"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@aeroyu 你说是轻办公，不知是什么软件这么奇怪没有 arm 版？",
+          "en": "@aeroyu You said it's light office work, I don't know what software is so strange that it doesn't have an arm version?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@naminokoe 公司 vpn ，snap ，截图，只要是公司的 vpn ，其他估计都会有替代",
+          "en": "@naminokoe Company VPN, snap, screenshots, as long as it's the company's VPN, there will be alternatives for the others"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "貌似用 10 来个小时还有电，m1 是我买过最好的苹果产品，价格实惠，性能强劲，很轻，不发热，续航还久，都找不着缺点了。我开发用，就是 8G 的起步版那个，比以前那个 16G 的 intel pro 爽太多",
+          "en": "It seems that there is still power left after using it for about 10 hours, the M1 is the best Apple product I have ever bought, it is affordable, powerful, very light, does not heat up, and has a long battery life; I can't find any shortcomings. I use it for development, the 8G entry-level version, which is much better than the previous 16G intel pro."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "回退到 bigger",
+          "en": "Revert to bigger"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

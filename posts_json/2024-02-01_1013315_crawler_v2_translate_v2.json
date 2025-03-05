@@ -1,0 +1,251 @@
+{
+  "id": 1013315,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Dataflare: 一款简单轻量的数据库管理器",
+          "en": "Dataflare: A simple and lightweight database manager"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Dataflare 是一款简单易用的数据库管理器，旨在帮助您更好地管理数据库，轻松的管理表格，查看数据，编写 SQL 查询。",
+          "en": "Dataflare is an easy-to-use database manager designed to help you better manage your databases, easily manage tables, view data, and write SQL queries."
+        },
+        {
+          "zh": "\r\n目前支持连接到 libSQL, MariaDB, MySQL, PostgreSQL, Rqlite, SQLCipher, SQLite 和 SQL Server 数据库，后续还会增加更多。",
+          "en": "Currently, it supports connecting to libSQL, MariaDB, MySQL, PostgreSQL, Rqlite, SQLCipher, SQLite, and SQL Server databases, and more will be added later."
+        },
+        {
+          "zh": "轻量小巧，只有 20M+ 左右的体积，支持 macOS, Windows, Linux 。",
+          "en": "It's lightweight and compact, with a size of only around 20MB+, and supports macOS, Windows, and Linux."
+        },
+        {
+          "zh": "\r\n![Create Table]( https://assets.dataflare.app/posts/2024-02-01-001.png)\r\n![Schema Manager]( https://assets.dataflare.app/posts/2024-02-01-002.png)\r\n![Preview Table]( https://assets.dataflare.app/posts/2024-02-01-003.png)\r\n![SQL Editor]( https://assets.dataflare.app/posts/2024-02-01-004.png)\r\n\r\n### 定价\r\n\r\n售价：`$39`，如果喜欢的话，可以付费支持一下。",
+          "en": "\r\n![Create Table]( https://assets.dataflare.app/posts/2024-02-01-001.png)\r\n![Schema Manager]( https://assets.dataflare.app/posts/2024-02-01-002.png)\r\n![Preview Table]( https://assets.dataflare.app/posts/2024-02-01-003.png)\r\n![SQL Editor]( https://assets.dataflare.app/posts/2024-02-01-004.png)\r\n\r\n### Pricing\r\n\r\nPrice: `$39`. If you like it, you can pay to support it."
+        },
+        {
+          "zh": "目前免费用户也可以使用所有功能，但是以后可能会针对免费用户添加一些限制。",
+          "en": "Currently, free users can also use all features, but some restrictions may be added for free users in the future."
+        },
+        {
+          "zh": "\r\n#### 折扣\r\n\r\n* 优惠 90%(10 个): **Y1MDCYMG** \r\n* 优惠 50%: **Q5NJCWNW**\r\n\r\n---\r\n\r\n之前在这里发布过一次，大家给了很多好的建议，真的非常感谢。",
+          "en": "\r\n#### Discounts\r\n\r\n* 90% off (10): **Y1MDCYMG**\r\n* 50% off: **Q5NJCWNW**\r\n\r\n---\r\n\r\nI posted here before, and everyone gave a lot of good suggestions, thank you very much."
+        },
+        {
+          "zh": "\r\n现在仍有很多不足，年后会加速开发，欢迎大家尝试一下 ❤️, 也欢迎大家提出任何建议！",
+          "en": "There are still many shortcomings now, and development will be accelerated after the Chinese New Year. Welcome everyone to try it ❤️, and also welcome everyone to make any suggestions!"
+        },
+        {
+          "zh": "\r\nTwitter: [@Dataflare]( https://twitter.com/DataflareApp)",
+          "en": "\r\nTwitter: [@Dataflare]( https://twitter.com/DataflareApp)"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "咋说呢，有 datagrip 和 dbeaver 了。。",
+          "en": "Well, there's DataGrip and Dbeaver already..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "网站： https://dataflare.app",
+          "en": "Website: https://dataflare.app"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "之前发帖的时候用过，不过之前的版本好像没有中文，对于土生土长的中国人来说，对于国人开发的软件不支持中文这点，无法接受。",
+          "en": "I used it when you posted before, but the previous version didn't seem to have Chinese. For native Chinese people, it is unacceptable that software developed by Chinese people does not support Chinese."
+        },
+        {
+          "zh": "虽然简单的英文也能看懂，可能软件的目标用户不是中国人吧",
+          "en": "Although I can understand simple English, maybe the software's target users are not Chinese."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "> 目前免费用户也可以使用所有功能，但是以后可能会针对免费用户添加一些限制。",
+          "en": "> Currently, free users can also use all features, but some restrictions may be added for free users in the future."
+        },
+        {
+          "zh": "要么你就别让免费用户一开始用所有功能，不然从用户手里阉割已有的功能是大忌。",
+          "en": "Either don't let free users use all the features at the beginning, or it's a big taboo to cut existing features from the users' hands."
+        },
+        {
+          "zh": "既然付费，就要给付费用户单独开发独占新颖的功能，把免费过的功能割给付费用户，只能说两边不讨好。",
+          "en": "Since it's paid, you should develop exclusive and novel features for paid users separately. Cutting features that were once free for paid users can only be said to be unsatisfying for both sides."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wyhaya 你这图标。我 4K 居然看到了锯齿。。。而且 win 下面，我自定义安装路径。。报错了。。。mac 有 table plus 了，我还没试。还是不错的，期待更新。。希望能加入个 redis 。",
+          "en": "@wyhaya Your icon. I actually saw jagged edges on 4K... Also, on Windows, I customized the installation path... it reported an error... There is Table Plus on Mac, I haven't tried it yet. It's pretty good, looking forward to the update... Hope to add Redis."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已经-90%入手,希望可以多一点许可证数量,有一台 windows 和一台 MAC,还得不断反激活才能一起用感觉如果可以三个就很不错",
+          "en": "Already bought it with -90% off, hoping for more license numbers. I have a Windows machine and a Mac, and I have to keep deactivating and reactivating them to use them together. It would be great if it could be used on three."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@murongxdb 下个版本会加上@outtime @ponelyr @wukaige 加上了，感谢支持！",
+          "en": "@murongxdb The next version will include @outtime @ponelyr @wukaige. Thanks for the support!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "-90% 支持了一单",
+          "en": "-90% off supported one order"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "原生不支持中文",
+          "en": "Natively does not support Chinese"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gniviliving 确实，不是说英文看不懂，只是中文看着更亲切，离不开 navicat 的 结构对比和数据同步",
+          "en": "@gniviliving Exactly, it's not that I don't understand English, it's just that Chinese looks more friendly. I can't live without Navicat's structure comparison and data synchronization."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gniviliving @dianso 主要原因是这款软件是针对程序员的，其次是它比较简单，没有什么像文章之类的东西，这软件还处于初期，我就想着先做英文了。",
+          "en": "@gniviliving @dianso The main reason is that this software is aimed at programmers, and secondly, it's relatively simple and doesn't have things like articles. The software is still in its early stages, so I was thinking of doing English first."
+        },
+        {
+          "zh": "中文肯定会支持的。",
+          "en": "Chinese will definitely be supported."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "-90% 支持了一单我最希望的功能，支持中文，支持修改时生成 sql ，结构对比",
+          "en": "-90% off supported one order for the features I most hope for: Chinese support, SQL generation upon modification, and structure comparison"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lzgshsj 第一次做产品，还不太懂这里面的门道，我会重新考虑的。",
+          "en": "@lzgshsj First time making a product, I don't quite understand the intricacies. I will reconsider."
+        },
+        {
+          "zh": "多谢了",
+          "en": "Thank you very much."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wyhaya #9 可以查看 ddl 语句吗？",
+          "en": "@wyhaya #9 Can you view DDL statements?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@QlanQ 中文支持会加上的",
+          "en": "@QlanQ Chinese support will be added"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哇，一折，虽然用不上也买了，😄",
+          "en": "Wow, 10% off, I bought it even though I don't need it, 😄"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@QlanQ 现在还没有，诸如此类的功能还有很多，以后会慢慢完善的。",
+          "en": "@QlanQ Not yet, there are many similar features, and they will be gradually improved in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "39 美元？？？这么贵的吗",
+          "en": "39 USD??? Is it that expensive?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@QlanQ 试试 IDEA 插件 Database Buddy ，支持数据结构对比",
+          "en": "@QlanQ Try the IDEA plugin Database Buddy, it supports data structure comparison"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "UI 挺不错的，希望支持中文，更希望能接近 phpMyAdmin ，这东东用了好多年了",
+          "en": "The UI is pretty good, hope for Chinese support, and hope it can be closer to phpMyAdmin. I've been using this thing for many years."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

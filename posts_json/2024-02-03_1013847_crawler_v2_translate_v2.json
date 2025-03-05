@@ -1,0 +1,203 @@
+{
+  "id": 1013847,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Zed 编辑器前景如何？能否撼动 VSCode 的地位",
+          "en": "What are the prospects for the Zed editor? Can it shake the status of VSCode?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "貌似现在只支持 Mac ，大家感觉 Zed 体验怎么样？",
+          "en": "It seems that it currently only supports Mac. How do you all feel about the Zed experience?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "楼上的多看一眼项目都没时间吗，架构设计上是全平台项目，linux/mac/web/win 全有。正式发布前暂时只有 mac 而已。因为 vscode 基于 web,上限看得见且永远去不掉，zed 有很大机会上位，毕竟作为一个编辑器功能集是有限的，基本功能完善后拼得是编辑体验，这方面原生优势太大了。",
+          "en": "Do the people above not even have time to take a look at the project? The architectural design is a cross-platform project, with linux/mac/web/win all supported. It's only on Mac for now before the official release. Because VSCode is based on web, its ceiling is visible and can never be removed. Zed has a great chance to move up. After all, as an editor, the feature set is limited. After the basic functions are perfected, the competition is the editing experience, and the native advantages in this area are huge."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "native language 優勢就大的話，C++ 寫的 Sublime 應該壓倒 Visual Studio Code.現況是 TypeScript 寫的 VS Code 遠比 C++ 寫的 Sublime 流行.",
+          "en": "If native language advantages are significant, Sublime written in C++ should overwhelm Visual Studio Code. The current situation is that VS Code written in TypeScript is far more popular than Sublime written in C++."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "写插件的门槛越低，生态就会越好，用户量也会越多。性能优化有边际递减效应，性能非常差确实影响体验，然而达到一定水平以后，再优化也不会有明显的体验提升了。随着近几年处理器性能极大提升，加上内存价格大幅下降，长期来看，其实 VSCode 优势更大。",
+          "en": "The lower the threshold for writing plugins, the better the ecosystem will be and the more users there will be. Performance optimization has a diminishing marginal effect. Poor performance does affect the experience, but after reaching a certain level, further optimization will not significantly improve the experience. With the significant improvement in processor performance in recent years, coupled with the sharp decline in memory prices, VSCode actually has a greater advantage in the long run."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为啥协作不能做成编辑器的插件呢，总感觉协作需求并没有强到为了这个换编辑器，这还得让整个团队的人都用同一个编辑器，更别说一个本应该纯本地离线运行的应用被迫绑到一家公司的云服务上。。",
+          "en": "Why can't collaboration be made into an editor plugin? I always feel that the collaboration needs are not strong enough to warrant switching editors. This also requires the entire team to use the same editor, not to mention that an application that should have been running purely locally and offline is forced to be bound to a company's cloud service."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不支持 windows 还想撼动?我本来想试试但我用软件必须支持 macos 和 windows 得, 因为我希望在两个系统用一套软件",
+          "en": "If it doesn't support Windows, it still wants to shake the status? I wanted to try it, but the software I use must support macOS and Windows, because I want to use one set of software on both systems."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果有个能做到命令行得全生态, 简单点的, 能代替 vim 或 nvim 得全平台编辑器, 那可能有戏",
+          "en": "If there's a cross-platform editor that can do everything from the command line, is simpler, and can replace vim or nvim, then there might be a chance."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://github.com/lapce/lapce  这个不也是 rust 编写的吗 跟它比有什么优势 这个支持的平台也比较全",
+          "en": "https://github.com/lapce/lapce Isn't this also written in Rust? What advantages does it have compared to this one? This one also supports more platforms."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SenLief 难道不是因为 vs code 是免费的吗，大家都喜欢免费的东西。",
+          "en": "@SenLief Isn't it because VS Code is free? Everyone likes free things."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没有 windows 的计划，功能少的可怜，vscode 刚出来就比这强了吧？atom 原团队开发？那就更没信心了",
+          "en": "No Windows plan, pitifully few features. VSCode was stronger than this when it first came out, right? Developed by the original Atom team? Then I have even less confidence."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我目前在 Mac 上准备拿它替代 Sublime ，而 Sublime 现在对我来说则是 TextEdit 的替代品 ...而 VSCode 则是 VS/Xcode 的替代品（别跟我说什么编辑器和 IDE ，对于大多数人来说，家养的只因和工业养殖的只因不存在本质区别），所以这俩现在是不同的定位。从大菊来看，对我来说 VSCode 如果能有一个像样的竞争者是最好，没有也无所谓，所以不指望能替代 VSCode 。并且现实情况上 zed 目前也确实存在一些缺陷，比如暂时只支持 Mac 是一个，还有一个是让我第一次打开就蚌不住的——一个只 target Mac 的软件，UI 上的所有文字居然全都是等宽的！（虽然可能实际上不是严格的等宽，有一个说法是“quasi-proportional spacing to allow the font to still feel monospace”——总之设计意图依然是等宽的）这样的审美你跟我说是 Atom 的人做的，真的有种在开玩笑的感觉。官网更加搞笑，不同的图片使用的是不同的字体。至于在我这完全替代 VSCode ，各种功能我觉得是次要的，毕竟 80% 的人只会用到 20% 的功能，除了完善主要平台支持之外，下面几点很重要：# Remote Development或者支持 Web 从而能够像 code-server 一样在浏览器中使用远程的编辑器，以支持在服务器上开发。这些都在 roadmap 里面，做到一个就算它合格。当然有一些微妙的区别，比如像 Remote Development 或者 Collaboration 这种东西，要做到最好的体验，最好是要在编辑器底层架构设计时就考虑进去，所以一做就必然是很大的东西，不可能做成单独的插件。比如 VSCode 是单独分出来了一个 extension host 进程，然后定义了一套 RPC 协议。而按照 vscode-remote-oss 项目作者的说法，VSCode 官方的 Remote 插件提供的仅仅是把这套架构通过 SSH 连接起来的 integration （所以 TA 就自己造了一个）。虽然你可能不用 Remote ，但是纯本地使用跑的依然是这套架构，所有的操作都要过一遍 RPC 。甚至就连 Vim 模式这种功能也有这方面的问题（ VSCode GitHub 上 vote 前三的 Issue 有一个就是要原生的 Vim 模式的）。VSCode 在这方面还有一个优势是它自己是用 Web 写的，所以直接就能跑浏览器上，而试图在浏览器上搞 DirectUI 的，我还没见过能保持一定复杂性的前提下能做得体验特别好的。# 插件生态不仅仅是常用插件，我还比较依赖一些长尾插件。比如 ccls 替代官方的 C++ 插件，Codeium 替代 Copilot ，还有 OCaml Platform 这种小众标准插件。虽然我的用法是尽量少装插件，但是以上几个依然是关键依赖。这些其实都和 MSFT 自己没关系，都是社区开发的。现在大家做一个工具，一般至少都会考虑 Vim ，VSCode ，Emacs 几个编辑器，再多点加上 NeoVim ，Sublime ，还有 JetBrains ，VS 和 Eclipse 三兄贵，新玩家能挤进第二梯队就算成功。VSCode 有一个天然优势是它和 TypeScript 共同成长并且建立了良好的共生关系，VSCode 使用 TypeScript 编写，VSCode 同时又为 TypeScript 提供了良好的编辑体验，而由于有 VSCode 提供的良好编辑体验，TypeScript 也更容易推广。类似的模式其实不止出现在 VSCode 中，比如至少在 VSCode 流行之前，Emacs 上的一些小众语言插件就能提供比其他编辑器更佳的体验，比如 org 是天然绑定的，以及 proof-general ，merlin 等等，当然还有各种 LISP 。这么玩的一个好处是虽然其他语言的人不一定会用你，但是这个特定语言的群体你是吃定了，有了稳定的基本盘。Zed 不是不能走这条路，比如可以试着成为 Rust 的 de facto 开发环境，不过各方面相比 VSCode 和 TS 的先例都要难太多了。# 商业化计划Zed 和 lapce ，xi 等之前在 Rust 前线出现的新编辑器（ helix 很难放在一起比，因为貌似还没一个能用的 GUI 前端）的本质区别，我觉得是 Zed 一开始就是作为一个商业项目打造的。我是大概 1 月中旬开始关注 Zed 这个项目的，当时是看到了他们关于 GPU 的文章，顺便看了一下编辑器，当时觉得很好但是兴趣不大，因为它不开源，我不会把我工作流中的 critical path 跟一个不完善还闭源的东西关联起来。没想到过了一周就开源了，看起来官方的意思是编辑器开源（ copyleft GPL/AGPL 防止别人直接用，同时 CLA 要求所有 copyright 归 Zed 公司这样自己可以用），然后卖服务。这里存在两方面的问题，第一是这个商业模式是否可持续，比如现在唯一有点谱儿的 Zed Channels 能有多少实际需求（如果 Zed 本体做得不错的话可以考虑情怀性支持，不过这种支持终究治不了商业模式基础性的问题）。我其实根本不在乎 Zed Industries 能不能活，因为就算他们死了，一个开源项目扔给社区还是能继续做，但是如果过早地死了，项目完成度太低，生态太差，那估计结果还不如 Atom 。第二是他们以后会在什么地方下刀，比如 VSCode （和 Nadella 时期 MSFT 不少类似的热门开源以及非开源项目）到现在来看，其实依然在走一个老 EEE 策略的变体，当然对于 VSCode 来说，可以做到只闭源不收费，但是 Zed 大概做不到，比如 Remote 要是收费，那就比较要命了（虽然这个可能确实是不错的收入）。另外一个情况是我这如果是在工作中使用的收费软件的话，原则上需要报备审批预算，不能私自买，Freeware 也需要审核 License ，流程上会有额外成本。",
+          "en": "I am currently preparing to replace Sublime with it on my Mac, and Sublime is now a replacement for TextEdit for me... while VSCode is a replacement for VS/Xcode (don't tell me about editors and IDEs, for most people, there is no essential difference between domestic chinchillas and industrial-farmed chinchillas), so these two now have different positions. From a big picture perspective, it's best for me if VSCode has a decent competitor, but it doesn't matter if it doesn't, so I don't expect it to replace VSCode. And in reality, there are indeed some defects with Zed currently, such as the fact that it only supports Mac for the time being, and another is that it made me cringe the first time I opened it - software that only targets Mac, and all the text on the UI is actually monospaced! (Although it may not actually be strictly monospaced, there is a saying, “quasi-proportional spacing to allow the font to still feel monospace” - in short, the design intention is still monospaced). You say this aesthetic is made by the people from Atom, it really feels like a joke. The official website is even funnier, using different fonts for different pictures. As for completely replacing VSCode for me, I think various functions are secondary, after all, 80% of people will only use 20% of the functions. In addition to improving the support for major platforms, the following points are very important: # Remote Development or support for Web so that you can use a remote editor in a browser like code-server to support development on the server. These are all in the roadmap, and it will pass if it is done. Of course, there are some subtle differences, such as things like Remote Development or Collaboration, to achieve the best experience, it is best to consider it when designing the underlying architecture of the editor, so it must be a very large thing when it is done, and it cannot be made into a separate plugin. For example, VSCode separately separated an extension host process and then defined a set of RPC protocols. According to the author of the vscode-remote-oss project, the Remote plugin provided by the VSCode official only provides the integration that connects this architecture through SSH (so TA built one himself). Although you may not use Remote, the architecture is still running on the local side, and all operations have to go through RPC. Even the Vim mode function has this kind of problem (one of the top three Issues voted on in VSCode GitHub is about the native Vim mode). Another advantage of VSCode in this regard is that it is written with Web, so it can run directly on the browser, and I have never seen one trying to do DirectUI in the browser that can maintain a certain complexity and at the same time achieve a particularly good experience. # Plugin ecosystem Not only the commonly used plugins, but I also rely more on some long-tail plugins. For example, ccls replaces the official C++ plugin, Codeium replaces Copilot, and OCaml Platform is these niche standard plugins. Although I try to install as few plugins as possible, the above are still key dependencies. These are actually not related to MSFT itself, they are all community-developed. Now when everyone makes a tool, they generally consider at least Vim, VSCode, and Emacs editors. Then there are NeoVim, Sublime, as well as the JetBrains, VS, and Eclipse trio. It is considered a success if a new player can squeeze into the second tier. VSCode has a natural advantage in that it has grown and established a good symbiotic relationship with TypeScript. VSCode is written in TypeScript, and VSCode at the same time provides a good editing experience for TypeScript, and because of the good editing experience provided by VSCode, TypeScript is also easier to promote. Similar models actually appear not only in VSCode, for example, at least before VSCode became popular, some niche language plugins on Emacs could provide a better experience than other editors, such as org is naturally bound, as well as proof-general, merlin, etc., and of course, there are various LISP. One advantage of playing this way is that although people in other languages may not use you, you have a firm grip on the group of this specific language and have a stable base. Zed is not unable to take this road, such as trying to become the de facto development environment for Rust, but it is too difficult in all aspects compared to the precedents of VSCode and TS. # Commercialization plan The essential difference between Zed and new editors that appeared before on the Rust front such as lapce, xi (helix is difficult to compare, because there doesn't seem to be a usable GUI front end), I think, is that Zed was built as a commercial project from the beginning. I started paying attention to the Zed project around mid-January, and I saw their articles on GPU, and then I looked at the editor. I thought it was good at the time but not very interested, because it was not open source, and I would not associate the critical path in my workflow with something that is incomplete and closed source. I didn't expect it to be open-sourced after a week. It seems that the official meaning is that the editor is open source (copyleft GPL/AGPL to prevent others from using it directly, and the CLA requires all copyrights to go to Zed company so that they can use it themselves), and then sell services. There are two problems here, the first is whether this business model is sustainable, such as how much actual demand there is for the only promising Zed Channels (if the Zed itself is well done, we can consider emotional support, but this kind of support cannot cure the fundamental problems of the business model). I actually don't care if Zed Industries can survive, because even if they die, an open-source project can still be given to the community to continue, but if it dies too early, the project is not well-completed and the ecosystem is too poor, then the result is estimated to be worse than Atom. The second is where they will cut next, such as VSCode (and many similar popular open source and non-open source projects from the Nadella period of MSFT) still appears to be using a variant of the old EEE strategy, of course, for VSCode, it can be done only to close source and not charge, but Zed probably can't, if Remote is charged, then it will be quite deadly (although this may actually be a good income). Another situation is that if I am using paid software in my work, I need to report and approve the budget in principle, I cannot buy it privately, and Freeware also needs to be audited for its License, and there will be additional costs in the process."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自带的基础功能也不少了，写 js 和 rust 能满足大部分人了。但插件生态系统起不来难火。多人协作写代码这个做的很强。",
+          "en": "It has a lot of basic functions by itself, and can satisfy most people who write js and rust. But it's hard to be popular if the plugin ecosystem doesn't take off. This is very strong in terms of collaborative coding."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Zed 插件用什么编写？不会也是 rust 吧？？",
+          "en": "What are Zed plugins written in? Isn't it Rust too??"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "只支持 mac 的话没前景",
+          "en": "No prospects if it only supports Mac"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没戏",
+          "en": "No chance"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没生态",
+          "en": "No ecosystem"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "让我想起那个叫 Helix 的玩意",
+          "en": "It reminds me of that thing called Helix"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "windows 用户表示情绪稳定",
+          "en": "Windows users express stable emotions"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "水果闭环里，只适合水果。",
+          "en": "In the fruit loop, only suitable for fruit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "vscode 的护城河是生态，未来或许会有一款生态更好的编辑器会撼动 vscode 的地位，但是多半不会是 zed 。",
+          "en": "VSCode's moat is the ecosystem. Perhaps in the future, an editor with a better ecosystem will shake VSCode's position, but it probably won't be Zed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mac Only, 肯定打不过 VSCODE",
+          "en": "Mac Only, definitely can't beat VSCODE"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

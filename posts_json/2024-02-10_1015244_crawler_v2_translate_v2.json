@@ -1,0 +1,203 @@
+{
+  "id": 1015244,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Windows 上哪个软件可以正确播放杜比视界的视频文件？",
+          "en": "Which software on Windows can correctly play Dolby Vision video files?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "试了一圈，VLC 、Potplayer 、kodi 都不行，画面颜色是偏色的",
+          "en": "Tried VLC, Potplayer, and Kodi, but none of them worked; the screen color is biased."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "> Windows 总是这样，你花了一天想解决一个在别的操作系统不是问题的问题，结果时间还是白费了这句话适用在 Mac OS 上的时机恐怕要远多于适用于其他所有系统家族的总和。",
+          "en": "> Windows is always like this. You spend a day trying to solve a problem that isn't a problem on other operating systems, but the time is wasted. This sentence probably applies to Mac OS far more often than to all other system families combined."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "PC/Mac 实际上都不支持杜比，各种方案要么映射 HDR10 ，要么映射 SDR 。还不如直接放 HDR10 的视频。杜比的授权码其实都是集成在蓝光播放机的 SoC 里面的……",
+          "en": "PC/Mac don't actually support Dolby. Various solutions either map HDR10 or SDR. It's better to directly play HDR10 videos. The Dolby license codes are actually integrated into the SoC of Blu-ray players..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "微软 uwp 的“电影和电视”",
+          "en": "Microsoft UWP's \"Movies & TV\""
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "mpv-lazy@github检查 mpv.conf 里面有这行vo = gpu-next #=gpu 不能解，next 才可以PS: 12700 核显",
+          "en": "mpv-lazy@github Check mpv.conf for this line: vo = gpu-next #=gpu cannot decode, only next. PS: 12700 integrated graphics"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自带的电影和电视就行不过要装几个插件杜比视界 https://apps.microsoft.com/store/detail/dolby-vision/9MVMZ93N61T9hevc 的扩展 https://apps.microsoft.com/store/detail/来自设备制造商的-hevc-视频扩展/9N4WGH0Z6VHQ?hl=zh-cn&gl=cn杜比全景声https://apps.microsoft.com/store/detail/dolby-access/9N0866FS04W8",
+          "en": "The built-in Movies & TV app is enough, but you need to install a few plugins. Dolby Vision https://apps.microsoft.com/store/detail/dolby-vision/9MVMZ93N61T9hevc extension https://apps.microsoft.com/store/detail/來自設備制造商的-hevc-視頻擴展/9N4WGH0Z6VHQ?hl=zh-cn&gl=cn Dolby Atmos https://apps.microsoft.com/store/detail/dolby-access/9N0866FS04W8"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我个人尝试过在 SDR 显示器上放 DV 和 HDR 视频，mpv 和 mpcbe 其实都有点亮度问题，自带的电影电视是正确的",
+          "en": "I have personally tried playing DV and HDR videos on an SDR monitor. mpv and mpcbe actually have some brightness issues, but the built-in Movies & TV app is correct."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@CNM47589 之前是免费的，还有就是品牌电脑都会预装设备制造商的 hevc ，你可以找找离线包",
+          "en": "@CNM47589 It used to be free, and brand-name computers will come pre-installed with the manufacturer's HEVC, you can look for the offline package."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://codecguide.com/download_kl.htm",
+          "en": "https://codecguide.com/download_kl.htm"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@CNM47589 掉帧这个可能是硬件性能问题，或者试下调整 MPC video render 的设置，使用 d3d11 缩放及 flip swap effect另外我记得通常情况下看 HDR 内容想要少点问题还是需要系统全局 HDR 的，以及 win11 最新稳定版本。",
+          "en": "@CNM47589 Frame drops may be a hardware performance issue, or try adjusting the settings of the MPC video render and use d3d11 scaling and flip swap effect. Also, I remember that usually, for viewing HDR content with fewer problems, you still need global HDR in the system, and the latest stable version of Windows 11."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "杜比视界这些问题完全出自这个 nt 闭源格式本身，理论上要买它认证的解码器，认证的显示器才能播。Windows 上的电影与电视只是正确映射了 DV 到 SDR 或者 HDR ，并没有向支持 DV 的显示器发送 DV 元数据。Energy Player 说是支持激活显示器的 DV 模式，reddit 上一些人也说可以，但是我用我电视试了试并不能出来 DV 图标，或许笔记本内置的支持 DV 的显示器可以。https://www.reddit.com/r/htpc/comments/1936n8g/dolby_vision_lldv_now_possible_on_windows_1011/",
+          "en": "These Dolby Vision issues stem entirely from the NT closed-source format itself. Theoretically, you need to buy a certified decoder and a certified monitor to play it. The Movies & TV app on Windows only correctly maps DV to SDR or HDR and does not send DV metadata to monitors that support DV. Energy Player claims to support activating the DV mode of the display, and some people on Reddit also say it works, but I tried it with my TV and the DV icon didn't appear. Perhaps the built-in DV-supporting displays in laptops can do it. https://www.reddit.com/r/htpc/comments/1936n8g/dolby_vision_lldv_now_possible_on_windows_1011/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉小屏设备看这种也是浪费了 dv 这种适合大屏幕多声道 什么电脑平板手机都不配",
+          "en": "It feels like watching this on small-screen devices also wastes DV, which is suitable for large screens and multi-channel audio; no computer, tablet, or mobile phone is worthy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "来讲下要实现真正杜比视界支持的完备条件吧。硬件：1. 显示器支持杜比视界。 因为杜比视界是针对硬件私有认证和授权的，显示器只有经过杜比认证，才能使用视频文件中的私有格式的杜比动态元数据完成亮度和色彩的动态映射；显示器最好 1000 尼特的全局最高亮度，否则 HDR 显示效果就是在拆东墙补西墙。2. 解码器支持 HDR HEVC 视频解码最好是硬件解码。 软件解码也是可行的，只是对 4K 以上 HEVC HDR 软解 CPU 要求比较高。但下文有讲的实际情况是，只有系统播放器比较好的支持了杜比视界，系统播放器不会使用第三方软解，所以软件解码在这里没啥意义。软件：1. 操作系统支持 HDR 和杜比视界。原因是视频文件中的动态元数值是私有的，需要视频帧显示的时候，将对应的私有动态元数据传送给显示器。显示器需要这些数据才能做亮度和色彩的动态映射。现状：windows 11 支持，需要去设置里面将对应显示器的 HDR 开启，模式选择杜比视界；macOS 用苹果自己屏幕的基本都支持（笔记本自带屏幕、iMac 显示屏、XDisplay Pro ）。可能有部分老机型不支持。部分 macbook air 全局最高亮度只有 500 尼特，效果打折扣。 使用自带屏幕杜比不需要手动开启。2. 播放器支持杜比视界因为涉及动态元数据透传给显示器，需要操作系统显示窗口支持在渲染视频帧时有接口给应用来送入杜比动态元数据。macOS 有特定的 ui layer 支持； Windows 貌似没有（不太确定）现状：目前似乎没有第三方播放器按上面方法进行了完全的杜比支持，最好的可能也就是对于 HLG 的杜比，丢弃了动态元数据，把它当作普通静态元数据的 HLG 格式的 HDR 视频播放。比较完美支持的还是系统播放器， Windows 11 的”电影和电视“ （需要先安装 HEVC 扩展）。在满足上述所有条件情况下播放杜比视频，会在窗口上有杜比视界水印标记。macOS 上 QuickTime 和电影。",
+          "en": "Let's talk about the complete conditions for realizing true Dolby Vision support. Hardware: 1. The display supports Dolby Vision. Because Dolby Vision is private certification and authorization for hardware, only displays certified by Dolby can use the private Dolby dynamic metadata in video files to complete dynamic mapping of brightness and color; the display is best with a global maximum brightness of 1000 nits, otherwise the HDR display effect will be robbing Peter to pay Paul. 2. The decoder supports HDR HEVC video decoding, preferably hardware decoding. Software decoding is also feasible, but the CPU requirements for software decoding of 4K or higher HEVC HDR are relatively high. However, as mentioned in the following text, the reality is that only the system player supports Dolby Vision well, and the system player will not use third-party software decoding, so software decoding is meaningless here. Software: 1. The operating system supports HDR and Dolby Vision. The reason is that the dynamic metadata values in video files are private, and the corresponding private dynamic metadata needs to be transmitted to the display when the video frames are displayed. The display needs this data to perform dynamic mapping of brightness and color. Current situation: Windows 11 supports it; you need to go to the settings to enable HDR for the corresponding display and select Dolby Vision mode; macOS basically supports it with Apple's own screens (laptops built-in screens, iMac displays, XDisplay Pro). Some older models may not be supported. Some MacBook Airs have a global maximum brightness of only 500 nits, resulting in a discounted effect. Dolby on the built-in screen does not need to be turned on manually. 2. The player supports Dolby Vision because it involves the transmission of dynamic metadata to the display, and the operating system's display window needs to support an interface for applications to send Dolby dynamic metadata when rendering video frames. macOS has a specific UI layer support; Windows doesn't seem to have one (not sure). Current situation: Currently, it seems that there are no third-party players that have fully supported Dolby in the above methods, and the best may be for Dolby for HLG, discarding the dynamic metadata and playing it as an HDR video in the ordinary static metadata HLG format. The most perfect support is still the system player, Windows 11 \"Movies & TV\" (HEVC extension needs to be installed first). Playing Dolby videos under all of the above conditions will display a Dolby Vision watermark on the window. QuickTime and Movies on macOS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "基本上平时消费级最方便观看杜比的就一些：1. 带屏幕的苹果电脑。 主流的都支持杜比视界。 并且不用配置，使用 quicktime 播放就行。 quicktime 不支持的格式就别折腾了，第三方播放器没见过哪个支持比较完美的2. 明确支持杜比视界的安卓电视。 安卓系统层级是有基础的杜比视界支持的，前提是硬件厂商的显示设备和硬件解码器也要做支持。所以明确支持杜比视界的电视（部分索尼、HTC 的型号）是 ok 的。 但使用的时候，要注意电视显示模式是否会被 app 正确切换到杜比视界模式（可能索尼显示的校正模式）。软件层面，流媒体平台 Netflix 和腾讯视频支持没啥问题。 第三方 app 播放自有内容没了解过。3. apple tv + 杜比视界电视4. iPhone 手机、明确支持杜比视界的安卓手机Windows 平台就算了。笔记本电脑很少见到自带显示器支持杜比视界的，能做好默认打开 HDR 并且在 HDR 模式下色彩正常就谢天谢地了。外接显示器支持杜比的死贵。 还不如选一个好点的非杜比的 HDR 显示器。",
+          "en": "Basically, the most convenient way for consumer-grade users to watch Dolby Vision is: 1. Apple computers with screens. The mainstream ones all support Dolby Vision. And no configuration is needed, just use QuickTime to play. Don't bother with formats that QuickTime doesn't support; I haven't seen any third-party players that support it perfectly. 2. Android TVs that explicitly support Dolby Vision. There is basic Dolby Vision support at the Android system level, provided that the hardware manufacturer's display devices and hardware decoders also support it. Therefore, TVs that explicitly support Dolby Vision (some Sony and HTC models) are OK. But when using it, pay attention to whether the TV display mode will be correctly switched to Dolby Vision mode by the app (possibly the Sony display's correction mode). At the software level, streaming platforms Netflix and Tencent Video have no issues. I haven't learned about third-party apps playing their own content. 3. Apple TV + Dolby Vision TV 4. iPhone phones, Android phones that explicitly support Dolby Vision. Forget about the Windows platform. It's rare to see laptops with built-in displays that support Dolby Vision; it's a blessing if HDR is enabled by default and the colors are normal in HDR mode. External displays that support Dolby are ridiculously expensive. It's better to choose a better non-Dolby HDR monitor."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://www.bilibili.com/video/BV1HM411D78g/",
+          "en": "https://www.bilibili.com/video/BV1HM411D78g/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最简单便宜的方式是买一台 appletv 然后开 infuse 。也可以用 iphone/ ipad 转接 HDMI 到电视。虽然不是尽善尽美，但绝大部分都是可以播放映射的，确实方便使用，不用动。",
+          "en": "The simplest and cheapest way is to buy an Apple TV and then enable Infuse. You can also use an iPhone/iPad to connect HDMI to the TV. While not perfect, most of them can play the mapped content, which is indeed convenient to use and doesn't require any effort."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wyd011011daniel 给我看晕了，没想到这个事在 PC 上这么难，我以为只是软件没选对。不过也不用 apple tv ，安卓盒子上的 kodi 可以正确播放杜比视界",
+          "en": "@wyd011011daniel I'm dizzy. I didn't expect this to be so difficult on PC; I thought it was just the wrong software. But I don't need an Apple TV either; Kodi on Android boxes can correctly play Dolby Vision."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "需要安装 uwp 的 dolby vison",
+          "en": "Need to install UWP's Dolby Vision"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "potplayer 可以的，kodi 也可以",
+          "en": "Potplayer can, and Kodi can too."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@JensenQian 谢谢你的链接，但是这个杜比视界插件在我的微软商店里无法下载，点你链接进去详情页根本没有下载选项，自己搜也搜不到，不知道什么原因，放弃了",
+          "en": "@JensenQian Thank you for the link, but I can't download this Dolby Vision plugin in my Microsoft Store. There is no download option on the details page after clicking on your link, and I can't find it myself either. I don't know the reason, I gave up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@EVANGELIONAir 那你花钱买了那个 hevc 解码插件了吗？我这里显示要 0.99USD",
+          "en": "@EVANGELIONAir Did you pay for that HEVC decoding plugin? It shows $0.99 USD here."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}
