@@ -1,0 +1,207 @@
+{
+  "id": 1015317,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Tailscale 是使用官方服务还是自建 Control server？",
+          "en": "Is Tailscale using the official service or a self-built Control server?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想问问各位懂哥是怎么选的？用况、以及 Why 。",
+          "en": "I want to ask you experts how you choose? Use case and why."
+        },
+        {
+          "zh": "\r\n\r\n请解惑。谢谢大家",
+          "en": "Please explain. Thank you."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@daisyfloor #19 你多虑了，不会喝茶的。数据都是加密的，数据出境就喝茶，那也太离谱了，与其这样，国家不如直接设置白名单模式。",
+          "en": "@daisyfloor #19 You're overthinking it, you won't get into trouble. The data is all encrypted, it's too outrageous to get into trouble just for data leaving the country. If that's the case, the government might as well just set up a whitelist mode."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "再补充一个问题。大家会用它的 Exit node 功能么？会不会被 ban 了啊",
+          "en": "One more question. Does anyone use its Exit node function? Will it get banned?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议楼主自建，然后会不会被封，实验过后踢我一下",
+          "en": "I suggest the poster build their own. Let me know about the banning after you experiment with it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "目前 TS 自建的 Control server 用起来非常麻烦，远不如 ZT 那边的生态好，用 TS 基本上还是用官方的吧",
+          "en": "Currently, building your own TS Control server is very troublesome, far less good than ZT's ecosystem. When using TS, it's basically better to just use the official one."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "阻止我自建的原因 /t/963144",
+          "en": "The reason that prevents me from building my own: /t/963144"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@0o0O0o0O0o @kenvix 问个小白问题。如果用官方。我没搞懂那个中继，网上说中继都在境外。我家里电脑和公司电脑用它们那个虚拟局域网 ip 互访，是不是实际上流量都会要跨境？",
+          "en": "@0o0O0o0O0o @kenvix Asking a newbie question. If using the official version, I don't understand that relay. The internet says the relays are all overseas. If my home computer and company computer use their virtual LAN IP to access each other, does that mean that all the traffic will actually cross borders?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "节点之间通信优先直连（打洞），不成功才走中继。",
+          "en": "Communication between nodes prioritizes direct connection (hole punching), and only uses a relay if it fails."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为了用笔记本远程到宿舍台式机，在腾讯云自建了 Control Server 和 derp 节点，目前使用挺正常的",
+          "en": "In order to use my laptop to remotely access my dorm desktop, I built my own Control Server and derp node on Tencent Cloud, and it's working fine so far."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@daisyfloor 控制服官方，中继自建就好了。",
+          "en": "@daisyfloor Use the official Control server, and build your own relay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@marquina 如果不自建立境内中继的话，需要中继就走跨境中继服务器了，这种过墙会被 ban 么？或者说会被喝茶么？",
+          "en": "@marquina If you don't build your own domestic relay, then relaying will go through cross-border relay servers. Will this get banned? Or will it cause problems?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@daisyfloor 会的，ts/wg 的不带特征混淆，等同于普通 vpn ，过墙很容易丢包",
+          "en": "@daisyfloor Yes, ts/wg does not have feature obfuscation and is equivalent to an ordinary VPN, and it is easy to lose packets when crossing the firewall."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我目前是自建的，exit node 偶尔使用。首先 ts 的官方中继服务并不算是很慢，中继服务器有香港，日本，和印度所以延迟还可以接受。其次是否自建取决于你的网络状态能否直连，如果能够直连为什么要自建呢？如果不能直连那就需要自建，自建服务器最大的问题是如果你用国外的服务，延迟你能不能接受？尤其是电信的网络，如果不是 cn2 线路基本可以放弃。我目前自建服务一台阿里云，一台香港 az ，延迟 50ms 以内，不过我是可以直连的，自建服务只不过是用来打洞快一点。exit node 不要使用国外服务器，没有加密的协议被封是正常的，我用的 exit node 是家里的 openclash ，目的主要是保证同一个 ip 出站。",
+          "en": "I currently have my own, and use the exit node occasionally. First of all, TS's official relay service is not very slow, the relay servers are in Hong Kong, Japan, and India, so the latency is acceptable. Secondly, whether to build your own depends on whether your network status can directly connect. If you can connect directly, why build your own? If you can't connect directly, then you need to build your own. The biggest problem with a self-built server is whether you can accept the latency if you use foreign services? Especially for China Telecom's network, you can basically give up if it's not a CN2 line. I currently have a self-built service on an Alibaba Cloud server and a Hong Kong Azure server, with a latency of less than 50ms, but I can connect directly. The self-built service is just used to make hole punching faster. Do not use foreign servers for the exit node, it is normal for unencrypted protocols to be blocked. I use openclash at home as the exit node, mainly to ensure the same IP for outbound traffic."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@daisyfloor ts 的连接模式不同，在打洞阶段 ts 会并发打洞，也就是会采用直连和中继服务同时尝试打洞，一旦打洞成功就会建立链接，然后再尝试直连，不成功就采用中继。",
+          "en": "@daisyfloor TS's connection mode is different. During the hole punching stage, TS will perform concurrent hole punching, that is, it will simultaneously try to use direct connection and relay service to punch holes. Once the hole punching is successful, a connection will be established, and then it will try to connect directly. If it fails, it will use a relay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "headscale 还是可以的，挺好用",
+          "en": "headscale is still good, very easy to use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@daisyfloor #5 自建 DERP 和自建 controller 是两回事，可以只自建 DERP",
+          "en": "@daisyfloor #5 Building your own DERP and building your own controller are two different things, you can just build your own DERP."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kenvix @SenLief @marquina @echo1937 谢谢几位老哥。我没有 NAS 也没有 Homelab ，纯粹是尝试下新东西，我今天是第一次实际装这个东西（之前只是看大家说如何如何），装下来感觉挺牛逼的。什么都不用配置，加入网路的 2 个设备直接就能连上，我刚刚试了 MBP 数据流量 和 家里路由器后面的 PC 可以直连。tailscale status 显示 direct ，我还试了 taildrop 互发文件很快。我大概理解了 exit node 的情况，实际上就是自己选一个节点做网关。通过这个节点出站，也就复用了这个节点本身的网路环境。我搜了下，说是像公司内网这种 NAT 会复杂很多，才可能会需要中继才能连上。后面有机会再试一试。目前唯一感觉奇怪的地方是：好像除了命令行 tailscale status ，UI 也没有地方显示是走了直连还是中继。（好像中继还是兜底的），这下好了，万一这一不小心 走了中继 境外中转一下被喝茶了可不麻烦了。。。",
+          "en": "@kenvix @SenLief @marquina @echo1937 Thank you everyone. I don't have a NAS or Homelab, I'm just trying out new things. Today is the first time I actually installed this thing (I only heard people talking about it before), and it feels pretty awesome after installing it. You don't need to configure anything, and the 2 devices that join the network can connect directly. I just tried using MBP data traffic and the PC behind the home router to connect directly. tailscale status shows direct. I also tried taildrop to send files to each other quickly. I roughly understand the situation of the exit node. It is actually to choose a node as a gateway. Exiting through this node also reuses the network environment of the node itself. I searched and found that NAT like corporate internal networks will be much more complicated, and may require a relay to connect. I'll try again later if I have the chance. The only thing that feels strange at the moment is: it seems that apart from the command line tailscale status, there is no place in the UI to show whether it went through a direct connection or a relay. (It seems that the relay is still a fallback). That's great, if I accidentally go through a relay and get transferred overseas, it would be troublesome to get into trouble..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@daisyfloor 这东西喝茶应该也没什么问题，至少比翻墙罪小。",
+          "en": "@daisyfloor There shouldn't be any problem getting into trouble with this, at least the crime is less than circumventing the Great Firewall."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "op 讲的 Control server 是指 headscale 这个控制中心吧？除非设备非常多，要不然用 tailscale 官方的即可，即使自建了 headscale 那默认还是走官方的 derp 中继服务器，TS 先走 derp 中继，然后再打洞，打洞成功（比如双方都有 v6 ）则后面直连。要是打洞失败，则会一直走 derp server ，官方的 derp 一万个人用，你想想速度能好么。自建的话建议用国内的服务器（在国内的话）。并且官方的 tailscale 控制中心也是支持使用自建 derp 的。",
+          "en": "Is the Control server mentioned by OP referring to the headscale control center? Unless there are a lot of devices, you can just use the official Tailscale. Even if you build your own headscale, it will still use the official derp relay server by default. TS first goes through the derp relay, and then punches a hole. If the hole punching is successful (for example, both parties have v6), it will directly connect later. If the hole punching fails, it will always go through the derp server. The official derp is used by ten thousand people, do you think the speed will be good? If you build your own, it is recommended to use a domestic server (if you are in China). And the official Tailscale control center also supports the use of self-built derp."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不要在公司用…除非这个公司是你的或者是你家里的。",
+          "en": "Don't use it at work... unless the company is yours or your family's."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@FaiChou 我都明白了。我现在感觉槽点就是在，如果没有自建 derp ，那么“数据和流量出境”与否不可控，一不小心就过墙了，也没得选。。。。就去喝茶得不偿失了。。太可怕了。",
+          "en": "@FaiChou I understand now. I feel the problem is that if there is no self-built derp, then whether \"data and traffic go abroad\" is uncontrollable, and you may accidentally cross the firewall without being able to choose... It's not worth getting into trouble... It's too scary."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

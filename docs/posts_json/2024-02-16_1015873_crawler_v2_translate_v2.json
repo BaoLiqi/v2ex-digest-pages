@@ -1,0 +1,407 @@
+{
+  "id": 1015873,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "由于相亲压力, 多年米粉搞了个 15promax 当备机, 想问下几个 ios 生态问题",
+          "en": "Due to pressure from matchmaking, a Mi fan of many years bought a 15promax as a backup phone, and wants to ask some questions about the iOS ecosystem."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "先说下我自己吧, 多年米粉从安卓 2.3 时代刷机用的就是 miui 了,后来小米 3 小米 5 黑鲨 到现在手持 k40 一直是小米手机, 主要多年用户习惯延续下来也懒得换品牌了, 同时你可以说 miui 卡/bug 多, 但单就功能全面性和本地化来说, miui 现在依然是 T1 队列的.",
+          "en": "Let me start by talking about myself. As a Mi fan for many years, I've been using MIUI since the Android 2.3 flashing era. Later, from Xiaomi 3, Xiaomi 5, Black Shark to now holding K40, I've always used Xiaomi phones. The main reason is that I've continued my user habits for many years and I'm too lazy to change brands. At the same time, you can say that MIUI has many bugs/lags, but in terms of comprehensive functionality and localization, MIUI is still in the T1 queue."
+        },
+        {
+          "zh": "而且我就是所谓那类性价比用户, 对近几年手机厂商卷摄像头不是很感冒.",
+          "en": "Moreover, I am the so-called cost-effective user and I am not very interested in the camera competition among mobile phone manufacturers in recent years."
+        },
+        {
+          "zh": "以我的消费习惯来看, 我还是会选红米, 奈何 k70 今年玩降级, 砍了无线充电和 IP68, 小米数字系列又专注\"小屏机\", 14 pro 又是曲面.",
+          "en": "Judging from my consumption habits, I would still choose Redmi, but K70 this year downgraded, cutting wireless charging and IP68, and Xiaomi's digital series focused on \"small screen phones\", and 14 pro is curved."
+        },
+        {
+          "zh": "总之就是没有一款顺心的机型, 我比较喜欢超大杯.",
+          "en": "In short, there is no satisfactory model. I prefer the ultra-large cup."
+        },
+        {
+          "zh": "然后说下为什么突然想换台 iphone 吧, 主要过年真破防, 兄弟姐妹出去吃个饭一水的 iphone 和遥遥领先.",
+          "en": "Then let's talk about why I suddenly wanted to switch to an iPhone. The main reason is that I really broke down during the Chinese New Year. My brothers and sisters went out for dinner and all used iPhones and Huawei."
+        },
+        {
+          "zh": "完了被长辈催婚训话, 今年也是真的准备好好相亲了.",
+          "en": "After that, I was urged to get married and lectured by my elders. This year, I am really prepared to have a good matchmaking."
+        },
+        {
+          "zh": "然后我一想到那种跟妹子出去吃饭, 人家拿个 iphone, 我拿个红米出来付款就很不爽.",
+          "en": "Then, when I think about going out to dinner with a girl, and she takes out an iPhone, and I take out a Redmi to pay, I feel very unhappy."
+        },
+        {
+          "zh": "就那个段子一样, 去商 K 用碎屏手机给公主的 iphone 付款一样的感觉, 可能这样描述有点不好大家理会下意思就好.",
+          "en": "It's like that joke, going to a commercial KTV and using a broken-screen phone to pay for the princess's iPhone, maybe this description is a bit bad, but everyone should understand what I mean."
+        },
+        {
+          "zh": "今天才拿到手 15promax 1t, 纯装逼考虑直接顶配了, 带了两年 AC 会员",
+          "en": "I just got the 15promax 1t today. I went straight to the top configuration purely for show, with two years of AC membership."
+        },
+        {
+          "zh": "初上手是真滴难用, 像通话录音/红外遥控这些常用功能,还有各种微博/贴吧/开源阅读的第三方软件 都得重新适应",
+          "en": "It's really difficult to get started. Common functions such as call recording/infrared remote control and various third-party software such as Weibo/Tieba/open source reading have to be re-adapted too."
+        },
+        {
+          "zh": "感觉转生态要丢掉好多东西啊",
+          "en": "I feel like switching ecosystems will lose a lot of things."
+        },
+        {
+          "zh": "我就想问下一些我碰到的问题, 看各位有什么推荐或者解决方案吗",
+          "en": "I want to ask some questions that I have encountered and see if you have any recommendations or solutions."
+        },
+        {
+          "zh": "1. 目前有啥 IOS 独占的软件推荐吗? 各方面都可, 这 1T 空间得想办法利用起来",
+          "en": "1. Are there any IOS-exclusive software recommendations? Anything is fine. I need to find a way to use this 1T of space."
+        },
+        {
+          "zh": "2. 开源阅读这款软件, 在 IOS 端有什么平替吗?",
+          "en": "2. Is there any alternative to the open source reading software on the IOS side?"
+        },
+        {
+          "zh": "我酷安查了下说是要加 TG 找管理员购买, 得 300 多有点离谱啊",
+          "en": "I checked on CoolApk and it said that I need to add TG to find the administrator to buy it, which costs more than 300, which is a bit outrageous."
+        },
+        {
+          "zh": "3. 现在新注册美区 ID 封号情况严重吗?",
+          "en": "3. Is the account banning situation serious for newly registered US Apple IDs?"
+        },
+        {
+          "zh": "严重的话我就购买现成账号月抛了, 不严重我注册个自用账号下下游戏",
+          "en": "If it is serious, I will buy an existing account and throw it away monthly. If it is not serious, I will register a personal account to download games."
+        },
+        {
+          "zh": "4. IOS 小组件是怎么配的, 我想达到负一屏一键打开付款码/扫一扫这种级别",
+          "en": "4. How are IOS widgets configured? I want to achieve the level of one-click opening of payment code/scan on the negative one screen."
+        },
+        {
+          "zh": "5. IOS 有没有类似 一个木函 的软件",
+          "en": "5. Is there any software similar to One Toolbox on IOS?"
+        },
+        {
+          "zh": "6. 如何做到通知栏显示实时网速",
+          "en": "6. How to display real-time network speed in the notification bar?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没觉得怎么就掉价了",
+          "en": "I don't think it's devalued."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我觉得还是不要尝试把 iPhone 弄成安卓的样子，徒增痛苦。",
+          "en": "I don't think you should try to make the iPhone look like Android, it will only increase the pain."
+        },
+        {
+          "zh": "以及真的不懂为啥明明都不知道要存什么就去买 1T 版，如果说是用来装逼的话，OP 相亲的时候是打算给对方出示自己的“关于本机”页面还是 Apple Store 的购买收据？",
+          "en": "And I really don't understand why you would buy the 1T version when you don't even know what to store. If it's for show, is OP planning to show the other person his \"About This Machine\" page or the purchasing receipt?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1.有很多，比如 VPN 类的都是，而且功能性甩安卓八百条街。",
+          "en": "1. There are many, such as VPNs, and their functionality is eight hundred streets ahead of Android."
+        },
+        {
+          "zh": "2.推荐直接用自带的“图书 app”。",
+          "en": "2. I recommend using the built-in \"Books app\" directly."
+        },
+        {
+          "zh": "3.不严重，请自己注册，不要购买。",
+          "en": "3. It's not serious, please register yourself, don't buy it."
+        },
+        {
+          "zh": "4.支付宝的小组件自带此功能，你只需要添加对应部件即可。",
+          "en": "4. Alipay's widget has this function built in, you just need to add the corresponding component."
+        },
+        {
+          "zh": "5.没有，也没有必要",
+          "en": "5. No, and it's not necessary."
+        },
+        {
+          "zh": "6.无法显示，因为实际现实的网速并不代表你当前所拥有的最大带宽容量。",
+          "en": "6. Cannot be displayed, because the actual real-world network speed does not represent the maximum bandwidth capacity you currently have."
+        },
+        {
+          "zh": "换到 iOS 就是图省心，如果你之前很喜欢各种玩机工具或者刷机以及安装各种独立开发者开发的小众的 app ，那 iOS 并不是一个好的选择，因为它并没有太多可自定义的地方。",
+          "en": "Switching to iOS is for peace of mind. If you used to like various mobile phone tweaking tools or flashing ROMs and installing niche apps developed by various independent developers, then iOS is not a good choice because it doesn't have much customization."
+        },
+        {
+          "zh": "但 iOS 的生态优势和稳定性以及强大硬件是 MIUI 或其他 Android 难以企及的。",
+          "en": "But iOS's ecological advantages, stability, and powerful hardware are difficult for MIUI or other Androids to reach."
+        },
+        {
+          "zh": "随着你的使用你便会知道它的价值。",
+          "en": "You will know its value as you use it."
+        },
+        {
+          "zh": "顺带买 1TB 不知道用在哪里，还不如买一个容量小的加一个 iPad 和 EarPods ，先组一个小生态。",
+          "en": "By the way, I don't know where you're going to use the 1TB, it's better to buy a smaller capacity one plus an iPad and EarPods, and build a small ecosystem first."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "楼上说不觉得掉价的，是从男生的角度来考虑的，没问题，op 是从女生的角度来考虑的，也没问题。",
+          "en": "The people upstairs who said they don't feel devalued are considering it from a male perspective, which is fine. OP is considering it from a female perspective, which is also fine."
+        },
+        {
+          "zh": "事实上，去相亲的女的，不敢说全部，绝大部分首要考虑的都是物质条件。",
+          "en": "In fact, for girls who go on blind dates, I dare not say all of them, most of them mainly consider material conditions."
+        },
+        {
+          "zh": "一部手机虽然不能体现一个人的物质条件，但作为相亲的第一印象，从女生的角度来说不太好就是了。",
+          "en": "Although a mobile phone cannot reflect a person's material conditions, it is not very good as the first impression of a blind date from a female's perspective."
+        },
+        {
+          "zh": "op 如果确实用不惯 iOS ，其实可以继续用小米，然后像楼上说的，带把车钥匙更能提高成功率。",
+          "en": "If OP really doesn't like using iOS, you can continue to use Xiaomi, and then, as mentioned upstairs, carrying a car key can increase the success rate."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别急, 以后遇到了需求再问... 我是从 4s 用到 x 的, 现在在用 mate40pro. 已经没什么体感的差异了.",
+          "en": "Don't worry, ask again when you encounter a need... I have used from 4s to x, and now I am using mate40pro. There is no difference in physical experience anymore."
+        },
+        {
+          "zh": "但由于某些原因, 还是留一个 ipad pro, 有些用处的.",
+          "en": "But for some reasons, I still keep an ipad pro, which is useful."
+        },
+        {
+          "zh": "比如电报登陆啥的.",
+          "en": "Such as Telegram login or something."
+        },
+        {
+          "zh": "以后也是打算安卓主力, 备用 ios.",
+          "en": "In the future, I also plan to use Android as the main one and iOS as a backup."
+        },
+        {
+          "zh": "ios 说实话真不好用.",
+          "en": "To be honest, iOS is really not easy to use."
+        },
+        {
+          "zh": "跑题了. 1. 独占软件很多. 但我居然想不到有啥一定要推荐. 根据你需求来吧.",
+          "en": "Off topic. 1. There are many exclusive software. But I can't think of anything that must be recommended. It depends on your needs."
+        },
+        {
+          "zh": "2. 阅读软件 免费的, 我只用微信阅读跟 pdf 阅读器.",
+          "en": "2. Reading software, for free, I only use WeChat Reading and PDF reader."
+        },
+        {
+          "zh": "3. 美区 ID 我从来没被封过. 有 VISA 信用卡更好.",
+          "en": "3. My US Apple ID has never been banned. It's better to have a VISA credit card."
+        },
+        {
+          "zh": "4. IOS 小组件我不咋用. 5. 小工具箱的软件 我没遇到过....",
+          "en": "4. I don't use IOS widgets much. 5. I haven't encountered the software of the small toolbox...."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "因为你手机是红米就给你减分的人，直接筛掉不是更好？",
+          "en": "Wouldn't it be better to just filter out people who deduct points from you because your phone is a Redmi?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "问题 2 可以试试「读不舍手」这款 app ，直接兼容阅读的书源，除了个别的网站有些乱码，其他都挺不错的。（主界面、搜索界面有小广告，但是不会弹窗）",
+          "en": "For question 2, you can try the app \"Du Bu She Shou\", which is directly compatible with reading book sources. Except for some garbled characters on individual websites, the others are pretty good. (There are small ads on the main interface and search interface, but no pop-ups)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没人会注意你拿的是红米还是 iphone ，你拿个诺基亚反而能给人留下印象：这是个有趣的灵魂",
+          "en": "No one will notice whether you are holding a Redmi or an iPhone. Instead, holding a Nokia can leave an impression: this is an interesting soul."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "靠手机撑面子好可怜啊，哈哈。我和我情人认识的时候用的也是安卓。",
+          "en": "It's so pathetic to rely on a mobile phone to save face, haha. I was using Android when I met my lover."
+        },
+        {
+          "zh": "那时她刚下长途火车，我租了个车让她坐上了。",
+          "en": "At that time, she had just gotten off a long-distance train, and I rented a car and let her get in."
+        },
+        {
+          "zh": "因为火车站附近很不好打车。",
+          "en": "Because it is very difficult to get a taxi near the train station."
+        },
+        {
+          "zh": "路上我也告诉她我平时舍不得花钱，为了你我租了车。",
+          "en": "On the way, I also told her that I usually don't like to spend money, but I rented a car for you."
+        },
+        {
+          "zh": "当晚我们就大融合了。",
+          "en": "We had a big integration that night."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我对用安卓的女生更有好感一点",
+          "en": "I have a better impression of girls who use Android."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你选择一个适应小米手机的妹子，然后开开心心地用着小米、轻轻松松地谈恋爱还是选择一个看上你苹果手机的妹子，然后疙疙瘩瘩地用着苹果、别别扭扭地谈恋爱？",
+          "en": "Do you choose a girl who adapts to Xiaomi phones, then happily uses Xiaomi and has a relaxed relationship, or do you choose a girl who likes your Apple phone, then uses Apple awkwardly and has a strange relationship?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我们都是俗人，被世俗绑架的人，不能免俗。",
+          "en": "We are all ordinary people, people who are kidnapped by the world, and we cannot avoid vulgarity."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "话说各位 V 站大多数都是成年人了, 咱不差这丐版和顶配之间几千块的差价了 真的,  还说让我换丐版什么的就这种扣配置计较的心态, 正是我现在想努力改变的.",
+          "en": "Speaking of which, most of you on V2EX are adults, we don't care about the thousands of yuan difference between the entry-level version and the top-end version, really. Saying that I should switch to the entry-level version or something, this kind of calculating mentality is what am I now trying to change."
+        },
+        {
+          "zh": "我不明白一帮人逮着 1T 喷个没完是干嘛, 好像还很嗨,  搞得我莫名其妙的火气完全上不来, 就剩莫名其妙了",
+          "en": "I don't understand what a group of people are doing by constantly criticizing 1T, it seems like they're having a great time, and I'm completely unable to get angry for some reason, just confused."
+        },
+        {
+          "zh": "难道就没人分析分析当今社会婚恋关系, 以及金钱社会内卷化对年轻人生理心理的压迫吗?",
+          "en": "Doesn't anyone analyze the current social marriage and love relationship, and the oppression of the involution of the money society on the physical and mental health of young people?"
+        },
+        {
+          "zh": "咱键一键啊或者来个老哥分享下个人经历, 咱共勉之一下也好啊",
+          "en": "Let's type a few words, or let an old brother share his personal experience, let's encourage each other."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "《世界的参差经常让我在被窝中蒙眼尖叫》",
+          "en": "《The UnEvenness of the world often makes me scream with my Eyes covered in bed》"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大部分我都答不上来，但是第三点来说，用干净的 IP 注册，没有经济消费，是不会封号的，即使意外封号了，联系美区客服是可以解的。",
+          "en": "I can't answer most of them, but for the third point, registering with a clean IP and no financial expenditure will not result in a ban. Even if the account is accidentally banned, contacting US customer service can resolve it."
+        },
+        {
+          "zh": "前往不要想什么月抛账号，买来的账号如果有黑卡交易，锁账号锁手机锁你的关联登录账号，很麻烦，得不偿失。",
+          "en": "Don't even think about monthly accounts. If the purchased account has black card transactions, it will lock the account, lock the phone, and lock your associated login account. It is very troublesome and not worth the loss."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "50 包邮解君愁",
+          "en": "50 free shipping to solve your worries"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "* AirPods",
+          "en": "* AirPods"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很难相信在这里看到这种问题。。。买一台 iPhone 对提升相亲成功率可以说基本没有任何作用吧",
+          "en": "It's hard to believe seeing this kind of question here... Buying an iPhone has basically no effect on improving the success rate of blind dates."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "备机搞那么多干嘛，买张卡注册个微信小号，能聊天付款不就行了，为什么要在备机上用别的软件，找不自在吗？",
+          "en": "Why do you need so much on a backup machine? Just buy a card and register a small WeChat account, so you can chat and pay. Why do you need to use other software on the backup machine, are you looking for trouble?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1. iPhone 存储空间大头基本上是照片和视频，你不拍照录像的话一般很难用完的，除非是视频类的软件，用来下山。",
+          "en": "1. The main part of the iPhone's storage space is photos and videos. If you don't take photos or videos, it's generally difficult to use it up, unless it's video software, which is used for downloading content."
+        },
+        {
+          "zh": "3. 美区账号没被封过，不过我的美区账号只用在 app store ，iCloud 用的是国区，建议自己注册一个，主要是有些软件要买（小火箭之类的），租用账号的话，以后充值系统之类的又得重新租。",
+          "en": "3. My US account has not been banned, but my US account is only used in the app store, and iCloud uses the Chinese region. It is recommended to register one yourself, mainly because some software needs to be purchased (like Shadowrocket), and if you rent an account, you will have to re-rent the recharge system and the like in the future."
+        },
+        {
+          "zh": "4. 付款码之类的，可以在支付宝付款码界面选择添加到桌面，这种方式是走 web 的方式的，也可以用快捷指令，这种方式是直接打开 app 的方式。",
+          "en": "4. For payment codes, you can select to add them to the desktop on the Alipay payment code interface. This method uses the web method, or you can use shortcut instructions. This method directly opens the app."
+        },
+        {
+          "zh": "6. 没有实时网速（越狱或许能实现？）",
+          "en": "6. No real-time network speed (jailbreaking may achieve it?)"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

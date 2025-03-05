@@ -1,0 +1,427 @@
+{
+  "id": 1015757,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "如何 0 基础到找到一份程序员工作？这个问题可能有点可笑",
+          "en": "How to find a programmer job starting from zero experience? This question might be a little ridiculous."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我本人长期失业，个人财务状况很糟糕。",
+          "en": "I have been unemployed for a long time and my personal financial situation is very bad."
+        },
+        {
+          "zh": "我想找到一份工资比较高的工作。",
+          "en": "I want to find a job with a relatively high salary."
+        },
+        {
+          "zh": "请问：我要具备哪些能力，最，最容易找到一份薪水不错的开发工作？",
+          "en": "May I ask: What skills do I need to have to most easily find a well-paid development job?"
+        },
+        {
+          "zh": "这些能力可以通过自学获得吗？大概学习的方法是什么？",
+          "en": "Can these skills be acquired through self-study? What is the general learning method?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "roadmap.sh 找一条路径走到底",
+          "en": "Find a path on roadmap.sh and follow it to the end."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你的问题在工作多人少的情况下才有意义。",
+          "en": "Your question only makes sense when there are more jobs than people."
+        },
+        {
+          "zh": "而现在是工作少人多，也就是你不光要具备工作能力，还得超过其他的具备工作能力的应聘者。",
+          "en": "But now there are fewer jobs than people, which means that you not only need to have the ability to work, but also need to surpass other applicants with the ability to work."
+        },
+        {
+          "zh": "也就是说你学到能工作的情况是根本不够的，你得有个学历并且学到能伪装几年工作经验不被拆穿的程度，学习周期会非常长，弯路也会非常多。",
+          "en": "In other words, learning to the point where you can work is not enough. You need to have a degree and learn to the point where you can fake a few years of work experience without being exposed. The learning cycle will be very long and there will be many detours."
+        },
+        {
+          "zh": "大部分人根本坚持不下去，甚至比送外卖更困难。",
+          "en": "Most people can't stick to it at all, it's even more difficult than delivering food."
+        },
+        {
+          "zh": "送外卖是辛苦不是困难，可以不动脑子，收入也看的见。",
+          "en": "Delivering food is hard work, not difficult, you don't have to use your brain, and the income is visible."
+        },
+        {
+          "zh": "但是学编程在你找到工作之前，可能得不到任何反馈的，这种状态是不适合长期失业且财务状况糟糕的人。",
+          "en": "But learning to program may not give you any feedback before you find a job. This state is not suitable for people who are long-term unemployed and in poor financial condition."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可能是个围城吧脑力劳动不见得轻松，还有可能需要处理工作之外的各种杂事，这些容易心累。",
+          "en": "It may be a walled city. Mental work is not necessarily easy, and you may have to deal with various chores outside of work, which can be tiring."
+        },
+        {
+          "zh": "再者，我个人认为这个职业是需要持续学习来保持自身在市场的优势的，也许需要你能够接受下了班还要抽时间学习的情况",
+          "en": "Furthermore, I personally believe that this profession requires continuous learning to maintain one's own advantages in the market. Perhaps you need to be able to accept the situation where you have to take time to study after get off work."
+        },
+        {
+          "zh": "0 基础转码我认为还是有一定难度的，科班出身的应届生都很饱和了。",
+          "en": "I think it is still difficult to switch to coding with zero experience. Fresh graduates from formal programs are already very saturated."
+        },
+        {
+          "zh": "在对比之下，还需要你具有其他优势，比别人更愿意花时间学习，投入更多的工作时间，出众的沟通能力",
+          "en": "In contrast, you also need to have other advantages, be more willing to spend time learning than others, invest more working hours, and have excellent communication skills."
+        },
+        {
+          "zh": "无论如何，祝你好运",
+          "en": "Anyway, good luck."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "说实话，如果连 Windows 都觉得难用，那么就更不用说 Linux 了（事实上，OP 在另一个帖子就表达过 Linux 不好用，以及连命令行都不愿学用）。",
+          "en": "To be honest, if you find Windows difficult to use, then Linux is even more so (in fact, the OP has expressed in another post that Linux is not easy to use, and is unwilling to learn to use the command line)."
+        },
+        {
+          "zh": "最核心的问题在于，当今世界的 IT 基础设施主要是靠 Linux 支撑的，其次是 Windows 。",
+          "en": "The core issue is that the world's IT infrastructure is mainly supported by Linux, followed by Windows."
+        },
+        {
+          "zh": "虽然说程序员也有许多细分，但大多数的程序员，要么必须熟悉 Linux ，要么必须熟悉 Windows 。",
+          "en": "Although there are many subdivisions of programmers, most programmers must be familiar with either Linux or Windows."
+        },
+        {
+          "zh": "即使是想做 ChromeOS 开发，那也得熟悉 Linux ，须知道 Chrome 本身就是基于 Linux 的。",
+          "en": "Even if you want to do ChromeOS development, you have to be familiar with Linux, you must know that Chrome itself is based on Linux."
+        },
+        {
+          "zh": "如果连这两个系统都同时排斥的话，不但学习的种类很窄，就业类型同样都很窄。",
+          "en": "If you reject both of these systems at the same time, not only will the types of learning be narrow, but the types of employment will also be very narrow."
+        },
+        {
+          "zh": "更不用说零基础的情况了，在学习过程中，这两个系统总会遇到至少一个的。",
+          "en": "Not to mention the situation of zero experience. In the learning process, you will always encounter at least one of these two systems."
+        },
+        {
+          "zh": "IT 行业，尤其是程序员，长期只活在舒适区会导致越来越落伍，淘汰风险（裁员几率）会越来越高。",
+          "en": "In the IT industry, especially for programmers, living in the comfort zone for a long time will lead to becoming more and more out of date, and the risk of elimination (the chance of layoffs) will become higher and higher."
+        },
+        {
+          "zh": "更何况在零基础、未入门的情况下就产生了舒适区，更是大忌。",
+          "en": "What's more, it is even more taboo to have a comfort zone when you have zero experience and have not even started."
+        },
+        {
+          "zh": "具体来说，就是这种心态：对于舒适区以外的知识，这个学不会、那个觉得难，然后产生抗拒心理，学都不愿学，更不用说精进了。这种心态会导致入门都没法入。",
+          "en": "Specifically, it is this mentality: for knowledge outside the comfort zone, you can't learn this, you find that difficult, and then you develop a resistance, you don't even want to learn, let alone improve. This mentality will lead to the inability to even get started."
+        },
+        {
+          "zh": "V 站虽然有不少人本身就对另外一部分的技术不感冒，或者直接就排斥，但那是因为他们本身就经验丰富，能够准确指出根本性缺点。",
+          "en": "Although there are many people on V Station who are not interested in or directly reject some technologies, that is because they are experienced and can accurately point out fundamental shortcomings."
+        },
+        {
+          "zh": "V 站最新鲜的例子： /t/1015740",
+          "en": "V Station's latest example: /t/1015740"
+        },
+        {
+          "zh": "零基础的情况下可没这方面的经验和敏锐度，根据自己的舒适区来排斥不仅会导致走弯路，更会成为拦路山。",
+          "en": "With zero experience, you don't have this kind of experience and sensitivity. Rejecting things based on your comfort zone will not only lead to detours, but will also become a roadblock."
+        },
+        {
+          "zh": "如果真想零基础入门，最好重回高中刚毕业时的状态，面对 IT 知识（包括两大系统的熟练使用）是以“探索”的心态去对待，而不是这个排斥那个排斥。",
+          "en": "If you really want to get started with zero experience, it is best to return to the state you were in when you just graduated from high school, and treat IT knowledge (including the skilled use of the two major systems) with an \"exploratory\" attitude, instead of rejecting this and rejecting that."
+        },
+        {
+          "zh": "要不然，即使硬着头皮学了下来，依然无法竞争得过年轻毕业生（尤其是在“内卷”强劲的当下，年轻是他们的优势），更不用说跟经验丰富的同龄程序员竞争了。",
+          "en": "Otherwise, even if you bite the bullet and learn it, you still won't be able to compete with young graduates (especially in the current situation of strong \"involution\", youth is their advantage), let alone compete with experienced programmers of the same age."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "市场已经不太行了，编程教育培训机构的讲师都要失业了，你考虑一下这个行情",
+          "en": "The market is not very good now, and the lecturers of programming education training institutions are about to lose their jobs. You should consider this situation."
+        },
+        {
+          "zh": "自学肯定是可以掌握相关技能的，就怕公司筛人不通过你的技能，比如看你的学历，年龄，不行直接不给你发面试",
+          "en": "You can definitely master the relevant skills through self-study, but I'm afraid the company will not pass your skills when screening people, such as looking at your education, age, etc. If it doesn't work, they won't send you an interview directly."
+        },
+        {
+          "zh": "如果你非要学，那下面是路径：去招聘软件（比如 boss 直聘）上，看看本地的岗位，别管那些特别高薪的岗位，比如什么基础架构、算法，这种关键词代表要求特别高，你就找 java 开发",
+          "en": "If you have to learn, then the following is the path: go to recruitment software (such as boss direct recruitment) to see the local positions, don't care about those particularly high-paying positions, such as infrastructure, algorithms, etc. This kind of keyword represents particularly high requirements, you just find java development."
+        },
+        {
+          "zh": "然后去 bilibili 上搜索 java 的课程，比如黑马和尚硅谷的视频，跟着学就行了，然后看那些 java 岗位还需要什么，需要什么学什么，比如 redis ，你再搜 redis 视频，跟着学就行了",
+          "en": "Then go to bilibili to search for java courses, such as the videos of Heima and Shang Silicon Valley, and follow them to learn. Then see what else those java positions need, learn whatever you need, such as redis, then search for redis videos and follow them to learn."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "好处都让你占了。。哪有这么好的事情。",
+          "en": "You get all the benefits... There is no such a good thing."
+        },
+        {
+          "zh": "你愿意付出什么呢",
+          "en": "What are you willing to give?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这里有个悖论，从 0 基础到找到收入还过得去的程序员工作，要付出的努力，比去找别的工作难度要大太多。",
+          "en": "There is a paradox here. The effort required to go from zero experience to finding a decent-paying programmer job is much greater than the difficulty of finding other jobs."
+        },
+        {
+          "zh": "而你把这些努力放到其它行业和岗位，就不需要当程序员了。",
+          "en": "And if you put these efforts into other industries and positions, you don't need to be a programmer."
+        },
+        {
+          "zh": "先谋生，再谋划。",
+          "en": "First make a living, then plan."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "续上：1.前端方向（比较容易上手，要学的知识少点，主要是 html 、css 、JavaScript ，然后学习一个框架，比如 vue ，现在借助 GPT ，应该很好学） 2.后端方向（涉及的知识较多，至少需要学数据库（ mysql ）+ 一门后端语言，比如 php 、go 、java 等）",
+          "en": "Continued: 1. Front-end direction (relatively easy to get started, less knowledge to learn, mainly html, css, JavaScript, and then learn a framework, such as vue, now with the help of GPT, it should be easy to learn) 2. Back-end direction (more knowledge involved, at least you need to learn database (mysql) + a back-end language, such as php, go, java, etc.)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hubqin 软件测试 确实是个好建议.",
+          "en": "@hubqin Software testing is indeed a good suggestion."
+        },
+        {
+          "zh": "对软件测试人员的需求是大量存在的[虽然绝对数量没软件开发岗位多], 但愿意做的人少, 所以结果就是 \"软件测试岗位\" 的实际招聘要求是远低于 \"软件开发岗位\" 的.",
+          "en": "There is a large demand for software testers [although the absolute number is not as large as software development positions], but few people are willing to do it, so the result is that the actual recruitment requirements for \"software testing positions\" are far lower than \"software development positions\"."
+        },
+        {
+          "zh": "所以, 软件测试 更适合短期通过各类资料进行学习, 突击工作岗位.",
+          "en": "Therefore, software testing is more suitable for short-term learning through various materials and intensive work positions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "而且,  软件测试 所需要掌握的内容和思想 也比 软件开发 要少不是一个数量级吧.",
+          "en": "Moreover, the content and ideas that software testing needs to master are also less than software development."
+        },
+        {
+          "zh": "而且,  软件测试类岗位 很可能处在\"岗位多应聘者少\" 的状况下,  而软件开发岗位则刚好相反.",
+          "en": "Moreover, software testing positions are very likely to be in a situation of \"more positions than applicants\", while software development positions are the opposite."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你长期失业，本来是有充足的时间自学的，可是你还是零基础。",
+          "en": "You have been unemployed for a long time and originally had plenty of time to study on your own, but you are still at zero experience."
+        },
+        {
+          "zh": "你只是冲着高薪来的，既不热爱，也不愿意付出什么，公司凭什么要你？",
+          "en": "You are just coming for the high salary, you have no passion and are not willing to give anything. Why should the company want you?"
+        },
+        {
+          "zh": "过去几年这行业景气进来不少你这样的人，我很高兴这两年开始出清了",
+          "en": "In the past few years, many people like you have entered the industry during its prosperity, and I am glad that the industry has started to clear them out in the past two years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自学，慢慢来吧。",
+          "en": "Self-study, take your time."
+        },
+        {
+          "zh": "我是 2016 年自学四个月 Python.",
+          "en": "I self-studied Python for four months in 2016."
+        },
+        {
+          "zh": "四个月之后，第一份工作 2000 元，公司就老板和我。",
+          "en": "Four months later, my first job was 2000 yuan, and the company was just the boss and me."
+        },
+        {
+          "zh": "刚学，windows 的 cmd 是啥都不知道。",
+          "en": "When I first learned, I didn't even know what windows cmd was."
+        },
+        {
+          "zh": "2019 年开始拿平均偏上的薪资。",
+          "en": "I started earning above-average salaries in 2019."
+        },
+        {
+          "zh": "个人经验，自学几个月就可以了，然后出去找工作，不要求高工资，主要目的找别人带，涨经验和技术。",
+          "en": "Personal experience, self-study for a few months is enough, then go out to find a job, don't ask for a high salary, the main purpose is to find someone to lead you, gain experience and skills."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "----------请问：我要具备哪些能力，最，最容易找到一份薪水不错的开发工作？ 这些能力可以通过自学获得吗？大概学习的方法是什么？--------",
+          "en": "----------May I ask: What skills do I need to have to most easily find a well-paid development job? Can these skills be acquired through self-study? What is the general learning method?--------"
+        },
+        {
+          "zh": "回：1 、具备写代码的能力。",
+          "en": "Reply: 1. Have the ability to write code."
+        },
+        {
+          "zh": "比如你要找网页开发的工作，那就需要会写网页如果要做服务器、数据库方面，那就需要学会服务器、数据库。",
+          "en": "For example, if you want to find a web development job, then you need to be able to write web pages. If you want to work on servers and databases, then you need to learn servers and databases."
+        },
+        {
+          "zh": "2 、可以自学获得",
+          "en": "2. You can acquire it through self-study."
+        },
+        {
+          "zh": "3 、书、视频、公开课、论坛、与行业内的人交流，找项目做，找工作在工作中边学",
+          "en": "3. Books, videos, open courses, forums, communicate with people in the industry, find projects to do, find a job and learn while working."
+        },
+        {
+          "zh": "以前我有一个朋友，他 IT 培训出来还不太会，但包装好了总能找到工资 2 万块的工作",
+          "en": "I used to have a friend who was not very good after IT training, but he could always find a job with a salary of 20,000 yuan after packaging himself well."
+        },
+        {
+          "zh": "混不过试用期，就在试用期里看公司项目，不断问里面的同事",
+          "en": "He can't pass the probation period , so he looks at the company's projects during the probation period and keeps asking the colleagues inside."
+        },
+        {
+          "zh": "被辞退了又包装进另外的公司学直到完全学会能扛过试用期了，就在这个行业里留下来了，一年几十万工资，他说自己现在已经是架构师了",
+          "en": "He was fired and then packaged himself into another company to learn until he completely learned and could survive the probation period, and then he stayed in this industry with a salary of hundreds of thousands a year. He said that he is now an architect."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@idragonet  类似那种 借应届生毕业设计之类的.",
+          "en": "@idragonet Similar to borrowing a graduate design from a fresh graduate."
+        },
+        {
+          "zh": "简单一些的东西.",
+          "en": "Something simpler."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "梦里啥都有",
+          "en": "Anything is possible in your dreams."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "恰恰相反，以后体力劳动的职业会越来越吃香，因为没人想吃苦。",
+          "en": "On the contrary, physical labor occupations will become more and more popular in the future, because no one wants to suffer."
+        },
+        {
+          "zh": "你想学编程那就学前端吧，相比后端而言，前端需要学习的知识相对比较少，学习成本也比后端低。",
+          "en": "If you want to learn programming, then learn front-end development. Compared with back-end development, the front-end requires relatively less knowledge to learn and the learning cost is also lower than the back-end."
+        },
+        {
+          "zh": "如果你不学 css 和动画相关的话。",
+          "en": "If you don't learn css and animation related things."
+        },
+        {
+          "zh": "然后再搞个大专学历，高中肄业的学历肯定不行。",
+          "en": "Then get an associate degree. A high school diploma is definitely not acceptable."
+        },
+        {
+          "zh": "后面再慢慢搞个本科学历。",
+          "en": "Then slowly get a bachelor's degree."
+        },
+        {
+          "zh": "现在内卷的很严重，供给大于需求。",
+          "en": "Now the involution is very serious, the supply exceeds the demand."
+        },
+        {
+          "zh": "30 岁了，该收心好好努力了，没几年时间给你浪费了。",
+          "en": "You are 30 years old. It's time to focus and work hard. You don't have a few years to waste."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@maguazhou 放眼看中小规模公司的技术类岗位里, 实际上跟 0 基础最接近的就是 应用测试类岗位了,  不是白盒测试, 是黑盒测试的那类, 很可能稍微懂点点就能找到工作干",
+          "en": "@maguazhou Looking at the technical positions in small and medium-sized companies, the closest thing to zero experience is actually application testing positions, not white-box testing, but black-box testing, you can probably find a job if you know a little bit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "天下无难事 只要肯折腾 🍺",
+          "en": "Nothing is impossible for a willing heart. 🍺"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "楼上都是劝退的，我来告诉 lz 一条可行性很高出路，就是去找个有影响力的开源项目，做贡献！",
+          "en": "The above are all persuading you to quit. I'll tell lz a highly feasible way out, which is to find an influential open source project and contribute!"
+        },
+        {
+          "zh": "花几个月时间把这个项目吃透，让自己成为这个项目的主要贡献者之一最好这个项目还是某个公司出的或者有公司赞助的，当自己有能力成为这个项目的主要贡献者的时候，自然就会有人招你了",
+          "en": "Spend a few months learning this project thoroughly, and make yourself one of the main contributors to this project. It's best if this project is produced by a company or sponsored by a company. When you have the ability to become a major contributor to this project, someone will naturally recruit you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在全部精力学英语，出去读个 cs 的研，然后利用读书的机会找工作留下去。",
+          "en": "Now focus all your energy on learning English, go abroad to study for a master's degree in CS, and then use the opportunity to study to find a job and stay."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

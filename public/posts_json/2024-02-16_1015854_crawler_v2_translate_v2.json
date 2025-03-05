@@ -1,0 +1,223 @@
+{
+  "id": 1015854,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "小米 14 和一加 12，选哪个？",
+          "en": "Xiaomi 14 and OnePlus 12, which one to choose?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很纠结，题主想要一台拍照尚可的手机，一加 12 主要是曲面屏和太重这两点不喜欢，小米 14 又怕续航不佳，V 友们给点意见？",
+          "en": "I'm very conflicted. The original poster wants a phone with decent camera performance. The main dislikes about the OnePlus 12 are the curved screen and its weight. The Xiaomi 14 is feared to have poor battery life. Any suggestions from V2EX users?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我的是小米 13 用下来一年总的来说还是很满意的，续航这方面我不玩手游所以觉得很满意，我想 14 整体是 13 的升级版体验应该会更好。",
+          "en": "I've been using the Xiaomi 13 for a year and I'm generally very satisfied with it. I don't play mobile games, so I'm very happy with the battery life. I think the 14 is an upgraded version of the 13 overall, so the experience should be even better."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一加 12 还是可以的，大多数功能该有的都有，搞高权限弄 root+xposed 很方便，到手直接几条命令完事；相机出片的颜色挺舒服，远距离拍摄效果比小米 14 略锐利一些，暗光环境拍摄也挺好，远距离镜头切换、近距离对焦优化也挺好，相比之下小米 14 的镜头反应会慢一些，线下门店测试很明显；续航也挺好，满电出门看看文字类内容+轻度播放视频，一天下来到晚上回家的时候大约还有 20%左右，不刻意充电也没啥问题。",
+          "en": "OnePlus 12 is still good. It has most of the features it should have. It's very convenient to get high-level permissions and root + xposed. Just a few commands to complete it when you get it. The color of the photos taken by the camera is quite comfortable. The remote shooting effect is slightly sharper than Xiaomi 14. The dark light environment shooting is also very good. The remote lens switching and close-range focus optimization are also very good. In contrast, the lens response of Xiaomi 14 will be slower. It's obvious in offline stores. The battery life is also very good. After going out with a full charge to read text content + lightly play videos, about 20% will remain when you go home at night. There's no problem without deliberately charging."
+        },
+        {
+          "zh": "但是软件方面小问题比较多，目前我的一加 12 用下来刚好一个月，最明显的负面感受就是系统软件有些人性化细节没法跟小米比，比如最近过年这段时间很容易碰到的：- 桌面小组件的完整日历只有固定大小且不显示日历事项，小日历又太小；- 计算器没有亲戚关系称呼计算功能；- 最近 15 天天气只能跳网页看，不能在 app 里直接看；还有像平时会比较常用的 AI 接听电话功能也是没有的，只有通话内容分析之类的功能，就很没用...",
+          "en": "However, there are many small problems with the software. Currently, I have been using my OnePlus 12 for just one month. The most obvious negative feeling is that some humanized details of the system software cannot be compared with Xiaomi. For example, the following are easily encountered during the recent Spring Festival: - The complete calendar of the desktop widget only has a fixed size and does not display calendar events. The small calendar is too small. - The calculator does not have the function of calculating kinship terms. - The weather for the last 15 days can only be viewed by jumping to a webpage, and cannot be viewed directly in the app. Also, the AI answering phone function that is usually used is also not available, only the call content analysis function, which is very useless..."
+        },
+        {
+          "zh": "正常有复杂内容需要记录下来的都肯定会有隐私或者涉密问题，怎么可能把录音主动上传给他们？没有复杂内容的又完全没必要做这事。",
+          "en": "Normally, if there is complex content that needs to be recorded, there will definitely be privacy or confidentiality issues. How is it possible to actively upload the recording to them? If there is no complex content, there is absolutely no need to do this."
+        },
+        {
+          "zh": "也不知道产品经理怎么想的。",
+          "en": "I don't know what the product manager is thinking."
+        },
+        {
+          "zh": "除此之外还有些设计就很脑瘫，其中有些靠技术手段能解决，有些太冷门了都不一定有现成工具/方案给你解决，比如：- 相机的自动切换微距镜头在距离没那么近的时候就会触发，没有开关选项，一稍微近点、还没到需要微距的程度拍摄就得手动按回主摄，不然画面清晰度会明显下降；- 应用双开功能只能给白名单应用使用，且白名单对主流应用覆盖不全；- 允许自启动的应用有数量限制，且没有开关选项；- 录音时锁屏界面显示可操作的小卡片，左上角显示录音时间气泡，且没有开关选项，关闭录音 app 的通知都去不掉；- 安装应用时会有个“扫描”步骤，即使未开启病毒扫描之类功能也依然会有权限扫描，且明明是能秒出结果的却非要做个动画让你等一会儿才能点安装；",
+          "en": "In addition, some designs are very brain-dead. Some of them can be solved by technical means, and some are too niche to have ready-made tools/solutions for you to solve. For example: - The camera's automatic switching macro lens will be triggered when the distance is not that close. There is no switch option. If you get a little closer, before you need a macro, you have to manually press back to the main camera, otherwise the image clarity will be significantly reduced. - The application dual opening function can only be used for whitelisted applications, and the whitelist does not fully cover mainstream applications. - There is a limit to the number of applications allowed to start automatically, and there is no switch option. - When recording, the lock screen interface displays an operable small card, and the recording time bubble is displayed in the upper left corner, and there is no switch option. The notification of closing the recording app cannot be removed. - There will be a \"scanning\" step when installing the application. Even if virus scanning or other functions are not enabled, there will still be permission scanning, and it will obviously produce a result in seconds, but you have to do an animation to make you wait for a while before you can click install."
+        },
+        {
+          "zh": "如果说你用系统软件只会用到些基本功能，那无所谓，核心硬件方面大差不差，喜欢哪个买哪个就行了；但如果你很看重软件部分的使用体验，那还是小米好，很少有那种爹味设计，也不需要你自己想着找个替代品去解决问题，常用功能该有的都有。",
+          "en": "If you only use some basic functions when you use system software, it doesn't matter. The core hardware is about the same. Just buy whichever you like. But if you value the software part of the user experience, then Xiaomi is better. There are very few paternalistic designs, and you don't need to think about finding an alternative to solve the problem. The commonly used functions are all available."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "12单一原因：Bootloader 解锁政策。对我来说是一票否决，今后不会再购买任何小米产品。",
+          "en": "12 for one reason: Bootloader unlock policy. It's a veto for me, and I won't buy any Xiaomi products in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我选 12 。从 7 开始、9 、11 的用户",
+          "en": "I choose 12. User from 7, 9, 11."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "iPhone 13 转 小米 14 ，不玩手游，亮屏时间没具体计算过，但是换了小米 14 之后我再也没租过共享充电宝了，供 OP 参考，等一会我研究下怎么看平均亮屏时间再补充一下。",
+          "en": "iPhone 13 to Xiaomi 14, I don't play mobile games. I haven't specifically calculated the screen-on time, but after switching to Xiaomi 14, I haven't rented a shared power bank anymore, for OP's reference. I'll study how to check the average screen-on time later and add it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看了一下我过年这几天的使用时间是 9 - 11 小时左右，基本都是一天一充，11 小时那天可能是 2 充了",
+          "en": "I checked the usage time for the past few days during the Spring Festival. It's about 9 - 11 hours. Basically, it's one charge a day. It may have been 2 charges on the 11-hour day."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "受不了曲面屏，所以选小米。",
+          "en": "Can't stand the curved screen, so I chose Xiaomi."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Gehrman 不影响 就是没扫描了 或者是扫描降到了一个 1s 的走流程形式",
+          "en": "@Gehrman It doesn't matter, it just doesn't scan, or the scan is reduced to a 1s formality."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jkfadsljlasdgs ColorOS 14 使用体验如何？看网上说不怎么好用，不知道。最关键的还是觉得太重了，怕用久了受不了。",
+          "en": "@jkfadsljlasdgs How is the ColorOS 14 user experience? I saw online that it's not very easy to use, I don't know. The most important thing is that I think it's too heavy, and I'm afraid I won't be able to stand it after using it for a long time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Cyshall 个人基本也不玩手游，想知道真实的日常亮屏时间大概能到几个小时呢？",
+          "en": "@Cyshall I basically don't play mobile games either. I want to know how many hours the real daily screen-on time can be?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wildnode 感谢，我之前用 iPhone 12 ，出门忘带充电宝就必租。。。看来小米 14 的续航还是不错的。",
+          "en": "@wildnode Thanks, I used to use iPhone 12, and I had to rent a power bank if I forgot to bring one when I went out... It seems that the battery life of Xiaomi 14 is still good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@genkidesu 这个从来没注意，反正比我的 15 pro 强很多。",
+          "en": "@genkidesu I never paid attention to this, but it's much stronger than my 15 pro anyway."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个 6.3 英寸，一个 6.8 英寸屏幕区别已经大到不会需要纠结的地步了喜欢小屏的不会多看一加 1 一眼 2 ，喜欢大屏的自然也不会看小米 14",
+          "en": "A 6.3-inch and a 6.8-inch screen difference is already so big that there is no need to be entangled. Those who like small screens will not look at OnePlus 1 more than once, and those who like large screens will naturally not look at Xiaomi 14."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@BeautifulSoap 是的，其实对我而言只需要知道小米 14 续航不差，心里就已经有答案了。",
+          "en": "@BeautifulSoap Yes, actually for me, I just need to know that the battery life of Xiaomi 14 is not bad, and I already have the answer in my heart."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@genkidesu #2 我用的 findx6/一加 8T ，个人感觉 colorOS 就是没有 MIUI 、氢 OS 流畅，ColorOS14 稍微流畅了一点，但还是不太行",
+          "en": "@genkidesu #2 I use findx6/OnePlus 8T. Personally, I feel that colorOS is not as smooth as MIUI and HydrogenOS. ColorOS14 is slightly smoother, but it's still not very good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@genkidesu #2 不过 ColorOS 续航还可以",
+          "en": "@genkidesu #2 But ColorOS battery life is ok."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "从 13Pro 换到小米 14 。续航好很多充电非常快，手感差点。系统乱七八糟用不上功能挺多，广告能关，很多软件很实用而且免费。",
+          "en": "Switched from 13Pro to Xiaomi 14. The battery life is much better and the charging is very fast, but the feel is a little worse. The system is messy and there are many functions that cannot be used, the advertisements can be turned off, and many software are very practical and free."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ov 家的系统，很多年前是一坨翔一样的品质，别说设计感，甚至连基本的滚动动画和弹回效果都做不好。最近过年，把玩了下亲人的手机，color os 11 ，还是不忍直视。国内最好的还是 miui ，华为的也不太行。",
+          "en": "OV's system was like a pile of shit many years ago. Let alone the sense of design, even the basic scrolling animation and bounce effect were not done well. Recently during the Spring Festival, I played with my relatives' mobile phones, color os 11, and I still couldn't bear to look at it directly. The best in China is still miui, and Huawei's is not very good either."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我小米 14 主力机，小屏太爽了，一加 12 刷氧 os+root ，当备用机",
+          "en": "My Xiaomi 14 is my main phone, the small screen is so cool, OnePlus 12 flashed Oxygen OS + root, as a backup phone."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@genkidesu #2 @jkfadsljlasdgs #1 好奇的问一下 我以前也是 1+用户后来换的小米，以前的 H2OS 和 O2OS 系统呢",
+          "en": "@genkidesu #2 @jkfadsljlasdgs #1 I'm curious to ask, I used to be a 1+ user and then switched to Xiaomi, what about the previous H2OS and O2OS systems?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": 1015401,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "有没有人能说一下建造类游戏的趣味性？",
+          "en": "Can anyone explain the fun of building games?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "春节无意下了一堆这样的游戏，有饥荒 泰拉瑞亚，方舟生存进化等等等等其他英文叫不出的，不是否认这些游戏设计的美妙，而是我真的体验不到。",
+          "en": "During the Spring Festival, I unintentionally downloaded a bunch of these games, including Don't Starve, Terraria, Ark: Survival Evolved, and many others with names I can't even pronounce in English. I'm not denying the beauty of these game designs, but I really can't experience it."
+        },
+        {
+          "zh": "开局一般就是砍草砍草砍草 ，摘果摘果摘果，然后遇到个小 boss 对战一下可能死可能活，如果死了就得蓄力建造工具提高伤害值砍他，然后你的工具越来越多，物品越来越多，不断去打更强的怪，然后反复循环，上班上课也没这么累啊，和传统 rpg 没什么区别，但是人家起码还有个剧情，比如魔女之泉 4 （剧情量大于怪的数量，如果把建造游戏最开始的草也算做怪的话），如果玩法是建造的话，有那砍草的时间为什么不去玩乐高呢（游戏版也有），如果要点是生存，有那么多恐怖游戏或者射击战术类的，总而言之，我的感觉是累都累死",
+          "en": "The gameplay usually starts with chopping grass, chopping grass, chopping grass, picking fruits, picking fruits, picking fruits, and then encountering a small boss for a battle where you might die or survive. If you die, you have to build up your tools to increase damage and chop him down. Then you have more and more tools, more and more items, and you keep fighting stronger monsters in a repeating cycle. It's not as tiring as going to work or school. It's no different from traditional RPGs, but at least they have a storyline, like Witch Spring 4 (where the amount of plot is greater than the number of monsters, if you count the grass at the beginning of the building game as monsters). If the gameplay is about building, why not play LEGO (there's a game version too) instead of chopping grass? If the focus is on survival, there are so many horror games or shooting tactics games. In short, my feeling is that it's exhausting."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "沙盒类游戏往往并没有什么问题一定要解决，没有魔王需要打败，没有公主需要拯救，没有圣殿骑士，没有龙，没有古神，没有圣杯，没有机甲，没有义体，Minecraft 只需要活着，Terraria 也只需要活着，饥荒也只需要活着，如果你仅仅是站在那里，地图上已有的资源足够你站到天荒地老。",
+          "en": "Sandbox games often don't have any problems that must be solved. There's no demon king to defeat, no princess to save, no Templars, no dragons, no ancient gods, no Holy Grail, no mechs, no cybernetics. Minecraft just needs to survive, Terraria just needs to survive, and Don't Starve just needs to survive. If you just stand there, the resources already on the map are enough for you to stand there until the end of time."
+        },
+        {
+          "zh": "是玩家自己对这个世界感到好奇，想四处探索，然后就会遇到各种问题，在试图解决这些问题的过程中又会产生新的问题。",
+          "en": "It's the players themselves who are curious about the world and want to explore it, and then they encounter various problems. In the process of trying to solve these problems, new problems arise."
+        },
+        {
+          "zh": "相比之下，其他游戏会把这些问题直接抛给玩家，告诉你去找某个 NPC ，去获取某个物品，去战胜某个敌人。",
+          "en": "In comparison, other games will directly throw these problems at the player, telling you to find a certain NPC, to obtain a certain item, to defeat a certain enemy."
+        },
+        {
+          "zh": "但正因为如此，这些游戏的自由度远不如沙盒游戏高，玩家只能去完成某个任务，这个过程中几乎所有的事件都是预先设定的，所有的问题都仅提供少数几种解法。",
+          "en": "But because of this, the freedom of these games is far less than that of sandbox games. Players can only complete a certain task, and almost all events in this process are pre-set, and all problems only offer a few solutions."
+        },
+        {
+          "zh": "而在沙盒里，玩家能按照自己的想法行事，比如说当你要建立一个庇护所，多高多大，几层楼几个门，什么颜色什么形状，错落有致还是整齐划一，你能够自由地运用你的想象力和创造力。",
+          "en": "In a sandbox, players can act according to their own ideas. For example, when you want to build a shelter, how tall, how big, how many floors, how many doors, what color, what shape, staggered or uniform, you can freely use your imagination and creativity."
+        },
+        {
+          "zh": "当我们看到各种速通或者花式连招或者无伤通关的视频时，我们说很 cool ，是惊叹于玩家的技巧和操作——他居然能搓出我做不到的操作！",
+          "en": "When we see videos of various speedruns, fancy combos, or no-damage playthroughs, we say it's cool, marveling at the player's skills and operations - he can actually pull off operations that I can't!"
+        },
+        {
+          "zh": "而当我们看到沙盒游戏中的各种奇观时，我们说很 cool ，是惊叹于玩家的奇思妙想——为什么我的庇护所就是方方正正的棺材房，而他的庇护所设计巧妙还充满着美感？",
+          "en": "And when we see the various wonders in sandbox games, we say it's cool, marveling at the player's whimsy - why is my shelter a square coffin room, while his shelter is cleverly designed and full of beauty?"
+        },
+        {
+          "zh": "正如沙盒游戏的名字所描述的那样，这就是玩沙，想想童年是堆积木或者玩沙子时，对着塑料块和沙子不亦乐乎，只不过现在我们有更高级的，可互动的，由 0 和 1 组成的智能积木可以玩。",
+          "en": "As the name of sandbox games describes, this is playing with sand. Think about childhood, when you were happily stacking blocks or playing with sand, looking at plastic blocks and sand. It's just that now we have more advanced, interactive, intelligent building blocks made of 0s and 1s to play with."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "“如果死了就得蓄力建造工具提高伤害值砍他”如果只能这么玩，确实没意思，但是好的沙盒升级提供的是游戏机制，而不是伤害数值。",
+          "en": "'If you die, you have to build up your tools to increase damage and chop him down.' If you can only play like this, it's really boring, but good sandbox upgrades offer game mechanics, not damage stats."
+        },
+        {
+          "zh": "比如饥荒你打不过，可以拉别的怪让他们互殴，可以造炸死睡觉偷袭，可以造围墙和陷阱来打，也可以养动物帮你打，发现这些方式本身就是乐趣。",
+          "en": "For example, if you can't beat a monster in Don't Starve, you can lure other monsters to fight each other, you can make bombs to kill them in their sleep, you can build walls and traps to fight them, or you can raise animals to help you fight. Discovering these methods is a pleasure in itself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "以前看过一本哲学书，开头说：世界上有两种游戏，一种是为了让游戏结束，另一种是为了让游戏持续。",
+          "en": "I once read a philosophy book that started by saying: There are two types of games in the world, one is to end the game, and the other is to keep the game going."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可能沙盒属性较强的建造类游戏才能符合你说的“趣味性”，比如坎巴拉太空计划和航天模拟器。",
+          "en": "Perhaps building games with stronger sandbox attributes can meet the 'fun' you're talking about, such as Kerbal Space Program and space simulators."
+        },
+        {
+          "zh": "很多飞行爱好者认为的“趣味”应该指的是物理属性，因为这样的游戏科学性最强",
+          "en": "Many flight enthusiasts think that 'fun' should refer to physical properties, because such games are the most scientific."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该是叫沙盒游戏吧。",
+          "en": "It should be called a sandbox game."
+        },
+        {
+          "zh": "开放世界类游戏的主要卖点就是弱化剧情束缚，按自己的喜好去探索玩法。",
+          "en": "The main selling point of open-world games is to weaken the constraints of the plot and explore the gameplay according to your own preferences."
+        },
+        {
+          "zh": "沙盒游戏比普通开放世界更自由，游戏只提供了一个大致的世界观和工具，玩家按自己想法去建造和探索就行，剧情是基本不需要的东西。",
+          "en": "Sandbox games are more free than ordinary open-world games. The game only provides a general worldview and tools, and players can build and explore according to their own ideas. The plot is basically unnecessary."
+        },
+        {
+          "zh": "至于乐高，传统的实体乐高只是搭建，但缺乏和世界的互动。",
+          "en": "As for LEGO, traditional physical LEGOs are just building, but they lack interaction with the world."
+        },
+        {
+          "zh": "比方说沙盒游戏中你造个房子，可以抵抗怪物攻击，但乐高只能放几个乐高小人过家家或拍照；更大规模的乐高作品太费钱。",
+          "en": "For example, if you build a house in a sandbox game, it can resist monster attacks, but LEGO can only put a few LEGO minifigures to play house or take pictures; larger-scale LEGO works are too expensive."
+        },
+        {
+          "zh": "乐高电子游戏的话，大部分还是剧情类，好像 Lego: Worlds 是沙盒类型游戏，没关注，不清楚怎样。",
+          "en": "As for LEGO video games, most of them are still story-driven. It seems that Lego: Worlds is a sandbox-type game, but I haven't paid attention to it, so I don't know how it is."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这类游戏就是给喜欢收集和探索的玩家的，也有一部分是挑战难度速度的。",
+          "en": "This type of game is for players who like to collect and explore, and some of them challenge the speed of difficulty."
+        },
+        {
+          "zh": "反正萝卜青菜各有所爱，我就不喜欢玩 3A rpg 类，比如今年的博德之门 3 感觉就像在看小说看电影，几百块钱玩的累死，还不如直接看电影或者看小说。",
+          "en": "Anyway, to each their own. I don't like playing 3A RPGs, such as this year's Baldur's Gate 3. It feels like watching a novel or a movie. It's tiring to play for hundreds of dollars. It's better to just watch a movie or read a novel."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一方面可以不断得到正反馈，比如收集的物品越来越多，装备越来越强，亦或是逐渐建设完成的房子。",
+          "en": "On the one hand, you can continuously get positive feedback, such as collecting more and more items, stronger and stronger equipment, or gradually building a completed house."
+        },
+        {
+          "zh": "另一方面这个过程是比较放松的，可以非常慢节奏的玩，不需要花费太多的精力，顶多是刚接触游戏时需要处理大量的信息，熟悉游戏内容。",
+          "en": "On the other hand, this process is relatively relaxing, you can play at a very slow pace, you don't need to spend too much energy, at most you need to process a lot of information and familiarize yourself with the game content when you first come into contact with the game."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "另一方面，这类游戏想停就停，不像剧情游戏非得走完剧情才算通关",
+          "en": "On the other hand, you can stop this type of game whenever you want, unlike story-driven games where you have to finish the story to complete the game."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那楼主觉得帕鲁好玩吗",
+          "en": "Does the original poster think Palworld is fun?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "好奇游戏的机制到底有什么，好奇我能在游戏里做什么，好奇我能利用我掌握的做出我想象的吗，这这那那都能实现吗，过去很喜欢玩 Minecraft 就是喜欢各种各样的探索。",
+          "en": "I'm curious about what the game mechanics are, what I can do in the game, whether I can use what I've learned to make what I imagine, whether this and that can be achieved. I used to love playing Minecraft because I liked all kinds of exploration."
+        },
+        {
+          "zh": "后来慢慢发现不对这些产生好奇了，也就不太喜欢玩了。",
+          "en": "Later, I gradually found that I was no longer curious about these things, and I didn't like playing it very much."
+        },
+        {
+          "zh": "可能 op 只是正好没习惯类似自由度偏高的游戏，漫无目的，潜意识里认为这是一款游戏，应该有一个任务列表，我应该完成这些，而突然都没有了，导致心智负担提升。",
+          "en": "Maybe the OP is just not used to games with a similar high degree of freedom, aimless, and subconsciously thinks that this is a game, there should be a task list, I should complete these, but suddenly there are none, which leads to an increase in mental burden."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最好能有跟现实一样的游戏，我就自由扮演其中亿万人口中的一个，完成工作，慢慢时间流逝，看到世界变化，但是在游戏中。",
+          "en": "It would be best if there was a game that was the same as reality, where I could freely play one of the billions of people in it, complete work, slowly pass time, and see the world change, but in the game."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我好像第一次发现这个网站最下面有广告，点进去是一个社区的 Minecraft 服务器，😓无语",
+          "en": "I think I've discovered that there are ads at the bottom of this website for the first time. Clicking on it leads to a community Minecraft server. 😓 Speechless."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就是要得别人崇拜之前玩mc 我粉丝群两千人满了可惜无法变现",
+          "en": "It's all about getting others to worship you. Before, I played MC and my fan group was full of 2,000 people, but unfortunately I couldn't monetize it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就是一种陪伴，玩的内容不重要。",
+          "en": "It's just a kind of companionship, the content of the game doesn't matter."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有的人能把他的满足感延迟到两三年后他整个存档都建满了宏伟独创的世界奇观的时候。",
+          "en": "Some people can delay their satisfaction until two or three years later when their entire save is filled with magnificent and original wonders of the world."
+        },
+        {
+          "zh": "有的人坚持不到第二天把火堆搓出来就已经不想玩了。",
+          "en": "Some people can't even last until the next day to make a campfire and they don't want to play anymore."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个人玩确实不好玩，很难沉浸进去",
+          "en": "It's really not fun to play alone, it's hard to immerse yourself in it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "泰拉更注重探险吧，玩的就是那种逐渐升级用更好的装备打更好的 boss 去更多的地方的感觉，游戏内容重复度真不算高。",
+          "en": "Terraria focuses more on exploration. The fun is in gradually upgrading to fight better bosses with better equipment and go to more places. The game content is not very repetitive."
+        },
+        {
+          "zh": "建造部分最多也就打 boss 时弄弄战斗场，NPC 住的大牢也用不了几分钟去造",
+          "en": "The construction part is mostly just building a battle arena when fighting bosses. It doesn't take a few minutes to build a jail for the NPCs to live in."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我只喜欢这两款：《我的世界》（ Minecraft ），又称“别人的世界”。",
+          "en": "I only like these two: \"Minecraft\", also known as 'other people's world'."
+        },
+        {
+          "zh": "《围攻》（ Besiege ），又称“围观”。",
+          "en": "\"Besiege\", also known as 'spectating'."
+        },
+        {
+          "zh": "有多少乐趣取决于：对游戏的特性和“特性”（ bug ）的了解程度；你的想象力；别人的想象力。",
+          "en": "How much fun there is depends on: your understanding of the game's characteristics and 'features' (bugs); your imagination; other people's imagination."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "十年前很沉迷在我的世界里建造各种自动化生产线，但是退出游戏再想到自己的账单房贷和当时可怜的工资多少还是会有些失落，现实里满足生存需求比游戏还是难多了",
+          "en": "Ten years ago, I was very addicted to building various automated production lines in Minecraft, but when I quit the game and thought about my bills, mortgage, and pitiful salary at the time, I still felt a little lost. It's much more difficult to meet survival needs in reality than in the game."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "辅助理解软件工程的各种思想，我玩 factorio ，很考验工作流的设计能力和架构设计能力的，这对我理解软件工程的各种思想很有帮助。",
+          "en": "To help understand various ideas of software engineering, I play Factorio, which tests the design ability of workflow and the design ability of architecture, which is very helpful for me to understand various ideas of software engineering."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

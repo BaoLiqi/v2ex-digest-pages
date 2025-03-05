@@ -1,0 +1,227 @@
+{
+  "id": 1015116,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "大家的 oracle 免费主机还好吗",
+          "en": "How is everyone's Oracle free host doing?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1 月底收到一封邮件，说的很含糊，大意似乎是要 7 天后停机，但是还允许恢复",
+          "en": "I received an email at the end of January, which was very vague. The gist seemed to be that it would be shut down in 7 days, but would still allow recovery."
+        },
+        {
+          "zh": "\r\n\r\n赶紧登上去拉起来几个进程把 CPU 占上，然后又重启了几次",
+          "en": "\r\n\r\nI quickly logged in, started a few processes to occupy the CPU, and then restarted it a few times."
+        },
+        {
+          "zh": "\r\n\r\n邮件说可以通过改成按需付费的方式避免关机，在不超配额的情况下不收钱",
+          "en": "\r\n\r\nThe email said that you can avoid shutdown by changing to pay-as-you-go, and you will not be charged if you do not exceed the quota."
+        },
+        {
+          "zh": "\r\n\r\n结果即使卡都已经消费验证成功了，但是还是死活改不过来",
+          "en": "\r\n\r\nAs a result, even though the card has been successfully verified for consumption, it still can't be changed."
+        },
+        {
+          "zh": "\r\n\r\n目前看现在还都健在，大家的主机还好吗",
+          "en": "\r\n\r\nCurrently, it seems they are still alive. How are everyone's hosts doing?"
+        },
+        {
+          "zh": "\r\n\r\n邮件内容如下",
+          "en": "\r\n\r\nThe email content is as follows:"
+        },
+        {
+          "zh": "\r\n\r\nOracle Cloud Infrastructure Customer,\r\n\r\nOracle Cloud Infrastructure (OCI) will be reclaiming idle Always Free compute resources from Always Free customers only. Reclaiming idle resources allows OCI to efficiently provide services to Always Free customers. Your account has been identified as having one or more compute instances that have been idle for the past 7 days. **These idle instances will be stopped 7 days from now.** _**If your idle Always Free compute instance is stopped, you can restart it as long as the associated compute shape is available in your region.**_\r\n\r\nYour Boot and Block Volumes remain unchanged and available to you. **You can keep idle compute instances from being stopped by converting your account to Pay As You Go (PAYG). With PAYG, you will not be charged as long as your usage for all OCI resources remains within the Always Free limits.**\r\n\r\nFor more information on Always Free idle compute instances, see the OCI Idle Compute Instances documentation.\r\n",
+          "en": "\r\n\r\nOracle Cloud Infrastructure Customer,\r\n\r\nOracle Cloud Infrastructure (OCI) will be reclaiming idle Always Free compute resources from Always Free customers only. Reclaiming idle resources allows OCI to efficiently provide services to Always Free customers. Your account has been identified as having one or more compute instances that have been idle for the past 7 days. **These idle instances will be stopped 7 days from now.** _**If your idle Always Free compute instance is stopped, you can restart it as long as the associated compute shape is available in your region.**_\r\n\r\nYour Boot and Block Volumes remain unchanged and available to you. **You can keep idle compute instances from being stopped by converting your account to Pay As You Go (PAYG). With PAYG, you will not be charged as long as your usage for all OCI resources remains within the Always Free limits.**\r\n\r\nFor more information on Always Free idle compute instances, see the OCI Idle Compute Instances documentation.\r\n"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@bs10081 不太好申请，在香港境内用 hsbc 申请都不给过",
+          "en": "@bs10081 It's not easy to apply. Even applying with HSBC in Hong Kong doesn't work."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "甲骨文保活 docker甲骨文 10%CPU docker run --restart=always --cpus=0.2 -d alpine sh -c \"while true; do continue; done\"armdocker run --restart=always --cpus=0.6 -d alpine sh -c \"while true; do continue; done\"",
+          "en": "Oracle keep-alive docker Oracle 10%CPU docker run --restart=always --cpus=0.2 -d alpine sh -c \"while true; do continue; done\" armdocker run --restart=always --cpus=0.6 -d alpine sh -c \"while true; do continue; done\""
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@arfaWong 我在内核参数加上 console=ttyS0,9600 解决了",
+          "en": "@arfaWong I solved it by adding console=ttyS0,9600 to the kernel parameters."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你需要这个 https://github.com/spiritLHLS/Oracle-server-keep-alive-script",
+          "en": "You need this: https://github.com/spiritLHLS/Oracle-server-keep-alive-script"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "現在甲骨文的免費主機還能申請嗎？",
+          "en": "Can you still apply for Oracle's free host now?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "还算稳定",
+          "en": "Still stable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Sekai #1 不错不错，我本来用 lookbusy 以及自己写的 dd 守护脚本，但是对于 oracle 免费主机来说容易用力过猛，你这个脚本力度适中刚刚好",
+          "en": "@Sekai #1 Not bad, not bad. I originally used lookbusy and a dd daemon script I wrote, but for Oracle's free host it is easy to overdo it. The intensity of your script is just right."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一直在用，还好。不用的话，就关掉，占着不用有点儿不环保。",
+          "en": "I have been using it and it's fine. If you don't use it, turn it off. Occupying it without using it is a bit environmentally unfriendly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "又被关机了，赶紧打开",
+          "en": "It was shut down again, quickly turn it on."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "验证信用卡就好，稳定运行",
+          "en": "Just verify the credit card and it runs stably."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@2067 英文的意思是: 1. 从现在起停机 7 天(之后能否再起来看҉超售情况).  2.或者升级成 PAYG 后超量付费.蹲个后续.",
+          "en": "@2067 The English means: 1. Shut down in 7 days from now (whether it can be restarted later depends on ҉over-selling). 2. Or upgrade to PAYG and pay for exceeding the quota. Waiting for follow-up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "稳定运行 2 年多了",
+          "en": "Running stably for more than 2 years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没了 使用未达标",
+          "en": "Gone, usage didn't meet the requirements."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "朋友的突然下线了（还有网站在跑的），发了工单还没回复",
+          "en": "A friend's suddenly went offline (and there was still a website running). They sent a ticket but haven't received a reply yet."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我在用 oracle 跑爬虫，看到这个帖子，心惊胆战啊",
+          "en": "I'm using Oracle to run a crawler, I'm terrified to see this post."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一直稳定，我挂 aria2 用来跑下载的，内存占用就没下过 60 ，下载完用 rclone 往网盘传的时候，cpu 经常会占 90 以上",
+          "en": "It has been stable. I use aria2 to run downloads. The memory usage has never been below 60. When I use rclone to upload to the cloud drive after downloading, the CPU often occupies more than 90."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用了四年，去年夏天突然没了",
+          "en": "I used it for four years, and it suddenly disappeared last summer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "只要去后台把系统资源监控关了就好，一般发这种警告的都是闲置太久的。",
+          "en": "Just go to the background and turn off system resource monitoring. Generally, these warnings are issued because they have been idle for too long."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xinge666 so how to apply it?tks for the advice",
+          "en": "@xinge666 so how to apply it?tks for the advice"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "付费升级呀，去年 2-11 注册的，ARM 4c 24g 随便开。",
+          "en": "Pay for an upgrade. Registered on 2-11 last year, ARM 4c 24g can be opened at will."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": 1015459,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "请问: 如何让 chatGPT 总结视频的内容?",
+          "en": "Question: How to get chatGPT to summarize the content of a video?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "发了视频链接给 chatGPT, 返回: 抱歉，我无法访问外部链接或查看特定的在线视频内容",
+          "en": "I sent the video link to chatGPT, and it returned: Sorry, I cannot access external links or view specific online video content."
+        },
+        {
+          "zh": "请问: 如何让 chatGPT 总结视频的内容?  谢谢",
+          "en": "Question: How to get chatGPT to summarize the content of a video? Thanks."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "提取音频内容，语音识别内容，然后把文字内容喂给它。",
+          "en": "Extract the audio content, perform speech recognition, and then feed the text content to it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "补充一点，如果要一帧一帧的分析视频视频画面以及结合音频应该也是可以的，应该也有很多公司已经在做了，但是你直接丢一个视频外部链接给 ChatGPT ，是不是有点难，试想一个场景，比如一个外链，视频 2 小时，是流媒体，难道要 ChatGPT 在这个网站观看 2 小时，然后再给你结果。",
+          "en": "One more point, if you want to analyze the video frame by frame and combine it with the audio, it should be possible, and many companies are already doing it. But it's a bit difficult to directly throw an external video link to ChatGPT. Imagine a scenario, such as an external link, a 2-hour video, which is streaming media. Does ChatGPT have to watch 2 hours on this website and then give you the result?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Nosub 应该不对吧，ai“观看”视频和人类不一样吧，人类需要两小时是因为需要分析视频画面内容，而 ai 处理信息的方法不一样且速度快多了",
+          "en": "@Nosub I don't think that's right. AI 'watching' videos is different from humans. Humans need two hours because they need to analyze the video content, while AI processes information differently and much faster."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以看看这个项目： https://github.com/disingn/cliptalk",
+          "en": "You can check out this project: https://github.com/disingn/cliptalk"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "GPTs 里面不就有 Free YouTube Summarizer 吗？",
+          "en": "Doesn't GPTs have a Free YouTube Summarizer?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在好多都是音频转文字，文字总结就完事",
+          "en": "Now many just convert audio to text and then summarize the text."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大多数应该都是先提取字幕再总结内容吧？语音转文字用的时间可太久了",
+          "en": "Most should extract subtitles first and then summarize the content, right? It takes too long to convert speech to text."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最简单的是直接识别音频总结最完整的是音频+视频逐帧分析",
+          "en": "The simplest is to directly recognize the audio and summarize it. The most complete is audio + video frame-by-frame analysis."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "总之不管怎么样都必须文字喂给他，有字幕就字幕，没字幕就创造字幕..",
+          "en": "In short, no matter what, you have to feed it text. If there are subtitles, use subtitles; if there are no subtitles, create subtitles..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://bibigpt.co/r/VfmiZN一个链接总结主流音视频文字媒体概要",
+          "en": "https://bibigpt.co/r/VfmiZN A link summarizing the main audio, video, and written media."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "普遍采用的方案就是音频转文字逐帧截取也不是不行，但成本太高、耗时太长，不划算",
+          "en": "The commonly used solution is to convert audio to text. Frame-by-frame capture is also possible, but the cost is too high, it takes too long, and it's not cost-effective."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "poe 上好多个这样的  但现在用不了  不知道为什么 好像不是提取字幕  而是客户评价  我不确定",
+          "en": "There are many like this on poe, but they can't be used now. I don't know why. It doesn't seem to extract subtitles, but rather customer reviews. I'm not sure."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yanyao23 逐帧和视频字幕结合是最好的 嘎嘎准",
+          "en": "@yanyao23 Combining frame-by-frame analysis with video subtitles is the best and super accurate."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很好奇 B 站的小助手是怎么实现提取这么精准的",
+          "en": "I'm very curious how Bilibili's little helper achieves such precise extraction."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "gemini 可以处理 2 分钟以内的视频",
+          "en": "Gemini can process videos up to 2 minutes long."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果你可以把音频提取出来，也可以试一下 Qwen-Audio-Chat 模型，它可以按照自然语言的要求处理音频，比如列出音频内容的提纲。",
+          "en": "If you can extract the audio, you can also try the Qwen-Audio-Chat model, which can process audio according to natural language requirements, such as listing an outline of the audio content."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Evergreen 这里的问题不是查看方式的问题，是爬虫的问题，我特意说了流媒体，就是你不能一次性获取完整的视频，ChatGPT 还没有强大到可以爬取任意视频。",
+          "en": "@Evergreen The problem here is not the viewing method, but the crawler. I specifically said streaming media, which means you can't get the complete video at once. ChatGPT is not powerful enough to crawl any video."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dji38838c YouTube 官方提供了视频字幕的接口，所以总结 YouTube 视频会简单很多。",
+          "en": "@dji38838c YouTube officially provides an interface for video subtitles, so summarizing YouTube videos is much simpler."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@smalltong02 才知道有这么个模型 看起来有点意思",
+          "en": "@smalltong02 I just learned about this model. It looks interesting."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "字幕 https://github.com/buhe/langchain-swift 手机不方便，用 youtubeloader",
+          "en": "Subtitles https://github.com/buhe/langchain-swift It's not convenient to use my phone, use youtubeloader."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

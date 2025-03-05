@@ -1,0 +1,311 @@
+{
+  "id": 1019388,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "请教各位大佬， 0 基础小白的我想做一个族谱网站供个人使用，该从哪里学起？",
+          "en": "Hello everyone, I'm a complete beginner and want to create a genealogy website for personal use. Where should I start learning?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一直在用一位大佬的记录工具，大佬这个族谱工具基于 Microsoft Office 开发，使用需安装 ACCESS 和 Excel 这两个套件，录入信息使用 access ，数据文件是 mde ，生成世系图需要调用 Microsoft EXCEL 。",
+          "en": "I've been using a recording tool developed by an expert, which is based on Microsoft Office. It requires the installation of ACCESS and Excel. ACCESS is used for inputting information, the data file is mde, and Microsoft EXCEL is required to generate pedigree charts."
+        },
+        {
+          "zh": "\r\n\r\n族谱的演示视频：\r\nhttps://www.bilibili.com/video/BV1dr4y1M7VD/\r\n\r\n从以前开始就想做个网站，除了方便自己记录信息，还能供族人上去看，访问量肯定不高，数据也不多，到现在为止也就记录不到 1000 人。",
+          "en": "\r\n\r\nDemo video of the genealogy:\r\nhttps://www.bilibili.com/video/BV1dr4y1M7VD/\r\n\r\nI've wanted to create a website for a while, not only to make it easier to record information but also to allow family members to view it. The traffic will definitely be low, and the data isn't much; I've only recorded less than 1000 people so far."
+        },
+        {
+          "zh": "而自己有台 NAS 安装了 PVE 和黑裙，黑裙里有 docker 也安装了宝塔面板管理自己一个导航网页（静态网页，拿模板自己稍微修改下）。",
+          "en": "I have a NAS with PVE and a black群 (likely referring to a Chinese NAS OS) installed. Docker is also installed in the black群, along with the Baota panel to manage a navigation webpage (static, using a template that I slightly modified)."
+        },
+        {
+          "zh": "所以网站就放在自己 NAS 里，不需要去买服务器。",
+          "en": "So, the website will be hosted on my NAS and I don't need to buy a server."
+        },
+        {
+          "zh": "\r\n\r\n大佬们能否给小弟提供一个学习的思路，先学什么再学什么，最后学什么把这些串联起来。",
+          "en": "\r\n\r\nCould you provide me with a learning path, experts? What should I learn first, then next, and finally, how to connect them all?"
+        },
+        {
+          "zh": "\r\n\r\n现在自己已经开始从 html5 开始学，数据库想使用 mysql(或者大佬们有好用轻量化的可以推荐下)。",
+          "en": "\r\n\r\nI've already started learning from HTML5. I'm planning to use MySQL for the database (or could you recommend any useful and lightweight alternatives?)."
+        },
+        {
+          "zh": "\r\n\r\n在这先感谢各位大佬。",
+          "en": "\r\n\r\nThanks in advance to all the experts."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://jiapu.rossroma.com给你看下我做的族谱站点，前端用的 vue ，后端是 nodejs ，数据库是 mysql",
+          "en": "https://jiapu.rossroma.com Here's my genealogy site I made. The frontend is Vue, the backend is Node.js, and the database is MySQL."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shurimasoul 目前只上传了前端部分到 github ，https://github.com/rossroma/family-tree-front 。",
+          "en": "@shurimasoul Currently, only the frontend part has been uploaded to GitHub: https://github.com/rossroma/family-tree-front."
+        },
+        {
+          "zh": "后端代码有些敏感信息还没处理，等有空了再把后端放上去。",
+          "en": "Some sensitive information in the backend code hasn't been processed yet. I'll upload the backend when I have time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@rossroma 后端代码已共享： https://github.com/rossroma/family-tree-server",
+          "en": "@rossroma Backend code has been shared: https://github.com/rossroma/family-tree-server"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没那么复杂，看视频学下虚拟主机管理，再学下 WORDPRESS 安装使用，然后买个虚拟主机就解决了。",
+          "en": "It's not that complicated. Watch videos to learn virtual host management, then learn how to install and use WORDPRESS, and then buy a virtual host to solve the problem."
+        },
+        {
+          "zh": "不过仅限于以图片方式或嵌入个视频展示，如果你要数据库读族谱那要改数据库对新手来说太复杂。",
+          "en": "However, this is limited to displaying images or embedding videos. If you want to read the genealogy from a database, modifying the database is too complicated for beginners."
+        },
+        {
+          "zh": "说句题外的，我对族谱这玩意不感冒，以村为单位的，被踢出村的那些人，其实就已经跟那族恩断义绝了，除非是给机会回去还不回。",
+          "en": "As an aside, I'm not a fan of genealogy. Those who have been kicked out of the village have already severed ties with the clan unless they're given the opportunity to return and refuse."
+        },
+        {
+          "zh": "不然想建祠堂等要捐钱什么的，你升官发财的，就记住是自己族的孝子贤孙，分红的时候你就是 NOBODY ，你家祖传老房子倒了你的同宗乡亲马上赶来将你的房地没收，这样的宗族要不要也罢。",
+          "en": "Otherwise, when it comes to donating money to build ancestral halls, etc., if you become an official or get rich, they'll remember you as a filial descendant of the clan, but when it comes to dividends, you're NOBODY. If your ancestral home collapses, your relatives will immediately rush to confiscate your land. Such clans are better off without."
+        },
+        {
+          "zh": "真当自己族的，不要说古代，就算几十年前，就算你去南洋卖猪仔回国，村里的大门都会永远为你打开。",
+          "en": "If they really considered you part of the clan, not to mention ancient times, even decades ago, even if you went to Southeast Asia to work as a coolie and returned home successfully, the village gates would always be open for you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "首先理解一下数据库的概念，数据库就是 Excel ，每一行存一条数据，每一条数据有一个 ID ，类似每个人有个身份证号。",
+          "en": "First, understand the concept of a database. A database is like Excel, where each row stores a piece of data, and each piece of data has an ID, similar to a person's ID card number."
+        },
+        {
+          "zh": "每一列是这条数据的不同属性，类似每个人的身高体重信息。",
+          "en": "Each column is a different attribute of this data, similar to a person's height and weight information."
+        },
+        {
+          "zh": "数据之间的联系用 ID 关联起来，类似张三的父亲是张二，张三的父亲这一列，填的就是张二的 ID然后安装个 mysql ，用 chat2db 连接上，在里面创建好数据库，填充一些基础的族谱信息。",
+          "en": "The connections between data are linked using IDs, for example, if Zhang San's father is Zhang Er, the Zhang San's father column would contain Zhang Er's ID.Then install MySQL and connect it with chat2db, create a database inside, and fill in some basic genealogy information."
+        },
+        {
+          "zh": "chat2db 可以从自然语言生成 sql 。",
+          "en": "chat2db can generate SQL from natural language."
+        },
+        {
+          "zh": "尝试用 chat2db 增、删、改、查一些信息。",
+          "en": "Try using chat2db to add, delete, modify, and query some information."
+        },
+        {
+          "zh": "比如：查询张三的所有后代再学一下 php 怎么连接数据库，怎么拼接字符串，用 chat2db 生成的 sql 语句，在 php 中实现增删改查。",
+          "en": "For example: query all the descendants of Zhang San.Then learn how to connect to the database with PHP, how to concatenate strings, and how to implement CRUD operations in PHP using the SQL statements generated by chat2db."
+        },
+        {
+          "zh": "在这个过程中还要学习一下简单的 if for 语法，建议先去看一些入门的视频。",
+          "en": "In this process, you also need to learn some simple if-for syntax. It is recommended to watch some introductory videos first."
+        },
+        {
+          "zh": "最后再学习一下 html 中的 form 表单，怎么提交数据，php 怎么接收数据，接收后再展示出来。",
+          "en": "Finally, learn about HTML form submissions, how to submit data, how PHP receives the data, and how to display it after receiving it."
+        },
+        {
+          "zh": "这样就完成了一个可以通过网页实现增删改查的族谱网站。",
+          "en": "This completes a genealogy website that can perform CRUD operations through a webpage."
+        },
+        {
+          "zh": "零基础的话，每天 2 小时，应该一个月左右能完成",
+          "en": "If you are starting from scratch, spending 2 hours a day, you should be able to complete it in about a month."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "网页短平快就选 PHP ，学 PHP 基础语法，然后学 WordPress 就可以。",
+          "en": "For a quick and simple website, choose PHP. Learn the basic PHP syntax and then learn WordPress."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不知道有没现成的项目可以直接部署使用，我过年那会也上网搜索了好一会没找到",
+          "en": "I wonder if there are any ready-made projects that can be deployed directly. I searched online for a long time during the Chinese New Year but couldn't find any."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "国外有 MyHeritage 可以看看有没有什么可以借鉴的。",
+          "en": "There's MyHeritage abroad, maybe you can see if there's anything you can learn from it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "cms 就行了",
+          "en": "CMS will do."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不要从零开始学代码，代码是工具而已，用 wordpress 找现成的，找展示类的现成模板，然后看看有没有插件可以生成世系图。",
+          "en": "Don't start learning code from scratch. Code is just a tool. Use WordPress to find existing templates, especially display-oriented ones, and then see if there are any plugins that can generate pedigree charts."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@testonly wordpress 我也看了下，尝试过修改使用但失败，不知道是不是我用的方法不对。",
+          "en": "@testonly I also looked at WordPress and tried to modify it, but failed. I don't know if it's because I'm using the wrong methods."
+        },
+        {
+          "zh": "而且感觉 wordpress 类似 blog 形式，跟我想象的不太一样。",
+          "en": "Also, I feel like WordPress is similar to a blog format, which is not what I imagined."
+        },
+        {
+          "zh": "关于族谱，这是我爸前几年疫情时突然想做的东西，就到处联系乡亲、查族谱，最终也查到自己开基祖来自哪里，属于哪族人的后代，而我这一家也是你所说所谓“被踢出村的那些人”“分红的时候就是 NOBODY”。",
+          "en": "Regarding the genealogy, this is something my dad suddenly wanted to do a few years ago during the pandemic. He contacted villagers everywhere and researched the genealogy. He eventually found out where our founding ancestor came from and which clan he belonged to. My family is also among those so-called 'people who were kicked out of the village' and 'NOBODY when it comes to dividends'."
+        },
+        {
+          "zh": "所谓的村里兄弟关系在利益面前一文不值，当我爸这代人都走了，我基本成了外乡人。",
+          "en": "So-called brotherly relationships in the village are worthless in the face of利益. When my dad's generation is gone, I'll basically become an outsider."
+        },
+        {
+          "zh": "但寻根问祖，也算了了我和我爸的一件心事吧。",
+          "en": "But tracing our roots and ancestry can be considered a wish fulfilled for me and my dad."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@BadFox wordpress 我也尝试过，感觉跟我想做的网站出入挺大的，但我看各位大佬都推荐它，我去看看教程怎么样吧。",
+          "en": "@BadFox I've also tried WordPress, and I feel that there's a big difference between it and the website I want to make, but I see that many experts recommend it, so I'll go take a look at the tutorials."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@google2020 OK ，感谢大佬指点",
+          "en": "@google2020 OK, thanks for the guidance."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qiuyufeng 我也去找了 GitHub ，也没发现能实现基本功能的。",
+          "en": "@qiuyufeng I also looked for it on GitHub, but I didn't find anything that could implement basic functions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@chutsetien 好的，感谢大佬指点",
+          "en": "@chutsetien Okay, thanks for the guidance."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ferock 我看宝塔面板里有几种 cms 的东西，但描述都是写什么商城销售之类的，不知道合不合适。",
+          "en": "@ferock I saw several CMS options in the Baota panel, but the descriptions are all about online stores and sales. I don't know if they're suitable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@spykids wordpress 改成卖东西的商店都可以，你学会安装后再找找模板，样子差不多就好，你可以网上找下 WORDPRESS 的免费模板看有没合你心意的。",
+          "en": "@spykids WordPress can be turned into a store for selling things. After you learn how to install it, look for a template that looks similar to what you want. You can find free WordPress templates online to see if there are any that you like."
+        },
+        {
+          "zh": "你发几个 BLOG 文，然后将主要的图片放出来到首页去就完成了。",
+          "en": "Post a few BLOG posts, and then put the main pictures on the homepage to complete it."
+        },
+        {
+          "zh": "当然你不用 WORDPRES 也行，学点最基础的 PHP ，数据库也不要弄，你有那心机可以以后再升级，就学点最基础的 PHP+简单美工，然后套几个族谱图片上去就搞定了。",
+          "en": "Of course, you don't have to use WORDPRESS. Learn some basic PHP, and don't bother with the database. If you have the motivation, you can upgrade later. Just learn some basic PHP + simple design, and then put a few genealogy pictures on it."
+        },
+        {
+          "zh": "你就买个最便宜的虚拟主机就行，不要玩 VPS ，没必要。",
+          "en": "Just buy the cheapest virtual host, don't play with VPS, it's not necessary."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://wordpress.com/themes/free 你看有没有适合你的吧。",
+          "en": "https://wordpress.com/themes/free See if there's anything suitable for you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@spykids wordpress 有非常非常多的模板和插件，你可以自由组合，自己学你要付出的时间成本太高了，非常不推荐。",
+          "en": "@spykids WordPress has a huge number of templates and plugins that you can freely combine. The time and cost to learn it yourself is too high, so it's not recommended."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@rossroma 有点厉害",
+          "en": "@rossroma That's pretty impressive."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

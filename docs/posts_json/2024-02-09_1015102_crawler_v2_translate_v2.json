@@ -1,0 +1,235 @@
+{
+  "id": 1015102,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "因为代码水平垃圾所以不敢开源项目",
+          "en": "Because my code level is trash, I don't dare to open-source the project"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "写了挺多项目的，光鲜亮丽的背后是垃圾代码。",
+          "en": "I've written quite a few projects, but behind the glamour is garbage code."
+        },
+        {
+          "zh": "不知道要到什么程度才能开源。",
+          "en": "I don't know what level I need to reach before I can open source."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "放心，你已经能意识到代码垃圾，已经超越了大部分开源开发者",
+          "en": "Don't worry, the fact that you realize your code is garbage already puts you ahead of most open-source developers."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这个想法就错了。",
+          "en": "This idea is wrong."
+        },
+        {
+          "zh": "开源项目是一个大家相互学习和进步的过程。",
+          "en": "Open-source projects are a process of mutual learning and improvement."
+        },
+        {
+          "zh": "别人可以在你的项目里看到好的 ideas ，你可以在别人的 commits 里看到优秀代码。",
+          "en": "Others can see good ideas in your project, and you can see excellent code in others' commits."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kaiki #5 其实开源并不只是开放出源码, 开放协作也是开源的一部分, 是时候学习环境管理做解耦了;",
+          "en": "@kaiki #5 Actually, open source is not just about releasing the source code; open collaboration is also part of open source. It's time to learn environment management and decouple things;"
+        },
+        {
+          "zh": "关于如何入手环境管理, 可以开一台干干净净的虚拟机, 然后克隆自己的项目, 把自己搭建运行流程记录下来, 把所有能脚本化甚至能删除的都处理掉, 剩下和系统强绑定的写一个模板, 并加入 gitignore, 比如有一个 env.template, 在 readme 里告诉用户复制出 env.prod, env.dev etcetc 去使用, 并把 env.prod, env.dev etcetc... 加入 gitignore, 🏋️你能悟出这个解耦操作的原理和原则时, 协作便迎刃而解了.",
+          "en": "Regarding how to get started with environment management, you can open a clean virtual machine, then clone your project, record the process of building the project, process all the things that can be scripted or even deleted, and write a template for the things that are strongly bound to the system, and add it to gitignore, for example, have an env.template, and tell the user in the readme to copy out env.prod, env.dev etc. to use, and add env.prod, env.dev etc... to gitignore. 🏋️ When you understand the principles of this decoupling operation, collaboration will be easily solved."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在挪威地下留了垃圾代码的我：😂",
+          "en": "Me, who left garbage code in the Norwegian underground: 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "idea 比代码重要.",
+          "en": "Idea is more important than code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没事，有用就能开源，代码片段也是开源。",
+          "en": "It's okay, if it's useful, you can open source it; even code snippets can be open-sourced."
+        },
+        {
+          "zh": "---- 来自刚刚抄完一段 gist 的菜鸡",
+          "en": "---- From a noob who just copied a gist"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以先注册个新的 github 帐号，开源后看看，如果项目比较受欢迎，就告诉别人你是作者，如果项目比较冷清，那代码烂不烂又有什么关系呢，反正都没多少人看😂",
+          "en": "You can first register a new GitHub account, open-source it and see. If the project is popular, tell others that you are the author. If the project is unpopular, what does it matter if the code is bad? Anyway, not many people will see it. 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Tumblr 遇到比较多的麻烦就是把自己的项目发给其他人，其他人部署不了，或者环境存在差异，而我基本是基于自己的环境和需求写的代码，让其他人也能正常运行就得反复重写，甚至完全找不到问题发生在哪。",
+          "en": "@Tumblr The most common trouble I encounter is when I send my project to others, they can't deploy it, or there are environmental differences, and I basically write the code based on my own environment and needs. To make it run normally for others, I have to rewrite it repeatedly, and I can't even find where the problem occurred."
+        },
+        {
+          "zh": "感觉那些写的程序开箱即用的挺厉害的，不知道自己怎么才能做到。",
+          "en": "I feel that those programs that are written to be 'out-of-the-box' are amazing. I don't know how I can achieve that."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cmdOptionKana 我的 github 账户被封了，在开源的时候同时开车是 github 不允许的😓",
+          "en": "@cmdOptionKana My GitHub account was blocked. Driving at the same time as open-sourcing is not allowed by GitHub. 😓"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大部分开源项目也是一坨，另外，闭源的项目更恶心，大家都知道，没啥不好意思的",
+          "en": "Most open-source projects are also a mess. Besides, closed-source projects are even more disgusting. Everyone knows it, so there's nothing to be embarrassed about."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kaiki 管理 env ，做各种编译配置脚本，说简单也简单，说麻烦也麻烦，看需要就好；另外满足自己特殊需求的开源项目得到 contrib 其实不会很常见，遇见有人提 issue 再考虑也不迟。",
+          "en": "@kaiki Managing env, and doing various compilation configuration scripts, is both simple and troublesome, depending on the needs; in addition, open-source projects that meet your own special needs don't usually get contributions. It's never too late to consider it when you encounter someone raising an issue."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "开源的也都是垃圾，不用自卑",
+          "en": "Open source is also garbage, don't be inferior."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "开源更多是让其他人发现你项目中的不足和问题，协作开发其实倒是其次的，或者项目一定规模之后才会出现",
+          "en": "Open source is more about letting others discover the shortcomings and problems in your project. Collaborative development is secondary, or it only appears after the project reaches a certain scale."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "享受一下过程就好，其实我也觉得我开源的那个 vscode 插件写的不咋的（很垃圾）。。。实际当初就是为了自用方便，哈哈哈哈哈哈",
+          "en": "Just enjoy the process. Actually, I also think that the VS Code plugin I open-sourced is not very well written (very garbage)... I originally just did it for my own convenience, hahaha."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kaiki #5 别人部署不了，可能会提 issue ，也可能自己研究然后给你个 commit ，反正不管通过何种方式，你的项目上肯定会增加对这部分“无法部署”的解决，这不就是个提升么？",
+          "en": "@kaiki #5 If others can't deploy it, they may raise an issue, or they may study it themselves and give you a commit. Anyway, no matter how, your project will definitely add a solution to this \"undeployable\" part. Isn't this an improvement?"
+        },
+        {
+          "zh": "往拽的方面说，“老子就是这么开源的，爱用用不用滚”就对了 😝",
+          "en": "To say it arrogantly, \"This is how I open-source, use it if you want, or get out\" is right. 😝"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "代码能跑就行，多少开源项目你照着 readme 都跑不起来呢",
+          "en": "As long as the code can run, there are many open-source projects that you can't run even if you follow the README."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实你去阅读很多开源项目，特别是那些 star 特别多的项目， 阅读一两段，你会发现这代码质量也不咋地， 没啥不好意思的，开源最重要的是创造了什么，解决了什么，提出了什么。",
+          "en": "Actually, if you read many open-source projects, especially those with a lot of stars, and read a paragraph or two, you will find that the code quality is not very good. There is nothing to be embarrassed about. The most important thing in open source is what it creates, what it solves, and what it proposes."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "某个特别特别火的开源后台管理项目，那代码风格跟实现细节，你看完就有自信了",
+          "en": "A particularly popular open-source backend management project, the code style and implementation details of that project will give you confidence after you read it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "开源只怕没人用导致自己也没动力去更新，如果有人用，总会一步步把代码替换成优雅的",
+          "en": "The only thing to fear about open source is that no one will use it, which will lead to no motivation to update it. If someone uses it, the code will always be replaced with elegant code step by step."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没事，你可以去看看那些比较火的开源项目，可能比你写的更垃圾。",
+          "en": "It's okay, you can go and see those popular open-source projects, they may be even more garbage than what you wrote."
+        },
+        {
+          "zh": "代码嘛，能跑就是好代码，",
+          "en": "Code, as long as it can run, is good code."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

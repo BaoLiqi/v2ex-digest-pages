@@ -1,0 +1,707 @@
+{
+  "id": 1015112,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "请问我学什么编程语言好？",
+          "en": "What programming language is good for me to learn?"
+        },
+        {
+          "zh": "应该不会当程序员吧。",
+          "en": "I probably won't become a programmer."
+        },
+        {
+          "zh": "但实在找不到赚钱路子就当程序员。",
+          "en": "But if I really can't find a way to make money, I'll become a programmer."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "前些年有点钱投的生意失败了。",
+          "en": "A few years ago, I invested some money in a business that failed."
+        },
+        {
+          "zh": "现在还不知道怎么办。",
+          "en": "I still don't know what to do now."
+        },
+        {
+          "zh": "平时也没什么事。",
+          "en": "I don't have much to do usually."
+        },
+        {
+          "zh": "就想着学点什么。",
+          "en": "So I'm thinking of learning something."
+        },
+        {
+          "zh": "\r\n\r\n电脑基础还可以。",
+          "en": "\r\n\r\nMy computer skills are okay."
+        },
+        {
+          "zh": "中专学的计算机基础毕业的。",
+          "en": "I graduated from a vocational school with a major in computer basics."
+        },
+        {
+          "zh": "不过也没怎么学。",
+          "en": "But I didn't learn much."
+        },
+        {
+          "zh": "用模板做过简单的网站。",
+          "en": "I've used templates to make simple websites."
+        },
+        {
+          "zh": "做过图。",
+          "en": "I've made graphics."
+        },
+        {
+          "zh": "大部分软件都会用。",
+          "en": "I can use most software."
+        },
+        {
+          "zh": "\r\n\r\n租了个夜曲编程在学 Python 。",
+          "en": "\r\n\r\nI rented a Nocturne Programming course and I'm learning Python."
+        },
+        {
+          "zh": "学了 3 天。",
+          "en": "I've been learning for 3 days."
+        },
+        {
+          "zh": "挺感兴趣的。",
+          "en": "I'm quite interested."
+        },
+        {
+          "zh": "学了变量。",
+          "en": "I learned about variables."
+        },
+        {
+          "zh": "判断。",
+          "en": "Conditional statements."
+        },
+        {
+          "zh": "元组。",
+          "en": "Tuples."
+        },
+        {
+          "zh": "列表。",
+          "en": "Lists."
+        },
+        {
+          "zh": "\r\n\r\n当初学 Python 主要就是想。",
+          "en": "\r\n\r\nWhen I first started learning Python, I mainly thought that."
+        },
+        {
+          "zh": "平时使用电脑时难免会遇到一些繁琐无聊的操作。",
+          "en": "When using the computer, I inevitably encounter some tedious and boring operations."
+        },
+        {
+          "zh": "一时也想不起怎么形容。",
+          "en": "I can't remember how to describe it for a moment."
+        },
+        {
+          "zh": "反正程序员就能编写一些小程序更得心应手一些。",
+          "en": "Anyway, programmers can write some small programs more easily."
+        },
+        {
+          "zh": "然后以后的发展趋势人工智能。",
+          "en": "And the future development trend is artificial intelligence."
+        },
+        {
+          "zh": "AI 好像也跟 Python 有关。",
+          "en": "AI seems to be related to Python."
+        },
+        {
+          "zh": "\r\n\r\n搜刷题网站搜到牛客网。",
+          "en": "\r\n\r\nI searched for question-solving websites and found Niuke.com."
+        },
+        {
+          "zh": "看到大家都说 Python 面对的岗位很少。",
+          "en": "I saw everyone saying that there are very few jobs for Python."
+        },
+        {
+          "zh": "心里咯噔一下。",
+          "en": "My heart skipped a beat."
+        },
+        {
+          "zh": "应该不会当程序员。",
+          "en": "I probably won't become a programmer."
+        },
+        {
+          "zh": "但实在找不到赚钱路子就当程序员。",
+          "en": "But if I really can't find a way to make money, I'll become a programmer."
+        },
+        {
+          "zh": "\r\n\r\n然后用的是华为手机。",
+          "en": "\r\n\r\nThen I'm using a Huawei phone."
+        },
+        {
+          "zh": "鸿蒙系统准备不支持 APK 。",
+          "en": "The HarmonyOS system is preparing to not support APKs."
+        },
+        {
+          "zh": "不少岗位都在找鸿蒙 APP 开发。",
+          "en": "Many positions are looking for HarmonyOS APP development."
+        },
+        {
+          "zh": "\r\n\r\n我就想学一种能编个小程序。",
+          "en": "\r\n\r\nI just want to learn a language that can be used to write small programs."
+        },
+        {
+          "zh": "解决下一些繁琐重复的操作。",
+          "en": "To solve some tedious and repetitive operations."
+        },
+        {
+          "zh": "万一有时间有兴趣再学点鸿蒙 APP 开发。",
+          "en": "If I have time and interest, I'll learn some HarmonyOS APP development."
+        },
+        {
+          "zh": "迟点鸿蒙电脑版有了。",
+          "en": "Later, when the HarmonyOS computer version is available."
+        },
+        {
+          "zh": "自己做点小程序玩玩。",
+          "en": "I'll make some small programs to play with."
+        },
+        {
+          "zh": "大概就是这样子。",
+          "en": "That's about it."
+        },
+        {
+          "zh": "最后找不到赚钱的路子。",
+          "en": "If I can't find a way to make money in the end."
+        },
+        {
+          "zh": "就去做鸿蒙 APP 或者 IOS APP 开发。",
+          "en": "I'll do HarmonyOS APP or IOS APP development."
+        },
+        {
+          "zh": "没进入这个行业也不知道这行怎么样。",
+          "en": "I don't know what the industry is like without entering it."
+        },
+        {
+          "zh": "\r\n\r\n思路大概是这样子。",
+          "en": "\r\n\r\nThat's roughly the idea."
+        },
+        {
+          "zh": "麻烦推荐一下。",
+          "en": "Please recommend something."
+        },
+        {
+          "zh": "谢谢。",
+          "en": "Thank you."
+        },
+        {
+          "zh": "祝新年快乐。",
+          "en": "Happy New Year."
+        },
+        {
+          "zh": "平安。",
+          "en": "Peace."
+        },
+        {
+          "zh": "顺利。",
+          "en": "Smoothness."
+        },
+        {
+          "zh": "发财。",
+          "en": "Get rich."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "实在找不到赚钱路子就当程序员程序员这职业就这么贱吗？😂",
+          "en": "If I really can't find a way to make money, I'll become a programmer. Is the programmer profession so cheap? 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "编程入门什么时候都不晚。",
+          "en": "It's never too late to start learning programming."
+        },
+        {
+          "zh": "很不看好鸿蒙，不管是手机还是电脑，自建生态的鸿蒙是不可能成功的，不要浪费时间在这种没有意义的事情上。",
+          "en": "I'm not optimistic about HarmonyOS, whether it's on mobile phones or computers. HarmonyOS, which builds its own ecosystem, is impossible to succeed. Don't waste time on this meaningless thing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "学什么适合你我不知道，但我知道鸿蒙不值得学",
+          "en": "I don't know what's suitable for you to learn, but I know HarmonyOS is not worth learning."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这个背景程序员这条路并不好走，但感觉电工还可以",
+          "en": "With your background, the path of a programmer is not easy, but I feel that being an electrician is okay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "抛弃现在的思维, 找个方向扎进去, 不然三五年过去甚至更久才幡然醒悟, 这是九成想学计算机的误区.",
+          "en": "Abandon your current thinking, find a direction and dig into it, otherwise it will take three or five years or even longer to wake up. This is the misunderstanding of 90% of people who want to learn computer science."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想用这个赚钱，推荐还是学 java 。",
+          "en": "If you want to make money from this, I recommend learning Java."
+        },
+        {
+          "zh": "不过这行说是简单，其实也没那么简单，很多基础理论还是要学的，不然实际工作中很多事情会想不明白为什么是这个样子。",
+          "en": "But although this industry is said to be simple, it's actually not that simple. You still have to learn a lot of basic theories, otherwise you won't understand why things are the way they are in actual work."
+        },
+        {
+          "zh": "如果自己弄着玩，python 挺好的，实现很多功能都很方便，资料也很多",
+          "en": "If you're just doing it for fun, Python is good. It's very convenient to implement many functions, and there's a lot of information available."
+        },
+        {
+          "zh": "至于鸿蒙，建议别费心思在这上面，你还不如去学 web 三件套",
+          "en": "As for HarmonyOS, I suggest you don't bother with it. You might as well learn the web three-piece suite."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "emmmmmmmmmmm...我是不建议你朝着吃这碗饭的方向去学，因为无底洞太深，连已经是很少数的正经科班训练自主探索了 4 年的毕业生也很难说可以达到商业软件开发者的水平，更别说闲着有空学的了。",
+          "en": "emmmmmmmmmmm... I don't recommend you learn in the direction of making a living from this, because the bottomless pit is too deep. Even the few graduates who have received formal training and explored independently for 4 years can hardly be said to have reached the level of commercial software developers, let alone those who learn in their spare time."
+        },
+        {
+          "zh": "如果只是想编程解决日常小问题的话那么 python 挺合适的，如果你想朝「入行的方向」多探索一点，那么建议学学 javascript 做点有界面有交互的东西，或者啃啃 C++ 买几块 arduino / esp32 玩；",
+          "en": "If you just want to program to solve small daily problems, then Python is quite suitable. If you want to explore a little more in the 'entering the industry' direction, then I suggest you learn JavaScript to make something with an interface and interaction, or study C++ and buy a few Arduino / ESP32 to play with."
+        },
+        {
+          "zh": "如果真想「入行」，那早日放弃这个想法……",
+          "en": "If you really want to 'enter the industry', then give up on this idea as soon as possible..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这种人生路线问题最好不在这里问，去知 h ，能得到很多中肯的建议，不过我还是想先打击你一下1.",
+          "en": "It's best not to ask about this kind of life path here. Go to Zhihu, you can get a lot of pertinent advice, but I still want to hit you first. 1."
+        },
+        {
+          "zh": "首先你学历不过关，基本的简历关就过不了，大数据就基本不用想了，我不是学历歧视之类的，当然有无学历的程序猿大牛，但是这种人万中无一，除非你自信你自己就是，不然还是走别的路吧",
+          "en": "First of all, your education doesn't meet the standards, and you can't pass the basic resume screening. You don't even need to think about big data. I'm not being discriminatory based on education, etc. Of course, there are great programmers without degrees, but such people are one in a million, unless you're confident that's you, otherwise you should take another path."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "2.",
+          "en": "2."
+        },
+        {
+          "zh": "从你的文字中来看，你对入行的想法不坚定，甚至有些退缩，这样的人我见过，我劝他放弃别的想法，全身心投入刻苦去学，他总是借口说我就学着玩玩，万一成了呢，放心，成不了的，你基本没有底子，也没有决心信念，不说写代码，换成其他任何事都不可能有成绩，即便找个传统行业公司开发岗拿着几千的工资做着兼修电脑的活，也只是在浪费你年轻的资本，没有任何提升",
+          "en": "Judging from your words, you are not firm in your idea of entering the industry, and you are even a little hesitant. I have seen people like this. I advised him to give up other ideas and devote himself wholeheartedly to studying hard. He always excuses himself by saying that he is just learning for fun, and what if he succeeds? Don't worry, he won't succeed. You have basically no foundation, no determination or belief. Not to mention writing code, you can't achieve anything in any other matter, even if you find a development position in a traditional industry company with a salary of a few thousand and also repair computers, you are just wasting the capital of your youth, and there is no improvement."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "去搞鸿蒙开发培训吧，忽悠像 op 这样的人，估计能挣钱",
+          "en": "Go do HarmonyOS development training, and fool people like OP, it is estimated that you can make money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "绝大部分学编程的都流失了。",
+          "en": "Most people who learn programming are lost."
+        },
+        {
+          "zh": "又有很多不是计算机专业的人跑到这个行业来占位。",
+          "en": "And a lot of people who are not computer science majors are running to this industry to take up positions."
+        },
+        {
+          "zh": "如果真要什么性价比的东西，学个理发可能都比编程强。",
+          "en": "If you really want something cost-effective, learning hairdressing may be better than programming."
+        },
+        {
+          "zh": "想吃编程这碗饭要投入的实在是比理发大的多。",
+          "en": "The investment required to make a living from programming is much greater than hairdressing."
+        },
+        {
+          "zh": "小女孩学个弄指甲的弄个小摊，都可能比这投入大的编程有前景。",
+          "en": "A little girl learning to do nails and setting up a small stall may have more prospects than programming, which requires a large investment."
+        },
+        {
+          "zh": "我没想到程序员居然是你的退路。",
+          "en": "I didn't expect that being a programmer would be your backup plan."
+        },
+        {
+          "zh": "可见你的正当职业还是能找到不少的。",
+          "en": "It can be seen that you can still find many legitimate professions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "“我就想学一种能编个小程序。解决下一些繁琐重复的操作。",
+          "en": "“I just want to learn a language that can be used to write small programs, to solve some tedious and repetitive operations.”"
+        },
+        {
+          "zh": "”在编个小代码片段这种需求上，我认为你不应该花时间学编程，你应该花时间学着指挥 AI 帮你编程。",
+          "en": "In terms of the need to write a small code snippet, I don't think you should spend time learning programming, you should spend time learning to direct AI to help you program."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看到大家的指点。",
+          "en": "Seeing everyone's guidance."
+        },
+        {
+          "zh": "很是感谢。",
+          "en": "I am very grateful."
+        },
+        {
+          "zh": "我 86 年的。",
+          "en": "I was born in '86."
+        },
+        {
+          "zh": "现在在老家有房子住。",
+          "en": "I now have a house to live in in my hometown."
+        },
+        {
+          "zh": "有辆 10 年的破车。",
+          "en": "I have a 10-year-old broken car."
+        },
+        {
+          "zh": "现在就是中年危机。",
+          "en": "Now it's a mid-life crisis."
+        },
+        {
+          "zh": "没收入。",
+          "en": "No income."
+        },
+        {
+          "zh": "前途迷茫。",
+          "en": "The future is uncertain."
+        },
+        {
+          "zh": "打算过完年边学编程。",
+          "en": "I plan to learn programming after the New Year."
+        },
+        {
+          "zh": "边做自媒体。",
+          "en": "While doing self-media."
+        },
+        {
+          "zh": "朋友还凑一起办个小厂。",
+          "en": "Friends are also getting together to start a small factory."
+        },
+        {
+          "zh": "做得好一个月赚 3W 左右。",
+          "en": "If it goes well, I can earn about 30,000 a month."
+        },
+        {
+          "zh": "不过钱不到位。",
+          "en": "But the money is not in place."
+        },
+        {
+          "zh": "还不知道能不能凑齐。",
+          "en": "I don't know if I can raise enough money."
+        },
+        {
+          "zh": "能不能搞得起来。",
+          "en": "Whether it can be done."
+        },
+        {
+          "zh": "我满喜欢科技方面的。",
+          "en": "I really like technology."
+        },
+        {
+          "zh": "可能跟早期就接触智能手机的缘故吧。",
+          "en": "Maybe it's because I was exposed to smartphones early on."
+        },
+        {
+          "zh": "05 年接触到多普达就喜欢上了。",
+          "en": "I liked Dopod when I came into contact with it in '05."
+        },
+        {
+          "zh": "我算是最早接触智能手机那一批。",
+          "en": "I was one of the first to come into contact with smartphones."
+        },
+        {
+          "zh": "之前还各种折腾智能手机。",
+          "en": "I used to tinker with smartphones."
+        },
+        {
+          "zh": "这几年也不想折腾了。",
+          "en": "I don't want to tinker anymore these years."
+        },
+        {
+          "zh": "因为之前喜欢玩机才会想开发 APP 。",
+          "en": "Because I liked playing with phones before, I wanted to develop APP."
+        },
+        {
+          "zh": "我知道开发的话很多看学历的。",
+          "en": "I know that a lot of development depends on education."
+        },
+        {
+          "zh": "我的学历才中专。",
+          "en": "My education is only vocational school."
+        },
+        {
+          "zh": "所以才觉得应该不会当程序员。",
+          "en": "That's why I feel that I probably won't become a programmer."
+        },
+        {
+          "zh": "真的找不到赚钱路子当程序员我的指那种小菜鸟。",
+          "en": "If I really can't find a way to make money and become a programmer, I mean that kind of small newbie."
+        },
+        {
+          "zh": "一个月几千块的那种。",
+          "en": "The kind that earns a few thousand a month."
+        },
+        {
+          "zh": "然后再看。",
+          "en": "And then see."
+        },
+        {
+          "zh": "我找其他工作几千块的也有。",
+          "en": "I can also find other jobs that pay a few thousand."
+        },
+        {
+          "zh": "但我想找我自己喜欢做的工作。",
+          "en": "But I want to find a job that I like to do."
+        },
+        {
+          "zh": "跟互联网沾边的。",
+          "en": "Something related to the Internet."
+        },
+        {
+          "zh": "86 年的再折腾几年没起色这辈子也就这样了。",
+          "en": "If I don't make any progress after messing around for a few more years in '86, my life will be like this."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lizhengbo 现在就是中年危机。",
+          "en": "@lizhengbo Now it's a mid-life crisis."
+        },
+        {
+          "zh": "找不到方向。",
+          "en": "I can't find a direction."
+        },
+        {
+          "zh": "这几年我浪费掉好多时间。",
+          "en": "I've wasted a lot of time in the past few years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fzls JAVA 我学会最少得半年。",
+          "en": "@fzls It would take me at least half a year to learn JAVA."
+        },
+        {
+          "zh": "还得全身心去学的。",
+          "en": "And I have to learn it wholeheartedly."
+        },
+        {
+          "zh": "然后 JAVA 好像也蛮卷的。",
+          "en": "Then JAVA seems to be quite competitive."
+        },
+        {
+          "zh": "我学历才中专。",
+          "en": "My education is only vocational school."
+        },
+        {
+          "zh": "12 楼点醒我。",
+          "en": "The 12th floor woke me up."
+        },
+        {
+          "zh": "我花时间指挥 AI 帮我编程的话。",
+          "en": "If I spend time directing AI to help me program."
+        },
+        {
+          "zh": "我也得会看代码。",
+          "en": "I also have to be able to read code."
+        },
+        {
+          "zh": "那哪种语言合适？",
+          "en": "Then which language is suitable?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fzdwx 我是指那种小菜鸟。",
+          "en": "@fzdwx I mean that kind of small newbie."
+        },
+        {
+          "zh": "一个月赚几千的那种。",
+          "en": "The kind that earns a few thousand a month."
+        },
+        {
+          "zh": "不是有年入百万的。",
+          "en": "It's not like there are people who earn millions a year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yangpeco 知 H 估计就 3 个回复。",
+          "en": "@yangpeco Zhihu probably only has 3 replies."
+        },
+        {
+          "zh": "那边现在各种广告。",
+          "en": "There are all kinds of advertisements there now."
+        },
+        {
+          "zh": "各种水。",
+          "en": "All kinds of nonsense."
+        },
+        {
+          "zh": "你说得对。",
+          "en": "You're right."
+        },
+        {
+          "zh": "我就是知道我学历不够。",
+          "en": "I just know that I don't have enough education."
+        },
+        {
+          "zh": "经验不够。",
+          "en": "Not enough experience."
+        },
+        {
+          "zh": "年纪还老。",
+          "en": "And I'm old."
+        },
+        {
+          "zh": "所以入行想法不坚定。",
+          "en": "So I'm not firm in my idea of entering the industry."
+        },
+        {
+          "zh": "但是我对这方面有兴趣。",
+          "en": "But I'm interested in this."
+        },
+        {
+          "zh": "学点编程做点小程序。",
+          "en": "Learn some programming and make some small programs."
+        },
+        {
+          "zh": "比如抢茅台。",
+          "en": "For example, buy Maotai."
+        },
+        {
+          "zh": "抢购其他的。",
+          "en": "Buy other things."
+        },
+        {
+          "zh": "或者要批量操作一些文件时可以用到。",
+          "en": "Or it can be used when you need to batch process some files."
+        },
+        {
+          "zh": "闲着也是闲着。",
+          "en": "I'm idle anyway."
+        },
+        {
+          "zh": "所以学一门挺好的。",
+          "en": "So it's good to learn one."
+        },
+        {
+          "zh": "现在 AI 大模型这么牛。",
+          "en": "Now AI large models are so great."
+        },
+        {
+          "zh": "像 12 楼说的。",
+          "en": "Like the 12th floor said."
+        },
+        {
+          "zh": "我花时间指挥 AI 帮我编程的话。",
+          "en": "If I spend time directing AI to help me program."
+        },
+        {
+          "zh": "我懂的话也能看代码。",
+          "en": "If I understand, I can also read the code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@rocmax 哈哈。",
+          "en": "@rocmax Haha."
+        },
+        {
+          "zh": "你是懂赚钱的。",
+          "en": "You know how to make money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以学 python 去搞一点爬虫或者逆向。",
+          "en": "You can learn Python to do some web scraping or reverse engineering."
+        },
+        {
+          "zh": "小程序或者 APP 都市场太小了，基本上很少能接到单子或者客单价小的可怜。",
+          "en": "The market for small programs or APPs is too small, and it is basically rare to receive orders or the customer unit price is pitifully small."
+        },
+        {
+          "zh": "python 这种搞个小单子还行",
+          "en": "Python is okay for doing small orders."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Java 这种也不行你要想这个方向竞争的人那么多 都卷到地板",
+          "en": "Java is also not good, you have to think about how many people are competing in this direction, they are all rolled to the floor."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

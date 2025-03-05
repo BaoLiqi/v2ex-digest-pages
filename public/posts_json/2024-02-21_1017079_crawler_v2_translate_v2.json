@@ -1,0 +1,303 @@
+{
+  "id": 1017079,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "作为研发，你觉得什么工作是很难很牛逼，需要综合能力很强的人才能搞得定的？",
+          "en": "As an R&D engineer, what kind of work do you think is very difficult, awesome, and requires someone with strong comprehensive skills to handle?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "作为十来年经验的后端研发，之前在小厂创业公司工作，后来近了大厂，接触过很多项目和很多人。",
+          "en": "As a backend R&D engineer with over a decade of experience, I previously worked in small factory startups and later joined a large factory, experiencing many projects and people."
+        },
+        {
+          "zh": "有草台班子的创业项目，有日流量几十亿的大型分布式高并发业务；接触过自学成才没学历的同事，二本三本大专的同事，也有 985 海龟 常青藤的同事；",
+          "en": "I've worked on makeshift startup projects and large-scale, distributed, high-concurrency businesses with billions of daily traffic; I've encountered self-taught colleagues without degrees, colleagues with second-tier, third-tier, and associate degrees, as well as colleagues with 985 (top-tier Chinese universities), overseas returnees, and Ivy League graduates."
+        },
+        {
+          "zh": "\r\n\r\n可能是我起点比较低，也没干过算法强相关的业务，比如大数据或者现在很火的 AI 之类的开发，所以感受都是我这种背景下的主观感受。",
+          "en": "\n\nPerhaps because my starting point is relatively low, and I haven't worked on businesses strongly related to algorithms, such as big data or the currently popular AI development, so my feelings are subjective opinions based on my background."
+        },
+        {
+          "zh": "\r\n\r\n我自觉不是一个很聪明的人，学历也一般 能进大厂也是机缘巧合；但我比别人能多 1 分热情，多 1 分责任，做事还算靠谱，所以在大厂里也能把活儿搞的还不错，接触的多了慢慢就祛魅了。",
+          "en": "\n\nI don't think I'm a very smart person, and my education is average. Getting into a big factory was also a lucky coincidence; but I can have 1 point more enthusiasm and 1 point more responsibility than others, and I am quite reliable in doing things, so I can do a good job in a big factory, and after contacting more, I gradually become demystified."
+        },
+        {
+          "zh": "\r\n\r\n我当然承认人与人之间的差距，很多聪明人记忆力好，反应快，头脑敏捷。",
+          "en": "\n\nOf course, I admit the gap between people. Many smart people have good memory, quick reactions, and agile minds."
+        },
+        {
+          "zh": "但是目前公司里的日常工作，哪怕是大型项目，都是可以拆解的，在最细微的层面上，都是比较容易理解的，否则维护起来也是一个灾难；聪明人的优势可能在于效率更高，比如在更宏观的架构和业务设计上，聪明人三个小时能搞定，我慢一点两三天搞定，在大厂现行的效率体系下，其实差别并不是很大。",
+          "en": "However, the daily work in the company, even large projects, can be broken down. At the most minute level, they are relatively easy to understand, otherwise maintaining them would be a disaster; The advantage of smart people may be higher efficiency. For example, in more macro-level architecture and business design, smart people can handle it in three hours, and I can handle it in two or three days at a slower pace. Under the current efficiency system of big factories, the difference is not that big."
+        },
+        {
+          "zh": "只要在态度和责任上更用心，最终差个一两天，如果结果都差不多，那么影响并不是很大的。",
+          "en": "As long as you are more careful in attitude and responsibility, the difference will be one or two days in the end. If the results are similar, the impact is not that big."
+        },
+        {
+          "zh": "\r\n\r\n更多的差别体现在「知道的多少」这个层面，比如老员工对业务了解的更多，知道很多历史问题和取舍所以才能考虑的更全面，这是你花时间精力就可以弥补的，不太跟硬性能力直接挂钩。",
+          "en": "\n\nThe more differences are reflected in the level of 'how much you know'. For example, older employees know more about the business, know a lot of historical problems and trade-offs, so they can consider more comprehensively. This can be made up for by spending time and energy, and is not directly linked to hard skills."
+        },
+        {
+          "zh": "\r\n\r\n可能有一些算法层面上的东西，不会就是搞不定的，大牛一来手拿把掐就解决了，这个能体现差距。",
+          "en": "\n\nThere may be some algorithmic things that cannot be solved if you don't know them. The big shots can solve them with a snap of their fingers, which can reflect the gap."
+        },
+        {
+          "zh": "但有这种需求的工作并不多，我主观感觉能有 1%就不错了，也就是一个公司里最核心的那几个人。",
+          "en": "However, there are not many jobs with this kind of need. I subjectively feel that 1% is good, that is, the most core people in a company."
+        },
+        {
+          "zh": "一家上万人的公司，有几十个这样的人就不错，大概就是这个比例吧。",
+          "en": "A company with tens of thousands of people has dozens of such people, which is probably the ratio."
+        },
+        {
+          "zh": "\r\n\r\n所以还有什么岗位需要很牛逼的能力才能胜任呢。",
+          "en": "\n\nSo what other positions require awesome abilities to be competent?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "跨部门协调、跨中心协调、跨公司协调。",
+          "en": "Cross-departmental coordination, cross-center coordination, cross-company coordination."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没有，没有，没有",
+          "en": "No, no, no"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "综合能力很强的人才能干的：做老板",
+          "en": "People with strong comprehensive skills can do it: be the boss"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "两个字：变现",
+          "en": "Two words: Monetization"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就像二战的一些战役里面，在纷乱不利的局面下临危受命，从千头万绪中找到核心问题，最终扭转局面的工作是最牛逼的。",
+          "en": "Like some battles in World War II, the job of being ordered to take charge in a chaotic and unfavorable situation, finding the core problem from thousands of clues, and finally reversing the situation is the most awesome."
+        },
+        {
+          "zh": "不仅要带去方向，还要带去方法和资源，才能扭转不利局面。",
+          "en": "Not only must you bring direction, but also methods and resources to reverse the unfavorable situation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "灰黑产那些哥们我是最佩服的，脑子活络，知识全面，逆向斗智斗勇，这些都是不公开的，自己摸索太不容易了",
+          "en": "I admire those guys in the gray and black industries the most. They have active minds, comprehensive knowledge, reverse wit and courage. These are not public. It is too difficult to explore on your own."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "昨天还看到把技术组件选型当作自身核心能力优势的，蜜汁自信，逗死我了",
+          "en": "Yesterday, I also saw someone who regarded the selection of technical components as their own core competence advantage, with a mysterious sense of self-confidence, which amused me to death."
+        },
+        {
+          "zh": "见到一个新的东西，要首先问它有什么问题，鹦鹉学舌它有什么功能什么优势没法帮你一点。",
+          "en": "When you see a new thing, you must first ask what its problems are. Parroting its functions and advantages will not help you at all."
+        },
+        {
+          "zh": "我面试都是问，你用的这个擅长的东西有什么问题。",
+          "en": "In my interviews, I always ask, what are the problems with the things you are good at using."
+        },
+        {
+          "zh": "如果你不知道它有什么问题，那说明你根本就不了解这个东西",
+          "en": "If you don't know what its problems are, it means you don't understand it at all."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@me1onsoda 有道理， 需要非凡的耐心，很全面的知识体系，也需要灵光一闪那种敏捷的思维，怪不得微博上大佬 sunwear 开劳斯莱斯的",
+          "en": "@me1onsoda makes sense. It requires extraordinary patience, a very comprehensive knowledge system, and also the kind of agile thinking that flashes of inspiration. No wonder the big shot sunwear on Weibo drives a Rolls-Royce."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "人的精力是有限的，一方面牛逼一定会牺牲其他地方牛逼的训练时间。",
+          "en": "People's energy is limited. On the one hand, being awesome will definitely sacrifice training time in other awesome areas."
+        },
+        {
+          "zh": "只是有些人会主动地把自己牛逼的地方往能占据更多剩余价值的方面训练罢了。",
+          "en": "It's just that some people will actively train their awesome areas towards aspects that can occupy more surplus value."
+        },
+        {
+          "zh": "吹自己哪里都牛逼人的一定是个大坑。",
+          "en": "Anyone who brags that they are awesome everywhere must be a big pit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能在工作外，将现有能力持续变现的",
+          "en": "Being able to continuously monetize existing capabilities outside of work"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我做不到的都牛逼",
+          "en": "Everything I can't do is awesome"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "向上管理向下管理，哄好领导，不亏待下属",
+          "en": "Managing upwards, managing downwards, pleasing the leaders, and not treating subordinates unfairly"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "积累最考验综合能力，怎么做到每天写代码的时候，在之前的基础上写，以至于今天写的代码能调用十年前自己写的代码，而十年前的代码至今不需要什么维护也稳如老狗",
+          "en": "Accumulation best tests comprehensive ability. How to achieve that when writing code every day, you write on the basis of the previous code, so that the code written today can call the code written ten years ago, and the code from ten years ago still does not need any maintenance and is as stable as an old dog."
+        },
+        {
+          "zh": "绝大多数人都没这个能力，只是跟着舆论走，啥火用啥，隔几年就换个框架，重新换个脑子，工作十年脑子归来仍是少年，代码形式的积累为零，增加的只是所谓踩坑“经验”，实际毫无价值。",
+          "en": "Most people don't have this ability. They just follow the prevailing opinion and use whatever is popular. They change the framework every few years and reset their brains. After ten years of work, their brains are still young, and the accumulation of code form is zero. All that is increased is so-called pit-falling 'experience', which is actually worthless."
+        },
+        {
+          "zh": "业务调几千万几百亿都和你的代码没关系，调用和运行是用户做的，不是你做的",
+          "en": "Business adjustments of tens of millions or hundreds of millions have nothing to do with your code. The calling and running are done by the user, not by you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "按照你这个思维模式，那除了非常有技术门槛的事外，其他都是可以被分析、拆解、解决的了。",
+          "en": "According to your way of thinking, then, apart from things with very technical thresholds, everything else can be analyzed, broken down, and solved."
+        },
+        {
+          "zh": "但在现实中，很多从终点看不那么难或牛逼的事，但当它在起点时就是很难。",
+          "en": "But in reality, many things that don't seem so difficult or awesome from the end are very difficult when they are at the starting point."
+        },
+        {
+          "zh": "十分考验信息获取能力、问题分析能力、沟通能力、方案的设计能力、把事情推动到落地的能力、获取资源和帮助的能力等。",
+          "en": "It is a great test of information acquisition ability, problem analysis ability, communication ability, solution design ability, the ability to promote things to implementation, the ability to obtain resources and help, etc."
+        },
+        {
+          "zh": "为啥大厂里有人可以推动高复杂度的项目落地，其他人不行？",
+          "en": "Why can some people in big factories promote the implementation of highly complex projects, but others can't?"
+        },
+        {
+          "zh": "真的只是其他人缺少了机会么，以及谁上谁都可以么？",
+          "en": "Is it really just that other people lack opportunities, and can anyone do it?"
+        },
+        {
+          "zh": "不见得吧。",
+          "en": "Not necessarily."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jinsongzhao #54 非常赞同，信息是一种特权。",
+          "en": "@jinsongzhao #54 I strongly agree that information is a privilege."
+        },
+        {
+          "zh": "再聪明的人，没有信息也无法决策，所以信息就变成了一种权力，领导才能享有最高级的信息。",
+          "en": "No matter how smart a person is, they cannot make decisions without information, so information becomes a kind of power, and only leaders can enjoy the highest level of information."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@captain55 通过！",
+          "en": "@captain55 Passed!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@captain55 自带语音",
+          "en": "@captain55 Comes with voice"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "各种 3d 可视化这些吧,感觉会弄的都挺牛逼的",
+          "en": "Various 3D visualizations, I feel like those who can do them are pretty awesome."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "架构？",
+          "en": "Architecture?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "拉通和卷人。远见和洞察力。",
+          "en": "Coordination and involving people. Vision and insight."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": 1018752,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "关于使用丐版 Mac mini 又想保护固态寿命的正确姿势",
+          "en": "The correct way to use the base Mac mini and protect the SSD lifespan"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "众所周知，mac mini 现在的内存和固态都是焊死在主板上的。",
+          "en": "As we all know, the memory and SSD of the current Mac mini are soldered to the motherboard."
+        },
+        {
+          "zh": "所以我担心正常使用丐版的情况下，内置固态禁不住 swap 的频繁读写，又不能更换导致整部机器报废。",
+          "en": "So I'm worried that under normal use of the base version, the built-in SSD can't withstand the frequent read and write of swap, and the inability to replace it will lead to the scrapping of the entire machine."
+        },
+        {
+          "zh": "我查了一下，似乎可以重装系统在外置固态上，这样可以用外置固态承受 swap 的压力解决这个问题。",
+          "en": "I checked and it seems that I can reinstall the system on an external SSD, so that I can use the external SSD to withstand the pressure of swap to solve this problem."
+        },
+        {
+          "zh": "但是我并不确定是否真的能够这样做，这样做实际上对性能有多大的影响我也不是很清楚。",
+          "en": "But I'm not sure if I can really do this, and I'm not very clear about how much impact this actually has on performance."
+        },
+        {
+          "zh": "按照我的使用场景，8G 内存肯定是不够用的，swap 情况肯定会非常严重。",
+          "en": "According to my usage scenario, 8G of memory is definitely not enough, and the swap situation will definitely be very serious."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Apple 用户真的憋屈..",
+          "en": "Apple users are really frustrated.."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那么问题来了，你用外置的，保护了内置的，然后，直到这机器报废，内置硬盘还是新的。。。图啥呢？",
+          "en": "So here's the question, you use an external one to protect the internal one, and then, until the machine is scrapped, the internal hard drive is still new... what's the point?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "真的无所谓。。。。。。",
+          "en": "Really doesn't matter........"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HojiOShi #11 我倒是听说过外置系统的各种坑，B 站搜搜看，这种属于没碰上就没事，碰上了自己无法解决也很可能搜不到解决方案，这种坑是最糟心的了，我选择是系统还是内置硬盘，占空间的东西尽量移到外置硬盘，可能有麻烦的 xcode 之类的虽然占空间但也不想折腾它们，我没有装太多 app 感觉系统盘够用，过保后看情况考虑升级或者扩容，",
+          "en": "@HojiOShi #11 I have heard of various pitfalls of external systems. Search on Bilibili. This kind of thing is fine if you don't encounter it. If you encounter it and can't solve it yourself, you may not be able to find a solution. This kind of pit is the most annoying. I choose the system or the built-in hard drive. Try to move the space-consuming things to the external hard drive. Although the troublesome Xcode and the like take up space, I don’t want to bother with them. I don’t have too many apps installed and I feel that the system drive is enough. Consider upgrading or expanding after the warranty expires."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不要开机就行",
+          "en": "Just don't turn it on"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jgh004 很难理解吗？坏一个可以替换的部件和坏一个不可替换的部件，哪个膈应人我还是知道的。",
+          "en": "@jgh004 Is it difficult to understand? I still know which one is more disgusting, a replaceable part or an irreplaceable part."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以从外置硬盘启动。",
+          "en": "You can boot from an external hard drive."
+        },
+        {
+          "zh": "毕竟对于 arm mac ，内置的 ssd 是必需的。",
+          "en": "After all, for arm mac, the built-in SSD is essential."
+        },
+        {
+          "zh": "如果内置的 ssd 坏掉，那么即使从外部硬盘也无法启动了。",
+          "en": "If the built-in SSD is broken, then even if it is from an external hard drive, it will not be able to boot."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我就是买了 256G 的然后搞了雷电硬盘盒把系统装 4T 外置盘的, 256G 完全放着没用.",
+          "en": "I bought a 256G one and then got a Thunderbolt hard drive enclosure and installed the system on a 4T external drive. The 256G is completely useless."
+        },
+        {
+          "zh": "我的原因是觉得苹果卖太贵...不用怕,坏了可以用外置的,再不行等坏了找个三方给你焊下来换个大容量就行了, 记得及时备份数据就最好了,说白了 SSD 不值钱,值钱的是数据",
+          "en": "My reason is that Apple sells it too expensive... Don't be afraid, if it breaks, you can use the external one. If that doesn't work, wait until it breaks and find a third party to solder it off and replace it with a large capacity. Remember to back up your data in time. To put it bluntly, SSD is not worth the money, data is valuable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "网上有很多用外置固态转移系统的视频啊。。单就硬盘速度而言基本是原装速度的 2 倍以上，这东西我记得随便搜就有吧，油管 b 站都有",
+          "en": "There are many videos online about transferring the system using an external SSD. In terms of hard drive speed alone, it is basically more than twice the original speed. I remember you can find this thing by searching, both on YouTube and Bilibili."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "先说结论，肯定是可以的。",
+          "en": "First of all, the conclusion is that it is definitely possible."
+        },
+        {
+          "zh": "如果是雷电硬盘盒的话对性能的影响应该不会很大。",
+          "en": "If it is a Thunderbolt hard drive enclosure, the impact on performance should not be great."
+        },
+        {
+          "zh": "而且鉴于你是 8G 内存，那储存说不定也是 256G ，那么系统安装在外置储存里面还有个好处：很多文件其实是没有办法保存在外置储存里面（比如相册保存在外置储存会禁用 spotlight ，iCloud 不能保存在外置储存等等）。",
+          "en": "And given that you have 8G of memory, then the storage may also be 256G, then installing the system in external storage has another advantage: many files actually cannot be saved in external storage (for example, saving albums in external storage will disable spotlight, and iCloud cannot be saved in external storage, etc.)."
+        },
+        {
+          "zh": "外置储存当系统盘就没有这些限制了～",
+          "en": "External storage as a system disk does not have these limitations~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "又不是很贵，直接想咋用咋用呗",
+          "en": "It's not very expensive, just use it however you want"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "卧槽。。。这都是啥想法啊。",
+          "en": "Damn... what are these thoughts?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "啊？并非水贴，是我这时候的心情就是这样，我觉得够用到报废",
+          "en": "Huh? It's not a spam post, this is how I feel at this time, I think it's enough to use until it's scrapped"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "随便造。。 我都是 24 小时不关机，坏了换个",
+          "en": "Do whatever you want.. I don't turn it off for 24 hours, I'll replace it if it breaks"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HojiOShi 确实很难理解，人家产品也是经过耐久测试的，真那么容易坏么？",
+          "en": "@HojiOShi It is indeed difficult to understand. The products have also been tested for durability. Are they really that easy to break?"
+        },
+        {
+          "zh": "退一步说，真就坏了，不能修么。",
+          "en": "Taking a step back, if it really breaks, can't it be repaired?"
+        },
+        {
+          "zh": "而且真到坏的时候，你电脑也要换了，还想用个 10 年 20 年？",
+          "en": "And when it really breaks, you will have to replace your computer. Do you still want to use it for 10 or 20 years?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jgh004 主要是我的使用场景，8G 肯定不够，swap 磨损应该是非常厉害的。",
+          "en": "@jgh004 The main thing is my usage scenario, 8G is definitely not enough, and the swap wear and tear should be very severe."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "再怎么 swap 也能用到过保吧，不过保就直接保修，过保了找淘宝焊两个 1T 的上去，",
+          "en": "No matter how much swapping, you can use it until the warranty expires. If it's under warranty, just have it repaired directly. After the warranty expires, find someone on Taobao to solder two 1T ones on."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@AoEiuV020JP 正常使用是这样啦。",
+          "en": "@AoEiuV020JP That's how it is under normal use."
+        },
+        {
+          "zh": "不过我本来就打算装外置固态的，就想问问有没有人有那种搞法。",
+          "en": "But I was originally planning to install an external SSD, so I just wanted to ask if anyone had that kind of setup."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HojiOShi 都能扩容了怕啥",
+          "en": "@HojiOShi What are you afraid of if you can expand?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没必要吧，正常电脑（台式机除外）用个五六年也该换了，五六年 SSD 也不一定报废，你可以用一两年再看。",
+          "en": "Isn't it necessary? Normal computers (except desktops) should be replaced after five or six years. SSDs may not be scrapped after five or six years. You can wait a year or two and see."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

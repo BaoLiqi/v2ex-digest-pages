@@ -1,0 +1,235 @@
+{
+  "id": 1015243,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "请问本地改了一些代码怎么方便同步到云服务器那里？",
+          "en": "How can I easily synchronize locally changed code to the cloud server?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "目前我是先把服务器旧的删了，然后复制新的文件过去，要好久。",
+          "en": "Currently, I delete the old files on the server first, and then copy the new files over, which takes a long time."
+        },
+        {
+          "zh": "有没有什么方便一点的方法？",
+          "en": "Is there a more convenient method?"
+        },
+        {
+          "zh": "另外就是网站怎么才能让手机浏览的时候可以适应屏幕，就是会自动缩小视频的尺寸适应手机的屏幕刚刚好。",
+          "en": "Also, how can I make the website adapt to the screen when browsing on a mobile phone, so that it automatically shrinks the video size to fit the phone's screen perfectly?"
+        },
+        {
+          "zh": "纯 HTML 是不是不行？",
+          "en": "Is pure HTML not enough?"
+        },
+        {
+          "zh": "我弄的这个手机浏览得左右滑动。116.196.90.130",
+          "en": "The way I've done it, you have to scroll left and right to browse on the phone. 116.196.90.130"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "CI/CD 了解一下各大代码仓库应该都有配套的方案配置好后只要提交代码就能自动发布，最多正式上线前点一下其实本地用脚本也能做，只是有工具更方便一点",
+          "en": "Check out CI/CD. Major code repositories should have corresponding solutions. After configuration, you can automatically publish the code as long as you submit it. At most, click it before the official launch. Actually, you can also do it locally with a script, but it's just more convenient with tools."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ShineyWang 好的 我去搜搜 谢谢你啦",
+          "en": "@ShineyWang Okay, I'll search for it. Thank you!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "手机 pc 自适应，可以用 css 来做。根据屏幕大小，自动选择合适的 css 。",
+          "en": "For mobile and PC adaptation, you can use CSS. Automatically select the appropriate CSS based on the screen size."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hefish 具体是哪个属性兄弟。",
+          "en": "@hefish Which specific attribute, bro?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Github Private Repository + WebHook",
+          "en": "Github Private Repository + WebHook"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "github action",
+          "en": "github action"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1 、CI/CD 有一定学习成本，门槛更低的方式是写个脚本定期从 git 仓库更新内容，或者直接使用文件同步工具确保文件始终最新，比如 Jetbrains 的 IDE 本身有提供的功能和 Resilio Sync 之类的纯粹的文件同步工具。",
+          "en": "1. CI/CD has a certain learning curve. A lower-threshold approach is to write a script to periodically update content from the Git repository, or directly use file synchronization tools to ensure files are always up to date, such as the functions provided by Jetbrains IDE itself and pure file synchronization tools such as Resilio Sync."
+        },
+        {
+          "zh": "2 、看了一下你这页面，就...挺简陋的...建议直接让 GPT4 给你写，需求描述清楚就行了，这种程度的东西 GPT4 是能做到的，等大致样子调得差不多了再考虑别的吧。",
+          "en": "2. I looked at your page, it's... quite simple... I suggest you let GPT4 write it directly. Just describe the requirements clearly. GPT4 can do something of this level. Consider other things after the general appearance is adjusted."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "3 、不建议在公共场所暴露自己服务器的真实 IP 地址，你没法知道会不会有人抱着恶意对你的服务器进行莫名其妙的攻击，或是在后续正式提供服务的时候翻记录找到真实 IP 地址这么做。",
+          "en": "3. It is not recommended to expose the real IP address of your server in public places. You cannot know whether someone will maliciously attack your server for no reason, or find the real IP address by checking the records when providing services officially in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@icedx 看了下 不太看得明白 我琢磨琢磨",
+          "en": "@icedx I looked at it, I don't quite understand it. I'll think about it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SadBox 好 谢谢老哥",
+          "en": "@SadBox Okay, thank you, bro."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "私人项目我懒得 CI/CD 做版本管理，我是用 webDAV 连上服务器打开文件直接写。",
+          "en": "For personal projects, I'm too lazy to use CI/CD for version management. I connect to the server with webDAV and open the files to write directly."
+        },
+        {
+          "zh": "也可以用 visual studio code 的 remote explorer 插件直接在服务器上写。",
+          "en": "You can also use Visual Studio Code's Remote Explorer plugin to write directly on the server."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@locoz 确实非常的简陋，我想尝试自己开发一个。",
+          "en": "@locoz It is indeed very simple. I want to try developing one myself."
+        },
+        {
+          "zh": "它生产的代码不知道为什么，我复制过来，路径名称那些细节什么的改了，不晓得哪里出了问题，运行不出来，今天试了好久。",
+          "en": "I don't know why the code it produces, when I copy it over, change the details like path names, something goes wrong, and it doesn't run. I've been trying for a long time today."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@locoz OK 我以为没什么的 谢谢你的提醒",
+          "en": "@locoz OK. I thought it was nothing. Thank you for your reminder."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "git 会用不，可以帮你管理版本，在不同设备间同步版本，多人开发时管理分支与合并，结合持续集成（ CI ）完成自动化构建测试，结合持续部署（ CD ）完成自动化发布",
+          "en": "Do you know how to use Git? It can help you manage versions, synchronize versions between different devices, manage branches and merge during multi-person development, and combine continuous integration (CI) to complete automated build tests, and combine continuous deployment (CD) to complete automated release."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@serafin webDAV 是什么，是不是和 Filezilla 一样直接登录就能操控服务器文件的，这个只能删除添加，我还没发现能直接写的。",
+          "en": "@serafin What is webDAV? Is it the same as Filezilla, where you can directly log in to control server files? This can only delete and add, I haven't found a way to write directly yet."
+        },
+        {
+          "zh": "能不能一键连接的？我去看看 remote explorer 。",
+          "en": "Can it be connected with one click? I'll go check out Remote Explorer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果是 vue 或者 html,php 这种可以打包命令或者 sh 文件去写 scp -r, 如果是需要编译的那就正经走 cicd",
+          "en": "If it is vue or html, php, you can package commands or sh files to write scp -r, if it needs to be compiled, then seriously go cicd"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@iseki 不会用。只听说过是团队协作 版本控制之类的。",
+          "en": "@iseki I don't know how to use it. I've only heard that it's for team collaboration and version control."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Bingchunmoli 我主要是自己学习中想看看写的代码在手机上什么样的。",
+          "en": "@Bingchunmoli I mainly want to see what the code I write looks like on my mobile phone while I'm learning."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cyx032426 手机就是响应式设计，css 去写多套媒体查询，或者尽量不使用 px 这种定值，比如学校的时候使用的百分比也不是不行，就是不知道现在常用什么，毕竟我也不是前端",
+          "en": "@cyx032426 Mobile phones use responsive design, CSS is used to write multiple sets of media queries, or try not to use fixed values ​​such as px, such as the percentage used in school is also possible, but I don’t know what is commonly used now, after all, I am not a front-end developer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Bingchunmoli 这个多媒体查询好像确实可以根据不同屏幕的大小定义不同的页面。感谢感谢。",
+          "en": "@Bingchunmoli This multimedia query seems to be able to define different pages according to different screen sizes. Thanks, thanks."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

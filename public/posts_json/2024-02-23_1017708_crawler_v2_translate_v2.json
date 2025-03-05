@@ -1,0 +1,487 @@
+{
+  "id": 1017708,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "推广太难了，尝试下半开源的运营方式",
+          "en": "Promotion is too difficult, trying a semi-open source approach to operation."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "[Reqable]( https://reqable.com)正式发布后这大半年的真实感受，就是推广实在是太难了，尤其是海外推广。",
+          "en": "My honest feeling in the half year since [Reqable]( https://reqable.com) was officially released is that promotion is really too difficult, especially overseas promotion."
+        },
+        {
+          "zh": "国内市场，由于语言文化没有隔阂，相对来说好一点，至少写一些技术文章还有受众。",
+          "en": "The domestic market is relatively better because there is no language or cultural barrier; at least there is an audience for writing some technical articles."
+        },
+        {
+          "zh": "海外市场，尝试了 Twitter 和 ProductHunt 等，完全没有流量。",
+          "en": "In overseas markets, I tried Twitter and ProductHunt, etc., but there was no traffic at all."
+        },
+        {
+          "zh": "如果有资金，打广告，找运营团队，都还好说，但是对于独立开发者来讲，这个成本难以接受。",
+          "en": "If you have the funds to advertise and find an operations team, that's fine, but for independent developers, this cost is unacceptable."
+        },
+        {
+          "zh": "如果专职运营，一个人精力有限，产品的功能上新和迭代必然要受到大幅影响。",
+          "en": "If you are a full-time operator, one person's energy is limited, and the product's feature updates and iterations will inevitably be greatly affected."
+        },
+        {
+          "zh": "\r\n\r\n针对这个困局，我的计划是采用半开源的方式，试试效果。",
+          "en": "\n\nIn response to this dilemma, my plan is to use a semi-open-source approach and see how it goes."
+        },
+        {
+          "zh": "这里的半开源，包括两大方面：\r\n- 模块开源。\r\n- 云服务开源。",
+          "en": "Here, semi-open source includes two major aspects:\n- Module open source.\n- Cloud service open source."
+        },
+        {
+          "zh": "\r\n\r\nReqable 本身是开发人员工具，开源可以给项目带来一些曝光和流量，同时也能给社区做贡献，共同成长，一举两得。",
+          "en": "\n\nReqable itself is a developer tool. Open source can bring some exposure and traffic to the project, and it can also contribute to the community and grow together, which is a win-win situation."
+        },
+        {
+          "zh": "\r\n\r\n## 1. 模块开源\r\n\r\n开源 Reqable 项目中的重要模块，很多都是 Flutter 生态中目前的痛点，也是我花了很大精力去完成的，这部分开源的模块会随着 Reqable 项目一起迭代和成长。",
+          "en": "\n\n## 1. Module Open Source\n\nOpen source important modules in the Reqable project. Many of them are currently pain points in the Flutter ecosystem and I spent a lot of effort to complete them. This part of the open-source modules will iterate and grow with the Reqable project."
+        },
+        {
+          "zh": "只要 Reqable 项目还活着，这些仓库都会持续维护和迭代下去。",
+          "en": "As long as the Reqable project is alive, these repositories will continue to be maintained and iterated."
+        },
+        {
+          "zh": "\r\n\r\nReqable 采用了组件化开发，很多模块都是以单独仓库的形式存在，下面是项目全部的组成部分。",
+          "en": "\n\nReqable uses componentized development, and many modules exist in the form of separate repositories. The following are all the components of the project."
+        },
+        {
+          "zh": "\r\n\r\n![image.png]( https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e1eebd0a24446cc9a52d667ab3b3ada~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1780&h=1316&s=437935&e=png&b=fefefe)",
+          "en": "\n\n![image.png]( https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e1eebd0a24446cc9a52d667ab3b3ada~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1780&h=1316&s=437935&e=png&b=fefefe)"
+        },
+        {
+          "zh": "\r\n\r\n第一批已经开源的有三个模块：\r\n- 代码编辑器\r\n- 文本高亮\r\n- python 脚本框架",
+          "en": "\n\nThe first batch of three modules have been open sourced:\n- Code editor\n- Text highlighting\n- python script framework"
+        },
+        {
+          "zh": "\r\n\r\n后续我会抽时间整理下其他模块的代码和编写文档，助力 Flutter 生态越来越好！",
+          "en": "\n\nI will take time to sort out the code and write documents for other modules in the future to help the Flutter ecosystem get better and better!"
+        },
+        {
+          "zh": "\r\n\r\n#### 1.1 代码编辑器\r\n\r\n项目地址： https://github.com/reqable/re-editor",
+          "en": "\n\n#### 1.1 Code Editor\n\nProject address: https://github.com/reqable/re-editor"
+        },
+        {
+          "zh": "\r\n\r\n`Re-Editor`是一个强大的轻量级文本和代码编辑器组件，既可以作为一个简单多行文本输入组件，也可以作为一个具备基本功能的代码编辑器。",
+          "en": "\n\n`Re-Editor` is a powerful lightweight text and code editor component that can be used as a simple multi-line text input component or as a code editor with basic functions."
+        },
+        {
+          "zh": "\r\n\r\n![art01.gif]( https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ff0f7500690149539ebd24e1d4a5aa09~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=800&h=629&s=3722598&e=gif&f=276&b=faf7fa)",
+          "en": "\n\n![art01.gif]( https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ff0f7500690149539ebd24e1d4a5aa09~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=800&h=629&s=3722598&e=gif&f=276&b=faf7fa)"
+        },
+        {
+          "zh": "\r\n\r\n`Re-Editor`采用自绘而不是控件组装的方案，因此具备很高的性能，支持大文件编辑。",
+          "en": "\n\n`Re-Editor` uses a self-drawn rather than control assembly scheme, so it has high performance and supports large file editing."
+        },
+        {
+          "zh": "`Re-Editor`解决了 Flutter 官方的`TextField`组件的很多痛点问题，同时还具备下面这些特性：",
+          "en": "`Re-Editor` solves many pain points of Flutter's official `TextField` component, and also has the following features:"
+        },
+        {
+          "zh": "\r\n\r\n- 横向和纵向双向滚动。\r\n- 文本语法高亮。\r\n- 内容折叠和展开。\r\n- 输入提示和自动补全。\r\n- 搜索替换功能。\r\n- 自定义上下文菜单。\r\n- 快捷键支持。\r\n- 大文本显示和编辑。\r\n- 显示行号和焦点行。\r\n- 智能输入。",
+          "en": "\n\n- Horizontal and vertical two-way scrolling.\n- Text syntax highlighting.\n- Content folding and unfolding.\n- Input prompts and autocompletion.\n- Search and replace function.\n- Custom context menu.\n- Shortcut key support.\n- Large text display and editing.\n- Display line numbers and focus lines.\n- Smart input."
+        },
+        {
+          "zh": "\r\n\r\n#### 1.2 文本高亮\r\n\r\n项目地址： https://github.com/reqable/re-highlight",
+          "en": "\n\n#### 1.2 Text Highlighting\n\nProject address: https://github.com/reqable/re-highlight"
+        },
+        {
+          "zh": "\r\n\r\n`Re-Highlight`是一个强大的文本语法高亮库，可以将一个文本自动语法高亮，只需要定义好一个语法规则。",
+          "en": "\n\n`Re-Highlight` is a powerful text syntax highlighting library that can automatically highlight the syntax of a text, just need to define a syntax rule."
+        },
+        {
+          "zh": "当然，`Re-Highlight`已经内置了几十种编程语言的语法高亮规则，几行代码即可实现代码语法高亮。",
+          "en": "Of course, `Re-Highlight` has built-in syntax highlighting rules for dozens of programming languages, and code syntax highlighting can be achieved with just a few lines of code."
+        },
+        {
+          "zh": "\r\n\r\n![art01.png]( https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/611d91ad4c1a4f63bc9bc732a901d603~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1406&h=1064&s=70439&e=png&b=2b2b2b)",
+          "en": "\n\n![art01.png]( https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/611d91ad4c1a4f63bc9bc732a901d603~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1406&h=1064&s=70439&e=png&b=2b2b2b)"
+        },
+        {
+          "zh": "\r\n\r\n`Re-Highlight`的实现代码全部由`Dart`语言编写，翻译自知名的[highlightjs]( https://github.com/highlightjs/highlight.js)项目，实现思路和灵感则来自于[highlight.dart]( https://github.com/git-touch/highlight.dart)项目（已停止更新维护）。",
+          "en": "\n\nThe implementation code of `Re-Highlight` is all written in the `Dart` language and translated from the well-known [highlightjs]( https://github.com/highlightjs/highlight.js) project. The implementation ideas and inspiration come from the [highlight.dart]( https://github.com/git-touch/highlight.dart) project (maintenance has been discontinued)."
+        },
+        {
+          "zh": "`Re-Highlight`已同步`highlightjs`当前的最新版本 v11.9.0 ，并验证通过全部的测试用例，应该是目前 Flutter 生态里最强大的文本语法高亮库。",
+          "en": "`Re-Highlight` has synchronized the current latest version v11.9.0 of `highlightjs` and verified all test cases. It should be the most powerful text syntax highlighting library in the Flutter ecosystem."
+        },
+        {
+          "zh": "\r\n\r\n#### 1.3 python 脚本框架\r\n\r\n项目地址： https://github.com/reqable/python-scripting-api",
+          "en": "\n\n#### 1.3 python Script Framework\n\nProject address: https://github.com/reqable/python-scripting-api"
+        },
+        {
+          "zh": "\r\n\r\nReqable 目前使用的 Python 脚本框架，基本都是 Python 代码，对 Flutter 社区的贡献倒不大，所以不多介绍，熟悉 Python 的可以看看。",
+          "en": "\n\nThe Python scripting framework currently used by Reqable is basically Python code and does not contribute much to the Flutter community, so I won't introduce it much. Those who are familiar with Python can take a look."
+        },
+        {
+          "zh": "\r\n\r\n## 2. 云服务开源\r\n\r\n目前几乎所有的 API 相关软件都是靠云服务收费，我也这么想过，但是还是放弃了。",
+          "en": "\n\n## 2. Cloud Service Open Source\n\nAlmost all API-related software currently rely on cloud services for charging, I thought about it too, but I gave up."
+        },
+        {
+          "zh": "我觉得 Reqable 需要做一些改变，将云服务完全开源，主要考虑下面几点：",
+          "en": "I think Reqable needs to make some changes and completely open source the cloud services, mainly considering the following points:"
+        },
+        {
+          "zh": "\r\n\r\n- 数据安全。",
+          "en": "\n\n- Data security."
+        },
+        {
+          "zh": "几乎所有上规模的企业都注重数据安全，将非常重要的 API 数据放到第三方服务器是不现实的，所以很多竞品都是靠私有部署来收费。",
+          "en": "Almost all large-scale enterprises pay attention to data security. It is unrealistic to put very important API data on third-party servers, so many competitors rely on private deployment for charging."
+        },
+        {
+          "zh": "但是很多小公司或者个人，根本付不起私有部署的成本。",
+          "en": "But many small companies or individuals cannot afford the cost of private deployment at all."
+        },
+        {
+          "zh": "所以，我的想法是反其道而行之，云服务免费，并支持自由部署，用户只需要一台服务器。",
+          "en": "So, my idea is to go the other way, cloud services are free and support free deployment, users only need one server."
+        },
+        {
+          "zh": "\r\n\r\n- 技术栈。",
+          "en": "\n\n- Technology stack."
+        },
+        {
+          "zh": "Reqable 项目目前只有我一个人在开发，除了开发客户端，还要做网站开发、运营推广、运维、客服等等，真的忙不过来。",
+          "en": "The Reqable project is currently developed by only one person. In addition to developing the client, I also need to do website development, operation promotion, operation and maintenance, customer service, etc. I am really too busy."
+        },
+        {
+          "zh": "而且，我可以拍胸脯说我精通客户端，这个没问题，但是让我说精通服务端，那就真扯淡了。",
+          "en": "Moreover, I can pat my chest and say that I am proficient in the client, which is no problem, but if you ask me to say that I am proficient in the server, that's bullshit."
+        },
+        {
+          "zh": "\r\n\r\n关于云服务项目，还在计划和筹备中，目前暂定的是[Levi]( https://github.com/monkeyWie)大佬会和我一起开发，当然也是由 Levi 主导，这里要感谢 Levi 的支持。",
+          "en": "\n\nRegarding the cloud service project, it is still in the planning and preparation stage. Currently, it is tentatively scheduled that [Levi]( https://github.com/monkeyWie) will develop it with me, of course, Levi will lead it, and I would like to thank Levi for his support here."
+        },
+        {
+          "zh": "\r\n\r\n项目地址： https://github.com/reqable/restapi-cloud-server",
+          "en": "\n\nProject address: https://github.com/reqable/restapi-cloud-server"
+        },
+        {
+          "zh": "\r\n\r\n## 结语\r\n\r\n今年再接再厉，让 Reqable 随着社区一起成长吧！",
+          "en": "\n\n## Conclusion\n\nLet's work harder this year and let Reqable grow with the community!"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果哪天，你们坚持不下去了，千万不要做所谓“烂好人”把软件免费开源开放。",
+          "en": "If one day, you can't hold on, don't be a so-called 'soft touch' and make the software free and open source."
+        },
+        {
+          "zh": "这对你曾经的竞争同行是一种伤害，对这个本就畸形的软件行业也是。（一个皮肤几百大家都说赚翻了，生产力软件都找破解版）劳动本该获得报酬，错的是这个世界！",
+          "en": "This is a kind of harm to your former competitors, and also to this already deformed software industry. (Everyone says it's a huge profit for a skin to cost hundreds, and everyone is looking for cracked versions of productivity software.) Labor should be rewarded, it's the world that's wrong!"
+        },
+        {
+          "zh": "艹！",
+          "en": "Damn!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "从作为一个开发者或者工程师的角度，我是非常佩服 op 的，选了 flutter 这么一个生态不成熟的技术，在上面做了很多开拓性的工作，如果能开源出来，对社区贡献确实是极大的。",
+          "en": "From the perspective of a developer or engineer, I admire the OP very much. He chose Flutter, a technology with an immature ecosystem, and has done a lot of pioneering work on it. If it can be open-sourced, it will be a great contribution to the community."
+        },
+        {
+          "zh": "但是朋友，说一句实话，真的你跳出开发者这个技术角度，从商业性的角度考量，这无疑是一个失败的产品，",
+          "en": "But friend, to be honest, if you step out of the technical perspective of a developer and consider it from a commercial perspective, this is undoubtedly a failed product,"
+        },
+        {
+          "zh": "首先跨平台有太多可选方案，以现代计算机的性能，electron 搭配前端成熟的编辑器 codemirror highlightjs 等生态，要快速打造一个 Reqable 简易版并不困难，v 站就有很多个 api 工具，另外 postman 的基于 electron 性能并不慢，对于个人开发者，快速开发是一个非常重要的点。",
+          "en": "First of all, there are too many optional solutions for cross-platform. With the performance of modern computers, it is not difficult to quickly create a simple version of Reqable using Electron with front-end mature editors such as Codemirror highlightjs and other ecosystems. There are many API tools on V station, and Postman's Electron-based performance is not slow. For individual developers, rapid development is a very important point."
+        },
+        {
+          "zh": "个人开发者 是小而美，船小好掉头，这个产品失败了，赶紧换下一个，steam 上很多个人小团队的开发者游戏，无一例外不是选择了 像素等美术需求很小，仅注重玩法开发与社区反馈的作品，像 battlebit project zombie 等很多作品都是如此，先做一个原型，然后收集市场反馈 进行迭代",
+          "en": "Individual developers are small and beautiful, and it's easy to change direction when the boat is small. If this product fails, quickly switch to the next one. Many developer games developed by individual small teams on Steam have without exception chosen pixel graphics and other art with very small demands, and only focus on gameplay development and community feedback. Many works like battlebit project zombie are like this. First create a prototype, then collect market feedback for iteration."
+        },
+        {
+          "zh": "对于个人开发者来讲，应该考虑产品优先的思路，先做出一版可用的东西，立马进行推广，收集市场反馈，如果发现很困难，市场反响并不好，就应该考虑下一个方向了，而不是在一个地方死磕。",
+          "en": "For individual developers, they should consider a product-first approach, first create a usable version, immediately promote it, collect market feedback, and if they find it difficult and the market response is not good, they should consider the next direction instead of sticking to one place."
+        },
+        {
+          "zh": "另外软件这种东西，真的不要在中文市场上多花一分钱的推广，哪怕是微软这么大的公司，每年在中国的 windows 营收也是屈指可数，何苦浪费这个心思，没有渠道的话，出海真的就是首选----一家之言，仅作参考",
+          "en": "In addition, for software, don't spend any more money on promotion in the Chinese market. Even a company as big as Microsoft's annual Windows revenue in China is negligible. Why waste your time? If you don't have channels, going overseas is really the first choice - just one person's opinion, for reference only."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "干脆全开源吧，收专业版的费用，免费版不收费。",
+          "en": "Just make it fully open source and charge for the professional version, with the free version being free."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我有一个不成熟的思路：1 、不要开源2 、软件一定要收费3 、前期释放大量的短期注册码4 、中前期在网上大量发布破解服务，5 、中期中断部分破解服务6 、后期让破解服务变得不稳定，但有极少数稳定的",
+          "en": "I have an immature idea: 1. Don't open source, 2. The software must be charged, 3. Release a large number of short-term registration codes in the early stage, 4. Release a large number of cracked services online in the early and mid-term, 5. Interrupt some cracked services in the mid-term, 6. Make the cracked service unstable in the later stage, but with very few stable ones."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大佬，应该做一些给普通人的应用。",
+          "en": "Brother, you should make some applications for ordinary people."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ProductHunt 页面看了一下，review 是 0 啊，这种东西前期还是要找几个人去刷一下的，不然别人根本看不到",
+          "en": "I looked at the ProductHunt page and the review rate is 0. You still need to find a few people to write some reviews in the early stage, otherwise no one will see it."
+        },
+        {
+          "zh": "还有可以在官网对比一下和竞品的优势，比如你的 app 是 native ，Charles 是 Java ，性能这不就赢了，然后你支持 http/3 别人不支持等等要列个表格出来，用户才能一眼看出你的优势",
+          "en": "You can also compare the advantages with competitors on the official website. For example, your app is native, Charles is Java, so the performance is better. Then you support http/3 while others don't. You need to list a form to tell users at a glance what your advantages are."
+        },
+        {
+          "zh": "然后官网可以多写一些英文 blog 写一些有用的 http 调试技巧等技术文章，写得多了以后 seo 会上来，这又会带来一波自然流量，但是这个前期效果可能不明显，要坚持",
+          "en": "Then you can write more English blogs on the official website, write some useful http debugging tips and other technical articles. After writing more, the SEO will come up, which will bring a wave of natural traffic. However, the effect may not be obvious in the early stage, so you need to persist."
+        },
+        {
+          "zh": "另外 reddit 开发者的区可以多刷一下，帮别人解答一下问题但是不要打硬广告，容易被封",
+          "en": "In addition, you can browse the Reddit developer area more often, help others answer questions, but don't do hard advertising, it's easy to get banned."
+        },
+        {
+          "zh": "stackoverflow 这些论坛也是同样的思路",
+          "en": "Stackoverflow and other forums also have the same approach."
+        },
+        {
+          "zh": "Twitter 上没有大佬带感觉很难有多少人看到，这个主要是发布信息为主吧",
+          "en": "It feels difficult for many people to see it on Twitter without a big shot to lead it. It is mainly for publishing information."
+        },
+        {
+          "zh": "用户群体主要就面向海外吧，国内用户真的没啥消费力，做了费力不讨好",
+          "en": "The user base is mainly aimed at overseas, domestic users really have no purchasing power, and it is not worth the effort to do it."
+        },
+        {
+          "zh": "做产品不易，op 坚持下去，加油！！！",
+          "en": "It's not easy to make products, OP, keep going, come on!!!"
+        },
+        {
+          "zh": "✊✊✊",
+          "en": "✊✊✊"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果是要推广海外，一定要上 google 推广，靠自然量非常非常难，google 至少能带来流量，转化有问题那是另外的问题，怎么说呢，我觉得个人开发者很大的一个误区就是：我的时间不是成本，但是让我花钱推广就是成本。",
+          "en": "If you want to promote overseas, you must use Google Ads. It is very, very difficult to rely on organic traffic. Google can at least bring traffic. If there is a problem with conversion, that is another issue. How should I put it, I think a big mistake for individual developers is: my time is not a cost, but spending money on promotion is a cost."
+        },
+        {
+          "zh": "前期你如果花了 300 推广能收回 200 ，说明效果已经非常好了。",
+          "en": "If you spend 300 on promotion in the early stage and can recover 200, it means the effect is already very good."
+        },
+        {
+          "zh": "另一个点是：如果工具定位，尤其是个人，买断制是值得考虑的，有时候错误的价格定位损失的会更多。",
+          "en": "Another point is: if it is a tool product, especially for individuals, a one-time purchase is worth considering, and sometimes wrong price positioning will result in more losses."
+        },
+        {
+          "zh": "订阅制还是有自己的贪念在里面的，但是你的受众都是一群抠抠搜搜的程序员🐶，就想上面的 v 友说的，免费的平替那么多（更不用说破解的了），为什么要用这个？",
+          "en": "The subscription system still has its own greed in it, but your audience is a group of stingy programmers 🐶, just like what the V friend said above, there are so many free alternatives (not to mention cracked ones), why use this?"
+        },
+        {
+          "zh": "我之前也下了你这个用过，也只打开过那一次。",
+          "en": "I also downloaded and used yours before, and only opened it once."
+        },
+        {
+          "zh": "综上：并不说这个项目不好，而是在于你认为目前的商业价值和实际价值（对它的受众群体来说值得付费吗？",
+          "en": "In summary: I am not saying that this project is not good, but that it lies in your perception of the current commercial value and actual value (is it worth paying for its target audience?)"
+        },
+        {
+          "zh": "付多少？）之间的误判，难受的点是在这里。",
+          "en": "How much?) between the misjudgments, the uncomfortable point is here."
+        },
+        {
+          "zh": "而这个点是完全可以自己自由调整来取舍的。",
+          "en": "And this point can be completely adjusted freely to choose."
+        },
+        {
+          "zh": "说一个暴论：10 元买断也许现在的收入也许会更多？",
+          "en": "To say something controversial: Maybe a 10 yuan buyout would generate more revenue now?"
+        },
+        {
+          "zh": "。",
+          "en": "."
+        },
+        {
+          "zh": "最后，我个人认为开源不是解决方案，甚至是一步坏棋。",
+          "en": "Finally, I personally think that open source is not the solution, and it may even be a bad move."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "全开源国内 90%可能会换皮白嫖",
+          "en": "If it's fully open source, 90% of people in China may reskin and use it for free."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人感觉你这个东西确实挺不错的，但是我站在使用者的角度考虑，相当于你这个是一个组件而不是解决某一系列业务问题的解决方案。",
+          "en": "I personally feel that your product is quite good, but from the perspective of a user, it is equivalent to a component rather than a solution to a series of business problems."
+        },
+        {
+          "zh": "因此除非完全没有替代品的时候、或者财大气粗的公司才会选择付费使用，但是我不知道你这产品本身有多少需求存在，这么几轮筛选下来感觉付费的用户比较少的概率就比较大了。",
+          "en": "Therefore, unless there is no alternative at all, or a wealthy company will choose to pay to use it, but I don't know how much demand there is for your product itself. After several rounds of screening, I feel that the probability of having fewer paying users is is very high."
+        },
+        {
+          "zh": "所以我个人感觉，是不是一开始就走开源免费使用的，然后提供企业支持的方式运营？",
+          "en": "So I personally feel, shouldn't you start with open source and free use, and then operate by providing enterprise support?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这种工具类的，我感觉有点难，尤其国内这环境，不是刚需真没人买，如果企业肯花钱还行！",
+          "en": "I feel it's a bit difficult for this kind of tool, especially in the domestic environment, if it's not a necessity, no one will really buy it, if the company is willing to spend money, that's fine!"
+        },
+        {
+          "zh": "个人的话就看经济水平了！",
+          "en": "For individuals, it depends on the economic level!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "http://reqable.proxy/ssl  打不开哦",
+          "en": "http://reqable.proxy/ssl cannot be opened"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zzbd 是的。",
+          "en": "@zzbd Yes."
+        },
+        {
+          "zh": "我是没看明白再点进去的。",
+          "en": "I didn't understand it before clicking into it."
+        },
+        {
+          "zh": "我觉得这能解释 LZ 的问题「推广太难了」 和  「尝试了 Twitter 和 ProductHunt 等，完全没有流量」因为大家压根不知道你这玩意干嘛的。。。。",
+          "en": "I think this can explain LZ's problems 'promotion is too difficult' and 'I tried Twitter and ProductHunt, etc., but there was no traffic at all' because everyone doesn't know what the hell this thing does...."
+        },
+        {
+          "zh": "或者至少第一眼不能立刻发现价值所在，需要自己多点几次链接，打开页面去理解把一个收费产品的认知门槛弄的这么高，推广效果能好吗？",
+          "en": "Or at least you can't immediately see the value at first glance. You need to click a few more links and open the page to understand. The cognitive threshold for a paid product is so high, how can the promotion effect be good?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果一直没有起色，可能不是你的问题，需要考虑做新项目了。",
+          "en": "If there is no improvement, it may not be your problem, you need to consider starting a new project."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "唉，还是能理解这种花了很大精力，但是却得不到期望的曝光的心情的。",
+          "en": "Alas, I can still understand the feeling of spending a lot of effort, but not getting the expected exposure."
+        },
+        {
+          "zh": "我之前做的产品都抱着自用的心态，从不宣传因此反而没什么感觉，但是一旦想要宣传一下了，才发现世界如此大，人如此渺小。",
+          "en": "I used to make products with a self-use mentality and never promoted them, so I didn't feel anything. But once I wanted to promote them, I realized that the world is so big and people are so small."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "营销推广是要钱的，技术反而不重要，国内开源转商业基本上很难很难做起来的",
+          "en": "Marketing and promotion cost money, technology is not important, and it is basically very difficult to turn domestic open source into commercialization."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "写英文博客",
+          "en": "Write english blogs"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以全部开源，但是商业使用收费，然后打官司赚钱。",
+          "en": "You can make it all open source, but charge for commercial use, and then make money by filing lawsuits."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以全部开源，代码里增加个回调接口，但是商业使用收费，然后打官司赚钱。",
+          "en": "You can make it all open source and add a callback interface in the code, but charge for commercial use, and then make money by filing lawsuits."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@bigfei 个人开发者没那个精力和时间同那些大公司打官司",
+          "en": "@bigfei Individual developers don't have the energy and time to file lawsuits with those big companies"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "问下，怎么自定义证书？ p12 格式的",
+          "en": "Just wondering, how do you customize the certificate? p12 format"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

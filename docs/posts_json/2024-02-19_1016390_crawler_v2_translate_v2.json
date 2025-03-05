@@ -1,0 +1,239 @@
+{
+  "id": 1016390,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "“Github 新手”无能狂怒，发脾气骂程序员，并表示难以理解为什么会有代码",
+          "en": "'Github Newbie' has an outburst of impotent rage, scolds programmers, and says it's hard to understand why there is code"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "原帖在此：\r\nhttps://www.reddit.com/r/github/comments/1at9br4/\r\n\r\nhttps://i.imgur.com/ysrmUyB.png\r\n\r\n\r\n这是 sherlock-project 的安装步骤：\r\n\r\nhttps://i.imgur.com/ijIWBia.png\r\n\r\n就这么简单的几行命令，这位“Github 新手”直接不懂，还粗鲁地狂骂开发者，然后用大写字母狂骂“为什么会有代码”。\r\n\r\nPS：sherlock-project 是个用户名查询工具，可以在各个社交平台上查询用户名是否存在。",
+          "en": "Original post here:\r\nhttps://www.reddit.com/r/github/comments/1at9br4/\r\n\r\nhttps://i.imgur.com/ysrmUyB.png\r\n\r\n\r\nThese are the installation steps for sherlock-project:\r\n\r\nhttps://i.imgur.com/ijIWBia.png\r\n\r\nWith just these few simple lines of code, this 'Github Newbie' doesn't understand and rudely curses the developers before yelling in capital letters 'Why is there code?'\r\n\r\nPS: sherlock-project is a username lookup tool that can be used to check if a username exists on various social media platforms."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这要是中文写的，v 站的觉醒大佬又要带领国人反思了。",
+          "en": "If this were written in Chinese, the enlightened big shots on V2EX would be leading Chinese people to reflect again."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "常年混迹于欧美区的某人表示, 不要把外国人想得素质太高, 脏话连篇阴阳怪气的多的是.",
+          "en": "Someone who frequents European and American areas says that people shouldn't think foreigners are all high quality; there are plenty who use dirty language and are sarcastic."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@0littleboy  有个 p 的道理，github 本来就是面向开发者，又不是给终端用户的。这种想法就像国内那些超级应用一样想搞超级平台",
+          "en": "@0littleboy That makes no sense. Github is designed for developers, not end users. This idea is like those domestic super apps that want to create a super platform."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "new to 到这程度甚至不能叫 github 新手了，只能叫 github 路人😅",
+          "en": "'new to' to this extent can't even be called a github newbie, only a github passerby 😅"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "老哥你去转行写公众号吧，这一手标题我是佩服的。",
+          "en": "Bro, you should switch to writing for public accounts. I admire this title."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我接触代码这么多年了，仍然觉得代码环境配置很累。每次新环境配置 python 都得现百度装什么版本 python ，怎么装对应版本 python ，装完 python 再怎么装 pip 。。。然后还会遇到 pip install 失败，还得翻墙。。。",
+          "en": "After so many years of working with code, I still find configuring code environments tiring. Every time I set up a new Python environment, I have to search on Baidu for which version of Python to install, how to install the corresponding version of Python, and how to install pip after installing Python... Then I encounter pip install failures and have to bypass the Great Firewall..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对于一般人来说。。点进项目直接看 release ，没有 release 的看都不用看",
+          "en": "For the average person... go into the project and look directly at the release. If there is no release, there's no point in looking."
+        },
+        {
+          "zh": "对于程序员来说。。如果是自己熟悉的语言可以尝试编译一下。。如果是不熟悉的。其实基本上也跑不起来",
+          "en": "For programmers... if it's a language they're familiar with, they can try compiling it. If it's unfamiliar, it probably won't run anyway."
+        },
+        {
+          "zh": "所以如果 linux 上的项目真心想推广的话，很多人会做成 docker ，现在也确实有很多软件是这么做的",
+          "en": "So if you really want to promote a project on Linux, many people will make it into a Docker container, and there are indeed many software programs that do this now."
+        },
+        {
+          "zh": "而 github 的项目，作者不一定想推广给普通人。。费时费力。。所以普通人看不懂用不了很正常",
+          "en": "But the authors of Github projects don't necessarily want to promote them to ordinary people... It's time-consuming and laborious... So it's normal for ordinary people not to understand and not be able to use them."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这个安装步骤的前提是系统里有比较新的 python.",
+          "en": "This installation procedure assumes that the system has a relatively new version of Python."
+        },
+        {
+          "zh": "另外照抄这些命令大概还会破坏系统库，如果是 linux 或 macports 装的 python 大概还会缺权限装不上。",
+          "en": "Also, blindly copying these commands may damage the system library, and if Python is installed via Linux or MacPorts, there may be insufficient permissions to install it."
+        },
+        {
+          "zh": "整个过程对于非 python 开发者来说并不简单。",
+          "en": "The whole process is not simple for non-Python developers."
+        },
+        {
+          "zh": "我自己也会因为环境配置的问题不太喜欢 ruby 和 node.js 开发的软件。",
+          "en": "I myself don't really like software developed in Ruby and Node.js because of environment configuration issues."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "人都是懒的。",
+          "en": "People are lazy."
+        },
+        {
+          "zh": "如果项目有 release ，我也懒得自己去编译。",
+          "en": "If the project has a release, I'm too lazy to compile it myself."
+        },
+        {
+          "zh": "其次如果是这种面向大众的应用，我就想临时用一次，也是有 release 找 release ，没有就换个同款项目看看。",
+          "en": "Secondly, if it's this kind of application aimed at the masses, and I just want to use it temporarily, I'll look for a release. If there isn't one, I'll switch to another similar project."
+        },
+        {
+          "zh": "当然这人伸手党+满嘴不干净确实才是本质问题",
+          "en": "Of course, the essence of the problem is that this person is a leech who is full of foul language."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "呃， 不写公众号 挣流量可惜了",
+          "en": "Uh, it's a pity not to write a public account to earn traffic."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "事实上在 github 下软件的人至少一半是小白, 只不过大多数小白知道是自己不会用,  而不是作者的问题",
+          "en": "In fact, at least half of the people who download software on GitHub are newbies, but most newbies know that it's their own fault, not the author's problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "python 太糟糕了, 看到需要自己编译 python 的库我都跳过.",
+          "en": "Python is terrible. I skip over any library that requires me to compile it myself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@GPT9 这用英文写的也不影响我们嘲讽他啊。怎么换中文写就得给个国籍保护？",
+          "en": "@GPT9 It doesn't stop us from mocking him even if it's written in English. Why would a Chinese version need nationality protection?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "长期被犹太和盎萨谎媒反复轮流洗脑的简英人确实普遍认知和实践能力低下",
+          "en": "Simplified English speakers who have been repeatedly brainwashed by Jewish and Anglo-Saxon lying media do generally have low cognitive and practical abilities."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@GPT9 又在这虚空立靶",
+          "en": "@GPT9 You're setting up a straw man again."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "然而: https://www.reddit.com/user/automatic_purpose_/comments/1atvs7k/github_sucks_ass/",
+          "en": "However: https://www.reddit.com/user/automatic_purpose_/comments/1atvs7k/github_sucks_ass/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然我觉得提问的智慧这篇文章很多时候是有点过了头的，但这个场合我觉得丢一个提问的智慧的链接是最合适的回复。",
+          "en": "Although I think the article 'How To Ask Questions The Smart Way' is sometimes a bit over the top, I think dropping a link to it is the most appropriate response in this situation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不就是巨婴吗, 放社会上就是被美式居合的命",
+          "en": "Isn't this just a giant infant? In society, they're destined to be quick-drawn with an American sword."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这人要的是 exe, 哪里会装 python, 还要 pip, 为什么会被引流到 github, 谁给打包下然后公众号付款😂",
+          "en": "This person wants an exe, how would they install Python, and then also use pip? Why were they directed to GitHub? Someone package it and then set up payments in a public account 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "坏了，我都分不出来他是真的不懂还是无聊的反串",
+          "en": "Damn, I can't tell if he really doesn't understand or is just trolling."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

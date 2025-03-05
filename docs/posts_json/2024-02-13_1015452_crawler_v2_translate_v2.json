@@ -1,0 +1,268 @@
+{
+  "id": 1015452,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "为什么 Windows 待机时间长，再次操作反应就会变得很卡",
+          "en": "Why does Windows have a long standby time, and then the response becomes very laggy when operating again?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我目前是用的 Win10 系统，电脑是 2017 年出的联想小新锐 7000 ，内存为 16G",
+          "en": "I am currently using the Win10 system. My computer is a Lenovo Xiaoxin Rui 7000 released in 2017 with 16G of memory."
+        },
+        {
+          "zh": "最近总是发现当待机一天及以上时，再次操作，比如打开文件夹或者打字时，都会有明显的滞后，总是会反应几秒，感觉不流畅，但是重启后依然流畅",
+          "en": "Recently, I always find that when it has been in standby for a day or more, when I operate again, such as opening a folder or typing, there will be a noticeable lag, and it will always take a few seconds to respond. It feels unsmooth, but it is still smooth after restarting."
+        },
+        {
+          "zh": "好奇这是为什么呢，从技术角度应该怎么看待呢",
+          "en": "I'm curious why this is. How should I look at it from a technical perspective?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@sir283 就我的个人体验来说，linux 在笔记本电脑上的使用体验只能用灾难两个字来形容。",
+          "en": "@sir283 In my personal experience, the experience of using Linux on a laptop can only be described as disastrous."
+        },
+        {
+          "zh": "最强烈的是屏幕缩放比例，几乎不支持自定义。",
+          "en": "The strongest is the screen scaling ratio, which almost does not support customization."
+        },
+        {
+          "zh": "第二就是 linux 的电源管理策略几乎是个迷，打开性能模式随时会导致画面冻结",
+          "en": "Secondly, Linux's power management strategy is almost a mystery, and opening performance mode can cause the screen to freeze at any time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个可能的原因是句柄泄露。",
+          "en": "One possible reason is handle leakage."
+        },
+        {
+          "zh": "楼主可以打开任务管理器，在“性能”页面下看看系统当前有多少句柄。",
+          "en": "The original poster can open the task manager and check how many handles the system currently has on the \"Performance\" page."
+        },
+        {
+          "zh": "如果数量过大（比如 30 万以上）就有可能是某个进程出现句柄泄露了。",
+          "en": "If the number is too large (for example, more than 300,000), it is possible that a certain process has a handle leak."
+        },
+        {
+          "zh": "在“详细信息”页里也可以把进程按照句柄数量排序，看看是哪个进程句柄泄露，一般重新启动一下对应进程就会好一些。",
+          "en": "In the \"Details\" page, you can also sort the processes according to the number of handles to see which process handle is leaking. Generally, restarting the corresponding process will solve the problem."
+        },
+        {
+          "zh": "句柄泄露是很常见的。",
+          "en": "Handle leakage is very common."
+        },
+        {
+          "zh": "例如 explorer.exe 从大约 2019 年左右开始，每次在打开的文件夹下点击右键就会泄露一个注册表句柄。",
+          "en": "For example, starting around 2019, explorer.exe leaks a registry handle every time you right-click in an open folder."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kenvix #4 核显切换问题, 软件启动后不会切换显卡.",
+          "en": "@kenvix #4 Integrated graphics switching issue, the graphics card will not switch after the software starts."
+        },
+        {
+          "zh": "所以用核显打开的软件, 哪怕外接屏幕了, 也会继续用核显渲染, 而且由于数据回流, 导致反而更卡顿.",
+          "en": "So, the software opened with the integrated graphics will continue to be rendered with the integrated graphics even if an external screen is connected, and the data backflow will cause it to be even more laggy."
+        },
+        {
+          "zh": "解决方法很简单卡的时候运行下脚本batch%1 start \"\" mshta vbscript:createobject(\"shell.application\").shellexecute(\"\"\"%~0\"\"\",\"::\",,\"runas\",1)(window.close)&exitdevcon disable *DEV_3E9B*devcon enable *DEV_3E9B*:: pnputil /restart-device \"PCI\\VEN_8086&DEV_3E9B&SUBSYS_086F1028&REV_00\\3&11583659&0&10\"REM taskkill /f /im dwm.exe```devcon 很多软件都带, 也可以在这里下https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon#where-can-i-download-devcon*DEV_3E9B* 是硬件 id 通配符, 用来操作核显设备的.",
+          "en": "The solution is very simple. Run the script when it is lagging.```batch%1 start \"\" mshta vbscript:createobject(\"shell.application\").shellexecute(\"\"\"%~0\"\"\",\"::\",,\"runas\",1)(window.close)&exitdevcon disable *DEV_3E9B*devcon enable *DEV_3E9B*:: pnputil /restart-device \"PCI\\VEN_8086&DEV_3E9B&SUBSYS_086F1028&REV_00\\3&11583659&0&10\"REM taskkill /f /im dwm.exe```devcon comes with many software, or you can download it here https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon#where-can-i-download-devcon*DEV_3E9B* is a hardware ID wildcard used to operate the integrated graphics device."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可能是内存泄露导致的，传说 explorer.exe 存在一些内存泄露问题，其他一些应用程序也可能。",
+          "en": "It may be caused by memory leaks. It is said that explorer.exe has some memory leak problems, and other applications may also."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同样情况，发现是 explorer 问题，把资源管理器全关了，CPU 就会正常，开几个资源管理器待机 1 天以上就会出现这种问题。",
+          "en": "Same situation, I found it was an explorer issue. If I close all the resource managers, the CPU will be normal. This problem will occur if I open a few resource managers and leave them in standby for more than 1 day."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "台式机挂机游戏快半年了，也没见卡过。",
+          "en": "My desktop computer has been running games for almost half a year and I haven't seen it lag."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "根据 v2 的历史帖子，有外接显示器的笔记本都会发生这种情况，台式机不会。",
+          "en": "According to historical posts on v2, laptops with external monitors experience this situation, while desktops do not."
+        },
+        { "zh": "此问题无解", "en": "There is no solution to this problem." }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同样有这样的情况，联想 p15v ，每天都是合盖下持续几天就感觉很慢了，重启之后感觉所有操作都快了很多平时就外接显示器使用",
+          "en": "I have the same situation. My Lenovo p15v feels very slow after being closed for a few days every day. After restarting, I feel that all operations are much faster. I usually use an external monitor."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我女朋友的电脑常年不关机，也外接屏幕，好像也没事，应该不是一个 100%复现的问题",
+          "en": "My girlfriend's computer is never turned off and also has an external screen connected, but it seems to be fine. It shouldn't be a 100% reproducible problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@unbridle #6 关键是女朋友",
+          "en": "@unbridle #6 The key is the girlfriend"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看一下是哪个程序内存泄漏，",
+          "en": "Check which program has a memory leak,"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "公司台式机，过年前一天更新关了下机器，在那之前 140 多天没关机了，文件管理器也是常开五六个的样子，没出现卡顿的问题",
+          "en": "The company's desktop computer was updated and turned off the day before the Chinese New Year. Before that, it hadn't been turned off for more than 140 days. The file manager was also open five or six times, and there was no lag issue."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hfc 也是 win10 ，i7 还是 i5 8 代的 u",
+          "en": "@hfc Also Win10, i7 or i5 8th generation CPU?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Windows 是这样的，所以它并不适合做服务器，而且用了一会后，在任务管理器里面，总是会突然出现一个叫做：\"System\"名字的进程，疯狂占用磁盘、CPU ，导致系统非常的卡，关键还不能终止掉它，非常恶心，还有时候会出现键盘无法响应的问题，键盘、鼠标都是好的，必须要重启才行，",
+          "en": "Windows is like this, so it is not suitable for servers. After using it for a while, in the task manager, a process named \"System\" always suddenly appears, crazily occupying the disk and CPU, causing the system to be very laggy. The key is that you can't terminate it, which is very disgusting. Sometimes there will be problems with the keyboard not responding. The keyboard and mouse are fine, and you have to restart."
+        },
+        {
+          "zh": "要不是我的 arch linux 滚挂了，我都不想用 Windows ，各种暗门、设计缺陷，真的恶心。",
+          "en": "If my arch linux hadn't crashed, I wouldn't want to use Windows. All kinds of secret doors and design flaws are really disgusting."
+        },
+        {
+          "zh": "过几天我就把 Windows 彻底删掉，换 manjaro 日用，linux 除了游戏外，论开发、操作使用、流媒体、远控，都比 Windows 舒服很多。",
+          "en": "In a few days, I will completely delete Windows and switch to manjaro for daily use. In addition to games, Linux is much more comfortable than Windows in terms of development, operation, media streaming, and remote control."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@sir283 …这个 System 代表的是系统本身，和 Linux 里那一堆 kworker 差不多。",
+          "en": "@sir283 …This System represents the system itself, which is similar to the bunch of kworkers in Linux."
+        },
+        {
+          "zh": "比如你要是把一个正在进行文件填充的进程 kill 掉了，文件 io 就会算到 System 上（观察到的现象",
+          "en": "For example, if you kill a process that is filling a file, the file io will be counted on System (observed phenomenon."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@aquatichunter  你说的这些，在网上都有解决方案，不算问题，而且，只要不在 Linux 下打游戏，体验不比 Windows 差多少，再说，Linux 下的国内日用软件，也开始陆续跟进了，该有的都会有，何况国家现在在大力发展 Linux 生态，未来可期。",
+          "en": "@aquatichunter You can find solutions to what you said online, so it's not a problem. Moreover, as long as you don't play games on Linux, the experience is not much worse than Windows. Besides, domestic daily software under Linux has also begun to follow up one after another, and everything that should be there will be there. Moreover, the country is now vigorously developing the Linux ecosystem, so the future is promising."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@nexklee #7 hhh 因为我自己的是台式没事，看到楼上说笔记本会发生这种情况🤣",
+          "en": "@nexklee #7 hhh Because my own is a desktop and it's fine. I saw someone upstairs said that laptops experience this situation.🤣"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@aquatichunter 可以试着买 System76 的笔电，他们的电脑专门为他们自己的 Pop_OS!做了优化，不会有你说的问题",
+          "en": "@aquatichunter You can try buying a System76 laptop. Their computers are specially optimized for their own Pop_OS!, so you won't have the problems you mentioned."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@iseki   关键它不是一次两次，而是天天都这样，就很恶心，能理解我的意思吧？",
+          "en": "@iseki The key is that it's not just once or twice, but it's like this every day, which is very disgusting. Can you understand what I mean?"
+        },
+        {
+          "zh": "我已经把系统更新禁了，默认的 defender 也禁止扫描了，但是还是一直卡卡的，天天都是 system占用巨高，打个单机的 pvz 都卡。",
+          "en": "I have disabled system updates and also disabled scanning by the default defender, but it is still lagging, and system usage is very high every day, even playing a single-player PVZ lags."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "默认台式机是 前台任务优先吧，切换内存不至于吧。",
+          "en": "By default, desktop computers prioritize foreground tasks, so there shouldn't be memory switching issues, right?"
+        },
+        {
+          "zh": "以前是用 Java 把它最小化，吃午饭回来切换到最大化就要很长时间，就是一个占太多内存在前台后台间切换它就会这样。",
+          "en": "I used to minimize it with Java, and it would take a long time to switch to maximize it when I came back from lunch. It's just that it occupies too much memory, so switching between the foreground and background will cause this."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": 1015307,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "可暂停加速器的计费逻辑/数据库设计疑问",
+          "en": "Billing logic/database design questions for a pausable accelerator"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "正在设计一个类似雷神/Golink 的加速器系统，没想好怎么实现暂停时长",
+          "en": "I'm designing an accelerator system similar to Thunder/Golink, and I'm not sure how to implement the pause duration."
+        },
+        {
+          "zh": "目前的想法是有一个用户表记录剩余时长和是否暂停:\r\n\r\nid int\r\n...\r\npaused bool\r\ntime_remain int\r\n```\r\n\r\n然后再开一个定时任务每五分钟把没有暂停的用户时间-5",
+          "en": "My current idea is to have a user table record the remaining duration and whether it is paused:\r\n```\r\nid int\r\n...\r\npaused bool\r\ntime_remain int\r\n```\r\n\r\nThen, create a scheduled task to subtract 5 from the time of users who are not paused every five minutes."
+        },
+        {
+          "zh": "求教各位老哥有没有更优雅的方法",
+          "en": "I would like to ask if there is a more elegant method."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "更好的做法肯定是，暂停时，将用户状态修改为暂停。同时记录暂停开始的时间。在申请恢复时，给用户的有效期+（恢复时间-暂停时间），同时将状态改为正常",
+          "en": "A better approach is definitely to change the user status to paused when pausing. Also, record the start time of the pause. When applying to resume, add (resume time - pause time) to the user's validity period and change the status to normal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "通用操作系统不保证实时性，例如你要五分钟后执行某个任务，或者 sleep 五分钟，都只是保证间隔时间大于等于五分钟，长期下来误差累积，结果相去甚远",
+          "en": "General operating systems do not guarantee real-time performance. For example, if you want to execute a task after five minutes, or sleep for five minutes, it only guarantees that the interval is greater than or equal to five minutes. Over the long term, the error accumulates, and the results are very different."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "设计 2 个，一个按使用时间扣除。一个按照暂停时间扣除。双重保障。",
+          "en": "Design 2, one deducts based on usage time, and the other deducts based on pause time. Double guarantee."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "雷神不是即点即结算的么。。。就不说误差的问题哪有每五分钟-5 的，二游签个到光速下线的岂不是往死里亏。。。",
+          "en": "Isn't Thunder instant settlement? ... Leaving aside the issue of error, where does subtracting 5 every five minutes come from? Wouldn't quickly logging in for the second game and logging out be a huge loss...?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以动态计算出总使用时间，也可以定期计算，更新数据库。例如记录一个人的年龄，可以只记录出生时间，用当前时间减去出生时间就得到了年龄，也可以只存储今年的年龄，每年定期把所有年龄+1",
+          "en": "You can dynamically calculate the total usage time, or calculate it regularly and update the database. For example, to record a person's age, you can only record the birth time and subtract it from the current time to get the age. You can also only store this year's age and add +1 to all ages regularly every year."
+        },
+        {
+          "zh": "在这个场景下，可以拿一张表记录用户使用的情况，包括用户 id ，取消暂停的时间，暂停的时间，需要计算总时长，就根据用户 id 查到所有记录，把每个记录的两个时间相减，再所有记录求和",
+          "en": "In this scenario, you can use a table to record the user's usage, including the user ID, the time of canceling the pause, and the time of the pause. To calculate the total duration, you can query all records based on the user ID, subtract the two times of each record, and then sum all records."
+        },
+        {
+          "zh": "计算可能比较花费时间，可以想办法把之前计算的结果记录下来避免重复计算，例如记录一下每个用户前 n 条记录的时间总和，也就是定期更新计算的中间结果",
+          "en": "The calculation may take a long time. You can find a way to record the previously calculated results to avoid redundant calculation. For example, record the sum of the time of the first n records of each user, that is, regularly update the intermediate results of the calculation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "暂停恢复时加个 hook 计算",
+          "en": "Add a hook calculation when pausing and resuming."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在用户状态为非暂停时，记录用户到期的时间点`time_expire`。当用户将状态从非暂停改为暂停时，用到期时间点-现在的时间计算出时长`time_remain`保存。当用户从暂停改为非暂停时，用现在的时间+时长算出新的到期时间点保存。所以表里加个`time_expire datetime`的数值，用于非暂停状态下的计算.",
+          "en": "When the user status is non-paused, record the expiration time point `time_expire`. When the user changes the status from non-paused to paused, use the expiration time point - current time to calculate the duration `time_remain` and save it. When the user changes from paused to non-paused, use the current time + duration to calculate the new expiration time point and save it. Therefore, add a `time_expire datetime` value to the table for calculation in the non-paused state."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "暂停是常态，启用是偶尔，所以应该记录使用的时常",
+          "en": "Pausing is the norm, and enabling is occasional, so the usage time should be recorded."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "remain_seconds BIGINT COMMENT '剩余秒数'last_start_time TIMESTAMP COMMENT '上次开始加速的时间戳'is_accelerating TINYINT COMMENT '是否正在使用加速服务'开始加速时，判断当前是否正在加速",
+          "en": "remain_seconds BIGINT COMMENT 'Remaining seconds' last_start_time TIMESTAMP COMMENT 'Timestamp of the last acceleration start time' is_accelerating TINYINT COMMENT 'Whether the acceleration service is being used' When starting acceleration, determine whether the current is accelerating."
+        },
+        {
+          "zh": "是，则将当前时间戳 - last_start_time 得到上次使用时长，然后减掉 remain_seconds 。然后如果没欠费，更新 last_start_time 为当前时间，否则停止加速",
+          "en": "If yes, then subtract the current timestamp - last_start_time to get the last usage time, and then subtract remain_seconds. Then, if there is no overdue payment, update last_start_time to the current time, otherwise stop acceleration."
+        },
+        {
+          "zh": "否，则更新 last_start_time ，设置 is_accelerating = 1---暂停加速时将当前时间戳 - last_start_time 得到上次使用时长，然后减掉 remain_seconds ，设置 is_accelerating = 1---充值时，直接按照充的时长，转换成秒数加到 remain_seconds",
+          "en": "If no, then update last_start_time and set is_accelerating = 1--- When pausing acceleration, subtract the current timestamp - last_start_time to get the last usage time, and then subtract remain_seconds, set is_accelerating = 1--- When recharging, directly convert the recharged duration into seconds and add it to remain_seconds."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "需要处理的是用户没暂停如果不想挣这个钱，设置个心跳检测客户端是否在运行，如果没响应超过一定阈值，停止加速",
+          "en": "What needs to be handled is that if the user does not pause and does not want to earn this money, set a heartbeat detection to check whether the client is running. If there is no response beyond a certain threshold, stop the acceleration."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "MySQL TIMESTAMP 类型可能会有 2038 的问题，改成 BIGINT 也行",
+          "en": "The MySQL TIMESTAMP type may have a problem with 2038, change it to BIGINT."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "《声明》以上仅是技术探讨，他要是搞机场业务，本人并不知情，与本人无关",
+          "en": "《Disclaimer》The above is only a technical discussion. If he is engaged in airport business, I am not aware of it and it has nothing to do with me."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "表里记录当前 session 开始时间，然后根据余额计算当前 session 最晚结束时间，先不改余额",
+          "en": "Record the start time of the current session in the table, and then calculate the latest end time of the current session based on the balance, without changing the balance first."
+        },
+        {
+          "zh": "然后每五分钟查表，如果有 session 超时就踢下线",
+          "en": "Then check the table every five minutes, and if there is a session timeout, kick the user offline."
+        },
+        {
+          "zh": "用户暂停/下线时，根据开始时间和当前时间计算消耗量，从余额中减去。并把当前 session 的开始时间和结束时间设为最大值，这样定期扫描就不会扫到",
+          "en": "When the user pauses/goes offline, calculate the consumption based on the start time and current time, and subtract it from the balance. And set the start and end times of the current session to the maximum value, so that regular scans will not scan it."
+        },
+        {
+          "zh": "如果考虑性能的话可以分表，分为活跃 session 表和用户余额表两个表。用户上线时加入活跃表，下线时结算并更新余额表",
+          "en": "If you consider performance, you can split the table into two tables: an active session table and a user balance table. When the user goes online, add it to the active table, and when the user goes offline, settle and update the balance table."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我感觉启动时间很明显是要记到 redis 里面的，id+启动时间。用户不点结束就一直让他存活下去，他扣的是钱还不能让他在 redis 长活？",
+          "en": "I feel that the startup time obviously needs to be recorded in Redis, id+startup time. If the user does not click to end, let him live in Redis all the time. It's deducting money, can't he live long in Redis?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Database is Log 的思路去做这个事情",
+          "en": "Use the idea of 'Database is Log' to do this."
+        },
+        {
+          "zh": "第一张表记录充值的分钟数",
+          "en": "The first table records the number of minutes recharged."
+        },
+        {
+          "zh": "第二张表记录暂停的时间段",
+          "en": "The second table records the pause time period."
+        },
+        {
+          "zh": "那剩余分钟数=充值分钟数-区间暂停分钟数",
+          "en": "Then the remaining minutes = recharge minutes - interval pause minutes."
+        },
+        {
+          "zh": "如果你要提升性能就减少回溯长度，定每月/每周活跃用户归档表，三表联查来加快查询性能。Session 是否存活判断就分钟级确认一下是否存在生效暂停记录且剩余分钟数>0",
+          "en": "If you want to improve performance, reduce the length of backtracking, set up a monthly/weekly active user archive table, and use a three-table join to speed up query performance. To determine whether the session is alive, confirm at the minute level whether there is a valid pause record and the remaining minutes are > 0."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没太明白需求，这是点卡吗？",
+          "en": "I don't quite understand the requirement. Is this a prepaid card?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ccde8259 你这样子用户的分钟数只会越来越多。我前面提到的方法只适用于 hobby project ， 如果要按照这位 v 友的方法来做的话可以直接在现有的充值系统上改。",
+          "en": "@ccde8259 In this way, the user's minutes will only increase. The method I mentioned earlier is only suitable for hobby projects. If you want to do it according to this v friend's method, you can directly modify the existing recharge system."
+        },
+        {
+          "zh": "创建一张充值记录表，包含充值 ID ，用户 ID ，充值时间，充值时长，和新的到期时间（需要根据上一次的到期时间来计算，如果已经到期了的话就根据现在时间算，如果没有就在之前的到期时间上加）",
+          "en": "Create a recharge record table containing the recharge ID, user ID, recharge time, recharge duration, and new expiration time (which needs to be calculated based on the last expiration time. If it has expired, calculate it based on the current time, and if no, add it to the previous expiration time)."
+        },
+        {
+          "zh": "再创建一张暂停记录表，记录暂停开始，暂停结束的事件。每次暂停开始前要判断一下用户是否到期，如果到期不能给暂停。暂停结束后把暂停时长按照一次充值事件加入充值记录里，计算出新的到期时间。",
+          "en": "Then create a pause record table to record the start and end events of the pause. Before each pause starts, you need to check whether the user has expired. If it has expired, the pause cannot be given. After the pause ends, add the pause duration to the recharge record as a recharge event and calculate the new expiration time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@IlllIlllIlIIl #17 突然发现 1 楼好像就是这个意思，补充一下暂停事件作为一个特殊的充值事件，不受上一次到期时间的影响，只管我到期时间上加就行了",
+          "en": "@IlllIlllIlIIl #17 Suddenly realized that the first floor seems to mean this. To supplement, the pause event, as a special recharge event, is not affected by the last expiration time, just add it to my expiration time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@IlllIlllIlIIl #18 所以前面那张充值记录表应该叫时长变化表，再加一个叫“变化原因” 的值，里面可以写一些像是“用户充值“，”暂停“，”活动赠送“之类的",
+          "en": "@IlllIlllIlIIl #18 So the recharge record table in front should be called the duration change table, and add a value called 'Reason for change', which can be written like 'User recharge', 'Pause', 'Event gift', etc."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@IlllIlllIlIIl #19 ， 考虑到一致性的话，那张暂停表也就不要了， 可以像一楼说的把暂停状态和暂停开始时间记录在用户表下",
+          "en": "@IlllIlllIlIIl #19, Considering consistency, the pause table should be removed, and the pause status and pause start time can be recorded under the user table as mentioned on the first floor."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

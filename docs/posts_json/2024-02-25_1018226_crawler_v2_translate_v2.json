@@ -1,0 +1,223 @@
+{
+  "id": 1018226,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "北京联通海外宽带加速（9929）体验",
+          "en": "Beijing China Unicom Overseas Broadband Acceleration (9929) Experience"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "北京联通 app 可以直接再宽带专区下的海外宽带加速下申请，开通体验后重启光猫即可。\r\n\r\n注意分配的 ip 会变成特定的内网 ip ，对应北京联通 221.220.50.17x 的出口（以我薄弱的技术能力，这个出口打洞不了，折腾不了端口映射），不能直接获得公网（得加钱！ 9929+公网要 300 每月）；另外，系统显示我昨晚 23:59:59 秒过期，但是重启光猫依然还是 9929 ，早上我给联通客服打电话才恢复原有的普通联通公网 ip （猜测可能得到申请开通时间点的 7 * 24 小时才能失效？）\r\n\r\n简单测试发现 9929 在国内主要有 3 个出口：广州-香港、上海-日本、北京-德国\r\n\r\n9929 的明显优点是出国走 9929 线路，走广州或走上海的延迟都比 4837 要快一丁点，然后对于国外网络\r\n1. 上海出口可以直连东京 ntt ，之前 150ms 的东京 ntt 在 9929 线路下只要 50ms ；\r\n2. 香港出口也可以直连不少网络，有些普通联通绕东京的可以通过广州-香港线路直连了； cloudflare 可以直接连香港，时延 70ms ，比普通联通走美国要快很多\r\n3. tw hinet 普通线路走广州到台北，9929 是上海到台北\r\n4. 如果去程走 9929 有优化，那么回程也会有优化，比如洛杉矶的 4837 ，4837 直连往返都是 180~190 ，9929 能稳定在 150~160\r\n5. 9929 的带宽是和原有带宽一致的，即原有家宽千兆上行百兆，则测速 9929 到海外也是这么高（没有千兆海外机器，但是至少不是之前有人说的 200m ），这就有点牛了\r\n\r\n但是 9929 并不是对所有网络都有优化：\r\n1. 比较明显的是很多 4837 直连的美国 150ms ，会被绕到德国出口，再到美国 250ms ，达到负优化的效果\r\n2. 国内网络也有一些问题，比如测试连接某宁波电信，会先走 9929 广州，再到宁波电信；测试连接某常州移动，会先走 9929 到上海，再到南京，再到常州。但是整体而言并不会带来大的时延\r\n\r\n结论：\r\n比较鸡肋\r\n1. 如果想要 9929+公网，比较便宜的是包年 600 （下月生效）+ 另一条普通公网 ip 宽带（ 200m 下 30m 上 ￥ 30 每月+安装费 100 ）\r\n2. 9929 不是对所有网络都加速，而且即使 9929 直连很快的机器，依然得面对固定 ip 被墙的风险",
+          "en": "You can directly apply for Beijing China Unicom app under the overseas broadband acceleration under the broadband zone. After you experience it, restart the optical modem.\r\n\r\nNote that the allocated IP will become a specific internal network IP, corresponding to the exit of Beijing China Unicom 221.220.50.17x (with my weak technical ability, this exit cannot be punched, and port mapping cannot be done), and you cannot directly obtain the public network (you have to pay more! 9929+public network costs 300 per month); In addition, the system showed that my service expired at 23:59:59 last night, but restarting the optical modem is still 9929. I called China Unicom customer service in the morning to restore the original ordinary China Unicom public network IP (I guess it may take 7 * 24 hours from the application start time to expire?)\r\n\r\nA simple test found that 9929 mainly has 3 exits in China: Guangzhou-Hong Kong, Shanghai-Japan, and Beijing-Germany\r\n\r\nThe obvious advantage of 9929 is that it uses the 9929 line when going abroad. The latency of going through Guangzhou or Shanghai is a little faster than 4837, and then for foreign networks\r\n1. The Shanghai exit can directly connect to Tokyo NTT. The previous 150ms Tokyo NTT only needs 50ms under the 9929 line;\r\n2. The Hong Kong exit can also directly connect to many networks. Some ordinary China Unicom networks that bypass Tokyo can be directly connected through the Guangzhou-Hong Kong line; Cloudflare can directly connect to Hong Kong with a latency of 70ms, which is much faster than ordinary China Unicom going to the United States\r\n3. The tw hinet ordinary line goes from Guangzhou to Taipei, and 9929 goes from Shanghai to Taipei\r\n4. If the outbound journey is optimized by 9929, then the return journey will also be optimized. For example, Los Angeles 4837, 4837 direct connection is 180~190 back and forth, and 9929 can be stabilized at 150~160\r\n5. The bandwidth of 9929 is the same as the original bandwidth, that is, the original home broadband gigabit uplink is 100M, then the speed test of 9929 to overseas is also so high (there is no gigabit overseas machine, but at least it is not the 200m that some people said before), which is a bit awesome\r\n\r\nHowever, 9929 is not optimized for all networks:\r\n1. It is more obvious that many 4837 direct connection US 150ms will be routed to the German exit and then to the US 250ms, achieving a negative optimization effect\r\n2. There are also some problems with domestic networks. For example, testing the connection to a Ningbo Telecom will first go to 9929 Guangzhou, and then to Ningbo Telecom; testing the connection to a Changzhou Mobile will first go to 9929 to Shanghai, then to Nanjing, and then to Changzhou. But overall, it will not bring significant latency\r\n\r\nConclusion:\r\nRelatively tasteless\r\n1. If you want 9929+public network, the cheaper option is 600 per year (effective next month) + another ordinary public network IP broadband (200m down 30m up ￥30 per month + installation fee 100)\r\n2. 9929 does not accelerate all networks, and even machines that are quickly connected directly by 9929 still have to face the risk of fixed IP being blocked"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@playingangel 测试了一下 1.1.1.1 app ，连接不上 warp 。",
+          "en": "@playingangel I tested the 1.1.1.1 app and it cannot connect to warp."
+        },
+        {
+          "zh": "只有爬了梯子才能连。",
+          "en": "It can only be connected after climbing the ladder."
+        },
+        {
+          "zh": "像是只有在有光时才能用的手电筒",
+          "en": "It's like a flashlight that can only be used in the light."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shakespark 可以用这个项目生成一份 wireguard 的配置就可以直连了 https://github.com/vvbbnn00/WARP-Clash-API",
+          "en": "@shakespark You can use this project to generate a wireguard configuration to connect directly: https://github.com/vvbbnn00/WARP-Clash-API"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "北京这边出口太差了，沪深都好很多，有很多可玩性。",
+          "en": "The exit in Beijing is too poor. Shanghai and Shenzhen are much better and have a lot of playability."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感谢分享，确实鸡肋的东西，没啥鸟用",
+          "en": "Thanks for sharing, it's indeed a tasteless thing, useless."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我开的是 9929+公网 v4 业务，300 一个月那个，纯玩的，目前这个业务开了 100%会丢 v6 公网地址，不过 cf 的 warp 会非常好用，访问内地网站跟内地网络体验差不多，如果没有 9929 ，体验就差很多",
+          "en": "I opened the 9929+public network v4 service, which costs 300 per month, just for fun. Currently, 100% of this service will lose the v6 public network address, but cf's warp will be very useful. Accessing mainland websites is similar to the mainland network experience. Without 9929, the experience will be much worse."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@playingangel 对，忘了说了，开了这个服务，也没有 v6 地址了。",
+          "en": "@playingangel Yes, I forgot to say, after opening this service, there is no v6 address either."
+        },
+        {
+          "zh": "cf 的 warp 有啥用呢？",
+          "en": "What is the use of cf's warp?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shakespark 也算梯子，主要是流量多，而且不限速，像 appstore 这些用 warp 能跑满 1000m 速度",
+          "en": "@shakespark It's also a kind of ladder, mainly because it has a lot of traffic and is not speed-limited. App stores and other apps can run at full 1000m speed with warp."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不错。",
+          "en": "Not bad."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shakespark 不用国内 dns 你再试一下 warp 应该就能连了",
+          "en": "@shakespark If you don't use a domestic DNS, try again and warp should be able to connect."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "“ 200m 下 30m 上 ￥ 30 每月”的这个宽带是怎么办的？",
+          "en": "How is the broadband of \"200m down 30m up ￥30 per month\" handled?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那显然就适合在东京买个 VPS 跑 wireguard 嘛。",
+          "en": "Then it is obviously suitable to buy a VPS in Tokyo to run wireguard."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@alpha9318 现在的宽带用户用户可以 30 加 200m ，60 加 500m",
+          "en": "@alpha9318 Now broadband users can add 200m for 30, and 500m for 60."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Code2qing 牛逼，我试试",
+          "en": "@Code2qing Awesome, I'll try it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Code2qing 有个问题，这么获得的地址的地区还是 cn ，也访问不了 chatgpt 吧？",
+          "en": "@Code2qing There is a problem, the region of the address obtained in this way is still cn, and you can't access chatgpt, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shakespark warp 会『就近分配』（粗略理解） IP 属地，所以现在靠 warp 来解锁一些地区限制的服务不太现实，不过作为前置代理的话，问题不大",
+          "en": "@shakespark warp will 'allocate nearby' (roughly understand) the IP location, so it is not very realistic to rely on warp to unlock some region-restricted services now, but as a forward proxy, it is not a big problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Code2qing @v918384 @MFWT 测试了一下这个 github 项目，还真能当代理能用，默认会获取同地区的 cf 服务器：如果纯大陆连，会连到米国服务器，而且看 cdn-cgi/trace 的地区是 CN ，执行手工优选的 ip 都在 260ms+；如果是搭上梯子连，例如 tw ，会连到 tw 的服务器，loc 和 colo 都是 tw 的",
+          "en": "@Code2qing @v918384 @MFWT I tested this github project and it can really be used as a proxy. By default, it will get the cf server in the same region: if it is connected purely in mainland China, it will connect to the US server, and the region of cdn-cgi/trace is CN. The manually optimized IPs are all above 260ms+; if you connect with a ladder, such as tw, it will connect to the tw server, loc and colo are both tw."
+        },
+        {
+          "zh": "这么连上的好处可能就是获得的是 cf 的地址吧，也许下载速度会比较高",
+          "en": "The benefit of connecting in this way may be that you get the cf address, and the download speed may be higher."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为啥我感觉很便宜呢？",
+          "en": "Why do I feel it's very cheap?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@stimw 100/月，600/年，加固定 ip 300/月倒不是偏不便宜的问题，而在于到底有什么用",
+          "en": "@stimw 100/month, 600/year, plus a fixed IP 300/month is not a question of whether it is cheap or not, but what is the use in the end."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "“9929 的带宽是和原有带宽一致的，即原有家宽千兆上行百兆，则测速 9929 到海外也是这么高（没有千兆海外机器，但是至少不是之前有人说的 200m ），这就有点牛了”其实应该看的是 vps 的下行，和家宽上行没关系啊，如果看的话，能测出来 speedtest 只有 230M",
+          "en": "\"The bandwidth of 9929 is the same as the original bandwidth, that is, the original home broadband gigabit uplink is 100M, then the speed test of 9929 to overseas is also so high (there is no gigabit overseas machine, but at least it is not the 200m that some people said before), which is a bit awesome.\" In fact, it should be the downlink of the vps, which has nothing to do with the uplink of the home broadband. If you look at it, the speedtest can only measure 230M."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@playingangel 真的测过吗？",
+          "en": "@playingangel Have you really tested it?"
+        },
+        {
+          "zh": "坐标朝阳，warp 最多只能跑 230M ，怀疑局端有限速模版",
+          "en": "Located in Chaoyang, warp can only run up to 230M, I suspect the central office has a speed limit template."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

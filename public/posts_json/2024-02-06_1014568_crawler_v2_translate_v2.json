@@ -1,0 +1,327 @@
+{
+  "id": 1014568,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "本 1.5，想换个环境，但是又十分自卑，怎么破",
+          "en": "Fresh graduate (本科) with 1.5 years of experience, wants to change environment but feels extremely inferior, what to do?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如题，想听听各位前辈的意见\r\n\r\n**本人情况**\r\n学历是 985 本科班出身，毕业后进入了一家独角兽公司当 Java 开发，薪资不算特别高，但是还可以，氛围的话有点小卷但是跟那些血汗工厂比的话应该算养老了。",
+          "en": "As the title says, I'd like to hear the opinions of you seniors.\r\n\r\n**My situation**\r\nMy education is from a 985 university (本科 - Bachelor's degree). After graduation, I joined a unicorn company as a Java developer. The salary isn't particularly high, but it's acceptable. The atmosphere is a bit competitive, but compared to those sweatshops, it's considered a comfortable existence."
+        },
+        {
+          "zh": "不过在公司内部做的是比较后台的项目，感觉平时的工作的任务主要难点集中在业务复杂的流程，并没有什么技术上的难点，所以日常觉得自己在技术方面的锻炼比较不足，也没什么技术方面的难点（说白了就是八股文那套之类的）。",
+          "en": "However, I'm working on backend projects within the company. I feel that the main difficulty of my daily tasks lies in the complex business processes, and there are no technical challenges. So, I feel that my technical skills are not being developed sufficiently, and there are not any technical challenges (basically just the classic interview questions)."
+        },
+        {
+          "zh": "\r\n\r\n**问题**\r\n本人认为在这家公司待着目前来说并没有什么不好，但是个人意愿上来说更想去比较有锻炼的平台（大厂？或者流量更大的 C 端），最近整理了一下自己的简历，感觉这一年半的长进实在有限，再加上八股文背的头昏脑胀，久而久之慢慢的陷入了深深的无力感和自卑感，感觉自己实在是太菜，怎么破？",
+          "en": "\r\n\r\n**Problem**\r\nI don't think it's bad to stay in this company for now, but personally, I'd like to go to a more challenging platform (a big company? or a C-end company with more traffic). I recently updated my resume and feel that my progress in the past year and a half has been very limited. In addition, memorizing interview questions gives me a headache. Over time, I have slowly fallen into a deep sense of powerlessness and inferiority. I feel that I am really too weak. What should I do?"
+        },
+        {
+          "zh": "\r\n\r\n不知道该不该附上简历，先写这么多吧",
+          "en": "\r\n\r\nI don't know if I should attach my resume. Let's write this much for now."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "身高不是问题， 一米五虽然矮了一点， 保持乐观心态最重要。",
+          "en": "Height isn't the problem. Although 1.5 meters is a bit short, maintaining an optimistic attitude is the most important thing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "工作三年，刚开始工作也是觉得要不断的提升自己，见识更多复杂的业务场景，这样才能提高自己的技术能力。",
+          "en": "Having worked for three years, I also felt at the beginning that I needed to constantly improve myself and see more complex business scenarios in order to improve my technical skills."
+        },
+        {
+          "zh": "但是慢慢明白，技术一直都是为业务服务的，也是通过业务将技术变现。",
+          "en": "But I gradually realized that technology has always served business and is also realized through business."
+        },
+        {
+          "zh": "所以技术再好公司不挣钱也是白搭，技术垃圾但是公司挣钱那就很轻松。",
+          "en": "So, no matter how good the technology is, it's useless if the company doesn't make money. If the technology is garbage but the company makes money, then it's very easy."
+        },
+        {
+          "zh": "所以在工作的选择上，肯定是选择公司经营状况好，还不卷的公司。",
+          "en": "Therefore, in the choice of work, you must choose a company with good business conditions and is not competitive."
+        },
+        {
+          "zh": "对于自己个人能力提升，这自然也是必要的。",
+          "en": "Improving your personal abilities is naturally also necessary."
+        },
+        {
+          "zh": "这种提升可以是主动探索，主动优化公司中的业务瓶颈，或者重构，这些都是富有挑战的事情，也是很难推动的事情。",
+          "en": "This improvement can be active exploration, actively optimizing business bottlenecks in the company, or restructuring. These are challenging and also difficult to promote."
+        },
+        {
+          "zh": "但对于个人的能力提升我认为是有大帮助的。",
+          "en": "But I think it is of great help to the improvement of personal abilities."
+        },
+        {
+          "zh": "也可以是根据自己的兴趣去水平拓展，然后让兴趣为自己赚钱（食伤生财，哈哈哈哈）。",
+          "en": "You can also expand horizontally according to your interests and then let your interests make money for you (using creativity to generate wealth, hahaha)."
+        },
+        {
+          "zh": "此外，《世界是个大草台班子》很多看起来很好的东西，其实也就那么回事。",
+          "en": "In addition, in the spirit of 'The world is a poorly assembled troupe', many things that look good are actually just so-so."
+        },
+        {
+          "zh": "人生有很多课题，不妨把精力适当的分在其他的一些地方上。",
+          "en": "There are many subjects in life, so you may want to distribute your energy appropriately to some other areas."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我个人是比较反感，“工作没有什么有挑战的技术问题，因此学不到什么东西” 这种想法的。",
+          "en": "Personally, I dislike the idea that 'there are no challenging technical problems at work, so you can't learn anything'."
+        },
+        {
+          "zh": "对于工作来说，业务和技术是相辅相成的。",
+          "en": "For work, business and technology are complementary."
+        },
+        {
+          "zh": "技术并不只是单纯被动为了业务服务，也可以想办法为业务提供扩展增强的能力。",
+          "en": "Technology is not only passively serving business, but also finding ways to provide extended and enhanced capabilities for business."
+        },
+        {
+          "zh": "而且学习这种东西完全是你自己的事，公司没有任何义务要给你提供学习条件。",
+          "en": "Moreover, learning is entirely your own business, and the company has no obligation to provide you with learning conditions."
+        },
+        {
+          "zh": "你说 “业务流程复杂”，那你有没有想过要如何整理这些复杂的流程，做出更加抽象通用化的设计？",
+          "en": "You said 'the business process is complicated', have you ever thought about how to organize these complicated processes and make a more abstract and generalized design?"
+        },
+        {
+          "zh": "比如使用工作流引擎抽象统一所有的流程，甚至可以做一个通用的平台，让业务自己去配置流程。",
+          "en": "For example, use a workflow engine to abstract and unify all processes, or even create a general platform that allows the business to configure the process themselves."
+        },
+        {
+          "zh": "过程中可以帮助业务梳理一下流程，同时也可以也能找到流程里可以优化改进的点。",
+          "en": "In the process, you can help the business sort out the process, and you can also find points in the process that can be optimized and improved."
+        },
+        {
+          "zh": "工作的目标是业务定的，但如何完成工作是你可以自己决定的。",
+          "en": "The goal of the work is set by the business, but how to complete the work is up to you."
+        },
+        {
+          "zh": "如果只能看见眼前的工作，想着靠换工作被动学习技术的话，那等最后换不动工作的时候，就只能锁死在那家公司了。",
+          "en": "If you can only see the work in front of you and think about passively learning technology by changing jobs, then when you finally can't change jobs, you will be locked in that company."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1.5 cm 确实短了",
+          "en": "1.5 cm is indeed short"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "第一步：说话之前先想想别人能不能听得懂",
+          "en": "First step: Think about whether others can understand you before you speak."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "身高矮点其实真没什么，虽然找对象难点，但是女生低于 1.5 的还是很多的，只要比她高一点，你各方面都比较优秀还是可以找到的，还有学会换位思考，语言能力，比如你这个标题，自己发之前没有仔细看么？",
+          "en": "Being short in height is really nothing, although it is more difficult to find a partner, there are still many girls below 1.5m, as long as you are a little taller than her, and you are excellent in all aspects, you can still find one. Also, learn to think from other people's perspectives and improve your language skills. For example, did you not look carefully at your title before you posted it?"
+        },
+        {
+          "zh": "别人谁能理解到？",
+          "en": "Who can understand it?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "0. [本/硕] + 数字，在 CN 技术工作者圈子是一个相当普遍的描述方法吧，表达自己是本科还是硕士还是博士，工作了几年，楼上的几位表达不知道，可能是找工软件看少了；",
+          "en": "0. [Bachelor/Master] + a number is a fairly common description method in the CN tech worker circle, expressing whether you have a bachelor's, master's, or doctoral degree and how many years you have worked. The people upstairs expressing that they don't know may not be looking at job search software enough;"
+        },
+        {
+          "zh": "1. 我个人 985 本 2.5 ，在大厂 java ，做的东西也没什么技术难度，但是明白了一个点，大厂，特别是 cn 的互联网大厂，都是业务远大于技术，且不论阿里 or 腾讯的几个顶尖开源项目或者后端高压场景配不配我来做，99%的东西都是业务大于技术，产品经理的作用远大于程序员，所以只要业务赚钱，自己有不可替代性，有比较明确的晋升路线，自己薪资也比较满意的话，我的建议是干下去；",
+          "en": "1. I myself have a 985 bachelor's degree with 2.5 years of experience, working for a big company as a Java developer. The things I do are not technically difficult, but I understand one thing: big companies, especially CN's internet giants, have business far outweighing technology. Regardless of whether I am qualified to work on Alibaba or Tencent's top open-source projects or backend high-pressure scenarios, 99% of things are business over technology. The role of product managers is far greater than programmers. So, as long as the business makes money, you have irreplaceable value, there is a clear promotion path, and you are satisfied with your salary, my advice is to keep going;"
+        },
+        {
+          "zh": "2. 技术提升：师傅领进门，修行靠个人，我现在都是下班之后自己看技术相关的东西和 coding 一些有的没的用爱发电的东西了，个人想法这种才是大部分科班程序员心目中的技术提升，在公司的业务不怎么提升技术，公司雇佣我也是为让我完成工作，而这份工作本来就包含各种方面，coding 只是冰山一角，所以技术提升还是靠自己吧。",
+          "en": "2. Technical improvement: The master leads you in, but your cultivation depends on yourself. Now I watch technical-related things and code some things using passion after work. I personally think that this is the technical improvement in the minds of most formally trained programmers. The company's business does not improve technology much. The company also hires me to complete work, and this work includes various aspects. Coding is just the tip of the iceberg, so technical improvement still depends on yourself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "985 本科算是不错的起点了，在公司当螺丝钉很正常，这个摆正心态就好了。",
+          "en": "A 985 undergraduate degree is a good starting point, and it is normal to be a cog in the machine at the company, so you just need to have the right mindset."
+        },
+        {
+          "zh": "个人意见，码农这行最大的劣势就是必须持续学习，可是恰恰最大的优势也是能够持续学习，别的不说，GitHub 就是一个巨大的宝库，其他行业没听说有这么开放的。",
+          "en": "My personal opinion is that the biggest disadvantage of the coding industry is that you must continue to learn, but the biggest advantage is also that you can continue to learn. Not to mention, GitHub is a huge treasure trove. I haven't heard that other industries are so open."
+        },
+        {
+          "zh": "当你在 GitHub 混得不错，发现自己厉害了，自然也就不自卑了",
+          "en": "When you are doing well on GitHub and find that you are great, you will naturally feel less inferior."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "啥叫本 1.5 ？",
+          "en": "What does '本科 1.5' mean?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wallriding #13 本 1.5 ..... 自卑，当然是身高了！不然还有啥。。。",
+          "en": "@wallriding #13 本科 1.5 ..... Inferiority, of course, it's height! What else could it be..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "坦然接受不可改变的事，用自嘲化解自卑，这是最好的方法，天授的身体，各不相同，没啥大不了的。",
+          "en": "Accept the things you cannot change with equanimity, and use self-deprecation to resolve inferiority. This is the best method. God-given bodies are different, it's not a big deal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "工作并不会直接提升你的技术，他们并不会画等号，只会提升你的经验。",
+          "en": "Work will not directly improve your technology, they are not equal, it will only improve your experience."
+        },
+        {
+          "zh": "想要提升技术水平，只有自主学习一条路。",
+          "en": "If you want to improve your technical level, there is only one way: self-directed learning."
+        },
+        {
+          "zh": "不要天真的以为工作中得到的锻炼是你的“阅历”，并不是“技术”。",
+          "en": "Don't naively think that the training you get at work is your 'experience', not 'technology'."
+        },
+        {
+          "zh": "确定好你的目标，如果就是赚更多的钱，业务牛最重要，其次 人脉，管理，情商等等。",
+          "en": "Determine your goals. If it is to make more money, business skills are the most important, followed by relationships, management, emotional intelligence, etc."
+        },
+        {
+          "zh": "如果你只是想提升自己的技术，我劝你在这家好好待着，自主学习别给自己找气受。",
+          "en": "If you just want to improve your technology, I advise you to stay in this company and learn independently, don't get yourself upset."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "骑驴找马，能找到更好的再说呗",
+          "en": "Look for a better horse while riding your donkey, you can talk about it when you find a better one."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "骑驴找马，跳大厂或者外企，学历有优势，这个阶段面试其实不难，刷刷算法，八股文，现在只是环境不好，不必自卑，放平心态，坚持总会找到。",
+          "en": "Look for a better horse while riding the donkey, jump to a big company or a foreign company. You have an advantage in education. The interview is not difficult at this stage. Brush up on the algorithms and interview questions. The environment is just bad now. Don't feel inferior. Keep a calm attitude and you will always find it if you persevere."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "既然已经在独角兽公司了，可以先考虑如何在公司晋升。",
+          "en": "Since you are already in a unicorn company, you can first consider how to get promoted within the company."
+        },
+        {
+          "zh": "如果你喜欢技术，就卷评级；如果不喜欢技术，就考虑怎么向管理岗发展；如果都不喜欢，那么也可以借助公司的资源发展副业。",
+          "en": "If you like technology, then compete for ratings; if you don't like technology, then consider how to develop into a management position; if you don't like either, then you can also use the company's resources to develop a side hustle."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zwpaper 十分感谢， 这也是一个思路",
+          "en": "@zwpaper Thank you very much, this is also an idea."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "先投简历呗，有更好的再伺机出动",
+          "en": "First submit your resume, and then wait for an opportunity to move when there is something better."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自己铁定无法改变的事情，就忽略它。",
+          "en": "Just ignore the things you definitely cannot change."
+        },
+        {
+          "zh": "改变自己能改变的事情。",
+          "en": "Change the things you can change."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "八股文先看看背背 投简历有面试先去面了再说   别在这里想什么这不会那不会了 真要这样想能给你想到怎么造火箭了 越想问题越多",
+          "en": "First look at the interview questions and memorize them. Submit your resume and go to the interview first. Don't think about what you can't do here. If you really think like this, you can think about how to build a rocket. The more you think, the more problems you have."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "和 op 有同样的烦恼😔准备年后拿到年终之后开始投简历",
+          "en": "I have the same worries as OP 😔. I plan to start submitting my resume after getting the year-end bonus after the new year."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "id": 1013780,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Apple Vision Pro 首发体验",
+          "en": "Apple Vision Pro First Impressions"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "美东 8:00 的 pickup ，用了一个小时。",
+          "en": "Pickup at 8:00 AM EST, took an hour."
+        },
+        {
+          "zh": "已经发现几个媒体没提过的硬伤了：",
+          "en": "Already discovered a few critical flaws that the media hasn't mentioned:"
+        },
+        {
+          "zh": "1. 不支持 YubiKey ，因为没有 USB 口，也没有 NFC 。",
+          "en": "1. No YubiKey support, because there's no USB port, and no NFC."
+        },
+        {
+          "zh": "如果你想登录一个网站但你只配置了 YubiKey ，那抱歉，登录不了。",
+          "en": "If you want to log into a website but you've only configured YubiKey, then sorry, you can't log in."
+        },
+        {
+          "zh": "当然 Passkey 是支持的。",
+          "en": "Of course, Passkey is supported."
+        },
+        {
+          "zh": "如果主要 Apple ID 配置了 Yubikey 是不影响的，类似 Apple Watch ，可以通过 iPhone 配对的方式登录进去。",
+          "en": "If the main Apple ID is configured with Yubikey, it's not affected, similar to Apple Watch, you can log in through iPhone pairing."
+        },
+        {
+          "zh": "同理各种企业级的 USB 私有验证更是没戏了。",
+          "en": "Similarly, various enterprise-level USB private authentications are out of the question."
+        },
+        {
+          "zh": "BTW：iPhone 、iPad 均支持 Yubikey ，其中 iPhone 是支持 NFC 的无线 YubiKey 的。",
+          "en": "BTW: iPhone and iPad both support YubiKey, and iPhone supports NFC-based wireless YubiKey."
+        },
+        {
+          "zh": "我不确定 YubiKey 的具体技术原理，不知道未来能否通过软件实现在 iPhone 上验证 Key 在 Vision Pro 上登录。",
+          "en": "I'm not sure about the specific technical principles of YubiKey, I don't know if it can be implemented through software in the future to verify the Key on the iPhone and log in on Vision Pro."
+        },
+        {
+          "zh": "2. 不支持 iOS 17.2 的 [iMessage contact key verification]( https://support.apple.com/en-us/HT213465)。",
+          "en": "2. Does not support iOS 17.2's [iMessage contact key verification]( https://support.apple.com/en-us/HT213465)."
+        },
+        {
+          "zh": "这点功能同时也影响了 Facetime 。",
+          "en": "This feature also affects Facetime."
+        },
+        {
+          "zh": "如果你 Apple ID 启用了这个功能，那 Vision Pro 会失去 iMessage/Facetime 功能。",
+          "en": "If your Apple ID has this feature enabled, then Vision Pro will lose iMessage/Facetime functionality."
+        },
+        {
+          "zh": "其实 Xcode 也说明了这点了，如果 minimum deployments 设置为 iOS 17.2 ，那么 visionOS 1.0 就部署不了，visionOS 1.0.2 = iOS 17.1.x 。",
+          "en": "In fact, Xcode also explains this point, if the minimum deployments is set to iOS 17.2, then visionOS 1.0 cannot be deployed, visionOS 1.0.2 = iOS 17.1.x."
+        },
+        {
+          "zh": "这点就可以看出 Apple 发布 Vision Pro 还是很急的，或许是苹果觉得 visionOS 1.1 的 Bug 太多了，所以苹果就没有发布，导致了现在功能不匹配。",
+          "en": "This shows that Apple was in a hurry to release Vision Pro, perhaps Apple felt that visionOS 1.1 had too many bugs, so Apple did not release it, resulting in the current feature mismatch."
+        },
+        {
+          "zh": "Note：iOS 17.1 发布时间是 2023 年 10 月 25 日，iOS 17.2 发布时间是 2023 年 12 月 11 日。",
+          "en": "Note: iOS 17.1 was released on October 25, 2023, and iOS 17.2 was released on December 11, 2023."
+        },
+        {
+          "zh": "此外就是大家都知道的问题：",
+          "en": "In addition, there are the problems that everyone knows:"
+        },
+        {
+          "zh": "1. 宣称每只眼睛分辨率大于 4K ，但摄像头的分辨率其实不高，看真实世界到不了 4K 水平。",
+          "en": "1. Claims that the resolution of each eye is greater than 4K, but the resolution of the camera is actually not high, and the real world cannot reach 4K level."
+        },
+        {
+          "zh": "2. 过了一会儿摘下眼镜后，会发现自己的 5K 显示器比 Vision Pro 清晰到不知哪里去了",
+          "en": "2. After taking off the glasses after a while, you will find that your own 5K monitor is much clearer than the Vision Pro."
+        },
+        {
+          "zh": "3. 戴久了脖子疼，因为它会让头重心靠前。",
+          "en": "3. It hurts your neck after wearing it for a long time because it makes the head's center of gravity lean forward."
+        },
+        {
+          "zh": "看电影体验感觉也未必比 5K 显示器强（待长期测试，但舒适度和清晰度已经输了），操作还是很不习惯，键盘输入体验远差于 iPhone 这种屏幕键盘，比 Apple TV 的输入倒是稍微好一点，跟实体键盘更是没法比。",
+          "en": "The movie viewing experience may not be better than a 5K monitor (to be tested for a long time, but comfort and clarity have already been lost), the operation is still very unaccustomed, the keyboard input experience is far worse than the iPhone's screen keyboard, a little better than the Apple TV's input, and cannot be compared with a physical keyboard."
+        },
+        {
+          "zh": "打算配对个 PlayStation 手柄专门给 Vision Pro 用了。",
+          "en": "I plan to pair a PlayStation controller specifically for Vision Pro."
+        },
+        {
+          "zh": "没用过其他的 VR 设备，所以我也不清楚 Vision Pro 是否比别的 VR 更好。",
+          "en": "I haven't used other VR devices, so I don't know if Vision Pro is better than other VRs."
+        },
+        {
+          "zh": "有什么新的体验我会在这里继续 Append ，有啥需要我试的可以留言，我也许会试。",
+          "en": "I will continue to append any new experiences here. If there is anything you want me to try, you can leave a message, and I might try it."
+        },
+        {
+          "zh": "![iMessage 报错截图]( https://i.v2ex.co/m6D8l7i1.jpeg)",
+          "en": "![iMessage error screenshot]( https://i.v2ex.co/m6D8l7i1.jpeg)"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "试了下腾讯系的软件，乐了，在 Vision Pro 里给我显示了个二维码让我用手机登录，牛逼！",
+          "en": "Tried Tencent's software, laughed, it showed me a QR code in Vision Pro and asked me to log in with my mobile phone, awesome!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "请问怎么扫码？",
+          "en": "How do you scan the code?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看片体验如何",
+          "en": "How's the movie watching experience?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我可不希望电脑一直盯着我的双手",
+          "en": "I don't want the computer staring at my hands all the time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@quake0day “There is a lot of very complicated display scaling going on behind the scenes here, …… Your Mac thinks it’s connected to a 5K display with a resolution of 5120 x 2880, and it runs macOS at a 2:1 logical resolution of 2560 x 1440, just like a 5K display. (You can pick other resolutions, but the device warns you that they’ll be lower quality.) That virtual display is then streamed as a 4K 3560 x 2880 video to the Vision Pro, …… you have a grand total of 2560 x 1440 to place windows in, regardless of how big you make the Mac display in space, and you’re not seeing a pixel-perfect 5K image.”https://www.theverge.com/24054862/apple-vision-pro-review-vr-ar-headset-features-price实际上可能是有 4K 的",
+          "en": "@quake0day \"There is a lot of very complicated display scaling going on behind the scenes here, ...... Your Mac thinks it’s connected to a 5K display with a resolution of 5120 x 2880, and it runs macOS at a 2:1 logical resolution of 2560 x 1440, just like a 5K display. (You can pick other resolutions, but the device warns you that they’ll be lower quality.) That virtual display is then streamed as a 4K 3560 x 2880 video to the Vision Pro, ...... you have a grand total of 2560 x 1440 to place windows in, regardless of how big you make the Mac display in space, and you’re not seeing a pixel-perfect 5K image.” https://www.theverge.com/24054862/apple-vision-pro-review-vr-ar-headset-features-price, actually it may have 4K."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "App 使用体验如何，像 bilibili 这一类的，操作逻辑还是和 iPad 一样吗",
+          "en": "How is the App experience, like bilibili, is the operation logic the same as iPad?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用 vp 的虚拟键盘打字纯折磨自己，要不连蓝牙键盘要不用 Siri 。",
+          "en": "Using vp's virtual keyboard to type is pure torture, either connect a Bluetooth keyboard or use Siri."
+        },
+        {
+          "zh": "应用方面可以试试 Disney+和 Apple TV 上的 3D 影视资源",
+          "en": "In terms of applications, you can try 3D video resources on Disney+ and Apple TV."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xiaonan10ll 初次设置时输密码时体验就已经差于手机了😂",
+          "en": "@xiaonan10ll The experience of entering the password during the initial setup was already worse than the mobile phone😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实这两点“硬伤”都是软件问题。",
+          "en": "Actually, these two \"critical flaws\" are both software problems."
+        },
+        {
+          "zh": "Apple 肯定是知道这些问题的，但着急发售就没解决",
+          "en": "Apple definitely knows these problems, but it didn't solve them in a hurry to release it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应用商店的 APP 数量如何？有啥独占好玩的 APP 么？",
+          "en": "How is the number of APP in the App Store? Are there any exclusive and fun APPs?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "🤣视场角大概多大",
+          "en": "🤣What's the approximate field of view?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dnsdk 亮眼中间还是有黑色部分的，比较 annoying 。",
+          "en": "@dnsdk There is still a black part in the middle of the bright eyes, which is quite annoying."
+        },
+        {
+          "zh": "其他人我还没回复是因为这些我得再多体验一会儿",
+          "en": "I haven't replied to other people yet because I need to experience these a little more."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "戴着可以正常使用手机吗？",
+          "en": "Can I use my phone normally while wearing it?"
+        },
+        {
+          "zh": "手机屏幕看得清吗？",
+          "en": "Is the phone screen clear?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "好好好，等会我也去拿了不知道 op 有没有用过其他 vr 设备，实际上肯定会比 5k 显示器糊的",
+          "en": "Okay okay okay, I'll go get it later too. I don't know if OP has used other VR devices. It will definitely be more blurry than a 5k display."
+        },
+        {
+          "zh": "vision pro 好像是 40 左右的 ppd?",
+          "en": "Vision Pro seems to be around 40 PPD?"
+        },
+        {
+          "zh": "一般来说据说 ppd 要到 60 左右才能达到所谓“视网膜屏”的效果，所以感觉糊不奇怪",
+          "en": "Generally speaking, it is said that PPD has to be around 60 to achieve the so-called \"retina screen\" effect, so it is not surprising that it feels blurry."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用 iphone 15 pro/pm 录的 spatial video 的回放效果？",
+          "en": "The playback effect of spatial video recorded with iPhone 15 Pro/PM?"
+        },
+        {
+          "zh": "消费级的 vr 录影，回放目前还是只有这套 total solution",
+          "en": "Consumer-grade VR recording, playback is currently only available with this total solution."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@estk  quite impossible. Face ID does not work when I wear the Vision Pro.  It’s hard to enter the password  for iPhone",
+          "en": "@estk quite impossible. Face ID does not work when I wear the Vision Pro. It’s hard to enter the password for iPhone"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Chihaya0824  as I said, I have never used other VR devices",
+          "en": "@Chihaya0824 as I said, I have never used other VR devices"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ZE3kr 最后一句话看漏了，失敬失敬（",
+          "en": "@ZE3kr I missed the last sentence, my apologies ("
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上面那几条是吃饭的时候用 Vision Pro 语音回复的，经过尝试是可以边吃饭边用的，说明透视能力做的还挺好的。",
+          "en": "The above messages were replied using voice on Vision Pro while eating. After testing, it can be used while eating, indicating that the see-through ability is pretty good."
+        },
+        {
+          "zh": "然后好处就是吃饭的时候不会弄脏手机了，隔空就可以操作还挺方便。",
+          "en": "Then the benefit is that you won't get your phone dirty while eating, and it's quite convenient to operate remotely."
+        },
+        {
+          "zh": "用 Vision Pro 登录 V2EX 的时候验证码输入了好几次。",
+          "en": "When logging into V2EX with Vision Pro, I entered the verification code several times."
+        },
+        {
+          "zh": "此外 Vision Pro 现在完全没有输入英文以外字符的能力（无论是听写还是键盘），这就是为啥上面那些是英文",
+          "en": "In addition, Vision Pro currently has no ability to input characters other than English (whether it's dictation or keyboard), which is why the above are in English."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想问楼主，vision pro 能用来拍摄第一视角影片吗？",
+          "en": "I want to ask the landlord, can Vision Pro be used to shoot first-person perspective videos?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

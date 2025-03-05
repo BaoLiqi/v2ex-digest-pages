@@ -1,0 +1,219 @@
+{
+  "id": 1114775,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Cursor 和 Windsurf，哪个更好？",
+          "en": "Cursor or Windsurf, which is better?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如题，请留下你们的想法，最好是结合自己的使用体验和案例",
+          "en": "As the title says, please leave your thoughts, preferably based on your own usage experience and cases."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Scarb #21",
+          "en": "@Scarb #21"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "投 trae 一票，因为只要 0 ￥",
+          "en": "Vote for trae, because it's only 0￥"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "投 windsurf 一票，因为只要 10 刀",
+          "en": "Vote for windsurf, because it's only $10"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我感觉 Cursor 体验更好，我在使用 WIndsurf 生成新函数的时候，遇到函数的缩进错误的问题，需要手动`Tab`代码块一次。有时生成一个新函数，Windsurf 会莫名其妙的把当前文件的其他函数也做了细微调整，而这并不是我本意。",
+          "en": "I feel that Cursor has a better experience. When I use Windsurf to generate new functions, I encounter indentation errors in the functions and need to manually `Tab` the code block once. Sometimes when generating a new function, Windsurf inexplicably makes subtle adjustments to other functions in the current file, which is not my intention."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "从使用上来说，不知道两者差距大不大，目前只体验过 cursor ，感觉还是很好上手而且确实很优秀。",
+          "en": "In terms of usage, I don't know how big the difference is between the two. I've only tried cursor so far, and it feels very easy to use and is indeed very excellent."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xwayway 我怎么看要 15 美元",
+          "en": "@xwayway Why am I seeing $15?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jonyJJ 早鸟优惠",
+          "en": "@jonyJJ Early bird discount"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Github Copilot 付费用户，感觉 Cursor 在解决问题上的能力并没有比 vscode 强，还需要更换操作习惯，尝试了几天又切换回了 vscode",
+          "en": "As a paid user of Github Copilot, I feel that Cursor is not stronger than vscode in solving problems. I also need to change my operating habits. After trying it for a few days, I switched back to vscode."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kingterrors 试用过一段 windsurf ，感觉非常好，但是它这个 credit 的设计我觉得很不好。",
+          "en": "@kingterrors I tried Windsurf for a while and felt it was very good, but I don't like its credit design."
+        },
+        {
+          "zh": "它分成 User Prompt credits 和 Flow Action credits 。",
+          "en": "It's divided into User Prompt credits and Flow Action credits."
+        },
+        {
+          "zh": "前者是用户调用查询时的额度，后者是新建、修改文件的额度，在我的使用过程中，后者迅速耗光，然后就只能查询了……真希望把两者合一。",
+          "en": "The former is the quota when the user calls the query, and the latter is the quota for creating and modifying files. In my usage, the latter quickly runs out, and then I can only query... I really hope to combine the two."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "windsurf 一票，不乱在 V2EX 上买推广",
+          "en": "Vote for windsurf, they don't randomly buy promotions on V2EX"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "cursor 确实舒服，编写重复的代码工作可以大大提高效率。",
+          "en": "Cursor is indeed comfortable, and writing repetitive code work can greatly improve efficiency."
+        },
+        {
+          "zh": "但 GitHub 给了我 free copilot ，没有理由不用。",
+          "en": "But GitHub gave me free copilot, there's no reason not to use it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "cursor 最近不知道怎么回事，感觉降智了，很多时候不主动创建文件了。",
+          "en": "I don't know what's going on with cursor recently, but it feels like it's getting dumber. Many times it doesn't actively create files."
+        },
+        {
+          "zh": "并且做的东西，大不如以前。本人 Pro 用户，深度使用 cursor 三个多月",
+          "en": "And the things it does are not as good as before. I am a Pro user and have been using cursor deeply for more than three months."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kingterrors 实际上是差 10 美元，Windsurf 每个模型之间的 credit 消耗有不同的倍数，比如说 4o 是 1x 、claude 3.7 是 1.25x ，高强度的话 credit 肯定是不够的，只能说便宜有便宜的代价",
+          "en": "@kingterrors Actually it's a $10 difference. Windsurf has different multiples of credit consumption between each model, for example, 4o is 1x and claude 3.7 is 1.25x. If the intensity is high, the credit is definitely not enough. It can only be said that cheap comes at a price."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "trae 的代码补全跟前两位差的太多的",
+          "en": "trae's code completion is far behind the first two"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "windsurf 可以直接支付宝付款",
+          "en": "Windsurf can pay directly with Alipay"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我是 Github Copilot 一年的付费用户，然后订了 Cursor2 个月，然后转到 Windsurf :D",
+          "en": "I am a paid user of Github Copilot for one year, then I subscribed to Cursor for 2 months, and then switched to Windsurf :D"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "windsurf 真的好用，尤其是支持 sonnet3.7 的速度很快，帮我打命令行也很准确。",
+          "en": "Windsurf is really easy to use, especially since it supports sonnet3.7 very quickly and helps me type commands very accurately."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Rebely trae 可以白嫖吗",
+          "en": "@Rebely Can trae be used for free?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "windsurf 能白嫖吗？",
+          "en": "Can Windsurf be used for free?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "必须推 windsurf平时都小问题或者临时用一下 windsurf 也能给出很好的答案，Cursor 免费试过，感觉和 windsurf 差不多感觉要问有深度的问题可能直接和 DeepSeek 或 GPT 沟通更好Cursor 价格有点贵，UI 也推荐 windsurf",
+          "en": "I must recommend windsurf. Usually, for small problems or temporary use, windsurf can give good answers. I tried Cursor for free. It feels similar to windsurf. If you want to ask in-depth questions, it might be better to communicate directly with DeepSeek or GPT. Cursor is a bit expensive, and I also recommend windsurf for its UI."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

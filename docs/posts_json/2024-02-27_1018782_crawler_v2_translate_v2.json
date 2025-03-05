@@ -1,0 +1,223 @@
+{
+  "id": 1018782,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "失业半年了，该何去何从...",
+          "en": "Unemployed for half a year, where should I go..."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "坐标湖北武汉，去年 8 月被裁，9 月开始找工作，找到 11 月底，还不到 4 个面试，于是 11 月底开始就没找了，想着年后再看看。\r\n\r\n过完年试着去 BOSS 直聘打招呼，也是只有未读和已读不回的了。想想以前，面试多的排不过来，对比真是天差地别。\r\n\r\n想了想，我才刚 25 岁，还没背上车贷房贷，没老婆孩子要养，算是不幸中的万幸了。最近也在认真考虑要不要转行了，半年找不到工作，确实挺烦人的，不知道这一行还有没有待下去的必要...不过转行了我也不打算扔掉编程，毕竟还是我的爱好之一。\r\n\r\n这里有一份脱敏简历，反正也无所谓了...\r\n\r\nhttps://alist.besscroft.com/resume/%E8%84%B1%E6%95%8F%E2%80%94Java%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%AE%80%E5%8E%86.pdf",
+          "en": "Located in Wuhan, Hubei, I was laid off last August. I started looking for a job in September, and by the end of November, I had less than 4 interviews. So, I stopped looking at the end of November, thinking I would look again after the new year.\r\n\r\nAfter the new year, I tried greeting people on BOSS Zhipin, but only got unread and read-but-no-reply. Thinking back to the past, when I had so many interviews that I couldn't schedule them all, the contrast is really striking.\r\n\r\nI thought about it, and I'm only 25, and I don't have a car loan or mortgage, and no wife or children to support, which is a blessing in disguise. Recently, I have been seriously considering changing careers. Not being able to find a job for half a year is really annoying. I don't know if there is any need to stay in this industry... But even if I change careers, I don't plan to give up programming, after all, it is one of my hobbies.\r\n\r\nHere is a desensitized resume, anyway, it doesn't matter...\r\n\r\nhttps://alist.besscroft.com/resume/%E8%84%B1%E6%95%8F%E2%80%94Java%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%AE%80%E5%8E%86.pdf"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "原神启动",
+          "en": "Genshin Impact, start!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "北上广深杭苏 全投起来，一般一二面支持远程面试。",
+          "en": "Apply to jobs in Beijing, Shanghai, Guangzhou, Shenzhen, Hangzhou, and Suzhou. Generally, the first and second interviews support remote interviews."
+        },
+        {
+          "zh": "然后长三角珠三角找个便宜的青年公寓短住，有现场面基本就是终面，就可以买张火车票过去了。",
+          "en": "Then find a cheap youth apartment for a short stay in the Yangtze River Delta and the Pearl River Delta. If there is an on-site interview, it is basically the final interview, and you can buy a train ticket to go."
+        },
+        {
+          "zh": "先以找到工作为主吧，反正你无牵无挂干嘛要在武汉找呢",
+          "en": "Focus on finding a job first. Anyway, you are unattached, why do you have to look in Wuhan?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Richardhtw #3 去年金九银十也是这么想的...",
+          "en": "@Richardhtw #3 That's what I thought during last year's Golden September and Silver October..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "挂着芙宁娜头像说这个有点地狱笑话的",
+          "en": "Saying this with a Furina avatar is a bit of a dark joke."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Java 方向太卷了...",
+          "en": "The Java field is too competitive..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "人人 java....",
+          "en": "Everyone's doing Java..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我建议技能总结稍微展开详细说一些，感觉有点太杂了看不到技能总结部分的重点，面试官看着简历也不知道要问什么东西。",
+          "en": "I suggest elaborating on the skill summary in more detail. It feels a bit too cluttered and the key points of the skill summary are not visible. When interviewers look at the resume, they don't know what to ask."
+        },
+        {
+          "zh": "然后把不重要的 Vue3 、Nuxt3 、ChatGPT 这些去掉，毕竟面试的是 Java 岗位。",
+          "en": "Then remove the unimportant Vue3, Nuxt3, and ChatGPT, since it's a Java position you're applying for."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "alist 看不到了，按这个改下吧楼主 https://github.com/alist-org/alist/issues/6100#issuecomment-1964071872",
+          "en": "alist is not visible. Please modify it according to this: https://github.com/alist-org/alist/issues/6100#issuecomment-1964071872"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "25 岁, 大好的年龄重新开局, 英语捡起来, 外面的世界很大",
+          "en": "25 years old, a great age to start over, pick up English, the outside world is big."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "加油，并非你的问题，环境如此，同学前年年底被裁，断断续续投了半年多去年成功入职了，面试据他说点击就送就问了几个问题，搞得之前努力刷题面试也过不了的他像个小丑一样，",
+          "en": "Keep going, it's not your problem, the environment is like this. A classmate was laid off at the end of the year before last and successfully joined a company last year after applying off and on for more than half a year. He said that the interview just asked a few simple questions, making him, who had previously worked hard to practice interview questions but couldn't pass the interviews, feel like a clown."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你很强 没有工作可以自己搞点事了 发挥下思维",
+          "en": "You are strong. If you don't have a job, you can do something yourself. Use your thinking."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "25 没工作？这是啥世道。。。",
+          "en": "25 and no job? What kind of world is this..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别着急，金三银四，这不三月都没到呢嘛",
+          "en": "Don't worry, it's Golden March and Silver April, it's not even March yet."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "考虑来北京吗？",
+          "en": "Considering coming to Beijing?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jgh004 #1 面试都没呢...何谈工作",
+          "en": "@jgh004 #1 I haven't even had an interview yet... How can I talk about a job?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "学历不行吧，现在筛选学历是硬指标。。",
+          "en": "Is the education not good enough? Now screening by education is a hard requirement."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@finab #2 感觉其他地方也没好太多，划了半天也是外包居多...现在连外包都已读不回...",
+          "en": "@finab #2 I feel like other places aren't much better, after scrolling for a long time, it's mostly outsourcing... Now even outsourcing doesn't reply after reading..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@leo108 #4 倒是考虑过北京和上海，但是现在这情况，怕是工资要不高。",
+          "en": "@leo108 #4 I have considered Beijing and Shanghai, but with the current situation, I'm afraid the salary won't be high."
+        },
+        {
+          "zh": "每个月攒的钱没比武汉高太多的话，跑过去意义不大。",
+          "en": "If the money saved each month is not much higher than in Wuhan, then going there is not very meaningful."
+        },
+        {
+          "zh": "顺便一说，我之前在武汉也才 8.5k...",
+          "en": "By the way, I only made 8.5k in Wuhan before..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@TimLang #7 是的，学历不行，我这学历现在连外包都进不去了...",
+          "en": "@TimLang #7 Yes, my education is not good enough, and I can't even get into outsourcing with my education..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以考虑换个城市了，像北上杭这种互联网发达的地方都不一定好找，下面二三线更难了，不过确实现在的就业环境，卡学历也严了很多",
+          "en": "You can consider changing cities. It may not be easy to find a job even in internet-developed places like Beijing, Shanghai, and Hangzhou, and it's even harder in lower-tier cities. However, the current job market does have stricter requirements when it comes to education."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

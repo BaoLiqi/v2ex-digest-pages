@@ -1,0 +1,263 @@
+{
+  "id": 1019461,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "一个工具管理所有运行时版本！",
+          "en": "One tool to manage all runtime versions!"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这两天特意补了一下文档。",
+          "en": "I specifically updated the documentation in the past two days."
+        },
+        {
+          "zh": "\r\n\r\n文档: [https://vfox.lhan.me/zh-hans/]( https://vfox.lhan.me/zh-hans/)\r\n\r\n仓库: [https://github.com/version-fox/vfox]( https://github.com/version-fox/vfox)\r\n\r\n\r\n目前社区已支持的 SDK:\r\n\r\n[![plugins]( https://skillicons.dev/icons?i=java,kotlin,nodejs,flutter,dotnet,python,dart,golang,maven,zig,deno&theme=light)]( https://github.com/version-fox/version-fox-plugins)\r\n\r\n\r\n主要是可以在 Windows(非 WSL)下, 体验到和 asdf 一样的效果.",
+          "en": "\r\n\r\nDocumentation: [https://vfox.lhan.me/zh-hans/]( https://vfox.lhan.me/zh-hans/)\r\n\r\nRepository: [https://github.com/version-fox/vfox]( https://github.com/version-fox/vfox)\r\n\r\n\r\nCurrently supported SDKs by the community:\r\n\r\n[![plugins]( https://skillicons.dev/icons?i=java,kotlin,nodejs,flutter,dotnet,python,dart,golang,maven,zig,deno&theme=light)]( https://github.com/version-fox/version-fox-plugins)\r\n\r\n\r\nThe main thing is that you can experience the same effect as asdf under Windows (non-WSL)."
+        },
+        {
+          "zh": "当然比它要棒哈哈哈哈.",
+          "en": "Of course, it's better than it, hahaha."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我还以为是右下角右键菜单 > jdk > 1.8,11,17,选择然后切换呢。",
+          "en": "I thought it was right-click menu in the lower right corner > jdk > 1.8, 11, 17, select and then switch."
+        },
+        {
+          "zh": "敲命令没啥意思",
+          "en": "Typing commands is not interesting."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "牛逼，已 star",
+          "en": "Awesome, starred"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@stimw 啊我看到了 支持 Windows",
+          "en": "@stimw Ah, I see it now, it supports Windows"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以，start 一下，晚点试一下",
+          "en": "Okay, start it, I'll try it later."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看了网站介绍就觉得想法很不错，下载试了一下，真的好用👍👍👍，以后切换版本太爽了，再也不用翻文件夹了",
+          "en": "After reading the website introduction, I thought the idea was very good. I downloaded it and tried it, it's really easy to use 👍👍👍. Switching versions will be so cool in the future, no more digging through folders."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有点意思，已 star",
+          "en": "Interesting, starred"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Incrus 不知道我有没有正确理解你的问题, 三种方式吧.",
+          "en": "@Incrus I don't know if I understood your question correctly, there are three ways."
+        },
+        {
+          "zh": "1.如果内网有 mirror 的话, 可以直接把 nodejs 插件理的地址换成内网地址.",
+          "en": "1. If there is a mirror on the internal network, you can directly change the address of the nodejs plugin to the internal network address."
+        },
+        {
+          "zh": "2.因为 vfox 完全依赖插件来获取数据源的, 没办法直接通过命令导入安装包, 但是可以实现一个插件, 插件里面指定离线安装包的位置, 供 vfox 管理",
+          "en": "2. Because vfox completely relies on plugins to obtain data sources, there is no way to directly import the installation package through commands, but you can implement a plugin, and specify the location of the offline installation package in the plugin for vfox to manage."
+        },
+        {
+          "zh": "3.vfox 最终管理的是$HOME/.version-fox/cache 目录下的文件, 另一种方法是直接把安装包丢进去就行了",
+          "en": "3. vfox ultimately manages the files in the $HOME/.version-fox/cache directory, another way is to directly throw the installation package into it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "gentoo 的 eselect ？",
+          "en": "Gentoo's eselect?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "👍 新环境果断上这个方案，现在的工作环境已经用了不同的工具管理版本，折腾起来太费事，先不动了",
+          "en": "👍 I'll definitely use this solution for new environments. The current work environment already uses different tools to manage versions, which is too much trouble, so I'll leave it as is."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "合 nvm 的区别是这个可以管理更多的工具吗？",
+          "en": "Is the difference between this and nvm that this can manage more tools?"
+        },
+        {
+          "zh": "只针对 npm 来说，功能和 nvm 一样?",
+          "en": "Speaking only for npm, are the functions the same as nvm?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已 star",
+          "en": "Starred"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "plugin 的管理和 sdk 的管理容易弄混，建议参考 docker container 和 docker image 这样的子命令设计来区分开。",
+          "en": "Plugin management and SDK management are easily confused. It is recommended to refer to the subcommand designs of docker container and docker image to distinguish them."
+        },
+        {
+          "zh": "我先是 add 了 java/adoptium-jdk ，然后尝试安装 v21 ，因为下载慢就中途退出了，然后尝试 remove 命令去掉这个 plugin ，得到错误信息 \"java/adoptium-jdk not installed\"。",
+          "en": "I first added java/adoptium-jdk, and then tried to install v21, but exited halfway because the download was slow, and then tried to remove the plugin, but got the error message \"java/adoptium-jdk not installed\"."
+        },
+        {
+          "zh": "那么我想换另一个源，执行 \"vfox add java/azul-jdk\" 时，也得到错误信息 \"plugin java already exists\"，现在是进退不能了。",
+          "en": "So I wanted to switch to another source and executed \"vfox add java/azul-jdk\", but also got the error message \"plugin java already exists\", now I can't move forward or backward."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "反馈下：下载因为网络问题阻塞，Ctrl+C 后，安装未成功显示成功。",
+          "en": "Feedback: The download was blocked due to network issues. After Ctrl+C, the installation was not successful but displayed as successful."
+        },
+        {
+          "zh": "我已经通过删除 cache 解决，但程序能做优化更好。",
+          "en": "I have solved it by deleting the cache, but the program can be optimized better."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很牛，比 scoop reset 方便多了，已 star ，明天上班试试",
+          "en": "Very awesome, more convenient than scoop reset, starred, I'll try it tomorrow at work."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很有想象力，感觉可以支持一下。",
+          "en": "Very imaginative, I feel I can support it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "挺好用的",
+          "en": "Pretty easy to use"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "bug:1. 每次使用 vfox use [email protected] -g, 都会在%PATH%创建一条记录.",
+          "en": "bug: 1. Every time I use vfox use [email protected] -g, a record will be created in %PATH%."
+        },
+        {
+          "zh": "会导致很多重复记录???",
+          "en": "Will cause many duplicate records???"
+        },
+        {
+          "zh": "2. 每次没有 pip, 因为%PATH%缺少 C:\\Users\\xx\\.version-fox\\cache\\python\\v-3.12.2\\python-3.12.2\\Scripts",
+          "en": "2. No pip every time, because %PATH% is missing C:\\Users\\xx\\.version-fox\\cache\\python\\v-3.12.2\\python-3.12.2\\Scripts"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "加油，感觉很有用",
+          "en": "Come on, I feel it's very useful"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用了一下，有几个 bug1.",
+          "en": "Used it, there are a few bugs 1."
+        },
+        {
+          "zh": ".tool-versions 文件是在.version-fox 下的。",
+          "en": ".tool-versions file is under .version-fox."
+        },
+        {
+          "zh": "但是执行 vfox current ，结果都是 N/A3.",
+          "en": "But executing vfox current, the results are all N/A 3."
+        },
+        {
+          "zh": "如果把.tool-versions 移动到~/目录下，vfox current 正常了，但是每次执行 where python ，.version-fox 下的 python path 都会多一条2. vscode 终端里，查看 echo $PATH, 所以的 path 会重复 2 遍",
+          "en": "If I move .tool-versions to the ~/ directory, vfox current is normal, but every time I execute where python, there will be an extra python path under .version-fox. 2. In the vscode terminal, viewing echo $PATH, all paths are repeated twice."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "star ，目前大多数管理工具都不支持原生 win ，加油 👋",
+          "en": "Star, most management tools do not support native win, come on 👋"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

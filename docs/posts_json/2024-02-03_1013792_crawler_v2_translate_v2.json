@@ -1,0 +1,289 @@
+{
+  "id": 1013792,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "tauri 真的太难用了，浪费了我整整一天",
+          "en": "Tauri is really too difficult to use, wasted my whole day"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "天天看 V2 有人吹 tarui ，刚好有客户反应我们客户端太大了，于是给公司打包新网站（启动动画播完 location.href 跳转到线上地址，没别的功能）成 exe 的时候想试一下",
+          "en": "I see people praising Tarui on V2 every day, and it happened that a client complained that our client was too large. So, when packaging the company's new website (startup animation finishes and location.href redirects to the online address, no other function) into an exe, I wanted to try it out."
+        },
+        {
+          "zh": "我们网站检测是否客户端访问是检测请求头的 app-name 字段是否有值（有个中间件，全部请求都检测）",
+          "en": "Our website detects whether it is accessed by a client by checking if the app-name field in the request header has a value (there is a middleware that checks all requests)."
+        },
+        {
+          "zh": "Electron 非常简单，三行代码搞定",
+          "en": "Electron is very simple, three lines of code to complete."
+        },
+        {
+          "zh": "\r\n session.defaultSession.webRequest.onBeforeSendHeaders(filter, (details, callback) => {\r\n    details.requestHeaders['app-name'] ='myapp'\r\n    details.requestHeaders['app-ver'] = '1.0-win'\r\n    details.requestHeaders['app-iver'] = '20240202-01M'\r\n    \r\n    callback({ requestHeaders: details.requestHeaders })\r\n  })\r\n```",
+          "en": "```\r\n session.defaultSession.webRequest.onBeforeSendHeaders(filter, (details, callback) => {\r\n    details.requestHeaders['app-name'] ='myapp'\r\n    details.requestHeaders['app-ver'] = '1.0-win'\r\n    details.requestHeaders['app-iver'] = '20240202-01M'\r\n    \r\n    callback({ requestHeaders: details.requestHeaders })\r\n  })\r\n```"
+        },
+        {
+          "zh": "tauri 这个问题 Google 能搜到 4 篇讨论贴，实际给出方案的只有这一篇 <https://github.com/tauri-apps/tauri/discussions/4912>",
+          "en": "I can find 4 discussion threads about this Tauri issue on Google, but only this one actually provides a solution: <https://github.com/tauri-apps/tauri/discussions/4912>"
+        },
+        {
+          "zh": "有人在下面提问说编译不了，快半年了没人回复",
+          "en": "Someone asked below that it cannot be compiled, and no one has replied for almost half a year."
+        },
+        {
+          "zh": "我看 Rust 和 tauri 文档折腾了一天还没搞定，放弃了，用 Electron 3 分钟打好包提交",
+          "en": "I spent a day struggling with Rust and tauri documentation and still couldn't figure it out. I gave up and used Electron to package and submit in 3 minutes."
+        },
+        {
+          "zh": "**（最后还被领导骂了这么简单一个需求弄了一天是不是又在上班时间打游戏）**",
+          "en": "**(In the end, I was also scolded by my leader for taking a whole day for such a simple requirement, and whether I was playing games during work hours again)**"
+        },
+        {
+          "zh": "附上我改的最后一版，还是不行，有能力的 V 友看看要写多少行才能实现这个简单的功能",
+          "en": "Attached is my last modified version, it still doesn't work. V friends with the ability can see how many lines of code it takes to implement this simple function."
+        },
+        {
+          "zh": "```\r\nfn main() {\r\n    tauri::Builder::default()\r\n        .setup(|app| {\r\n            let main_window = app.get_window(\"main\").unwrap();\r\n            main_window.with_webview(|webview| unsafe {\r\n                let core = webview.controller().CoreWebView2().unwrap();\r\n                let mut token: EventRegistrationToken = EventRegistrationToken::default();\r\n                core.AddWebResourceRequestedFilter(\"*\", COREWEBVIEW2_WEB_RESOURCE_CONTEXT_ALL);\r\n                core.add_WebResourceRequested(\r\n                    CoreWebView2WebResourceRequestedEventHandler::create(Box::new(move |sender, args| {\r\n                        if let Some(args) = args {\r\n                            let request: ICoreWebView2WebResourceRequest = args.Request().unwrap();\r\n                            request\r\n                                .Headers()\r\n                                .unwrap()\r\n                                .SetHeader(\"app-name\", \"myapp\")\r\n                                .SetHeader(\"app-ver\", \"1.0-win\")\r\n                                .SetHeader(\"app-iver\", \"20240202-01W\")\r\n                                .unwrap();\r\n                        }\r\n                        Ok(())\r\n                    })),\r\n                    &mut token,\r\n                );\r\n            });\r\n            Ok(())\r\n        })\r\n        .invoke_handler(tauri::generate_handler![greet])\r\n        .run(tauri::generate_context!())\r\n        .expect(\"error while running tauri application\");\r\n}\r\n```",
+          "en": "```\r\nfn main() {\r\n    tauri::Builder::default()\r\n        .setup(|app| {\r\n            let main_window = app.get_window(\"main\").unwrap();\r\n            main_window.with_webview(|webview| unsafe {\r\n                let core = webview.controller().CoreWebView2().unwrap();\r\n                let mut token: EventRegistrationToken = EventRegistrationToken::default();\r\n                core.AddWebResourceRequestedFilter(\"*\", COREWEBVIEW2_WEB_RESOURCE_CONTEXT_ALL);\r\n                core.add_WebResourceRequested(\r\n                    CoreWebView2WebResourceRequestedEventHandler::create(Box::new(move |sender, args| {\r\n                        if let Some(args) = args {\r\n                            let request: ICoreWebView2WebResourceRequest = args.Request().unwrap();\r\n                            request\r\n                                .Headers()\r\n                                .unwrap()\r\n                                .SetHeader(\"app-name\", \"myapp\")\r\n                                .SetHeader(\"app-ver\", \"1.0-win\")\r\n                                .SetHeader(\"app-iver\", \"20240202-01W\")\r\n                                .unwrap();\r\n                        }\r\n                        Ok(())\r\n                    })),\r\n                    &mut token,\r\n                );\r\n            });\r\n            Ok(())\r\n        })\r\n        .invoke_handler(tauri::generate_handler![greet])\r\n        .run(tauri::generate_context!())\r\n        .expect(\"error while running tauri application\");\r\n}\r\n```"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用一个你没学过的（复杂）语言，干一件你不熟悉的事情（使用 tauri 框架），然后怪这东西太难用了。",
+          "en": "Using a (complex) language you haven't learned to do something you're not familiar with (using the tauri framework), and then blaming the thing for being too difficult to use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自己菜不要怪框架，谁让你用 webview 去折腾 headers 了？",
+          "en": "Don't blame the framework for your own incompetence. Who told you to mess with headers using webview?"
+        },
+        {
+          "zh": "struct ReqClient {    client: reqwest::Client}impl ReqClient {    fn new(client: reqwest::Client) -> Self {        Self {client}}tauri::Builder::default().    .setup( |app| {         let mut headers = reqwest::header::HeaderMap::new();        headers.insert(\"app-name\", header::HeaderValue::from_static(\"my-app\"));        headers.insert(\"app-ver\", header::HeaderValue::from_static(\"1.0-win\"));        headers.insert(\"app-iver\", header::HeaderValue::from_static(\"20240202-01M\"));       let client = reqwest::Client::builder().default_headers(headers).build().unwrap();       app.manage(ReqClient::new(client));       }//......",
+          "en": "struct ReqClient {    client: reqwest::Client}impl ReqClient {    fn new(client: reqwest::Client) -> Self {        Self {client}}tauri::Builder::default().    .setup( |app| {         let mut headers = reqwest::header::HeaderMap::new();        headers.insert(\"app-name\", header::HeaderValue::from_static(\"my-app\"));        headers.insert(\"app-ver\", header::HeaderValue::from_static(\"1.0-win\"));        headers.insert(\"app-iver\", header::HeaderValue::from_static(\"20240202-01M\"));       let client = reqwest::Client::builder().default_headers(headers).build().unwrap();       app.manage(ReqClient::new(client));       }//......"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://tauri.app/v1/api/js/http设个 header 而已。",
+          "en": "https://tauri.app/v1/api/js/http Setting a header is all it is."
+        },
+        { "zh": "肯定支持。", "en": "It definitely supports it." },
+        {
+          "zh": "记得 allowlist 添加域名。",
+          "en": "Remember to add the domain to the allowlist."
+        },
+        {
+          "zh": "深入一点用下你会发现 tauri 真的比 electron 好。",
+          "en": "Use it more deeply and you will find that tauri is really better than electron."
+        },
+        {
+          "zh": "开箱即用的前端框架，简单明了的 api 。",
+          "en": "Out-of-the-box front-end framework, simple and clear api."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "rust 只适合当前问题没有解决方案，可能学一下 rust 搞一搞，如果有其他成熟的的替代方案，强行 rust 没啥意义，其他语言和框架至少迭代十年了都",
+          "en": "Rust is only suitable if there is no solution to the current problem. You might learn Rust and try it out. If there are other mature alternatives, forcing Rust is meaningless. Other languages and frameworks have been iterating for at least ten years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看来你之前上班时间打游戏被发现了呀",
+          "en": "Looks like you've been caught playing games at work before."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "吐槽一下，unwrap 没事不要乱用，可以用 map ，flatmap 直接操作容器里面的内容，另外异常的路径最好也要养成习惯处理，即使打印日志也是好的",
+          "en": "Just a suggestion, don't use unwrap randomly if it's not necessary. You can use map and flatmap to directly manipulate the contents of the container. Also, you should develop the habit of handling exceptional paths, even if it's just printing logs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 确实更能实现啊，我不就用 3 分钟写了实现代码吗",
+          "en": "@drymonfidelia It can indeed be implemented more easily. Didn't I write the implementation code in 3 minutes?"
+        },
+        {
+          "zh": "只不过 tauri 它真不是你要的现成浏览器啊。",
+          "en": "It's just that Tauri is really not the ready-made browser you want."
+        },
+        {
+          "zh": "你要类比，前端 js 在这里的作用完全是 qml 在 qt 里的作用，也就是画个静态页面当 ui",
+          "en": "If you want to draw an analogy, the role of front-end js here is exactly the role of qml in qt, which is to draw a static page as ui."
+        },
+        {
+          "zh": "你想拿 tauri 来访问其他网站并且完美的显示在前端 ui ，那你当然得在 rust 里写 get 函数，并且自己重新手动写前端静态显示代码。",
+          "en": "If you want to use tauri to access other websites and display them perfectly in the front-end UI, then of course you have to write a get function in Rust and manually write the front-end static display code yourself."
+        },
+        {
+          "zh": "说到底 tauri 它是个「 Rust gui 」框架而不是浏览器。",
+          "en": "In the end, tauri is a 'Rust gui' framework rather than a browser."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这帖子真的太难顶了，浪费了我整整一分钟",
+          "en": "This post is really too much, wasted a whole minute of my time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "tauri 确实不够完善，关于 webview2 设置问题可以参考下这个 https://github.com/tauri-apps/tauri/issues/4284 和这个 https://docs.rs/webview2-com/latest/webview2_com/Microsoft/Web/WebView2/Win32/struct.ICoreWebView2HttpRequestHeaders.html#method.SetHeader  手机随便搜了下，仅供参考",
+          "en": "Tauri is indeed not perfect. For webview2 setting issues, you can refer to this https://github.com/tauri-apps/tauri/issues/4284 and this https://docs.rs/webview2-com/latest/webview2_com/Microsoft/Web/WebView2/Win32/struct.ICoreWebView2HttpRequestHeaders.html#method.SetHeader. Just searched on my phone, for your reference only."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lisongeee #37 rust 里写一个类 fetch 函数，js 内替换原来的 fetch ，实际调用的是这个函数。",
+          "en": "@lisongeee #37 Write a fetch-like function in rust, replace the original fetch in js, and actually call this function."
+        },
+        {
+          "zh": "tauri 调用 webview 的 api 来干活，一切规则需要遵循系统 webview ，并不能自定义或者修改核心",
+          "en": "tauri calls the webview's api to work. All rules need to follow the system webview, and the core cannot be customized or modified"
+        },
+        {
+          "zh": "electron 本质上是一个 chromium 浏览器的，提供各种封装好的 API ，支持自定义，可以修改核心",
+          "en": "electron is essentially a chromium browser, providing a variety of well-packaged APIs, supporting customization, and the core can be modified"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你的思路没什么问题，但知识储备跟不上，这个问题涉及到 win32 api ，而且 rust 语言本身是一个很难学的语言。",
+          "en": "There is nothing wrong with your thinking, but your knowledge reserve can't keep up. This problem involves the win32 api, and the rust language itself is a very difficult language to learn."
+        },
+        {
+          "zh": "下面是解决方案：-----// Prevents additional console window on Windows in release, DO NOT REMOVE!!#![cfg_attr(not(debug_assertions), windows_subsystem = \"windows\")]use tauri::Manager;use webview2_com::{Microsoft::Web::WebView2::Win32::{ICoreWebView2WebResourceRequest, COREWEBVIEW2_WEB_RESOURCE_CONTEXT_ALL}, WebResourceRequestedEventHandler};use windows::{core::HSTRING, Win32::System::WinRT::EventRegistrationToken};fn main() {    tauri::Builder::default()        .setup(|app| {            let main_window = app.get_window(\"main\").unwrap();            main_window.with_webview(|webview| unsafe {                let core = webview.controller().CoreWebView2().unwrap();                let mut _token: EventRegistrationToken = EventRegistrationToken::default();                core.AddWebResourceRequestedFilter(&HSTRING::from(\"*\"), COREWEBVIEW2_WEB_RESOURCE_CONTEXT_ALL).unwrap();                core.add_WebResourceRequested(                    &WebResourceRequestedEventHandler::create(Box::new(move |_webview, args| {                        if let Some(args) = args {                            let request: ICoreWebView2WebResourceRequest = args.Request().unwrap();                            request                                .Headers()                                .unwrap()                                .SetHeader(&HSTRING::from(\"key1\"), &HSTRING::from(\"value1\"))                                .unwrap();                        }                        Ok(()                     })), &mut _token).unwrap();            }).unwrap();            Ok(())        })        .run(tauri::generate_context!())        .expect(\"error while running tauri application\");}",
+          "en": "Here is the solution:-----// Prevents additional console window on Windows in release, DO NOT REMOVE!!#![cfg_attr(not(debug_assertions), windows_subsystem = \"windows\")]use tauri::Manager;use webview2_com::{Microsoft::Web::WebView2::Win32::{ICoreWebView2WebResourceRequest, COREWEBVIEW2_WEB_RESOURCE_CONTEXT_ALL}, WebResourceRequestedEventHandler};use windows::{core::HSTRING, Win32::System::WinRT::EventRegistrationToken};fn main() {    tauri::Builder::default()        .setup(|app| {            let main_window = app.get_window(\"main\").unwrap();            main_window.with_webview(|webview| unsafe {                let core = webview.controller().CoreWebView2().unwrap();                let mut _token: EventRegistrationToken = EventRegistrationToken::default();                core.AddWebResourceRequestedFilter(&HSTRING::from(\"*\"), COREWEBVIEW2_WEB_RESOURCE_CONTEXT_ALL).unwrap();                core.add_WebResourceRequested(                    &WebResourceRequestedEventHandler::create(Box::new(move |_webview, args| {                        if let Some(args) = args {                            let request: ICoreWebView2WebResourceRequest = args.Request().unwrap();                            request                                .Headers()                                .unwrap()                                .SetHeader(&HSTRING::from(\"key1\"), &HSTRING::from(\"value1\"))                                .unwrap();                        }                        Ok(()                     })), &mut _token).unwrap();            }).unwrap();            Ok(())        })        .run(tauri::generate_context!())        .expect(\"error while running tauri application\");}"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "op 是懂提问题的艺术的",
+          "en": "OP knows the art of asking questions"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 我前面给出的方案修复了你代码里面的语法错误，你都不看一眼吗？",
+          "en": "@drymonfidelia Didn't you even take a look at the solution I gave earlier, which fixed the syntax errors in your code?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 在我本机上实测，可以正确设置 header 。",
+          "en": "@drymonfidelia I tested it on my machine and it can set the header correctly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@roycestevie6761 正常 v 友推荐的灵车我是不敢碰的，但是 tauri GitHub 上有 73.5k star 感觉很成熟了，试了下，没想到连改个默认请求头都做不到",
+          "en": "@roycestevie6761 I wouldn't dare to touch the bad projects normally recommended by V friends, but Tauri has 73.5k stars on GitHub, so I felt it should be mature. I tried it, but I didn't expect that I couldn't even change a default request header."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 这个框架我没用过，但是 73K 不至于吧",
+          "en": "@drymonfidelia I haven't used this framework, but 73K stars shouldn't be the case."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@roycestevie6761 但凡他的 star 数少一点，我早就放弃折腾了",
+          "en": "@roycestevie6761 If it had fewer stars, I would have given up messing with it a long time ago."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "赶时间的时候不要用不熟悉的新技术",
+          "en": "Don't use unfamiliar new technologies when you are in a hurry"
+        },
+        {
+          "zh": "仅凭这点并不难说明 tauri 不好, 毕竟学任何新东西都要花时间的",
+          "en": "Just based on this, it is not difficult to say that tauri is not good, after all, learning anything new takes time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        { "zh": "呵呵。", "en": "Hehe." },
+        {
+          "zh": "如果是一个听别人说就敢用上生产的团队， 显示不合格的， 还是要自己探索。",
+          "en": "If it is a team that dares to use it in production after hearing what others say, it shows they are unqualified and need to explore it themselves."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "electron 也是垃圾，在 mac 上鼓捣了半天都没打成功 exe （也可能是我菜",
+          "en": "electron is also trash, I messed around on mac for a long time and failed to build an exe (maybe I am just bad)"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

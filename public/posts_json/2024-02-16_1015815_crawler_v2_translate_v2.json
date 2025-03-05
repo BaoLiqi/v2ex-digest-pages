@@ -1,0 +1,198 @@
+{
+  "id": 1015815,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "使用 docker 运行 clash 作为旁路由",
+          "en": "Run clash as a gateway using docker"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚刚看到论坛里有人在问 ubuntu 旁路由 clash 的问题，正好我自己就是使用 docker 运行 clash 作为局域网中的旁路由使用的，配合网页 UI 进行管理，非常的丝滑好用。主要是利用 docker+macvlan+clash(mihomo)+iptables 来实现的旁路由功能。\r\nhttps://github.com/UntaggedRui/clashindocker\r\n\r\n制作 docker 镜像并创建容器\r\n\r\n获取代码\r\n\r\ngit clone https://github.com/UntaggedRui/clashindocker\r\ncd clashindocker\r\ncp example.yml config.yml\r\n```\r\n更改地址 docker-compose.yml 中的 ipv4_address 为你的 ip 地址.\r\n\r\n更改 config.yml 中的 proxy-provider 的 url 为你的机场订阅地址.\r\n\r\n启动容器\r\n\r\ndocker compose up -d \r\n假设你的 docker 容器 ip 地址为 192.168.3.23. 通过 http://192.168.3.23:9090/ui/可以管理 clash,进行切换节点等.后端地址为 http://192.168.3.23:9090/,密码为 yourpassword.\r\n\r\n在同一个局域网下,将其他机器的网关设置为 192.168.3.23 就可以实现该机器的所有流量都经过 clash,并且根据 clash 的规则进行分流。",
+          "en": "I just saw someone in the forum asking about the ubuntu gateway clash problem. I happen to use docker to run clash as a gateway in the local area network, and manage it with a web UI, which is very smooth and easy to use. It mainly uses docker+macvlan+clash(mihomo)+iptables to realize the gateway function.\r\nhttps://github.com/UntaggedRui/clashindocker\r\n\r\nCreate a docker image and create a container\r\n\r\nGet the code\r\n```\r\ngit clone https://github.com/UntaggedRui/clashindocker\r\ncd clashindocker\r\ncp example.yml config.yml\r\n```\r\nChange the ipv4_address in docker-compose.yml to your ip address.\r\n\r\nChange the url of proxy-provider in config.yml to your airport subscription address.\r\n\r\nStart the container\r\n\r\ndocker compose up -d\r\nAssuming your docker container IP address is 192.168.3.23. You can manage clash and switch nodes through http://192.168.3.23:9090/ui/. The backend address is http://192.168.3.23:9090/, and the password is yourpassword.\r\n\r\nIn the same local area network, setting the gateway of other machines to 192.168.3.23 can realize that all traffic of the machine passes through clash and is distributed according to clash's rules."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "*不推荐/过时的教程* Clash 已经全面切换到 TUN 设备，工作在 OSI 三层，如果需要 docker 运行，需要带上--privileged --network host 参数",
+          "en": "*Not recommended/outdated tutorial* Clash has completely switched to TUN devices, working on the OSI layer 3. If you need to run docker, you need to add the --privileged --network host parameters"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mmr 我的方案你看看是不是可以参考. 虽然我用的是 surge, 不过也是订阅了 2 家的服务, 避免一家跑路了全完蛋的风险.大体思路是, 自己用 surgio 去写一个配置, 然后通过 surgio 去配置多个服务商.整个过程通过 github (建个 private repo) 的 action 去定期执行, 最终生成的配置文件推送到阿里云的 OSS. surge 订阅 OSS 的配置即可.其中 surgio 的作用: 1, 从不同的服务商拉配置, 合并2, 根据自己的模板生成规则和配置3. 推送生产的配置到 oss.",
+          "en": "@mmr See if my solution can be used as a reference. Although I use surge, I also subscribe to two services to avoid the risk of one running away and everything being over. The general idea is to write a configuration with surgio, and then use surgio to configure multiple service providers. The whole process is executed periodically through github (create a private repo) action, and the final generated configuration file is pushed to Alibaba Cloud OSS. surge can subscribe to the OSS configuration. The role of surgio is: 1. Pull configuration from different service providers and merge 2. Generate rules and configuration according to your own template 3. Push the production configuration to oss."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@danshan 我目前用的 substore( https://hub.docker.com/r/xream/sub-store)来整合订阅的，在配合 clash 里的 filter 和 surge 里面的 policy-regex-filter 来提取出需要的节点，也很方便。",
+          "en": "@danshan I currently use substore (https://hub.docker.com/r/xream/sub-store) to integrate subscriptions, and use the filter in clash and the policy-regex-filter in surge to extract the required nodes, which is also very convenient."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我还是觉得基于 dns 的分流更好用点，我现在用的 paopaodns+paopaogateway 感觉更舒适点。。。",
+          "en": "I still think that DNS-based routing is easier to use. I feel more comfortable with paopaodns+paopaogateway..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "订阅管理和更新怎么做呢",
+          "en": "How to do subscription management and updates?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mmr 使用了 proxy-provider ，在配置文件的 proxy-provider 中填入你的订阅地址，既会自动更新，也可以在网页 UI 中手动更新。",
+          "en": "@mmr Using proxy-provider, enter your subscription address in the proxy-provider of the configuration file, which will be automatically updated, or you can manually update it in the web UI."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@que01 clash 用习惯了，现在全平台 clash 了，一套规则全处都可用。",
+          "en": "@que01 I'm used to using clash, and now clash is available on all platforms, and a set of rules can be used everywhere."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "多个订阅处理的咋样。",
+          "en": "How about handling multiple subscriptions?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@que01 关键是基于 dns 分流你也要接入代理，除非你有隐蔽的 dns 服务商。",
+          "en": "@que01 The key is that you also need to access a proxy for DNS-based routing, unless you have a hidden DNS service provider."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mmr #5 完全没问题，不过需要稍微修改一下配置文件，在 proxy-provider 中添加多个订阅然后在后面的 proxygroup 中引用这些订阅。按照示例配置文件稍微修改下就可以。",
+          "en": "@mmr #5 is completely fine, but you need to modify the configuration file slightly, add multiple subscriptions in the proxy-provider and then reference these subscriptions in the proxygroup later. You can modify it slightly according to the example configuration file."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这下我的 all in boom 有用了路由器性能太弱鸡了，clash 跑不动，还容易干扰家里人其他设备体验",
+          "en": "Now my all in boom is useful. The router's performance is too weak, clash can't run, and it's easy to interfere with the experience of other devices in my family."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Dk2014 我也是 all in boom  同时是 docker 的强烈爱好者",
+          "en": "@Dk2014 I am also all in boom and a strong fan of docker"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "5rOw6YW36L6j",
+          "en": "真不错啊 (This translates to something like 'really good!')"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [{ "zh": "泰酷辣", "en": "Too cool bro (a web slang)" }],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "clash 直接能处理 dns 请求吗？那要这样的话 就没必要单独弄个 openwrt 做旁路由了 直接一个 clash 就可以了吗？",
+          "en": "Can clash directly handle DNS requests? If so, is it unnecessary to create a separate openwrt as a gateway? Can I just use one clash?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果直接将主路由的网管设置成 192.168.3.23 会怎么样呢？假如 clash 挂了 那主路由就连不上网了吧但是如果主路由不设置的话就需要每个设备单独设置网关，有点麻烦 但是也不麻烦吧 但是有的设备不方便自定义网关啥的 也不是很方便感觉",
+          "en": "What would happen if I directly set the gateway of the main router to 192.168.3.23? If clash crashes, the main router will not be able to connect to the Internet. But if the main router is not set, each device needs to set the gateway separately, which is a bit troublesome, but not too troublesome. But it is not very convenient that some devices cannot customize the gateway."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fdghjk 按道理可以，我在配置文件里开启了 dns 同时也 iptables 转发了 dns 请求，你可以把 dns 也设置为这个 ip 试试，我觉得可以。",
+          "en": "@fdghjk In theory, it is possible. I have enabled dns in the configuration file and also forwarded the dns request with iptables. You can try setting dns to this ip as well. I think it should work."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自己亲测，用 OpenWrt+OpenClash 做旁路由，设备翻墙没问题，看油管啥的都 OK但是电视上的流媒体平台登不上去，后来加上 mosdns 就行了",
+          "en": "I personally tested that using OpenWrt+OpenClash as a gateway, the device can bypass the GFW without any problem, and watching YouTube is OK, but the streaming media platform on the TV cannot be logged in. Later, adding mosdns solved the problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fdghjk 这个我没有尝试过，我都是手动改的。还需要大家一起探索。",
+          "en": "@fdghjk I haven't tried this, I have manually modified it. We still need everyone to explore together."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qwerthhusn mosdns 咋用 我感觉好复杂",
+          "en": "@qwerthhusn How to use mosdns? I feel it's so complicated."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

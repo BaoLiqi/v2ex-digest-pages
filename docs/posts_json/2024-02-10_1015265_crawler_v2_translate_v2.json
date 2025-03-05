@@ -1,0 +1,347 @@
+{
+  "id": 1015265,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "老人看电视方案？",
+          "en": "Elderly TV viewing solution?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "家里买了一个现代化的电视和中国移动的机顶盒。",
+          "en": "I bought a modern TV and a China Mobile set-top box for my home."
+        },
+        {
+          "zh": "去年就教了父母如何切换到机顶盒，可是今天发现父母根本不记得什么切换信号源，因为他们不能理解。",
+          "en": "Last year, I taught my parents how to switch to the set-top box, but today I found that they don't remember how to switch the signal source at all because they can't understand it."
+        },
+        {
+          "zh": "他们只会问“是不是两个遥控器都能用？”",
+          "en": "They only ask, 'Can both remote controls be used?'"
+        },
+        {
+          "zh": "电视是可以设置“开机时打开上次的信号源”的，但家里小孩会切回去。",
+          "en": "The TV can be set to 'open the last signal source when booting', but the children at home will switch it back."
+        },
+        {
+          "zh": "目前打算接一个旧显示器，这样就不用关心什么“信号源”了。",
+          "en": "Currently, I plan to connect an old monitor, so I don't have to worry about the 'signal source'."
+        },
+        {
+          "zh": "之前也折腾过什么电视家、秒看电视、XX 播放器+直播源的组合，最近也尝试过 my-tv ，连续两个版本（ v1.5.8 ，v1.6.0 ）不能用。。。",
+          "en": "I also tried combinations like TV Home, Quick Look TV, XX Player + live streaming sources before, and recently I tried my-tv, but two consecutive versions (v1.5.8, v1.6.0) don't work..."
+        },
+        {
+          "zh": "感觉软件类的还是不太可靠，今天能看明天不能看的，并不能做到长时间免维护。",
+          "en": "I feel that software is still unreliable, it can be watched today but not tomorrow, and it cannot be maintained for a long time without maintenance."
+        },
+        {
+          "zh": "心累，祝愿光腚肿菊早日爆炸！",
+          "en": "Tired, I wish SAPPRFT would explode soon!"
+        },
+        {
+          "zh": "求教兄弟们都是怎么做的。",
+          "en": "I would like to ask brothers how you do it."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我家是中国移动的机顶盒和红米电视，电视在「信号源」设置那里的配置：1.首页画中画的输入源->机顶盒对应的信号源2.开机自动播放（首页画中画的输入源）->开启3.直接播放信号源（连接输入源后，第一时间播放并使用）-> 开启目前的效果是，1.用电视遥控器打开电视，会直接进到对应输入源的画面，也就是机顶盒画面。（如果机顶盒此前被关，也会被唤起，这个比较神奇）。",
+          "en": "My home has a China Mobile set-top box and a Redmi TV. The TV's configuration in the 'Signal Source' settings is: 1. Input source for the home page picture-in-picture -> the signal source corresponding to the set-top box 2. Automatic playback at startup (input source for the home page picture-in-picture) -> enabled 3. Directly play the signal source (play and use immediately after connecting the input source) -> enabled The current effect is: 1. Turn on the TV with the TV remote control, and it will directly enter the screen of the corresponding input source, which is the set-top box screen. (If the set-top box was previously turned off, it will also be awakened, which is quite magical)."
+        },
+        {
+          "zh": "2.只有用电视遥控器才能回到电视界面，比如 HOME 键。",
+          "en": "2. Only the TV remote control can return to the TV interface, such as the HOME button."
+        },
+        {
+          "zh": "3.电视界面下直接按机顶盒遥控器开关，也能激活到机顶盒画面。",
+          "en": "3. Directly pressing the set-top box remote control switch on the TV interface can also activate the set-top box screen."
+        },
+        {
+          "zh": "美中不足电视蓝牙遥控器没法被机顶盒遥控器学习，不然电视蓝牙遥控器可以直接舍弃了。",
+          "en": "The only drawback is that the TV Bluetooth remote control cannot be learned by the set-top box remote control; otherwise, the TV Bluetooth remote control can be discarded directly."
+        },
+        {
+          "zh": "楼主可以看看电视有没有类似的设置项。",
+          "en": "You can check if your TV has similar settings."
+        },
+        {
+          "zh": "家里小孩要切画面，可以让孩子别改默认设置就行？",
+          "en": "If the children at home want to switch screens, can you just tell them not to change the default settings?"
+        },
+        {
+          "zh": "只要不改固定的信号源，下次开机应该还是 OK 的吧",
+          "en": "As long as the fixed signal source is not changed, the next time you turn it on, it should still be OK."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "让我想到 youtube 上看的美国一个 homelabber ，直接在家搞了套模拟 CATV...",
+          "en": "It reminds me of an American homelabber I saw on YouTube who directly set up an analog CATV at home..."
+        },
+        {
+          "zh": "任何电视打开就能看我觉得楼主可以研究一下 HDMI CEC 。",
+          "en": "Any TV can be turned on to watch. I think the poster can study HDMI CEC."
+        },
+        {
+          "zh": "很多电视可以被播放器类设备控制开关机，这样开机的话就会自动切换到该信号源。",
+          "en": "Many TVs can be controlled to turn on and off by player-like devices, so that they will automatically switch to that signal source when turned on."
+        },
+        {
+          "zh": "但是这样的便民技术好像没有在广电机顶盒看到，第三方安卓电视棒有可能。",
+          "en": "However, this kind of convenient technology does not seem to be seen in radio and television set-top boxes, and third-party Android TV sticks are possible."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "宽带的 IPTV 转 udpxy ，然后电视上装个最简单的播放软件就好。",
+          "en": "Convert broadband IPTV to udpxy, and then install the simplest playback software on the TV."
+        },
+        {
+          "zh": "对老人来说操作是比较简单的，到主屏幕，选择应用启动就好",
+          "en": "The operation is relatively simple for the elderly, just go to the main screen and select the application to start."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "广电机顶盒+开机直接进入信号源 这是最实际的方案，广电机顶盒搞个二合一遥控器能把开关电视就行，电视遥控器就收起来。",
+          "en": "Radio and television set-top box + directly enter the signal source when booting. This is the most practical solution. The radio and television set-top box can have a two-in-one remote control to turn on and off the TV, and the TV remote control can be put away."
+        },
+        {
+          "zh": "第二种可以试下 DTMB 地面波电视，完全免费也不需要机顶盒，就是要看当地信号接收情况。",
+          "en": "The second option is to try DTMB terrestrial wave TV, which is completely free and does not require a set-top box, but it depends on the local signal reception."
+        },
+        {
+          "zh": "跟卫星锅不一样，这个是完全合法的。",
+          "en": "Unlike satellite dishes, this is completely legal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在电信运营商的盒子要求是可以直接看电视节目的，不能先进入展示界面。",
+          "en": "Now telecom operators' boxes are required to watch TV programs directly, and cannot enter the display interface first."
+        },
+        {
+          "zh": "这样的话，只要告诉家里人切换到那个信号源就行了。",
+          "en": "In this case, you just need to tell your family to switch to that signal source."
+        },
+        {
+          "zh": "不必说 HDMI 几，就说看不到电视节目就按这个键，多按几次一直到按出来为止。",
+          "en": "Don't say HDMI what, just say if you can't see TV programs, press this button, press it several times until it comes out."
+        },
+        {
+          "zh": "然后再用机顶盒的遥控器进行换台。",
+          "en": "Then use the set-top box remote control to change channels."
+        },
+        {
+          "zh": "如果连这个都接受不了，那真的是不适合现代化生活的。",
+          "en": "If you can't even accept this, then you are really not suitable for modern life."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zbowen66 我说的是开机信号源\"固定\"...这里有一些品牌的设置方法.https://www.52ruodian.com/3304.html",
+          "en": "@zbowen66 I'm talking about \"fixed\" boot signal source... Here are some brands' setting methods. https://www.52ruodian.com/3304.html"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小米啊，自动切换开机的信号源，就算切走了，只需要开关一下机顶盒啊。。。",
+          "en": "Xiaomi, it automatically switches the signal source when booting, even if it is switched away, you only need to switch the set-top box..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zbowen66 这是网络机顶盒，上边写的中国移动，哪来的广电，广电 IPTV 是办广电宽带给的",
+          "en": "@zbowen66 This is a network set-top box, which is written above is China Mobile, where does the radio and television come from, radio and television IPTV is given by applying for radio and television broadband"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你电视没开机固定信号源的吗?",
+          "en": "Doesn't your TV have a fixed signal source at startup?"
+        },
+        {
+          "zh": "不行就问问客服或者去设置里逛逛?",
+          "en": "If not, ask customer service or go to the settings?"
+        },
+        {
+          "zh": "我家也是现代化电视+广电机顶盒.",
+          "en": "My home is also a modern TV + radio and television set-top box."
+        },
+        {
+          "zh": "开机什么都不用调就能看了.",
+          "en": "You can watch it without adjusting anything when you turn it on."
+        },
+        {
+          "zh": "给老人只有一个机顶盒的遥控器.",
+          "en": "Only the set-top box remote control is given to the elderly."
+        },
+        {
+          "zh": "电视的遥控都拆掉电池丢抽屉了.",
+          "en": "The batteries of the TV remote control have been removed and thrown into the drawer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "my-tv 的 v1.6.0 我这边能用",
+          "en": "my-tv v1.6.0 works for me"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议还是配备『不用操作就能切换』的东西",
+          "en": "It is recommended to equip with something that 'does not require operation to switch'"
+        },
+        {
+          "zh": "老人看电视还是求稳定和好操作，最好的方式就是打开都能看，而不是『先按这个遥控，再按这个遥控』",
+          "en": "The elderly watch TV for stability and ease of operation. The best way is to be able to watch it when it is turned on, instead of 'press this remote control first, then press this remote control'"
+        },
+        {
+          "zh": "信号源方面，给老人看的，最好还是官方来源比较好，比如广电机顶盒，比如某些支持『老人模式』的 IPTV 机顶盒，比如偏远地区会用到的 92.2 户户通机顶盒。",
+          "en": "In terms of signal source, it is best to use official sources for the elderly, such as radio and television set-top boxes, some IPTV set-top boxes that support 'elderly mode', and 92.2 household connected set-top boxes that are used in remote areas."
+        },
+        {
+          "zh": "千万别网上随便弄的直播源进去（你知道的，国内大带宽的机器价钱不便宜），三天两头看不了，是我我也烦",
+          "en": "Don't just put live streaming sources from the Internet (you know, high bandwidth machines in China are not cheap), you can't watch it every two or three days, I would be annoyed too."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "要不然搞个红外管和单片机做个“接收到机顶盒开机信号就发射电视开机和选择输入”功能的板子？",
+          "en": "Why not get an infrared tube and a single-chip microcomputer to make a board with the function of 'receiving the set-top box's power-on signal and transmitting the TV's power-on and selection of input'?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "旧显示器，是正解。",
+          "en": "The old monitor is the correct answer."
+        },
+        {
+          "zh": "家里老人是这样的。。",
+          "en": "This is how the elderly in my family are.."
+        },
+        {
+          "zh": "不要智能化。",
+          "en": "Don't be smart."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "直接广电就行了",
+          "en": "Just use radio and television directly"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最简单的就是 dtmb 地面数字广播",
+          "en": "The simplest is DTMB terrestrial digital broadcasting"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "留一根线，固定信源，想看哪个就插在那台机器上。",
+          "en": "Leave a cable, fix the source, and plug it into the machine you want to watch."
+        },
+        {
+          "zh": "老人家插线还是非常 nice 的@billccn #5 不用这麻烦，",
+          "en": "It's still very nice for the elderly to plug in the cable @billccn #5 No need for this trouble,"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yyzh #1 帖子里第二段说了这点",
+          "en": "@yyzh #1 The second paragraph of the post mentioned this"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我没找到 Android TV remote desktop APP",
+          "en": "I didn't find an Android TV remote desktop APP"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@MeteorVIP #2 我装好 v1.6.0 第一次打开能用，第二次打开就空指针报错了。。",
+          "en": "@MeteorVIP #2 After I installed v1.6.0, it worked the first time I opened it, but the second time I opened it, it reported a null pointer error..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@MFWT #3 是的，已经买了移动的机顶盒，信号源还是挺稳的。",
+          "en": "@MFWT #3 Yes, I have already bought a mobile set-top box, and the signal source is quite stable."
+        },
+        {
+          "zh": "我现在计划用旧显示器实现“打开就能看，不用切换”",
+          "en": "I am now planning to use an old monitor to achieve 'turn on and watch, no need to switch'"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

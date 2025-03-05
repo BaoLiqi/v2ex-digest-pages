@@ -1,0 +1,447 @@
+{
+  "id": 1015099,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "关于我为什么有的时候不喜欢在公共场合问技术问题的原因",
+          "en": "About why I sometimes don't like asking technical questions in public"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "[![pF3e3vT.png]( https://s11.ax1x.com/2024/02/08/pF3e3vT.png)]( https://imgse.com/i/pF3e3vT)\r\n[![pF3eGKU.png]( https://s11.ax1x.com/2024/02/08/pF3eGKU.png)]( https://imgse.com/i/pF3eGKU)\r\n[![pF3eJrF.png]( https://s11.ax1x.com/2024/02/08/pF3eJrF.png)]( https://imgse.com/i/pF3eJrF)\r\n\r\n有些语言的讨论氛围差是有原因的，总有些人喜欢踩人家一脚来说话。",
+          "en": "[![pF3e3vT.png]( https://s11.ax1x.com/2024/02/08/pF3e3vT.png)]( https://imgse.com/i/pF3e3vT)\r\n[![pF3eGKU.png]( https://s11.ax1x.com/2024/02/08/pF3eGKU.png)]( https://imgse.com/i/pF3eGKU)\r\n[![pF3eJrF.png]( https://s11.ax1x.com/2024/02/08/pF3eJrF.png)]( https://imgse.com/i/pF3eJrF)\r\n\r\nThere's a reason why some languages have a poor discussion atmosphere; there are always some people who like to put others down when speaking."
+        },
+        {
+          "zh": "\r\n不是讨论问题本身，上来就嘲讽的。",
+          "en": "It's not about discussing the problem itself, but starting with ridicule."
+        },
+        {
+          "zh": "\r\n当然不会才来问的，当然是自己查了很多资料，有去尝试过的，在自己能力范围内尽力做出的方案，虽然方案设计的有问题，但是怎么就有人喜欢这样说话？",
+          "en": "Of course, I wouldn't ask without trying. Of course, I've researched a lot of information, tried it myself, and made the best possible solution within my capabilities. Although the solution design has problems, why do some people like to talk like this?"
+        },
+        {
+          "zh": "\r\n\r\n很多东西书本上和网络上是找不到答案的，确实需要向有经验的人请假，我确实很感谢这红字的解答和方案，但是我真不理解这种喜欢踩着人说话的？",
+          "en": "Many things cannot be found in books or on the Internet. It is indeed necessary to ask experienced people for guidance. I am very grateful for the answers and solutions in red, but I really don't understand this kind of person who likes to put others down when speaking?"
+        },
+        {
+          "zh": "因为八股文背多了就高高在上？",
+          "en": "Is it because they memorized too many boilerplate answers and feel superior?"
+        },
+        {
+          "zh": "我觉得没必要把。。。。",
+          "en": "I don't think it's necessary to..."
+        },
+        {
+          "zh": "\r\n\r\n我承认这篇帖子我有怨气，但是也希望大伙以后向别人请教问题时不要遇到这样的人。",
+          "en": "I admit that I have resentment in this post, but I also hope that everyone will not encounter such people when asking others for advice in the future."
+        },
+        {
+          "zh": "说实话对我下次问问题的动力打击好大....",
+          "en": "To be honest, it's a big blow to my motivation to ask questions next time...."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1. 我的问题大神看不上2. 回答的人答不到点上3. 围观的人嘴巴闭不上",
+          "en": "1. My question is not appreciated by experts 2. The person answering doesn't get to the point 3. The onlookers can't keep their mouths shut"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "gpt4 比这帮人强多了，会耐心帮你解决的",
+          "en": "GPT-4 is much better than these people, it will patiently help you solve the problem"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上下文缺失，谁知道是不是你问问题的时候问出了个 XY 问题，纠结半天才让人发现真实问题，或者是让人感觉像脑子突然宕机了一样问出来个奇葩问题...",
+          "en": "Missing context, who knows if you asked an XY problem when asking a question, and it took a long time to find the real problem, or asked a strange question that made people feel like their brains suddenly crashed..."
+        },
+        {
+          "zh": "很多时候有些人在群里问的问题确实就是很奇葩的那种，好好想想、整理一下描述的过程都能发现问题根源在哪，但 ta 就是会问出来，这种情况很难让有相关经验的人不无语。",
+          "en": "Many times, the questions some people ask in groups are indeed very strange. If you think carefully and sort out the description process, you can find the root cause of the problem, but they just ask it anyway. In this case, it is difficult for people with relevant experience not to be speechless."
+        },
+        {
+          "zh": "假设问题很正经，描述很清晰，常见方案都尝试过了，并且也确实没法找到相关解决方案的资料，那有人阴阳怪气当然是他傻逼；但如果是问题奇葩的情况下，阴阳怪气只能说是个人习惯不同，要不然如果是一群人都习惯忽略奇葩问题，问完没有一个回复，全在聊别的，那是不是能变成“问个问题都没人回复，问个问题还能被冷暴力”了？",
+          "en": "If the question is very serious, the description is clear, common solutions have been tried, and relevant solutions cannot be found, then it is of course stupid for someone to be sarcastic; but if the question is strange, sarcasm can only be said to be a personal habit. Otherwise, if a group of people are used to ignoring strange questions, and no one replies after asking, and everyone is talking about other things, then can it become 'no one replies to a question, asking a question can also be cold violence'?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议学好英文上 Stack Overflow 。",
+          "en": "It is recommended to learn English well and go to Stack Overflow."
+        },
+        {
+          "zh": "楼主不知道发现没，因为你没有贴上下文，上面基本都是先断定你有罪，要求你适应环境。",
+          "en": "The poster doesn't know if you've noticed, because you didn't post the context, basically everyone above is assuming you're guilty and asking you to adapt to the environment."
+        },
+        {
+          "zh": "如果你想摆脱这样的环境，去国外社区是最好的选择",
+          "en": "If you want to get rid of this environment, going to a foreign community is the best choice"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@locoz 你是觉得病根，是因为提问者水平有问题，被骂都是对他好？",
+          "en": "@locoz Do you think the root cause is that the questioner's level is problematic, and being scolded is good for him?"
+        },
+        {
+          "zh": "骂人，阴阳怪气不是习惯风格问题，是个人素质问题，有人逼着他一定要回答吗？",
+          "en": "Scolding people, sarcasm is not a matter of habit or style, but a matter of personal quality. Is anyone forcing him to answer?"
+        },
+        {
+          "zh": "他是否可以正面提出自己的疑惑？",
+          "en": "Can he raise his doubts directly?"
+        },
+        {
+          "zh": "素质问题，就是素质问题。",
+          "en": "Quality issue, is a quality issue."
+        },
+        {
+          "zh": "不是国外的月亮圆，SO 之所以氛围好，是因为它有一套完善的激励和惩罚机制，通过机制引导了社区的氛围，国内没有哪个社区有这样的机制。",
+          "en": "It's not that the moon is rounder abroad. The reason why SO has a good atmosphere is because it has a complete set of incentive and punishment mechanisms, which guide the community's atmosphere, which no community in China has."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mantouboji 没有义务回答可以不回，嘲讽和阴阳怪气是另一回事",
+          "en": "@mantouboji There is no obligation to answer, you can not reply, ridicule and sarcasm are another matter"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@locoz #33 抱歉，我认为阴阳怪气就是素质问题，我见过的高素质的人从不以取笑人为乐，炫耀自己的知识，通过踩低别人发泄自己的情绪。",
+          "en": "@locoz #33 Sorry, I think sarcasm is a matter of quality. The high-quality people I have seen never enjoy making fun of others, showing off their knowledge, or venting their emotions by downplaying others."
+        },
+        {
+          "zh": "微信群也是一种低效的沟通方式，封闭，容易岔开话题，管理方式单一，纯靠人治（我只相信法治）都是它的缺点。",
+          "en": "WeChat groups are also an inefficient way of communication, closed, easy to divert topics, single management method, purely relying on people's rule (I only believe in the rule of law) are all its shortcomings."
+        },
+        {
+          "zh": "世界很大，但是并不是存在就是正常，并不是存在就是正常。",
+          "en": "The world is big, but existence is not normal, and existence is not normal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同感，我觉得不想回答就不回答就行了，没必要带着比较阴阳怪气的语气回答问题",
+          "en": "Same feeling, I think if you don't want to answer, just don't answer, there is no need to answer the question with a relatively sarcastic tone"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "《学习乐观》。",
+          "en": "《Learned Optimism》."
+        },
+        {
+          "zh": "我记得这书中提到这书中的技术用在电话销售上了，效果很好。",
+          "en": "I remember that this book mentioned that the techniques in this book are used in telephone sales and the effect is very good."
+        },
+        {
+          "zh": "电话销售经常会被拒绝，甚至会被骂，感觉跟现在的互联网环境很像了。",
+          "en": "Telephone sales are often rejected and even scolded, which feels very similar to the current Internet environment."
+        },
+        {
+          "zh": "不想看书的话推荐搜一下这书的总结或者习得性乐观的介绍。",
+          "en": "If you don't want to read the book, I recommend searching for the summary of this book or the introduction to learned optimism."
+        },
+        {
+          "zh": "不过我之前搜发现没有书上那么详细。",
+          "en": "However, I searched before and found that it was not as detailed as in the book."
+        },
+        {
+          "zh": "没错，我也是在针对你。",
+          "en": "That's right, I'm also targeting you."
+        },
+        {
+          "zh": "我没给你评理。",
+          "en": "I'm not judging you."
+        },
+        {
+          "zh": "这让我想到一句话，搔痒令人快乐，摆脱瘙痒更快乐。",
+          "en": "This reminds me of a saying, scratching is fun, getting rid of itching is more fun."
+        },
+        {
+          "zh": "我觉得你这种找人评理的行为就像是在搔痒一样，别人针对你其实可能是为了从根上解决你的问题。",
+          "en": "I think your behavior of finding someone to judge is like scratching, and others targeting you may be to solve your problem from the root."
+        },
+        {
+          "zh": "至于能不能起效那就看方法适不适合你了。",
+          "en": "As for whether it can work, it depends on whether the method is suitable for you."
+        },
+        {
+          "zh": "这好像就有点“XY 问题”的意思了。",
+          "en": "This seems to be a bit of the meaning of the 'XY problem'."
+        },
+        {
+          "zh": "如果 OP 比较个人主义的话，那么克服了这个困难就相当于甩开了很多人。",
+          "en": "If OP is more individualistic, then overcoming this difficulty is equivalent to leaving many people behind."
+        },
+        {
+          "zh": "如果 OP 比较集体主义的话，自己变强了才能更好地帮别人。",
+          "en": "If OP is more collectivist, then becoming stronger can help others better."
+        },
+        {
+          "zh": "另外图看不到，你好像设置成注册才能看了？",
+          "en": "Also, the picture is not visible, it seems that you have set it to be visible only after registration?"
+        },
+        {
+          "zh": "还是那个网站默认就是注册才能看？",
+          "en": "Or is that website's default setting to be visible only after registration?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上 SO ，你不用担心提问题被贬，因为会有人热心指导你如何提问。",
+          "en": "On SO, you don't have to worry about your questions being devalued, because someone will enthusiastically guide you on how to ask questions."
+        },
+        {
+          "zh": "你不用担心被人阴阳，因为这种人早就被社区拉黑了。",
+          "en": "You don't have to worry about being sarcastic, because this kind of person has long been blacklisted by the community."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你求人办事就把自己姿态放低，把必要的信息尽量提供全，把你的问题尽量描述清楚。",
+          "en": "When you ask someone for help, lower your posture, provide all the necessary information as much as possible, and describe your questions as clearly as possible."
+        },
+        {
+          "zh": "至于别人的态度，不是你应该计较的事情。",
+          "en": "As for other people's attitudes, it's not something you should care about."
+        },
+        {
+          "zh": "别人没有义务手把手教你。",
+          "en": "Others have no obligation to teach you step by step."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NotLongNil #12 别说得好像国外的月亮就有多圆一样，StackOverflow 只能说是个经过人群筛选的高质量人群社区，其中低质量提问也不少，而且往往是直接就没人回答或者无法回答到点上。",
+          "en": "@NotLongNil #12 Don't say that the moon is rounder abroad, StackOverflow can only be said to be a high-quality community that has been screened by people. There are also many low-quality questions, and often no one answers or cannot answer the point."
+        },
+        {
+          "zh": "你可以说 StackOverflow 会从社区层面直接拉黑掉阴阳怪气、言语过激的人，但低质问题得到的反馈依然不会有什么区别，说白了只是回答者的个人习惯、风格不同。",
+          "en": "You can say that StackOverflow will directly blacklist sarcastic and verbally excessive people from the community level, but the feedback received by low-quality questions will still be no different. In short, it is just the personal habits and styles of the answerers."
+        },
+        {
+          "zh": "在无法得知病根是什么的情况下，盲目地进行治疗，何尝不是一种庸医行为...",
+          "en": "Under the circumstances where it is impossible to know what the root cause is, blind treatment is not a quack doctor's behavior..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@locoz 其实他有没有上下文都无所谓，因为他说的现象真实存在。",
+          "en": "@locoz Actually, it doesn't matter whether he has context or not, because the phenomenon he is talking about really exists."
+        },
+        {
+          "zh": "OP 打码都打成这样了，这绝对跟网暴扯不上任何关系； OP 在这里的发帖和回复彬彬有礼，那起码说明他不像一个不懂得尊重别人的人。",
+          "en": "OP's mosaic is so good that it has absolutely nothing to do with cyber violence; OP's posts and replies here are polite, which at least shows that he is not a person who doesn't know how to respect others."
+        },
+        {
+          "zh": "所以我觉得在这里纠结“事实真相”有点舍本逐末。",
+          "en": "So I think obsessing over the 'truth of the facts' here is a bit of putting the cart before the horse."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "[img][/img]",
+          "en": "[img][/img]"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "GPT 取代的就是这种说话总是带情绪的人好吧，你好好跟他讨论问题他老是见缝插针的怼你，代码谁都容易上手写，但是沟通能力不是谁都具备的。",
+          "en": "GPT replaces this kind of person who always speaks with emotions, you discuss the problem with him properly and he always takes the opportunity to attack you, anyone can easily get started writing code, but not everyone has communication skills."
+        },
+        {
+          "zh": "遇到沟通有问题的人完全可以跟 manager 反馈，沟通能力甚至不如一个鹦鹉学舌的机器人那早晚会被取代的。",
+          "en": "If you encounter someone with communication problems, you can give feedback to the manager. If the communication ability is not even as good as a parrot-like robot, it will be replaced sooner or later."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@locoz 谢谢回答，我觉得我已经很好的遵循了提问的智慧了，当然是该查的都查过，也有自己尝试过。",
+          "en": "@locoz Thank you for your answer. I think I have followed the wisdom of asking questions very well. Of course, I have checked everything that should be checked, and I have also tried it myself."
+        },
+        {
+          "zh": "但是对于一些业务和框架的设计和逻辑的问题我无法让 gpt 理解我的整个意图，因此才会向前辈求助，我也没有出现没人回复问题，被冷暴力这样的情况。",
+          "en": "But for some design and logic issues of business and frameworks, I cannot let gpt understand my entire intention, so I asked the seniors for help. I also did not encounter a situation where no one replied to the question or was subjected to cold violence."
+        },
+        {
+          "zh": "我的问题大概是我逻辑上遇到了问题无法用现有框架解决，于是求助前辈们。",
+          "en": "My problem is probably that I encountered a problem in logic that cannot be solved with the existing framework, so I asked the seniors for help."
+        },
+        {
+          "zh": "但是有个前辈不是针对我的问题而是直接对我的整个结构设计有看法，诚然我也认真听取了他的意见，我觉得很对，但是最后也没对我的问题正面回答。",
+          "en": "But a senior did not target my question but directly had opinions on my entire structural design. I also listened to his opinions carefully, and I think they are very correct, but in the end he did not answer my question directly."
+        },
+        {
+          "zh": "包括答主这个回答也是一样的，不是对“请教问题时被高低一手”这件事发起回答，而又是转移问题针对我了。",
+          "en": "The same is true for this answer from the answerer. It is not an answer to the matter of 'being treated condescendingly when asking for advice', but it is transferring the problem to target me again."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果 op 之前有言语不当或者问太多，这么回能理解。",
+          "en": "If op had inappropriate words or asked too many questions before, this reply is understandable."
+        },
+        {
+          "zh": "如果只是提奇葩问题，大神掠过就好，没必要接下回答还这种语气吧。",
+          "en": "If it's just asking strange questions, the gods should skip it, there's no need to take the answer and use this tone."
+        },
+        {
+          "zh": "幸苦码字只是为了彰显“只有我懂我牛”的气息吗。",
+          "en": "Is it just to show the aura of 'Only I understand, I am awesome' for the hard work of coding?"
+        },
+        {
+          "zh": "要是能真正学到点啥，认栽多练。",
+          "en": "If you can really learn something, admit your failure and practice more."
+        },
+        {
+          "zh": "要是啥都学不到凭啥单方面接受负面情绪。",
+          "en": "If you can't learn anything, why should you unilaterally accept negative emotions."
+        },
+        {
+          "zh": "楼上那么多推荐 gpt4 ，就是因为它回答知识不会附加阴阳怪气，反馈及时，哪怕错了也不嘴硬。",
+          "en": "So many people above recommend gpt4, because its answers to knowledge do not add sarcasm, feedback is timely, and even if it is wrong, it does not insist on its own opinion."
+        },
+        {
+          "zh": "交流是门艺术，但不是人人都会。",
+          "en": "Communication is an art, but not everyone can do it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shendaowu 谢谢答主的回答和推荐，听你介绍感觉这本书好像比较符合我现在学习的情况，想学但是害怕问问题被贬低。",
+          "en": "@shendaowu Thank you for the answer and recommendation from the answerer. Listening to your introduction, I feel that this book seems to be more suitable for my current learning situation. I want to learn but I am afraid of being devalued when asking questions."
+        },
+        {
+          "zh": "诚然经过这件事我也在思考如何更优雅的向别人请教这个问题，以后也想尽可能避免这种情况发生，虽然我对那人有怨言，但是还是十分感谢他的回答。",
+          "en": "Of course, after this incident, I am also thinking about how to ask others for this question more elegantly, and I want to avoid this situation as much as possible in the future. Although I have complaints about that person, I am still very grateful for his answer."
+        },
+        {
+          "zh": "关于图片我这即便开了无痕也没问题？",
+          "en": "Regarding the picture, is there no problem even if I open incognito mode?"
+        },
+        {
+          "zh": "markdown 走的 imgse 图床的链接，应该是没问题的，应该是答主那边的网络的问题。",
+          "en": "Markdown uses the link of the imgse image bed, there should be no problem, it should be the problem of the answerer's network."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kkjz #8在没有上下文的情况下，旁人无法判断实际情况，你说的终究只是你说的，我们在这只能看出你当下确实是态度很好、描述很有逻辑，但无法得知你当时是什么样。",
+          "en": "@kkjz #8 Without context, others cannot judge the actual situation. What you said is ultimately just what you said. Here, we can only see that your attitude is very good and your description is very logical, but we cannot know what you were like at the time."
+        },
+        {
+          "zh": "而且还是之前就说过的，如果你都这样了他还阴阳怪气，那是他傻逼。",
+          "en": "And as I said before, if you are like this and he is still sarcastic, then he is stupid."
+        },
+        {
+          "zh": "如果说只看你的片面之词就帮着你一起骂那人，又或者是大开地图炮，那只是在输出情绪、在安抚你，并没有触碰到核心问题，严重点甚至完全可以说是在跟风、网暴。",
+          "en": "If you only look at your one-sided words and help you scold that person, or open a map cannon, it is just to output emotions and comfort you. It does not touch the core issue. Seriously, it can even be said to be following the trend and cyber violence."
+        },
+        {
+          "zh": "---这么说吧，我这里进的群非常多，并且日常也有在各个群收集信息的习惯，所以我可以明确告诉你，这种人在整体上的占比并不大，但在问问题的人里面，问题本身出问题的占比非常大。",
+          "en": "---Let me put it this way, I have joined many groups here, and I also have the habit of collecting information in various groups on a daily basis, so I can clearly tell you that the proportion of this kind of people in the overall is not large, but among those who ask questions, the proportion of problems with the questions themselves is very large."
+        },
+        {
+          "zh": "为什么要先假设你提的问题可能有问题，因为这本身就是个大概率出现在群里的事件，而你没有证明你的问题没有问题，在不输出情绪的情况下这就没法说。",
+          "en": "Why should we first assume that there may be a problem with the question you asked? Because this is a high probability event that occurs in the group, and you have not proved that your question has no problem. This cannot be said without outputting emotions."
+        },
+        {
+          "zh": "如果你提的问题有问题那别人还可以帮你优化问题，但如果连提的问题具体是什么样的，那就只剩下输出情绪了。",
+          "en": "If there is a problem with the question you ask, then others can help you optimize the question, but if you don't even know what the question is specifically, then there is only outputting emotions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "仅个人觉得多数原因可能是因为所谓的暴躁老哥当时生活过的不如意，类似于同一个家庭，经济形势好时家里的氛围和不好时的氛围，也类似于我一个朋友当年准备考公和上岸后整个人的精神面貌对比。",
+          "en": "Personally, I think that the majority of the reason may be that the so-called irritable brother was not living well at the time, similar to the atmosphere in the home when the economic situation is good and the atmosphere when it is not good, and also similar to the contrast between my friend's mental outlook when he was preparing for the civil service exam and after he passed the exam."
+        },
+        {
+          "zh": "考虑到国内的目前的形势这种人还会更多。",
+          "en": "Considering the current situation in China, there will be more such people."
+        },
+        {
+          "zh": "当然也有素质就是不行的人，不过我感觉如果那个人技术很牛，正常情况下本身的素质不会特别差。",
+          "en": "Of course, there are also people whose quality is not good, but I feel that if that person's technology is very good, under normal circumstances, his own quality will not be particularly bad."
+        },
+        {
+          "zh": "像 OP 这种助人为乐，好言相告的品质属于是高级特性了。",
+          "en": "The quality of OP, who is helpful and kindly tells others, is a high-level feature."
+        },
+        {
+          "zh": "OP 也可以改改心态，毕竟别人也解答了你的问题，拿到自己想要的东西就行了，别放在心上就无所谓了",
+          "en": "OP can also change his mentality. After all, others have also answered your questions. Just get what you want, and it doesn't matter if you don't take it to heart."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

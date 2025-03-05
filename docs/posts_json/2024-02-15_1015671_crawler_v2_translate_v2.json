@@ -1,0 +1,215 @@
+{
+  "id": 1015671,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "人类目前算法领域最高的结晶,是什么?",
+          "en": "What is the highest crystallization of human algorithms currently?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我目前能想到就是 2 个",
+          "en": "I can currently think of 2:"
+        },
+        {
+          "zh": "1:航空领域那种稳定系统吧,听说都运行几十年不出错了",
+          "en": "1: The kind of stable system in the aviation field, I heard that it has been running for decades without errors"
+        },
+        {
+          "zh": "2:应该就是机器学习,代表作就是 GPT 了吧",
+          "en": "2: It should be machine learning, and the representative work is GPT."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "文无第一。就我个人而言，我认为傅里叶变换是有史以来最伟大的算法。",
+          "en": "There is no first in literature. As for me personally, I think the Fourier Transform is the greatest algorithm of all time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "两个例子应该都不算是算法的最高结晶，只能说是算法产物的最佳代表。而且像航天器稳定控制系统几十年都很稳定，是因为最简化编程，比如 NASA 的规范：只用 if ，避免 goto 和一切 jmp ，所有循环使用 for 并规定静态极限值，初始后禁止动态分配内存等等……跟电路一样的，不是开就是关，能不稳定吗",
+          "en": "Neither of these examples are the highest crystallization of algorithms, but rather the best representatives of algorithmic products. Moreover, the reason why spacecraft stabilization control systems have been stable for decades is due to simplified programming, such as NASA's specifications: only use if, avoid goto and all jmp, use for for all loops and specify static limit values, and prohibit dynamic memory allocation after initialization, etc... It's like a circuit, either on or off, how can it be unstable?"
+        },
+        {
+          "zh": "人类在算法领域能达到最高的境界就是智慧。",
+          "en": "The highest state that human beings can achieve in the field of algorithms is wisdom."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我投快速傅里叶变换一票",
+          "en": "I vote for the Fast Fourier Transform."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你说的是工程结晶，算法仅仅是一个小部分。若是非要评个伟大的计算机算法，个人觉得是神经网络。",
+          "en": "You are talking about engineering crystallization, and algorithms are only a small part of it. If you have to evaluate a great computer algorithm, I personally think it is a neural network."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我第一个想到的是秀尔算法。",
+          "en": "The first thing that comes to my mind is Shor's algorithm."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "航空领域的系统，哪有几十年不出错。波音 737 MAX 摔了才几年就忘了？ MCAS 系统软件层面没问题吗？",
+          "en": "Aviation systems, which have no errors for decades. Have you forgotten that the Boeing 737 MAX crashed only a few years ago? Is there no problem with the MCAS system software?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@serafin #5 可能楼主想说航天领域？",
+          "en": "@serafin #5 Maybe the poster meant the aerospace field?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "非对称加密",
+          "en": "Asymmetric encryption"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "第一个 np 问题 sat",
+          "en": "The first NP problem SAT"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这个问题，懂的越少，回答的越快。如果你问小学生，他可能说是一元一次方程。如果你问初中生，他可能说是二次函数。如果你问高中生，他可能说是解析几何、高阶导数。如果你问大学生，他可能在想傅立叶变换、多重积分、多元微分、矩阵到底哪个更难。。",
+          "en": "The less you know about this question, the faster you answer. If you ask a primary school student, they might say a linear equation with one variable. If you ask a junior high school student, they might say a quadratic function. If you ask a high school student, they might say analytic geometry and higher-order derivatives. If you ask a college student, they may be thinking about which is more difficult, Fourier transform, multiple integrals, multivariate differential, or matrices..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@rus4db ntt 了解一下 tfhe 了解一下 ckks 了解一下",
+          "en": "@rus4db Learn about NTT, learn about TFHE, learn about CKKS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@serafin 乐 shor’s algorithm 还能这么翻译",
+          "en": "@serafin Lol, Shor's algorithm can also be translated like this."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我觉得是压缩算法，各种“压缩”了数据密度的、有损的无损的否则想象不到硬盘会有多大…Mac 最低配肯定不会用 512G 硬盘😂",
+          "en": "I think it is the compression algorithm, which \"compresses\" the data density in various ways, lossy and lossless, otherwise it is unimaginable how big the hard drive would be... The lowest configuration of Mac will definitely not use a 512G hard drive 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "0x5f3759df",
+          "en": "0x5f3759df"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "卡尔曼滤波器？自动微分？ page rank ？暂时想到的几个比较牛逼而且对人类社会影响巨大的算法。",
+          "en": "Kalman filter? Automatic differentiation? Page Rank? A few more awesome algorithms that come to mind that have a huge impact on human society."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "FFT 我能想到这个算法应该是之前看到一个视频&ab_channel=Veritasium",
+          "en": "For FFT, the algorithm that I can think of should be a video that I saw before &ab_channel=Veritasium"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "帖子里 1 的例子就和觉得军工代码一定很高端技术很好一样实际上并不是。。。这类代码为了稳定往往技术都非常老，非常多的功能都禁止你使用。写出的代码很多都很反人类的",
+          "en": "The example 1 in the post is the same as thinking that military code must be very high-end and technologically good, but it is not actually... To maintain stability, this type of code often uses very old technology, and many functions are prohibited from using. The code written is often very anti-human."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "算法和应用是两回事。应用更多是工程问题，算法是一些策略的具体实现。",
+          "en": "Algorithms and applications are two different things. Applications are more of an engineering problem, and algorithms are the specific implementation of some strategies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该是董宇辉的团队",
+          "en": "It should be Dong Yuhui's team."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "外卖、快递、导航",
+          "en": "Food delivery, express delivery, navigation"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

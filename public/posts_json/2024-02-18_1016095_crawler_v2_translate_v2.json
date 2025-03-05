@@ -1,0 +1,203 @@
+{
+  "id": 1016095,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "新年第一天，你们收到了开工红包没？",
+          "en": "First day of the New Year, did you receive a 'start work' red envelope?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我没有",
+          "en": "I didn't."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "年终都没有还想着要开工？",
+          "en": "Didn't even get an end-of-year bonus and you're already thinking about the start-of-work bonus?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "😅 我们发了张彩票 乐",
+          "en": "😅 We got a lottery ticket, haha"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "俺也没有",
+          "en": "I also don't have one"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "什么是开工红包",
+          "en": "What is a 'start work' red envelope?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "听说有，但是现在没收到",
+          "en": "Heard there is one, but haven't received it yet."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "俺也一样（张飞抱拳）",
+          "en": "Same here (Zhang Fei holding fists in salute)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "今年开了不好的先例",
+          "en": "This year set a bad precedent."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "88",
+          "en": "88"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "按照惯例应该还是 100 元",
+          "en": "According to convention, it should still be 100 yuan."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在广州工作，应该是不存在没有这种情况，再不济利是应该是有的",
+          "en": "Working in Guangzhou, there shouldn't be a case where there isn't one; at the very least, there should be a 'lai see' (red envelope)."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "昨天就上班了，并没有一点动静，就是个普通的工作日",
+          "en": "Went to work yesterday and there wasn't any movement, just a normal workday."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "新年公司没倒闭，真好，又活了一年",
+          "en": "The company didn't go bankrupt in the New Year, great, survived another year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "5 块",
+          "en": "5 yuan"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我们循例都会一大帮人扫楼",
+          "en": "We habitually have a large group of people 'sweep the floors'."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该有, 但是人事部貌似还没上班...",
+          "en": "Should have one, but the HR department doesn't seem to be at work yet..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这是南方公司特有的风俗吧？开工利是。北方的公司比较少见。",
+          "en": "Is this a custom specific to Southern companies? The 'start work' red envelope. It's less common in Northern companies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "收到了新年快乐，开工大吉",
+          "en": "Received 'Happy New Year, Good luck at work'"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "收到了！ 888",
+          "en": "Received! 888"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没有那种东西",
+          "en": "There is no such thing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "100 京东卡",
+          "en": "100 Yuan JD card"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}
