@@ -3,7 +3,7 @@ import os
 import glob
 
 
-def merge_json_files(input_dir="posts_json", output_dir="public", output_filename="all_posts.json"):
+def merge_json_files(input_dir="posts_json", output_dir="src", output_filename="all_posts.json"):
     """
     Merges all JSON files from input_dir into a single JSON array
     and saves it to output_dir/output_filename.
