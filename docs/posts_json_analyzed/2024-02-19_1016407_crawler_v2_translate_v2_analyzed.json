@@ -1,0 +1,3721 @@
+{
+  "id": 1016407,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "en": "Does your company have a New Year's red envelope?",
+          "zh": "大家公司有开年红包吗？",
+          "analysis": [
+            {
+              "token": "Does",
+              "candidates": [
+                {
+                  "token": "Does",
+                  "probability": 0.5072
+                },
+                {
+                  "token": "Do",
+                  "probability": 0.3275
+                },
+                {
+                  "token": "Is",
+                  "probability": 0.1226
+                },
+                {
+                  "token": "Are",
+                  "probability": 0.0419
+                }
+              ]
+            },
+            {
+              "token": " your",
+              "candidates": [
+                {
+                  "token": "your",
+                  "probability": 0.4925
+                },
+                {
+                  "token": "everyone",
+                  "probability": 0.204
+                },
+                {
+                  "token": "the",
+                  "probability": 0.1282
+                },
+                {
+                  "token": "my",
+                  "probability": 0.0412
+                },
+                {
+                  "token": "our",
+                  "probability": 0.0389
+                }
+              ]
+            },
+            {
+              "token": " company",
+              "candidates": [
+                {
+                  "token": "company",
+                  "probability": 0.996
+                }
+              ]
+            },
+            {
+              "token": " have",
+              "candidates": [
+                {
+                  "token": "offer",
+                  "probability": 0.4099
+                },
+                {
+                  "token": "give",
+                  "probability": 0.401
+                },
+                {
+                  "token": "have",
+                  "probability": 0.1219
+                },
+                {
+                  "token": "distribute",
+                  "probability": 0.0204
+                },
+                {
+                  "token": "provide",
+                  "probability": 0.0098
+                }
+              ]
+            },
+            {
+              "token": " a",
+              "candidates": [
+                {
+                  "token": "a",
+                  "probability": 0.5857
+                },
+                {
+                  "token": "New",
+                  "probability": 0.1667
+                },
+                {
+                  "token": "year",
+                  "probability": 0.088
+                },
+                {
+                  "token": "an",
+                  "probability": 0.0672
+                },
+                {
+                  "token": "the",
+                  "probability": 0.0388
+                }
+              ]
+            },
+            {
+              "token": " New",
+              "candidates": [
+                {
+                  "token": "New",
+                  "probability": 0.7409
+                },
+                {
+                  "token": "year",
+                  "probability": 0.1678
+                },
+                {
+                  "token": "new",
+                  "probability": 0.023
+                },
+                {
+                  "token": "welcome",
+                  "probability": 0.0207
+                },
+                {
+                  "token": "start",
+                  "probability": 0.012
+                }
+              ]
+            },
+            {
+              "token": " Year",
+              "candidates": [
+                {
+                  "token": "Year",
+                  "probability": 0.999
+                }
+              ]
+            },
+            {
+              "token": "'s",
+              "candidates": [
+                {
+                  "token": "'s",
+                  "probability": 0.5925
+                },
+                {
+                  "token": "bonus",
+                  "probability": 0.0918
+                },
+                {
+                  "token": "red",
+                  "probability": 0.0699
+                },
+                {
+                  "token": "’s",
+                  "probability": 0.0425
+                },
+                {
+                  "token": "gift",
+                  "probability": 0.0382
+                }
+              ]
+            },
+            {
+              "token": " red",
+              "candidates": [
+                {
+                  "token": "bonus",
+                  "probability": 0.4242
+                },
+                {
+                  "token": "Eve",
+                  "probability": 0.3279
+                },
+                {
+                  "token": "Day",
+                  "probability": 0.0606
+                },
+                {
+                  "token": "红包",
+                  "probability": 0.0279
+                },
+                {
+                  "token": "gift",
+                  "probability": 0.0253
+                }
+              ]
+            },
+            {
+              "token": " envelope",
+              "candidates": [
+                {
+                  "token": "envelope",
+                  "probability": 0.9144
+                },
+                {
+                  "token": "packet",
+                  "probability": 0.0796
+                }
+              ]
+            },
+            {
+              "token": "?",
+              "candidates": [
+                {
+                  "token": "?",
+                  "probability": 0.9239
+                },
+                {
+                  "token": "for",
+                  "probability": 0.0291
+                },
+                {
+                  "token": "this",
+                  "probability": 0.0159
+                },
+                {
+                  "token": "or",
+                  "probability": 0.0069
+                },
+                {
+                  "token": "giveaway",
+                  "probability": 0.0028
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "en": "I'll start: \r\nLocated in Hangzhou, none.",
+          "zh": "我先来：\r\n坐标杭州，无。",
+          "analysis": [
+            {
+              "token": "I",
+              "candidates": [
+                {
+                  "token": "I",
+                  "probability": 0.9171
+                },
+                {
+                  "token": "First",
+                  "probability": 0.0135
+                },
+                {
+                  "token": "Here",
+                  "probability": 0.0078
+                },
+                {
+                  "token": "Sure",
+                  "probability": 0.0076
+                },
+                {
+                  "token": "My",
+                  "probability": 0.0067
+                }
+              ]
+            },
+            {
+              "token": "'ll",
+              "candidates": [
+                {
+                  "token": "'ll",
+                  "probability": 0.5563
+                },
+                {
+                  "token": "'m",
+                  "probability": 0.1345
+                },
+                {
+                  "token": "will",
+                  "probability": 0.0824
+                },
+                {
+                  "token": "come",
+                  "probability": 0.0683
+                },
+                {
+                  "token": "go",
+                  "probability": 0.0286
+                }
+              ]
+            },
+            {
+              "token": " start",
+              "candidates": [
+                {
+                  "token": "start",
+                  "probability": 0.3711
+                },
+                {
+                  "token": "go",
+                  "probability": 0.2952
+                },
+                {
+                  "token": "come",
+                  "probability": 0.1798
+                },
+                {
+                  "token": "take",
+                  "probability": 0.0341
+                },
+                {
+                  "token": "be",
+                  "probability": 0.0278
+                }
+              ]
+            },
+            {
+              "token": ":",
+              "candidates": [
+                {
+                  "token": ":",
+                  "probability": 0.6084
+                },
+                {
+                  "token": ":",
+                  "probability": 0.2473
+                },
+                {
+                  "token": "with",
+                  "probability": 0.0385
+                },
+                {
+                  "token": "first",
+                  "probability": 0.0262
+                },
+                {
+                  "token": ":",
+                  "probability": 0.0227
+                }
+              ]
+            },
+            {
+              "token": " \r\n",
+              "candidates": [
+                {
+                  "token": "",
+                  "probability": 0.4723
+                },
+                {
+                  "token": "",
+                  "probability": 0.1918
+                },
+                {
+                  "token": "",
+                  "probability": 0.0898
+                },
+                {
+                  "token": "",
+                  "probability": 0.0527
+                },
+                {
+                  "token": "",
+                  "probability": 0.0368
+                }
+              ]
+            },
+            {
+              "token": "Located",
+              "candidates": [
+                {
+                  "token": "Coordinates",
+                  "probability": 0.3195
+                },
+                {
+                  "token": "Coordinate",
+                  "probability": 0.2564
+                },
+                {
+                  "token": "Location",
+                  "probability": 0.0762
+                },
+                {
+                  "token": "No",
+                  "probability": 0.0381
+                },
+                {
+                  "token": "coordinate",
+                  "probability": 0.0356
+                }
+              ]
+            },
+            {
+              "token": " in",
+              "candidates": [
+                {
+                  "token": "in",
+                  "probability": 0.9976
+                }
+              ]
+            },
+            {
+              "token": " Hang",
+              "candidates": [
+                {
+                  "token": "Hang",
+                  "probability": 0.9725
+                },
+                {
+                  "token": ":",
+                  "probability": 0.0136
+                },
+                {
+                  "token": "Shanghai",
+                  "probability": 0.0046
+                }
+              ]
+            },
+            {
+              "token": "zhou",
+              "candidates": [
+                {
+                  "token": "zhou",
+                  "probability": 0.9995
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "candidates": [
+                {
+                  "token": ",",
+                  "probability": 0.9297
+                },
+                {
+                  "token": ".",
+                  "probability": 0.0649
+                }
+              ]
+            },
+            {
+              "token": " none",
+              "candidates": [
+                {
+                  "token": "no",
+                  "probability": 0.2696
+                },
+                {
+                  "token": "China",
+                  "probability": 0.2645
+                },
+                {
+                  "token": "there",
+                  "probability": 0.2358
+                },
+                {
+                  "token": "none",
+                  "probability": 0.0926
+                },
+                {
+                  "token": "it",
+                  "probability": 0.0172
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ".",
+                  "probability": 0.9441
+                },
+                {
+                  "token": "of",
+                  "probability": 0.0285
+                },
+                {
+                  "token": "available",
+                  "probability": 0.007
+                },
+                {
+                  "token": "here",
+                  "probability": 0.0065
+                },
+                {
+                  "token": "found",
+                  "probability": 0.0015
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "en": "WeChat lucky red envelope 2.68",
+          "zh": "微信手气红包 2.68",
+          "analysis": [
+            {
+              "token": "We",
+              "candidates": [
+                {
+                  "token": "We",
+                  "probability": 0.9364
+                },
+                {
+                  "token": "L",
+                  "probability": 0.0125
+                },
+                {
+                  "token": "QQ",
+                  "probability": 0.004
+                },
+                {
+                  "token": "Double",
+                  "probability": 0.004
+                },
+                {
+                  "token": "J",
+                  "probability": 0.0037
+                }
+              ]
+            },
+            {
+              "token": "Chat",
+              "candidates": [
+                {
+                  "token": "Chat",
+                  "probability": 0.9551
+                },
+                {
+                  "token": "chat",
+                  "probability": 0.0443
+                }
+              ]
+            },
+            {
+              "token": " lucky",
+              "candidates": [
+                {
+                  "token": "lucky",
+                  "probability": 0.4597
+                },
+                {
+                  "token": "Fortune",
+                  "probability": 0.0977
+                },
+                {
+                  "token": "Red",
+                  "probability": 0.0961
+                },
+                {
+                  "token": "Lucky",
+                  "probability": 0.0835
+                },
+                {
+                  "token": "L",
+                  "probability": 0.028
+                }
+              ]
+            },
+            {
+              "token": " red",
+              "candidates": [
+                {
+                  "token": "red",
+                  "probability": 0.9287
+                },
+                {
+                  "token": "money",
+                  "probability": 0.0373
+                },
+                {
+                  "token": "envelope",
+                  "probability": 0.0083
+                },
+                {
+                  "token": "draw",
+                  "probability": 0.0024
+                },
+                {
+                  "token": "h",
+                  "probability": 0.0018
+                }
+              ]
+            },
+            {
+              "token": " envelope",
+              "candidates": [
+                {
+                  "token": "envelope",
+                  "probability": 0.5856
+                },
+                {
+                  "token": "packets",
+                  "probability": 0.1523
+                },
+                {
+                  "token": "envelopes",
+                  "probability": 0.1308
+                },
+                {
+                  "token": "packet",
+                  "probability": 0.1302
+                }
+              ]
+            },
+            {
+              "token": " ",
+              "candidates": [
+                {
+                  "token": "",
+                  "probability": 0.9381
+                },
+                {
+                  "token": ",",
+                  "probability": 0.0132
+                },
+                {
+                  "token": ":",
+                  "probability": 0.0094
+                },
+                {
+                  "token": "-",
+                  "probability": 0.009
+                },
+                {
+                  "token": "with",
+                  "probability": 0.0078
+                }
+              ]
+            },
+            {
+              "token": "2",
+              "candidates": [
+                {
+                  "token": "2",
+                  "probability": 0.9984
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ".",
+                  "probability": 0.9999
+                }
+              ]
+            },
+            {
+              "token": "6",
+              "candidates": [
+                {
+                  "token": "6",
+                  "probability": 0.8719
+                },
+                {
+                  "token": "",
+                  "probability": 0.128
+                }
+              ]
+            },
+            {
+              "token": "8",
+              "candidates": [
+                {
+                  "token": "8",
+                  "probability": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "It's always 20 every year. These three 20 bills are quietly lying on my bedside table. I have no chance and can't remember to spend them. I plan to take them to my mother when I go home for the New Year next year.",
+          "zh": "每年都是 20 ，这三张 20 纸币都静静地躺在我床头柜里，没机会也想不起来花出去我计划明年过年回家的时候，带给我妈",
+          "analysis": [
+            {
+              "token": "It",
+              "candidates": [
+                {
+                  "token": "Every",
+                  "probability": 0.5251
+                },
+                {
+                  "token": "Each",
+                  "probability": 0.2874
+                },
+                {
+                  "token": "It",
+                  "probability": 0.1215
+                },
+                {
+                  "token": "This",
+                  "probability": 0.0215
+                },
+                {
+                  "token": "They",
+                  "probability": 0.0061
+                }
+              ]
+            },
+            {
+              "token": "'s",
+              "candidates": [
+                {
+                  "token": "'s",
+                  "probability": 0.7193
+                },
+                {
+                  "token": "is",
+                  "probability": 0.1865
+                },
+                {
+                  "token": "’s",
+                  "probability": 0.0558
+                },
+                {
+                  "token": "was",
+                  "probability": 0.0097
+                },
+                {
+                  "token": "always",
+                  "probability": 0.0091
+                }
+              ]
+            },
+            {
+              "token": " always",
+              "candidates": [
+                {
+                  "token": "always",
+                  "probability": 0.8517
+                },
+                {
+                  "token": "",
+                  "probability": 0.059
+                },
+                {
+                  "token": "all",
+                  "probability": 0.0284
+                },
+                {
+                  "token": "been",
+                  "probability": 0.0113
+                },
+                {
+                  "token": "$",
+                  "probability": 0.0087
+                }
+              ]
+            },
+            {
+              "token": " ",
+              "candidates": [
+                {
+                  "token": "",
+                  "probability": 0.6835
+                },
+                {
+                  "token": "$",
+                  "probability": 0.2012
+                },
+                {
+                  "token": "twenty",
+                  "probability": 0.0533
+                },
+                {
+                  "token": "been",
+                  "probability": 0.0172
+                },
+                {
+                  "token": "US",
+                  "probability": 0.0076
+                }
+              ]
+            },
+            {
+              "token": "2",
+              "candidates": [
+                {
+                  "token": "2",
+                  "probability": 0.9972
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 0.9997
+                }
+              ]
+            },
+            {
+              "token": " every",
+              "candidates": [
+                {
+                  "token": ",",
+                  "probability": 0.495
+                },
+                {
+                  "token": "every",
+                  "probability": 0.1834
+                },
+                {
+                  "token": "each",
+                  "probability": 0.0716
+                },
+                {
+                  "token": "yuan",
+                  "probability": 0.0626
+                },
+                {
+                  "token": "dollars",
+                  "probability": 0.0512
+                }
+              ]
+            },
+            {
+              "token": " year",
+              "candidates": [
+                {
+                  "token": "year",
+                  "probability": 0.9983
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ",",
+                  "probability": 0.626
+                },
+                {
+                  "token": ".",
+                  "probability": 0.2211
+                },
+                {
+                  "token": ";",
+                  "probability": 0.0709
+                },
+                {
+                  "token": "-",
+                  "probability": 0.0402
+                },
+                {
+                  "token": "and",
+                  "probability": 0.0131
+                }
+              ]
+            },
+            {
+              "token": " These",
+              "candidates": [
+                {
+                  "token": "These",
+                  "probability": 0.5102
+                },
+                {
+                  "token": "The",
+                  "probability": 0.3089
+                },
+                {
+                  "token": "Three",
+                  "probability": 0.0671
+                },
+                {
+                  "token": "All",
+                  "probability": 0.0531
+                },
+                {
+                  "token": "I",
+                  "probability": 0.0147
+                }
+              ]
+            },
+            {
+              "token": " three",
+              "candidates": [
+                {
+                  "token": "three",
+                  "probability": 0.995
+                }
+              ]
+            },
+            {
+              "token": " ",
+              "candidates": [
+                {
+                  "token": "",
+                  "probability": 0.7959
+                },
+                {
+                  "token": "twenty",
+                  "probability": 0.1464
+                },
+                {
+                  "token": "$",
+                  "probability": 0.0143
+                },
+                {
+                  "token": "fifty",
+                  "probability": 0.0089
+                },
+                {
+                  "token": "notes",
+                  "probability": 0.0058
+                }
+              ]
+            },
+            {
+              "token": "2",
+              "candidates": [
+                {
+                  "token": "2",
+                  "probability": 0.9986
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 1.0
+                }
+              ]
+            },
+            {
+              "token": " bills",
+              "candidates": [
+                {
+                  "token": "-y",
+                  "probability": 0.6554
+                },
+                {
+                  "token": "bills",
+                  "probability": 0.1093
+                },
+                {
+                  "token": "-b",
+                  "probability": 0.0736
+                },
+                {
+                  "token": "-dollar",
+                  "probability": 0.0306
+                },
+                {
+                  "token": "yuan",
+                  "probability": 0.027
+                }
+              ]
+            },
+            {
+              "token": " are",
+              "candidates": [
+                {
+                  "token": "lie",
+                  "probability": 0.3151
+                },
+                {
+                  "token": "are",
+                  "probability": 0.2916
+                },
+                {
+                  "token": "lay",
+                  "probability": 0.1102
+                },
+                {
+                  "token": "have",
+                  "probability": 0.0782
+                },
+                {
+                  "token": "quietly",
+                  "probability": 0.074
+                }
+              ]
+            },
+            {
+              "token": " quietly",
+              "candidates": [
+                {
+                  "token": "quietly",
+                  "probability": 0.4824
+                },
+                {
+                  "token": "lying",
+                  "probability": 0.401
+                },
+                {
+                  "token": "just",
+                  "probability": 0.0224
+                },
+                {
+                  "token": "calmly",
+                  "probability": 0.0154
+                },
+                {
+                  "token": "laid",
+                  "probability": 0.0091
+                }
+              ]
+            },
+            {
+              "token": " lying",
+              "candidates": [
+                {
+                  "token": "lying",
+                  "probability": 0.8104
+                },
+                {
+                  "token": "sitting",
+                  "probability": 0.0732
+                },
+                {
+                  "token": "resting",
+                  "probability": 0.0275
+                },
+                {
+                  "token": "laying",
+                  "probability": 0.0199
+                },
+                {
+                  "token": "on",
+                  "probability": 0.0188
+                }
+              ]
+            },
+            {
+              "token": " on",
+              "candidates": [
+                {
+                  "token": "on",
+                  "probability": 0.952
+                },
+                {
+                  "token": "in",
+                  "probability": 0.0205
+                },
+                {
+                  "token": "at",
+                  "probability": 0.01
+                },
+                {
+                  "token": "beside",
+                  "probability": 0.0064
+                },
+                {
+                  "token": "by",
+                  "probability": 0.0055
+                }
+              ]
+            },
+            {
+              "token": " my",
+              "candidates": [
+                {
+                  "token": "my",
+                  "probability": 0.9632
+                },
+                {
+                  "token": "the",
+                  "probability": 0.0296
+                }
+              ]
+            },
+            {
+              "token": " bedside",
+              "candidates": [
+                {
+                  "token": "bedside",
+                  "probability": 0.941
+                },
+                {
+                  "token": "night",
+                  "probability": 0.0574
+                }
+              ]
+            },
+            {
+              "token": " table",
+              "candidates": [
+                {
+                  "token": "table",
+                  "probability": 0.9099
+                },
+                {
+                  "token": "cabinet",
+                  "probability": 0.0733
+                },
+                {
+                  "token": "drawer",
+                  "probability": 0.0072
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ",",
+                  "probability": 0.7286
+                },
+                {
+                  "token": ".",
+                  "probability": 0.1172
+                },
+                {
+                  "token": ";",
+                  "probability": 0.0757
+                },
+                {
+                  "token": "and",
+                  "probability": 0.0419
+                },
+                {
+                  "token": "-",
+                  "probability": 0.0098
+                }
+              ]
+            },
+            {
+              "token": " I",
+              "candidates": [
+                {
+                  "token": "I",
+                  "probability": 0.902
+                },
+                {
+                  "token": "They",
+                  "probability": 0.0296
+                },
+                {
+                  "token": "It",
+                  "probability": 0.0229
+                },
+                {
+                  "token": "Never",
+                  "probability": 0.0083
+                },
+                {
+                  "token": "No",
+                  "probability": 0.0063
+                }
+              ]
+            },
+            {
+              "token": " have",
+              "candidates": [
+                {
+                  "token": "can",
+                  "probability": 0.4168
+                },
+                {
+                  "token": "never",
+                  "probability": 0.1697
+                },
+                {
+                  "token": "don",
+                  "probability": 0.1138
+                },
+                {
+                  "token": "'ve",
+                  "probability": 0.0721
+                },
+                {
+                  "token": "have",
+                  "probability": 0.0659
+                }
+              ]
+            },
+            {
+              "token": " no",
+              "candidates": [
+                {
+                  "token": "no",
+                  "probability": 0.7379
+                },
+                {
+                  "token": "never",
+                  "probability": 0.1929
+                },
+                {
+                  "token": "forgotten",
+                  "probability": 0.0331
+                },
+                {
+                  "token": "not",
+                  "probability": 0.015
+                },
+                {
+                  "token": "absolutely",
+                  "probability": 0.0077
+                }
+              ]
+            },
+            {
+              "token": " chance",
+              "candidates": [
+                {
+                  "token": "chance",
+                  "probability": 0.3731
+                },
+                {
+                  "token": "idea",
+                  "probability": 0.3052
+                },
+                {
+                  "token": "opportunity",
+                  "probability": 0.1121
+                },
+                {
+                  "token": "memory",
+                  "probability": 0.0474
+                },
+                {
+                  "token": "intention",
+                  "probability": 0.0408
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "candidates": [
+                {
+                  "token": "to",
+                  "probability": 0.3716
+                },
+                {
+                  "token": "or",
+                  "probability": 0.3426
+                },
+                {
+                  "token": "of",
+                  "probability": 0.1463
+                },
+                {
+                  "token": ",",
+                  "probability": 0.0719
+                },
+                {
+                  "token": "not",
+                  "probability": 0.0175
+                }
+              ]
+            },
+            {
+              "token": " can",
+              "candidates": [
+                {
+                  "token": "no",
+                  "probability": 0.3167
+                },
+                {
+                  "token": "don",
+                  "probability": 0.1389
+                },
+                {
+                  "token": "can",
+                  "probability": 0.1222
+                },
+                {
+                  "token": "I",
+                  "probability": 0.0675
+                },
+                {
+                  "token": "cannot",
+                  "probability": 0.0661
+                }
+              ]
+            },
+            {
+              "token": "'t",
+              "candidates": [
+                {
+                  "token": "'t",
+                  "probability": 0.9343
+                },
+                {
+                  "token": "’t",
+                  "probability": 0.053
+                },
+                {
+                  "token": "never",
+                  "probability": 0.0074
+                }
+              ]
+            },
+            {
+              "token": " remember",
+              "candidates": [
+                {
+                  "token": "even",
+                  "probability": 0.5213
+                },
+                {
+                  "token": "remember",
+                  "probability": 0.2154
+                },
+                {
+                  "token": "recall",
+                  "probability": 0.1099
+                },
+                {
+                  "token": "think",
+                  "probability": 0.0844
+                },
+                {
+                  "token": "help",
+                  "probability": 0.0349
+                }
+              ]
+            },
+            {
+              "token": " to",
+              "candidates": [
+                {
+                  "token": "spending",
+                  "probability": 0.664
+                },
+                {
+                  "token": "to",
+                  "probability": 0.2275
+                },
+                {
+                  "token": "using",
+                  "probability": 0.0683
+                },
+                {
+                  "token": "if",
+                  "probability": 0.0061
+                },
+                {
+                  "token": "how",
+                  "probability": 0.0058
+                }
+              ]
+            },
+            {
+              "token": " spend",
+              "candidates": [
+                {
+                  "token": "spend",
+                  "probability": 0.7476
+                },
+                {
+                  "token": "use",
+                  "probability": 0.2296
+                },
+                {
+                  "token": "take",
+                  "probability": 0.0057
+                },
+                {
+                  "token": "have",
+                  "probability": 0.0049
+                },
+                {
+                  "token": "buy",
+                  "probability": 0.0027
+                }
+              ]
+            },
+            {
+              "token": " them",
+              "candidates": [
+                {
+                  "token": "them",
+                  "probability": 0.9607
+                },
+                {
+                  "token": "it",
+                  "probability": 0.0269
+                },
+                {
+                  "token": "any",
+                  "probability": 0.0022
+                },
+                {
+                  "token": ".",
+                  "probability": 0.0016
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": "when",
+                  "probability": 0.3853
+                },
+                {
+                  "token": ".",
+                  "probability": 0.2102
+                },
+                {
+                  "token": ",",
+                  "probability": 0.1288
+                },
+                {
+                  "token": "before",
+                  "probability": 0.0525
+                },
+                {
+                  "token": "until",
+                  "probability": 0.0507
+                }
+              ]
+            },
+            {
+              "token": " I",
+              "candidates": [
+                {
+                  "token": "I",
+                  "probability": 0.8376
+                },
+                {
+                  "token": "When",
+                  "probability": 0.0482
+                },
+                {
+                  "token": "My",
+                  "probability": 0.0255
+                },
+                {
+                  "token": "In",
+                  "probability": 0.0224
+                },
+                {
+                  "token": "It",
+                  "probability": 0.0193
+                }
+              ]
+            },
+            {
+              "token": " plan",
+              "candidates": [
+                {
+                  "token": "plan",
+                  "probability": 0.695
+                },
+                {
+                  "token": "planned",
+                  "probability": 0.1234
+                },
+                {
+                  "token": "hope",
+                  "probability": 0.0477
+                },
+                {
+                  "token": "'m",
+                  "probability": 0.0473
+                },
+                {
+                  "token": "am",
+                  "probability": 0.0116
+                }
+              ]
+            },
+            {
+              "token": " to",
+              "candidates": [
+                {
+                  "token": "to",
+                  "probability": 0.9924
+                }
+              ]
+            },
+            {
+              "token": " take",
+              "candidates": [
+                {
+                  "token": "bring",
+                  "probability": 0.6842
+                },
+                {
+                  "token": "take",
+                  "probability": 0.2166
+                },
+                {
+                  "token": "buy",
+                  "probability": 0.0547
+                },
+                {
+                  "token": "give",
+                  "probability": 0.0311
+                },
+                {
+                  "token": "spend",
+                  "probability": 0.0044
+                }
+              ]
+            },
+            {
+              "token": " them",
+              "candidates": [
+                {
+                  "token": "them",
+                  "probability": 0.9803
+                },
+                {
+                  "token": "my",
+                  "probability": 0.0045
+                },
+                {
+                  "token": "it",
+                  "probability": 0.0043
+                },
+                {
+                  "token": "some",
+                  "probability": 0.0027
+                }
+              ]
+            },
+            {
+              "token": " to",
+              "candidates": [
+                {
+                  "token": "with",
+                  "probability": 0.4912
+                },
+                {
+                  "token": "to",
+                  "probability": 0.4109
+                },
+                {
+                  "token": "back",
+                  "probability": 0.0264
+                },
+                {
+                  "token": "along",
+                  "probability": 0.0169
+                },
+                {
+                  "token": "home",
+                  "probability": 0.0154
+                }
+              ]
+            },
+            {
+              "token": " my",
+              "candidates": [
+                {
+                  "token": "my",
+                  "probability": 0.5911
+                },
+                {
+                  "token": "give",
+                  "probability": 0.2257
+                },
+                {
+                  "token": "bring",
+                  "probability": 0.0989
+                },
+                {
+                  "token": "buy",
+                  "probability": 0.0357
+                },
+                {
+                  "token": "Mom",
+                  "probability": 0.0115
+                }
+              ]
+            },
+            {
+              "token": " mother",
+              "candidates": [
+                {
+                  "token": "mother",
+                  "probability": 0.5039
+                },
+                {
+                  "token": "mom",
+                  "probability": 0.4697
+                },
+                {
+                  "token": "mum",
+                  "probability": 0.0168
+                }
+              ]
+            },
+            {
+              "token": " when",
+              "candidates": [
+                {
+                  "token": "when",
+                  "probability": 0.774
+                },
+                {
+                  "token": "next",
+                  "probability": 0.0827
+                },
+                {
+                  "token": "for",
+                  "probability": 0.0297
+                },
+                {
+                  "token": "during",
+                  "probability": 0.0223
+                },
+                {
+                  "token": "in",
+                  "probability": 0.0168
+                }
+              ]
+            },
+            {
+              "token": " I",
+              "candidates": [
+                {
+                  "token": "I",
+                  "probability": 0.9806
+                },
+                {
+                  "token": "it",
+                  "probability": 0.0065
+                },
+                {
+                  "token": "we",
+                  "probability": 0.0044
+                }
+              ]
+            },
+            {
+              "token": " go",
+              "candidates": [
+                {
+                  "token": "go",
+                  "probability": 0.4424
+                },
+                {
+                  "token": "return",
+                  "probability": 0.3091
+                },
+                {
+                  "token": "come",
+                  "probability": 0.1857
+                },
+                {
+                  "token": "'m",
+                  "probability": 0.0175
+                },
+                {
+                  "token": "visit",
+                  "probability": 0.009
+                }
+              ]
+            },
+            {
+              "token": " home",
+              "candidates": [
+                {
+                  "token": "back",
+                  "probability": 0.5102
+                },
+                {
+                  "token": "home",
+                  "probability": 0.4857
+                }
+              ]
+            },
+            {
+              "token": " for",
+              "candidates": [
+                {
+                  "token": "next",
+                  "probability": 0.527
+                },
+                {
+                  "token": "for",
+                  "probability": 0.3457
+                },
+                {
+                  "token": "to",
+                  "probability": 0.0758
+                },
+                {
+                  "token": "over",
+                  "probability": 0.0108
+                },
+                {
+                  "token": "during",
+                  "probability": 0.0106
+                }
+              ]
+            },
+            {
+              "token": " the",
+              "candidates": [
+                {
+                  "token": "the",
+                  "probability": 0.723
+                },
+                {
+                  "token": "New",
+                  "probability": 0.2441
+                },
+                {
+                  "token": "next",
+                  "probability": 0.0174
+                },
+                {
+                  "token": "my",
+                  "probability": 0.0103
+                }
+              ]
+            },
+            {
+              "token": " New",
+              "candidates": [
+                {
+                  "token": "New",
+                  "probability": 0.8896
+                },
+                {
+                  "token": "new",
+                  "probability": 0.0513
+                },
+                {
+                  "token": "year",
+                  "probability": 0.0152
+                },
+                {
+                  "token": "coming",
+                  "probability": 0.0118
+                },
+                {
+                  "token": "Spring",
+                  "probability": 0.0113
+                }
+              ]
+            },
+            {
+              "token": " Year",
+              "candidates": [
+                {
+                  "token": "Year",
+                  "probability": 0.9992
+                }
+              ]
+            },
+            {
+              "token": " next",
+              "candidates": [
+                {
+                  "token": "next",
+                  "probability": 0.8169
+                },
+                {
+                  "token": ".",
+                  "probability": 0.1411
+                },
+                {
+                  "token": "in",
+                  "probability": 0.0138
+                },
+                {
+                  "token": "to",
+                  "probability": 0.0103
+                },
+                {
+                  "token": ",",
+                  "probability": 0.0057
+                }
+              ]
+            },
+            {
+              "token": " year",
+              "candidates": [
+                {
+                  "token": "year",
+                  "probability": 0.9999
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ".",
+                  "probability": 0.9963
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "100",
+          "zh": "100",
+          "analysis": [
+            {
+              "token": "1",
+              "candidates": [
+                {
+                  "token": "1",
+                  "probability": 0.9816
+                },
+                {
+                  "token": "One",
+                  "probability": 0.0127
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 0.9994
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "None",
+          "zh": "无",
+          "analysis": [
+            {
+              "token": "None",
+              "candidates": [
+                {
+                  "token": "none",
+                  "probability": 0.5285
+                },
+                {
+                  "token": "no",
+                  "probability": 0.2417
+                },
+                {
+                  "token": "without",
+                  "probability": 0.0572
+                },
+                {
+                  "token": "None",
+                  "probability": 0.033
+                },
+                {
+                  "token": "nothing",
+                  "probability": 0.0291
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "100",
+          "zh": "100",
+          "analysis": [
+            {
+              "token": "1",
+              "candidates": [
+                {
+                  "token": "1",
+                  "probability": 0.9816
+                },
+                {
+                  "token": "One",
+                  "probability": 0.0127
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 0.9994
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "Scratch card",
+          "zh": "刮刮乐",
+          "analysis": [
+            {
+              "token": "Scr",
+              "candidates": [
+                {
+                  "token": "scratch",
+                  "probability": 0.3027
+                },
+                {
+                  "token": "L",
+                  "probability": 0.2183
+                },
+                {
+                  "token": "K",
+                  "probability": 0.1458
+                },
+                {
+                  "token": "Scr",
+                  "probability": 0.132
+                },
+                {
+                  "token": "l",
+                  "probability": 0.0409
+                }
+              ]
+            },
+            {
+              "token": "atch",
+              "candidates": [
+                {
+                  "token": "atch",
+                  "probability": 0.6714
+                },
+                {
+                  "token": "atcher",
+                  "probability": 0.0959
+                },
+                {
+                  "token": "atching",
+                  "probability": 0.0525
+                },
+                {
+                  "token": "ummy",
+                  "probability": 0.0498
+                },
+                {
+                  "token": "abble",
+                  "probability": 0.0386
+                }
+              ]
+            },
+            {
+              "token": " card",
+              "candidates": [
+                {
+                  "token": "Card",
+                  "probability": 0.0901
+                },
+                {
+                  "token": "-off",
+                  "probability": 0.0891
+                },
+                {
+                  "token": "lottery",
+                  "probability": 0.087
+                },
+                {
+                  "token": "cards",
+                  "probability": 0.0762
+                },
+                {
+                  "token": "the",
+                  "probability": 0.0708
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "￥ 100",
+          "zh": "￥ 100",
+          "analysis": [
+            {
+              "token": "￥",
+              "candidates": [
+                {
+                  "token": "$",
+                  "probability": 0.3874
+                },
+                {
+                  "token": "1",
+                  "probability": 0.336
+                },
+                {
+                  "token": "¥",
+                  "probability": 0.1288
+                },
+                {
+                  "token": "￥",
+                  "probability": 0.0798
+                },
+                {
+                  "token": "USD",
+                  "probability": 0.0159
+                }
+              ]
+            },
+            {
+              "token": " ",
+              "candidates": [
+                {
+                  "token": "1",
+                  "probability": 0.6345
+                },
+                {
+                  "token": "",
+                  "probability": 0.3655
+                }
+              ]
+            },
+            {
+              "token": "1",
+              "candidates": [
+                {
+                  "token": "1",
+                  "probability": 1.0
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 1.0
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "Two hundred",
+          "zh": "两百",
+          "analysis": [
+            {
+              "token": "Two",
+              "candidates": [
+                {
+                  "token": "two",
+                  "probability": 0.6862
+                },
+                {
+                  "token": "2",
+                  "probability": 0.2251
+                },
+                {
+                  "token": "Two",
+                  "probability": 0.0876
+                }
+              ]
+            },
+            {
+              "token": " hundred",
+              "candidates": [
+                {
+                  "token": "hundred",
+                  "probability": 0.9972
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "A note was stuffed in the red envelope, which read: 88 points. It can only be spent in its own mall, worth about 8 yuan. I would think it's too small to be toilet paper.",
+          "zh": "红包里塞了个纸条，写着：88 积分。只能在自己商城消费，大概值 8 块钱，当厕纸我都嫌太小。",
+          "analysis": [
+            {
+              "token": "A",
+              "candidates": [
+                {
+                  "token": "There",
+                  "probability": 0.4349
+                },
+                {
+                  "token": "A",
+                  "probability": 0.2088
+                },
+                {
+                  "token": "The",
+                  "probability": 0.1662
+                },
+                {
+                  "token": "An",
+                  "probability": 0.0492
+                },
+                {
+                  "token": "In",
+                  "probability": 0.0218
+                }
+              ]
+            },
+            {
+              "token": " note",
+              "candidates": [
+                {
+                  "token": "piece",
+                  "probability": 0.3964
+                },
+                {
+                  "token": "note",
+                  "probability": 0.3485
+                },
+                {
+                  "token": "paper",
+                  "probability": 0.1658
+                },
+                {
+                  "token": "slip",
+                  "probability": 0.037
+                },
+                {
+                  "token": "little",
+                  "probability": 0.0145
+                }
+              ]
+            },
+            {
+              "token": " was",
+              "candidates": [
+                {
+                  "token": "was",
+                  "probability": 0.5908
+                },
+                {
+                  "token": "slipped",
+                  "probability": 0.0997
+                },
+                {
+                  "token": "inside",
+                  "probability": 0.0714
+                },
+                {
+                  "token": "on",
+                  "probability": 0.0681
+                },
+                {
+                  "token": "with",
+                  "probability": 0.0376
+                }
+              ]
+            },
+            {
+              "token": " stuffed",
+              "candidates": [
+                {
+                  "token": "slipped",
+                  "probability": 0.2644
+                },
+                {
+                  "token": "tucked",
+                  "probability": 0.1722
+                },
+                {
+                  "token": "stuck",
+                  "probability": 0.145
+                },
+                {
+                  "token": "put",
+                  "probability": 0.1058
+                },
+                {
+                  "token": "stuffed",
+                  "probability": 0.0834
+                }
+              ]
+            },
+            {
+              "token": " in",
+              "candidates": [
+                {
+                  "token": "in",
+                  "probability": 0.697
+                },
+                {
+                  "token": "into",
+                  "probability": 0.1807
+                },
+                {
+                  "token": "inside",
+                  "probability": 0.1179
+                }
+              ]
+            },
+            {
+              "token": " the",
+              "candidates": [
+                {
+                  "token": "the",
+                  "probability": 0.9575
+                },
+                {
+                  "token": "a",
+                  "probability": 0.0227
+                },
+                {
+                  "token": "with",
+                  "probability": 0.0067
+                },
+                {
+                  "token": "an",
+                  "probability": 0.0044
+                }
+              ]
+            },
+            {
+              "token": " red",
+              "candidates": [
+                {
+                  "token": "envelope",
+                  "probability": 0.4263
+                },
+                {
+                  "token": "red",
+                  "probability": 0.4042
+                },
+                {
+                  "token": "gift",
+                  "probability": 0.0793
+                },
+                {
+                  "token": "红包",
+                  "probability": 0.0285
+                },
+                {
+                  "token": "money",
+                  "probability": 0.0146
+                }
+              ]
+            },
+            {
+              "token": " envelope",
+              "candidates": [
+                {
+                  "token": "envelope",
+                  "probability": 0.7875
+                },
+                {
+                  "token": "packet",
+                  "probability": 0.2005
+                },
+                {
+                  "token": "envelop",
+                  "probability": 0.0084
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "candidates": [
+                {
+                  "token": ":",
+                  "probability": 0.8964
+                },
+                {
+                  "token": ",",
+                  "probability": 0.0549
+                },
+                {
+                  "token": "saying",
+                  "probability": 0.0143
+                },
+                {
+                  "token": ".",
+                  "probability": 0.0105
+                },
+                {
+                  "token": "with",
+                  "probability": 0.009
+                }
+              ]
+            },
+            {
+              "token": " which",
+              "candidates": [
+                {
+                  "token": "saying",
+                  "probability": 0.5533
+                },
+                {
+                  "token": "reading",
+                  "probability": 0.2017
+                },
+                {
+                  "token": "which",
+                  "probability": 0.0682
+                },
+                {
+                  "token": "with",
+                  "probability": 0.0497
+                },
+                {
+                  "token": "written",
+                  "probability": 0.0389
+                }
+              ]
+            },
+            {
+              "token": " read",
+              "candidates": [
+                {
+                  "token": "read",
+                  "probability": 0.6877
+                },
+                {
+                  "token": "said",
+                  "probability": 0.2982
+                },
+                {
+                  "token": "simply",
+                  "probability": 0.0083
+                }
+              ]
+            },
+            {
+              "token": ":",
+              "candidates": [
+                {
+                  "token": ":",
+                  "probability": 0.8256
+                },
+                {
+                  "token": ",",
+                  "probability": 0.0602
+                },
+                {
+                  "token": "",
+                  "probability": 0.0512
+                },
+                {
+                  "token": "\"",
+                  "probability": 0.0491
+                },
+                {
+                  "token": "“",
+                  "probability": 0.0085
+                }
+              ]
+            },
+            {
+              "token": " ",
+              "candidates": [
+                {
+                  "token": "",
+                  "probability": 0.8078
+                },
+                {
+                  "token": "\"",
+                  "probability": 0.1594
+                },
+                {
+                  "token": "“",
+                  "probability": 0.0068
+                },
+                {
+                  "token": "Eight",
+                  "probability": 0.0057
+                },
+                {
+                  "token": "eight",
+                  "probability": 0.0038
+                }
+              ]
+            },
+            {
+              "token": "8",
+              "candidates": [
+                {
+                  "token": "8",
+                  "probability": 0.9989
+                }
+              ]
+            },
+            {
+              "token": "8",
+              "candidates": [
+                {
+                  "token": "8",
+                  "probability": 0.9998
+                }
+              ]
+            },
+            {
+              "token": " points",
+              "candidates": [
+                {
+                  "token": "points",
+                  "probability": 0.8967
+                },
+                {
+                  "token": "Points",
+                  "probability": 0.0715
+                },
+                {
+                  "token": "point",
+                  "probability": 0.0092
+                },
+                {
+                  "token": "积分",
+                  "probability": 0.0075
+                },
+                {
+                  "token": "credits",
+                  "probability": 0.0028
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ".",
+                  "probability": 0.9461
+                },
+                {
+                  "token": ",",
+                  "probability": 0.0446
+                }
+              ]
+            },
+            {
+              "token": " It",
+              "candidates": [
+                {
+                  "token": "They",
+                  "probability": 0.3664
+                },
+                {
+                  "token": "It",
+                  "probability": 0.3414
+                },
+                {
+                  "token": "You",
+                  "probability": 0.095
+                },
+                {
+                  "token": "These",
+                  "probability": 0.068
+                },
+                {
+                  "token": "Can",
+                  "probability": 0.0479
+                }
+              ]
+            },
+            {
+              "token": " can",
+              "candidates": [
+                {
+                  "token": "can",
+                  "probability": 0.5474
+                },
+                {
+                  "token": "could",
+                  "probability": 0.4172
+                },
+                {
+                  "token": "'s",
+                  "probability": 0.018
+                },
+                {
+                  "token": "is",
+                  "probability": 0.0072
+                },
+                {
+                  "token": "was",
+                  "probability": 0.0067
+                }
+              ]
+            },
+            {
+              "token": " only",
+              "candidates": [
+                {
+                  "token": "only",
+                  "probability": 0.9495
+                },
+                {
+                  "token": "be",
+                  "probability": 0.0504
+                }
+              ]
+            },
+            {
+              "token": " be",
+              "candidates": [
+                {
+                  "token": "be",
+                  "probability": 0.9999
+                }
+              ]
+            },
+            {
+              "token": " spent",
+              "candidates": [
+                {
+                  "token": "used",
+                  "probability": 0.6976
+                },
+                {
+                  "token": "spent",
+                  "probability": 0.2067
+                },
+                {
+                  "token": "consumed",
+                  "probability": 0.0625
+                },
+                {
+                  "token": "redeemed",
+                  "probability": 0.0319
+                }
+              ]
+            },
+            {
+              "token": " in",
+              "candidates": [
+                {
+                  "token": "in",
+                  "probability": 0.6974
+                },
+                {
+                  "token": "on",
+                  "probability": 0.2192
+                },
+                {
+                  "token": "within",
+                  "probability": 0.0436
+                },
+                {
+                  "token": "at",
+                  "probability": 0.0374
+                }
+              ]
+            },
+            {
+              "token": " its",
+              "candidates": [
+                {
+                  "token": "the",
+                  "probability": 0.3114
+                },
+                {
+                  "token": "your",
+                  "probability": 0.2333
+                },
+                {
+                  "token": "my",
+                  "probability": 0.159
+                },
+                {
+                  "token": "their",
+                  "probability": 0.1159
+                },
+                {
+                  "token": "one",
+                  "probability": 0.0919
+                }
+              ]
+            },
+            {
+              "token": " own",
+              "candidates": [
+                {
+                  "token": "own",
+                  "probability": 0.9989
+                }
+              ]
+            },
+            {
+              "token": " mall",
+              "candidates": [
+                {
+                  "token": "mall",
+                  "probability": 0.6434
+                },
+                {
+                  "token": "store",
+                  "probability": 0.2928
+                },
+                {
+                  "token": "shop",
+                  "probability": 0.0225
+                },
+                {
+                  "token": "shopping",
+                  "probability": 0.009
+                },
+                {
+                  "token": "online",
+                  "probability": 0.0066
+                }
+              ]
+            },
+            {
+              "token": ",",
+              "candidates": [
+                {
+                  "token": ",",
+                  "probability": 0.6583
+                },
+                {
+                  "token": ".",
+                  "probability": 0.2537
+                },
+                {
+                  "token": "and",
+                  "probability": 0.044
+                },
+                {
+                  "token": ";",
+                  "probability": 0.0371
+                }
+              ]
+            },
+            {
+              "token": " worth",
+              "candidates": [
+                {
+                  "token": "worth",
+                  "probability": 0.5191
+                },
+                {
+                  "token": "and",
+                  "probability": 0.1223
+                },
+                {
+                  "token": "which",
+                  "probability": 0.1169
+                },
+                {
+                  "token": "roughly",
+                  "probability": 0.0576
+                },
+                {
+                  "token": "with",
+                  "probability": 0.0361
+                }
+              ]
+            },
+            {
+              "token": " about",
+              "candidates": [
+                {
+                  "token": "about",
+                  "probability": 0.8816
+                },
+                {
+                  "token": "around",
+                  "probability": 0.0493
+                },
+                {
+                  "token": "roughly",
+                  "probability": 0.0366
+                },
+                {
+                  "token": "approximately",
+                  "probability": 0.0147
+                },
+                {
+                  "token": "",
+                  "probability": 0.0081
+                }
+              ]
+            },
+            {
+              "token": " ",
+              "candidates": [
+                {
+                  "token": "",
+                  "probability": 0.9258
+                },
+                {
+                  "token": "$",
+                  "probability": 0.0511
+                },
+                {
+                  "token": "eight",
+                  "probability": 0.0187
+                }
+              ]
+            },
+            {
+              "token": "8",
+              "candidates": [
+                {
+                  "token": "8",
+                  "probability": 0.9996
+                }
+              ]
+            },
+            {
+              "token": " yuan",
+              "candidates": [
+                {
+                  "token": "yuan",
+                  "probability": 0.8299
+                },
+                {
+                  "token": "dollars",
+                  "probability": 0.058
+                },
+                {
+                  "token": "cents",
+                  "probability": 0.0496
+                },
+                {
+                  "token": "bucks",
+                  "probability": 0.0244
+                },
+                {
+                  "token": "R",
+                  "probability": 0.0109
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ",",
+                  "probability": 0.554
+                },
+                {
+                  "token": ".",
+                  "probability": 0.3066
+                },
+                {
+                  "token": ";",
+                  "probability": 0.0405
+                },
+                {
+                  "token": "and",
+                  "probability": 0.0227
+                },
+                {
+                  "token": "-",
+                  "probability": 0.0156
+                }
+              ]
+            },
+            {
+              "token": " I",
+              "candidates": [
+                {
+                  "token": "I",
+                  "probability": 0.5143
+                },
+                {
+                  "token": "Even",
+                  "probability": 0.3052
+                },
+                {
+                  "token": "It",
+                  "probability": 0.0279
+                },
+                {
+                  "token": "The",
+                  "probability": 0.0241
+                },
+                {
+                  "token": "Toilet",
+                  "probability": 0.0222
+                }
+              ]
+            },
+            {
+              "token": " would",
+              "candidates": [
+                {
+                  "token": "even",
+                  "probability": 0.2464
+                },
+                {
+                  "token": "find",
+                  "probability": 0.1951
+                },
+                {
+                  "token": "'d",
+                  "probability": 0.0805
+                },
+                {
+                  "token": "think",
+                  "probability": 0.0784
+                },
+                {
+                  "token": "would",
+                  "probability": 0.0584
+                }
+              ]
+            },
+            {
+              "token": " think",
+              "candidates": [
+                {
+                  "token": "rather",
+                  "probability": 0.4259
+                },
+                {
+                  "token": "have",
+                  "probability": 0.199
+                },
+                {
+                  "token": "even",
+                  "probability": 0.1329
+                },
+                {
+                  "token": "prefer",
+                  "probability": 0.0847
+                },
+                {
+                  "token": "call",
+                  "probability": 0.029
+                }
+              ]
+            },
+            {
+              "token": " it",
+              "candidates": [
+                {
+                  "token": "it",
+                  "probability": 0.3096
+                },
+                {
+                  "token": "the",
+                  "probability": 0.3079
+                },
+                {
+                  "token": "that",
+                  "probability": 0.1535
+                },
+                {
+                  "token": "twice",
+                  "probability": 0.0356
+                },
+                {
+                  "token": "they",
+                  "probability": 0.0325
+                }
+              ]
+            },
+            {
+              "token": "'s",
+              "candidates": [
+                {
+                  "token": "'s",
+                  "probability": 0.3666
+                },
+                {
+                  "token": "was",
+                  "probability": 0.23
+                },
+                {
+                  "token": "’s",
+                  "probability": 0.1108
+                },
+                {
+                  "token": "too",
+                  "probability": 0.0383
+                },
+                {
+                  "token": "small",
+                  "probability": 0.0379
+                }
+              ]
+            },
+            {
+              "token": " too",
+              "candidates": [
+                {
+                  "token": "too",
+                  "probability": 0.7448
+                },
+                {
+                  "token": "not",
+                  "probability": 0.0594
+                },
+                {
+                  "token": "even",
+                  "probability": 0.0275
+                },
+                {
+                  "token": "a",
+                  "probability": 0.0219
+                },
+                {
+                  "token": "just",
+                  "probability": 0.0189
+                }
+              ]
+            },
+            {
+              "token": " small",
+              "candidates": [
+                {
+                  "token": "small",
+                  "probability": 0.9318
+                },
+                {
+                  "token": "little",
+                  "probability": 0.0498
+                },
+                {
+                  "token": "cheap",
+                  "probability": 0.0058
+                },
+                {
+                  "token": "tiny",
+                  "probability": 0.0034
+                }
+              ]
+            },
+            {
+              "token": " to",
+              "candidates": [
+                {
+                  "token": "for",
+                  "probability": 0.6293
+                },
+                {
+                  "token": "as",
+                  "probability": 0.1296
+                },
+                {
+                  "token": ".",
+                  "probability": 0.0917
+                },
+                {
+                  "token": "to",
+                  "probability": 0.0667
+                },
+                {
+                  "token": "even",
+                  "probability": 0.0604
+                }
+              ]
+            },
+            {
+              "token": " be",
+              "candidates": [
+                {
+                  "token": "use",
+                  "probability": 0.6264
+                },
+                {
+                  "token": "be",
+                  "probability": 0.2793
+                },
+                {
+                  "token": "even",
+                  "probability": 0.0389
+                },
+                {
+                  "token": "buy",
+                  "probability": 0.0209
+                },
+                {
+                  "token": "wipe",
+                  "probability": 0.0048
+                }
+              ]
+            },
+            {
+              "token": " toilet",
+              "candidates": [
+                {
+                  "token": "toilet",
+                  "probability": 0.7257
+                },
+                {
+                  "token": "used",
+                  "probability": 0.1828
+                },
+                {
+                  "token": "a",
+                  "probability": 0.0284
+                },
+                {
+                  "token": "called",
+                  "probability": 0.0203
+                },
+                {
+                  "token": "for",
+                  "probability": 0.009
+                }
+              ]
+            },
+            {
+              "token": " paper",
+              "candidates": [
+                {
+                  "token": "paper",
+                  "probability": 0.9711
+                },
+                {
+                  "token": "tissue",
+                  "probability": 0.0239
+                }
+              ]
+            },
+            {
+              "token": ".",
+              "candidates": [
+                {
+                  "token": ".",
+                  "probability": 0.9911
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "None",
+          "zh": "无",
+          "analysis": [
+            {
+              "token": "None",
+              "candidates": [
+                {
+                  "token": "none",
+                  "probability": 0.5285
+                },
+                {
+                  "token": "no",
+                  "probability": 0.2417
+                },
+                {
+                  "token": "without",
+                  "probability": 0.0572
+                },
+                {
+                  "token": "None",
+                  "probability": 0.033
+                },
+                {
+                  "token": "nothing",
+                  "probability": 0.0291
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "None",
+          "zh": "无",
+          "analysis": [
+            {
+              "token": "None",
+              "candidates": [
+                {
+                  "token": "none",
+                  "probability": 0.5285
+                },
+                {
+                  "token": "no",
+                  "probability": 0.2417
+                },
+                {
+                  "token": "without",
+                  "probability": 0.0572
+                },
+                {
+                  "token": "None",
+                  "probability": 0.033
+                },
+                {
+                  "token": "nothing",
+                  "probability": 0.0291
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "100 and also deduct taxes from the salary",
+          "zh": "100 还要放工资里扣税",
+          "analysis": [
+            {
+              "token": "1",
+              "candidates": [
+                {
+                  "token": "1",
+                  "probability": 0.5652
+                },
+                {
+                  "token": "You",
+                  "probability": 0.1404
+                },
+                {
+                  "token": "It",
+                  "probability": 0.101
+                },
+                {
+                  "token": "Still",
+                  "probability": 0.0908
+                },
+                {
+                  "token": "The",
+                  "probability": 0.0115
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 0.9998
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 0.9957
+                }
+              ]
+            },
+            {
+              "token": " and",
+              "candidates": [
+                {
+                  "token": "should",
+                  "probability": 0.5251
+                },
+                {
+                  "token": "yuan",
+                  "probability": 0.2845
+                },
+                {
+                  "token": "needs",
+                  "probability": 0.0362
+                },
+                {
+                  "token": "dollars",
+                  "probability": 0.032
+                },
+                {
+                  "token": "more",
+                  "probability": 0.0308
+                }
+              ]
+            },
+            {
+              "token": " also",
+              "candidates": [
+                {
+                  "token": "still",
+                  "probability": 0.1467
+                },
+                {
+                  "token": "also",
+                  "probability": 0.1361
+                },
+                {
+                  "token": "taxes",
+                  "probability": 0.135
+                },
+                {
+                  "token": "tax",
+                  "probability": 0.0889
+                },
+                {
+                  "token": "the",
+                  "probability": 0.0683
+                }
+              ]
+            },
+            {
+              "token": " deduct",
+              "candidates": [
+                {
+                  "token": "deduct",
+                  "probability": 0.3112
+                },
+                {
+                  "token": "deducted",
+                  "probability": 0.2592
+                },
+                {
+                  "token": "be",
+                  "probability": 0.1794
+                },
+                {
+                  "token": "withhold",
+                  "probability": 0.0826
+                },
+                {
+                  "token": "deductions",
+                  "probability": 0.0407
+                }
+              ]
+            },
+            {
+              "token": " taxes",
+              "candidates": [
+                {
+                  "token": "taxes",
+                  "probability": 0.7395
+                },
+                {
+                  "token": "tax",
+                  "probability": 0.2362
+                },
+                {
+                  "token": "income",
+                  "probability": 0.0179
+                }
+              ]
+            },
+            {
+              "token": " from",
+              "candidates": [
+                {
+                  "token": "from",
+                  "probability": 0.9985
+                }
+              ]
+            },
+            {
+              "token": " the",
+              "candidates": [
+                {
+                  "token": "the",
+                  "probability": 0.7452
+                },
+                {
+                  "token": "your",
+                  "probability": 0.1968
+                },
+                {
+                  "token": "it",
+                  "probability": 0.0288
+                },
+                {
+                  "token": "wages",
+                  "probability": 0.0088
+                },
+                {
+                  "token": "salaries",
+                  "probability": 0.0061
+                }
+              ]
+            },
+            {
+              "token": " salary",
+              "candidates": [
+                {
+                  "token": "salary",
+                  "probability": 0.8546
+                },
+                {
+                  "token": "pay",
+                  "probability": 0.0466
+                },
+                {
+                  "token": "paycheck",
+                  "probability": 0.0423
+                },
+                {
+                  "token": "wages",
+                  "probability": 0.0264
+                },
+                {
+                  "token": "wage",
+                  "probability": 0.0204
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "None",
+          "zh": "无",
+          "analysis": [
+            {
+              "token": "None",
+              "candidates": [
+                {
+                  "token": "none",
+                  "probability": 0.5285
+                },
+                {
+                  "token": "no",
+                  "probability": 0.2417
+                },
+                {
+                  "token": "without",
+                  "probability": 0.0572
+                },
+                {
+                  "token": "None",
+                  "probability": 0.033
+                },
+                {
+                  "token": "nothing",
+                  "probability": 0.0291
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "28 cash",
+          "zh": "28 现金",
+          "analysis": [
+            {
+              "token": "2",
+              "candidates": [
+                {
+                  "token": "2",
+                  "probability": 0.9814
+                },
+                {
+                  "token": "$",
+                  "probability": 0.0102
+                }
+              ]
+            },
+            {
+              "token": "8",
+              "candidates": [
+                {
+                  "token": "8",
+                  "probability": 0.9999
+                }
+              ]
+            },
+            {
+              "token": " cash",
+              "candidates": [
+                {
+                  "token": "cash",
+                  "probability": 0.4637
+                },
+                {
+                  "token": "Cash",
+                  "probability": 0.4323
+                },
+                {
+                  "token": "Dollars",
+                  "probability": 0.0401
+                },
+                {
+                  "token": "dollars",
+                  "probability": 0.0381
+                },
+                {
+                  "token": "bills",
+                  "probability": 0.0062
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "None",
+          "zh": "无",
+          "analysis": [
+            {
+              "token": "None",
+              "candidates": [
+                {
+                  "token": "none",
+                  "probability": 0.5285
+                },
+                {
+                  "token": "no",
+                  "probability": 0.2417
+                },
+                {
+                  "token": "without",
+                  "probability": 0.0572
+                },
+                {
+                  "token": "None",
+                  "probability": 0.033
+                },
+                {
+                  "token": "nothing",
+                  "probability": 0.0291
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "One thousand",
+          "zh": "一千",
+          "analysis": [
+            {
+              "token": "One",
+              "candidates": [
+                {
+                  "token": "1",
+                  "probability": 0.5858
+                },
+                {
+                  "token": "one",
+                  "probability": 0.3625
+                },
+                {
+                  "token": "One",
+                  "probability": 0.0438
+                }
+              ]
+            },
+            {
+              "token": " thousand",
+              "candidates": [
+                {
+                  "token": "thousand",
+                  "probability": 0.994
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "20 MD",
+          "zh": "20  MD",
+          "analysis": [
+            {
+              "token": "2",
+              "candidates": [
+                {
+                  "token": "2",
+                  "probability": 0.9584
+                },
+                {
+                  "token": "twenty",
+                  "probability": 0.0086
+                },
+                {
+                  "token": "$",
+                  "probability": 0.0068
+                },
+                {
+                  "token": "Twenty",
+                  "probability": 0.0026
+                },
+                {
+                  "token": "1",
+                  "probability": 0.0016
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 0.9766
+                },
+                {
+                  "token": ".",
+                  "probability": 0.0159
+                }
+              ]
+            },
+            {
+              "token": " MD",
+              "candidates": [
+                {
+                  "token": "MD",
+                  "probability": 0.8152
+                },
+                {
+                  "token": "million",
+                  "probability": 0.0438
+                },
+                {
+                  "token": ".",
+                  "probability": 0.0334
+                },
+                {
+                  "token": ",",
+                  "probability": 0.0197
+                },
+                {
+                  "token": "0",
+                  "probability": 0.0132
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "None",
+          "zh": "无",
+          "analysis": [
+            {
+              "token": "None",
+              "candidates": [
+                {
+                  "token": "none",
+                  "probability": 0.5285
+                },
+                {
+                  "token": "no",
+                  "probability": 0.2417
+                },
+                {
+                  "token": "without",
+                  "probability": 0.0572
+                },
+                {
+                  "token": "None",
+                  "probability": 0.033
+                },
+                {
+                  "token": "nothing",
+                  "probability": 0.0291
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "750",
+          "zh": "750",
+          "analysis": [
+            {
+              "token": "7",
+              "candidates": [
+                {
+                  "token": "7",
+                  "probability": 0.9503
+                },
+                {
+                  "token": "seven",
+                  "probability": 0.0369
+                },
+                {
+                  "token": "Seven",
+                  "probability": 0.0081
+                }
+              ]
+            },
+            {
+              "token": "5",
+              "candidates": [
+                {
+                  "token": "5",
+                  "probability": 0.9999
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "en": "100",
+          "zh": "100",
+          "analysis": [
+            {
+              "token": "1",
+              "candidates": [
+                {
+                  "token": "1",
+                  "probability": 0.9816
+                },
+                {
+                  "token": "One",
+                  "probability": 0.0127
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 0.9994
+                }
+              ]
+            },
+            {
+              "token": "0",
+              "candidates": [
+                {
+                  "token": "0",
+                  "probability": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}
