@@ -1,6 +1,6 @@
 import "./App.css";
 import postsIndex from "./posts_index.json";
-import { BrowserRouter, Route, Routes, Link, useLocation, useSearchParams } from "react-router-dom";
+import { HashRouter, Route, Routes, Link, useLocation, useSearchParams } from "react-router-dom";
 import PostDetailPage from "./components/PostDetailPage";
 import AnalyzedPostDetailPage from "./components/AnalyzedPostDetailPage";
 import { useEffect, useState } from "react";
@@ -199,12 +199,10 @@ function MainContent() {
 }
 
 function App() {
-  const basename = "/v2ex-digest-pages";
-
   return (
-    <BrowserRouter basename={basename}>
+    <HashRouter>
       <MainContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
