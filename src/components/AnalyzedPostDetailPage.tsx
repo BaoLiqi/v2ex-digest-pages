@@ -148,19 +148,21 @@ function AnalyzedPostDetailPage() {
       
       <div className="color-legend">
         <div className="color-legend-label">Token Probability:</div>
-        <div className="color-gradient">
-          {colorPalette.map((color, index) => (
-            <div 
-              key={index} 
-              className="color-stop" 
-              style={{ backgroundColor: color }}
-            />
-          ))}
-        </div>
-        <div className="color-legend-values">
-          <span>0%</span>
-          <span>50%</span>
-          <span>100%</span>
+        <div className="color-gradient-container">
+          <div className="color-gradient">
+            {colorPalette.map((color, index) => (
+              <div 
+                key={index} 
+                className="color-stop" 
+                style={{ backgroundColor: color }}
+              />
+            ))}
+          </div>
+          <div className="color-legend-values">
+            <span>0%</span>
+            <span>50%</span>
+            <span>100%</span>
+          </div>
         </div>
       </div>
       

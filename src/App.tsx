@@ -3,7 +3,8 @@ import postsIndex from "./posts_index.json";
 import { BrowserRouter, Route, Routes, Link, useLocation, useSearchParams } from "react-router-dom";
 import PostDetailPage from "./components/PostDetailPage";
 import AnalyzedPostDetailPage from "./components/AnalyzedPostDetailPage";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import analyzedPostsIndex from "./analyzed_posts_index.json";
 
 // Define the type for a post index entry
 interface PostIndex {
@@ -111,17 +112,31 @@ function MainContent() {
   const [searchParams, setSearchParams] = useSearchParams();
   const isHomePage = location.pathname === "/";
   const postsData: PostIndex[] = postsIndex as PostIndex[];
-  
+  const [analyzedPosts] = useState(analyzedPostsIndex as PostIndex[]);
+
   // Pagination state
   const postsPerPage = 10;
   const totalPages = Math.ceil(postsData.length / postsPerPage);
   const pageParam = searchParams.get('page');
   const currentPage = pageParam ? parseInt(pageParam) : 1;
-  
+
   // Get current posts
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = postsData.slice(indexOfFirstPost, indexOfLastPost);
+  const indexOfLastPost: number = currentPage * postsPerPage;
+  const indexOfFirstPost: number = indexOfLastPost - postsPerPage;
+
+  const sortedPosts = [...postsData].sort((a, b) => {
+    const aIsAnalyzed = analyzedPosts.some((analyzedPost) => analyzedPost.id === a.id);
+    const bIsAnalyzed = analyzedPosts.some((analyzedPost) => analyzedPost.id === b.id);
+
+    if (aIsAnalyzed && !bIsAnalyzed) {
+      return -1;
+    }
+    if (!aIsAnalyzed && bIsAnalyzed) {
+      return 1;
+    }
+    return 0;
+  });
+  const currentPosts = sortedPosts.slice(indexOfFirstPost || 0, indexOfLastPost || 0);
   
   // Change page
   const handlePageChange = (pageNumber: number) => {
@@ -153,15 +168,17 @@ function MainContent() {
                     <span className="post-id">#{post.id}</span>
                   </div>
                 </Link>
-                <div className="post-actions">
-                  <Link to={`analyzed/${post.id}`} className="analyzed-link">
-                    View Analysis
-                  </Link>
-                </div>
+                {analyzedPosts.some((analyzedPost) => analyzedPost.id === post.id) && (
+                  <div className="post-actions">
+                    <Link to={`analyzed/${post.id}`} className="analyzed-link">
+                      View Analysis
+                    </Link>
+                  </div>
+                )}
               </div>
             ))}
           </div>
-          
+
           {totalPages > 1 && (
             <Pagination 
               currentPage={currentPage} 
