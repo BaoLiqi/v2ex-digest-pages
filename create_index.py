@@ -70,4 +70,11 @@ def create_post_index(input_dir="public/posts_json", output_dir="src", output_fi
 
 
 if __name__ == "__main__":
+    # Create regular posts index
     create_post_index()
+    
+    # Create analyzed posts index
+    create_post_index(
+        input_dir="public/posts_json_analyzed",
+        output_filename="analyzed_posts_index.json"
+    )

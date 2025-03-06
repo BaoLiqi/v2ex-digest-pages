@@ -1,0 +1,85 @@
+.analyzed-text {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.6;
+}
+
+.token {
+  position: relative;
+  cursor: pointer;
+  white-space: pre-wrap;
+}
+
+.token:hover {
+  text-decoration: underline;
+}
+
+.token.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.token-tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  z-index: 10;
+  min-width: 150px;
+  max-width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.candidate {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.candidate-token {
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.candidate-probability {
+  font-weight: bold;
+}
+
+/* Add a legend for the color scale */
+.color-legend {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.color-legend-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.color-gradient {
+  display: flex;
+  flex-grow: 1;
+  height: 20px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.color-stop {
+  flex-grow: 1;
+}
+
+.color-legend-values {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 4px;
+  font-size: 12px;
+}

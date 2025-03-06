@@ -4,10 +4,9 @@ I want to create a script that iterates through all of the JSON files, then iter
 
 ---
 
-I need another board for my fake forum project. it is almost the same logic as we handle posts in public/posts_json, but now we are handling public/posts_json_analyzed/
-We can add a colorful analysis for every chunk. the data is already in the json.
+I need to create another board for my mock forum project. It uses almost the same logic as we use for handling posts in public/posts_json, but this time we're working with public/posts_json_analyzed/. We can add a colorful analysis for each chunk; the data is already present in the JSON.
 
-the json files are like:
+The JSON files are structured like this:
 
 ```
 {
@@ -33,7 +32,6 @@ the json files are like:
 // not complete json
 ```
 
-and the logic is like what we do in color/
+The logic is similar to what we implement within the folder color/
 
-we need to generate a ts color array using python, and use it in our site.
-write the render logic in react component.
+We need to use Python to generate a TypeScript color array, which will then be used on our website. Please write the rendering logic within a React component.

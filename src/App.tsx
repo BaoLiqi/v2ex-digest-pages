@@ -2,6 +2,7 @@ import "./App.css";
 import postsIndex from "./posts_index.json";
 import { BrowserRouter, Route, Routes, Link, useLocation, useSearchParams } from "react-router-dom";
 import PostDetailPage from "./components/PostDetailPage";
+import AnalyzedPostDetailPage from "./components/AnalyzedPostDetailPage";
 import { useEffect } from "react";
 
 // Define the type for a post index entry
@@ -152,6 +153,11 @@ function MainContent() {
                     <span className="post-id">#{post.id}</span>
                   </div>
                 </Link>
+                <div className="post-actions">
+                  <Link to={`analyzed/${post.id}`} className="analyzed-link">
+                    View Analysis
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
@@ -168,6 +174,7 @@ function MainContent() {
       
       <Routes>
         <Route path="post/:postId" element={<PostDetailPage />} />
+        <Route path="analyzed/:postId" element={<AnalyzedPostDetailPage />} />
         <Route path="/" element={<div className="home-placeholder"></div>} />
       </Routes>
     </div>

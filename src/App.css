@@ -70,6 +70,26 @@
   display: inline-block;
 }
 
+.post-actions {
+  padding: 0 1rem 1rem;
+  text-align: right;
+}
+
+.analyzed-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: #646cff;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #646cff;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.analyzed-link:hover {
+  background-color: rgba(100, 108, 255, 0.1);
+}
+
 /* Post Detail Styles */
 .post-detail-container {
   width: 100%;
