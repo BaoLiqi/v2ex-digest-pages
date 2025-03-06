@@ -4,7 +4,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm
 import argparse
-from typing import Dict, List, Any
+from typing import Dict, Any
 import time
 import logging
 from pathlib import Path
@@ -34,7 +34,18 @@ def setup_model(model_name: str = "Qwen/Qwen2.5-1.5B-Instruct"):
     """
     logger.info(f"Loading model: {model_name}")
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name)
+
+    # Clear CUDA cache before loading model
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        logger.info("Cleared CUDA cache before loading model")
+
+    # Load model with better memory efficiency
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        low_cpu_mem_usage=True
+    )
     model.eval()
 
     # Check if CUDA is available and move model to GPU if possible
@@ -96,29 +107,40 @@ def get_next_word_candidates(input_ids, model, tokenizer, top_k=5, top_p=0.99):
         # Ensure input_ids are LongTensor and on the same device as the model
         input_ids = input_ids.to(model.device).long()
         outputs = model(input_ids)
-    logits = outputs.logits
-    next_token_logits = logits[0, -1, :]
-    probs = torch.softmax(next_token_logits, dim=0)
-    top_probs, top_indices = torch.topk(probs, top_k)
-    cumulative_probs = torch.cumsum(top_probs, dim=0)
 
-    # Find the index where cumulative probability exceeds top_p
-    exceed_index = (cumulative_probs > top_p).nonzero()
-    if len(exceed_index) > 0:
-        # Include the index where it exceeds
-        cutoff_index = exceed_index[0].item() + 1
-    else:
-        cutoff_index = top_k  # If no index exceeds, take all top_k
+        # Get logits and immediately move to CPU to free GPU memory
+        logits = outputs.logits
+        next_token_logits = logits[0, -1, :].cpu()
 
-    top_p_indices = top_indices[:cutoff_index]
-    top_p_probs = top_probs[:cutoff_index]
+        # Delete outputs to free memory
+        del outputs
+        del logits
 
-    suggestions = []
-    for idx, prob in zip(top_p_indices, top_p_probs):
-        token_str = tokenizer.decode([idx.item()])
-        suggestions.append({"token": token_str.strip(),
-                           "probability": round(prob.item(), 4)})
-    return suggestions
+        probs = torch.softmax(next_token_logits, dim=0)
+        top_probs, top_indices = torch.topk(probs, top_k)
+        cumulative_probs = torch.cumsum(top_probs, dim=0)
+
+        # Find the index where cumulative probability exceeds top_p
+        exceed_index = (cumulative_probs > top_p).nonzero()
+        if len(exceed_index) > 0:
+            # Include the index where it exceeds
+            cutoff_index = exceed_index[0].item() + 1
+        else:
+            cutoff_index = top_k  # If no index exceeds, take all top_k
+
+        top_p_indices = top_indices[:cutoff_index]
+        top_p_probs = top_probs[:cutoff_index]
+
+        suggestions = []
+        for idx, prob in zip(top_p_indices, top_p_probs):
+            token_str = tokenizer.decode([idx.item()])
+            suggestions.append({"token": token_str.strip(),
+                               "probability": round(prob.item(), 4)})
+
+        # Clean up tensors
+        del next_token_logits, probs, top_probs, top_indices, cumulative_probs
+
+        return suggestions
 
 
 def analyze_english_text(english_text: str, chinese_text: str, model, tokenizer):
