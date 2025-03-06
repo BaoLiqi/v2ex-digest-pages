@@ -9,6 +9,7 @@ import time
 import logging
 from pathlib import Path
 
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO,
@@ -77,7 +78,7 @@ def get_prompt(chinese_text: str, tokenizer):
         return text_prefix[0:start_index]
 
 
-def get_next_word_candidates(input_ids, model, tokenizer, top_k=10, top_p=0.99):
+def get_next_word_candidates(input_ids, model, tokenizer, top_k=5, top_p=0.99):
     """
     Get the next word candidates based on the input ids.
 
@@ -131,7 +132,7 @@ def analyze_english_text(english_text: str, chinese_text: str, model, tokenizer)
         tokenizer: The tokenizer to use
 
     Returns:
-        dict: The analysis results
+        list: The analysis results as a list of token analyses
     """
     prompt = get_prompt(chinese_text, tokenizer)
     input_ids = tokenizer.encode(
@@ -160,7 +161,7 @@ def analyze_english_text(english_text: str, chinese_text: str, model, tokenizer)
         # Extend cumulative_tokens with the new token (convert tensor to list of ints)
         cumulative_tokens.extend(current_token_id.tolist()[0])
 
-    return {"analysis": analysis}
+    return analysis
 
 
 def process_chunk(chunk: Dict[str, str], model, tokenizer) -> Dict[str, Any]:
