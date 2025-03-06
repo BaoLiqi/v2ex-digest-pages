@@ -1,0 +1,3 @@
+I have structured post data, as you can see in the typed_post.py file and the JSON files located in the public/posts_json/ directory. Additionally, I have an LLM-based analysis script (analyze_text_example.py) that can generate data from a single chunk of text containing both English and Chinese.
+
+I want to create a script that iterates through all of the JSON files, then iterates through each chunk within those files, and inserts the analysis results into each chunk. Finally, it should write the modified data to a new JSON file (one for each original post JSON file). Since my local machine lacks the resources, I plan to run this script on Google Colab.
