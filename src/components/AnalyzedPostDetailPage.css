@@ -90,3 +90,7 @@
   margin-top: 4px;
   font-size: 12px;
 }
+
+.high-entropy {
+  background-color: rgba(0, 0, 0, 0.05); /* Light yellow with transparency */
+}

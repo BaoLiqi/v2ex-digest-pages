@@ -195,11 +195,26 @@ function AnalyzedPostDetailPage() {
                     const tokenKey = `${blockIndex}-${chunkIndex}-${tokenIndex}`;
                     const isActive = activeTokens[tokenKey] || false;
 
+                    // Calculate entropy here so it can be used for both tooltip and styling
+                    const entropy = -tokenAnalysis.candidates
+                      .map((c) => c.probability)
+                      .reduce(
+                        (sum, p) => sum + (p > 0 ? p * Math.log(p) : 0),
+                        0
+                      );
+
                     return (
                       <span
                         key={tokenIndex}
-                        className={`token ${isActive ? "active" : ""}`}
-                        style={{ color: probabilityToColor(probability) }}
+                        className={`token ${isActive ? "active" : ""} ${
+                          entropy >= 0.8 ? "high-entropy" : ""
+                        }`}
+                        style={{
+                          color:
+                            entropy < 0.8
+                              ? "black"
+                              : probabilityToColor(probability),
+                        }}
                         onClick={(e) => {
                           e.stopPropagation();
                           toggleTokenActive(blockIndex, chunkIndex, tokenIndex);
@@ -220,25 +235,11 @@ function AnalyzedPostDetailPage() {
                                 </div>
                               )
                             )}
-                            {/* Variance Calculation and Display */}
+                            {/* Entropy Calculation and Display */}
                             <div className="candidate">
-                              <span className="candidate-token">Variance:</span>
+                              <span className="candidate-token">Entropy:</span>
                               <span className="candidate-probability">
-                                {(() => {
-                                  const probabilities =
-                                    tokenAnalysis.candidates.map(
-                                      (c) => c.probability
-                                    );
-                                  const mean =
-                                    probabilities.reduce((a, b) => a + b, 0) /
-                                    probabilities.length;
-                                  const variance =
-                                    probabilities.reduce(
-                                      (a, b) => a + (b - mean) ** 2,
-                                      0
-                                    ) / probabilities.length;
-                                  return variance.toFixed(2) + "%";
-                                })()}
+                                {entropy.toFixed(2)}
                               </span>
                             </div>
                           </div>
