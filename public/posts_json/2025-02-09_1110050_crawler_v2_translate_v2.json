@@ -1,0 +1,203 @@
+{
+  "id": 1110050,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "各位有推荐靠谱的 emby 吗？",
+          "en": "Does anyone have a reliable Emby recommendation?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "去年买过 emby ，体验实在是不好，最后还跑路了。\n\n所以来问问各位所知道的靠谱的 emby 。\n\n诉求如下：\n\n- 不跑路（迄今已稳定运行多年）。\n- 线路稳定，不会频繁更换。这点很重要。\n- 代理路线和直连都能接受。价格适中都可以。",
+          "en": "I bought Emby last year, and the experience was really bad. It ended up disappearing.\n\nSo I'm asking everyone for reliable Emby recommendations.\n\nRequests are as follows:\n\n- Doesn't disappear (has been running stably for many years).\n- Stable lines, no frequent changes. This is very important.\n- Proxy routes and direct connections are both acceptable. Moderate price is fine."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "micu ，用了半年还算稳定，直连/海外线路都有，10 元/月",
+          "en": "micu, I've been using it for half a year and it's quite stable, with direct connection/overseas lines, 10 yuan/month"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@apollo007 #26 我用的这半年内，还没有变过线路",
+          "en": "@apollo007 #26 In the half year I've been using it, the line hasn't changed"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "micu +1.  虽然只收 10 块钱一个月但提供的质量至少是 30 档位的",
+          "en": "micu +1. Although it only costs 10 yuan a month, the quality provided is at least in the 30 yuan range."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自从上次买了一年的 misaka 跑路后，我也没找到替代品",
+          "en": "Since the last time I bought a year of misaka and it disappeared, I haven't found a replacement"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "贵的     黑猫 4k便宜的 hxd",
+          "en": "Expensive ones: Black Cat 4k; cheaper ones: hxd"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@phinrod 同 ACA 难民",
+          "en": "@phinrod Same as an ACA refugee"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "四十多一年买了 fac 机场送 5 家 Emby ，不过强制直连，凑合用吧。",
+          "en": "Bought a fac airport for over forty a year and got 5 Emby accounts as a gift, but it's forced direct connection, so it's okay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买了 1111 和 hxd ，不过现在貌似都没开注",
+          "en": "Bought 1111 and hxd, but it seems neither is open for registration now"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "本来有个终点站的号，过期忘了考试只能拜拜了，当时觉得惋惜后来想想都反正也没怎么看过，没了就没了吧，本来就不怎么看视频，实在想看的去 pt 上下载下来看",
+          "en": "I originally had an account at the final destination, but it expired because I forgot to take the exam, so I had to say goodbye. At the time, I felt sorry, but later I thought that I hadn't watched it much anyway, so it's okay if it's gone. I don't watch videos much anyway. If I really want to watch something, I'll download it from PT."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@phinrod #1 同受害者，机场被速娃坑过，Emby 被 Misaka 坑过，现在卖最多季付，再也不年付了",
+          "en": "@phinrod #1 Same victim. I was scammed by Suwa with the airport and by Misaka with Emby. Now I only pay quarterly at most and will never pay annually again."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "免费的 HKA",
+          "en": "Free HKA"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@byby 还开放注册吗",
+          "en": "@byby Is it still open for registration?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xuromky 两个都有，效果还行吧",
+          "en": "@xuromky Have both, the effect is okay"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Kinnice hxd 流行的好多客户端都不知啊 infuse 都在黑名单上",
+          "en": "@Kinnice hxd doesn't know many popular clients, and infuse is on the blacklist"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没用过 emby 付费服，之前用过 emby 免费服，最后转阿里云盘了。基本上 emby 服务器上新的电影都能在阿里云盘找到，直接保存到自己的云盘就能无需下载直接看，网速基本跑慢家里 500m 宽带，原画模式看 70G 左右的原盘都很流畅，进度条基本也是随便拖动。如果不是对电影刮削和海报墙有什么执念的话，直接用阿里云盘 TV 版直接在电视机上看也还不错，原画模式画面支持 HDR 和杜比 vision ，不过声音好像不支持直通，对功放和家庭影院玩家就不是那么友好。不过也有解决办法，就是利用 clouddrive2+jellyfin/emby 自建影音服务器然后 KODI 进行播放，就可以完美支持声音直通，实现家庭影院的声音最优化，同时还解决了影片刮削+海报墙的问题。不过 clouddrive 需要购买阿里云的第三方高速流量，目前 1000G 一个月。一天看一部 30G 的蓝光 4K 电影，也不成问题，作为个人娱乐使用足够了。",
+          "en": "I haven't used Emby's paid service. I used Emby's free service before, and finally switched to Aliyun Drive. Basically, new movies on the Emby server can be found on Aliyun Drive. You can save them directly to your cloud drive and watch them without downloading. The network speed is basically as fast as my home's 500m broadband. Watching original discs of about 70G in original画质 mode is very smooth, and the progress bar can also be dragged at will. If you don't have any obsession with movie scraping and poster walls, using Aliyun Drive's TV version directly on the TV is not bad. The original quality mode supports HDR and Dolby Vision, but the sound does not seem to support passthrough, which is not very friendly to power amplifier and home theater players. However, there is a solution, which is to use clouddrive2+jellyfin/emby to build your own audio and video server and then play it with KODI, which can perfectly support sound passthrough and optimize the sound of the home theater. It also solves the problem of movie scraping + poster wall. However, clouddrive needs to purchase Aliyun's third-party high-speed traffic, which is currently 1000G per month. Watching a 30G Blu-ray 4K movie a day is not a problem and it is enough for personal entertainment."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@BryanAdams #13 最大的问题是，阿里云盘的资源少了很多，之前随便搜都是阿里云盘的，现在几乎都是夸克的，但是夸克的似乎不能直接用 infuse 播放",
+          "en": "@BryanAdams #13 The biggest problem is that there are much fewer resources on Aliyun Drive. Before, any search would turn up Aliyun Drive resources, but now almost all of them are Quark, but it seems that Quark cannot be played directly with infuse."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用的 hxd ，其他用网盘",
+          "en": "Using hxd, others use cloud drives"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@apollo007 用夸克",
+          "en": "@apollo007 Use Quark"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "micu+1",
+          "en": "micu+1"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "老谭的 xptv 不香吗",
+          "en": "Isn't Lao Tan's xptv good?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

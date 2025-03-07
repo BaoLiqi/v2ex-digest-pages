@@ -1,0 +1,251 @@
+{
+  "id": 1113697,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "大佬们推荐个路由器",
+          "en": "Experts, please recommend a router."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "周末拉了个 500M 电信宽带，光猫在客厅，离我的房子有两堵墙，5m 远，2.4G 的那个 wifi 可以连上，但是网速贼差，刷视频都要卡半天，5G 那个 wifi 根本连不上\r\n",
+          "en": "I got a 500M telecom broadband this weekend. The optical modem is in the living room, about 5m away from my room with two walls in between. The 2.4G wifi can connect, but the network speed is very poor. It lags even when watching videos, and the 5G wifi cannot connect at all."
+        },
+        {
+          "zh": "现在想买个千兆路由器，看了一下中兴巡天版 be5100 、中兴巡天版 be5100pro+、中兴巡天版 ax3000pro+。",
+          "en": "Now I want to buy a gigabit router. I looked at the ZTE Xuntian be5100, ZTE Xuntian be5100pro+, and ZTE Xuntian ax3000pro+."
+        },
+        {
+          "zh": "不知道买中兴巡天版 be5100 够不够用，评论说穿墙一般",
+          "en": "I don't know if buying the ZTE Xuntian be5100 is enough. Comments say its wall-penetration ability is average."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "花钱买路由器的效果不如走一下网线，或者隐形光纤。",
+          "en": "Spending money on a router is not as effective as running a network cable or using invisible fiber."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我买的中兴巡天 AX3000Pro+，替代了老旧的网件 RAX80 ；体验很好，没有断联卡顿的情况，全屋 5G 很稳定。",
+          "en": "I bought the ZTE Xuntian AX3000Pro+ to replace my old Netgear RAX80; the experience is very good, there are no disconnections or lags, and the 5G is very stable throughout the house."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hangzhou #2 你是合租的房子吧？那就沿着客厅踢脚线搞个扁网线，一路顺到卧室内，只要拉到卧室里，随便一个路由都行了。",
+          "en": "@hangzhou #2 Are you renting a room? Then run a flat network cable along the skirting board of the living room all the way to the bedroom. As long as you get it to the bedroom, any router will do."
+        },
+        {
+          "zh": "以前实测 TP 几百块钱的路由器穿两堵墙（承重墙）网速降的厉害，延迟巨大。",
+          "en": "Previously, it was tested that the network speed of a TP router worth hundreds of RMB dropped sharply and the latency was huge when penetrating two walls (load-bearing walls)."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wxw752 不懂这个 安装宽带的人说搞个路由器 我去查查",
+          "en": "@wxw752 I don't understand this. The person who installed the broadband told me to get a router. I'll go check it out."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果对延迟的要求不高，可以试试市面上那些 mesh 的路由器",
+          "en": "If you don't have high requirements for latency, you can try the mesh routers on the market."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "无线是双向连接，不是 AP 发射功率强就行，终端发回去的 AP 也能接收到才可以。",
+          "en": "Wireless is a two-way connection. It's not just about the AP's transmission power being strong; the AP also needs to be able to receive the signal sent back by the terminal."
+        },
+        {
+          "zh": "对网速一向没要求。。。就 100mbps 的电信宽带也很好用，所以如果房间内有网线，直接安装在房间内才是正解。",
+          "en": "I never have any requirements for network speed...even a 100mbps telecom broadband is very easy to use. So if there is a network cable in the room, installing it directly in the room is the right solution."
+        },
+        {
+          "zh": "至于设备够用就可以，当然这个够用对于不同人需求都不同，100mbps 的外网就足够我玩游戏/看电视，设备是老掉牙的 tp wdr 4310 刷 openwrt 。",
+          "en": "As for whether the equipment is sufficient, it depends on the needs of different people. A 100mbps external network is enough for me to play games/watch TV. The equipment is an old tp wdr 4310 flashed with openwrt."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "两堵墙单路由效果估计也不会太好，还是要搞两个路由，组个 mesh",
+          "en": "The effect of a single router through two walls is probably not very good. You still need to get two routers and set up a mesh."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我买了中兴巡天版 be5100pro+这个，后台管理是真垃圾，也基本没见过固件更新，但是信号还可以。",
+          "en": "I bought the ZTE Xuntian be5100pro+. The background management is really rubbish, and I have basically never seen a firmware update, but the signal is okay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "5 米远，5100 根本不够啊。",
+          "en": "5 meters away, 5100 is not enough at all."
+        },
+        {
+          "zh": "最好还是拉个网线过去，再接路由。",
+          "en": "It's best to run a network cable over and then connect a router."
+        },
+        {
+          "zh": "不行的话，可以买两个 ax3000 之类的小路由，组 mesh",
+          "en": "If not, you can buy two small routers like ax3000 and set up a mesh."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "TP 的 xdr5480 ，在老家新盖的房子实测信号还不错，pdd 300 多点买的",
+          "en": "The signal of TP's xdr5480 is actually not bad in the newly built house in my hometown. I bought it on pdd for more than 300."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我认为 Wi-Fi 有条件还是不要穿墙使用，经常使用的区域用路由器本体或者关掉 DHCP 的无线路由器接 LAN 口来覆盖；这样速度、信号、移动设备续航都有更好的保证",
+          "en": "I think that if possible, Wi-Fi should not be used through walls. Use the router itself or a wireless router with DHCP turned off to connect to the LAN port to cover frequently used areas; this will better guarantee speed, signal, and mobile device battery life."
+        },
+        {
+          "zh": "具体到楼主的情况，可以从客厅拉一根网线到你上网的房间，再买个支持 wi-fi 6 (axXXXX) 的无线路由器，设置里关掉 DHCP 然后网线接任意 LAN 口。",
+          "en": "Specifically for the OP's situation, you can run a network cable from the living room to the room where you use the internet, and then buy a wireless router that supports Wi-Fi 6 (axXXXX), turn off DHCP in the settings, and then connect the network cable to any LAN port."
+        },
+        {
+          "zh": "这样的话新路由器可以补充覆盖光猫 Wi-Fi 覆盖不到的，但经常使用的区域除非价格差别不大，现阶段无需买 Wi-Fi 7 (beXXXX) 的路由器，移动设备这边还没有普及",
+          "en": "In this way, the new router can supplement the coverage of areas that the optical modem's Wi-Fi cannot cover, but unless the price difference is not significant, there is no need to buy Wi-Fi 7 (beXXXX) routers at this stage, as mobile devices have not yet become popular."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "单个路由器搞不定的，要高质量上网，你的卧室要再加个路由器。",
+          "en": "A single router can't handle it. For high-quality internet access, you need to add another router in your bedroom."
+        },
+        {
+          "zh": "我是用中兴晴天+巡天，虽然中兴硬件配置低也刷不了机，但是稳。",
+          "en": "I use ZTE Qingtian + Xuntian. Although ZTE's hardware configuration is low and cannot be flashed, it is stable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "光猫自带的 wifi 信号确实不太好，如果有预埋网线的话，搞个便宜路由器即可。",
+          "en": "The wifi signal of the optical modem itself is indeed not very good. If there is a pre-laid network cable, you can get a cheap router."
+        },
+        {
+          "zh": "懒得折腾的话直接换个路由器",
+          "en": "If you don't want to bother, just replace the router."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议你直接去闲鱼买个 ax3000 那种运营商退下来的也就 70 块钱不到，然后买一根网线拉到房间里。",
+          "en": "I suggest you go directly to Xianyu to buy an ax3000 that the operator has retired. It costs less than 70 yuan, and then buy a network cable and pull it into the room."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以的话，拉网线用有线 Mesh不拉网线 就用 无线 Mesh",
+          "en": "If possible, use wired Mesh with a network cable. If you don't pull a network cable, use wireless Mesh."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zwy100e72 没条件呀，在北京租的房子 穿不穿墙由不得我😂",
+          "en": "@zwy100e72 I don't have the conditions. I'm renting a house in Beijing. I can't decide whether to go through the wall or not 😂"
+        },
+        {
+          "zh": "无需购买 wifi7 吗，但是我看了好几个 wifi6 下面的评论说穿墙效果不行",
+          "en": "Do I not need to buy wifi7? But I read several reviews under wifi6 saying that the wall penetration effect is not good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "wifi6 、wifi7 都不适合穿墙",
+          "en": "wifi6 and wifi7 are not suitable for penetrating walls."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "两个 AX3000 巡天组 MESH,够用了",
+          "en": "Two AX3000 Xuntian routers in MESH are enough."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NamelessRain 把咸鱼都忘了 多谢提醒",
+          "en": "@NamelessRain I forgot about Xianyu. Thanks for the reminder."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zuosiruan 我要求不高 电影能看蓝光就行 不打游戏",
+          "en": "@zuosiruan I don't have high requirements. I just need to be able to watch Blu-ray movies and not play games."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": 1112216,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "2025 第一届小米高考结束，得分 60",
+          "en": "2025 The first Xiaomi Gaokao (college entrance exam) is over, score: 60"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "![]( https://s2.loli.net/2025/02/18/iNbSYeCBAH6uWJq.png)\r\n\r\n哈哈哈哈哈哈，另外附上目前可以解锁的设备和难度表。",
+          "en": "![]( https://s2.loli.net/2025/02/18/iNbSYeCBAH6uWJq.png)\r\n\r\nHahahaha, I'm also including the current list of unlockable devices and difficulty levels."
+        },
+        {
+          "zh": "手里的这台小米准备上海鲜市场了。（澎湃有点用不了啦）",
+          "en": "I'm planning to sell my Xiaomi phone at the seafood market. (HyperOS (澎湃) is not working well)."
+        },
+        {
+          "zh": "| 品牌           | 解锁难度 | 解锁方式及条件                                                     | 注意事项                          |\r\n| ------------ | ---- | ----------------------------------------------------------- | ----------------------------- |\r\n| 一加           | 低    | 打开 OEM 解锁按钮即可                                               | 无特殊注意事项                       |\r\n| Google Pixel | 低    | 简单操作即可解锁                                                    | 解锁后仍可享受保修服务                   |\r\n| 摩托罗拉         | 低    | 官网申请，按流程操作                                                  | 需是非定制机                        |\r\n| HTC          | 低    | 通过官方渠道或常见解锁工具                                               | 操作相对简单                        |\r\n| 索尼           | 中等   | 官网获取解锁码，安装驱动和工具，通过命令行解锁                                     | 需先检查手机是否支持解锁                  |\r\n| 三星           | 中等   | 可解锁 BL 并获取 Root 权限（非美版）                                     | 解锁后芯片内部熔断，部分功能无法使用，如三星 Pay    |\r\n| OPPO         | 中等   | OPPO Reno6 及以下机型通过深度测试解锁； Reno7 及 A 系列新机仅天玑处理器可解锁            | 不同机型解锁策略不同，需按型号确定方法           |\r\n| 真我           | 中等   | 真我 neo5/gt5 等及以上新机可官方深度测试； MTK 天玑芯片可强制解锁                     | 旧版机型不支持解锁；强制解锁有风险             |\r\n| 小米 / 红米      | 高    | 通过《解锁资格答题测试》，小米社区成长等级达 5 段，完成实名认证，在 336 小时（ 14 天）有效期内完成绑定和解锁 | 有效期内最多支持小米账号实名认证本人 1 台设备绑定和解锁 |",
+          "en": "| Brand | Unlock Difficulty | Unlock Method and Conditions | Notes |\r\n|---|---|---|---|\r\n| OnePlus | Low | Simply enable the OEM unlock button | No special notes |\r\n| Google Pixel | Low | Easy to unlock | Warranty remains valid after unlocking |\r\n| Motorola | Low | Apply on the official website and follow the process | Must be a non-customized phone |\r\n| HTC | Low | Via official channels or common unlocking tools | Relatively simple to operate |\r\n| Sony | Medium | Obtain the unlock code from the official website, install drivers and tools, and unlock via command line | Check if the phone supports unlocking first |\r\n| Samsung | Medium | Can unlock BL and obtain Root permissions (non-US version) | Unlocking will trigger internal fuse, some functions will not work, such as Samsung Pay |\r\n| OPPO | Medium | OPPO Reno6 and below models unlock via depth testing; Reno7 and A series new phones only with Dimensity processors can be unlocked | Unlock strategies vary by model, determine the method according to the model |\r\n| Realme | Medium | Realme neo5/gt5 and above new phones can be officially depth tested; MTK Dimensity chips can be forcibly unlocked | Older models do not support unlocking; forced unlocking is risky |\r\n| Xiaomi / Redmi | High | Pass the \"Unlock Qualification Test\", Xiaomi Community growth level reaches level 5, complete real-name authentication, and complete binding and unlocking within a 336-hour (14-day) validity period | Supports binding and unlocking of up to 1 device authenticated with the real name of the Xiaomi account within the validity period |"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在难度是考公了，后面还有“政审”我建议加大力度，银行冻结验资+北京小米总部面试，30 个工作日内回复才有资格解锁。",
+          "en": "The difficulty is now like taking the civil service exam, and there's even a 'political background check' later. I suggest increasing the difficulty even further: freeze funds for capital verification + interview at Xiaomi headquarters in Beijing, and only those who reply within 30 working days are eligible to unlock."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "雷不群最喜欢搞这种小动作，要不然你就声明不可解锁或者解锁后无保修，手机圈里雷莲花是又当又立第一人",
+          "en": "Lei Buqun (likely referring to Lei Jun, CEO of Xiaomi) loves to do these little tricks. Otherwise, just declare it non-unlockable or that there's no warranty after unlocking. Lei Jun is the number one hypocrite in the phone industry."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hello2090 这也能扯到 iphone 用户？我说的硬上难度是玩个自己买的手机还要搁那做卷子，这是你口中的黑客精神？黑客是做完卷子开始 root 的？",
+          "en": "@hello2090 How does this relate to iPhone users? I'm saying that artificially increasing the difficulty by making people take a test to use a phone they bought is ridiculous. Is that what you call hacker spirit? Do hackers take a test before rooting?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在不是高考了是考公了录取率基本上=0",
+          "en": "It's not the Gaokao now, it's the Civil Service Exam, and the acceptance rate is basically = 0."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "贱不贱啊.jpg",
+          "en": "How shameless.jpg"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "> 1 请再次确认您的答题设备是您后续要申请解锁的设备,且确保答题、报名、 申请、绑定、解锁及解锁后的设备使用均需要保持为同一台设备垃圾小米，傻逼小米",
+          "en": "> 1 Please reconfirm that the device you are using to answer the questions is the device you will be applying to unlock, and ensure that the device used for answering, registration, application, binding, unlocking, and subsequent use remains the same device. Garbage Xiaomi, stupid Xiaomi."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hello2090 #15 要我说,还是闲得慌.仅仅拉个代码编译一下,哪来的成就感啊.",
+          "en": "@hello2090 #15 If you ask me, they are just bored. Where does the sense of accomplishment come from from just pulling and compiling some code?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小米解锁也没用了，各种大佬才不吃这一套，没人再做 rom 了",
+          "en": "Unlocking Xiaomi is useless now. The experts don't fall for this, and no one is making ROMs anymore."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xiangran0028 黑客精神，你怕是没有自己编译过内核还有操作系统。看着自己编译的操作系统运行在手机上这种感觉 iPhone 用户完全感觉不到！",
+          "en": "@xiangran0028 Hacker spirit? I bet you haven't compiled your own kernel or operating system. iPhone users can't feel the feeling of seeing their own compiled operating system running on their phones!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "使劲喷，虽然我有 bl 权限，但是也支持喷小米。真不能一刀切，虽然答题可以用 ai 识屏。坏 我好像说出了什么答题技巧。",
+          "en": "Keep roasting them. Although I have BL (bootloader) permission, I also support roasting Xiaomi. They really can't use a one-size-fits-all approach, even though you can use AI to recognize the screen during the test. Oops, I think I revealed a test-taking tip."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "查询各厂商解锁支持情况推荐 https://github.com/KHwang9883/MobileModels/blob/master/misc/bootloader-kernel-source.md",
+          "en": "Recommended link for checking unlock support status of various manufacturers: https://github.com/KHwang9883/MobileModels/blob/master/misc/bootloader-kernel-source.md"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wolffcat google 服务关不了的。指纹模块这个不了解，目前还没 root 没整模块",
+          "en": "@wolffcat Google services can't be turned off. I don't know about the fingerprint module, I haven't rooted or messed with modules yet."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买车赠解锁 F 码， 车主可以自由高价售出，多么有商业头脑",
+          "en": "Buy a car and get an unlocking F code. Car owners can freely sell it at a high price. What a business-minded idea!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小米找人解锁貌似要 800 块，可是我这个手机才 1000 多！",
+          "en": "It seems like it costs 800 yuan to have someone unlock Xiaomi, but my phone only costs over 1000!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "各家都收紧了~",
+          "en": "Everyone is tightening up ~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "13pm 换电再战 3 年",
+          "en": "13pm battery replacement and fight for another 3 years"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在想刷第三方 rom ，不买老款的话，哪个品牌比较好？",
+          "en": "Which brand is better if I want to flash a third-party ROM now, but don't want to buy an old model?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不能 ai 考试吗？",
+          "en": "Can't you use AI for the test?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "笑死 哈哈哈，现在小米确实不好刷机了，喜欢刷机还是玩一加吧",
+          "en": "Laughing to death hahaha, it's really hard to flash Xiaomi now, if you like flashing, play with OnePlus."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "幸运的是 23 年 3 月份买了个小米备用机，等了一周解了 BL 刷了 LineageOS 。可惜的是当时没 eSIM 需求，没有一步到位。",
+          "en": "Luckily, I bought a Xiaomi backup phone in March 2023, waited a week to unlock the BL and flashed LineageOS. It's a pity that I didn't have eSIM needs at the time and didn't go all the way."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

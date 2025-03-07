@@ -1,0 +1,267 @@
+{
+  "id": 1111076,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "部门开始每日统计代码提交行数了",
+          "en": "The department has started daily statistics on the number of lines of code submitted."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "今天统计了昨日代码行数，拉了个表格排行，发群里了。",
+          "en": "Today, the number of lines of code from yesterday were tallied, a ranking table was created, and it was sent to the group."
+        },
+        {
+          "zh": "问了下以后每天都会统计。",
+          "en": "I asked and found out that statistics will be taken every day from now on."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能复用的代码尽量不要复用",
+          "en": "Try not to reuse code that can be reused."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "请参考西乔老师的漫画拿代码量算 KPI……跟程序员们来这套？(上）https://mp.weixin.qq.com/s?__biz=MzAxMzMxNDIyOA==&mid=2655543803&idx=1&sn=71af5b312a839c4f5654991dda94bac1&scene=21#wechat_redirect拿代码量算 KPI……跟程序员们来这套？(下）https://mp.weixin.qq.com/s?__biz=MzAxMzMxNDIyOA==&mid=2655543854&idx=1&sn=5934ca2b31d942145752a407d02fa7ac&scene=23&srcid=0728EAkDYVbYpeQHcMBkaSW9#rd",
+          "en": "Please refer to Teacher Xiqiao's cartoon about using code volume to calculate KPI... Is this what programmers are getting? (Part 1) https://mp.weixin.qq.com/s?__biz=MzAxMzMxNDIyOA==&mid=2655543803&idx=1&sn=71af5b312a839c4f5654991dda94bac1&scene=21#wechat_redirect Using code volume to calculate KPI... Is this what programmers are getting? (Part 2) https://mp.weixin.qq.com/s?__biz=MzAxMzMxNDIyOA==&mid=2655543854&idx=1&sn=5934ca2b31d942145752a407d02fa7ac&scene=23&srcid=0728EAkDYVbYpeQHcMBkaSW9#rd"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这就跟京东请阳历一样，你该考虑的不是如何让京东不请，而是尽早离开这个平台了，这只是表象，深层原因是公司业务不行了",
+          "en": "This is like JD.com requesting Gregorian calendars. What you should be considering is not how to stop JD.com from requesting them, but leaving this platform as soon as possible. This is just the surface; the underlying reason is that the company's business is not doing well."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当 KPI 从\"干掉苹果\"变成\"逮住迟到\"",
+          "en": "When the KPI changes from \"Defeat Apple\" to \"Catch the Latecomers\""
+        },
+        {
+          "zh": "当晨会从\"战略布局\"变成\"晨读考勤表\"",
+          "en": "When the morning meeting changes from \"Strategic Planning\" to \"Reading the Attendance Sheet Aloud\""
+        },
+        {
+          "zh": "当高管把企业玩成临终诊断仪——摄像头是他们的听诊器打卡机是他们的呼吸机excel 统计表就是心电图",
+          "en": "When executives turn the company into a terminal diagnosis machine—cameras are their stethoscopes, time clocks are their respirators, and Excel spreadsheets are their EKGs."
+        },
+        {
+          "zh": "滴滴滴搞创新？",
+          "en": "Didi Didi doing innovation?"
+        },
+        {
+          "zh": "不存在的玩不起研发经费玩得起指纹机",
+          "en": "Impossible. They can't afford R&D expenses, but they can afford fingerprint scanners."
+        },
+        {
+          "zh": "卷不动市场竞争力卷得动员工膀胱力",
+          "en": "They can't compete on market competitiveness, but they can compete on employees' bladder capacity."
+        },
+        {
+          "zh": "抓不住客户需求抓得住谁带薪拉屎",
+          "en": "They can't grasp customer needs, but they can grasp who is taking a paid toilet break."
+        },
+        {
+          "zh": "别人搞 AI 他们数键盘指纹",
+          "en": "Others are doing AI, they're counting keyboard fingerprints."
+        },
+        {
+          "zh": "别人造火箭他们调监控色温",
+          "en": "Others are building rockets, they're adjusting the color temperature of the surveillance cameras."
+        },
+        {
+          "zh": "别人开新品发布会他们开\"厕所计时表彰会\"",
+          "en": "Others are holding new product launches, they're holding \"Toilet Time Commendation Meetings.\""
+        },
+        {
+          "zh": "毕竟让产品说话要脑子让报表说话只要脸皮",
+          "en": "After all, making the product speak requires brains, but making the report speak only requires a thick skin."
+        },
+        {
+          "zh": "建议下次把公司章程改成《狱警守则》给行政部颁个\"镣铐设计专利奖\"",
+          "en": "I suggest changing the company's charter to the \"Prison Guard Code\" next time and awarding the administrative department a \"Shackle Design Patent Award.\""
+        },
+        {
+          "zh": "等破产清算那天记得挂横幅：\"本司考勤异常率为 0死得那叫一个整整齐齐\"",
+          "en": "On the day of bankruptcy liquidation, remember to hang a banner: \"Our company's attendance abnormality rate is 0, we died in perfect order!\""
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wangtian2020 #87 话里带话恶心谁呢？",
+          "en": "@wangtian2020 #87 Who are you disgusting with your veiled words?"
+        },
+        {
+          "zh": "lz 也没说自己要留也没说自己背房贷，你这上来连扣几顶帽子啥意思？",
+          "en": "The original poster didn't say they wanted to stay or that they had a mortgage. What's the meaning of you coming up and putting several labels on them?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "环境变成臭水沟了不考虑跳槽反倒适应环境了",
+          "en": "The environment has become a sewer and instead of considering a job change, you adapt to the environment."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "dos2unixunix2dos",
+          "en": "dos2unixunix2dos"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "+1 直接 git add ./logs",
+          "en": "+1 Just git add ./logs"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@justfindu 能复用的尽量复制",
+          "en": "@justfindu Copy code that can be reused as much as possible."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "定这规则的人肯定是不会写代码的人",
+          "en": "The person who set this rule definitely doesn't know how to write code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wangtian2020 站着说话不腰疼，今天领导公布你今天就能找到工作？",
+          "en": "@wangtian2020 It's easy for you to say that. If the leader announces this today, can you find a job today?"
+        },
+        {
+          "zh": "吐槽两句就变成了自己贱去适应环境？",
+          "en": "Complaining a couple of times has turned into being cheap and adapting to the environment?"
+        },
+        {
+          "zh": "搞笑",
+          "en": "Ridiculous."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这还不简单，他们粗暴统计你就粗暴应付，把用到的第三方库代码一点点搬过来。",
+          "en": "It's simple, they count crudely, you deal with it crudely, move the third-party library code you use over bit by bit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "每天改一次代码格式化的规则再提交。",
+          "en": "Change the code formatting rules every day and then commit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "逼着员工写不优雅不高效的代码啊，如果是 go 开发就狂喜了，if err 有效增加行数",
+          "en": "Forcing employees to write inelegant and inefficient code. If it's Go development, they'd be ecstatic, if err effectively increases the number of lines."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "公司已经统计一年了，要求每月变更代码行数不少于 6K",
+          "en": "The company has been counting for a year and requires no less than 6K lines of code changed each month."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "把三方库一点点🤏搬过来",
+          "en": "Move the third-party library bit by bit 🤏."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这都是什么奇葩老板 赶紧走吧这种老板就要让他自生自灭",
+          "en": "What kind of weird boss is this? Leave quickly! This kind of boss should be left to fend for himself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "每天以不同的规则将代码重新 format",
+          "en": "Reformat the code every day with different rules."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "腾讯是不是就这么搞的，所以每个产品都体积巨大",
+          "en": "Is this how Tencent does it? That's why every product is huge."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看来需要将 node_modules 移出.gitignore 了",
+          "en": "Looks like I need to remove node_modules from .gitignore."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "id": 1108927,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "过年家里被盗了，有没有摄像头推荐啊",
+          "en": "My home was burglarized during the Chinese New Year. Are there any camera recommendations?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "家里农村的，过年串门人没在家，结果家里被盗了，还好现在不怎么用现金了，不然真是要损失惨重了。\r\n\r\n准备买两个摄像头，一个装家里（有网，避雨）。一个在户外（有电，但没有网，避雨效果不好。准备用一个旧手机分享热点供摄像头使用或者买自带流量卡的），有没有合适摄像头推荐啊，最好支持 nas ，不然卡被拔了会更气，买云存储好像都挺贵的，谢谢！\r\n\r\n海康威视，小米这两家怎么样？",
+          "en": "My home is in the countryside. During the Chinese New Year, people were visiting, and no one was home, so my house was burglarized. Fortunately, I don't use cash much anymore, otherwise the losses would have been severe.\r\n\r\nI plan to buy two cameras, one to install at home (with internet, rainproof). One outdoors (with electricity, but no internet, poor rain protection. I plan to use an old mobile phone to share a hotspot for the camera or buy one with its own data card). Are there any suitable camera recommendations? It's best to support NAS, otherwise, I'll be even angrier if the card is pulled out. Buying cloud storage seems quite expensive, thank you!\r\n\r\nHow are Hikvision and Xiaomi?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "海康威视已经是监控行业的头部企业了，肯定没问题。",
+          "en": "Hikvision is already a leading company in the monitoring industry, so there's definitely no problem."
+        },
+        {
+          "zh": "我家往外卖的也是海康出货量大",
+          "en": "My store also sells Hikvision, and the shipments are large."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "萤石云 C8C  室外防水  wifi + RJ45",
+          "en": "EZVIZ C8C Outdoor Waterproof WiFi + RJ45"
+        },
+        {
+          "zh": "萤石云 C6C  室内不防水  wifi + RJ45",
+          "en": "EZVIZ C6C Indoor Non-Waterproof WiFi + RJ45"
+        },
+        {
+          "zh": "家里用了 6 年了  装了 6 个  最早的几个现在都 6-7 年了  目前服役的有：C3W C6C  C8C",
+          "en": "I've used it at home for 6 years, installed 6 of them. The earliest ones are now 6-7 years old. Currently in service are: C3W C6C C8C"
+        },
+        {
+          "zh": "稳定是挺稳定的 就有几个点   1 、室外的摄像头时间久了晚上会变的很糊   说是可以调 iso 曝光参数  没试过",
+          "en": "Stability is pretty stable, but there are a few points: 1. The outdoor camera becomes blurry at night after a long time. It is said that you can adjust the ISO exposure parameters, but I haven't tried it."
+        },
+        {
+          "zh": "2 、萤石云的室内摄像头用的树脂镜片  时间久了就老化  跟人得了白内障一样  说可以单独换镜片 没试过",
+          "en": "2. EZVIZ's indoor camera uses resin lenses, which age over time, like a person getting cataracts. It is said that you can replace the lens separately, but I haven't tried it."
+        },
+        {
+          "zh": "3 、网络延迟，  在外地连家里回看还是直播的时候   基本都是一卡一卡的  摄像头旋转的时候也会  卡的不行",
+          "en": "3. Network delay, when connecting back to home from another location to watch playback or live stream, it basically lags. Even when the camera rotates, it lags terribly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以搭配几个假的摄像头，成本低",
+          "en": "You can match it with a few fake cameras, which are low cost"
+        },
+        {
+          "zh": "关键字：太阳能仿真摄像头",
+          "en": "Keywords: solar simulation camera"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhangwugui 有个底座可以粘上去",
+          "en": "@zhangwugui There is a base that can be glued on."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wxw752 #1 买过一次海康 U 盘，没怎么用过，两年后掉速到几十 KB/s ，再也无法相信这个企业了😅",
+          "en": "@wxw752 #1 I bought a Hikvision USB drive once, didn't use it much, and after two years the speed dropped to tens of KB/s. I can no longer trust this company 😅"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhangwugui 最好要，不打孔的靠 3M 贴容易和墙皮一起掉下来",
+          "en": "@zhangwugui It's best to have it. If you don't drill holes and rely on 3M tape, it's easy for it to fall off with the wall skin."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不用买云存储，都是自带三天免费的。",
+          "en": "You don't need to buy cloud storage, it all comes with three days for free."
+        },
+        {
+          "zh": "三天云存储一般够用了吧。",
+          "en": "Three days of cloud storage is usually enough, right?"
+        },
+        {
+          "zh": "不过那个云存储，好像最短三分钟才记录一次。",
+          "en": "However, that cloud storage seems to record only once every three minutes at the shortest."
+        },
+        {
+          "zh": "感觉海康的靠谱点。",
+          "en": "I feel Hikvision is more reliable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "海康的话支持 Onvif 和 GB28181 协议，能对接群晖的摄像头套件和 NVR （品牌不限）",
+          "en": "Hikvision supports Onvif and GB28181 protocols, and can be connected to Synology's camera suite and NVR (brand is not limited)."
+        },
+        {
+          "zh": "小米的话好像只支持 SMB 协议，也能对接群晖",
+          "en": "Xiaomi seems to only support the SMB protocol, but it can also be connected to Synology."
+        },
+        {
+          "zh": "户外想用的话不能买那种在室内放的，可以买枪机或者球机",
+          "en": "If you want to use it outdoors, don't buy the kind that's placed indoors. You can buy bullet cameras or PTZ cameras."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@v2maxwell tp 不给 3 天",
+          "en": "@v2maxwell TP-Link doesn't give 3 days."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我给家里买了两个小米的，用 256G 的内存卡存储，可以留存 20 多天的记录。",
+          "en": "I bought two Xiaomis for my home, and used a 256G memory card to store the data, which can retain more than 20 days of recording."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这户外是有多远啊...wifi 不能覆盖到???",
+          "en": "How far is your outdoors...can't WiFi cover it???"
+        },
+        {
+          "zh": "另外建议买云存储.",
+          "en": "Also, I suggest buying cloud storage."
+        },
+        {
+          "zh": "我自己家里和老家都用的 tplink 的,7 天的云存储才 150 两年.",
+          "en": "I use TP-Link at my home and my parents' home, and 7 days of cloud storage is only 150 for two years."
+        },
+        {
+          "zh": "挺便宜了.",
+          "en": "It's quite cheap."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小米，一个 APP 解决所有，方便好用",
+          "en": "Xiaomi, one APP solves everything, convenient and easy to use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用的小米,放的是 64g 卡,如果只存储画面变动时候的画面能存 2 个月左右的视频",
+          "en": "I use Xiaomi, and put in a 64g card. If I only store the images when the picture changes, I can store about 2 months of video."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "户外的可以考虑 4g 摄像头，走流量那种，用 wifi 热点不可靠",
+          "en": "For outdoor use, you can consider a 4G camera that uses data, using a WiFi hotspot is unreliable."
+        },
+        {
+          "zh": "家里的摄像头推荐 tplink 的，app 很清爽，没有广告，摄像头协议也开放，支持 onvif 和 rtmp 直接观看视频流，你也可以接入群晖套件，或者接入 ha",
+          "en": "I recommend TP-Link for home cameras. The app is very clean, no ads, and the camera protocol is open, supports onvif and rtmp for direct viewing of video streams. You can also connect to the Synology kit or connect to ha."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有 4G 转网口的专门供摄像头使用的设备，几块钱一个，效果未知",
+          "en": "There is a special device that converts 4G to a network port for camera use, a few dollars each, the effect is unknown."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我是 4 个摄像头，买个录像机约 60 ，后续每个摄像头约 80 块钱，然后买了 100m 的网线，两个 poe 交换机，每个约 50 块钱。",
+          "en": "I have 4 cameras, I bought a video recorder for about 60, and each camera costs about 80 later. Then I bought 100m of network cable, two poe switches, about 50 each."
+        },
+        {
+          "zh": "硬盘是 1t 我之前旧电脑的。",
+          "en": "The hard drive is 1t from my old computer."
+        },
+        {
+          "zh": "以上除了交换机和网线都是二手。",
+          "en": "Except for the switch and network cable, everything else is second-hand."
+        },
+        {
+          "zh": "感觉数据没必要放 nas 上",
+          "en": "I feel there's no need to put the data on the NAS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用的小米的，米家 app 用的挺方便的",
+          "en": "I use Xiaomi, and the Mijia app is very convenient to use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我室内室外用的都是萤石，很稳定，没出过故障。",
+          "en": "I use EZVIZ both indoors and outdoors, it's very stable and hasn't had any problems."
+        },
+        {
+          "zh": "室外用的萤石的太阳能+4G 的，自带免费流量，开个云服务 120 一年，现在新的型号是 HB8 ，刚入手了一套准备用在另一个房子里。",
+          "en": "The outdoor one uses EZVIZ solar + 4G, comes with free data, and opening a cloud service costs 120 a year. The new model is HB8, I just bought a set and plan to use it in another house."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "移动爱家有很多闲鱼出的，价格便宜，也能用",
+          "en": "There are many Migu Home devices sold on Xianyu (a used goods platform), the prices are cheap, and they can also be used."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用主机的，现在海康的系统好像说连邮件预警都没了，这个很重要，硬盘给拿走了有邮件预警你还能看图片，另外，他们用电脑软件看，可以即时在电脑上弹出报警图片，但死活不给你保存，不知道他们怎么想的。",
+          "en": "Using a host, it seems that Hikvision's system no longer has email alerts, which is very important. If the hard drive is taken away, you can still see the pictures if you have an email alert. Also, they use computer software to view it, and can instantly pop up alarm pictures on the computer, but they just won't let you save them. I don't know what they are thinking."
+        },
+        {
+          "zh": "用卡的，特别提示一个，这里以前有人说过，许多牌子断网后会停止录像，也就是说小偷将你网线剪了连卡都不用拔，这我不确定是否事实，反正之前这里的人发帖说的。",
+          "en": "Using a card, a special reminder: someone here has said before that many brands will stop recording after the network is disconnected, that is to say, the thief cuts your network cable and doesn't even need to unplug the card. I'm not sure if this is true, anyway someone here posted about it before."
+        },
+        {
+          "zh": "不得不说，现在做监控的都为便利小偷想得很周到。",
+          "en": "I have to say, the people who make surveillance systems these days are very thoughtful about making it convenient for thieves."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

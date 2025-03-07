@@ -1,0 +1,203 @@
+{
+  "id": 1110318,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "第一次招聘，要求前端的作品美观漂亮要求很怪吗？",
+          "en": "Is it strange to require beautiful and aesthetically pleasing work from frontend developers in the first recruitment?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "以前招聘是经理负责的，经理在忙别的，我是第一次负责招聘新人。共 2 个职位，一个前端，一个产品经理。\r\n\r\n关于前端的事。\r\n\r\n一般我是看到适合的简历，然后打招呼，之后就希望对方发一下最近的作品看看后再聊，有遇到几个作品就是好丑啊。\r\n\r\n关于对作品直说不好看的事，就遇到 2 人回复说是，美观美化是设计师负责的，前端是负责把效果实现出来（大概意思是我是程序员，我是写代码，美观不是我的事）。\r\n\r\n我自己本身是后端程序员，前端也有写，比较少。我个人觉得前端虽然主要也是写代码，但也是展现界面（产品外观）的实现者，最少需要一点点美感，而不是只单纯实现功能不管美观。\r\n\r\n大概对方会觉得我钱少事多吧。",
+          "en": "Previously, the manager was responsible for recruitment, but the manager is busy with other things, and this is my first time being responsible for recruiting new people. There are 2 positions in total, one frontend developer and one product manager.\r\n\r\nRegarding frontend matters.\r\n\r\nGenerally, when I see a suitable resume, I greet them and then hope that they can send me their recent work to take a look at before we chat further. I've encountered a few works that are just so ugly.\r\n\r\nRegarding directly stating that the works are not good-looking, I encountered 2 people who replied that aesthetics and beautification are the responsibility of the designer, and the frontend developer is responsible for implementing the effects (roughly meaning I am a programmer, I write code, aesthetics is not my concern).\r\n\r\nI myself am a backend programmer, and I also write frontend code, but less often. I personally think that although frontend development is mainly about writing code, it is also the implementer of the interface (product appearance), and at least a little aesthetic sense is needed, rather than just simply implementing functions regardless of aesthetics.\r\n\r\nMaybe they think I'm asking for too much for the little money I'm offering."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "要想页面美 你需要 出 设计 + 开发 两份工资",
+          "en": "If you want a beautiful page, you need to pay two salaries: one for design and one for development."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "话说是我太老了吗。。。我一直觉得前端还是要对自己的作品有点追求的虽然大部分是设计师怎么设计你就要怎么做，但是明显觉得不合理的地方还是要提的页面丑的没法看，交互设计也不合理的一个网站，我是不相信所谓的技术架构和代码能力能有多好的",
+          "en": "Am I just too old...? I always thought that frontend developers should have some pursuit of their work. Although most of the time you have to do what the designer designs, you should still point out things that are obviously unreasonable. If a website is ugly beyond repair and the interaction design is also unreasonable, I don't believe the so-called technical architecture and coding skills can be that good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不奇怪。评论应激大可不必。开发者生成还原设计稿，那自然可以就这个问题展开讨论，讨论一些设计相关的问题，来考察设计审美方面的认识。一个前端开发者缺乏基本的审美（或者说审美风格与应聘公司不一致），面试被扣分并没有什么冤的。这就是码农和工程师的区别。",
+          "en": "Not strange. No need to be so reactive to the comment. Developers generate and还原 design drafts, so naturally, you can discuss this issue, discuss some design-related issues, to examine the understanding of aesthetic aspects. It is not unfair for a frontend developer to be deducted points in the interview if they lack basic aesthetics (or the aesthetic style is inconsistent with the recruiting company). This is the difference between a code farmer and an engineer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "理解楼主，有 UI Sense 和没有 Sense 的前端，在最终产品的实现上还是有很多细节上的差距的（不论是平面视觉呈现还是动效上），会产生不少重复修改讨论的成本，当然，你也可以认为这个 FE 还原能力不够，但很多时候其实是没有这个 Sense ，自己觉得已经还原了，或者不需要实现得更好了。当然，视觉上，需要负责的还是 UI 啦。",
+          "en": "I understand the poster. There are many differences in the details of the final product implementation between frontend developers with and without UI sense (whether in terms of flat visual presentation or dynamic effects). This will generate a lot of repeated modification and discussion costs. Of course, you can think that this FE's reduction ability is not enough, but often it's just that they don't have this sense, and they feel that it has been restored, or that it doesn't need to be implemented better. Of course, visually, UI is still responsible."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "绝大部分前端都是楼上嘲讽你的那个水平，",
+          "en": "Most frontend developers are at the level that the people upstairs are mocking you about."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cheerxl #51 有审美的前端，还原度远远高于没有审美的，没审美的前端在还原的时候，会非常差",
+          "en": "@cheerxl #51 Frontend developers with aesthetics have a much higher degree of restoration than those without aesthetics. Frontend developers without aesthetics are very poor at restoration."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Vegetable 我想一句，前端有拍板设计的权利吗？你就算是按照你的审美修改，最后还不是在验收阶段打回让你往丑的方面改。咋还扯出一个码农和工程师区别，这标签打挺好",
+          "en": "@Vegetable I want to say something, does the frontend have the right to finalize the design? Even if you modify it according to your aesthetics, won't it be rejected in the acceptance stage and asked to be changed to be uglier? Why are you even bringing up the difference between a code farmer and an engineer? That label is pretty good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看工资，一般这个要求相当于 design engineer 了，算是个新兴职业",
+          "en": "It depends on the salary. Generally, this requirement is equivalent to a design engineer, which is considered an emerging profession."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没问题啊，公司项目，设计师需要前端「完美还原」设计稿，前端想改也有心无力。",
+          "en": "No problem, in company projects, designers need the frontend to \"perfectly restore\" the design draft, and the frontend has no ability to change it even if they want to."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "丑不丑，前端决定不了，设计出啥图，啥颜色搭配，前端都得执行",
+          "en": "The frontend can't decide whether it's ugly or not. Whatever the design, whatever the color scheme, the frontend has to execute it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你最后一句总结的挺对的。。。前端程序员确实只是写代码，至于好不好看那是 ux designer 的问题，有些 design 就是丑，前端照着做也办法对吧？他自己再有审美，还能不按 design 去做吗？如果你是说他自己的个人网站，那另当别论",
+          "en": "Your last sentence sums it up well... Frontend programmers really just write code, and whether it looks good or not is the UX designer's problem. Some designs are ugly, and the frontend can't do anything about it, right? Even if they have aesthetics, can they not follow the design? If you're talking about their own personal website, that's another matter."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "工作难找了，什么要求都来了。不要在意，遇到要看和老板生辰八字符合的也不要惊讶。必经像马斯克面试只看代码能力的情况在中国很少见，幻方量化招聘量化人才只看基础能力不看经验才是好的招聘。",
+          "en": "It's hard to find a job, and all kinds of requirements are coming up. Don't worry about it, don't be surprised if you encounter a requirement to check if your birth date is compatible with the boss. After all, situations like Elon Musk's interviews only looking at coding ability are rare in China. Fangfang Quant's recruitment of quantitative talents only looking at basic ability and not experience is a good recruitment."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "前端的工作是还原 UI 图，而不是设计。遇到好沟通的 UI 人员，大家还能商量着来，不好沟通的，就只能按照人家设计的来，1px 都不能出错",
+          "en": "The frontend's job is to restore the UI design, not to design. If you encounter UI personnel who are easy to communicate with, everyone can discuss it. If they are not easy to communicate with, you can only follow the design, and you can't make a mistake of even 1px."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哈哈，姐妹们，今天来吐槽一个下头 HR ！😤事情是这样的，我在找工作，投了个前端的职位。HR 看了简历后，让我发作品。我心想，OK 啊，发就发呗，结果发过去之后，HR 居然说我的作品“好丑”！😱我当场就懵了，姐妹们，你们懂吗？前端是写代码的，美观是设计师的事啊！我们前端是把设计师的图实现出来，不是来搞美化的好吗？🤦‍♀️结果 HR 还一副“你钱少事多”的样子，真是无语了。姐妹们，你们说，这种 HR 是不是下头？🙄#前端求职 #HR 吐槽 #下头 HR #求职避坑哈哈，好了不逗了，真的没毛病啊人家，生活工作中没有这个需求，也不能为了面试自己想破天写一个给你看的作品吧。然后就是 toB 和 toC ，完全两个方向的",
+          "en": "Haha, sisters, let me complain about a disappointing HR today! 😤 This is what happened: I was looking for a job and applied for a frontend position. After the HR looked at my resume, they asked me to send my work. I thought, OK, I'll send it, but after sending it, the HR actually said my work was \"so ugly\"! 😱 I was stunned on the spot, sisters, do you understand? Frontend is about writing code, and aesthetics is the designer's business! We frontend developers implement the designer's drawings, not beautify them, okay? 🤦‍♀️ As a result, the HR still looked like they were saying \"you want too much for too little money\", which is really speechless. Sisters, what do you say, isn't this HR disappointing? 🙄 #FrontendJobSearch #HRComplaint #DisappointingHR #JobSearchAvoidanceHaha, okay, I'm not kidding anymore, they're really not wrong. There is no need for this in life and work, and you can't just rack your brains to write a work for you to see for the interview. Then there's toB and toC, which are completely two different directions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "先确定需求，是做应用业务型的还是展示类的品牌网站宣传广告这种前者，产品经理拥有绝对话语权，国内职场环境，开发都没办法反馈，现在连大厂都不在意 UED后者，与界面打交道，有很大空间，如果是一个有想法的人，从作品可以看出来。只不过，当下职场很难遇到一个相互理解的团队，绝大多数是项目方裁决，没有多少空间给到落地的团队，包括手机大厂。万一是一个三星跳槽过来，那就不一样，ui 很多是转岗，他们不清楚实现方式，解决一个方案有很多方法，比如要做一个苹果或者特斯拉或者三星的品牌网站，有 css 插值动画、视频抽帧、着色器做动画、物理渲染动画，选择方案需要去协调，国内美院没这课的，这就是经常看到有些设计稿，第一眼看很惊艳，完全不输苹果三星的设计，但是仔细看就总觉得一股怪怪的味道招人可以寻找亮点，而不是挑刺，努力发现优势，毕竟合作是寻求共识",
+          "en": "First, determine the requirements: whether it is application business-oriented or display-type brand website promotions and advertisements. For the former, the product manager has absolute say. In the domestic workplace environment, development teams can't even give feedback, and even large factories don't care about UED. The latter, dealing with the interface, has a lot of space, and if you have idea, you can see it from the work. However, it is difficult to find a mutually understanding team in the current workplace. The vast majority is decided by the project party, and there is not much space given to the landing team, including large mobile phone manufacturers. If a Samsung employee jumps over, it's a different story. Many UIs are transferred from other positions, and they don't know how to implement it. There are many ways to solve a problem. For example, to make an Apple or Tesla or Samsung brand website, there are CSS interpolation animation, video frame extraction, shader animation, physical rendering animation. The choice of solution needs to be coordinated. Domestic art colleges don't have this class. This is why you often see some design drafts that are amazing at first glance, no less than Apple and Samsung's designs, but if you look closely, you always feel a strange taste. When recruiting, you can look for highlights instead of nitpicking, and strive to find advantages. After all, cooperation is about seeking consensus."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个美工、设计的外行看着都丑，那大概率就是真的丑飞了。不过这也很正常，因为以前的前端有一些是从 UI 、切图转的，开发的时候即使没有设计图，也会知道怎么做好看一些，布局要怎么设计的。",
+          "en": "If even a layman in art and design thinks it's ugly, then it's probably really ugly. However, this is also normal, because some frontend developers used to be converted from UI and slicing, and even if there is no design drawing during development, they will know how to make it look better and how to design the layout."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这分为广义的前端和狭义的前端狭义的前端就是只写 js 。连 css 都是直接套壳 css 框架。这样的岗位严格来说叫 “前端逻辑开发者”广义的前端就是从视觉设计落地到逻辑实现都得全保全揽，一般是一个团队一起负责，不是单独一个岗。当然也有 fullstack 啥都会的。",
+          "en": "This is divided into broad frontend and narrow frontend. Narrow frontend is only writing JS. Even CSS directly uses a shell CSS framework. Strictly speaking, this kind of position is called \"frontend logic developer\". Broad frontend means that everything from visual design to logic implementation must be fully responsible, generally a team is responsible together, not a single position. Of course, there are also fullstack people who know everything."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有审美的前端很少. 我想这也是女生做前端的价值. 可能我们看成品看多了, 看一些简陋的前端项目就没法看.招聘其实有个悖论, 就是我都这么 NB 了为啥好求职呢, 为啥不自己做产品. 招聘就要允许员工有缺点不足. 不是发现不足就否定. 其实就是因为员工的不足才导致他只能打工, 不能单干.",
+          "en": "Frontend developers with aesthetics are rare. I think this is the value of girls doing frontend. Maybe we've seen too many finished products, and we can't stand to see some simple frontend projects. There is actually a paradox in recruitment, which is, if I'm so NB, why should I apply for a job? Why not make my own product? Recruitment should allow employees to have shortcomings. Don't deny it just because you find shortcomings. In fact, it is because of the shortcomings of employees that they can only work and cannot work alone."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "产品经理缺人吗？ 可以远程吗?",
+          "en": "Are you short of product managers? Is it possible to work remotely?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "美是设计和 ui 的事",
+          "en": "Beauty is the business of design and UI."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

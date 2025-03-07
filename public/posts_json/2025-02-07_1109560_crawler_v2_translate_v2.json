@@ -1,0 +1,203 @@
+{
+  "id": 1109560,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "大龄前端转 Java ，现在 Spring boot 学完了，微服务现在只是会用，原理不懂，也做了一个很简单的一个小项目，可以直接去面试了吗，还需要学其他的吗，现在 Java 面试都问啥啊，还需要准备哪些方面啊，谢谢各位大佬",
+          "en": "An older front-end developer transitioning to Java. I've finished learning Spring Boot, and I can use microservices, but I don't understand the principles behind them. I've also done a very simple small project. Can I go for an interview now? Do I need to learn anything else? What are the most common questions in Java interviews now? What other aspects should I prepare for? Thank you, everyone."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "各位大佬，大龄前端转 Java ，现在 Spring boot 学完了，微服务现在只是会用，原理不懂，也做了一个很简单的一个小项目，可以直接去面试了吗，还需要学其他的吗，现在 Java 面试都问啥啊，还需要准备哪些方面啊，谢谢各位大佬",
+          "en": "Hi everyone, I'm an older front-end developer transitioning to Java. I've finished learning Spring Boot, and I can use microservices, but I don't understand the principles behind them. I've also done a very simple small project. Can I go for an interview now? Do I need to learn anything else? What are the most common questions in Java interviews now? What other aspects should I prepare for? Thank you, everyone."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "buf 叠满了胸弟",
+          "en": "Your buffs are stacked to the max, bro."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实不好找工作不在于 Java ，大龄是主因，你没有和年龄相匹配的技术栈。如果都是菜鸡，雇个能租在公司门口的没有家庭牵绊的 25 岁小伙不好吗，年轻人知识接受能力强，肯加班，事少不请假，会的都是一样的。",
+          "en": "Actually, the difficulty in finding a job isn't because of Java, but mainly because of your age. You don't have a tech stack that matches your age. If everyone is equally unskilled, wouldn't it be better to hire a 25-year-old who can rent near the office, has no family commitments, learns quickly, is willing to work overtime, causes less trouble, and doesn't take leave? They all know the same things."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你不是有前端经验吗，你就当自己是会一些 java 和前端的投着呗，万一有个岗位是前端需要做点基础的 java crud 的呢，60 分原则，别想着要学完 XXX 学到什么程度了在去面。",
+          "en": "Don't you have front-end experience? Just apply as someone who knows some Java and front-end. Maybe there's a position where the front-end needs to do some basic Java CRUD. Follow the 60-point principle. Don't think you need to learn XXX to a certain level before applying."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你应该突出你是个偏前端，后端也会，全栈一把梭",
+          "en": "You should emphasize that you're primarily a front-end developer, but you also know back-end, a full-stack ace."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当然是直接面试 学不完的。进去了再说",
+          "en": "Of course, go directly to the interview. You can never finish learning everything. Figure it out after you get in."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这，，，在杭州，java 都快没人要了，现在转进来找工作有点难呀。",
+          "en": "Well... in Hangzhou, Java is almost unwanted. It's a bit difficult to find a job by switching now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@banyancheung 没办法啊，还得继续生活啊",
+          "en": "@banyancheung There's no other way. We have to keep living."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhangwugui 杭州不要 Java 要啥啊",
+          "en": "@zhangwugui If Hangzhou doesn't want Java, what do they want?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@godiu 嗯嗯",
+          "en": "@godiu Yeah yeah"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "八股文你都过不去，继续恶补吧",
+          "en": "You can't even pass the basic interview questions. Keep cramming."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@murmur 面试都问啥啊，干中学",
+          "en": "@murmur What are they asking in interviews? Learn as you work."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@helloword001 mysql redis 微服务 docker k8s 消息队列 mybatis plus 这些都是八股文的范畴啊",
+          "en": "@helloword001 MySQL, Redis, Microservices, Docker, K8s, Message Queues, Mybatis Plus, these are all within the scope of basic interview questions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看你的目标公司了",
+          "en": "It depends on your target company."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "创业吧，至少有个工作",
+          "en": "Start a business. At least you'll have a job."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大龄是多大年龄？找一些外包试试吧",
+          "en": "How old is 'older'? Try to find some outsourcing jobs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "说实话，你现在学会的连 Javaer 的入门级别都没到，不知道有多卷吧",
+          "en": "To be honest, what you've learned now isn't even the entry level for a Java developer. I don't know how competitive it is."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@murmur 谢谢",
+          "en": "@murmur Thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Meld 中小公司",
+          "en": "@Meld Small and medium-sized companies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@doudou555 中小公司，外包也行",
+          "en": "@doudou555 Small and medium-sized companies, outsourcing is also fine."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为啥不做前端了",
+          "en": "Why not continue with front-end?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

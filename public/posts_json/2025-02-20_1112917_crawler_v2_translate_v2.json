@@ -1,0 +1,230 @@
+{
+  "id": 1112917,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "年前离职后暂时加入了 V 友的创业团队, 现在产品前景不太好, 再找找新工作!",
+          "en": "After resigning before the new year, I temporarily joined a V-friend's startup team. Now the product prospects are not very good, so I'm looking for a new job!"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "# 前端 / 全栈开发工程师\r\n\r\n📍 24 岁 | ☎️ MTU1LTg3NzYtNTY5OQ== | 📧 aG5kcHB0QG91dGxvb2suY29t\r\n\r\n------\r\n\r\n## **技能**\r\n\r\n- **前端开发**：精通 **TypeScript/JavaScript**，熟悉 **React 、Vue**，掌握 **Next.js/Nuxt.js**，支持 **SSR/SSG** 以优化 **SEO** 和 **缓存策略**。熟练使用 **CSS 、HTML**（语义化、无障碍、浏览器适配等），掌握 **Tailwind 、LESS 、SASS**。\r\n- **前端工程化**：熟悉 **Nx 、Monorepo**，掌握 **Vite 、Webpack 、Rspack 、Rollup**，具备 **构建工具插件开发** 经验。熟练使用 **ESLint 、Prettier 、Biome** 进行代码规范化。\r\n- **图形渲染**：熟练使用 **Three.js 、ECharts**，了解 **全局光照、光栅化** 等图形学概念，熟悉 **WebGL 、WebGPU 、WASM**，可独立开发 3D 渲染和数据可视化应用。\r\n- **后端开发**：熟悉 **Nest.js 、tRPC 、FastAPI**，掌握 **Prisma 、Drizzle ORM**。了解 **RESTful / GraphQL** 规范，能进行 API 设计与优化。\r\n- **数据库与 DevOps**：熟悉 **MySQL 、PostgreSQL 、MongoDB** 及基础运维，了解 **Nginx 、Traefik 反向代理**，掌握 **Docker** / **Kubernetes**(k3s)，能搭建高可用服务。\r\n- **AI & 机器学习**：了解 **PyTorch 、Candle** 等框架，熟悉 **Ollama 、LangChain** 等大模型部署工具，具备 AI 应用开发经验。\r\n- **设计与用户体验**：精通 **Adobe Illustrator 、Photoshop**，熟悉 **Material Design 、Apple Design Guideline**，可独立完成 UI/UX 设计。\r\n- **软技能**：具备快速学习能力，擅长探索新技术并高效应用，能够独立完成复杂项目，具备良好的团队协作和跨领域沟通能力。\r\n\r\n------\r\n\r\n## **工作经历**\r\n\r\n### **南京百思科技有限公司**（ 2024.12 - 至今）\r\n\r\n**前端 / 全栈开发工程师** | 薪资：8K - 10K\r\n\r\n- 图像处理 SaaS 产品（ 5 款）\r\n  - 负责 **React + Three.js + Canvas 2D** 前端开发，支持插件化移植至 **Canva**。\r\n  - 迁移项目至 **Nx Monorepo**，并使用 **Rspack** 提升打包速度。\r\n  - 规范化团队代码风格（ Husky + Prettier + ESLint ），构建 **GitHub Actions CI/CD**。\r\n- AI 生成图像后端\r\n  - 基于 **FastAPI + Uvicorn + PyMongo** 进行后端开发。\r\n  - 部署 **ComfyUI 、Hugging Face** 等 AI 生成服务，并优化 API 性能。\r\n  - 采用 **PM2** 进行后端服务管理，提高系统稳定性。\r\n- 公司官网（ Next.js ）\r\n  - 采用 **SSG** 预渲染页面，提升访问速度和 **SEO** 效果。\r\n  - 通过 **Island 架构** 实现产品试用模块，提高用户转化率。\r\n  - 动态生成 **SEO 友好** 页面（含嵌入内容修改），提升搜索引擎排名。\r\n- 账户管理系统 & Stripe 支付接入\r\n  - 支持 **订阅/单次付费** 及 **折扣系统**，提升转化率。\r\n  - 与 **Canva 身份系统 & 支付审查** 进行无缝对接，保证合规性。\r\n\r\n------\r\n\r\n### **武汉云粒智慧有限公司**（ 2023.07 - 2024.10 | 实习：2023.01 - 2023.06 ）\r\n\r\n**前端开发工程师** | 薪资：8K\r\n\r\n- 低代码编辑器 & 渲染引擎（ React / Vanilla JS ）\r\n  - 负责 **3D 图形、图表渲染** 及资源文件管理。\r\n  - 参与 **Node.js 云代码** 分析 / 构建。\r\n  - 开发 **代码搜索、审查、批量处理工具**，优化遗留项目代码。\r\n- 标准业务产品开发（ React ）\r\n  - 负责前端页面开发，优化交互体验，提高系统响应速度。",
+          "en": "# Front-end / Full-stack Development Engineer\r\n\r\n📍 24 years old | ☎️ MTU1LTg3NzYtNTY5OQ== | 📧 aG5kcHB0QG91dGxvb2suY29t\r\n\r\n------\r\n\r\n## **Skills**\r\n\r\n- **Front-end Development**: Proficient in **TypeScript/JavaScript**, familiar with **React, Vue**, proficient in **Next.js/Nuxt.js**, supports **SSR/SSG** to optimize **SEO** and **caching strategies**. Proficient in **CSS, HTML** (semantic, accessible, browser adaptation, etc.), proficient in **Tailwind, LESS, SASS**.\r\n- **Front-end Engineering**: Familiar with **Nx, Monorepo**, proficient in **Vite, Webpack, Rspack, Rollup**, with **building tool plugin development** experience. Proficient in using **ESLint, Prettier, Biome** for code standardization.\r\n- **Graphics Rendering**: Proficient in **Three.js, ECharts**, understands graphics concepts such as **global illumination, rasterization**, familiar with **WebGL, WebGPU, WASM**, can independently develop 3D rendering and data visualization applications.\r\n- **Back-end Development**: Familiar with **Nest.js, tRPC, FastAPI**, proficient in **Prisma, Drizzle ORM**. Understands **RESTful / GraphQL** specifications, can perform API design and optimization.\r\n- **Database and DevOps**: Familiar with **MySQL, PostgreSQL, MongoDB** and basic operations and maintenance, understands **Nginx, Traefik reverse proxy**, proficient in **Docker** / **Kubernetes**(k3s), can build high-availability services.\r\n- **AI & Machine Learning**: Understands frameworks such as **PyTorch, Candle**, familiar with large model deployment tools such as **Ollama, LangChain**, has AI application development experience.\r\n- **Design and User Experience**: Proficient in **Adobe Illustrator, Photoshop**, familiar with **Material Design, Apple Design Guideline**, can independently complete UI/UX design.\r\n- **Soft Skills**: Possesses rapid learning ability, excels at exploring new technologies and applying them efficiently, can independently complete complex projects, has good teamwork and cross-domain communication skills.\r\n\r\n------\r\n\r\n## **Work Experience**\r\n\r\n### **Nanjing Baisi Technology Co., Ltd.** (2024.12 - Present)\r\n\r\n**Front-end / Full-stack Development Engineer** | Salary: 8K - 10K\r\n\r\n- Image processing SaaS products (5 models)\r\n  - Responsible for **React + Three.js + Canvas 2D** front-end development, supporting plug-in transplantation to **Canva**.\r\n  - Migrated the project to **Nx Monorepo** and used **Rspack** to increase packaging speed.\r\n  - Standardized team code style (Husky + Prettier + ESLint), built **GitHub Actions CI/CD**.\r\n- AI-generated image backend\r\n  - Based on **FastAPI + Uvicorn + PyMongo** for backend development.\r\n  - Deployed **ComfyUI, Hugging Face** and other AI generation services and optimized API performance.\r\n  - Used **PM2** for backend service management to improve system stability.\r\n- Company website (Next.js)\r\n  - Uses **SSG** to pre-render pages, improving access speed and **SEO** effects.\r\n  - Implemented product trial modules through **Island architecture** to improve user conversion rates.\r\n  - Dynamically generates **SEO-friendly** pages (including embedded content modification) to improve search engine rankings.\r\n- Account Management System & Stripe Payment Integration\r\n  - Supports **subscription/one-time payment** and **discount systems** to increase conversion rates.\r\n  - Seamless integration with **Canva Identity System & Payment Review** to ensure compliance.\r\n\r\n------\r\n\r\n### **Wuhan Yunli Wisdom Co., Ltd.** (2023.07 - 2024.10 | Internship: 2023.01 - 2023.06)\r\n\r\n**Front-end Development Engineer** | Salary: 8K\r\n\r\n- Low-code editor & rendering engine (React / Vanilla JS)\r\n  - Responsible for **3D graphics, chart rendering** and resource file management.\r\n  - Participated in **Node.js cloud code** analysis / construction.\r\n  - Developed **code search, review, batch processing tools** to optimize legacy project code.\r\n- Standard business product development (React)\r\n  - Responsible for front-end page development, optimizing interaction experience, and improving system response speed."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看你的技能我还以为是月薪 30K 的大佬呢...",
+          "en": "Looking at your skills, I thought you were a 30K monthly salary guru..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个帖子暴露了公司名字、主要业务、业务状况、员工薪酬水平……年轻人有点可怕。",
+          "en": "A post reveals the company name, main business, business situation, employee salary level... young people are a bit scary."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我一看莫名的熟悉，翻了下历史，去年看到过你发的另一个帖子。你和我一样的工作年限，我当时感觉你特牛逼，转发给了资深同事，还问了下他感觉。我现在还记的同事当时跟我聊的：  严重怀疑那些项目、解决的难点，都是团队里其他人的成果；  你的薪资跟技术倒挂太严重；  简历里技术太多了，三四年经验，如果他来，除非学校非常厉害，不然他面试都不会给；",
+          "en": "I felt inexplicably familiar, so I looked through the history and saw another post you posted last year. You have the same years of experience as me, and I thought you were awesome at the time, so I forwarded it to a senior colleague and asked him what he thought. I still remember what my colleague said to me at the time: I seriously suspect that those projects and the difficulties solved were the results of other people on the team; Your salary is seriously mismatched with your skills; There are too many technologies in the resume, and with three or four years of experience, if he came, unless the school is very impressive, he wouldn't even get an interview."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有些 v 友说话真是刻薄呢。这就是传说中的老💡吗？看上去似乎很想通过揪出别人的缺点来彰显自己那点可怜的优越感呢。",
+          "en": "Some V users are really harsh. Is this the legendary old geezer? It seems like they really want to highlight their own pitiful sense of superiority by pointing out other people's shortcomings."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哥们会的这么多，建议就别写薪资了，HR 看到绝对会卡涨幅。",
+          "en": "Bro, you know so much, I suggest you don't write your salary, HR will definitely limit the increase when they see it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "前端开发：精通 TypeScript/JavaScript ，熟悉 React 、Vue ，掌握 Next.js/Nuxt.js ，支持 SSR/SSG 以优化 SEO 和 缓存策略。熟练使用 CSS 、HTML （语义化、无障碍、浏览器适配等），掌握 Tailwind 、LESS 、SASS 。前端工程化：熟悉 Nx 、Monorepo ，掌握 Vite 、Webpack 、Rspack 、Rollup ，具备 构建工具插件开发 经验。熟练使用 ESLint 、Prettier 、Biome 进行代码规范化。这两条能完全靠谱, 就应该不低于 20K 了, 当然, 一线城市为准.---------------------------------------------图形渲染：熟练使用 Three.js 、ECharts ，了解 全局光照、光栅化 等图形学概念，熟悉 WebGL 、WebGPU 、WASM ，可独立开发 3D 渲染和数据可视化应用。再加这第三条, 25K 以下免谈.---------------------------------------------后端开发：熟悉 Nest.js 、tRPC 、FastAPI ，掌握 Prisma 、Drizzle ORM 。了解 RESTful / GraphQL 规范，能进行 API 设计与优化。以上, 全栈工程师, 这个年纪和工作年限, 如果属实, 算是个牛人---------------------------------------------数据库与 DevOps：熟悉 MySQL 、PostgreSQL 、MongoDB 及基础运维，了解 Nginx 、Traefik 反向代理，掌握 Docker / Kubernetes(k3s)，能搭建高可用服务。感觉开始脱离现实, 这里面可都是含金量很高的, 随便熟悉精通几个, 30K 打底---------------------------------------------AI & 机器学习：了解 PyTorch 、Candle 等框架，熟悉 Ollama 、LangChain 等大模型部署工具，具备 AI 应用开发经验。还好只是\"了解\", 否则已经无话可说---------------------------------------------设计与用户体验：精通 Adobe Illustrator 、Photoshop ，熟悉 Material Design 、Apple Design Guideline ，可独立完成 UI/UX 设计。软技能：具备快速学习能力，擅长探索新技术并高效应用，能够独立完成复杂项目，具备良好的团队协作和跨领域沟通能力。最后, 这一套下来, 没 20 年资深经验, 都感觉很魔幻",
+          "en": "Front-end development: Proficient in TypeScript/JavaScript, familiar with React, Vue, proficient in Next.js/Nuxt.js, supports SSR/SSG to optimize SEO and caching strategies. Proficient in CSS, HTML (semantic, accessible, browser adaptation, etc.), proficient in Tailwind, LESS, SASS. Front-end engineering: Familiar with Nx, Monorepo, proficient in Vite, Webpack, Rspack, Rollup, with experience in developing construction tool plugins. Proficient in using ESLint, Prettier, Biome for code standardization.\r\nIf these two are completely reliable, it should be no less than 20K, of course, based on first-tier cities.\r\n---------------------------------------------\r\nGraphics rendering: Proficient in Three.js, ECharts, understands graphics concepts such as global illumination, rasterization, familiar with WebGL, WebGPU, WASM, can independently develop 3D rendering and data visualization applications.\r\nAdding the third one, less than 25K is out of the question.\r\n---------------------------------------------\r\nBackend development: Familiar with Nest.js, tRPC, FastAPI, proficient in Prisma, Drizzle ORM. Understands RESTful / GraphQL specifications, and can perform API design and optimization.\r\nAbove, as a full-stack engineer, at this age and years of experience, if it is true, he is considered a great person.\r\n---------------------------------------------\r\nDatabase and DevOps: Familiar with MySQL, PostgreSQL, MongoDB and basic operations and maintenance, understands Nginx, Traefik reverse proxy, proficient in Docker / Kubernetes (k3s), and can build high-availability services.\r\nIt feels like starting to get out of touch with reality. They all have a high gold content. Just being familiar with and proficient in a few of them is at least 30K.\r\n---------------------------------------------\r\nAI & Machine Learning: Understands frameworks such as PyTorch, Candle, familiar with large model deployment tools such as Ollama, LangChain, and has AI application development experience.\r\nFortunately, it's just 'understanding', otherwise there's nothing to say.\r\n---------------------------------------------\r\nDesign and User Experience: Proficient in Adobe Illustrator, Photoshop, familiar with Material Design, Apple Design Guideline, and can independently complete UI/UX design. Soft skills: Possesses rapid learning ability, excels at exploring new technologies and applying them efficiently, can independently complete complex projects, and has good teamwork and cross-domain communication skills.\r\nFinally, after this set, without 20 years of senior experience, it feels very magical."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "好多人觉得楼主会这么多很奇怪，但是现实就是现在年轻人如果对计算机感兴趣，现在信息也多，他们学的比我们快多了，只是现在互联网行业十分不景气罢了",
+          "en": "Many people think it's strange that the poster knows so much, but the reality is that if young people are interested in computers now, there's a lot of information, and they learn much faster than we do. It's just that the internet industry is very sluggish now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大佬你这简历拿出来我还以为是 30K 大佬呢,薪资一看 笑的抽抽的",
+          "en": "When you took out your resume, I thought you were a 30K guru. When I saw the salary, I laughed so hard."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "V2 不能删帖，另外搜索引擎权重很高，注意隐私",
+          "en": "V2 cannot delete posts, and search engine weight is very high, pay attention to privacy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NerdHND #15 如果你简历技能树属实各方面全面发展的话 我觉得 30K 没问题",
+          "en": "@NerdHND #15 If your resume skill tree is true and you are fully developed in all aspects, I think 30K is no problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NerdHND #44 不挑地方可以北上广看看机会吧，很多公司薪资越低要求越多（通俗点说叫不识货）。如果担心楼上说的“难以置信”那种情况，可以搞点项目，能直观展示的界面、源码的",
+          "en": "@NerdHND #44 If you don't mind the location, you can check out opportunities in Beijing, Shanghai, and Guangzhou. Many companies require more with lower salaries (in layman's terms, they don't know the value). If you're worried about the \"unbelievable\" situation mentioned above, you can work on some projects that can directly display the interface and source code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cdwyd 本来也是这么觉得的, 但是实际项目开发过程中发现能真的组织套还不错的项目布置的人真少.",
+          "en": "@cdwyd That's what I thought at first, but in actual project development, I found that there are very few people who can really organize a decent project setup."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "子项目的各种依赖管理, 子项目之间的依赖关系, 项目打包方式.",
+          "en": "Various dependency management of subprojects, dependency relationships between subprojects, and project packaging methods."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不说打包, 就是 eslint 的配置, 能写好的人我遇到的都贼少, 何况 eslint 现在的分布式和老插件的冲突这种.",
+          "en": "Not to mention packaging, even the configuration of eslint, very few people I've met can write it well, let alone the current distribution of eslint and the conflict between old plugins."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "连 pretter 和 eslint 配置冲突的我都见过一大堆... 真能把这些东西都整的舒舒服服的我自认也是一个技能了",
+          "en": "I've even seen a lot of pretter and eslint configuration conflicts... I consider it a skill if I can get these things all set up comfortably."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fangqiao1 那不是乱码...那是 base64 编码了的",
+          "en": "@fangqiao1 That's not garbled code... that's base64 encoded."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别人一搜这个公司 老板天塌了",
+          "en": "When people search for this company, the boss is screwed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@tinytoadd CV 大法 启动",
+          "en": "@tinytoadd CV Dafa, start it up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@heftyMan 其实我年前发帖就有 v 友说我会这么多咋收入才 8k (过了个年勉强涨了 2k), 但是有一说一, 我也不知道咋正经提升工资.",
+          "en": "@heftyMan Actually, when I posted before the new year, some V users said that I know so much, so why is my income only 8k (it barely increased by 2k after the new year), but to be honest, I don't know how to properly increase my salary."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shui830 太厉害吧怕撒谎，太普通吧又不要，这思想不就是见不得别人比自己强？，学校好就一定真？学校差又就不能技术强？，面试机会都不给，线上面试又能浪费多长时间？这种思想能招到什么人才？",
+          "en": "@shui830 Too awesome, afraid of lying, too ordinary, and they don't want it. Isn't this idea just that they can't stand others being better than themselves? Is it necessarily true that a good school? Can't a bad school have strong technology? Not even giving an interview opportunity, how much time can an online interview waste? What kind of talent can be recruited with this kind of thinking?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不用写薪资了  简历上的水平 Double 没问题",
+          "en": "Don't write the salary, the level on the resume is double."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NerdHND 跟平台也有关系，可以尝试去一线城市看看，我有位盆友也是本三。刚毕业 8k ，半年跳去上海 16k ，又半年去香港了。也是大二就开始深度参与项目，全栈。",
+          "en": "@NerdHND It also has to do with the platform. You can try to go to first-tier cities. I have a friend who is also a third-tier university. Just graduated with 8k, jumped to Shanghai 16k in half a year, and went to Hong Kong in another half a year. He also started to deeply participate in projects as a sophomore, full stack."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "粗体不是这样用的，技能那块，一半以上的东西都加粗，看着人非常累。",
+          "en": "Bold text is not used like this. More than half of the skills section is bold, which makes it very tiring to look at."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

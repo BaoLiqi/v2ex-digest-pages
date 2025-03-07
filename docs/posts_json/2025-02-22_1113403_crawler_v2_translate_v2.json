@@ -1,0 +1,283 @@
+{
+  "id": 1113403,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "感觉 macos 的交互延迟做的很烂",
+          "en": "Feels like the interaction latency of macOS is very poor."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "白天用 macos 办公，晚上回家用 win 打游戏，刷论坛。\r\n总是感觉 mac 慢一拍，肉肉的感觉，打字总是感觉不流畅，特别是在写文档的时候~\r\n\r\n今天无聊，特意对比了一下两个系统的输入延迟。\r\nmac：m2pro 32g 系统 15.3.1 ，win：win11 ，13600kf\r\n重新开机，chrome 标签栏乱打字，手指全部放在键盘上直接按。\r\n分有中文输入法和纯英文的情况。",
+          "en": "I use macOS for work during the day, and Windows at home in the evenings for gaming and browsing forums.\r\nI always feel like the Mac is a beat slower, a sluggish feeling. Typing never feels smooth, especially when writing documents~\r\n\r\nToday, out of boredom, I specifically compared the input latency of the two systems.\r\nMac: M2Pro 32g system 15.3.1, Win: Win11, 13600kf\r\nRestarted, and randomly typed in the Chrome tab bar, pressing directly with all fingers on the keyboard.\r\nDivided into situations with Chinese input and pure English."
+        },
+        {
+          "zh": "win：不用说，绝对的秒打秒出，根本感觉不到延迟。",
+          "en": "Win: Needless to say, absolute instant typing, can't feel any delay at all."
+        },
+        {
+          "zh": "mac 的结果，分两种情况",
+          "en": "The result on Mac, in two situations:"
+        },
+        {
+          "zh": "1. abc 英文输入状态，几乎没有延迟，至少我感觉不到。",
+          "en": "1. abc English input mode, almost no delay, at least I can't feel it."
+        },
+        {
+          "zh": "但是要对比，绝对是 win 更快点。",
+          "en": "But if compared, Win is definitely faster."
+        },
+        {
+          "zh": "2. 中文输入法状态，我用的微信输入法，体感都能感觉到有延迟，手指离开键盘约 200ms 后，才上屏响应完。",
+          "en": "2. Chinese input mode, I use WeChat input, can physically feel the delay, about 200ms after my fingers leave the keyboard, the screen responds completely."
+        },
+        {
+          "zh": "更别说 mac 还有开机久了，输入法越来越卡的问题。",
+          "en": "Not to mention that the Mac also has the problem of the input method becoming more and more laggy after being turned on for a long time."
+        },
+        {
+          "zh": "特别是 chrome 窗口开的太多，内存变黄用上交换后，输入延迟大道能影响打字的节奏。",
+          "en": "Especially when too many Chrome windows are open, the memory turns yellow uses swap space, the input delay is so bad that it can affect the rhythm of typing."
+        },
+        {
+          "zh": "mac 的延迟问题在系统应用里也有很多体现，比如设置页面，用鼠标快速切换选项。",
+          "en": "The Mac's delay problem is also reflected in many system applications, such as the settings page, quickly switching options with the mouse."
+        },
+        {
+          "zh": "活动监视器页面，用鼠标快速来回点进程，能把自己卡死。",
+          "en": "Activity Monitor page, quickly clicking processes back and forth with the mouse can freeze itself."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "起初点进这个技术讨论帖，本期待能有大神分享 mac 系统优化经验。",
+          "en": "Initially clicking into this technical discussion thread, I expected to see experts share Mac system optimization experience."
+        },
+        {
+          "zh": "结果又看见令人反感的对立煽动回帖科普下 32 楼那位绿色头像网友，你可以在大部分有 windows 和 mac 比较的贴里看到他，十年如一日如同杀父仇人一样攻击微软系产品并群体攻击嘲讽微软用户但他从来不输出有益观点，只使用反问句在论坛制造对立污染内容。",
+          "en": "As a result, I saw another annoying opposing and inflammatory reply educating the green avatar user on the 32nd floor. You can see him in most posts that compare Windows and Mac, attacking Microsoft products and collectively attacking and mocking Microsoft users like he's avenging his father's murder for ten years, but he never outputs useful viewpoints, only uses rhetorical questions to create opposition and pollute content in the forum."
+        },
+        {
+          "zh": "还好现在 mac bug 越来越多，他的言论越来越像🤡了，只能把 fanboy 当口头禅",
+          "en": "Fortunately, there are more and more Mac bugs now, and his remarks are becoming more and more like a clown's, he can only use 'fanboy' as a catchphrase."
+        },
+        {
+          "zh": "以前 mac 比 windows 好用的年代，这位网友狐假虎威不要太威风🤭 不知道他是不是也会把我这种 mac 用户称为 mac fanboy 呢？",
+          "en": "In the days when Mac was better than Windows, this user was so powerful acting like a tiger with the help of a fox 🤭 I wonder if he will call Mac users like me 'Mac fanboys' too?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "结论: 微信输入法 macOS 版本很拉",
+          "en": "Conclusion: The macOS version of WeChat input method is very bad."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然我认同现在 macos 质量下降严重但是到你这个程度真不至于，建议控制变量排查下",
+          "en": "Although I agree that the quality of macOS has seriously declined now, it's probably not as bad as you describe. I suggest controlling variables to investigate."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "macOS 本来就很卡，Windows10 基本都是指哪打哪，软件秒开，Win11 开了 WD 和 VBS 会卡不少，关了也能几乎完全恢复，但 macOS 是关了 gatekeeper 和 SIP 后也恢复不多",
+          "en": "macOS is inherently laggy. Windows 10 is basically point-and-click, software opens instantly. Win11 with WD and VBS enabled is noticeably laggy, but turning them off can almost completely restore performance, but macOS doesn't recover much even after turning off gatekeeper and SIP."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这些我觉得还好，其实最影响效率的还是 macOS 的动画关不掉，有些操作形成肌肉记忆了就觉得动画非常碍事……",
+          "en": "I think these are okay, but the biggest impact on efficiency is that macOS animations can't be turned off. Some operations have become muscle memory, and animations feel very annoying..."
+        },
+        {
+          "zh": "macOS 运行时间越长其实 bug 越多，我现在发现鼠标滚轮滚动也会出现延迟，而且重启就能消除延迟，开机超过一星期就会出现。",
+          "en": "The longer macOS runs, the more bugs there are. I now find that there is also a delay in mouse wheel scrolling, and restarting can eliminate the delay, but it appears after booting for more than a week."
+        },
+        {
+          "zh": "Windows 始终没有这个问题。",
+          "en": "Windows never has this problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你的感觉是对的，MacOS 远比 Windows 卡，我八年前的 Intel CPU 跑 Windows 都比 m3 Pro 芯片流程，其实这个道理也简单，MacOS 才多少用户，Windows 多少用户，微软这些年优化不是白优化的。",
+          "en": "Your feeling is right, macOS is far more laggy than Windows. My eight-year-old Intel CPU running Windows is smoother than the m3 Pro chip. Actually, the reason is simple, how many users does macOS have, how many users does Windows have, Microsoft's optimization over the years has not been in vain."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在 Linux 端 wayland 的速度比 Windows 还快。",
+          "en": "Now the speed of wayland on Linux is faster than Windows."
+        },
+        {
+          "zh": "Windows 到了 Windows11 这里变慢了一点。",
+          "en": "Windows has slowed down a bit here in Windows 11."
+        },
+        {
+          "zh": "不过，macos 确实慢。",
+          "en": "However, macOS is indeed slow."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没有 windows 作为对比，不清楚速度。",
+          "en": "Without Windows as a comparison, I'm not sure about the speed."
+        },
+        {
+          "zh": "同为微信输入法，切换不同应用输入偶尔会有延迟和首字母直接英文输入",
+          "en": "Also using WeChat input method, there is occasional delay when switching between input in different apps and direct English input with the first letter."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉是 15.3.1 的锅。",
+          "en": "Feels like it's 15.3.1's fault."
+        },
+        {
+          "zh": "我更新完后，中文输入法在打字过程中有概率自动清除输入的拼音",
+          "en": "After I updated, the Chinese input method has a probability of automatically clearing the entered Pinyin during typing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为啥不用自带输入法测一下",
+          "en": "Why not use the built-in input method to test?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我觉得 win11 很烂，14 代 i5 和 4060 ，窗口最小化动画都不流畅，总会卡一下，Mac 就很流畅",
+          "en": "I think Win11 is terrible, 14th generation i5 and 4060, even the window minimize animation isn't smooth, it always lags a bit, Mac is very smooth."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Linux 和 macOS 的应用，第一次打开都会比较慢，哪怕是很小的应用也快不了。",
+          "en": "Linux and macOS applications take a while to open for the first time, even very small applications are not quick."
+        },
+        {
+          "zh": "Windows 的应用，简单的秒开。",
+          "en": "Simple Windows applications open instantly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "从来不用三方输入法，信息安全基本常识啊",
+          "en": "Never use third-party input methods, it's basic common sense for information security."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Nosub 我反倒觉得 Windows 卡的不成样子，还是 macOS 流畅",
+          "en": "@Nosub On the contrary, I think Windows is extremely laggy, macOS is still smoother."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "输入法 bug ，重启可以解决，你这还好是卡顿，严重的会彩虹圈，鬼知道输入法那段时间干什么了",
+          "en": "Input method bug, restarting can solve it, you're lucky it's just lag, severe cases will show the spinning beachball, who knows what the input method is doing during that time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人体验来说 win 远远不如 mac ，当然也只是个人观点，👌",
+          "en": "In my personal experience, Win is far inferior to Mac, of course, this is just a personal opinion, 👌"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Windows 和 Mac 同时用 都是用的英文界面 国产软件非必要不安装/系统自带能满足需求不安装多余的软件/输入法从来都只用自带的/付费的根据需求购买 不用任何破解版Windows 是三代志强白金 8375C+512GB@24H2 RAM+4090FE Mac mini 是 [email protected]M1 单核当然秒杀 8375C 但 Mac 有不少软件初次打开速度明显慢于 Windows/输入法卡顿没遇到过/外设功能失效两者都遇到过 都是重启解决问题(最近 2 年二者都没遇到过了 之前都是 Logi Options 的问题)/长时间不关机稳定性 Mac 明显强过 Windows （我的 Mac mini 从 20 年底买回来就没重装过系统 OTA 升级一直到目前的 15.3.1 ） Windows 过去几年 6~9 个月左右就需要重新安装下系统（有 1~2 次是因为 Windows 更新导致的故障）",
+          "en": "Both Windows and Mac are used with English interfaces. I don't install domestic software unless necessary/I don't install extra software if the built-in system can meet my needs/I only use the built-in input method/I purchase paid software according to my needs and don't use any cracked versions. Windows is a third-generation Xeon Platinum 8375C+512GB@24H2 RAM+4090FE. The Mac mini is a [email protected]M1 single core, which of course kills the 8375C, but many Mac software open much slower than Windows for the first time/I haven't encountered input lag/I have encountered peripheral failures on both, and restarting solves the problem (I haven't encountered either in the last 2 years, it used to be a Logi Options issue)/Long-term non-shutdown stability Mac is significantly stronger than Windows (my Mac mini has not been reinstalled since I bought it at the end of 2020, and has been OTA upgraded to the current 15.3.1) Windows has needed to be reinstalled every 6-9 months in the past few years (1-2 times because of Windows update failures)."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ACSOUV 这事吧，很简单，你开个 vm 虚拟机，用同样的配置，安装 Windows ，MacOS ，和 Linux ，看看谁卡顿就知道了，因为我最近一直在做跨平台的开发，虚拟机里面的 MacOS 基本卡的不行，直白点就是 Windows 和 Linux 多低的配置都可以用，MacOS 基本用不了，这本身就说明了问题。",
+          "en": "@ACSOUV It's simple, open a VM virtual machine, use the same configuration, install Windows, macOS, and Linux, and see which one is laggy. Because I have been doing cross-platform development recently, the MacOS in the virtual machine is basically extremely laggy, to put it bluntly, Windows and Linux can be used on very low configurations, MacOS is basically unusable, which in itself explains the problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "macos 的「设置」十分离谱，首先打开它，就要先经历一轮图标跳跃，等弹出界面，点击左侧边栏任意一项，右边的页面都要秒级别才能切换。",
+          "en": "The \"Settings\" of macOS are outrageous. First, to open it, you have to go through a round of icon jumping. After the interface pops up, click on any item on the left sidebar, and the page on the right takes seconds to switch."
+        },
+        {
+          "zh": "而 windows 11 的设置速度其实已经是比自己之前劣化过了，拿旧版 win 的控制面板出来，现在这些系统都没得打。",
+          "en": "The speed of Windows 11's settings is actually worse than before. If you bring out the old version of the Win control panel, none of these systems can compete."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SeaTac 我也只用自带输入法，但是 mac 自带输入法最大的问题不是延迟，延迟再低也没用，输入备选词的正确率实在太低了，离 win 自带输入法差太多",
+          "en": "@SeaTac I also only use the built-in input method, but the biggest problem with the Mac's built-in input method is not the delay. Even if the delay is low, it is useless. The accuracy rate of input candidate words is too low, which is far from the built-in input method of Win."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 1108576,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "过年回个老家，服务器 ip 被墙了",
+          "en": "Went back to my hometown for Chinese New Year, and the server IP was blocked."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "香港服务器，用 vless+ws 伪装成普通 https 过墙，深圳打工一直在用非常稳定，不管是住处电信宽带还是联通和电信手机网络，高峰期延迟稳定 50ms 以内，体验非常爽。\n\n\n\n过年回老家河南，第二天发现 443 端口直接被封了，所有正常网页也打不开了。交叉对比发现是老家的移动宽带封的。彼时其它端口还能访问，于是切换成了其它端口的 ss ，想着临时用几天。\n\n\n\n结果过了两天，这个端口也不行了，再一看完蛋了，不管哪个网络环境哪个端口统统连不上。返深也不行了。线上全球 ping 了一下彻底死心，除了港台和国外，国内全部节点都是红的。\n\n\n\n最后无奈套了个 cf 的壳，算是抢救了一把，现在延迟变成了 300ms ，肉眼可见的卡顿感，体验很不爽。\n\n\n\n只能感慨一下，我大河南局域网建设工作遥遥领先啊",
+          "en": "Hong Kong server, using vless+ws to disguise as ordinary https to bypass the Great Firewall. I've been using it very stable in Shenzhen, whether it's China Telecom broadband at home or China Unicom and China Telecom mobile networks. The peak delay is stable within 50ms, and the experience is very enjoyable.\n\nWent back to my hometown in Henan for Chinese New Year, and the next day I found that port 443 was directly blocked, and all normal web pages could not be opened. Cross-comparison revealed that it was the local China Mobile broadband that blocked it. At that time, other ports could still be accessed, so I switched to ss on other ports, thinking of using it temporarily for a few days.\n\nAs a result, after two days, this port also failed. Looking again, I was done for. No matter what network environment or port, I couldn't connect at all. Returning to Shenzhen didn't work either. I did a global ping online and completely gave up. Except for Hong Kong, Taiwan, and foreign countries, all domestic nodes were red.\n\nFinally, I had to put on a CF shell as a rescue, and now the delay has become 300ms, with obvious lag, and the experience is very unpleasant.\n\nI can only sigh, the construction of the local network in my big Henan is far ahead."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这不很正常,河南/福建/江苏这仨省接近白名单了",
+          "en": "This is normal. Henan, Fujian, and Jiangsu are close to being whitelisted."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "河南移动因为宁陵那个事变成了墙中墙 plus ，想改变就搬家，福建也是白名单，江苏 DNS 劫持，不要去这几个地方买房子",
+          "en": "Henan Mobile has become a wall-in-wall plus because of the Ningling incident. If you want to change it, move. Fujian is also whitelisted, and Jiangsu has DNS hijacking. Don't buy houses in these places."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "🀄️🀄️🀄️",
+          "en": "🀄️🀄️🀄️"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "洼中洼是这样的",
+          "en": "That's how it is in a low-lying area."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NAVYFIELD 地方官员为了表忠心罢了，要么就是懒政，哪来的官方消息推全国？人家浙爷的移动怎么就全国唯一一个没有墙中墙呢",
+          "en": "@NAVYFIELD Local officials are just trying to show their loyalty, or they are just lazy. Where is the official news promoting it nationwide? Why is Zhejiang Mobile the only one in the country without a wall-in-wall?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "众所周知，移动本来就墙中墙啊，地区之前微调肯定有，但区别远没有运营商之间区别明显，出门老实用电信联通，移动手机还好，宽带就更多一层墙，都是极低端用户也没人会反抗的。",
+          "en": "As everyone knows, Mobile is already a wall-in-wall. There must be regional fine-tuning, but the difference is not as obvious as the difference between operators. When going out, always use China Telecom and China Unicom. Mobile phones are okay, but broadband has another layer of wall. They are all very low-end users and no one will resist."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也遇到到了，一番搜索后发现荷兰是墙中墙，无语了",
+          "en": "I also encountered it. After some searching, I found that Henan is a wall-in-wall. Speechless."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "河南移动墙中墙，挂 cf 的域名都打不开，本来没有封。可是你改用了 ss ，彻底被识别了，不封你封谁",
+          "en": "Henan Mobile wall-in-wall, even domains using CF cannot be opened, and were not blocked previously. But you switched to ss, and were completely identified, who else would they block but you?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我瞎猜，会不会用的人变少了，所以更加精准了",
+          "en": "I'm just guessing, maybe the number of users has decreased, so it's more accurate."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也遇到类似的，浙江用了 1 年多好好的 hy2 洛杉矶节点，年前去“湖建”厦门玩，第二天端口就被封了。",
+          "en": "I also encountered something similar. I used a Hy2 Los Angeles node in Zhejiang for more than a year, and the next day the port was blocked after I went to Xiamen in Fujian for vacation before the New Year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "vless reality 保平安",
+          "en": "vless reality keeps you safe."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "reality 吧，ws 流量一大就嘎，不走 cdn 还是 1reality 最好",
+          "en": "Use reality, ws will be blocked with large traffic. 1reality is still the best if you don't use cdn."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我这机场跑路，oracle 搞了一个 ss2022 ，用了快一个月了，奇迹啊",
+          "en": "My VPN provider ran away, so I set up an ss2022 on Oracle, and have been using it for almost a month. It's a miracle!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "河南是一个农业大省，你不搞农业搞这高科技玩意，怎么会允许呢？",
+          "en": "Henan is a large agricultural province. How can they allow you to engage in high-tech stuff instead of agriculture?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉是官方的爬虫给检测出来了，现在国内访问任何 URL 必有爬虫摸过去检测流量或内容用 IP 白名单挡一下吧，家宽的 IP 段就那么几个，多维护几次就好了如果带 CF 套套的话，CF 免费版也支持 3 条 URL 防火墙规则和 IP 白名单注册 1 美元以下的年抛域名，即使被封换一个域名成本也低",
+          "en": "I feel like the official crawler detected it. Now, when accessing any URL in China, there must be a crawler that goes over to check the traffic or content and use an IP whitelist to block it. There are only a few IP segments for home broadband, so maintain it a few more times. If you use CF, the free version of CF also supports 3 URL firewall rules and an IP whitelist. Registering a domain for less than $1 a year, even if it's blocked, the cost of changing a domain is low."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ss2022",
+          "en": "ss2022"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ws+tls 都是我两年前就弃用的了",
+          "en": "I abandoned ws+tls two years ago."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hdp5252 哎，也是我大意了，以为只是移动自己封的端口，想着凑合几天就好，没想到升级到被封 ip河南移动看起来真的会墙中墙，以后回老家拉宽带不会考虑移动了。",
+          "en": "@hdp5252 Alas, it was also my carelessness. I thought it was just Mobile blocking the port, and I thought I could just make do for a few days. I didn't expect it to escalate to being blocked IP. Henan Mobile really seems to have a wall-in-wall. I won't consider Mobile for broadband when I go back to my hometown in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ss 必",
+          "en": "ss is a must (to fail)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@TellMeWHY #12 +1 ，墙很早就这个功能正常的 HTTP 请求到服务器之前会有特殊的检测包发到服务器，如果没有 HTTP 异常那就是假的 web",
+          "en": "@TellMeWHY #12 +1, the Great Firewall has had this function for a long time. Before a normal HTTP request reaches the server, a special detection packet is sent to the server. If there is no HTTP exception, then it is a fake web."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

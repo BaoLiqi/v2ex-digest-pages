@@ -1,0 +1,203 @@
+{
+  "id": 1108575,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "家庭宽带测速正常，但是就是很慢，微信发不出去，朋友圈缩略图加载不出来",
+          "en": "Home broadband speed test is normal, but it's very slow, WeChat messages can't be sent, and WeChat Moments thumbnails can't load."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如题，请问怎么办？",
+          "en": "As the title says, what should I do?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "微信里面打开这个  https://dnstest.weixin.qq.com/newdns.cgi/",
+          "en": "Open this in WeChat: https://dnstest.weixin.qq.com/newdns.cgi/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看一下是不是机场和 dns 没搞好",
+          "en": "Check if the proxy server and DNS are set up correctly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你不是个例,这好像是微信的问题(忘记在哪儿看到过了)",
+          "en": "You are not alone. This seems to be a WeChat issue (I forgot where I saw it)."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有没有开启 ipv6 ？关闭后试试看呢？",
+          "en": "Is IPv6 enabled? Try turning it off to see if that helps."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1 ，微信的问题2 ，自己家网络设备转发性能较弱",
+          "en": "1. WeChat issue 2. The forwarding performance of your home network equipment is weak."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这个应该是代理把微信的 dns 查询搞炸了 注意微信的 dns 应该是 doh 那种的 然后被代理之后返回了离你很远的服务器 就会变得很慢",
+          "en": "This should be because the proxy messed up WeChat's DNS query. Note that WeChat's DNS should be DoH type, and then after being proxied, it returns a server far away from you, which will become very slow."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "带宽和延迟不是同一个东西",
+          "en": "Bandwidth and latency are not the same thing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@YGHMXFAL 记得是说微信图片服务器只有一个深圳 IP",
+          "en": "@YGHMXFAL I remember hearing that the WeChat image server only has one Shenzhen IP."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这几天也有这个感觉，微信收发消息都很慢。同网络下的电脑端倒是正常。",
+          "en": "I've also had this feeling these past few days, WeChat sends and receives messages very slowly. The computer client on the same network is normal though."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大概率是 DNS 的问题",
+          "en": "It's most likely a DNS issue."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "测一下 MTU 。",
+          "en": "Test the MTU."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "dns",
+          "en": "dns"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我投 dns 一票",
+          "en": "I vote for DNS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "IPV6 的锅",
+          "en": "IPv6 is to blame."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "dns 问题",
+          "en": "DNS problem"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该是 dns ，前两天我家的移动宽带遇到了这个问题，之前设置的是阿里的 dns ，最近这玩意不是限速了吗，在共享 ip 的宽带上问题尤为明显，后来切换成运营商自己的 dns 就正常了",
+          "en": "It should be DNS. My home China Mobile broadband encountered this problem a few days ago. I previously set up Ali's DNS, but recently this thing has been speed limited, and the problem is especially obvious on shared IP broadband. Later, switching to the operator's own DNS solved the problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在座的各位都是悬丝诊脉的高手",
+          "en": "Everyone here are experts at diagnosing ailments by feeling the pulse through a string."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果是 dns 的问题，那些常见软件可以 dns 分流，规则集 direct 域名使用 system dns 解析。",
+          "en": "If it's a DNS issue, common software can use DNS splitting, and the ruleset direct domain name uses system DNS resolution."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "参考这篇帖子https://www.v2ex.com/t/1082961",
+          "en": "Refer to this post: https://www.v2ex.com/t/1082961"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "dns 问题，如果是电信使用一些贵州那个 dns",
+          "en": "DNS issue, if it is China Telecom, use some DNS from Guizhou."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

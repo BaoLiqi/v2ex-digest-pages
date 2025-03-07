@@ -1,0 +1,203 @@
+{
+  "id": 1108592,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "一加 ace5 能不能刷氢 OS？",
+          "en": "Can OnePlus Ace 5 be flashed with Hydrogen OS?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "RT,coloros15 自带的东西太多了。。。。喜欢类原生，能不能氢 OS ？酷安没找到教程，有没有推荐的教程什么的？",
+          "en": "RT, ColorOS 15 comes with too many things. I like near-stock Android, is it possible to flash Hydrogen OS? I couldn't find a tutorial on CoolApk, are there any recommended tutorials?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "氢 OS 认真的吗，氢早就绝版了",
+          "en": "Hydrogen OS? Seriously? Hydrogen is long gone."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imjiaoyuan 没注意你已经买了，看看这个刷机教程。https://xdaforums.com/t/pjz110-30-1-coloros-to-oxygenos-stable-eu-405-glo-405-in-405.4707431/page-141#post-89935683",
+          "en": "@imjiaoyuan I didn't realize you already bought it. Check out this flashing tutorial: https://xdaforums.com/t/pjz110-30-1-coloros-to-oxygenos-stable-eu-405-glo-405-in-405.4707431/page-141#post-89935683"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "氢 OS 早就没了，现在的氧 OS 都是国内 ColorOS 改的，你真想纯净，只能刷类原生系统，比如 LineagsOS 、PixelOS 这种",
+          "en": "Hydrogen OS is long gone. The current Oxygen OS is just a modified version of ColorOS for the Chinese market. If you really want a pure experience, you can only flash a near-stock ROM like LineageOS or PixelOS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Tiande #24 一加解锁 bl 之后是屏蔽 tee ，回锁可以恢复。root 之后能不能回锁就不清楚了。使用现代的内核 root 如 ksu 隐蔽性很高的，我这边暂时只发现微信不能用指纹（因为 tee 缺损，缺损 tee 就拒绝使用指纹并非规范做法，问候张小龙 xx ），支付宝、招行、中行这些都可以正常用指纹，著名 root 检测选手 12123 也能用。",
+          "en": "@Tiande #24 Unlocking the bootloader on OnePlus disables TEE, relocking can restore it. I'm not sure if you can relock after rooting. Using a modern kernel for root, such as ksu, has high stealth. I've only found that WeChat can't use fingerprints (because of TEE loss, refusing to use fingerprints due to TEE loss is not standard practice, greetings to Zhang Xiaolong xx). Alipay, China Merchants Bank, Bank of China, etc., can all use fingerprints normally. The famous root detection app 12123 also works."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "另外问下刷类原生有什么风险或者是问题？",
+          "en": "Also, what are the risks or problems of flashing a near-stock ROM?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "至少得等对应的外版出吧...  本来想买这机器的，后来改买 K80 了，因为屏幕分辨率高点...",
+          "en": "At least you have to wait for the corresponding global version to be released... I originally wanted to buy this phone, but later changed to K80 because of the higher screen resolution..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "OTA 丢信号是老问题不谈，听说这次刷 13R 后摄像头也不能用了",
+          "en": "Losing signal with OTA is an old problem, not to mention that I heard that the camera can't be used after flashing 13R this time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@DandelionFlowers @moefishtang 国际版听说也不错？买这机子就是为了刷",
+          "en": "@DandelionFlowers @moefishtang I heard the international version is also good? I bought this phone just for flashing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "13R 的 OOS15 rom(新版氧)不就是吗？刷之前把基带.img 镜像放进去就行，要不然就刷之后用 KernelSU 后刷入 img ，具体可以参考一加 13 的 XDA 教程。最后，我也说下，最近入了一加 13 ，刷了 OOS ，用了一周还是回到国内 Corlor OS ，原因无他，就是国内的一些本地化功能太吸引人了，通话录音（电话，微信），还有小布 AI 通话...这两个核心功能，哪怕内置反欺诈我也接受了（以后有时间再研究怎么屏蔽或删除）。另外旧的那部以后 7pro 刷 PE 养老，能通话录音，能开 Google CallingScreen 拦截骚扰电话。",
+          "en": "Isn't the 13R's OOS15 ROM (new Oxygen OS) it? Just put the baseband.img image in before flashing, or flash the img after flashing with KernelSU. You can refer to the OnePlus 13's XDA tutorial for details. Finally, let me also say that I recently bought a OnePlus 13, flashed OOS, and went back to the domestic ColorOS after a week. The reason is nothing else but the domestic localization features are too attractive, call recording (phone, WeChat), and XiaoBu AI call... I accept these two core functions even if there is built-in anti-fraud (I will study how to block or delete it later). In addition, I will flash PE on my old 7pro for retirement, which can record calls and enable Google CallingScreen to block spam calls."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@DandelionFlowers 我买的一加 13,刷后只有丢信号问题，其他硬件都没啥问题。",
+          "en": "@DandelionFlowers I bought a OnePlus 13, and only had signal loss issues after flashing, no other hardware problems."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有人试过吗：一加全能工具箱能不能在不 root 的情况下，双开 app ，且重启后不掉图标？",
+          "en": "Has anyone tried: Can the OnePlus All-in-One Toolbox, without root, dual open apps, and not drop icons after restarting?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@maleclub 我没有什么特别依赖的本地化功能。。单纯不想系统里多这么多 shit",
+          "en": "@maleclub I don't have any particularly dependent localization features. I just don't want so much shit in the system."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imjiaoyuan 那你可以试试 ace3,ace5 ，12,13 这些信号，有对应的国际版 rom 。注意不要买 ace3pro 这种，没有对应的国际版，只能等别人移植 rom 。",
+          "en": "@imjiaoyuan Then you can try ace3, ace5, 12, 13, these signals, there are corresponding international versions of ROM. Be careful not to buy ace3pro, there is no corresponding international version, you can only wait for others to port the ROM."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@penpen0404 现在无论 COS 还是 OOS （氧）都可以系统原生直接双开 app ，注意 OOS 只支持 64 位的 app 。不关 root 与解 BL 的事情。",
+          "en": "@penpen0404 Now, whether COS or OOS (Oxygen OS), you can directly dual open apps natively, note that OOS only supports 64-bit apps. It has nothing to do with root or unlocking the bootloader."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@VERDGUN 我专门买的 ace5",
+          "en": "@VERDGUN I specifically bought the ace5"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@VERDGUN 求问国际版系统在哪里可以下载",
+          "en": "@VERDGUN Where can I download the international version of the system?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imjiaoyuan xda 论坛啊。刷机教程里面有，目前作者好像解决了刷机丢信号的问题。https://xdaforums.com/t/pjz110-30-1-coloros-to-oxygenos-stable-eu-405-glo-405-in-405.4707431/",
+          "en": "@imjiaoyuan XDA forum. It's in the flashing tutorial. The author seems to have solved the issue of losing signal. https://xdaforums.com/t/pjz110-30-1-coloros-to-oxygenos-stable-eu-405-glo-405-in-405.4707431/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@VERDGUN 出问题的话售后可以刷回吧？",
+          "en": "@VERDGUN If there is a problem, can the after-sales service flash it back?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imjiaoyuan 可以刷回。售后不太了解",
+          "en": "@imjiaoyuan It can be flashed back. I don't know much about after-sales service."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@penpen0404 Android 原生就支持吧...  借助工作空间这个特性",
+          "en": "@penpen0404 Android natively supports it... using the work profile feature."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

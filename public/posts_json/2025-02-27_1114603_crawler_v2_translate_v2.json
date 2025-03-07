@@ -1,0 +1,275 @@
+{
+  "id": 1114603,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "jetbrains 系列软件或许有一天会因为功能过于高级而被抛弃",
+          "en": "The JetBrains series of software might one day be abandoned because its features are too advanced."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "今天突然奇想 或许有一天 jetbrains 系列软件会因为功能过于高级而被抛弃",
+          "en": "Just had a sudden idea today, maybe one day the JetBrains series of software will be abandoned because its features are too advanced."
+        },
+        {
+          "zh": "\r\n\r\n畅想:\r\n1. jetbrains 系列软件都挺好用的，但是过于复杂的功能感觉在后面的版本迭代中有一天会带来无法预知的 bug ，有可能有的 bug 在旧版本修复了，但是新版本发布之后这个 bug 又重新出来了。\r\n2. jetbrains gateway 产品的开发一直迭代了几年了，一直还处于未正式发布的版本，实际使用过程中也遇到了一些问题，新的 fleet 也是一直未正式发布。是不是因为功能过于丰富而导致远程开发这种模式很难去适配\r\n3. ai + ide 的结合，jetbrains 上还未见特别出彩的插件.\r\n\r\n写代码写到一半的突发奇想，各位大佬轻喷。",
+          "en": "\n\nBrainstorming:\n1. The JetBrains series of software is quite good, but overly complex features feel like they might bring unpredictable bugs in later version iterations. It's possible that some bugs that were fixed in older versions reappear after new versions are released.\n2. The development of the JetBrains Gateway product has been iterating for several years and is still not officially released. There have been some issues in actual use, and the new Fleet has also not been officially released. Is it because the features are too rich that it's difficult to adapt to this remote development mode?\n3. Regarding the combination of AI + IDE, there are no particularly outstanding plugins on JetBrains.\n\nA sudden thought halfway through coding, please be gentle."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "私认为 Jetbrain 系列做的是懒人不想折腾的 IDE, 臃肿归臃肿, 但真香",
+          "en": "I personally think that the JetBrains series is an IDE for lazy people who don't want to tinker, it's bloated, but great."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "目前看来，看衰 idea 捧 vscode 的基本都是前端开发者。",
+          "en": "Currently, it seems that most of those who are pessimistic about IDEA and praise VS Code are front-end developers."
+        },
+        {
+          "zh": "jb 的 bug 确实多，但是很多功能都是无法替代的，而 vscode 根本和 idea 就不是一个定位，cursor 和 remote Dev 方面 vscode 更好也并非单纯是 jb 比 vscode 差太多，个人更倾向于 IDE 技术栈的问题。",
+          "en": "JB has indeed many bugs, but many functions are irreplaceable, and VS Code and IDEA are not in the same category at all. VS Code is better in terms of Cursor and Remote Dev, but it's not simply because JB is much worse than VS Code. I personally lean more towards the issue of the IDE technology stack."
+        },
+        {
+          "zh": "vscode 底座是 electron ，jb 底座是 JRE ，从技术和生态上讲，Web/js 搞 remote Dev 明显是更方便的。",
+          "en": "The VS Code base is Electron, and the JB base is JRE. From a technical and ecological point of view, it is clearly more convenient for Web/JS to do remote Dev."
+        },
+        {
+          "zh": "而且 vscode 更接近于编辑器，架构设计上也更轻量，选用其进行二次开发显然是比选 jb 更方便的，但这并非 jb 比 vscode 差的理由。",
+          "en": "Moreover, VS Code is closer to an editor and has a lighter architecture design, so it is obviously more convenient to choose it for secondary development than to choose JB, but this is not a reason why JB is worse than VS Code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "留意过这种现象。",
+          "en": "I've noticed this phenomenon."
+        },
+        {
+          "zh": "比如 office -> MarkDown 。",
+          "en": "For example, Office -> MarkDown."
+        },
+        {
+          "zh": "很多软件功能不断的在升级，但是功能越来越多，越来越复杂，越来越笨重，并且由于一些技术转机，软件变革较慢，导致一部分人开始追逐一些轻量级的替代品，然后这些替代品慢慢开始变得笨重……",
+          "en": "Many software features are constantly being upgraded, but the functions are becoming more and more, more complex, more cumbersome, and due to some technical turning points, the software changes are slow, causing some people to pursue lightweight alternatives, and then these alternatives slowly become cumbersome..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在 ai 在一环，jetbrain 掉队太多了",
+          "en": "JetBrains has fallen too far behind in the AI field."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "盘子铺这么大，要不是有 Google 助力 Android Studio 和 Kotlin ，JB 这么搞可能已经快破产了。",
+          "en": "The scope is so large. If it weren't for Google's help with Android Studio and Kotlin, JB might have gone bankrupt doing this."
+        },
+        {
+          "zh": "其实只保留 IDEA ，和基于 IDEA 的 phpstorm/pycharm ，其它的根本不是 vsc 对手，全砍掉好了，省下来的资源拿去做 AI 增强和瘦身提速。",
+          "en": "In fact, just keep IDEA and the IDEA-based PhpStorm/PyCharm. The others are not opponents of VSC at all. Just cut them all off and use the saved resources for AI enhancements and slimming down and speeding up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "fleet 已经被放弃了",
+          "en": "Fleet has been abandoned."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "主要是太过于臃肿了，历史负担也比较重，插件系统和利益分享也不够现代和完善。",
+          "en": "Mainly it is too bloated, the historical burden is relatively heavy, and the plugin system and profit sharing are not modern and perfect enough."
+        },
+        {
+          "zh": "VScode 本体得益于开源，插件开发也很友好， 三方公司很容易就做出一个自己的新功能和 VScode 结合的产品出来。",
+          "en": "The VS Code本体 benefits from open source, and plugin development is very friendly. It is easy for third-party companies to create their own new features and combine them with VS Code."
+        },
+        {
+          "zh": "jb 一家斗不过这么多。",
+          "en": "JB cannot compete with so many."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我自己用久了 Jet 全家桶，反过去用 VS Code 居然有抵触心理。",
+          "en": "After using the JetBrains suite for a long time, I even have a resistance to using VS Code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "VSCode 只是编辑器，不是 IDE 。",
+          "en": "VS Code is just an editor, not an IDE."
+        },
+        {
+          "zh": "做大型工程用编辑器？",
+          "en": "Use an editor for large projects?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dxddd obsidian 就是这样弃了",
+          "en": "@dxddd That's how Obsidian was abandoned."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "略有同感，远程开发功能远不及 vscode ，而且几年过去了也没什么进展。",
+          "en": "Slightly agree, the remote development function is far inferior to VS Code, and there has been no progress after several years."
+        },
+        {
+          "zh": "对 ai 的结合也很弱",
+          "en": "The integration with AI is also weak."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dxddd 例子不恰当，office 该用的时候还是用，md 只是在某些场景因为简单化而被使用起来。",
+          "en": "@dxddd The example is not appropriate. Office is still used when it should be. MD is only used in some scenarios because it is simplified."
+        },
+        {
+          "zh": "楼主的想法，也有些不符合逻辑，工程软件开发，功能的添加一方面是需求，一方面是公司自己的规划，都是按迭代逐步推进的，即便是某一天完全不更新了，也应该是它满足当前用户需求或者公司抛弃它有新产品了已经成熟的一款软件被替代，或者说被大量用户弃用，只能是有更好用的软件出现，假如哪天 vscode 通过配置插件后，完全媲美 jetbrain 系列，加上免费，那真可能，不过目前没看到这个迹象",
+          "en": "The original poster's idea is also a bit illogical. The addition of functions in engineering software development is partly a need and partly the company's own plan. They are gradually advanced through iteration. Even if it is not updated at all one day, it should be that it meets the current user needs, or the company has abandoned it and a new product has matured and is replaced, or it is abandoned by a large number of users. It can only be replaced by better software. If one day VS Code can completely rival the JetBrains series after configuring plugins, plus free, then it is really possible, but I have not seen this sign so far."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我感觉 idea 现在都有点迭代不动了，许多 bug 很多年也没解决",
+          "en": "I feel that IDEA is a bit difficult to iterate now, and many bugs have not been resolved for many years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "盘子太大，画饼太多，遇上一个下行周期没被原地大破产不错了还挺希望微软之类的把 jb 收购了，然后和 vsc 缝合一下成为 jbc",
+          "en": "The scope is too large, there are too many empty promises, and it's good that it hasn't been bankrupted in place after encountering a downward cycle. I really hope that Microsoft or something will acquire JB and then merge it with VSC to become JBC."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对于 UE 的 C++项目 Rider 还是很好用的，至少函数跳转和宏补全很快。",
+          "en": "Rider is still very useful for UE's C++ projects, at least function jumping and macro completion are very fast."
+        },
+        {
+          "zh": "虽然是内存空间换时间。",
+          "en": "Although it trades memory space for time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不是或许，而是现在事实是已经这样了。",
+          "en": "It's not maybe, but the fact is that it is already like this."
+        },
+        {
+          "zh": "经常同一个 bug 不同版本反反复复出现",
+          "en": "The same bug often appears repeatedly in different versions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "jb 现在 bug 修的太慢了，一些 wsl 的 bug 一修几个月直接影响使用",
+          "en": "JB fixes bugs too slowly now, some WSL bugs take several months to fix, directly affecting usage."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@supergeek1 除非一点 java 不写，不然还是只能用 idea ，python 这种轻量语言用什么 vim 、ecmas 配置一下都能写了，不过就体验上来说前端开发 vsc 更胜一筹，用着很舒服。",
+          "en": "@supergeek1 Unless you don't write any Java, you can only use IDEA. Lightweight languages like Python can be written with Vim or ECMA configurations, but in terms of experience, VSC is better for front-end development, and it is very comfortable to use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NoKey 可能说 word 比较合适。",
+          "en": "@NoKey Maybe Word is more appropriate."
+        },
+        {
+          "zh": "我记得刚工作的时候各种文档还都是用 word ，算是工程标准文件。",
+          "en": "I remember when I first started working, all kinds of documents were written in Word, which was regarded as a standard engineering file."
+        },
+        {
+          "zh": "现在基本见不到 word 了。",
+          "en": "Now basically I don't see Word anymore."
+        },
+        {
+          "zh": "大多是在 wiki 上用 md 或者富文本去写了。",
+          "en": "Most of them are written on the wiki using MD or rich text."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "fleet 已经无了，以后也没有 kotlin 的 GDC 了。",
+          "en": "Fleet is gone, and there will be no Kotlin GDC in the future."
+        },
+        {
+          "zh": "jb 未来的工作还是会放在 KMM KMP 和工具家族中了。",
+          "en": "JB's future work will still be focused on KMM KMP and the tool family."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

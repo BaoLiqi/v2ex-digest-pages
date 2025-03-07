@@ -1,0 +1,263 @@
+{
+  "id": 1113566,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "[送码] AI 驱动的英语句子学习工具。",
+          "en": "[Giving away codes] AI-powered English sentence learning tool."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "英语切割机，一款 AI 驱动的英语句子学习工具。",
+          "en": "English Cutter, an AI-powered English sentence learning tool."
+        },
+        {
+          "zh": "\r\n\r\n网址是 www.wordflow.click\r\n\r\n有人说，想要学会音标必须开口读单词，想要学会单词必须理解句子，这跟机器学习语言的方法类似，机器不翻字典，也不背单词，想要让机器理解词意，只需要让他看到这个单词在句子中怎么用就可以了，著名的遮蔽语言模型（ MLM ）就是把单词遮住，让机器看前后文来反推词意。",
+          "en": "\r\n\r\nThe website is www.wordflow.click\r\n\r\nSome say that to learn phonetics, you must pronounce words; to learn words, you must understand sentences. This is similar to how machines learn languages. Machines don't look up dictionaries or memorize words. To make a machine understand the meaning of a word, you only need to show it how the word is used in a sentence. The famous masked language model (MLM) hides the word and lets the machine look at the context to infer the meaning."
+        },
+        {
+          "zh": "\r\n\r\n而今天多数给人用的英语学习软件，尽管给出了例句，但也都是通过反复看单词来记忆，于是我做了一个完全基于句子的记忆软件。",
+          "en": "\r\n\r\nHowever, most English learning software for people today, although providing example sentences, relies on repeated viewing of words for memorization. So, I created a sentence-based memory software."
+        },
+        {
+          "zh": "\r\n\r\n## 1.用切割机理解英语句子\r\n\r\n上学的时候遇到的一个问题，就是记了很多遍英语单词，也学过很多次语法，但总是看不懂长难句，后来开始实践通过句子学英语，那时就开始用一种方法去拆解句子，把复杂的长句子分解成主干和修饰成分，来理清句子结构。大概规则就是识别出来从句、短语和非谓语动词这三个长的结构，然后标注词性把形容词和副词找出来，最后标注并列结构。",
+          "en": "\r\n\r\n## 1. Understand English Sentences with Cutter\r\n\r\nOne problem I encountered when I was in school was that I had memorized English words many times and learned grammar many times, but I still couldn't understand long and difficult sentences. Later, I started practicing learning English through sentences, and I started using a method to break down sentences, decomposing complex long sentences into main components and modifiers to clarify the sentence structure. The general rule is to identify three long structures: clauses, phrases, and non-finite verbs, then mark the parts of speech to find adjectives and adverbs, and finally mark parallel structures."
+        },
+        {
+          "zh": "\r\n\r\n具体的方法，b 站上有个[前新东方老师]( https://www.bilibili.com/video/BV1TY4y1W7aZ/)讲解的不错，大家可以去看看。",
+          "en": "\r\n\r\nFor the specific method, a former New Oriental teacher on Bilibili [前新东方老师](https://www.bilibili.com/video/BV1TY4y1W7aZ/) has a good explanation, you can check it out."
+        },
+        {
+          "zh": "\r\n\r\n实践下来确实有效，但是拆解句子这个过程，需要花费很多时间，而且在学习过程中，想要精准识别各种从句、短语和非谓语动词，对于初学者来说，这个过程还是比较困难的。",
+          "en": "\r\n\r\nPractice has proven it to be effective, but the process of breaking down sentences takes a lot of time. Moreover, in the learning process, accurately identifying various clauses, phrases, and non-finite verbs is quite difficult for beginners."
+        },
+        {
+          "zh": "\r\n\r\n于是，我做了一个工具，可以自动识别句子中的从句、短语和非谓语动词，并标注词性，这样就可以节省很多时间，而且可以更准确地理解句子结构。",
+          "en": "\r\n\r\nTherefore, I created a tool that can automatically identify clauses, phrases, and non-finite verbs in sentences and mark the parts of speech, which can save a lot of time and allow for a more accurate understanding of sentence structure."
+        },
+        {
+          "zh": "\r\n\r\n![演示 gif1]( https://i.imgur.com/5mrhfqx.gif)\r\n\r\n## 2. 练习切割后的句子\r\n\r\n用上面的方法把句子拆分之后，顺手做了个练习功能，就是遮住所有单词，根据音标、中文意思，来默写单词的意思。",
+          "en": "\r\n\r\n![演示 gif1]( https://i.imgur.com/5mrhfqx.gif)\r\n\r\n## 2. Practice Cut Sentences\r\n\r\nAfter splitting the sentences using the above method, I conveniently created an exercise function, which is to cover all the words and dictate the meaning of the words according to the phonetics and Chinese meaning."
+        },
+        {
+          "zh": "\r\n\r\n![演示 gif2]( https://i.imgur.com/E1t2wij.gif)\r\n\r\n## 3.送码\r\n我们将送出 10 个、抽取 5 个终身功能解锁码。终身功能解锁，添加自定义句子消耗 AI 算力，后期按月发放 API 余额。（共计约 10 万 token ）\r\n\r\n\t•EZ8YIYCO\r\n\t•RGJKZSB6\r\n\t•GA2EYQ24\r\n\t•ERVQZGV3\r\n\t•ZPCVZYQB\r\n\t•9KUIC6FS\r\n\t•KU1MOEIT\r\n\t•R56MJ8VG\r\n\t•I6S443VJ\r\n\t•LALKQZKY",
+          "en": "\r\n\r\n![演示 gif2]( https://i.imgur.com/E1t2wij.gif)\r\n\r\n## 3. Giving away codes\r\nWe will give away 10 codes, and draw 5 lifetime feature unlock codes. Lifetime feature unlock, adding custom sentences consumes AI computing power, and API balance will be issued monthly in the future. (Approximately 100,000 tokens in total)\r\n\r\n\t•EZ8YIYCO\r\n\t•RGJKZSB6\r\n\t•GA2EYQ24\r\n\t•ERVQZGV3\r\n\t•ZPCVZYQB\r\n\t•9KUIC6FS\r\n\t•KU1MOEIT\r\n\t•R56MJ8VG\r\n\t•I6S443VJ\r\n\t•LALKQZKY"
+        },
+        {
+          "zh": "\r\n\r\n另外，我们还将送出 10 个三折优惠码（有效期至 3 月 10 日）。终身功能解锁，后期每月 API 余额按照订阅会员计算。（共计约 100 万 token ）\r\n\r\n\t•PAYVODAA\r\n\t•KIQZAGR8\r\n\t•0RSRV0KF\r\n\t•NKRGSLNP\r\n\t•WTGO1OSK\r\n\t•OVCX4NLB\r\n\t•Y8HZJXZK\r\n\t•FOIBMK6D\r\n\t•RDQMVJ6P\r\n\t•5BSYUFN8",
+          "en": "\r\n\r\nIn addition, we will also give away 10 30% discount codes (valid until March 10). Lifetime feature unlock, and the monthly API balance in the future will be calculated according to subscription members. (Approximately 1 million tokens in total)\r\n\r\n\t•PAYVODAA\r\n\t•KIQZAGR8\r\n\t•0RSRV0KF\r\n\t•NKRGSLNP\r\n\t•WTGO1OSK\r\n\t•OVCX4NLB\r\n\t•Y8HZJXZK\r\n\t•FOIBMK6D\r\n\t•RDQMVJ6P\r\n\t•5BSYUFN8"
+        },
+        {
+          "zh": "\r\n\r\n抽取规则，抽选 5 位用户送出终身功能解锁码，截止时间为 3 月 7 日，回帖即可参与抽奖，不需要留邮箱，截止之后我会在 [1 - 楼层总数] 之间随机出 10 个数字，对应楼层的朋友即为中奖者。",
+          "en": "\r\n\r\nDrawing rules: 5 users will be selected to receive lifetime feature unlock codes. The deadline is March 7. Reply to participate in the lottery. No email is required. After the deadline, I will randomly generate 10 numbers between [1 - total number of floors]. The corresponding floor friends will be the winners."
+        },
+        {
+          "zh": "\r\n\r\n抽中的朋友我会 @ 你，届时「 V2EX > 提醒系统」会通知你，你将通知你的截图发送邮件到 bilges-roar-95@icloud.com 即可，邮件标题为「 v 站抽奖」。",
+          "en": "\r\n\r\nI will @ the lucky friends, and the \"V2EX > Reminder System\" will notify you at that time. You can send a screenshot of the notification to bilges-roar-95@icloud.com, with the email subject \"V Station Lottery\"."
+        },
+        {
+          "zh": "\r\n\r\n## 4.最后\r\n\r\n\t1.每个人适合的英语学习方法不同。有些人学得很快，没有遇到太多阻力；有些人则怎么学都不行，学不下去。如果你以前没有遇到过这方面的困扰，请不要尝试这个工具。\r\n\t2.工具价格稍贵，因为添加自定义句子需要使用大模型，目前每个月发放多少 token 尚未确定。但可以保证的是，我的盈利不会超过购买价格的 1/5 。",
+          "en": "\r\n\r\n## 4. Finally\r\n\r\n1. Everyone is suitable for different English learning methods. Some people learn quickly and do not encounter too much resistance; others cannot learn no matter how they try and cannot continue learning. If you have not encountered this kind of problem before, please do not try this tool.\r\n2. The tool is a bit expensive because adding custom sentences requires a large model. The number of tokens issued each month has not yet been determined. But I can guarantee that my profit will not exceed 1/5 of the purchase price."
+        },
+        {
+          "zh": "\r\n    \r\n问题反馈可以从 X 上联系我,使用说明和功能更新我也会发到上面: [我的 twitter]( https://x.com/KuoScript)",
+          "en": "\r\n\r\nYou can contact me on X for problem feedback. I will also post instructions for use and function updates there: [My twitter](https://x.com/KuoScript)"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个很重要的问题，学习英语的关键真的不是句子、句法之类。",
+          "en": "A very important point, the key to learning English is really not sentences, syntax, or the like."
+        },
+        {
+          "zh": "关键还是词汇量。",
+          "en": "The key is vocabulary."
+        },
+        {
+          "zh": "不想引战，只想 LZ 不要走错方向。",
+          "en": "I don't want to start a war, I just want LZ not to go in the wrong direction."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为什么 UI 和学日语的 mirra 这么像？",
+          "en": "Why is the UI so similar to Mirra for learning Japanese?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "EZ8YIYCO  已使用，感谢分享",
+          "en": "EZ8YIYCO Already used, thanks for sharing"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "9KUIC6FS 已使用，感谢分享",
+          "en": "9KUIC6FS Already used, thanks for sharing"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已经无了😂",
+          "en": "Already gone 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "来晚了",
+          "en": "Too late"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持下",
+          "en": "Support"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持下，看来只有网页版的",
+          "en": "Support, it seems that only the web version is available"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "谢谢折扣优惠，支持下。",
+          "en": "Thanks for the discount, supporting you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@valley 感谢老哥支持！",
+          "en": "@valley Thanks for your support!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持下",
+          "en": "Support"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感谢分享",
+          "en": "Thanks for sharing"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持一下",
+          "en": "Support"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感谢分享",
+          "en": "Thanks for sharing"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持一下",
+          "en": "Support"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持一下",
+          "en": "Support"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持支持～期待中奖",
+          "en": "Support support ~ looking forward to winning"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持",
+          "en": "Support"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持！",
+          "en": "Support!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持一下",
+          "en": "Support"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

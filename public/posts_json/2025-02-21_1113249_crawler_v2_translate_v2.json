@@ -1,0 +1,215 @@
+{
+  "id": 1113249,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "老婆被仿冒 Google Chrome 网站坑了，电脑中木马",
+          "en": "My wife was tricked by a fake Google Chrome website and got a trojan on her computer."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "前天老婆在 Bing 搜索 Chrome 下载，排名第一的链接有一个 https://google-chrom.cn ，她觉得比较正规就在这个网站上下载安装“Chrome“浏览器（此网站不用科学上网就能打开）。",
+          "en": "The day before yesterday, my wife searched for Chrome downloads on Bing. The top-ranked link was https://google-chrom.cn. She thought it looked legitimate, so she downloaded and installed the 'Chrome' browser from this website (this website can be opened without using a VPN)."
+        },
+        {
+          "zh": "安装好后，隔一段时间电脑的火绒就弹窗提示有木马，用系统还原点还原，并修改 Bitwarden 等密码，目前暂时没看到损失。",
+          "en": "After installing it, Huorong (anti-virus software) on the computer popped up a warning about a trojan after a while. I used a system restore point to revert and changed passwords for Bitwarden, etc. So far, I haven't seen any losses."
+        },
+        {
+          "zh": "截至 2025 年 2 月 21 日，目前这个网站还可以打开，而且在 Bing 国内版搜索排行第一。",
+          "en": "As of February 21, 2025, this website can still be opened and is ranked first in Bing's Chinese search results."
+        },
+        {
+          "zh": "https://i.imgur.com/iNs1Ls8.png",
+          "en": "https://i.imgur.com/iNs1Ls8.png"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已将该网站提交至 CloudFlare 的 abuse",
+          "en": "The website has been submitted to CloudFlare for abuse reporting."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已加入到 PCDN 刷下行列表",
+          "en": "Added to the PCDN download list."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "怎么没有人骂 bing ？",
+          "en": "Why is nobody scolding Bing?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@billbob #2 你是不是 chrome ？但是贴主要用其他浏览器下载 chrome 。。",
+          "en": "@billbob #2 Are you Chrome? But the poster needs to download Chrome using another browser..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@FabricPath #5 https://www.google-chrom.cn/help/24.html 右上角的链接 chrome.googlenav.cn 似乎没有 cdn  我在本地 hosts 里配置：42.202.173.132\twww.google-chrom.cn再访问 www.google-chrom.cn 访问会有安全提示，不过还能访问图片等资源，所以我觉得 chrome.googlenav.cn 的 IP 大概率就是源站",
+          "en": "@FabricPath #5 https://www.google-chrom.cn/help/24.html The link chrome.googlenav.cn in the upper right corner doesn't seem to have a CDN. I configured 42.202.173.132 www.google-chrom.cn in my local hosts file. When I visit www.google-chrom.cn again, there's a security warning, but I can still access images and other resources. So I think the IP of chrome.googlenav.cn is likely the origin server."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "whois google-chrom.cn    Domain Name: google-chrom.cnROID: 20240915s10001s61028514-cnDomain Status: clientTransferProhibitedRegistrant: 古开平Registrant Contact Email: [email protected]Sponsoring Registrar: Web Commerce Communications LimitedName Server: michael.ns.cloudflare.comName Server: lana.ns.cloudflare.comRegistration Time: 2024-09-15 00:27:23Expiration Time: 2025-09-15 00:27:23DNSSEC: unsigned",
+          "en": "whois google-chrom.cn Domain Name: google-chrom.cnROID: 20240915s10001s61028514-cnDomain Status: clientTransferProhibitedRegistrant: 古开平Registrant Contact Email: [email protected]Sponsoring Registrar: Web Commerce Communications LimitedName Server: michael.ns.cloudflare.comName Server: lana.ns.cloudflare.comRegistration Time: 2024-09-15 00:27:23Expiration Time: 2025-09-15 00:27:23DNSSEC: unsigned"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yvkino 你这图右边 Edge 显示的是 Cloudflare 的警告，因为刚才有 V 友向 CF 提交了 abuse ，说明 Edge 没有拦截",
+          "en": "@yvkino The Edge browser on the right side of your picture shows a Cloudflare warning because a V2EX user submitted an abuse report to Cloudflare just now, which means Edge didn't block it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "黑猫黑产团伙，专门仿冒的，不是勒索其实还好，https://x.threatbook.com/v5/article?threatInfoID=146629",
+          "en": "It's a black market group that specializes in imitation. If it's not ransomware, it's not too bad. https://x.threatbook.com/v5/article?threatInfoID=146629"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yulgang 它这个源站带宽还怪高的，都打不满的",
+          "en": "@yulgang Its origin server bandwidth is strangely high; it can't be fully utilized."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我出来上个 v 站小心翼翼，看别人免费🪜在 x 大放厥词，还有这种用 cn 域名搞这种事情。都不害怕的吗",
+          "en": "I'm careful when I come to V2EX. I see people using free VPNs to make wild claims on X, and there are people doing things like this with .cn domains. Aren't they afraid?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "巧了, 前阵子我也是同样情况, bing 搜索, 下载 chrome 中毒. 特别搞笑把我其他浏览器改名字为\"已删除应用\". 然后这个山寨 chrome 还卸载不掉, 360 都拿他没办法. 最后只能重装系统",
+          "en": "Coincidentally, I had the same situation recently. I searched on Bing and downloaded Chrome, and it got infected. Hilariously, it renamed my other browsers to 'Deleted Application'. And this fake Chrome couldn't be uninstalled; even 360 couldn't do anything about it. I had to reinstall the system in the end."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "拉到最底下：本站提供的软件仅为个人学习测试使用，请在下载后 24 小时内删除，不得用于任何商业用途，否则后果自负。（注意：本站非官方网站！）XML",
+          "en": "Scroll to the bottom: The software provided on this site is for personal learning and testing purposes only. Please delete it within 24 hours after downloading; it must not be used for any commercial purposes, otherwise the consequences will be borne by yourself. (Note: This site is not an official website!) XML"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "?我打开就报警了,你用的什么浏览器",
+          "en": "? I get a warning when I open it. What browser are you using?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://google.cn/chrome/可以直接打开的。",
+          "en": "https://google.cn/chrome/ can be opened directly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@FabricPath  cloudflare 的，不刷了🤣",
+          "en": "@FabricPath It's Cloudflare, so I won't bother."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@billbob 我的是 MacBookPro ，系统最新版，浏览器是 Safari 。我老婆的是 Windows 11 笔记本，最新版 Edge",
+          "en": "@billbob I have a MacBook Pro, the latest version of the system, and the browser is Safari. My wife has a Windows 11 laptop, the latest version of Edge."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://google.cn/chrome/ 不翻也能打开",
+          "en": "https://google.cn/chrome/ can be opened without a VPN."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Chrome 打开直接页面全红了",
+          "en": "When I open it in Chrome, the entire page turns red."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "chrom 没有 e google-chrom （ e ）.cn是真的仿冒了",
+          "en": "chrom without the 'e', google-chrom(e).cn is definitely a fake."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xdeng 我这边 Safari 和 Edge 无任何警示，Chrome 提示危险网站@mizuki9 她没什么信息安全意识，太过于相信 Bing 的搜索排行。",
+          "en": "@xdeng I don't get any warnings in Safari or Edge here. Chrome warns of a dangerous website. @mizuki9 She doesn't have much awareness of information security and trusts Bing's search rankings too much."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

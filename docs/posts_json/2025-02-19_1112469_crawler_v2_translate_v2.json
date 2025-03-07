@@ -1,0 +1,371 @@
+{
+  "id": 1112469,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "PHP 语言已经过气了吗",
+          "en": "Is the PHP language outdated?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "",
+          "en": ""
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "php 有没有过气不好讲，但是整个 php 社区发展在我看来确实有停滞的趋势了。",
+          "en": "It's hard to say whether PHP is outdated, but in my opinion, the development of the entire PHP community does have a tendency to stagnate."
+        },
+        {
+          "zh": "框架层面，全球市场 laravel 一家独大，整个 php 开源生态与其说是 php 生态，不如说是 laravel 生态，国内的话 laravel/thinkphp/hyperf/webman 倒是分庭抗礼，我也几乎都试过，但是用下来体验最好的还是 laravel ，选 laravel 的一般很少选 tp 了，hyperf 体验次之，但是 hyperf 也有自己的问题，比如对 IDE 不够友好，有时候报错会报道  xxxx.proxy.php 上，不太方便调试。",
+          "en": "At the framework level, Laravel dominates the global market. The entire PHP open-source ecosystem is more like the Laravel ecosystem than the PHP ecosystem. In China, Laravel/ThinkPHP/Hyperf/Webman are equally competitive. I've tried almost all of them, but Laravel has the best experience. People who choose Laravel rarely choose TP. Hyperf has the second-best experience, but Hyperf also has its own problems, such as being not IDE-friendly. Sometimes errors are reported on xxxx.proxy.php, which is not convenient for debugging."
+        },
+        {
+          "zh": "以前 php 圈子活跃的时候，有很多框架如雨后春笋般冒出来，很多有特色的框架会给人眼前一亮的感觉，然而最近再去翻那些框架的 repo ，要么 archive 了，要么就几乎不维护了。",
+          "en": "In the past, when the PHP community was active, many frameworks sprung up like mushrooms. Many unique frameworks gave people a refreshing feeling. However, recently, when I looked back at the repos of those frameworks, they were either archived or hardly maintained anymore."
+        },
+        {
+          "zh": "常驻进程/协程/异步方案上，国内外分化地比较明显，国内偏好 swoole/workerman 方案，国外更偏好基于 fibers 的 reactphp ，swoole 另辟蹊径使用 hook 方案，整个异步/协程的体验比较丝滑。",
+          "en": "In terms of resident processes/coroutines/asynchronous solutions, the domestic and foreign markets are clearly differentiated. China prefers Swoole/Workerman solutions, while foreign countries prefer Fiber-based ReactPHP. Swoole uses a hook scheme in its own way, and the overall asynchronous/coroutine experience is relatively smooth."
+        },
+        {
+          "zh": "当年 fibers 提案时被寄予厚望，整个 php 圈子希望由此统一并繁荣 php 的协程/异步 IO 生态，不过这么多年过去了，看起来事与愿违。",
+          "en": "Back when Fibers were proposed, they were highly anticipated. The entire PHP community hoped to unify and prosper PHP's coroutine/asynchronous IO ecosystem, but after so many years, it seems that things have not gone as planned."
+        },
+        {
+          "zh": "而 swoole 作为一个第三方扩展，库作者开发库时，也不太会考虑为其专门做适配。",
+          "en": "As a third-party extension, Swoole's library authors don't really consider adapting for it specifically when developing libraries."
+        },
+        {
+          "zh": "phper 只能等待官方再一次重视协程/异步支持，不知道这一次又要等到猴年马月去了。",
+          "en": "PHP developers can only wait for the official team to pay attention to coroutine/asynchronous support again. I don't know when that will be."
+        },
+        {
+          "zh": "php 本身也有一些问题亟待解决：php-fpm 是一个很大的问题，当一个公司很小的时候，fpm 确实很奏效，解决（隐藏）了很多问题，但是一旦业务规模上升到一定程度，他就成了累赘，每一个请求都要重新走一遍初始化框架的流程，这带来了很多不必要的性能开销。",
+          "en": "PHP itself also has some problems that need to be solved urgently: PHP-FPM is a big problem. When a company is small, FPM is indeed very effective, solving (hiding) many problems, but once the business scale rises to a certain level, it becomes a burden. Every request has to go through the process of initializing the framework again, which brings a lot of unnecessary performance overhead."
+        },
+        {
+          "zh": "php 作为一个脚本语言，其实性能并不弱的，fpm 就像一个枷锁，阻碍了 php 的性能释放，这也成为大公司抛弃 php 的一个很重要的原因。",
+          "en": "As a scripting language, PHP's performance is not weak. FPM is like a shackle, hindering the release of PHP's performance, which has become a very important reason for large companies to abandon PHP."
+        },
+        {
+          "zh": "当然你说我们有 reactphp/workerman/swoole 常驻进程方案，但同样的道理，没有官方对 cli 下 server 的支持，各个小群体各自为战，劲使不到一处，又能翻多大的水花。",
+          "en": "Of course, you can say that we have ReactPHP/Workerman/Swoole resident process solutions, but for the same reason, without official support for the server under CLI, various small groups are fighting on their own, and they can't make big waves."
+        },
+        {
+          "zh": "类型问题：1. php 成也 array ，败也 array 这句话不是没有缘由的，关联数组太好用了，无论做什么，第一时间想到的就是用 array 来装，而整个组里只要有一个人，关联数组到处乱飞，就能极大地降低项目的可读性和可维护性，所以在我的项目里，只允许方法内使用关联数组，一个关联数组不能传到方法外面，如果要，就请转成对象，即便如此，你也只能约束自己，无法约束第三方的 SDK 或者开源库，很难完全阻止关联数组的泛滥。",
+          "en": "Type issues: 1. The saying 'PHP succeeds with array, and fails with array' is not without reason. Associative arrays are too easy to use. No matter what you do, the first thing you think of is using an array to store it. As long as there is one person in the group, associative arrays will fly everywhere, which can greatly reduce the readability and maintainability of the project. Therefore, in my project, only associative arrays are allowed to be used inside methods. An associative array cannot be passed outside the method. If so, please convert it into an object. Even so, you can only restrain yourself and cannot restrain third-party SDKs or open-source libraries, making it difficult to completely prevent the proliferation of associative arrays."
+        },
+        {
+          "zh": "2. 缺少泛型支持，当然弱类型语言对泛型的支持并不那么迫切，但一个 php 项目做的越深，就越觉得应该要有泛型，当然有 phpdoc 帮助我们声明泛型从而获得 IDE 的支持，但是写代码还要写 phpdoc 让整个开发的体验很割裂，体验下降了一大截。",
+          "en": "2. Lack of generic support. Of course, weak-typed languages are not so eager for generic support, but the deeper a PHP project is, the more you feel that there should be generics. Of course, phpdoc helps us declare generics to obtain IDE support, but writing phpdoc while writing code makes the entire development experience very fragmented, and the experience is greatly reduced."
+        },
+        {
+          "zh": "其他的高级开发用到的什么多进程/线程/协程/锁/定时器乱七八糟的就不说了，而且周边生态上没有官方的语言服务器实现使得开发者只能依赖收费插件/phpstorm 才能获得良好的开发体验，环境搭建复杂，使得语言上手的成本较高（似乎是有一些社区方案，不过都只能开发使用，并不是生产级的）。",
+          "en": "I won't talk about the multi-processes/threads/coroutines/locks/timers and other messy things used in other advanced development. Moreover, the lack of an official language server implementation in the surrounding ecosystem makes developers only able to rely on paid plugins/phpstorm to obtain a good development experience. The complex environment setup makes the cost of getting started with the language higher (there seem to be some community solutions, but they can only be used for development and are not production-level)."
+        },
+        {
+          "zh": "php 规划的问题：此处看法比较主观，我觉得目前 php 圈子缺乏一个有足够权威的大佬领导规划 php 的开发，能有魄力和实力带领 php 走出目前的困境，据我所知 php 基金会目前全职加上兼职总共有 10 名开发者，swoole 也有不少开发者在 php 开发组，开发力量不算弱，但近年来 php 的更新并没有给人带来惊喜。",
+          "en": "PHP planning issues: This is a subjective view. I think the current PHP community lacks a sufficiently authoritative figure to lead and plan PHP development, and has the courage and strength to lead PHP out of its current predicament. As far as I know, the PHP Foundation currently has a total of 10 full-time and part-time developers. Swoole also has many developers in the PHP development team. The development power is not weak, but in recent years, PHP updates have not brought surprises."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没，就目前而言 PHP 在开发快，上线快这点上无人能及",
+          "en": "No, currently, PHP is unmatched in terms of speed of development and launch."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "五年前的 php 代码，装上对应的版本照样可以运行。",
+          "en": "PHP code from five years ago can still run if you install the corresponding version."
+        },
+        {
+          "zh": "五年前的 vue 模版，现在 install 包都装不上谈何运行",
+          "en": "Vue templates from five years ago can't even install the packages now, let alone run."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "PHP 是地球上最好的语言",
+          "en": "PHP is the best language on earth"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没前两天试了下 laravel breeze ，从前端到后端到 CLI 都感觉舒服得一 P 。",
+          "en": "No, I tried Laravel Breeze a few days ago, and it felt so comfortable from the front-end to the back-end to the CLI."
+        },
+        {
+          "zh": "间接得出结论：PHP 用的人绝对不少。",
+          "en": "Indirectly concluding that there are definitely a lot of people using PHP."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "PHP 熄火的原因是中小创业公司的消亡，本质是经济不活跃导致的，其他语言的蚕食可以忽略不计",
+          "en": "The reason for PHP's decline is the demise of small and medium-sized startups, which is essentially caused by economic inactivity. The encroachment of other languages can be ignored."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "若问 AI 为何 PHP 不死相信会有标准答案",
+          "en": "If you ask AI why PHP won't die, I believe there will be a standard answer,"
+        },
+        {
+          "zh": "但对我来说，情怀不死，PHP 不死PHP 帮我赚了钱，我就挺它到我死",
+          "en": "But for me, sentimentality never dies, PHP never dies. PHP helped me make money, and I will support it until I die."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "国内都被所谓的高并发风气给带偏了，php 没有得到应有的尊重",
+          "en": "Domestic companies are misled by the so-called high concurrency trend, and PHP has not received the respect it deserves."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "毫无疑问，过气了。",
+          "en": "Undoubtedly, it's outdated."
+        },
+        {
+          "zh": "2010 年移动互联网兴起后 PHP 就开始衰慢慢退了。",
+          "en": "PHP began to decline slowly after the rise of the mobile internet in 2010."
+        },
+        {
+          "zh": "https://www.tiobe.com/tiobe-index/https://spectrum.ieee.org/top-programming-languages-2024TIOBE PHP 排第 14 ，IEEE spectrum PHP 第 13 ，双双跌出前 10 。",
+          "en": "https://www.tiobe.com/tiobe-index/https://spectrum.ieee.org/top-programming-languages-2024 TIOBE PHP ranks 14th, and IEEE spectrum PHP ranks 13th, both falling out of the top 10."
+        },
+        {
+          "zh": "过气了不是死了，PHP 虽然没多少增量了，但存量还是很大的，招聘职位数量不一定比 Go 少多少。",
+          "en": "Outdated is not dead. Although PHP doesn't have much increment, the stock is still very large, and the number of job postings may not be much less than Go."
+        },
+        {
+          "zh": "有人说经济不活跃，创业公司少所以 PHP 少，我不认同这个看法。",
+          "en": "Some people say that the economy is inactive and there are fewer startups, so there is less PHP. I don't agree with this view."
+        },
+        {
+          "zh": "美国依然有很多互联网相关创业公司，但他们服务端以 nodejs 为主，基本上看不到初创用 PHP 的，PHP 正是被 JS/TS 蚕食了。",
+          "en": "There are still many internet-related startups in the United States, but their servers are mainly based on Node.js. You can hardly see any startups using PHP. PHP is being eroded by JS/TS."
+        },
+        {
+          "zh": "说 PHP 开发效率高，array 灵活，我赞同。",
+          "en": "I agree that PHP has high development efficiency and flexible arrays."
+        },
+        {
+          "zh": "但 PHP 动态类型不利于三个月以后的迭代和维护，也不利于多个后端共同开发。",
+          "en": "However, PHP's dynamic typing is not conducive to iteration and maintenance after three months, nor is it conducive to joint development by multiple backends."
+        },
+        {
+          "zh": "综合的看，PHP 的开发效率没有比其它语言高，甚至 Java 少写几个 O 之后出活速度也不输于 PHP 。",
+          "en": "Overall, PHP's development efficiency is not higher than other languages, and even Java's speed of producing results after writing a few less O's is not inferior to PHP."
+        },
+        {
+          "zh": "我 PHP 和 Java 都写过 10 万行(不含生成的)以上，两者熟悉程度接近，但熟悉 PHP 还是要比 Java 少花很多时间，至少不用读内存模型的文档，也不用研究泛型擦除，逆变协变之类的东西，更不用去掌握各种 GC 的原理和参数。",
+          "en": "I have written more than 100,000 lines of both PHP and Java (excluding generated code). I am similarly familiar with both, but becoming familiar with PHP still takes less time than Java. At least you don't need to read the memory model documentation, nor do you need to study generic erasure, contravariance covariance, or master the principles and parameters of various GCs."
+        },
+        {
+          "zh": "存量 PHP 项目很多，但增量约无。",
+          "en": "There are many existing PHP projects, but almost no incremental ones."
+        },
+        {
+          "zh": "老 PHP 开发不少，但新入坑的约无。",
+          "en": "There are quite a few old PHP developers, but almost no new ones."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有话题，还不算过气。",
+          "en": "There's a topic, so it's not outdated yet."
+        },
+        {
+          "zh": "没人讨论就 GG 了",
+          "en": "It's GG if nobody discusses it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gechang 大部分人不保存 lock 文件，所以 N 年后就可能跑不起来。",
+          "en": "@gechang Most people don't save the lock file, so it may not run after N years."
+        },
+        {
+          "zh": "一般记下 node 版本和 lock 文件，是能稳定跑项目的。",
+          "en": "Generally, if you record the Node version and lock file, you can run the project stably."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "docker 不友好，最为致命",
+          "en": "Docker unfriendly, the most fatal"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@runlongyao2 \"golang 对标的是 java\"何处此言？",
+          "en": "@runlongyao2 Where did you say \"Golang is benchmarked against Java\"?"
+        },
+        {
+          "zh": "截然不同的两种语言怎么对标",
+          "en": "How can two completely different languages be benchmarked?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@runlongyao2 #30 我有 lock 文件，然而装包的时候也不根据 lock 走啊，还是会扫一遍 package.json 查查有没有版本更新，指不定哪个小版本更新就跑不起来了",
+          "en": "@runlongyao2 #30 I have a lock file, but when installing the package, it doesn't follow the lock, it still scans the package.json to check if there are any version updates, maybe a small version update will not run."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就成都来看，php 的岗位多数已经 g 了。",
+          "en": "In Chengdu, most of the PHP positions are gone."
+        },
+        {
+          "zh": "不过现在做外包的话，首选的还是 php 。",
+          "en": "However, if you are doing outsourcing now, PHP is still the first choice."
+        },
+        {
+          "zh": "毕竟有现成的框架。",
+          "en": "After all, there are ready-made frameworks."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "PHP 现在逐步退出市场   新人不学。",
+          "en": "PHP is gradually withdrawing from the market. New people don't learn it."
+        },
+        {
+          "zh": "都是老程序员在用。",
+          "en": "It's all old programmers using it."
+        },
+        {
+          "zh": "应届生都在往 java  go  python 里面钻   毕竟现在 php 招聘的岗位太少。",
+          "en": "Graduates are all drilling into Java, Go, and Python. After all, there are too few PHP recruiting positions now."
+        },
+        {
+          "zh": "要求又高。",
+          "en": "The requirements are high."
+        },
+        {
+          "zh": "基本要全栈。",
+          "en": "Basically, you need to be a full-stack developer."
+        },
+        {
+          "zh": "应届生也也干不了",
+          "en": "Graduates can't do it either."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "php 主要是原来那种混合代码和网页模板的编程模式还是价值",
+          "en": "The main value of PHP lies in the original programming model of mixing code and web templates,"
+        },
+        {
+          "zh": "但问题是现在基本流行方案是服务端纯 api, 客户端可以是 web js 或移动端",
+          "en": "But the problem is that the currently popular solution is a pure API on the server side, and the client can be web js or mobile devices,"
+        },
+        {
+          "zh": "更方便服务端和客户端彻底隔离且支持任意客户端",
+          "en": "It's more convenient for the server and client to be completely isolated and support any client."
+        },
+        {
+          "zh": "很显然这种架构更合适",
+          "en": "Obviously, this architecture is more suitable."
+        },
+        {
+          "zh": "比如说开始只有网站 , 但后面可能做大了会做 app 甚至桌面软件, 这时候服务端纯 api 的优势就出来了",
+          "en": "For example, there may only be a website at the beginning, but later it may grow into an app or even desktop software, and at this time, the advantages of a pure API on the server side come to light."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "php=拍黄片，怎么会过气呢？",
+          "en": "php = pornography, how can it be outdated?"
+        },
+        {
+          "zh": "黄站占有量多大！",
+          "en": "How much market share do porn sites have!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@iorilu 一看你就是没有写过 PHP 的，什么年代了还 PHP 混合，你是停留在 php5 吧",
+          "en": "@iorilu It's obvious that you haven't written PHP before. What era are you in that you're still using mixed PHP? You're stuck in PHP5吧"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gechang node 这一套别说 5 年前的了，隔一段时间就跑不起来，真很很难受",
+          "en": "@gechang This set of Node.js, let alone 5 years ago, it can't run after a while, it's really uncomfortable"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": 1111754,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "想换手机，但找遍了也没找到新出的 LCD 屏手机",
+          "en": "Want to change phones, but I've searched everywhere and can't find a new LCD screen phone."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "LCD 已经彻底没落了吗，主力机还用着 K10 ，副机 A93S 。",
+          "en": "Has LCD completely declined? I'm still using a K10 as my main phone and an A93S as my secondary phone."
+        },
+        {
+          "zh": "想把副机换新的，找了一圈想找个新点的 CPU 的都没有，只有中低端的型号还在用 LCD ，而且用的 LCD 屏甚至还不如几年前的机型",
+          "en": "I want to replace my secondary phone with a new one, but after searching around, I can't find any with a newer CPU. Only low-end models are still using LCD, and the LCD screens they use aren't even as good as the ones from a few years ago."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买个屏幕有线或者有黑斑的 iPhone 15 ，然后换成国产瑞桔的 LCD 屏。",
+          "en": "Buy an iPhone 15 with screen lines or black spots, and then replace it with a domestically produced Ruijie LCD screen."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@tootfsg #42 现在家装都知道用反射、漫反射光源，讲究舒适。",
+          "en": "@tootfsg #42 Now home decoration all know to use reflected, diffuse light sources, pay attention to comfort."
+        },
+        {
+          "zh": "反而到了手机上，OLed 万颗灯珠直射，也不提直射危害了，这是其一。",
+          "en": "But when it comes to mobile phones, OLEDs have tens of thousands of lamp beads directly shining, and the harm of direct light is not mentioned, this is one."
+        },
+        {
+          "zh": "OLed 还有个巨大缺陷，就是没有阶梯亮度：比如 LCD 它的 80%亮度就是靠 80%电压真实明暗变化，而 OLed 则是用 80%的时间点亮(最大亮度)和 20%的时间熄灭(全黑)，来模拟出 80%亮度，全靠频闪。",
+          "en": "OLED also has a huge flaw, that is, there is no stepped brightness: for example, LCD's 80% brightness relies on 80% voltage to truly change brightness, while OLED uses 80% of the time to light up (maximum brightness) and 20% of the time to turn off (all black) to simulate 80% brightness, relying entirely on flicker."
+        },
+        {
+          "zh": "就是说，从原理上 OLed 就是：灯珠直射 ➕ 灯珠永远最高亮度 ➕ 灯珠频闪",
+          "en": "That is to say, in principle, OLED is: direct light of lamp beads + lamp beads always at maximum brightness + lamp bead flicker."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "所以我只能换回苹果 11",
+          "en": "So I can only switch back to iPhone 11"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@terence4444 你狭隘的定义，好像你脱离了人类一样。",
+          "en": "@terence4444 Your narrow definition, it's like you're detached from humanity."
+        },
+        {
+          "zh": "电子产品发出的光，基本是直射人眼的，不是像太阳一样反射进来。",
+          "en": "The light emitted by electronic products is basically directly shining into human eyes, not reflected like the sun."
+        },
+        {
+          "zh": "lcd ，oled 都是背光，墨水屏不仅屏幕原理极低伤害眼睛，而且基本是无频闪的前光。",
+          "en": "LCD and OLED are both backlights, and the e-ink screen not only has a very low screen principle that harms the eyes, but also is basically a flicker-free front light."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "楼上好些人都在故意忽略 人眼靠的是太阳光的反射看东西，和电子产品光源是直射眼睛的这个基本事实。",
+          "en": "Many people upstairs are deliberately ignoring the basic fact that human eyes rely on the reflection of sunlight to see things, and the light source of electronic products is directly shining into the eyes."
+        },
+        {
+          "zh": "光源直射，忽略这个事实，pwm 和 dc 就没讨论的意义了。",
+          "en": "If you ignore the fact that the light source is direct, there is no point in discussing PWM and DC."
+        },
+        {
+          "zh": "可能是我错了，他们的眼睛已经进化到长期直视太阳光了，来地球只是体验生活，那关于手机这点亮度和光源直射的 pwm 真是没有讨论的意义。",
+          "en": "Maybe I'm wrong, their eyes have evolved to directly look at sunlight for a long time, and they just come to Earth to experience life. Then there is really no point in discussing the brightness of mobile phones and the direct PWM of the light source."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "收个老旗舰 LCD ，换个电池就行了",
+          "en": "Buy an old flagship LCD, just replace the battery."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想不明白 LCD 对眼睛还算友好一点，但是厂商还都是使用 OLED 屏幕，如果出一个 LCD 屏幕肯定也会有不少人选择的啊",
+          "en": "I don't understand why LCD is still relatively friendly to the eyes, but manufacturers still use OLED screens. If an LCD screen is released, many people will choose it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "moto 的 g75 才刚上市没多久吧？",
+          "en": "Moto's g75 was just released not long ago, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "还在用 iPhone 11 看小说OLED 真的难受",
+          "en": "Still using iPhone 11 to read novels, OLED is really uncomfortable"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "手机等 LCD ，电脑等 OLED这股风潮挺有意思的",
+          "en": "Waiting for LCD on mobile phones, waiting for OLED on computers, this trend is quite interesting"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@terence4444 不狭隘 不漠视 就要付出更多的成本 成本越多 公司也死的越快 没多少人愿意花大代价做这种慈善",
+          "en": "@terence4444 Not being narrow-minded or indifferent requires paying more costs. The more costs, the faster the company dies. Not many people are willing to spend a lot of money on this kind of charity."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://www.gsmarena.com/results.php3?nYearMin=2023&idDisplayTech=1新出的 lcd 手机基本都是低端歪瓜裂枣机。",
+          "en": "https://www.gsmarena.com/results.php3?nYearMin=2023&idDisplayTech=1 The newly released LCD mobile phones are basically low-end crappy machines."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就怕货比货，老的旗舰顶配 LCD （尤其是华为/苹果），那是真舒服啊。",
+          "en": "I'm just afraid of comparing goods. The old flagship top-of-the-line LCD (especially Huawei/Apple) is really comfortable."
+        },
+        {
+          "zh": "不是说色彩瑞丽漂亮，而是色彩柔润舒服。",
+          "en": "It's not that the color is beautiful, but the color is soft and comfortable."
+        },
+        {
+          "zh": "甚至 oled 的瑞丽都只是第一眼漂亮，时间越长越觉得刺眼，甚至过于尖锐了，割眼睛。",
+          "en": "Even the beauty of OLED is only beautiful at first glance. The longer the time, the more dazzling it feels, even too sharp, and it cuts the eyes."
+        },
+        {
+          "zh": "🧐",
+          "en": "🧐"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shampoo 你 是不是不能活在太阳底下？",
+          "en": "@shampoo Can't you live in the sun?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@catalysia 你 是不是在太阳底下爱抬眼感受“灯珠直射”？",
+          "en": "@catalysia Do you like to raise your eyes to feel the direct light of the lamp beads in the sun?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lllsj #8 真给你出了你也不买啊，就跟 iPhonemini 一样，天天吵着要小屏，真出了有人要么，一般网上叫的欢的反而是少数，在任何事情上都是。",
+          "en": "@lllsj #8 Even if they really release one for you, you won't buy it. It's just like the iPhonemini. Everyone is clamoring for a small screen, but when it's really released, does anyone want it? Generally, the ones who are shouting the loudest online are the minority, in everything."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我发现天天吵着要护眼的人，都顶着好几百度的近视，反而我们这种没啥感觉的 30 多年了眼睛还是 5.0 。",
+          "en": "I found that people who clamor for eye protection every day have myopia of several hundred degrees, but we who don't feel anything still have 5.0 eyes after more than 30 years."
+        },
+        {
+          "zh": "护眼最重要的是你让他歇会，没事看看外边远眺，小时候上学天天看纸质书，你不该难受难受，该近视不还是近视么。",
+          "en": "The most important thing for eye protection is to let your eyes rest. Look outside and look into the distance when you have nothing to do. When I was a child, I went to school and read paper books every day. Shouldn't you feel uncomfortable? If you should be nearsighted, you will still be nearsighted."
+        },
+        {
+          "zh": "眼睛舒不舒服和用眼习惯有关系，和什么屏幕有啥关系。",
+          "en": "Whether your eyes are comfortable or not has something to do with your eye habits, and what does it have to do with the screen?"
+        },
+        {
+          "zh": "小黑屋看手机，lcd 就舒服，oled 就不舒服，我认为看啥他都不舒服。",
+          "en": "Watching mobile phones in a dark room, LCD is comfortable, OLED is uncomfortable, I think watching anything is uncomfortable."
+        },
+        {
+          "zh": "就该闭眼睡觉了。",
+          "en": "You should close your eyes and sleep."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也是 OLED 屏幕低亮度看着明显不适，幸好还有一台 iPad mini 6 。",
+          "en": "I also feel obviously uncomfortable looking at OLED screens at low brightness. Fortunately, I still have an iPad mini 6."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "国产机里面  最后一个性能还稍微强一点的 LCD 应该就是红米的 k30s 至尊",
+          "en": "Among domestic phones, the last LCD with slightly stronger performance should be Redmi's K30s Supreme"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我已经放弃了，只能买高频闪，开着灯玩",
+          "en": "I've given up and can only buy high-frequency flash and play with the lights on."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

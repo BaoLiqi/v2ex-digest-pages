@@ -1,0 +1,263 @@
+{
+  "id": 1108608,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "NAS 要不要组 Raid， NAS 是否不能用来存放重要数据",
+          "en": "Should NAS use RAID? Can NAS be used to store important data?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "自组的 NAS 还在路上，最近做了很多功课，我发现大家对 NAS 要不要组 Raid 有很大争议，一般的教程上来就是硬盘插满然后 Raid5 ，我了解到如果不是企业级硬盘，Raid5 重组成功概率很低，而且每次扩容都需要很长时间进行重组，重组失败的结果就是数据全丢。",
+          "en": "My self-built NAS is on the way. I've been doing a lot of research recently, and I've found that there is a lot of controversy about whether NAS should use RAID. Most tutorials start with filling up the hard drives and then using Raid5. I've learned that if it's not an enterprise-level hard drive, the probability of Raid5 reassembly is very low, and each expansion requires a long time to reassemble, and the result of reassembly failure is complete data loss."
+        },
+        {
+          "zh": "那我不得不作出一个假设：硬盘是一定会坏的，数据是一定会丢的。\r\n\r\n数据按重要程度分组+多个备份应该是比较合理的。",
+          "en": "Then I have to make an assumption: the hard drive will definitely break, and the data will definitely be lost.\r\n\r\nGrouping data according to importance + multiple backups should be more reasonable."
+        },
+        {
+          "zh": "这样的话 NAS 的用途变成了：\r\n1 、一个下载器\r\n2 、家庭影院\r\n3 、数据中转站\r\n4 、照片查看器\r\n5 、Docker",
+          "en": "In this case, the purpose of NAS becomes:\r\n1. A downloader\r\n2. Home theater\r\n3. Data transfer station\r\n4. Photo viewer\r\n5. Docker"
+        },
+        {
+          "zh": "为什么是这样的用途，1 和 2 我想应该不用解释了，主要是 3 和 4\r\n在我的使用场景里，并不是所有数据都是重要的，比如照片（重要），下载的电影（不重要），保存的密码（非常重要），工作文档文件（重要）",
+          "en": "As for why these are the uses, I think 1 and 2 don't need explanation, mainly 3 and 4. In my use case, not all data is important, such as photos (important), downloaded movies (not important), saved passwords (very important), work documents (important)"
+        },
+        {
+          "zh": "其中照片是占用空间最大的，我的方案是，OneDrive 自动同步+NAS 自动同步，NAS 因为是本地数据可以方便照片查看，也就是上述 4 的功能，除此之外，并不寄希望于 NAS 可以用来永久储存照片，OneDrive 目前来说没有删除过用户数据吧，我用着目前来说没有，如果不信任任何云存储的话，那就需要加密备份了",
+          "en": "Among them, photos take up the most space. My solution is OneDrive automatic synchronization + NAS automatic synchronization. Because NAS is local data, it is convenient to view photos, which is the function of 4 above. In addition, I don't expect NAS to be used to permanently store photos. OneDrive has not deleted user data so far, I haven't experienced it so far. If you don't trust any cloud storage, you need to encrypt and back up."
+        },
+        {
+          "zh": "对于除了照片之外的其他提及不大但是重要数据，我的方案是定时加密备份，具体来说我写了个 shell 脚本，每周或每天或每小时，直接对某个目录进行 7z 加密压缩，之后将压缩文件 cp 到 NAS 自动云同步到目录里，删除压缩包。",
+          "en": "For other important data that is not mentioned much other than photos, my solution is to encrypt and back up regularly. Specifically, I wrote a shell script to directly perform 7z encrypted compression on a certain directory every week, every day, or every hour, and then copy the compressed file to the NAS for automatic cloud synchronization to the directory and delete the compressed package."
+        },
+        {
+          "zh": "云同步的目录里设置了多个文件夹，根据重要级别，对压缩包同步到腾讯云对象存储、百度网盘、OneDrive ，这就是上面的功能 3 ，数据中转站的功能。",
+          "en": "Multiple folders are set up in the cloud synchronization directory. According to the importance level, the compressed package is synchronized to Tencent Cloud Object Storage, Baidu Netdisk, and OneDrive. This is the function 3 above, the function of a data transfer station."
+        },
+        {
+          "zh": "这样看来，NAS 就不应该组 Raid ，原因：1 、重组成功率不高； 2 、空间浪费； 3 、不能自由增删硬盘。\r\n缺点：\r\n1 、无法享受 Raid 到读写加速了\r\n2 、没有考虑到多人使用的场景，目前只有自己一个人在用\r\n3 、网盘会员，COS 存储费等额外等费用\r\n\r\n发帖只是想分享下自己的使用方案，同时看看有没有更好的方案我借鉴借鉴。",
+          "en": "In this way, NAS should not use Raid. Reasons: 1. Low reorganization success rate; 2. Waste of space; 3. Cannot freely add or remove hard drives.\r\nDisadvantages:\r\n1. Cannot enjoy Raid's read and write acceleration\r\n2. Multi-user scenarios are not considered, and currently only one person is using it\r\n3. Extra costs such as network disk membership fees and COS storage fees.\r\n\r\nPosting this is just to share my usage plan and see if there are any better plans I can learn from."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "NAS 要不要组 Raid> 可以组 Raid1NAS 是否不能用来存放重要数据> 可以组 Raid1我了解到如果不是企业级硬盘，Raid5 重组成功概率很低> 可以组 Raid1而且每次扩容都需要很长时间进行重组> 可以组 Raid1重组失败的结果就是数据全丢。> 可以组 Raid1那我不得不作出一个假设：硬盘是一定会坏的，数据是一定会丢的。> 可以组 Raid1",
+          "en": "Should NAS use RAID? > RAID1 can be used. Can NAS be used to store important data? > RAID1 can be used. I learned that if it is not an enterprise-level hard drive, the probability of Raid5 reassembly is very low > RAID1 can be used. Moreover, each expansion takes a long time to reassemble > RAID1 can be used. The result of reassembly failure is complete data loss. > RAID1 can be used. Then I have to make an assumption: the hard drive will definitely break, and the data will definitely be lost. > RAID1 can be used."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不组 raid 买 nas 干什么？",
+          "en": "Why buy a NAS if you don't use RAID?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "也不是咬文嚼字，只是确实搞不清你的想法raid 可以组，重要数据也可以放，就是不要作为 [唯一] 存放点raid 是有没有必要，而不是可以不可以以我自己举例，总量过 100T ，单独一天用到的数据(包括看剧、看图、其他私人数据)不足 500G ，我没必要搞 raid 全部在线啊，那得多大的设备，耗多少电？",
+          "en": "I'm not trying to be pedantic, I just really can't figure out your idea. RAID can be used, and important data can also be stored, just don't use it as the [only] storage location. RAID is about whether it's necessary, not whether it's possible. Taking myself as an example, the total amount is over 100T, and the data used on a single day (including watching dramas, viewing pictures, and other private data) is less than 500G. I don't need to use RAID to keep everything online, how big would the equipment be, and how much electricity would it consume?"
+        },
+        {
+          "zh": "我只要安全稳定，拔插硬盘方便的设备就够了nas 最大需求是 7*24 在线、远程我没这个需求，nas 就根本没研究过，买了 4 位硬盘柜就够了，然后 mount 到一个固定目录（开机都能自动认的，无需反复操作），用工具和脚本对这个目录集中整理就是了",
+          "en": "I just need a safe and stable device that is convenient for plugging and unplugging hard drives. The biggest demand for NAS is 7*24 online and remote. I don't have this demand, so I haven't studied NAS at all. I bought a 4-bay hard drive enclosure, and then mount it to a fixed directory (which can be automatically recognized at startup without repeated operations), and use tools and scripts to centrally organize this directory."
+        },
+        {
+          "zh": "想保证数据足够安全，应该是保持持续在线的 raid 一份，等量冷备一份，冷备不能用 raid ；前者保证高频使用的准确性，后者保持低频准确性[备灾]。",
+          "en": "To ensure data is secure enough, there should be a continuously online RAID copy and an equal amount of cold backup. The cold backup cannot use RAID; the former ensures the accuracy of high-frequency use, and the latter maintains the accuracy of low-frequency [disaster recovery]."
+        },
+        {
+          "zh": "根据花费，选择部分重要数据这样做就行了我只有不足 10T 数据需要达到“坏硬盘也不怕”，已经三备了，其他就随意了，完全没动力上 raid 和 nas",
+          "en": "Depending on the cost, just do this for some of the important data. I only have less than 10T of data that needs to achieve \"not afraid of bad hard drives\", and it has already been backed up three times. I don't care about the rest, and I have no motivation to use RAID and NAS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qinf 我用的 restic",
+          "en": "@qinf I use restic"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "给你更正一下： Raid 是高可用技术，不是备份技术。",
+          "en": "Let me correct you: RAID is a high availability technology, not a backup technology."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "之前给小姐姐住 raid1 的路过，raid1 方便灵活。反正现在矿盘二手盘也不算贵。",
+          "en": "I used to use raid1 for my girl, raid1 is convenient and flexible. Anyway, used mining hard drives are not too expensive now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我就没有组 RAID ，NAS 已经用了快十年。重要资料就照片和工作文件，总数据量大概 5T 。每天自动增量备份到另外一块硬盘，然后打包加密压缩备份到 115 网盘。至于影视文件，随时下，无所谓。",
+          "en": "I haven't used RAID. I've been using NAS for almost ten years. The important data is photos and work files, and the total data volume is about 5T. I automatically incrementally back up to another hard drive every day, and then package, encrypt and compress it to 115 network disk. As for movies, I can download them anytime, so it doesn't matter."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看你组的是 raid 几",
+          "en": "Depends on which RAID you are using"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "组毛线 raid 哦，几块大点的硬盘赛进去，一个硬盘一个分区分别共享出来不就好了个人的 nas 盘位再多能有几个盘位，为了那点冗余还有统一的一个分区，牺牲的是扩容麻烦没法简单换更大硬盘，文件迁移也麻烦，天天提心吊胆，硬盘也没法根据实际负载休眠停转，一年 365 天通电在那转着故障发生概率总归是更高的",
+          "en": "Why bother with RAID? Just put a few larger hard drives in, and share each hard drive and each partition separately. No matter how many bays a personal NAS has, how many bays can it have? For that little bit of redundancy and a unified partition, you sacrifice the trouble of expansion and the inability to simply replace with a larger hard drive. File migration is also troublesome, and you are always worried. The hard drive cannot hibernate or stop according to the actual load, and the probability of failure is always higher when it rotates with power on 365 days a year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "家用 raid 当“备份”的意义不大，毕竟 raid 不是为了备份设计的，但还是要用。1.raid 提升存储的读写性能。2.有硬盘坏了，依然能保持数据可访问，给你一点把重要数据备份出来的时间。3.有硬盘坏了能收到提醒，及时关注剩下硬盘的状态。4.最后才是重建 raid ，成功的话就省了事儿，失败的话至少你做了第一步能保证重要数据不丢。",
+          "en": "Using home RAID as a \"backup\" is not very meaningful, after all, RAID is not designed for backup, but it is still necessary. 1. RAID improves the read and write performance of storage. 2. If a hard drive breaks, it can still keep the data accessible, giving you some time to back up important data. 3. If a hard drive breaks, you will receive a reminder to pay attention to the status of the remaining hard drives in time. 4. Finally, rebuild the RAID, and if it succeeds, you will save trouble. If it fails, at least you have taken the first step to ensure that important data is not lost."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "RAID 主要实现高可用，例如不停机更换硬盘。RAID 无法实现备份。可以接受短时间停机维护硬盘的用户，应当使用诸如快照，增量备份，完全备份之类的技术手段而不要用 RAID 自找麻烦！",
+          "en": "RAID mainly implements high availability, such as replacing hard drives without downtime. RAID cannot implement backups. Users who can accept short-term downtime to maintain hard drives should use techniques such as snapshots, incremental backups, and full backups instead of using RAID to cause trouble!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有 raid 省的管理硬盘了",
+          "en": "With raid, you can save the management of hard drives"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "所以我用 raid6",
+          "en": "That's why I use raid6"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "> 我了解到如果不是企业级硬盘，Raid5 重组成功概率很低那就买企业级硬盘。另外你这帖子里把应用部分和存储设计部分放在一起谈了。存储设计看你具体需求，如果只是下载和跑程序，放点电影，那做不做 RAID 本来就无所谓。",
+          "en": "> I learned that if it is not an enterprise-level hard drive, the probability of Raid5 reassembly is very low, then buy an enterprise-level hard drive. Also, you are talking about the application part and the storage design part together in this post. Storage design depends on your specific needs. If it is just for downloading and running programs, and putting some movies, then whether to use RAID or not doesn't matter."
+        },
+        {
+          "zh": "比如说你 8 块 16T 硬盘，你说就 8 块单盘来用那也 OK ，组个 RAIDZ1 或者 Z2 放文件我觉得也完全 OK 。我自己的主存储刚刚从单盘换到 RAID ，现在是 6 块 16T 组了 Z1 存数据。系统盘下载盘另外放。",
+          "en": "For example, if you have 8 16T hard drives, it's OK if you say you just use 8 single drives, and I think it's also completely OK to create a RAIDZ1 or Z2 to store files. My own main storage has just been switched from a single disk to RAID, and now 6 16T disks are used to create Z1 to store data. The system disk and download disk are placed separately."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不要组，丢了就丢了，天塌不下来。",
+          "en": "Don't use it, if it's lost, it's lost, the sky won't fall."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "话该这么讲。raid 啥的不重要。。。你先思考要什么，再想怎么做。",
+          "en": "That's the way to say it. RAID is not important... First think about what you want, and then think about how to do it."
+        },
+        {
+          "zh": "手持 群晖 ds218+ 2 盘位，原来一盘存东西，一盘备份；现在是搞了个 raid1 ，主要是为了预防坏一块硬盘。",
+          "en": "Holding Synology ds218+ 2 bays, one disk used to store things and one disk used to back up; now I have a raid1, mainly to prevent a hard drive from breaking."
+        },
+        {
+          "zh": "使用自带的工具，上传备份到 类 s3 ，预防 nas 出意外损坏使用 rsync 同步到另一台设备，预防意外",
+          "en": "Use the built-in tools to upload and back up to similar s3, to prevent accidental damage to the NAS Use rsync to synchronize to another device to prevent accidents."
+        },
+        {
+          "zh": "因为 nas 是我的主要的存储中心，用来预防数据损坏、丢失什么的，所以 nas 分 不备份，月备份，周备份 3 个目录。。挑挑拣拣把所有数据扔进去了，算是按重要程度分级，备份也方便。",
+          "en": "Because NAS is my main storage center, used to prevent data damage and loss, etc., so NAS is divided into No Backup, Monthly Backup, and Weekly Backup 3 directories... I picked and threw all the data in, which is classified according to the degree of importance, and backup is also convenient."
+        },
+        {
+          "zh": "- 没有增减硬盘需求，也没得减，现有空间用不完。当然也一点没觉得浪费的想法。- 备份上，backblaze 比 azure 便宜 40%吧，目前测试是这样的。azure 一个月 10rmb 吧。我的数据量",
+          "en": "- There is no need to increase or decrease hard drives, and there is no way to reduce them. The existing space cannot be used up. Of course, I don't feel any sense of waste. - In terms of backup, backblaze is about 40% cheaper than azure, according to current tests. Azure is about 10rmb a month. My data volume"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用 raid1 或者 raid10 ，看看数据中心都是怎么做的就知道了～",
+          "en": "Use raid1 or raid10, and see how data centers do it~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "重要怕丢的就 raid1 ，其它的裸奔",
+          "en": "Use raid1 for important data that you are afraid of losing, and let the rest run naked"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@loading 感谢🙏",
+          "en": "@loading Thanks 🙏"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@falcon05 我的理解，NAS 只能选 raid56 吧，其他的空间损失太大了",
+          "en": "@falcon05 My understanding is that NAS can only choose raid56, the other space loss is too great"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

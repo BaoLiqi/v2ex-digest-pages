@@ -1,0 +1,235 @@
+{
+  "id": 1114282,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "求推荐 macOS 必装软件",
+          "en": "Requesting recommendations for must-have macOS software"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "参加工作后，刚从 win 游戏本换到 macbook air",
+          "en": "After starting work, I just switched from a Windows gaming laptop to a Macbook Air."
+        },
+        {
+          "zh": "\r\n\r\n对 macos 中一些常用软件比较陌生，也看了一些视频推荐的",
+          "en": "I'm relatively unfamiliar with some common software in macOS, and I've watched some video recommendations."
+        },
+        {
+          "zh": "\r\n\r\n目前装了 edge 、wps 、raycast 、office 、zotero 、夸克网盘。",
+          "en": "Currently, I have installed Edge, WPS, Raycast, Office, Zotero, and Quark Drive."
+        },
+        {
+          "zh": "\r\n\r\n求推荐一些其他必装的软件。后期会用 Python 和 R 做一些简单的数据处理和画图。以后常用的使用场景就是看文献、画画图、写文章。",
+          "en": "Requesting recommendations for other must-have software. Later, I will use Python and R for some simple data processing and drawing.  My common use cases will be reading literature, drawing graphs, and writing articles."
+        },
+        {
+          "zh": "\r\n\r\n还有一些具体问题需求请教：",
+          "en": "I also have some specific questions/needs to ask:"
+        },
+        {
+          "zh": "\r\n\r\n1.homebrew 是必装的吗？",
+          "en": "1. Is Homebrew a must-install?"
+        },
+        {
+          "zh": "\r\n\r\n2.有没有画技术路线图（类似 visio ）好用的软件推荐？",
+          "en": "2. Are there any good software recommendations for drawing technical roadmaps (similar to Visio)?"
+        },
+        {
+          "zh": "\r\n\r\n\r\nps 题外话:因为看了数码频道的视频评测，对 macos 系统有一种好奇或者说不明觉厉的感觉。从 win 换到 macos 后，估计是 win 这几年进步挺大，换到 mac 后，在触控板上的使用体验上没有感觉到很惊艳。其他一些操作体验感觉只是习惯上的差异。",
+          "en": "ps (aside): Because I watched video reviews on digital channels, I had a curiosity or a vague feeling of awesomeness about the macOS system. After switching from Windows to macOS, I guess Windows has made great progress in recent years, because after switching to Mac, I didn't feel very amazed by the touchpad experience. Other operating experiences feel like just differences in habits."
+        },
+        {
+          "zh": "\r\n\r\n感谢各位！",
+          "en": "Thank you all!"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mark 一下1. Surge （网络代理和调试）- 12 次2. Raycast （快速启动工具）- 10 次3. Homebrew （ macOS 包管理工具）- 9 次4. Bob Translate （快捷翻译工具）- 8 次5. draw.io （技术流程图绘制工具）- 7 次6. IINA （媒体播放器）- 7 次7. Ice （隐藏菜单栏工具）- 6 次8. ChatWise （ AI 大模型客户端）- 6 次9. MindNode （思维导图工具）- 6 次10. Warp （终端工具）- 6 次11. Notes （自带）（苹果自带笔记管理工具）- 6 次12. ChatGPT （ OpenAI 官方 AI 客户端）- 6 次13. Reeder / ReadKit （ RSS 订阅阅读器）- 5 次14. Linear Mouse （自定义鼠标滚轮方向工具）- 5 次15. BitBar （ macOS 菜单栏插件管理工具）- 5 次16. Chrome （浏览器）- 5 次17. MenubarX （菜单栏快捷工具）- 5 次18. XTerminal （终端工具）- 5 次19. Alfred （效率提升工具，支持快捷搜索与自动化）- 5 次20. Keka （ macOS 解压缩工具）- 5 次21. Hidden Bar （隐藏菜单栏图标工具）- 5 次22. Itsycal （轻量级日历工具）- 4 次23. BetterMouse （鼠标增强工具）- 4 次24. BetterDisplay （显示器管理工具）- 4 次25. Aldente （ MacBook 电池管理工具）- 4 次26. 1Password （密码管理工具）- 4 次27. Tembo （文件搜索工具）- 4 次28. HoudahSpot （高级文件搜索工具）- 4 次29. Gemini （重复文件查找工具）- 4 次30. PowerPhotos （照片管理工具）- 4 次31. PhotoSweeper （照片去重工具）- 4 次32. CleanShot （截图增强工具）- 4 次33. PDF Squeezer （ PDF 文件压缩工具）- 4 次34. Permute （多媒体格式转换工具）- 4 次35. Downie （视频下载工具）- 4 次36. Infuse （高级媒体播放器）- 4 次37. Dash （ API 文档查阅工具）- 4 次38. Fork （ Git 仓库管理工具）- 4 次39. Input Source Pro （输入法自动切换工具）- 3 次40. Mac Mouse Fix （鼠标功能增强工具）- 3 次41. MonitorControl （外接显示器亮度和音量调节工具）- 3 次42. Spark Mail （邮件客户端）- 3 次43. Snipaste （截图与贴图工具）- 3 次44. rcmd （快捷键切换应用工具）- 3 次45. Typora （ Markdown 编辑器）- 3 次46. Velja （浏览器选择器）- 3 次47. WezTerm （现代终端工具）- 3 次48. ProcessOn （在线绘图和思维导图工具）- 3 次49. Zenver （ macOS 软件收藏网站）- 3 次50. Barbee （刘海屏美化工具）- 3 次51. NotchNook （刘海屏美化工具）- 3 次52. Stats （系统监控工具）- 3 次53. Rectangle （窗口管理工具）- 3 次54. Swish （触控板手势增强工具）- 3 次55. Maccy （剪贴板管理工具）- 3 次56. Loop （窗口管理工具）- 3 次57. Shottr （轻量级截图工具）- 3 次58. Folx （下载管理工具）- 3 次",
+          "en": "Mark: 1. Surge (network proxy and debugging) - 12 times 2. Raycast (quick launch tool) - 10 times 3. Homebrew (macOS package manager) - 9 times 4. Bob Translate (fast translation tool) - 8 times 5. draw.io (technical flowchart drawing tool) - 7 times 6. IINA (media player) - 7 times 7. Ice (hide menu bar tool) - 6 times 8. ChatWise (AI large model client) - 6 times 9. MindNode (mind mapping tool) - 6 times 10. Warp (terminal tool) - 6 times 11. Notes (built-in) (Apple's built-in note management tool) - 6 times 12. ChatGPT (OpenAI official AI client) - 6 times 13. Reeder / ReadKit (RSS subscription reader) - 5 times 14. Linear Mouse (custom mouse wheel direction tool) - 5 times 15. BitBar (macOS menu bar plugin management tool) - 5 times 16. Chrome (browser) - 5 times 17. MenubarX (menu bar shortcut tool) - 5 times 18. XTerminal (terminal tool) - 5 times 19. Alfred (efficiency improvement tool, supports quick search and automation) - 5 times 20. Keka (macOS decompression tool) - 5 times 21. Hidden Bar (hide menu bar icon tool) - 5 times 22. Itsycal (lightweight calendar tool) - 4 times 23. BetterMouse (mouse enhancement tool) - 4 times 24. BetterDisplay (display management tool) - 4 times 25. Aldente (MacBook battery management tool) - 4 times 26. 1Password (password management tool) - 4 times 27. Tembo (file search tool) - 4 times 28. HoudahSpot (advanced file search tool) - 4 times 29. Gemini (duplicate file finder) - 4 times 30. PowerPhotos (photo management tool) - 4 times 31. PhotoSweeper (photo deduplication tool) - 4 times 32. CleanShot (screenshot enhancement tool) - 4 times 33. PDF Squeezer (PDF file compression tool) - 4 times 34. Permute (multimedia format conversion tool) - 4 times 35. Downie (video download tool) - 4 times 36. Infuse (advanced media player) - 4 times 37. Dash (API documentation tool) - 4 times 38. Fork (Git repository management tool) - 4 times 39. Input Source Pro (input method automatic switching tool) - 3 times 40. Mac Mouse Fix (mouse function enhancement tool) - 3 times 41. MonitorControl (external display brightness and volume adjustment tool) - 3 times 42. Spark Mail (email client) - 3 times 43. Snipaste (screenshot and paste tool) - 3 times 44. rcmd (shortcut key switching application tool) - 3 times 45. Typora (Markdown editor) - 3 times 46. Velja (browser selector) - 3 times 47. WezTerm (modern terminal tool) - 3 times 48. ProcessOn (online drawing and mind mapping tool) - 3 times 49. Zenver (macOS software collection website) - 3 times 50. Barbee (notch screen beautification tool) - 3 times 51. NotchNook (notch screen beautification tool) - 3 times 52. Stats (system monitoring tool) - 3 times 53. Rectangle (window management tool) - 3 times 54. Swish (touchpad gesture enhancement tool) - 3 times 55. Maccy (clipboard management tool) - 3 times 56. Loop (window management tool) - 3 times 57. Shottr (lightweight screenshot tool) - 3 times 58. Folx (download management tool) - 3 times"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "需要什么装什么 没有一个是必装",
+          "en": "Install what you need; none are mandatory."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Bob Translate 快捷翻译Dash https://kapeli.com/dash 文档快捷查阅Fork git-fork.com Git 仓库管理Ice https://github.com/jordanbaird/Ice 隐藏菜单栏Input Source Pro 自动切换输入法Mac Mouse Fix 鼠标使用增强（尤其是滚轮）MonitorControl 控制外接显示器亮度Spark Mail 邮箱管理Snipaste 截图工具rcmd https://lowtechguys.com/rcmd/ 快捷键切换应用Typora markdown 编辑器Velja https://sindresorhus.com/velja 浏览器选择器WezTerm 终端（按字母排序）",
+          "en": "Bob Translate - Quick Translation Dash https://kapeli.com/dash - Quick document lookup Fork git-fork.com - Git repository management Ice https://github.com/jordanbaird/Ice - Hide menu bar Input Source Pro - Automatically switch input methods Mac Mouse Fix - Mouse use enhancement (especially the scroll wheel) MonitorControl - Control external display brightness Spark Mail - Email management Snipaste - Screenshot tool rcmd https://lowtechguys.com/rcmd/ - Shortcut key switching application Typora - Markdown editor Velja https://sindresorhus.com/velja - Browser selector WezTerm - Terminal (alphabetical order)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人觉得 homebrew 是必装。画图理论上在线工具就够了？https://www.processon.com/mac 软件可参考下个人收藏https://zenver.vercel.app/?apps",
+          "en": "Personally, I think Homebrew is a must-install. Is an online tool enough for drawing in theory? https://www.processon.com/ You can refer to my personal collection for Mac software: https://zenver.vercel.app/?apps"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mac 装机必备 App 、常见设置、删除自带 ABC 输入法https://github.com/ssnhd/mac",
+          "en": "Mac installation essentials App, common settings, delete the built-in ABC input method https://github.com/ssnhd/mac"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1 、homebrew 装，即使不是技术，平时也挺方便的2 、draw.io 可以试下3 、office 比 wps 好用啊，mac 的 office 快捷键还可以自定义…其他软件，我想一下：解压：Keka效率类型：raycast 、alfred 选一个，raycast 好看，alfred 更强，细节可以研究下，很多好用的，现在完全离不开翻译：Bob ，或者是 easydict 吧，我买了 Bob优化类的：hidden bar 、itsycal 、bettermouse 、betterdisplay 、aldente 、1password搜索：tembo 、houdahspot去重文件和图片：gemini 、powerphoto 、photosweeper截图和录屏：cleanshotpdf 相关：pdf squeezer （ pdf 压缩神器）多媒体类：permute 、downie 、iina 、infuse各种各样的软件还挺多的，小玩意儿也挺多的，很多就是试过，然后自己有用再慢慢留存下来",
+          "en": "1. Install Homebrew; it's quite convenient even if you're not technical. 2. You can try draw.io. 3. Office is better than WPS. The shortcut keys for Mac Office can also be customized... Other software, let me think: Decompression: Keka. Efficiency type: Choose one between Raycast and Alfred. Raycast is good-looking, Alfred is stronger, the details can be studied, there are many useful ones, I can't live without them now. Translation: Bob, or easydict, I bought Bob. Optimization: hidden bar, itsycal, bettermouse, betterdisplay, aldente, 1password Search: tembo, houdahspot Removing duplicate files and images: gemini, powerphoto, photosweeper Screenshot and screen recording: cleanshot PDF related: pdf squeezer (PDF compression artifact) Multimedia: permute, downie, iina, infuse There are many kinds of software, and there are many small things. Many of them have been tried, and then slowly retained for personal use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "说实话，我觉得没有。如果你是刘海屏，可以试试，Barbee 、NotchNook",
+          "en": "To be honest, I don't think there are any. If you have a notch screen, you can try Barbee or NotchNook."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "homebrew stats Rectangle",
+          "en": "homebrew stats Rectangle"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "啊？你用 windows 装啥你的 mac 就找对应的装呗，而且 mac 比 win 落后太多了，win 上都不用装什么优化软件，mac 反而需要优化的地方不少",
+          "en": "Huh? Whatever you installed on Windows, just find the corresponding ones for your Mac. Moreover, Mac is far behind Windows. You don't need to install any optimization software on Windows, but Mac needs a lot of optimization."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "iterm2 伟大无需多言的 terminalkitty 也是 terminal ，但是这个反应更快一点，neovim 的时候用command x 还原 win 剪切操作aldente 高级的电池健康管理openinterminal 可以直接在 finder 里调用 terminaleye monitor 护眼软件，根据你鼠标和键盘的频率计算一个疲劳值，到 100%的时候弹出屏保强制休息",
+          "en": "iterm2 - no need to say how great it is. terminalkitty is also a terminal, but it reacts a bit faster. Use command x to restore Windows cut operations when using neovim. aldente - advanced battery health management. openinterminal can directly call terminal in Finder. eye monitor - eye protection software that calculates a fatigue value based on the frequency of your mouse and keyboard; when it reaches 100%, a screensaver pops up to force you to rest."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没有什么所谓的必装软件，自己用需要用什么就装什么，那些花里胡哨的“效率”小工具能不装就不装，不考虑跨平台的支持用 apple 原生应用，第三方生产力工具能用付费的就别用免费的。少点选择才能提高效率。",
+          "en": "There is no so-called must-have software. Install whatever you need. Avoid installing those fancy 'efficiency' gadgets if possible. Use Apple's native apps without considering cross-platform support, and don't use free third-party productivity tools if you can use paid ones. Fewer choices can improve efficiency."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@CodeUU 也没对比性能多好，就是很省心，用过之后再也离不开了",
+          "en": "@CodeUU It's not that the performance is so much better, it's just that it's hassle-free. Once you use it, you can't live without it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@CodeUU 大概是贵？",
+          "en": "@CodeUU Is it probably expensive?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@CodeUU 如果只用来扶墙，clashX 就够了",
+          "en": "@CodeUU If you're only using it for circumvention, ClashX is enough."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "单纯为了个富强买 surge 真奢侈",
+          "en": "It's really a luxury to buy Surge just for circumvention."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@CodeUU 优点就是要收费，毕竟用免费的掉价",
+          "en": "@CodeUU The advantage is that it requires payment; after all, using free ones is downgrade."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "surge ，唯一真神，没有之一",
+          "en": "Surge, the only true god, none other."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "做开发的话要装 brew推荐几个我每天在用的Surge：你懂的Raycast：快速启动MindNode：脑图Warp：终端工具自带的 Notes：所有的笔记集中化管理ChatWise 调用 ai 大模型的工具",
+          "en": "If you are doing development, you should install brew.  Here are a few I use every day: Surge: You know Raycast: Quick launch MindNode: Brain map Warp: Terminal tool Built-in Notes: Centralized management of all notes ChatWise: Tool for calling large AI models"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最推荐的：Raycast ，其他的看需求了",
+          "en": "Most recommended: Raycast, others depend on your needs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "SurgeChromeMenubarXXTerminal",
+          "en": "Surge Chrome MenubarX XTerminal"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

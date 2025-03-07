@@ -1,0 +1,251 @@
+{
+  "id": 1110096,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Termius 作为一个 SSH 终端缺少这么多基础功能，为什么有人用，顺便问问还有没有什么 Mac 能用的终端推荐",
+          "en": "Termius lacks so many basic features as an SSH terminal, why do people use it? By the way, I'd like to ask if there are any recommended terminals for Mac."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "因为 Tabby iTerm 都爆出过严重安全漏洞，所以我只能选择看起来最重视安全的 Termius 。",
+          "en": "Because Tabby and iTerm have both been exposed to serious security vulnerabilities, I can only choose Termius, which seems to prioritize security the most."
+        },
+        {
+          "zh": "然后发现了一堆比开源 SSH 软件还差的功能：\r\n\r\n1. 电脑版要连自己的主机之前**必须**先注册登录他们的账号\r\n2. SFTP 连大部分开源 SSH 都支持的拖拽下载文件都不支持，也不支持断点续传\r\n3. 更关键的是没有保存按钮，只能复制文件到左侧主机\r\n4. SFTP 连接不稳定重新连接后只能自动返回 home 目录，不能自动返回断开前的目录\r\n5. 因为同时不支持拖拽下载文件且没有保存文件按钮，MAC 商店版完全不支持下载文件到本地\r\n6. 主机延迟高或是带宽占满时有一个 100%复现的严重 Bug ，切换到一个文件多的目录再切换到一个文件少的目录，文件列表显示的 100%是文件多的目录，显示的路径又是文件少的那个目录，如果你尝试重命名或下载这个目录里的文件就会报错文件不存在。",
+          "en": "Then I discovered a bunch of features that are even worse than open-source SSH software:\r\n\r\n1.  The desktop version **must** register and log in to their account before connecting to its own host.\r\n2.  SFTP doesn't even support drag-and-drop file downloads, which most open-source SSH clients support, nor does it support breakpoint resume.\r\n3.  More importantly, there is no save button, you can only copy files to the host on the left.\r\n4.  SFTP connection is unstable. After reconnecting, it can only automatically return to the home directory, and cannot automatically return to the directory before disconnection.\r\n5.  Because it does not support drag-and-drop file downloads and has no save file button, the MAC store version does not support downloading files to the local machine at all.\r\n6.  When the host latency is high or the bandwidth is full, there is a serious bug that can be reproduced 100%. Switching to a directory with many files and then switching to a directory with few files, the file list displayed is 100% the directory with many files, and the displayed path is the directory with few files. If you try to rename or download a file in this directory, it will report an error that the file does not exist."
+        },
+        {
+          "zh": "Termius 里往程序里塞个关不掉的遥测和一堆第三方 SDK ，我觉得不至于几年都没发现这个状态不同步的严重 bug 吧\r\n\r\n还有很多小问题就不逐一列出了，顺便问问还有没有什么 Mac 能用的终端推荐\r\n\r\n**别推荐** Warp （我接受不了往 SSH 接入非端侧 AI ） WindTerm （ Bug 实在太多）\r\n\r\n可接受付费",
+          "en": "Termius stuffs the program with telemetry that cannot be turned off and a bunch of third-party SDKs. I don't think it's possible that they haven't discovered this serious out-of-sync bug for several years.\r\n\r\nThere are many other small problems that I won't list one by one. By the way, I'd like to ask if there are any recommended terminals for Mac.\r\n\r\n**Don't recommend** Warp (I can't accept connecting non-client-side AI to SSH) WindTerm (too many bugs)\r\n\r\nAcceptable paid solutions."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://github.com/TermoraDev/termora",
+          "en": "https://github.com/TermoraDev/termora"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "mobaxterm ，试过一圈还是这个最好用",
+          "en": "mobaxterm, after trying a bunch, this is still the best."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不是哥们，有过漏洞就不用？那就别用 macOS 、Windows 、Linux 了🤣",
+          "en": "Dude, you won't use it just because it had vulnerabilities? Then don't use macOS, Windows, or Linux 🤣"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Alacritty 和 Kitty 这种实在太 raw 了，除了终端几乎没有任何额外功能：标签页、快速连接 SSH…",
+          "en": "Alacritty and Kitty are too raw. Apart from the terminal, they have almost no extra features: tabs, quick connect SSH..."
+        },
+        {
+          "zh": "我推荐 WezTermhttps://wezfurlong.org/wezterm/ssh.html",
+          "en": "I recommend WezTerm https://wezfurlong.org/wezterm/ssh.html"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为什么不直接用~/.ssh/config 管理连接然后直接在终端里直接执行 ssh 对应的 alias 呢？",
+          "en": "Why not just use ~/.ssh/config to manage connections and then execute the corresponding ssh alias directly in the terminal?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@YaD2x #29 +1 最近用这个，真的非常棒",
+          "en": "@YaD2x #29 +1 Recently used this, it's really great."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用系统自带的 ssh 命令不就行了，现在是个电脑系统都自带了",
+          "en": "Isn't it enough to use the system's built-in ssh command? Almost every computer system has it built-in now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "kitty + Transmit.",
+          "en": "kitty + Transmit."
+        },
+        {
+          "zh": "就是要快.",
+          "en": "Just needs to be fast."
+        },
+        {
+          "zh": "还有个备用的 electerm. electron 写的, 有点卡顿.",
+          "en": "There is also a backup electerm. Written in electron, a bit laggy."
+        },
+        {
+          "zh": "天天有 rust 重写一切, 怎么还没看到用 rust 重写 ssh/sftp gui 软件.",
+          "en": "Every day there is rust rewriting everything, why haven't I seen ssh/sftp GUI software rewritten with rust yet."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "alacrittyhttps://ko-fi.com/memorycancel#paypalModal",
+          "en": "alacritty https://ko-fi.com/memorycancel#paypalModal"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "VanDyke SecureCRT 就是贵点。",
+          "en": "VanDyke SecureCRT is just a bit expensive."
+        },
+        {
+          "zh": "我手机上主要用 Termius ，几乎没有 SFTP 的使用需求",
+          "en": "I mainly use Termius on my phone and have almost no SFTP usage needs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "sftp 可以拖拽啊",
+          "en": "sftp can be dragged and dropped"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不得不说 Termius 的确是我目前用过的终端里，最难用的终端之一，要不是其他区包年价格便宜，鬼才高兴交钱",
+          "en": "I have to say that Termius is indeed one of the most difficult-to-use terminals I have ever used. If the annual price in other regions wasn't cheap, no one would be happy to pay for it."
+        },
+        {
+          "zh": "ftp 功能竟然不和 ssh seesion 关联，ftp 下打开文件修改保存不自动上传没改一次都要我手动去点那个 'upload' 按钮，简直活久见",
+          "en": "The ftp function is not associated with the ssh session. Opening, modifying, and saving files under ftp does not automatically upload. Every time I make a change, I have to manually click the 'upload' button. It's just unbelievable."
+        },
+        {
+          "zh": "但是其他终端看过来，目前电脑、手机多端同步做得还算好的也就它一家了（我经常要手机 ssh 到我的服务器上做一件简单操作）只能捏着鼻子用这破玩意了",
+          "en": "But looking at other terminals, it is the only one that does a relatively good job of multi-terminal synchronization on computers and mobile phones (I often need to use my mobile phone to ssh to my server to do a simple operation). I can only grit my teeth and use this broken thing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "主要是跨平台挺方便的，多设备，win mac iphone",
+          "en": "Mainly it's convenient for cross-platform use, multiple devices, win mac iphone."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Tink 不支持把文件从服务器拖拽到 Finder 和 Windows Explorer ，WinSCP 、Bitvise 等全都支持",
+          "en": "@Tink It does not support dragging files from the server to Finder and Windows Explorer. WinSCP, Bitvise, etc. all support it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1 ，全平台",
+          "en": "1. Cross-platform"
+        },
+        {
+          "zh": "2 ，界面比竞品好看",
+          "en": "2. The interface is better than competitors."
+        },
+        {
+          "zh": "3 ，强制登录是缺点，但可以绕过",
+          "en": "3. Forced login is a disadvantage, but can be bypassed."
+        },
+        {
+          "zh": "4 ，价格比 securecrt 之类的老牌软件便宜",
+          "en": "4. The price is cheaper than old software such as SecureCRT."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@drymonfidelia 噢这个意思啊，确实不支持，只能拉到左边",
+          "en": "@drymonfidelia Oh, that's what you mean. It really doesn't support it, you can only drag it to the left."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "royal tsx 目前在用",
+          "en": "royal tsx is currently in use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://ghostty.org",
+          "en": "https://ghostty.org"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一直用 Windows Terminal 自带的 ssh🧐",
+          "en": "Always using the built-in ssh of Windows Terminal🧐"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不推荐 warp 就没什么好说的了我，下一位",
+          "en": "If you don't recommend Warp, then there's nothing more to say, next one."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

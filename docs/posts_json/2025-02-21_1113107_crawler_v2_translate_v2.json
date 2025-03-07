@@ -1,0 +1,351 @@
+{
+  "id": 1113107,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "[送码] SlideBrowser - 一个轻量的滑动浏览器，给你不一样的交互体验",
+          "en": "[Giving away codes] SlideBrowser - a lightweight sliding browser that gives you a different interactive experience"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "## 产品介绍",
+          "en": "## Product Introduction"
+        },
+        {
+          "zh": "[SlideBrowser]( https://deepthinkapps.com/zh/apps/slide-browser/) 是一个滑动浏览器，当你鼠标移动到屏幕边缘，自动出现，当失焦时自动隐藏。",
+          "en": "[SlideBrowser]( https://deepthinkapps.com/zh/apps/slide-browser/) is a sliding browser that automatically appears when you move your mouse to the edge of the screen and automatically hides when it loses focus."
+        },
+        {
+          "zh": "## 使用场景",
+          "en": "## Usage Scenarios"
+        },
+        {
+          "zh": "总体来说这算是一个小众产品，主要是用场景有：",
+          "en": "Overall, this is a niche product, mainly used in the following scenarios:"
+        },
+        {
+          "zh": "- 在应用全屏模式下查询资料、问 GPT 等",
+          "en": "- Query information and ask GPT in application full-screen mode, etc."
+        },
+        {
+          "zh": "- 记录一些待办事项或者笔记",
+          "en": "- Record some to-do items or notes"
+        },
+        {
+          "zh": "- 查看股市、币市信息",
+          "en": "- View stock market and cryptocurrency market information"
+        },
+        {
+          "zh": "- 听歌",
+          "en": "- Listen to music"
+        },
+        {
+          "zh": "- 看视频、看直播",
+          "en": "- Watch videos and live broadcasts"
+        },
+        {
+          "zh": "- 翻译",
+          "en": "- Translation"
+        },
+        {
+          "zh": "以下是一些场景的 GIF 图：",
+          "en": "Below are some GIFs of the scenarios:"
+        },
+        {
+          "zh": "![SlideBrowser 应用场景 - 全屏模式搜索信息]( https://i.miji.bid/2025/02/21/873e3d7a823e46a0683ba55c48f03016.gif)",
+          "en": "![SlideBrowser Application Scenario - Full Screen Mode Search Information]( https://i.miji.bid/2025/02/21/873e3d7a823e46a0683ba55c48f03016.gif)"
+        },
+        {
+          "zh": "![SlideBrowser 应用场景 - 听音乐]( https://i.miji.bid/2025/02/21/d9136c075e8fa72827897c64ce7a17ed.gif)",
+          "en": "![SlideBrowser Application Scenario - Listening to Music]( https://i.miji.bid/2025/02/21/d9136c075e8fa72827897c64ce7a17ed.gif)"
+        },
+        {
+          "zh": "![SlideBrowser 应用场景 - 记录待办任务列表]( https://i.miji.bid/2025/02/21/163345ada4ebc5205fef73c0a30c512c.gif)",
+          "en": "![SlideBrowser Application Scenario - Recording Task List]( https://i.miji.bid/2025/02/21/163345ada4ebc5205fef73c0a30c512c.gif)"
+        },
+        {
+          "zh": "我自己平常主要有一下 2 点使用场景：",
+          "en": "I usually have the following 2 main usage scenarios:"
+        },
+        {
+          "zh": "- 翻译：我不是很喜欢那些有气泡的翻译软件，所以平时有什么翻译内容，所以我将 Google 翻译的页面一直放在那里，需要的时候就滑动一下；",
+          "en": "- Translation: I don't really like those translation software with bubbles, so usually when I have something to translate, I keep the Google Translate page there, and just slide it out when needed;"
+        },
+        {
+          "zh": "- 管理项目进度：虽然是独立开发，但也是会把任务梳理清楚，然后放到 Github Project 里面，并且在做的过程中遇到什么难点以及增加的任务都会快速记录，如果解决了就快速点击完成，感觉还是挺好的。",
+          "en": "- Manage project progress: Although it is independent development, I will also sort out the tasks clearly and put them in Github Project, and quickly record any difficulties and added tasks encountered in the process. If it is solved, I will quickly click to complete, which feels pretty good."
+        },
+        {
+          "zh": "## 产品特性",
+          "en": "## Product Features"
+        },
+        {
+          "zh": "- 滑动显示、隐藏",
+          "en": "- Slide to show/hide"
+        },
+        {
+          "zh": "- 可通过隐藏/显示侧边栏，让窗口更简洁（只保留页面）",
+          "en": "- You can hide/show the sidebar to make the window more concise (only keep the page)"
+        },
+        {
+          "zh": "- 支持多个窗口",
+          "en": "- Supports multiple windows"
+        },
+        {
+          "zh": "- 支持自由拖拽模式（可以不用贴在屏幕边缘）",
+          "en": "- Supports free drag and drop mode (no need to stick to the edge of the screen)"
+        },
+        {
+          "zh": "- 支持 Mac 、Windows 、Linux",
+          "en": "- Supports Mac, Windows, Linux"
+        },
+        {
+          "zh": "Windows 因为没有钱进行软件签名（签名要 2000 块），所以在下载或者安装的时候 Windows Defender 防火墙会报不安全，但是实际并没有什么问题，如果认为本产品不错，但又比较担心，可以在对应的弹窗上留下邮箱，等赚钱了，就给 Windows 签名，到时候给你发个邮件。",
+          "en": "Since Windows doesn't have the money to sign the software (signing costs 2000 yuan), Windows Defender Firewall will report it as unsafe when downloading or installing, but there is actually no problem. If you think this product is good, but are worried, you can leave your email address on the corresponding pop-up window. When I make money, I will sign Windows and send you an email."
+        },
+        {
+          "zh": "## 优惠码",
+          "en": "## Discount Codes"
+        },
+        {
+          "zh": "- PXPIWFKV",
+          "en": "- PXPIWFKV"
+        },
+        {
+          "zh": "- KOP0KWBN",
+          "en": "- KOP0KWBN"
+        },
+        {
+          "zh": "- EEP75ENZ",
+          "en": "- EEP75ENZ"
+        },
+        {
+          "zh": "- QUZ8WNGS",
+          "en": "- QUZ8WNGS"
+        },
+        {
+          "zh": "- 8OCWTIYD",
+          "en": "- 8OCWTIYD"
+        },
+        {
+          "zh": "- 6NFH2CFM",
+          "en": "- 6NFH2CFM"
+        },
+        {
+          "zh": "- EJ1NV4FX",
+          "en": "- EJ1NV4FX"
+        },
+        {
+          "zh": "- VBYM6AE5",
+          "en": "- VBYM6AE5"
+        },
+        {
+          "zh": "- ABAPSAIJ",
+          "en": "- ABAPSAIJ"
+        },
+        {
+          "zh": "- WZSW4D4P",
+          "en": "- WZSW4D4P"
+        },
+        {
+          "zh": "注意：这些码并不是直接的激活码，而是支付的时候的优惠码，但是 100% 优惠，也就是免费",
+          "en": "Note: These codes are not direct activation codes, but discount codes for payment, but they are 100% discount, which means free"
+        },
+        {
+          "zh": "如果有对这个产品有什么吐槽或者建议，可以在下面评论或者直接加我: ZHJlYW0xMG5pYW4=",
+          "en": "If you have any complaints or suggestions about this product, you can comment below or add me directly: ZHJlYW0xMG5pYW4="
+        },
+        {
+          "zh": "更多说明见官网：[https://deepthinkapps.com/zh/apps/slide-browser/]( https://deepthinkapps.com/zh/apps/slide-browser/)",
+          "en": "See the official website for more details: [https://deepthinkapps.com/zh/apps/slide-browser/]( https://deepthinkapps.com/zh/apps/slide-browser/)"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "和我一样的想法https://shz.al/TfkQ所以我做了这个软件。（暂未公开）",
+          "en": "Same idea as me https://shz.al/TfkQ so I made this software. (Not yet public)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@136178128 确实一毛一样，不过你这个好像做到了让任意软件都能移动的效果，我之前也想做这个让任意软件都可以移动，你居然已经实现了，点赞👍👍",
+          "en": "@136178128 Indeed exactly the same, but yours seems to have achieved the effect of making any software movable. I also wanted to make any software movable before, but you have already realized it, thumbs up 👍👍"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jonty NXQPQF4E",
+          "en": "@jonty NXQPQF4E"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@knva NSLPXWWF 💪",
+          "en": "@knva NSLPXWWF 💪"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@superkey NBRTVCIZ 💪",
+          "en": "@superkey NBRTVCIZ 💪"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@infun TR9LQFUJ",
+          "en": "@infun TR9LQFUJ"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@CottLin 还在 ML7X20LP ，等中午过后就没了",
+          "en": "@CottLin Still ML7X20LP, it will be gone after noon"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "和 slidepad 有点像，这个网页前进后退不会跳新页面吧。大佬来一个码，我测试一下效果。",
+          "en": "A bit like slidepad, will this webpage's forward and backward navigation jump to a new page? Give me a code, I'll test the effect."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "VBYM6AE5 已用，谢谢楼主",
+          "en": "VBYM6AE5 used, thanks"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "主要应用场景：摸鱼",
+          "en": "Main application scenario: slacking off"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "6NFH2CFM 已使用, 感谢 OP",
+          "en": "6NFH2CFM used, thanks OP"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "WZSW4D4P 已用 谢谢",
+          "en": "WZSW4D4P used, thanks"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ABAPSAIJ 已用 谢谢",
+          "en": "ABAPSAIJ used, thanks"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这个软件有试用期，试用完了，如果觉得可以，但是又觉得比较贵，可以给我发邮件或者加我微信。",
+          "en": "This software has a trial period. After the trial period, if you think it's good, but it's a bit expensive, you can send me an email or add my WeChat."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "VBYM6AE5  已用 谢谢 OP",
+          "en": "VBYM6AE5 used, thanks OP"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "windows 安装包 1.2G ？咋这么大？",
+          "en": "Windows installation package 1.2G? Why is it so big?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "8OCWTIYD 已使用 谢谢",
+          "en": "8OCWTIYD used, thanks"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "6NFH2CFM 已使用，谢谢",
+          "en": "6NFH2CFM used, thank you"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "WZSW4D4P 已用  感谢大佬",
+          "en": "WZSW4D4P used, thanks"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "EJ1NV4FX 已用， 感谢",
+          "en": "EJ1NV4FX used, thanks"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

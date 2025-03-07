@@ -1,0 +1,275 @@
+{
+  "id": 1114222,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "黑苹果末路？",
+          "en": "Hackintosh at its end?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如题，感觉随着 mac m 系列芯片的推出，黑苹果是不是到头了？",
+          "en": "As the title suggests, does it feel like Hackintosh is coming to an end with the introduction of Mac M series chips?"
+        },
+        {
+          "zh": "不知道骁龙 x elite 芯片能不能上黑苹果",
+          "en": "I wonder if the Snapdragon X Elite chip can run Hackintosh."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mac mini 足够强和便宜了，现在还需要黑苹果？",
+          "en": "Mac mini is strong and cheap enough, is there still a need for Hackintosh now?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "白苹果不会便宜的",
+          "en": "Real Macs won't be cheap."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "黑苹果早就到头了",
+          "en": "Hackintosh has long been at its end."
+        },
+        {
+          "zh": "现在虽然还有 x86 还有系统更新但是新功能一概没有",
+          "en": "Although there are still x86 systems and system updates, there are no new features at all."
+        },
+        {
+          "zh": "基本就是作为 Apple OS 系列 app 的打包机的存在",
+          "en": "It basically exists as a packaging machine for Apple OS series apps."
+        },
+        {
+          "zh": "日用已经日薄西山",
+          "en": "Daily use is declining."
+        },
+        {
+          "zh": "至于 x elite 这种电子垃圾就不要来蹭了，高性能的型号价格和 Mac 差不多但是打不过 M4",
+          "en": "As for electronic waste like the X Elite, don't even bother with it. The high-performance models are similarly priced to Macs but can't beat the M4."
+        },
+        {
+          "zh": "低性能的便宜本低到令人发指的价格而且除了他们都是 arm 以外没有任何关联性，可以说研究如何完整用 x86 emulate M 芯片都比用高通的 soc 来做更简单…",
+          "en": "The low-performance cheap laptops have ridiculously low prices, and there's no connection to Macs other than that they're all ARM-based. It could be said that researching how to fully emulate an M chip with x86 is simpler than using a Qualcomm SoC..."
+        },
+        {
+          "zh": "M 芯片现在其实很够看 在本子上既能提供很强的性能又能提供低得多的功耗",
+          "en": "M chips are actually quite good now. They can provide strong performance and much lower power consumption on laptops."
+        },
+        {
+          "zh": "在台式上现在的 max 和 ultra 也基本满足需求",
+          "en": "On desktops, the current Max and Ultra chips basically meet the needs."
+        },
+        {
+          "zh": "而且现在的显存架构还更适合当下的 ai 热潮 GPU 性能其实也还行",
+          "en": "Moreover, the current video memory architecture is more suitable for the current AI trend, and the GPU performance is actually not bad."
+        },
+        {
+          "zh": "要说问题嘛 主要是廉价的 macOS 机器变得难以获得了  这里尤其是在内存上来说",
+          "en": "If you want to talk about problems, the main one is that it is becoming difficult to obtain cheap macOS machines, especially in terms of memory."
+        },
+        {
+          "zh": "其他方面 x86 黑苹果性价比其实不高了",
+          "en": "In other aspects, the price/performance ratio of x86 Hackintosh isn't very good."
+        },
+        {
+          "zh": "其实现在 M4 Pro 单核无敌 多核与 9950X 差不多",
+          "en": "Actually, the M4 Pro is now unbeatable in single-core performance, and multi-core performance is similar to the 9950X."
+        },
+        {
+          "zh": "也就是说普通的家机组起来和 Mac mini 这种相比的话 主要是内存可以多加点，硬盘反正 Mac 也可以雷雳外挂 现在成本也不高了",
+          "en": "In other words, if you compare a regular home PC build with something like a Mac mini, the main advantage is that you can add more memory. Anyway, Macs can use Thunderbolt external drives, and the cost isn't high now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "除了折腾，本身没啥意义吧，苹果最强的是硬件，软件基本上一坨屎。",
+          "en": "Besides tinkering, it's meaningless, right? Apple's strongest point is the hardware, the software is basically a pile of garbage."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "但黑苹果的需求也没了啊，从 linux 微信、linux QQ 等软件的出现，我作为开发者直接用 linux 就行，当初我用黑苹果也只是因为当时只有苹果支持 unix 各种工具的同时还有微信等软件",
+          "en": "But the need for Hackintosh is gone, right? With the appearance of software like Linux WeChat and Linux QQ, I, as a developer, can just use Linux directly. I used Hackintosh back then only because Apple supported both Unix tools and software like WeChat."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "15 年开始玩黑苹果，直到 M4 mini 发布……上周末刚把黑苹果抹掉。",
+          "en": "Started playing with Hackintosh in 2015, until the M4 mini was released... Just wiped my Hackintosh last weekend."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当年 5000 多组装的的主机用 ps 经常蹦，后来淘宝花了 50 找人装的黑苹果，用 ps,ai 好用到不行，后悔当年没有直接上 imac 。",
+          "en": "Back then, the assembled PC costing more than 5000 would crash frequently when using PS. Later, I spent 50 on Taobao to find someone to install Hackintosh, and it was so easy to use PS and AI. I regretted not going directly to iMac back then."
+        },
+        {
+          "zh": "现在 m4 mini 才 3 千多谁还去折腾黑苹果啊，冲就完事了，妥妥的提升生产效率神器",
+          "en": "Now that the M4 mini is only 3000+, who would bother with Hackintosh? Just go for it, a guaranteed productivity booster."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这东西就是个折腾 ，就是玩儿。",
+          "en": "This thing is just a hassle, just for fun."
+        },
+        {
+          "zh": "如果真干活，赚钱用，就老老实实买 Mac ，不要黑苹果。",
+          "en": "If you really want to work and make money, honestly buy a Mac, don't use Hackintosh."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "黑苹果老老实实用 x86 。",
+          "en": "Just stick to x86 for Hackintosh."
+        },
+        {
+          "zh": "x elite ，cpuz 跑分只有 76 分奔腾 4 水平",
+          "en": "X Elite, the CPU-Z score is only 76 points, Pentium 4 level."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "m1 当时的性能、功耗表现就表明这是板上钉钉的事了呀",
+          "en": "The performance and power consumption of the M1 at that time indicated that this was a foregone conclusion."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "十年的黑苹果用户，确实转向了白苹果",
+          "en": "A ten-year Hackintosh user, indeed switched to a real Mac."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "从 10.4 开始黑起，白苹果黑苹果一起用，一直黑到 10.11 ，此从用上 M1Pro ，就不再折腾了....",
+          "en": "Started Hackintoshing from 10.4, using both real Macs and Hackintoshes, up to 10.11. Since using the M1 Pro, I no longer bother..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@MacsedProtoss fix 至于 x elite 这种电子垃圾就不要来蹭了，高性能的型号价格和 Mac 差不多但是打不过 M4 ，低性能的便宜本低到令人发指的性能也真是没谁了 还不如 x86 呢",
+          "en": "@MacsedProtoss fix As for the X Elite, that electronic waste, don't even bother with it. The high-performance models are similarly priced to Macs but can't beat the M4. The low-performance cheap laptops have ridiculously low performance, it's really something. Even x86 is better."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "主要是现在没有太大使用黑苹果的必要了吧。",
+          "en": "Mainly, there's not much need to use Hackintosh now, right?"
+        },
+        {
+          "zh": "M1 mac mini 16g 就可以了，然后外接硬盘/改硬盘，和折腾黑苹果比起来，方便又便宜",
+          "en": "An M1 Mac mini with 16GB is enough, and then you can connect an external hard drive/modify the hard drive. Compared to messing with Hackintosh, it's convenient and cheap."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果需要使用最新的 macos ，确实是这样，以后的 macos 就不有 x86 的版本了，最快今年就会发生",
+          "en": "If you need to use the latest macOS, that's true. Future macOS versions won't have x86 versions, and it will happen as early as this year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "x86 能黑果是因为当年 mac 用的就是咱能在市面上买的硬件，骁龙芯片咋黑果？",
+          "en": "x86 can be Hackintoshed because Macs used hardware that we could buy on the market back then. How can you Hackintosh a Snapdragon chip?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "XCloud 目前还是 x86…",
+          "en": "XCloud is still x86..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "黑苹果 64g 内存才 500 ，白苹果你试试，别把 16g 内存 swap 用炸了",
+          "en": "Hackintosh with 64g of memory only costs 500, try that with a real Mac, don't blow up the 16g memory swap."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "黑苹果的未来是虚拟化",
+          "en": "The future of Hackintosh is virtualization."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "折腾了三四年  现在也转白了  因为新硬件全不支持",
+          "en": "Tinkered for three or four years, now switched to a real Mac because the new hardware is not supported at all."
+        },
+        {
+          "zh": "不过还留了黑苹果老机器  毕竟也还能更新最新 MacOS15 系统  等待寿终正寝吧",
+          "en": "But I kept the old Hackintosh machine after all, because it can still update to the latest MacOS 15 system. Waiting for it to die of old age."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

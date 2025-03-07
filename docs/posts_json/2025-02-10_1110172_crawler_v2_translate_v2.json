@@ -1,0 +1,455 @@
+{
+  "id": 1110172,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "回家吧，不要再纠结了。",
+          "en": "Go home, don't dwell on it anymore."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在凌晨三点多，深圳城中村，睡不着。",
+          "en": "It's past 3 AM, in a Shenzhen urban village, and I can't sleep."
+        },
+        {
+          "zh": "\r\n\r\n**起**",
+          "en": "\r\n\r\n**Start**"
+        },
+        {
+          "zh": "\r\n\r\n周末经常这样，中午十二点起床煮一包速冻水饺，刷会儿 mygo 二创，然后开始刷题看教程背八股，中间每隔几个小时去群里当一会儿哔哔姬。",
+          "en": "\r\n\r\nWeekends are often like this: I wake up at noon, cook a pack of frozen dumplings, watch some MyGO fan content for a while, then start practicing coding, watching tutorials, and memorizing interview questions. In between, I spend a few hours in group chats being a keyboard warrior."
+        },
+        {
+          "zh": "都是些假努力罢了，直到现在可以说除了用 spring crud 也还是什么都不会，想操作又操作不起来，所以也没指望自己能吃得上天鹅肉就是了。",
+          "en": "It's all just fake effort. Until now, I can say that besides using Spring CRUD, I still don't know anything. I want to do things but can't, so I don't expect to be able to achieve something great."
+        },
+        {
+          "zh": "\r\n\r\n因为在深圳没啥同学，平时也害怕失业不敢花什么钱，每个月在深圳算上房租开销在 4k 出头这样，所以没有什么社交和生活质量可言的同时也存不下来什么钱。",
+          "en": "\r\n\r\nBecause I don't have many classmates in Shenzhen, and I'm usually afraid of losing my job and don't dare to spend much money, my monthly expenses in Shenzhen, including rent, are just over 4k. So I don't have much of a social life or quality of life, and I can't save any money."
+        },
+        {
+          "zh": "\r\n\r\n**承**",
+          "en": "\r\n\r\n**Development**"
+        },
+        {
+          "zh": "\r\n\r\n我是个纯粹的 spring baby 。",
+          "en": "\r\n\r\nI'm a pure Spring baby."
+        },
+        {
+          "zh": "由于学历是双非非科班外加在校期间完全没有奖项和开源项目，所以校招没找到什么好工作而且一直干到了现在，公司也一直没给涨薪过。",
+          "en": "Because my education is from a non-top, non-CS major, and I had no awards or open-source projects during school, I didn't find a good job during campus recruitment and have been working at the same company ever since. The company has never given me a raise."
+        },
+        {
+          "zh": "但是我对公司并没有任何不满，因为我当时已经没有别的 office 了，当初负责招聘的那个老哥肯捞我绝对是我的运气。",
+          "en": "But I don't have any complaints about the company, because I didn't have any other offers at the time. The guy in charge of recruitment who was willing to take me was definitely my luck."
+        },
+        {
+          "zh": "\r\n\r\n中午由于群友的话题，我去搜了一下我母校去年的分数线，计算机已经比电气低了差不多 40 分，比自动化低了 20 分。",
+          "en": "\r\n\r\nAt noon, due to a topic in a group chat, I searched for the admission scores of my alma mater last year. Computer science was almost 40 points lower than electrical engineering, and 20 points lower than automation."
+        },
+        {
+          "zh": "\r\n\r\n我在学校的时候虽然摆烂，但是也没彻底摆。",
+          "en": "\r\n\r\nAlthough I slacked off in school, I didn't completely give up."
+        },
+        {
+          "zh": "起码过了个六级，学了个 N3 ，做了一年多的外包 jvav crud 项目。",
+          "en": "At least I passed CET-6, learned N3 Japanese, and did more than a year of outsourced Java CRUD projects."
+        },
+        {
+          "zh": "\r\n\r\n计网实验课上，俺同学还都是抄俺的实验报告哩！",
+          "en": "\r\n\r\nIn computer network lab class, my classmates were all copying my lab reports!"
+        },
+        {
+          "zh": "\r\n\r\n刚毕业的时候，我的月薪确实会比大部分摆烂到四级都没过的同学高个几千，然而他们经过两年的涨薪，现在收入基本上和我持平了，而且他们基本不加班。",
+          "en": "\r\n\r\nWhen I first graduated, my monthly salary was indeed several thousand higher than most of my classmates who slacked off and didn't even pass CET-4. However, after two years of pay raises, their income is now basically on par with mine, and they basically don't work overtime."
+        },
+        {
+          "zh": "\r\n\r\n**转**",
+          "en": "\r\n\r\n**Transition**"
+        },
+        {
+          "zh": "\r\n\r\n这不是马上金三银四了，我就想着换个工作，不说多，至少涨个 15%行不嘛。",
+          "en": "\r\n\r\nIt's almost the 'Golden March Silver April' job-hopping season, so I was thinking of changing jobs. I don't need a lot, just a 15% raise, is that too much to ask?"
+        },
+        {
+          "zh": "\r\n\r\n当然我也没有忘乎所以，在 BOSS 直骗上先对月薪 10k 以下的工作进行投递，杭州、福州、厦门、深圳、东莞、广州。。。东南沿海凡是做供应链的小微企业都投。",
+          "en": "\r\n\r\nOf course, I didn't get carried away. I first applied for jobs with monthly salaries below 10k on BOSS Zhipin, in Hangzhou, Fuzhou, Xiamen, Shenzhen, Dongguan, Guangzhou... I applied to all small and micro enterprises in the southeast coastal area that do supply chain."
+        },
+        {
+          "zh": "刷个经验。",
+          "en": "Just to gain some experience."
+        },
+        {
+          "zh": "\r\n\r\n然后，没有人问我八股，没有人考我力扣，只关心我的业务经验，逮着业务方案问。",
+          "en": "\r\n\r\nThen, no one asked me about basic interview questions, no one tested me on LeetCode, they only cared about my business experience and kept asking about business solutions."
+        },
+        {
+          "zh": "这些 JD 一个看着比一个离谱，东莞尤其多，月薪 6k 要熟练全栈还没有加班费是稀疏平常。。。",
+          "en": "These job descriptions look more outrageous than the last, especially in Dongguan. It's not uncommon to see monthly salaries of 6k requiring proficiency in full-stack development without overtime pay..."
+        },
+        {
+          "zh": "\r\n\r\n没办法，谁让我是个白银，上不去下不来，卡在那儿了。",
+          "en": "\r\n\r\nThere's no way around it, I'm just a Silver-level player, can't go up and can't go down, stuck there."
+        },
+        {
+          "zh": "\r\n\r\n**结**",
+          "en": "\r\n\r\n**Conclusion**"
+        },
+        {
+          "zh": "\r\n\r\n我对象很爱我，非常希望我三月底房子到期后就回去同居。",
+          "en": "\r\n\r\nMy girlfriend loves me very much and really hopes that I will go back and live with her after my lease expires at the end of March."
+        },
+        {
+          "zh": "\r\n\r\n我一盘算，是啊，哪怕我这次在深圳跳槽成功了，真的涨薪了，按当前的基数又能涨多少？",
+          "en": "\r\n\r\nI thought about it, yeah, even if I successfully change jobs in Shenzhen this time and actually get a raise, how much can I really increase based on my current salary?"
+        },
+        {
+          "zh": "又能存下来多少？",
+          "en": "How much can I save?"
+        },
+        {
+          "zh": "整天窝在城中村吃速冻饺子到底是个什么事哦，就这么苟到 28 岁然后去送外卖？",
+          "en": "What's the point of living in an urban village and eating frozen dumplings every day, just to barely survive until I'm 28 and then deliver food?"
+        },
+        {
+          "zh": "\r\n\r\n回家吧，不要再纠结了。",
+          "en": "\r\n\r\nGo home, don't dwell on it anymore."
+        },
+        {
+          "zh": "\r\n\r\n**尾**",
+          "en": "\r\n\r\n**End**"
+        },
+        {
+          "zh": "\r\n\r\n我现在已经是个退役炫手了，你们想开嘲讽就开吧。",
+          "en": "\r\n\r\nI'm a retired show-off now, so feel free to make fun of me."
+        },
+        {
+          "zh": "我姑且也还是有自己的树洞网友的，所以并不是完全来这里诉苦。",
+          "en": "I still have my own online confidants, so I'm not completely here to complain."
+        },
+        {
+          "zh": "\r\n\r\n只是我第一份简历就是跟着 v 站老哥模板改的，也是在 v 站了解到的 spring 入门门槛最低所以大三的时候 all in 了 spring ，可以说 v 站就是我入行开始的地方。。。",
+          "en": "\r\n\r\nIt's just that my first resume was modified according to a template from a V2EX user, and I also learned from V2EX that Spring has the lowest barrier to entry, so I went all in on Spring in my junior year. It can be said that V2EX is where my career started..."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有对象等你回去同居，羡慕。如果是我，早跑了。",
+          "en": "You have a girlfriend waiting for you to go back and live together. Envy. If it were me, I would have run away long ago."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "人，就是在每一次的细微的选择当中，慢慢的走出自己的道路，最终变成现在的自己！",
+          "en": "People, through every small choice, slowly walk their own path and ultimately become who they are now!"
+        },
+        {
+          "zh": "1 、大学阶段：你：过了个六级，学了个 N3 ，做了一年多的外包 jvav crud 项目==》找高薪工作你同学：大部分摆烂到四级都没过==》比你低几千的工作2 、工作两年后你：除了用 spring crud 也还是什么都不会，没给涨薪过你同学：经过两年的涨薪，现在收入基本上和我持平了，而且他们基本不加班论点：1 、为什么他们涨薪了？",
+          "en": "1. University Stage: You: Passed CET-6, learned N3, did more than a year of outsourced Java CRUD projects ==> Found a high-paying job. Your classmates: Most slacked off and didn't even pass CET-4 ==> Job with a few thousand less. 2. Two years after working: You: Still only know how to use Spring CRUD, haven't gotten a raise. Your classmates: After two years of raises, their income is now basically on par with yours, and they basically don't work overtime. Argument: 1. Why did they get raises?"
+        },
+        {
+          "zh": "推测原因：1 、他们公司选的好，公司发展了2 、他们工作也比较努力，突破了 spring baby ，成了 spring boy3 、纯粹运气好你的结论：1 、上不上，下不下，不如归去我的看法：（视角：大家都是普通人，没背景、没资本、平凡家庭）1 、毕业头三年甚至五年，别想着攒钱，攒不了多少，因为起点基数太低。",
+          "en": "Possible reasons: 1. They chose a good company, the company developed. 2. They worked harder and broke through being a 'Spring baby' and became a 'Spring boy'. 3. Purely good luck. Your conclusion: 1. Can't go up, can't go down, might as well go home. My opinion: (Perspective: Everyone is an ordinary person, no background, no capital, ordinary family) 1. In the first three to five years after graduation, don't think about saving money. You won't save much because the starting base is too low."
+        },
+        {
+          "zh": "基数低，环境好运气好跳槽翻倍，但翻倍又如何？",
+          "en": "Low base, even if environment is good and you get lucky to double salary by changing job, so what?"
+        },
+        {
+          "zh": "2 、普通人至少工作 30 年，3 年相较于 30 年，不过是筑基而已，不要焦虑，路很长3 、钱怎么来，只能靠自己的能力，能力创造价值4 、能力怎么来，书本、教程中来，尤其是在工作中刻意磨练5 、大城市，工作机会无论如何都比小地方多，而且相对公平6 、螺丝钉打工人的天花板在哪里？",
+          "en": "2. Ordinary people will work for at least 30 years. 3 years compared to 30 years is just laying the foundation, don't be anxious, the road is long. 3. How does money come? Only through your own ability, ability creates value. 4. How does ability come? From books, tutorials, especially through deliberate practice at work. 5. Big cities have more job opportunities than small places, and they are relatively fair. 6. Where is the ceiling for a screw-driver worker?"
+        },
+        {
+          "zh": "取决于你的人生观念。",
+          "en": "It depends on your life philosophy."
+        },
+        {
+          "zh": "比如说，深圳月薪 5W ，你承受的巨大压力和你付出的生活/健康代价就达到临界点。",
+          "en": "For example, in Shenzhen, a monthly salary of 50k, the immense pressure and the life/health costs you bear reach a critical point."
+        },
+        {
+          "zh": "说的难听点，过了临界点可能就是拿命换钱。",
+          "en": "To put it bluntly, beyond the critical point, you may be trading your life for money."
+        },
+        {
+          "zh": "你想享受生活，到那个时候你再离开也不迟7 、就算你认为入错行，大城市的行业更多更发达，选择更多。",
+          "en": "If you want to enjoy life, it's not too late to leave then. 7. Even if you think you've chosen the wrong industry, big cities have more industries and are more developed, with more choices."
+        },
+        {
+          "zh": "所谓浪费 3 年，换一个自己喜欢的行业，也不算什么浪费8 、爱情，要有物质作为基础，否则很难经受考验9 、无论能否留在大城市，能否达到月薪 5W 甚至更高，只要你的视野开拓了、认知提升了，形成自己的能力，带着能力回到家乡，你也是有一定竞争力的人我总结过一句话——车子可以折旧报废，房子可以地震被毁，一切身外之物都可以因为各种原因被剥夺，唯有一个人的意志和能力不会轻易被拿走。",
+          "en": "The so-called waste of 3 years to switch to an industry you like is not a waste. 8. Love needs a material foundation, otherwise it is difficult to withstand the test. 9. Whether you can stay in a big city and reach a monthly salary of 50k or even higher, as long as your horizons have been broadened, your understanding has been improved, and you have developed your own abilities, you will still be competitive when you return to your hometown with your abilities. I once summarized it in a sentence - cars can be depreciated and scrapped, houses can be destroyed by earthquakes, and all external things can be deprived for various reasons, only a person's will and ability will not be easily taken away."
+        },
+        {
+          "zh": "所以投资自己，是一件永远值得做的事情，直到生命终结。",
+          "en": "So investing in yourself is always worth doing until the end of life."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "op：我从来没有觉得写代码开心过",
+          "en": "OP: I have never felt happy writing code"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "又 go 又 vtb 但仍然有对象，其实已经超过超级多人了（不是",
+          "en": "Using Go and watching VTubers, but still having a girlfriend, you've actually surpassed a lot of people (not joking)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有妇如此，夫复何求",
+          "en": "With such a wife, what more could a husband ask for?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看 OP 写的帖子真舒服，比一些“大佬”引战贴不知道高到哪里去了",
+          "en": "Seeing the OP's post is so comfortable, it's much better than some of the 'big shot' flame-baiting posts"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看到你这段话：每个月在深圳算上房租开销在 4k 出头这样，所以没有什么社交和生活质量可言的同时也存不下来什么钱。我就觉得没必要了回去吧深圳这边呆着的都是攒钱狂魔，你呆着攒不下钱，不如别呆了",
+          "en": "Seeing your statement: 'My monthly expenses in Shenzhen, including rent, are just over 4k, so I don't have much of a social life or quality of life, and I can't save any money.' I think it's unnecessary to stay. Everyone who stays in Shenzhen is a money-saving maniac. If you can't save money, you might as well not stay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kandaakihito 我那些彻底摆烂的同学没有一个是 spring baby ，去干啥的都有。",
+          "en": "@kandaakihito None of my classmates who completely slacked off are Spring Babies, they all do different things."
+        },
+        {
+          "zh": "==》外部因素：每一个行业，都有自己的周期（信息产业也许目前是低谷，而衣食住行，社会刚需），也有自己的天花板，大部分都是金字塔结构——拿到顶级收入的是极少数，大部分人在底层。",
+          "en": "==> External factors: Every industry has its own cycle (the information industry may currently be in a trough, while food, clothing, housing, and transportation are social necessities), and its own ceiling. Most are pyramid structures - only a few people get top incomes, and most are at the bottom."
+        },
+        {
+          "zh": "但是，非要选择，建议选择朝阳行业，而不是夕阳行业，这个金字塔就不会过于极端（极端情况：底部占 90%，顶部占 1%，腰部没有或极少）内部因素：主动选择——自己喜欢的行业（前景），自己喜欢的岗位（事情本身），自己喜欢的公司（上司好，或者公司文化好） [观点] ：不同行业，不同地域，不同行业周期，不同人，其实比较的意义不大。",
+          "en": "However, if you have to choose, it is recommended to choose a sunrise industry rather than a sunset industry. The pyramid won't be too extreme in this case (extreme case: the bottom accounts for 90%, the top accounts for 1%, and the waist is non-existent or very small). Internal factors: actively choose - an industry you like (prospects), a position you like (the job itself), a company you like (good boss or good company culture) [Opinion]: Different industries, different regions, different industry cycles, and different people, there is actually little meaning in comparing."
+        },
+        {
+          "zh": "回到自己本身，问自己，到底看好什么，喜欢什么，能做什么，为了什么可以长期坚持而不后悔……只是现在感觉再不回去感情都要淡了==》好好准备，认真谈一次。",
+          "en": "Go back to yourself, ask yourself, what are you optimistic about, what do you like, what can you do, and what can you stick to for a long time without regret… I just feel like if I don't go back now, the relationship will fade ==> Prepare well and talk seriously."
+        },
+        {
+          "zh": "定一个时间目标，要么她来深圳，要么你回家乡。",
+          "en": "Set a time goal, either she comes to Shenzhen, or you go back to your hometown."
+        },
+        {
+          "zh": "她来深圳，会得到什么，失去什么；你回家乡，会得到什么，失去什么。",
+          "en": "If she comes to Shenzhen, what will she gain and what will she lose? If you go back to your hometown, what will you gain and what will you lose?"
+        },
+        {
+          "zh": "没有十全十美的事情，未来，需要两个人共同谋划，共同承担。",
+          "en": "There is no perfect thing, in the future, the two of you need to plan together and take responsibility together."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然还是觉得大城市机会多吧，但是自己快乐也很重要。",
+          "en": "Although I still think there are more opportunities in big cities, being happy is also very important."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很触动 我比楼主条件还差点  带专生我对象在成都等我 我一直在想苟在上海是不是在躲结婚的责任上海留不下 成都回去肯定是地狱难度 我不知道我在等什么 在上海一年存个 5-6w 到头了 很迷惘",
+          "en": "Very touching. My conditions are even worse than the original poster's. I'm a vocational college graduate and my girlfriend is waiting for me in Chengdu. I keep thinking, am I just hiding from the responsibility of getting married by living in Shanghai? I can't stay in Shanghai, and going back to Chengdu will definitely be hell difficulty. I don't know what I'm waiting for. I can only save 50-60k a year in Shanghai. I'm very confused."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "本来想不建议你回去的，但是考虑到你对象的关系，确实有点麻烦。大城市始终不是归宿，早晚也要回去的。祝你好运！",
+          "en": "I originally didn't want to advise you to go back, but considering your relationship with your girlfriend, it's indeed a bit troublesome. Big cities are never a final destination; you'll have to go back sooner or later. Good luck!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kandaakihito !op 是要撅我吗哈哈",
+          "en": "@kandaakihito !op are you trying to tease me haha"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Chihaya0824 #36 你是粉色奶龙的亲戚？",
+          "en": "@Chihaya0824 #36 Are you related to the pink milk dragon?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "出来看过了，回家其实挺好的，小日子也有小幸福。",
+          "en": "After coming out and seeing the world, going home is actually pretty good, small life with small happiness."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "唉，这就是大部分人的现实了，能到大厂的凤毛麟角其实说起生活质量，小地方绝对比大城市好不止一点半点。回去唯一要考虑的就是：能搞到一份工作。小地方找个好工作更加难一些",
+          "en": "Alas, this is the reality for most people. It's rare to get into a big company. Speaking of quality of life, small places are definitely better than big cities by more than just a little bit. The only thing to consider when going back is: can you get a job? It's harder to find a good job in small places."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "住城中村吃速冻饺子还能干到 4k 的开销吗，我租公司附近小区天天外卖才勉强干到 4k 开销呢。",
+          "en": "Living in an urban village and eating frozen dumplings can still cost 4k? I rent an apartment near the company and order takeout every day and barely manage to spend 4k."
+        },
+        {
+          "zh": "整体不上不下，同病相怜，但我硬条件更差，被当做打杂的做的没什么门槛的工作，出去又不敢出去，外面一堆高学历大学生便宜好用，学历要求也抬高了，我现在这个岗位，按我的学历投简历是会直接被剔除掉的。",
+          "en": "Overall, I'm stuck in the middle, in the same boat as you, but my hard conditions are worse. I'm being treated like an errand boy doing jobs with no threshold. I don't dare to leave. There are a bunch of cheap and easy-to-use highly educated college students outside. The educational requirements have also been raised, and for my current position, my resume would be directly rejected based on my education."
+        },
+        {
+          "zh": "真是唏嘘，大城市真是端盘子都要本科生了。",
+          "en": "It's really sad, in big cities even serving dishes requires a bachelor's degree."
+        },
+        {
+          "zh": "op 老家福州是省会城市，其实不差还有退路可退，省会应该能找到个像样点的工作。",
+          "en": "OP's hometown, Fuzhou, is the capital city of the province, so it's not bad and there is a way out. You should be able to find a decent job in the capital city."
+        },
+        {
+          "zh": "如果像我一样老家小县城，没钱没背景回去就是在作死，因为想要好点的工作都是要走关系的，不然就只有 2 、3 千的打杂、4 、5 千的黑作坊化工厂或者摆摊创业这些选择，所以对我来说回去就是死路一条，家里没钱只能在大城市卷，在有限的时间里多攒点钱，先攒出自己和家里人的棺材本来，以后的事以后再说。",
+          "en": "If I were like you and my hometown was a small county, going back without money or connections would be suicide, because if you want a good job, you have to rely on connections. Otherwise, you'll only have the choice of 2,000-3,000 for odd jobs, 4,000-5,000 for shady workshops or chemical factories, or starting a stall. So for me, going back is a dead end. If my family doesn't have money, I can only grind in big cities, save as much money as possible in the limited time, first save up enough for the coffins of myself and my family, and then talk about what happens after that."
+        },
+        {
+          "zh": "小公司的岗位要求你上手就能干活，而且最好什么都能干，所以确实会更看重业务经验的匹配度，越匹配上手越快，八股这些面试官自己都不熟不精通呢所以不怎么问，但反过来说意味着更好忽悠，就看你能不能厚脸皮自吹把老板和面试的忽悠住。",
+          "en": "Small companies require you to be able to start working immediately, and it's best if you can do everything. So they really value the matching of business experience. The more matched, the faster you can get started. Interviewers themselves are not familiar with the basic interview questions, so they don't ask them much. But on the other hand, it means it is easier to fool them, it just depends on whether you can shamelessly brag and fool the boss and the interviewer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看塔菲看的",
+          "en": "Watching Taffy"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@feiyekong 不行的，起码得 N1 还得能非常流畅和日本人对话，我有个 N2 面了两家日企都是这要求",
+          "en": "@feiyekong No, you need at least N1 and be able to converse with Japanese people very fluently. I have N2 and I interviewed at two Japanese companies and they both had this requirement."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你现在只是在某个境遇里卡住了，回去了未必就会更好，你和她的关系未必就会变得更好，但是可以确定的是你的薪资肯定不会那么高，上限肯定很低，而且工作机会肯定要少很多，哪怕是换行业，其他行业机会和薪资和深圳肯定也是比不了的，从长远来看，让她过来找工作，你们在深圳同居，一起把自己的工作和生活搞好似乎更合适，可以好好想一想，权衡利弊再做打算",
+          "en": "You're just stuck in a certain situation right now. Going back may not be better, your relationship with her may not necessarily get better, but what's certain is that your salary definitely won't be as high, the ceiling will definitely be low, and there will definitely be fewer job opportunities. Even if you change industries, the opportunities and salaries in other industries definitely can't compare to Shenzhen. From a long-term perspective, it seems more appropriate to have her come over to find a job, you live together in Shenzhen, and work together to improve your work and life. You can think about it carefully, weigh the pros and cons before making a decision."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "说句令你诧异的话。我德国朋友娶了中国老婆说要逃离福利满满的德国来中国生活定居。",
+          "en": "Let me tell you something surprising. My German friend married a Chinese wife and said he wanted to escape the welfare-filled Germany to live and settle in China."
+        },
+        {
+          "zh": "德国公司有配车一辆 model Y ，每年只需要交 50 欧元（租赁费）等于白送福利。",
+          "en": "The German company provides a Model Y company car, and you only need to pay 50 euros (leasing fee) per year, which is equivalent to a free benefit."
+        },
+        {
+          "zh": "职位是高级工程师/化学家/管理层。",
+          "en": "The position is Senior Engineer/Chemist/Management."
+        },
+        {
+          "zh": "这要是来中国我都不知道他怎么找工作，也许只有做生意了，或是外派。",
+          "en": "If he came to China, I don't know how he would find a job, maybe he would only start a business or get an expat assignment."
+        },
+        {
+          "zh": "现在大陆通货膨胀，然后经济比以往低迷，昨天又收到中国朋友说被裁员了很卷，春节在家。",
+          "en": "Now there is inflation in mainland China, and the economy is more sluggish than before. Yesterday, I received news from a Chinese friend that he was laid off because the competition was too fierce and they were at home during the Spring Festival."
+        },
+        {
+          "zh": "他运气好点之前进了大厂攒了点，但是房贷没还完失业了，在杭州高位买的房，压力空前大。",
+          "en": "He was lucky enough to enter a large factory before and saved some money, but he lost his job before the mortgage was paid off. He bought a house in Hangzhou at a high price, and the pressure is unprecedented."
+        },
+        {
+          "zh": "或许折中一点退居二三线是个选择。",
+          "en": "Perhaps it's a choice to compromise and retreat to second- or third-tier cities."
+        },
+        {
+          "zh": "但是问题来了，如果观念是一定要在大城市实现心中想法，这就很难。",
+          "en": "But the problem is, if the idea is that you must realize your dreams in a big city, it will be difficult."
+        },
+        {
+          "zh": "其实农村包围城市的战屡方针是比较可以的。",
+          "en": "Actually, the strategy of encircling the cities from the countryside is more viable."
+        },
+        {
+          "zh": "小地方成本低，高端资源少，竞争低，容易起步。",
+          "en": "Small places have low costs, few high-end resources, low competition, and it's easier to get started."
+        },
+        {
+          "zh": "大地方成本高，高端资源多，竞争激烈，起跑线成本高。",
+          "en": "Big places have high costs, lots of high-end resources, intense competition, and high starting line costs."
+        },
+        {
+          "zh": "如果结婚以后可以一起努力相互扶持会很好。",
+          "en": "It would be great if you could work together and support each other after marriage."
+        },
+        {
+          "zh": "现在国内结婚、买车、买房、养孩子还有各项开支都比以往高很多。",
+          "en": "Now in China, getting married, buying a car, buying a house, raising children, and all kinds of expenses are much higher than before."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

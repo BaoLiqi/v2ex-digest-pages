@@ -1,0 +1,231 @@
+{
+  "id": 1113424,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "7999 的 MacBook air m3 13 寸 512+24 值得买吗",
+          "en": "Is the 7999 MacBook Air M3 13-inch 512+24 worth buying?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如题",
+          "en": "As the title says."
+        },
+        {
+          "zh": "\n\n\n\n京东国补 7999 的 MacBook air m3 13 寸 512+24 值得买吗",
+          "en": "Is the Jingdong subsidy price of 7999 for the MacBook Air M3 13-inch 512+24 worth buying?"
+        },
+        {
+          "zh": "\n\n\n\n目前还在用 MacBook pro 2018 15 寸 512+16 。",
+          "en": "I'm currently still using a MacBook Pro 2018 15-inch 512+16."
+        },
+        {
+          "zh": "\n\n\n\n出门旅游会拍照用一下 lr ，感觉带一个 air 会比较轻便。一般情况下只处理照片，不剪辑视频。",
+          "en": "When traveling, I use LR to edit photos. I feel like bringing an Air would be lighter. I generally only process photos and don't edit videos."
+        },
+        {
+          "zh": "\n\n现有的 mbp 用 lr 其实偶尔会有点卡顿，风扇呼呼响。",
+          "en": "The existing MBP sometimes lags a bit when using LR, and the fan makes a whirring sound."
+        },
+        {
+          "zh": "\n\n\n\n平时可能会本地部署个模型，qwen 之类的，辅助写写代码。可能还会跑个本地 k8s 集群玩一下玩具项目。",
+          "en": "I might deploy a model locally, like Qwen, to help with coding. I might also run a local K8s cluster to play with toy projects."
+        },
+        {
+          "zh": "\n\n现有的 mbp 跑个 k8s 挺吃力的，不过感觉主要是 docker 的锅。部模型就更呛了",
+          "en": "The existing MBP struggles to run K8s, but I feel the main issue is Docker. Running a local model is even more challenging."
+        },
+        {
+          "zh": "\n\n\n\n不知道 m3 air 性能够不够用。我应该再继续蹲 m4 air 吗",
+          "en": "I'm not sure if the M3 Air has enough performance. Should I wait for the M4 Air?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@boubuo 保修在授权和直营都可以呀",
+          "en": "@boubuo The warranty is valid at both authorized and direct stores."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没赶上好时候，我同配置 15 寸的，1w2 买的",
+          "en": "I missed the good timing. I bought the same configuration 15-inch for 12,000."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你去线下的授权店，能用国补的，大概率会比这个还便宜。",
+          "en": "If you go to an offline authorized store, you can use the national subsidy, which will likely be cheaper than this."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这一款是 7199 ，为什么要花 7999",
+          "en": "This one is 7199, why spend 7999?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "线下渠道 7199 ，建议问下线下授权店",
+          "en": "Offline channels offer it for 7199. I suggest checking with an offline authorized store."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "等 m4",
+          "en": "Wait for M4."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@longzhou6431 是说线下 Apple 授权店 不是直营店吗",
+          "en": "@longzhou6431 Are you referring to offline Apple authorized stores, not direct stores?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "娘的，去年 10 月份在越南买的 16+256 ，还花了 9000 出头",
+          "en": "Damn, I bought a 16+256 in Vietnam last October and still spent over 9000."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@willygeek007 从来没在授权店买过。保修是不是也可以去 Apple 直营店的呢？",
+          "en": "@willygeek007 I've never bought from an authorized store. Can I still get the warranty service at an Apple direct store?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也在观望中，还是等等 M4 ，万一有惊喜",
+          "en": "I'm also waiting and seeing. I'll wait for the M4 in case there's a surprise."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "多花了 800 块钱，不值得",
+          "en": "It's not worth spending an extra 800 yuan."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "jd 线下 7199",
+          "en": "JD offline is 7199."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在这个配置都 7199  不要花冤枉钱",
+          "en": "This configuration is now 7199. Don't waste your money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我买了 128 的配合 nas 美滋滋",
+          "en": "I bought the 128GB version and it works great with a NAS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "广州 7199 问了好几家都说活动没了  不知道周边还有没有",
+          "en": "I asked several stores in Guangzhou about the 7199 price, and they all said the promotion is over. I don't know if there are any around."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不值得，因为那些需求都不是刚需，要是忍不了就早换了，再等等吧。",
+          "en": "It's not worth it because those needs aren't essential. If you couldn't stand it, you would have replaced it long ago. Wait a bit longer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不值得最近买的一台 mac air m3 24g+512 7199线下京东 mall  用云闪付国补",
+          "en": "Not worth it. I recently bought a Mac Air M3 24G+512 for 7199 at an offline JD Mall using UnionPay's national subsidy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "深圳线下叠加店家优惠 还能减 200",
+          "en": "In Shenzhen, you can get an additional 200 discount with store promotions offline."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "7199 这价格，想把 m1p32g 换了😂",
+          "en": "At this price of 7199, I want to replace my M1P 32G.😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@tanranran #16 那是买的早，现在深圳基本买不到",
+          "en": "@tanranran #16 That's because you bought it early. It's basically impossible to buy it in Shenzhen now."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

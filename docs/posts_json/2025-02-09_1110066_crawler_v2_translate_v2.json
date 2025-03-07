@@ -1,0 +1,251 @@
+{
+  "id": 1110066,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Java 为什么能给 char 类型赋值中文字符",
+          "en": "Why can Java assign Chinese characters to the char type?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "java 文档里有写 一个 char 由两个自己组成 但一个 utf8 汉字由三个字节组成",
+          "en": "The Java documentation states that a char consists of two bytes, but a UTF-8 Chinese character consists of three bytes."
+        },
+        {
+          "zh": "为什么这样赋值没事？",
+          "en": "Why is it okay to assign it like this?"
+        },
+        {
+          "zh": "char a = '我';",
+          "en": "char a = '我';"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@theoriz 哥们你魔怔了吧，人家是把 ai 的提炼了一遍，一眼就能看清说啥，而不是 ai 的长篇大论，你这也举报？",
+          "en": "@theoriz Dude, are you crazy? He refined the AI's response so you can see what he's saying at a glance, instead of the AI's lengthy discourse. And you're reporting this?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@theoriz 有文革那味了 人人自危",
+          "en": "@theoriz That has the flavor of the Cultural Revolution. Everyone is in danger."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@theoriz 你怕是有什么大病吧?",
+          "en": "@theoriz Are you seriously ill?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那你看看这个中文汉字 '𠮷' 还能赋值么",
+          "en": "Then see if you can assign this Chinese character '𠮷'"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "总之就是，Java 语言用两个字节存储一个 char ，而一个汉字在 UTF-8 编码后有三个字节长，但是它仍然是一个 char ，在 Java 语言中占用两个字节；一个英文字母在 UTF-8 编码后是一个字节长，但它也是一个 char ，在 Java 语言中占用两个字节。",
+          "en": "In short, the Java language uses two bytes to store a char, and a Chinese character is three bytes long after UTF-8 encoding, but it is still a char and occupies two bytes in the Java language; an English letter is one byte long after UTF-8 encoding, but it is also a char and occupies two bytes in the Java language."
+        },
+        {
+          "zh": "有没搞混无所谓了，你自己判断就好。",
+          "en": "It doesn't matter if you're confused; just judge for yourself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Java 的 char 存储的是 UTF-16 的一个 code unit ，一个不在 BMP 的 code point 在 UTF-16 里是两个 code unit ，所以你没法把这部分字符塞进一个 char 。",
+          "en": "Java's char stores a code unit of UTF-16. A code point not in the BMP is two code units in UTF-16, so you can't stuff that character into a char."
+        },
+        {
+          "zh": "但是常用汉字都在这个范围。",
+          "en": "But commonly used Chinese characters are within this range."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你把语言里类型的字长跟存储时编码的存储方案搞混了。",
+          "en": "You've confused the length of a type in the language with the storage scheme of the encoding."
+        },
+        {
+          "zh": "在 Java 语言里，你把一个中文的字符串取一下长度看是不是 1 ，跟 char 能不能对上，结论就出来了。",
+          "en": "In the Java language, take the length of a Chinese string to see if it is 1, and compare it with char. The conclusion will come out."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "补充: char 类型不是采用 utf16 编码规则，而是描述了 UTF-16 编码中的一个代码单元",
+          "en": "Supplement: The char type does not use the UTF16 encoding rule, but describes a code unit in UTF-16 encoding."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这种涉及具体设计的东西，为什么不直接看文档呢： https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/lang/Character.html#unicode",
+          "en": "For things involving specific design, why not directly look at the documentation: https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/lang/Character.html#unicode"
+        },
+        {
+          "zh": "太长不看：char 数据类型基于 Unicode 规范，该规范将字符（ characters ）定义为固定宽度的 16 位实体。",
+          "en": "Too long; didn't read: The char data type is based on the Unicode specification, which defines characters as fixed-width 16-bit entities."
+        },
+        {
+          "zh": "从 U+0000 到 U+FFFF 的字符集有时被称为基本多语言平面 (Basic Multilingual Plane ，BMP)。",
+          "en": "The character set from U+0000 to U+FFFF is sometimes called the Basic Multilingual Plane (BMP)."
+        },
+        {
+          "zh": "码位大于 U+FFFF 的字符称为补充字符（ supplementary characters ）。",
+          "en": "Characters with code points greater than U+FFFF are called supplementary characters."
+        },
+        {
+          "zh": "UTF-16 编码这些补充字符的方式是，利用一对 16 位整数（称为「代用码位」）， 第一个来自高代用值范围（\\uD800-\\uDBFF ），第二个来自低代用值范围（\\uDC00-\\uDFFF ）。",
+          "en": "UTF-16 encodes these supplementary characters by using a pair of 16-bit integers (called surrogate code points), the first from the high surrogate range (\\uD800-\\uDBFF) and the second from the low surrogate range (\\uDC00-\\uDFFF)."
+        },
+        {
+          "zh": "因此，一个 char 值代表基本多语言平面中的一个码位，包括 UTF-16 编码使用的代用码位。",
+          "en": "Therefore, a char value represents a code point in the Basic Multilingual Plane, including the surrogate code points used by UTF-16 encoding."
+        },
+        {
+          "zh": "为了表示那些在 UTF-16 中需要多码位编码的补充字符们（如部分汉字、符号等），将用 int 类型来代表一个完整 Unicode 码位。",
+          "en": "To represent those supplementary characters that require multi-code point encoding in UTF-16 (such as some Chinese characters, symbols, etc.), the int type will be used to represent a complete Unicode code point."
+        },
+        {
+          "zh": "因此，那些接受 char 类型的字符串工具函数，将无法处理补充字符；而接受 int 类型的那些，就可以处理所有字符。",
+          "en": "Therefore, string utility functions that accept char types will not be able to handle supplementary characters; while those that accept int types can handle all characters."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@w568w https://openjdk.org/jeps/254",
+          "en": "@w568w https://openjdk.org/jeps/254"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "OP 38# 编译器干的不就是这个，读取原始文件，然后进行语法识别和语义识别，判断到给本地变量 a 设置 char ，那就把等号后边的字符（以单引号包住的，前一步语法分析没有问题的）按照文件存储编码或者-encoding 选项进行识别，按数字处理，并根据不同的数字范围来使用不同的指令集，iconst_x bipush sipush ldc 等",
+          "en": "OP 38# Isn't this exactly what the compiler does? It reads the original file and then performs syntax and semantic recognition. When it determines that the local variable 'a' is being set to char, it identifies the character after the equals sign (enclosed in single quotes, and for which the previous syntax analysis has no problems) according to the file storage encoding or the -encoding option, processes it numerically, and uses different instruction sets according to different number ranges, such as iconst_x bipush sipush ldc, etc."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "问了一下 deepseek ，它说：UTF-8 编码的汉字在 Java 中会自动转换为 UTF-16 编码，因此赋值时不会出现问题。",
+          "en": "I asked Deepseek, and it said: UTF-8 encoded Chinese characters are automatically converted to UTF-16 encoding in Java, so there is no problem with assignment."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Livid #1 AI",
+          "en": "@Livid #1 AI"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "char 是 utf-16 编码",
+          "en": "char is utf-16 encoded"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "魔怔",
+          "en": "Obsessed"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@soulflysimple123 输入法输入的汉字是三个字节 编译器自动把汉字转成 utf16 进行存储了",
+          "en": "@soulflysimple123 The Chinese characters entered by the input method are three bytes. The compiler automatically converts the Chinese characters into UTF16 for storage."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个 char 不够那就两个啊，code point 是 int 类型，超出 BMP 的字符不能用单个 char 表示，要用两个 char 组合",
+          "en": "If one char isn't enough, then use two! Code point is an int type. Characters outside the BMP cannot be represented by a single char; you need to combine two chars."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "神奇的是 把变量用 FileWriter.write 方法 写入到文件 还是 3 个字节",
+          "en": "What's amazing is that when writing the variable to a file using the FileWriter.write method, it's still 3 bytes."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhouyin 可能因为默认编码 utf-8",
+          "en": "@zhouyin Maybe because the default encoding is utf-8"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhouyin FileWriter 默认 iso-8859-1 编码 单字节",
+          "en": "@zhouyin FileWriter defaults to iso-8859-1 encoding, single byte"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

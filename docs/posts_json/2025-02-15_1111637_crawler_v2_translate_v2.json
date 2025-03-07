@@ -1,0 +1,239 @@
+{
+  "id": 1111637,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "好想搞 Acer 那台骁龙 X Elite 笔记本，纠结中",
+          "en": "Really want to get that Acer Snapdragon X Elite laptop, but I'm hesitating."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最近看到 PDD 优惠补贴，这机器 32G+1T 只要 4999 ，其它平台还要 6xxx 。",
+          "en": "Recently saw a subsidy on PDD, this machine with 32G+1T is only 4999, while other platforms are still asking for 6xxx."
+        },
+        {
+          "zh": "\r\n\r\n但是嘛，就算 4999 其实性价比也不高，同样 4xxx 甚至 3xxx 就能买到性能（不考虑转译问题）差不多的 8845HS ，酷睿 Ultra 的本子。",
+          "en": "However, even at 4999, the price-performance ratio isn't great. You can get an 8845HS or a Core Ultra laptop with similar performance (not considering translation issues) for the same 4xxx or even 3xxx."
+        },
+        {
+          "zh": "（看了些评测，这本子这 U 的原生 ARM 性能和 8845HS 差不多，Cinebench2024 和 Geekbench6 ，转译 x64 大概会损耗 20%性能，转译 32 位 x86 惨不忍睹，大概相当于十多年前酷睿 2 的性能，好像说是因为 x87 浮点指令集是靠软件模拟的）",
+          "en": "(Saw some reviews, the native ARM performance of this laptop's U is similar to the 8845HS in Cinebench2024 and Geekbench6. Translating x64 might lose 20% performance, and translating 32-bit x86 is awful, roughly equivalent to the performance of a Core 2 from over a decade ago. It seems the x87 floating-point instruction set is simulated by software.)"
+        },
+        {
+          "zh": "\r\n\r\n而且 Acer 这台骁龙 ARM 的看评测续航也一般般，一个是电池容量小（只有 50Wh ），另一个其实 X Elite 这 U 也并不是这么的省电。",
+          "en": "Moreover, according to reviews, the battery life of this Acer Snapdragon ARM is also just average. One reason is the small battery capacity (only 50Wh), and another is that the X Elite U isn't that power-efficient."
+        },
+        {
+          "zh": "但是其它 4xxx 甚至 3xxx 的 x86 本子都能做到 80Wh+的电池，看了一些评测，续航甚至比这个 X Elite 的 ARM 本子还好。",
+          "en": "But other 4xxx or even 3xxx x86 laptops can achieve 80Wh+ batteries, and some reviews show that battery life is even better than this X Elite ARM laptop."
+        },
+        {
+          "zh": "\r\n\r\n搞来我其实不怎么考虑 ARM 兼容性和转译问题，因为就是想搞个 ARM 本子玩玩，想看看现在 Windows ARM 体验如何，生态如何，以及也许可以玩下 ARM Linux （虽然但是现在好像 Linux 支持还不好，高通还没有放出这个平台的很多 Linux 驱动），而且这颗 U 的绝对性能也不差，而且我也有 x86 的主力机，如果遇到不兼容的还可以放我的 x86 主力机跑。",
+          "en": "I actually don't really consider ARM compatibility and translation issues, because I just want to get an ARM laptop to play with, to see what the Windows ARM experience and ecosystem are like now, and maybe play with ARM Linux (although it seems that Linux support is not good now, and Qualcomm has not released many Linux drivers for this platform). Also, the absolute performance of this U is not bad, and I also have an x86 main machine, so if I encounter incompatibility, I can run it on my x86 main machine."
+        },
+        {
+          "zh": "\r\n\r\n我的主力机现在还是 7300HQ ，到了 2025 年确实有点力不从心了，经常 CPU100%，干啥都会慢这么一两拍，这也是我想搞台新本子的原因之一，但是也还算勉强够用，如果不考虑搞这个 ARM 本玩玩，我觉得我的主力机还能再战几年，暂时不考虑其它 x86 本。",
+          "en": "My main machine is still a 7300HQ, and it is indeed a bit weak in 2025. The CPU is often at 100%, and everything is a bit slow. This is one of the reasons why I want to get a new laptop, but it is still barely enough. If I don't consider playing with this ARM laptop, I think my main machine can last a few more years, and I won't consider other x86 laptops for the time being."
+        },
+        {
+          "zh": "\r\n\r\n但是嘛又感觉这钱花得好不值，从性价比角度考虑，哪怕补贴完 4999 买到一个不管是性能还是兼容性甚至续航都不如同价位甚至更低的 x86 本，总感觉自己像个大冤种，有种像花高价买华为 Mate70 结果性能只相当于几年前的骁龙 888 的感觉。",
+          "en": "But I also feel that the money is not well spent. From a price-performance perspective, even after subsidizing 4999 to buy an x86 laptop that is inferior to x86 laptops at the same price or even lower in terms of performance, compatibility, and even battery life, I always feel like a sucker, like spending a high price to buy a Huawei Mate70 with performance equivalent to a Snapdragon 888 from a few years ago."
+        },
+        {
+          "zh": "\r\n\r\n对了，现在 ARM Windows 是不是还没有除了自带的 Hyper-V 之外的第三方虚拟化软件（ VMware/Virtualbox ），不知道 Hyper-V 兼容性如何（尤其是在里面跑 ARM Linux ，比如有没有 GPU 加速这些），以及有没有什么好的模拟跑 X86 系统的方案，不知道 QEMU 能不能 GPU 加速。",
+          "en": "By the way, does ARM Windows currently have any third-party virtualization software (VMware/Virtualbox) besides the built-in Hyper-V? I don't know how Hyper-V compatibility is (especially when running ARM Linux in it, such as whether there is GPU acceleration), and whether there are any good solutions for emulating X86 systems. I don't know if QEMU can GPU accelerate."
+        },
+        {
+          "zh": "（ macOS 的 UTM 就很好，能 ARM 虚拟化 ARM 也能模拟 x86 ，都能 GPU 加速，而且 VMware/ParallelDesktop 跑 ARM 虚拟机兼容性和性能都很好，这也是 ARM Win 的一个短板）",
+          "en": "(UTM on macOS is very good. It can virtualize ARM to ARM and also emulate x86, and both can be GPU accelerated. Moreover, VMware/ParallelDesktop run ARM virtual machines with good compatibility and performance, which is a shortcoming of ARM Win)"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当你因为价格贵纠结买不买的时候，买！当你因为用不得上纠结买不买时候，不买！肯定不用上",
+          "en": "When you're hesitating to buy something because it's expensive, buy it! When you're hesitating to buy something because you won't use it, don't buy it! You definitely won't need it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别纠结了，搞吧。纠结徒耗精力，最后还是得买。到时候出二手折价几百块就当买个情绪价值心理治疗了",
+          "en": "Stop hesitating, just get it. Hesitating is a waste of energy, and you'll end up buying it anyway. When you sell it used, the few hundred yuan loss can be considered the cost of emotional value and psychological therapy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "纯纯智商税  X Elite 转译完的性能也就比 7300 强一点把",
+          "en": "Pure IQ tax. The performance of the X Elite after translation is only slightly better than the 7300."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "高通都不准备做下去的玩意你搜下新闻 高通突然取消 Snapdragon X Elite 开发套件，终止销售和支持反正要玩 arm ，windows 不是一个好的选择隔壁苹果和 linux ，才是好的选择",
+          "en": "Qualcomm isn't even planning to continue with it. Search the news. Qualcomm suddenly canceled the Snapdragon X Elite development kit and ended sales and support. Anyway, if you want to play with ARM, Windows is not a good choice. Apple and Linux are better choices."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "玩 arm, 果子的笔记本不是最好的么?",
+          "en": "For playing with ARM, isn't Apple's laptop the best?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "X Elite 这个玩意已经被高通放弃了，别买了… windows arm 就是灾难，Linux 也没必要啊…如果真的要跑 arm ，就买 Mac真要 x86 的话晚点降价之后买个 lunar lake 的体验会好非常多，虽然也是被 intel 放弃的但是只是没有下一代，这一代在 x86 阵营很好用",
+          "en": "The X Elite thing has been abandoned by Qualcomm, don't buy it... Windows arm is a disaster, and Linux is not necessary... If you really want to run arm, buy a Mac. If you really want x86, buy a Lunar Lake later after the price drops, the experience will be much better, although it was also abandoned by Intel, but there is no next generation, this generation is very useful in the x86 camp."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不清楚 arm 为什么这么多信仰粉",
+          "en": "Not sure why ARM has so many fanboys."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xieren58 果子太贵了，有点超预算，这个 4999 当买个玩具还可以",
+          "en": "@xieren58 Apple is too expensive, a bit over budget, this 4999 can be bought as a toy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@minami 也不是信仰粉，就想搞个新奇的玩具玩玩 xD",
+          "en": "@minami Not a fanboy either, just want to get a novel toy to play with xD."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@pcitme 不至于吧？我看评测跑转译的 Cinebench 也有 5800H 左右的性能？",
+          "en": "@pcitme Not that bad, right? I saw in reviews that the translated Cinebench has around 5800H performance?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@JensenQian 我的理解是，这个开发套件是给 X Elite PC 上市前期用的，类似当年苹果 M1 Macbook 上市之前的那个开发套件，用来给开发者适配软件，现在市面上已经有足够多的 X Elite 产品了，不需要专门的开发套件了。",
+          "en": "@JensenQian My understanding is that this development kit is for the early stage of the X Elite PC launch, similar to the development kit before the launch of the Apple M1 Macbook, used for developers to adapt software. Now there are enough X Elite products on the market, and there is no need for a dedicated development kit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "玩玩的心态是没问题的，虽说转译性能比不上 mac ，至少内存大？关键是 win 上太多 32 位应用在转译下几乎是不可用的，比如游戏相关，模拟器之类的。办公是没啥问题的看微软态度，感觉又是个苏菲 NT ，现在不买感觉之后都不好买了。这个价格可以的",
+          "en": "There's no problem with having a playful attitude. Although the translation performance is not as good as Mac, at least the memory is larger? The key is that too many 32-bit applications on Win are almost unusable under translation, such as game-related, emulators, etc. There is no problem with office work. Looking at Microsoft's attitude, it feels like another Surface NT. If you don't buy it now, it feels like it will be difficult to buy it later. This price is okay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看楼主做了挺多方面的对比，了解的也挺深了。反正东西也不贵，又不做主力机，那就买来试试呗",
+          "en": "Seeing that the poster has made a lot of comparisons and knows a lot. Anyway, it's not too expensive and it's not a main machine, so just buy it and try it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://armrepo.ver.lt/   https://www.thundercomm.com/zh/woa-comp-apps/ 可以查兼容性，欢迎进 q 群 130521755 了解更多。性能要求不高的话国补 3199 的无畏 14 也够用了，程序员是最不需要担忧兼容性的了。闲鱼上麦香牛奶的 3999 的二手无畏 pro15 也值得考虑我 woa mac 和 lnl 机器都有，总体感觉 mac 窗口管理 bug 越来越多，体验最差，woa 目前体验最好，游戏才需要 lnl",
+          "en": "https://armrepo.ver.lt/ https://www.thundercomm.com/zh/woa-comp-apps/ You can check compatibility, welcome to join the QQ group 130521755 to learn more. If the performance requirements are not high, the Daredevil 14 with a national subsidy of 3199 is also enough. Programmers are the least worried about compatibility. The 3999 second-hand Fearless Pro 15 of Wheat Fragrant Milk on Xianyu is also worth considering. I have woa mac and lnl machines. Overall, I feel that mac window management bugs are increasing, and the experience is the worst. woa has the best experience, and games only need lnl."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Windows on arm 的设备工作用了两年，除了不能玩 Xbox app 的游戏不太满意，别的都还行",
+          "en": "I've been using Windows on arm devices for work for two years, and I'm not very satisfied except that I can't play Xbox app games, but everything else is ok."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "AMD 同样价格性能更好，为啥要买 Elite X ？高通自己决策失误带来的后果，消费者不用给它承担。",
+          "en": "AMD has better performance at the same price, why buy Elite X? Consumers don't have to bear the consequences of Qualcomm's own decision-making errors."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xgdgsc 3199 的无畏 14 也是 ARM 吗？目前我好像找到这个 4999 的 Acer 是最便宜的 XElite 机器",
+          "en": "@xgdgsc Is the 3199 Daredevil 14 also ARM? Currently, I seem to have found that this 4999 Acer is the cheapest XElite machine."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@terence4444 对的，主要是想买个 ARM 的玩具，但是又感觉各方面不值这个钱，更低的价格能买到 x86 全方面吊打的",
+          "en": "@terence4444 Yes, mainly want to buy an ARM toy, but also feel that it is not worth the money in all aspects, and cheaper prices can buy x86 that beats it in all aspects."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@liyafe1997 3199 是 x 不是 x elite 的性能差点但续航更长，如果主要用来远程而不是本地跑的话还是不错的，屏幕不太行。建议多考虑二手的 x elite 的屏幕好点的，宏碁那个我记得屏幕也不太行。arm 的优势是离电性能手感非常好，不像 x86 离电降性能体验差，还有就是睡眠更不容易睡死",
+          "en": "@liyafe1997 3199 is x, not x elite, the performance is worse but the battery life is longer. If it is mainly used for remote rather than local running, it is still good, but the screen is not very good. It is recommended to consider second-hand x elite with better screens. I remember that Acer's screen is not very good. The advantage of arm is that the off-battery performance feels very good, unlike x86 which has poor off-battery performance degradation, and it is also less prone to sleep death."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "高通的适合公司掏钱买，只有三星、微软那几款值得自己掏钱还不如搞个 m3 24 512 玩玩，广东有些店都掉到 6 千多",
+          "en": "Qualcomm's are suitable for companies to pay for, only Samsung and Microsoft are worth paying for yourself, it is better to get an m3 24 512 to play with, some stores in Guangdong have dropped to more than 6 thousand."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

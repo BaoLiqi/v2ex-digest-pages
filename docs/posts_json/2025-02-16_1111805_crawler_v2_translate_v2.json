@@ -1,0 +1,267 @@
+{
+  "id": 1111805,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "[福利] 抢先体验 Xactions - macOS 平台强大的自动化执行者！",
+          "en": "[Benefit] Get a sneak peek at Xactions - a powerful automation executor on macOS!"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大家好，很高兴向大家推荐一款全新的 macOS 应用 - Xactions ，它是一款强大的自动化执行者，专为提升工作效率而设计。",
+          "en": "Hello everyone, I am very happy to recommend a brand new macOS application to everyone - Xactions, it is a powerful automation executor designed to improve work efficiency."
+        },
+        {
+          "zh": "借助于 Xactions 的自动化实现，可以帮你从繁琐、重复的劳动中解放出来，让你专注于更重要的事情。",
+          "en": "With the help of Xactions' automation implementation, it can help you free yourself from tedious and repetitive labor, allowing you to focus on more important things."
+        },
+        {
+          "zh": "\r\n\r\nApp Store 下载链接： https://apps.apple.com/cn/app/xactions/id6470151108\r\n\r\n主要功能：\r\n- 设置点击按键：你可以自定义点击按键/组合键，设置重复次数与间隔，轻松实现自动化操作。",
+          "en": "\r\n\r\nApp Store download link: https://apps.apple.com/cn/app/xactions/id6470151108\r\n\r\nMain features:\r\n- Set click keys: You can customize click keys/combination keys, set the number of repetitions and intervals to easily achieve automated operations."
+        },
+        {
+          "zh": "- 截图识别：支持根据截图识别在屏幕上的坐标执行点击操作，让操作更精准。",
+          "en": "- Screenshot recognition: Supports performing click operations on the coordinates on the screen based on screenshot recognition for more precise operation."
+        },
+        {
+          "zh": "- 自动输入文本：在指定位置自动输入文本内容，并执行复杂交互，提升工作效率。",
+          "en": "- Automatically enter text: Automatically enter text content at the specified location and perform complex interactions to improve work efficiency."
+        },
+        {
+          "zh": "- 连续执行动作：设置连续执行动作，帮助你实现枯燥复杂的操作流程。",
+          "en": "- Continuously execute actions: Set up continuous execution actions to help you achieve tedious and complex operating procedures."
+        },
+        {
+          "zh": "- Shell 脚本支持：支持运行 Shell 脚本，灵活应对各种需求。",
+          "en": "- Shell script support: Support running Shell scripts to flexibly meet various needs."
+        },
+        {
+          "zh": "- 应用程序管理：轻松启动或切换应用程序，提升工作流的流畅性。",
+          "en": "- Application management: Easily launch or switch applications to improve the smoothness of the workflow."
+        },
+        {
+          "zh": "- 实时日志输出：支持实时日志输出，便于追踪和调试。",
+          "en": "- Real-time log output: Supports real-time log output for easy tracking and debugging."
+        },
+        {
+          "zh": "- 多种鼠标动作：支持单击、双击、长按等鼠标动作，满足多样化操作需求。",
+          "en": "- Multiple mouse actions: Supports single-click, double-click, long-press and other mouse actions to meet diverse operation needs."
+        },
+        {
+          "zh": "- 更多功能：更多功能正在开发中，即将推出，敬请期待！",
+          "en": "- More features: More features are under development and will be launched soon, so stay tuned!"
+        },
+        {
+          "zh": "\r\n\r\n欢迎通过上面的下载链接体验 Xactions app ，并通过邮件和我们反馈任何你遇到的问题： support@trolltechX.com\r\n\r\n下面是 30 个兑换码：",
+          "en": "\r\n\r\nWelcome to experience the Xactions app through the download link above, and send us any problems you encounter via email: support@trolltechX.com\r\n\r\nHere are 30 redemption codes:"
+        },
+        {
+          "zh": "\r\n\r\n- F6YF334JHFNK\r\n- NFNA7W4HJYWY\r\n- W77LRFNEHWRH\r\n- 6NNYFXLH7RAJ\r\n- 3EX9L3JF6LKA\r\n- E3EKMWKJMWH7\r\n- 3YNMYWRA664K\r\n- PT77NKH97NLX\r\n- 9PK7N6FLXN3K\r\n- X3R9HR9KHTRH\r\n- 4LL7HFXMHMY7\r\n- 6PLTTHLW79XW\r\n- FYMKKXMEPA9A\r\n- 9K7FKJXERJJ9\r\n- 3MNAKKN49Y3L\r\n-----------------------\r\n- NTXMRKAM73YM\r\n- 67FX6E4W4P64\r\n- MJX76AMW3RET\r\n- E9RNYT9LXNWY\r\n- P73TATEWAEKM\r\n- 9R737A697YAH\r\n- AK6M7HLWLK6L\r\n- KA67XF9RR6WW\r\n- X9APLMPP9AHY\r\n- 393N4WK6P47R\r\n- PRPA9EFYTL63\r\n- J3HLFNFM3LLY\r\n- FT3FL46HPHJR\r\n- 73KPAHJFXNPY\r\n- KJHH6XXRX4AF",
+          "en": "\r\n\r\n- F6YF334JHFNK\r\n- NFNA7W4HJYWY\r\n- W77LRFNEHWRH\r\n- 6NNYFXLH7RAJ\r\n- 3EX9L3JF6LKA\r\n- E3EKMWKJMWH7\r\n- 3YNMYWRA664K\r\n- PT77NKH97NLX\r\n- 9PK7N6FLXN3K\r\n- X3R9HR9KHTRH\r\n- 4LL7HFXMHMY7\r\n- 6PLTTHLW79XW\r\n- FYMKKXMEPA9A\r\n- 9K7FKJXERJJ9\r\n- 3MNAKKN49Y3L\r\n-----------------------\r\n- NTXMRKAM73YM\r\n- 67FX6E4W4P64\r\n- MJX76AMW3RET\r\n- E9RNYT9LXNWY\r\n- P73TATEWAEKM\r\n- 9R737A697YAH\r\n- AK6M7HLWLK6L\r\n- KA67XF9RR6WW\r\n- X9APLMPP9AHY\r\n- 393N4WK6P47R\r\n- PRPA9EFYTL63\r\n- J3HLFNFM3LLY\r\n- FT3FL46HPHJR\r\n- 73KPAHJFXNPY\r\n- KJHH6XXRX4AF"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如何在 Mac 上使用兑换码：- 在 Mac 上前往 App Store App 。",
+          "en": "How to use the redemption code on Mac: - Go to the App Store App on your Mac."
+        },
+        {
+          "zh": "- 点按左下角你的姓名（或者如果尚未登录，请点按“登录”）。",
+          "en": "- Click your name in the lower left corner (or click 'Log In' if you are not already logged in)."
+        },
+        {
+          "zh": "- 点按右上角的“兑换充值卡”，然后输入下载代码或充值卡的代码。",
+          "en": "- Click 'Redeem Gift Card' in the upper right corner, and then enter the download code or the gift card code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "谢谢大佬,已兑换,上车尝鲜.",
+          "en": "Thank you, I have redeemed it and am trying it out."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "X3R9HR9KHTRH 已用不过没找到录制的功能，感觉还是需要一个录制的功能",
+          "en": "X3R9HR9KHTRH Used, but I didn't find the recording function. I feel that a recording function is still needed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "FT3FL46HPHJR 已用感谢作者",
+          "en": "FT3FL46HPHJR Used, thank you author."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "J3HLFNFM3LLY 谢谢大佬,已兑换",
+          "en": "J3HLFNFM3LLY Thank you, I have redeemed it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感谢大佬，393N4WK6P47R 已用",
+          "en": "Thank you, 393N4WK6P47R used."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "3EX9L3JF6LKA 谢谢大佬，已用",
+          "en": "3EX9L3JF6LKA Thank you, already used."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "9R737A697YAH 已用",
+          "en": "9R737A697YAH used."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "X9APLMPP9AHY 已用，谢谢大佬",
+          "en": "X9APLMPP9AHY Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "MJX76AMW3RET 已用, 谢谢",
+          "en": "MJX76AMW3RET Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "9PK7N6FLXN3K 已用，谢谢大佬",
+          "en": "9PK7N6FLXN3K Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "W77LRFNEHWRH 已用，老板发大财",
+          "en": "W77LRFNEHWRH Used, I wish you great wealth."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "忘了用的是哪个了，谢谢，希望大火。",
+          "en": "I forgot which one I used, thank you, I hope it's a hit."
+        },
+        {
+          "zh": "正好最近有这个需求。。",
+          "en": "I happen to have this need recently."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是不是已经用完了，试了好几个没人说用过的码，都提示用过了",
+          "en": "Is it already used up? I tried several codes that no one said they used, and they all prompted that they had been used."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能不能私一个～",
+          "en": "Can you DM me one?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能不能私一个～",
+          "en": "Can you DM me one?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能不能私一个～",
+          "en": "Can you DM me one?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@digitalphabet @crac @imcoddy @NeroKim 没想到这么快，这是重新生成的 20 个。",
+          "en": "@digitalphabet @crac @imcoddy @NeroKim I didn't expect it to be so fast, here are 20 newly generated ones."
+        },
+        {
+          "zh": "HKREAFREWRJP7FMLXP36RH3RER39N7M96JWPXN3Y6PK96RMFNLAT6APE9F7W4TYXKA4TK7J9R9XMHMX4P9FYE3643YNX7MYFRHL43FLTM6YA6YXPFRT3L364NRNFMXWPMEKHEALTE6ELFR3HTWHP7E9MR6YHT6NPWMMY6Y3LXYNYH37RPAMWEL9XWFTPHYAMKXW4XHR7J76FK3PHFHA73JR63JFRJR3WAP3WJH3WEAXRPXP9",
+          "en": "HKREAFREWRJP7FMLXP36RH3RER39N7M96JWPXN3Y6PK96RMFNLAT6APE9F7W4TYXKA4TK7J9R9XMHMX4P9FYE3643YNX7MYFRHL43FLTM6YA6YXPFRT3L364NRNFMXWPMEKHEALTE6ELFR3HTWHP7E9MR6YHT6NPWMMY6Y3LXYNYH37RPAMWEL9XWFTPHYAMKXW4XHR7J76FK3PHFHA73JR63JFRJR3WAP3WJH3WEAXRPXP9"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "6YXPFRT3L364 已用",
+          "en": "6YXPFRT3L364 Used"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "谢谢楼主XYNYH37RPAMW 已用",
+          "en": "Thank you楼主XYNYH37RPAMW already used"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

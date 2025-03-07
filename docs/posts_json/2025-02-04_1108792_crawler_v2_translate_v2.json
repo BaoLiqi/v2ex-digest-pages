@@ -1,0 +1,327 @@
+{
+  "id": 1108792,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "计算机专业学生求推荐便携电脑，预算 5k 以内",
+          "en": "Computer science student seeking recommendations for a portable laptop, budget within 5k."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大家好，我是一名计算机专业的在读学生，最近在考虑更换电脑，想听听大家的建议。\r\n\r\n目前我使用的是一台亲戚退役下来的 DELL XPS ，搭载的是 Intel 第四代酷睿处理器。",
+          "en": "Hello everyone, I am a computer science student currently considering replacing my computer and would like to hear your suggestions.\r\n\r\nCurrently, I am using a DELL XPS that my relative retired, equipped with an Intel fourth-generation Core processor."
+        },
+        {
+          "zh": "这台电脑已经有些年头了，键盘部分按键失灵，电池也坏了，现在只能外接键盘当台式机使用。",
+          "en": "This computer is quite old, some keys on the keyboard are not working, and the battery is also dead, so I can only use an external keyboard as a desktop computer now."
+        },
+        {
+          "zh": "系统方面，好像无法升级到 Windows 10 或 11 ，而且偶尔会出现蓝屏的情况，所以我觉得是时候换一台新电脑了。\r\n\r\n由于亲戚的这台 XPS 小巧便携，我对这种类型的电脑比较有好感，所以优先看了最近几年的 XPS 系列。",
+          "en": "In terms of the system, it seems that it cannot be upgraded to Windows 10 or 11, and it occasionally crashes with a blue screen. Therefore, I think it is time to replace it with a new computer.\r\n\r\nBecause my relative's XPS is small and portable, I have a good impression of this type of computer, so I prioritized looking at the recent XPS series."
+        },
+        {
+          "zh": "不过发现外观变化挺大，尤其是键盘面整合成一体后，视觉上有点难以接受。",
+          "en": "However, I found that the appearance has changed a lot, especially after the keyboard surface was integrated into one, it is visually a bit difficult to accept."
+        },
+        {
+          "zh": "后来我去看了看 ThinkPad X13 ，12 代的价格大概在 4k 左右，新款则要 7k+，有点超预算了。\r\n\r\n有同学推荐我去看看 MacBook Air ，说是 M2 版本的价格和 ThinkPad 差不多，而且 macOS 现在写作业也没问题。",
+          "en": "Later, I went to look at the ThinkPad X13, the 12th generation is priced at around 4k, while the new model costs 7k+, which is a bit over budget.\r\n\r\nSome classmates recommended that I take a look at the MacBook Air, saying that the price of the M2 version is similar to that of the ThinkPad, and macOS is now no problem for doing homework."
+        },
+        {
+          "zh": "不过我对 macOS 系统不太熟悉，担心学习成本会比较高。\r\n\r\n我的预算在 5k 以内，希望能买到一台相对便携、性能足够应付日常学习和编程的电脑。",
+          "en": "However, I am not very familiar with the macOS system and worry that the learning cost will be relatively high.\r\n\r\nMy budget is within 5k, and I hope to buy a computer that is relatively portable and has enough performance to handle daily study and programming."
+        },
+        {
+          "zh": "大家有什么建议或者推荐吗？除了 XPS 、ThinkPad 和 MacBook Air ，还有哪些机型值得考虑呢？\r\n\r\n提前感谢大家的帮助！",
+          "en": "Do you have any suggestions or recommendations? Besides XPS, ThinkPad, and MacBook Air, what other models are worth considering?\r\n\r\nThank you in advance for your help!"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我一直很好奇上面那批人在 5000 预算求助帖里推荐 mac 的人，如果真有人信了买了一台 8+256G 开一个 idea 都卡爆的 mba ，会不会来论坛上把他们痛骂一顿。",
+          "en": "I've always been curious about those people recommending Mac in the 5000 budget help posts. If someone actually believes them and buys an 8+256G MBA that lags badly just opening one IDEA, will they come to the forum to scold them?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "v2 上多是苹果死忠，最好忽略他们的推荐，你可以看看联想小新 Pro 系列，惠普战系列，老师上课肯定是用 windows 系统，工具和环境还有一些破解软件，肯定是 windows 最容易安装，还有考虑到现在轻薄便携都是内存焊在主板上，买内存配置高的。",
+          "en": "V2 is mostly Apple loyalists, it's best to ignore their recommendations. You can take a look at the Lenovo Xiaoxin Pro series and the HP Zhan series. Teachers definitely use the Windows system in class, and tools, environments, and some cracked software are definitely easiest to install on Windows. Also, considering that lightweight and portable devices now have memory soldered to the motherboard, buy a high memory configuration."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "肯定有人推 mac",
+          "en": "Someone will definitely recommend Mac."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买个 amd 的核显笔记本，5k 内能搞定，续航也可以。",
+          "en": "Buy a laptop with AMD integrated graphics, you can get it for under 5k, and the battery life is good too."
+        },
+        {
+          "zh": "我日常用三个屏幕看 cpu 功率才不到 10w",
+          "en": "I usually use three screens and the CPU power is less than 10w."
+        },
+        {
+          "zh": "M1 的 MacBook pro 我现在觉的太卡，不想碰了。",
+          "en": "I feel that the M1 MacBook Pro is too laggy now and don't want to touch it."
+        },
+        {
+          "zh": "预算高用更高配置的当然推荐，不能否认 windows 系统一坨屎一样，但是为了玩游戏我能吃屎",
+          "en": "Of course, a higher configuration is recommended if the budget is high. It is undeniable that the Windows system is like a pile of shit, but I can eat shit to play games."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "返校季有耳机送，学计算机了觉得 Mac 不熟悉，担心学习成本高，要不咱换个专业可好？",
+          "en": "Back-to-school season includes headphones, studying computer science but unfamiliar with Mac, worried about high learning costs, how about we switch majors?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "[笔吧评测室] 公众号，每隔一段时间就会总结各个价位推荐机型",
+          "en": "[Biba Review Studio] Official account, which summarizes recommended models in each price range every once in a while."
+        },
+        {
+          "zh": "芯片相对没那么重要，宁愿加钱花在内存上，还能用久点",
+          "en": "The chip is relatively less important; it is better to spend more money on memory so it lasts longer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不推荐 Mac 系列。5k 以内可以看看机械革命 无界 14X ，轻薄本无独显，24g 内存，1t 固态，高刷屏",
+          "en": "Not recommended Mac series. Within 5k, you can take a look at the Mechrevo Unbound 14X, a thin and light laptop without discrete graphics, 24g of memory, 1t solid state drive, and a high refresh rate screen."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "5000 块钱还推荐买 Mac 还完爆 win 本是活在自己的梦里吗，还不如像我推荐个机械革命的 AMD 本，应该不到 5000 就能 32g",
+          "en": "Recommending buying a Mac for 5000 yuan and saying it completely beats win laptops is living in your own dream, you might as well recommend a Mechrevo AMD laptop to me, it should be less than 5000 to get 32g."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "减钱国补后 2350 的荣耀 x14 锐龙版，我现在用这个用的飞起，缺点是 16G 内存",
+          "en": "Honor x14 Ryzen version for 2350 after government subsidies, I am using this now and it is flying, the disadvantage is 16G of memory"
+        },
+        {
+          "zh": "要 32G 内存就加点钱，换国补后 3300 的机械革命。",
+          "en": "If you want 32G of memory, add some money and switch to the Mechrevo for 3300 after government subsidies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "《学习成本高》？",
+          "en": "《High Learning Cost》?"
+        },
+        {
+          "zh": "既然你同学跟你讲了 macOS 写作业也没问题，那你不妨先去查一查 macOS 是否兼容你需要用到的工具，按你主贴里的描述来看，比起续航来讲，轻薄+内存拉满比较符合你的需求，但是我确实建议你听你同学的去看看 MacBook air ，如果他自己也在用的话。",
+          "en": "Since your classmate told you that macOS is also fine for doing homework, you might as well check whether macOS is compatible with the tools you need to use. According to the description in your main post, compared with battery life, thin and light + full memory is more in line with your needs, but I do recommend that you listen to your classmates and take a look at the MacBook Air, if he is using it himself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "计算机专业还有推荐 mac 的，学校让装的软件装出问题包解决的？",
+          "en": "Recommending Mac for a computer science major, will they be responsible for solving problems when the software the school requires to install causes issues?"
+        },
+        {
+          "zh": "thinkbook 14+ amd 的，国补 不到 5k 。",
+          "en": "Thinkbook 14+ AMD, less than 5k with government subsidy."
+        },
+        {
+          "zh": "不过 14+ 2024 款 模具好像有点设计问题。",
+          "en": "However, the 14+ 2024 model seems to have some design problems."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这个价格寻求旗舰级别的商务便携有点难",
+          "en": "It's a bit difficult to find a flagship-level business portable at this price."
+        },
+        {
+          "zh": "还是看看常规笔记本吧",
+          "en": "Let's take a look at regular laptops"
+        },
+        {
+          "zh": "惠普战 66：接口齐全内存硬盘随便换，价格合适",
+          "en": "HP Zhan 66: Complete interfaces, memory and hard drives can be replaced at will, suitable price"
+        },
+        {
+          "zh": "联想 thinkbook：近两年的知名水桶机，14 的便携性和质感感觉有点旗舰轻薄的影子了",
+          "en": "Lenovo Thinkbook: A well-known 'bucket machine' in recent years, the portability and texture of the 14 give a bit of a flagship lightweight feel"
+        },
+        {
+          "zh": "另外以上都在说 amd 版本",
+          "en": "In addition, the above are all talking about the AMD version"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不建议学生用 macbook ，除非你十分确定你用到的所有软件都兼容 macbook 。",
+          "en": "I do not recommend students use MacBooks unless you are sure that all the software you use is compatible with MacBooks."
+        },
+        {
+          "zh": "计算机专业的学生 != 程序员。",
+          "en": "Computer science students != programmers."
+        },
+        {
+          "zh": "mac 对程序员很友好不等于对计算机专业的学生友好。",
+          "en": "Mac being friendly to programmers does not mean it is friendly to computer science students."
+        },
+        {
+          "zh": "而且 5000 预算上 macbook 新机是不够的。",
+          "en": "Moreover, a 5000 budget is not enough for a new MacBook."
+        },
+        {
+          "zh": "这个价位最多能上 M2 16+256 的 macbook air 。",
+          "en": "At this price, you can get at most an M2 16+256 MacBook Air."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不建议买 MAC ，你不能保证上课用的软件有 MAC 版本",
+          "en": "I don't recommend buying a MAC, you can't guarantee that the software used in class has a MAC version"
+        },
+        {
+          "zh": "V2EX 上基本都是不问使用场景，不论使用需求无脑推荐 MAC 的，甚至宁可二手都得是 MAC 。未免有点偏激。",
+          "en": "On V2EX, basically, without asking the use scenario and regardless of the use requirements, they blindly recommend MAC, even if it's a used MAC. It's a bit extreme."
+        },
+        {
+          "zh": "买电脑还是要结合自己的使用需求来看",
+          "en": "Buying a computer should be based on your own usage needs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "推 mac 的是不是比较...教的一些内容是 win 平台的，新手就要自己去找代替产品可就难受了。",
+          "en": "Are the people recommending Mac a bit... some of the content taught is on the win platform, it will be difficult for novices to find alternative products themselves."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不要买 MAC,就在京东搜  \"机械革命\" 配置杠杠的..任君选择.",
+          "en": "Don't buy MAC, just search for \"Mechrevo\" on Jingdong, the configuration is awesome.. choose whatever you want."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "机械革命无界 14x 暴风雪，性价比之王",
+          "en": "Mechrevo Unbound 14x Blizzard, the king of price/performance."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@leonme 前百度，有工程師用聯想。   你沒見過不代表沒有。",
+          "en": "@leonme Former Baidu, there are engineers using Lenovo. You haven't seen it doesn't mean it doesn't exist."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@sodayo #25 你亲自用过 8+256 的 mba 开 idea ？开的又是多大的项目卡爆了？",
+          "en": "@sodayo #25 Have you personally used an 8+256 MBA to open IDEA? How big of a project did you open that it lagged badly?"
+        },
+        {
+          "zh": "这是我查到的使用报告，https://www.zhihu.com/question/444789215 ，8G 内存完全没问题。",
+          "en": "This is the usage report I found, https://www.zhihu.com/question/444789215, 8G of memory is completely fine."
+        },
+        {
+          "zh": "况且 5000 以内也有 16G 的 mba",
+          "en": "Moreover, there are 16G MBAs within 5000."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "计算机专业，还是 x86 的电脑吧。",
+          "en": "For computer science, still use an x86 computer."
+        },
+        {
+          "zh": "我记得当年我用的是 Intel MacBook pro 。",
+          "en": "I remember I used an Intel MacBook Pro back then."
+        },
+        {
+          "zh": "选修了 C++ 教授要求 用 linux g++ 编译，解决办法 debian 虚拟机。",
+          "en": "I took C++ as an elective and the professor required compiling with linux g++, the solution was a Debian virtual machine."
+        },
+        {
+          "zh": "还有一门选修课 用 ModelSim 编程 FPGA ， 解决办法 Windows 虚拟机。",
+          "en": "There was also an elective that used ModelSim to program FPGA, the solution was a Windows virtual machine."
+        },
+        {
+          "zh": "还有的课程用到 docker ，macOS 就比较好，windows 的 docker 是跑在虚拟机里的（好像是自动安装一个 linux 虚拟机）。",
+          "en": "Some courses use docker, macOS is better, Windows docker runs in a virtual machine (it seems to automatically install a Linux virtual machine)."
+        },
+        {
+          "zh": "再比如 java 编程 windows 和 MacOS 没太大差别。",
+          "en": "For example, there is not much difference between Windows and MacOS for Java programming."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

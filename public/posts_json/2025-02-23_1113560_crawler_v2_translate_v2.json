@@ -1,0 +1,271 @@
+{
+  "id": 1113560,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "菜鸟 Android 开发该放弃了吗？",
+          "en": "Should Rookie Android Developers Give Up?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人开发者，技术栈是 Java 、Kotlin 和 Compose 。",
+          "en": "I'm an individual developer with a tech stack of Java, Kotlin, and Compose."
+        },
+        {
+          "zh": "21 年做过全职开发，之后就转行了，也有持续关注 Android 开发，GitHub 上 Kotlin 、Compose 相关的库一起大概有一千多的星，自认为相关技术掌握度还可以。\r\n\r\n去年转行踩大雷几乎被搞垮准备回来继续做开发，看了一个星期的 Boss 直聘，只投了广东省内初级的，投了快 30 份简历，包括一些外包主动问我要简历的。",
+          "en": "I worked full-time as a developer in 2021, then changed careers. I've continued to follow Android development. My Kotlin and Compose-related libraries on GitHub have over a thousand stars combined, and I think I have a decent grasp of the relevant technologies.\r\n\r\nLast year, I stepped on a landmine with my career change and was almost ruined. I was preparing to come back and continue developing. I spent a week looking at Boss Zhipin, only applying for junior positions in Guangdong Province. I submitted nearly 30 resumes, including some to outsourcing companies that proactively asked for my resume."
+        },
+        {
+          "zh": "没想到现在一个面试都没，是转行/空窗期太长犯了大忌还是互联网客户端真的这么凉了吗？\r\n\r\n该不该继续找安卓的，还是转行？",
+          "en": "I didn't expect to not even get a single interview. Is it because I made a big mistake by changing careers/having a long employment gap, or is the internet client-side market really that cold?\r\n\r\nShould I continue looking for Android jobs, or change careers?"
+        },
+        {
+          "zh": "比如转到前端的 React/NextJS ？",
+          "en": "For example, switch to frontend React/NextJS?"
+        },
+        {
+          "zh": "个人对这两个比较熟一点，但是没有企业项目经验也属实不知道怎么找，而且 v0 、Cursor 之类的工具成熟之后前端会不会比 Android 更难？\r\n\r\n还请各位大佬指点指点！",
+          "en": "I'm relatively familiar with these two, but I don't have any enterprise project experience, so I really don't know how to find a job. Also, will the frontend become even more difficult than Android after tools like v0 and Cursor mature?\r\n\r\nI would appreciate any guidance from the experts!"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "贴一下我 23 年对鸿蒙的评价了，如今 2025 依然有效。",
+          "en": "Here's my assessment of HarmonyOS from 2023, which is still valid in 2025."
+        },
+        {
+          "zh": "华为面向市场的手机，会一直维持套壳的 鸿蒙系统，next 几乎很难推向市场.",
+          "en": "Huawei's phones for the market will continue to use a shell-like HarmonyOS system. NEXT will be very difficult to push to the market."
+        },
+        {
+          "zh": "鸿蒙 os 是有大量几亿用户，但这是混合了 Android 的套壳系统，如果 ota 到 NEXT ，华为无法解决老应用的问题，Android 几百万 app ，一升级几亿用户直接没法用.",
+          "en": "HarmonyOS does have hundreds of millions of users, but it's a shell system mixed with Android. If it OTAs to NEXT, Huawei won't be able to solve the problem of old applications. Android has millions of apps, and upgrading would make them unusable for hundreds of millions of users."
+        },
+        {
+          "zh": "靠着签约那寥寥无几的 app ，没有自然市场的推力是无法支撑生态的",
+          "en": "Relying on the few signed apps, without the push of a natural market, cannot support the ecosystem."
+        },
+        {
+          "zh": "普通用户看到小红书适配了鸿蒙，潜意识会觉得迁移了所有的 Android 功能，甚至他们会觉得鸿蒙的包体积优化的很好，实际不可能，android 投入那么多人力做的功能，不可能一下复制出来。",
+          "en": "When ordinary users see that Xiaohongshu has adapted to HarmonyOS, they will subconsciously think that all Android functions have been migrated. They may even think that HarmonyOS's package size is well optimized, which is impossible. It's impossible to replicate the functions that Android has invested so much manpower in."
+        },
+        {
+          "zh": "最后只会是适配几个页面。",
+          "en": "In the end, only a few pages will be adapted."
+        },
+        {
+          "zh": "大部分签约适配的 最后 会是一个 老人精简极速版 app 。  并且他们适配完，是不是还正常的迭代？",
+          "en": "Most of the signed adaptations will eventually be a simplified, fast version of the app for the elderly. And will they continue to iterate normally after they adapt?"
+        },
+        {
+          "zh": "我想大部分都是做完 1.0 版本就没有下文了.",
+          "en": "I think most of them will have no further development after completing version 1.0."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "鸿蒙市场远没有想象中那么大。",
+          "en": "The HarmonyOS market is not as big as imagined."
+        },
+        {
+          "zh": "大多数公司的鸿蒙客户端都是随便抽几个客户端同事，或者直接外派出去，功能搞完基本上就没了，基本上没有后续维护，所以也很难有岗位。",
+          "en": "Most companies just randomly pick a few client-side colleagues for HarmonyOS client projects, or send them out for outsourcing. Once the features are done, that's basically it. There's basically no follow-up maintenance, so it's hard to find a job."
+        },
+        {
+          "zh": "之前我找了半个多月的鸿蒙岗位，发现工资又低，岗位又少，而且大多数都是干三个月就没了，就算没有告诉你干三个月的，大多数也是干几个月就被裁了。",
+          "en": "Before, I looked for HarmonyOS positions for more than half a month and found that the salary was low, there were few positions, and most of them disappeared after three months. Even if they didn't tell you it was for three months, most of them were laid off after a few months."
+        },
+        {
+          "zh": "那种提供稳定的岗位的鸿蒙开发，太少了。",
+          "en": "There are very few HarmonyOS development positions that offer stability."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "安卓现在还不如去搞鸿蒙，至少能吃几年红利",
+          "en": "Now it's better to work on HarmonyOS than Android, at least you can enjoy a few years of dividends."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "踩雷的那个转行转的是啥？让大伙避避雷？",
+          "en": "What was the career change that was a landmine? Let everyone avoid it?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SuperMango 感谢建议，请问从安卓转过去难度大吗，我去了解一下",
+          "en": "@SuperMango Thanks for the suggestion, is it difficult to switch from Android? I'll go and learn about it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@liuzimin 是养殖，听了人说已经到谷底了，结果发现永远没有谷底，新手入行就是来送钱的",
+          "en": "@liuzimin It was farming. People said it had reached the bottom, but I found that there is never a bottom. Newbies are just there to give away money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "只能说很难，是整个客户端，前端都很难。",
+          "en": "It can only be said that it is difficult, the entire client-side, and the front-end are very difficult."
+        },
+        {
+          "zh": "建议学习鸿蒙，之后再往大前端，AI 方向发展",
+          "en": "It is recommended to learn HarmonyOS, and then develop towards the big front-end and AI directions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@july1995 了解，感谢提供信息，这样的行情感觉小白入行比找安卓还要难",
+          "en": "@july1995 Understood, thanks for providing the information, with this market, it feels like it's even harder for newbies to enter the industry than to find an Android job."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@TArysiyehua 感谢建议，这样说确实感觉客户端都很难了，看到的大多安卓岗位要么跨端要么硬件要么鸿蒙，Web 也几乎没看到招客户端的。",
+          "en": "@TArysiyehua Thanks for the suggestion, it does feel like it's very difficult to find client-side jobs. Most of the Android jobs I see are either cross-platform, hardware, or HarmonyOS. I hardly see any Web jobs that are recruiting for client-side."
+        },
+        {
+          "zh": "不考虑往底层走，可能只有跨端和鸿蒙还有点空间了。",
+          "en": "If I don't consider going to the underlying layers, there might only be some space left for cross-platform and HarmonyOS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "'去年转行踩大雷几乎被搞垮'，方便细说下吗",
+          "en": "'Last year, I stepped on a landmine with my career change and was almost ruined,' could you elaborate?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚看到，个人开发者怎么会搞养殖去。。。我丢",
+          "en": "Just saw that, how could an individual developer go into farming... wow."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在找工作，行情不好，空窗期太久的，就更难找了，哈哈哈哈",
+          "en": "It's hard to find a job now, and it's even harder to find one with a long employment gap, hahaha."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@LiuJiang 楼上有说，跟计算机没关系，不过以后要是有人真想入行养殖，千万不要自己看点视频逛逛市场了解点行情就开始干，怎么也要找个靠谱的行内人合作，新手做到不赔也可能只是运气好",
+          "en": "@LiuJiang Someone mentioned it above, it has nothing to do with computers, but in the future, if anyone really wants to enter the farming industry, don't just watch some videos, go around the market, and understand the market situation before starting. You must find a reliable person in the industry to cooperate with. It might just be luck for a newbie to not lose money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@LiuJiang 还是被逼的，AI 编程火之前自己接单之类还可以有点收入，GPT 豆包之类的火了之后连大学生作业都很少了",
+          "en": "@LiuJiang I was forced to. Before AI programming became popular, I could earn some income by taking orders, but after GPT, Doubao, etc. became popular, even college student assignments were rare."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@street000 别把路走窄了",
+          "en": "@street000 Don't narrow your path."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@digitalnomad222 有道理，碰壁好多年，想回到当初也很难了",
+          "en": "@digitalnomad222 That makes sense. I've been running into walls for many years, and it's hard to go back to the beginning."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "学学鸿蒙 h5  js",
+          "en": "Learn HarmonyOS h5 js"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@street000 #13 这类毕设、作业、外包类的，以后基本凉了，能接到项目都会被雇主狠狠压价，程序员又少了退路",
+          "en": "@street000 #13 These kinds of graduation designs, assignments, and outsourcing projects will basically be gone in the future. Even if you can get a project, the employer will severely reduce the price, and programmers will have fewer ways out."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "也是 Android 找工作中，现在行情确实太差了。",
+          "en": "Also looking for an Android job, the market is really too bad now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@guanhui07 很多人都提到鸿蒙，估计还有空间。",
+          "en": "@guanhui07 Many people have mentioned HarmonyOS, so it's estimated that there's still some space."
+        },
+        {
+          "zh": "还有请问 Web 前端这块看项目经验吗，前端懂点皮毛想深入怕被大厂毕业出来的一脚踢没",
+          "en": "Also, do they look at project experience for Web frontend, I know a little about the frontend and want to go deeper but I'm afraid of being kicked out by those graduating from big companies."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

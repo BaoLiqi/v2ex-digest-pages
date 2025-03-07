@@ -1,0 +1,247 @@
+{
+  "id": 1111704,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "有没有做股票量化的朋友",
+          "en": "Are there any friends doing stock quant?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "事情是这样的，我认识的一位 50 岁的阿姨和我妈妈说，她说她借了大几十万，说要去开通量化，用「 AI 」炒股",
+          "en": "The thing is, a 50-year-old aunt I know told my mom that she borrowed hundreds of thousands of yuan to open up quantitative trading and use 'AI' to trade stocks."
+        },
+        {
+          "zh": "\r\n\r\n然后我妈天天在抖音刷到什么量化，说量化多好多好，用「 AI 」炒股比人要好，刚开始可能跌，之后行情稳定了就可以一直赚了",
+          "en": "\n\nThen my mom sees quant stuff on Douyin every day, saying how great quant is, that using 'AI' to trade stocks is better than humans. It might fall at the beginning, but after the market stabilizes, you can keep making money."
+        },
+        {
+          "zh": "\r\n\r\n她身边也有很多朋友炒股，摸爬滚打了这么多年也赚了点小钱，大概 20w 吧",
+          "en": "\n\nMany of her friends also trade stocks and have made a little money after so many years of hard work, about 200,000 yuan."
+        },
+        {
+          "zh": "\r\n\r\n有没有实际做过量化的或者在机构里面工作的朋友可以客观说一说",
+          "en": "\n\nAre there any friends who have actually done quantitative trading or work in institutions who can objectively say something about it?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这位 50 岁阿姨的儿子/侄子/外甥名叫“梁文峰”吗？",
+          "en": "Is the 50-year-old aunt's son/nephew/grandson named 'Liang Wenfeng'?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是不是要把钱冲到一个 app 里，然后 app 通过所谓的 AI 交易帮 ta 交易然后最终结果是钱取不出来？",
+          "en": "Is it that you have to deposit money into an app, and then the app uses so-called AI trading to help them trade, and the final result is that the money can't be withdrawn?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@chouxw112233 一定是真的",
+          "en": "@chouxw112233 It must be true."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "提醒一点，量化并不是用 AI 炒股，这种基本上就是诈骗了。",
+          "en": "A reminder, quantitative trading is not using AI to trade stocks, this is basically a scam."
+        },
+        {
+          "zh": "量化主要流程基本就是公司购买一些股票分析师数据，研究顾问通过不同字段组合以及利用金融知识用公式语言来描述哪些做多或者做空(固定算法)，然后研究员根据市场经验选取优秀的 alpha(某些研究员的算法)在市场上跑。",
+          "en": "The main process of quantitative trading is basically that the company buys some stock analyst data, and research consultants use formula language to describe which to go long or short (fixed algorithm) through different field combinations and the use of financial knowledge, and then researchers select excellent alphas (some researchers' algorithms) to run on the market based on market experience."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "量化和私募是两码事，量化 quant 是一种炒股票的方法，主要是数学和计算机技术；私募主要是管理你的资金，可以主观也可以量化，两者都无法保证你一定挣钱（事实上不存在这样的东西）。",
+          "en": "Quantitative trading and private equity are two different things. Quantitative trading (quant) is a method of trading stocks, mainly using mathematics and computer technology; private equity mainly manages your funds, which can be subjective or quantitative. Neither can guarantee that you will definitely make money (in fact, there is no such thing)."
+        },
+        {
+          "zh": "量化主要分生产者，比如交易员，挖掘一些 alpha 因子，产生一些交易的信号，和消费者，比如使用这些开发好的算法的私募基金或者一些个人投资者，只是一种工具罢了。",
+          "en": "Quantitative trading is mainly divided into producers, such as traders who dig up alpha factors and generate trading signals, and consumers, such as private equity funds or individual investors who use these developed algorithms. It's just a tool."
+        },
+        {
+          "zh": "量化也可以结合自动交易，这样就是一台自动挣（亏）钱机。",
+          "en": "Quantitative trading can also be combined with automated trading, which is an automatic money-making (losing) machine."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@sagaxu 我真感觉他们那帮中年人就是看了 ds 爆火又开始搞这个了",
+          "en": "@sagaxu I really feel like those middle-aged people started doing this after seeing DS become popular."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xing7673 他们好像是到一个正规的证劵公司开的，要求是要存 100w 验资，之后可以取出来",
+          "en": "@xing7673 They seem to have opened it at a regular securities company, requiring a deposit of 1 million for capital verification, which can then be withdrawn."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Aicnal 跟着热搜炒股能喝点汤，去年的海能达和长虹，今年的小红书概念和 DS 概念，上下游板块都轮动过了。",
+          "en": "@Aicnal Following the hot searches to trade stocks can get you some soup. Last year's Hytera and Changhong, this year's Xiaohongshu concept and DS concept, upstream and downstream sectors have all rotated."
+        },
+        {
+          "zh": "但是大部分人嗅觉不够，等进场的时候往往已经是追高了。",
+          "en": "However, most people don't have enough sense of smell, and when they enter the market, they are often already chasing highs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "真要是这么好挣，确定性这么高，人家自己就可以靠这个活得很滋润啦，即使没啥本金，每天公开量化实盘也可以赚到流量拉，前提是有这么厉害。",
+          "en": "If it were really that easy to make money, and the certainty were so high, they could live very comfortably on their own. Even if they didn't have much principal, they could earn traffic by doing public quantitative live trading every day, provided they were that good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Aicnal #4 那就是私募啊，私募最好是要做个尽调的。",
+          "en": "@Aicnal #4 Then that's private equity. It's best to do due diligence on private equity."
+        },
+        {
+          "zh": "这种对客户没有要求的，尤其还希望资金是来自于阿姨级别的，一定要谨慎，会有像瑞丰达这样的跑路风险",
+          "en": "You have to be careful with this kind of thing that has no requirements for customers, especially since they hope the funds come from aunt-level people. There will be risks of running away like Ruifengda."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Aicnal #4 正常私募对资金和人都会有一定的要求，不会这样广撒网",
+          "en": "@Aicnal #4 Normal private equity will have certain requirements for funds and people, and will not cast such a wide net."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "找个正规量化还是没问题的，但是百亿以上的公司的可支配资产要求按你说的应该还够不上。",
+          "en": "It's okay to find a regular quant, but the disposable asset requirements of companies with over 10 billion yuan probably don't meet what you said."
+        },
+        {
+          "zh": "比如杭州的某个百亿，虽然和头部有差距，好歹也是徐进在知乎上推荐去实习的公司。",
+          "en": "For example, a certain 10 billion yuan in Hangzhou, although there is a gap with the head, is also a company recommended by Xu Jin on Zhihu for internships."
+        },
+        {
+          "zh": "要求：金融资产不低于 300 万元最近三年个人年均收入不低于 50 万元",
+          "en": "Requirements: Financial assets of not less than 3 million yuan and an average annual personal income of not less than 500,000 yuan in the past three years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xing7673 现在证券自己也有做量化的吧，不一定是私募",
+          "en": "@xing7673 Securities companies themselves are also doing quantitative trading now, it's not necessarily private equity."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "做 ai 量化能赚大钱的人忙着自己赚钱了，咋会拉阿姨下水？  小心杀猪盘",
+          "en": "People who make big money doing AI quant are busy making money themselves, why would they drag aunts into it? Be careful of pig butchering scams."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "普通人，有好事，不排队",
+          "en": "Ordinary people, if there is a good thing, don't line up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "量化是大户干的事情，个人就算了吧，毕竟量化本身也有成本，ai 也是要花钱的",
+          "en": "Quant is something that big players do, individuals should forget about it, after all, quant itself has costs, and AI also costs money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "幻方量化挣钱，你有钱你也买不到到名额",
+          "en": "High-Flyer Quant makes money, even if you have money, you can't buy a spot."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@redmoonisnil 你先看看数据…high flyer 24 年真的只是还行而已",
+          "en": "@redmoonisnil You should look at the data first... High Flyer in 2024 is really just okay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@c0t 我的意思是幻方是挣钱的，但是他要控制基金规模，不是谁都可以买进去的。",
+          "en": "@c0t I mean High-Flyer makes money, but they want to control the size of the fund, not just anyone can buy in."
+        },
+        {
+          "zh": "他挑你，不是你选他",
+          "en": "They choose you, you don't choose them."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这种天上掉馅饼的事，大概率是骗局",
+          "en": "This kind of pie-in-the-sky thing is likely a scam."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

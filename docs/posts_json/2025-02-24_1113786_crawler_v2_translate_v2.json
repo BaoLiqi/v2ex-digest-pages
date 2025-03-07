@@ -1,0 +1,299 @@
+{
+  "id": 1113786,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "最基础的 go 并发编程题，难倒了 90%的候选人",
+          "en": "The most basic Go concurrency programming question stumped 90% of the candidates."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "两个 goroutine 用 channel 通信，一个 goroutine 顺序发送 0,1,2,3,4 个数字，另一个 goroutine 接收并输出。\r\n",
+          "en": "Two goroutines communicate using a channel. One goroutine sequentially sends the numbers 0, 1, 2, 3, 4, and the other goroutine receives and outputs them.\r\n"
+        },
+        {
+          "zh": "考察了 goroutine 的控制、channel 的关闭等基础知识，面试者写的代码各种问题。\r\n\r\n",
+          "en": "It tests basic knowledge such as goroutine control and channel closing. The code written by the interviewees had various problems.\r\n\r\n"
+        },
+        {
+          "zh": "1. 有的 goroutine 还没启动程序就退出了，提示后仍想不到使用 waitgroup ，context ，done channel 等手段，而是用 time sleep 等待；\r\n",
+          "en": "1. Some goroutines exited before the program even started. After being prompted, they still couldn't think of using waitgroup, context, done channel, etc., and instead used time.sleep to wait;\r\n"
+        },
+        {
+          "zh": "2. 有的 channel 不知道由生产者关闭，直接在主程序生产者还未发送结束就关闭结果 panic ；\r\n",
+          "en": "2. Some channels were not closed by the producer. They were directly closed in the main program before the producer finished sending, resulting in a panic;\r\n"
+        },
+        {
+          "zh": "3. 有的不会检查消费者读关闭 channel 的返回值，程序直接死循环死锁。\r\n\r\n",
+          "en": "3. Some did not check the return value of the consumer reading a closed channel, resulting in the program directly entering an infinite loop and deadlock.\r\n\r\n"
+        },
+        {
+          "zh": "上周面试 5 个人只有 1 个人一次写出了执行没问题的代码，有 1 个经过提示也没写出来，剩下的能提示后逐步修改出正确的代码。\r\n\r\n",
+          "en": "Last week, I interviewed 5 people, and only 1 person wrote code that executed without problems on the first try. One person couldn't write it even after being prompted. The rest were able to gradually modify the code to be correct after being prompted.\r\n\r\n"
+        },
+        {
+          "zh": "这个题还是很经典的，不用问 GMP 、垃圾回收算法等八股文，这个题就能看出 go 基础了。",
+          "en": "This question is still very classic. You don't need to ask about GMP, garbage collection algorithms, and other rote memorization questions. This question can reveal the Go fundamentals."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "钓鱼上瘾是病，得治",
+          "en": "Fishing addiction is a disease that needs to be treated."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看了一下，上周那个 “一面出 LRU 算法题算难吗” 的帖子也是你发的。",
+          "en": "I took a look. You also posted the post last week asking, 'Is it difficult to ask an LRU algorithm question in the first interview?'"
+        },
+        {
+          "zh": "老哥你负责面的到底是什么类型岗位呀？",
+          "en": "What type of position are you responsible for interviewing for?"
+        },
+        {
+          "zh": "怎么题目差距好像有点儿大。",
+          "en": "The difference in the questions seems a bit big."
+        },
+        {
+          "zh": "而且说实话，如果给你投简历的人里面，有 80%连 chan 的基础都用不清楚。。。那么你这个岗位面试的时候应该不适合问 LRU 。",
+          "en": "And to be honest, if 80% of the people who submit resumes to you can't even use the basics of chan clearly... then it's probably not appropriate to ask LRU during the interview for this position."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "只能说 op 招聘错方向了，你招的 985 ，211 都是市场里不缺面试机会的那一批。",
+          "en": "It can only be said that the OP is recruiting in the wrong direction. The 985 and 211 graduates you are recruiting are the group that doesn't lack interview opportunities in the market."
+        },
+        {
+          "zh": "如果不是特别热爱代码的，也不会去钻研这些东西，反正 curd 就能轻松把钱拿，下班了打游戏不香吗。",
+          "en": "If they are not particularly passionate about code, they will not delve into these things. Anyway, CRUD can easily make money, so isn't it better to play games after work?"
+        },
+        {
+          "zh": "倒是那些学历低人一等的大专和普本，有少部分人为了在竞争中脱颖而出，可能真会去钻研这种东西，而聪明的 op 已经把这种可能性过滤掉了。",
+          "en": "On the other hand, some of the junior college and general undergraduate students with lower educational backgrounds may actually delve into these things in order to stand out from the competition, but the smart OP has already filtered out this possibility."
+        },
+        {
+          "zh": "至此，面试者百分之 90%不会不是很正常吗",
+          "en": "Therefore, isn't it normal that 90% of the interviewees don't know it?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "薪资给多少？",
+          "en": "How much is the salary?"
+        },
+        {
+          "zh": "薪资低那就 “门当户对” 了，挺好的。",
+          "en": "If the salary is low, then it's 'well-matched,' which is good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你也别有莫名的优越感然后老来收铜币；",
+          "en": "Don't have a sense of inexplicable superiority and then collect copper coins when you're old;"
+        },
+        {
+          "zh": "先用务实标准筛选一下吧，统招本科四六级，3 年经验之类的",
+          "en": "First, screen with pragmatic criteria, such as a full-time bachelor's degree, CET-4/6, and 3 years of experience, etc."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "天天发这些，不会是想转自媒体吧",
+          "en": "Posting these every day, are you planning to switch to self-media?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ForkNMB 其实招人的， 如果自己没有看过这题没有准备， 拿这题考他自己， 也会被筛出局。",
+          "en": "@ForkNMB Actually, if the recruiter themselves hasn't seen this question or prepared for it, they will also be filtered out if they use this question to test themselves."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我面试也问这个题目。",
+          "en": "I also ask this question in interviews."
+        },
+        {
+          "zh": "感觉和 hr 相关，很多 hr 只看背景，不懂技术，找一堆人过来就 90%都写不出来。",
+          "en": "I feel like it's related to HR. Many HR only look at the background and don't understand technology. They bring a bunch of people over, and 90% of them can't write it."
+        },
+        {
+          "zh": "我现在这里 hr 比较专业，基本上一半的人能写出来的。",
+          "en": "The HR here is more professional now. Basically, half of the people can write it."
+        },
+        {
+          "zh": "想来也是搞笑，这些连个协程通信都写不明白的人，讲起垃圾回收，数组扩容，乐观锁悲观锁却能头头是道",
+          "en": "It's also funny that these people who can't even write a goroutine communication can talk eloquently about garbage collection, array expansion, optimistic locking, and pessimistic locking."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "拿我得指出哥们候选人真的有问题吧, 这, 这不是完全不会嘛...",
+          "en": "Then I have to point out that your candidates really have a problem, this, this is completely clueless..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "golang 的精髓不就是并发吗？",
+          "en": "Isn't concurrency the essence of Golang?"
+        },
+        {
+          "zh": "这都没掌握，等于没学",
+          "en": "If you haven't mastered this, it's like you haven't learned it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对于你的状态来考他们不合格，那反过来他们提问题考验你你有信心通过吗？",
+          "en": "If they are unqualified based on your status, do you have the confidence to pass if they ask you questions to test you in return?"
+        },
+        {
+          "zh": "单个问题并不能说明人的整体能力",
+          "en": "A single question cannot explain a person's overall ability."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "package mainimport (\t\"fmt\"\t\"sync\")func main() {\tsw := sync.WaitGroup{}\tsw.Add(1)\tch := make(chan int)\tgo func() {\t\tfor i := 0; i < 5; i++ {\t\t\tch <- i\t\t}\t\tclose(ch)\t}()\tgo func() {\t\tdefer sw.Done()\t\tfor i := range ch {\t\t\tfmt.Println(i)\t\t}\t}()\tsw.Wait()\tfmt.Println(\"done\")}",
+          "en": "package main\nimport (\n\t\"fmt\"\n\t\"sync\"\n)\n\nfunc main() {\n\tsw := sync.WaitGroup{}\n\tsw.Add(1)\n\tch := make(chan int)\n\tgo func() {\n\t\tfor i := 0; i < 5; i++ {\n\t\t\tch <- i\n\t\t}\n\t\tclose(ch)\n\t}()\n\tgo func() {\n\t\tdefer sw.Done()\n\t\tfor i := range ch {\n\t\t\tfmt.Println(i)\n\t\t}\n\t}()\n\tsw.Wait()\n\tfmt.Println(\"done\")\n}"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://go.dev/play/p/Te_KHn3sWYN 只用 channel 实现大哥，你们公司在哪个城市，我想去",
+          "en": "https://go.dev/play/p/Te_KHn3sWYN Only use channels to implement it, bro. Which city is your company in? I want to go."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "> 2. 有的 channel 不知道由生产者关闭，直接在主程序生产者还未发送结束就关闭结果 panic ；这种面试题用一个 chan 可以，但但就这个面试题的功能的话似乎就没必要俩协程了，不需要用俩协程也就不需要用 chan 了。",
+          "en": "> 2. Some channels are not closed by the producer and are closed directly in the main program before the producer has finished sending, resulting in a panic; this type of interview question can use one channel, but for the function of this interview question, it seems unnecessary to have two coroutines, and if two coroutines are not needed, then a channel is not needed."
+        },
+        {
+          "zh": "所以这种题如果出给我、只是纸面作答、我是不知道怎么答只能空着，因为需求不合理。",
+          "en": "So if this kind of question is given to me and it's just a written answer, I don't know how to answer it and can only leave it blank because the requirements are unreasonable."
+        },
+        {
+          "zh": "很多基础场景生产者不是唯一的，可能会是并发多协程会生产，所以通常是应该把用于发送的和用于关闭的分开两个 chan 、用于 close 的 chan 再配个 atomic compareandswap ，避免用单个 chan 、某个地方关闭后、其他协程还在给 chan 发数据直接就 panic 了，一些粗暴的实现直接 recover 这种 panic 虽然也问题不大但毕竟它不是个好的处理方式、比如还得纠结 panic recover 是否再给调用者一个 ErrClosed 返回，还是两个 chan 好些。",
+          "en": "In many basic scenarios, the producer is not the only one. There may be multiple concurrent coroutines producing, so it is usually better to separate the channel used for sending and the channel used for closing with two separate chans, and the chan used for closing can be paired with an atomic compareandswap to avoid using a single chan, as closing it in one place can cause other coroutines to panic when they are still sending data. Some rough implementations directly recover from this panic, which is not a big problem, but it's not a good approach. For example, you still have to consider whether panic recover should return an ErrClosed to the caller, or whether it's better to have two chans."
+        },
+        {
+          "zh": "另外，如果不需要清理 chan 内遗留的数，chan 本身用完之后是不需要 close 的。",
+          "en": "Also, if you don't need to clean up the remaining numbers in the chan, the chan itself doesn't need to be closed after it's used."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "time.sleep……",
+          "en": "time.sleep......"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果说从通过率分布的角度来定义 题的难度的话 90% 应该算 hard",
+          "en": "If you define the difficulty of a question from the perspective of the passing rate distribution, 90% should be considered hard."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然知道应该使用 waitgroup ，但是， \"time sleep \" 没解决没执行完就退出这个问题么？",
+          "en": "Although I knew I should use waitgroup, didn't \"time sleep\" solve the problem of exiting before it's finished?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这个不叫 go 基础，就是个编程基础。",
+          "en": "This isn't called Go fundamentals; it's just programming fundamentals."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以用第三方库不，我脑子已经被 conc 惯坏了，只记得起 conc 的 WaitGroup ， 系统的 WaitGroup  好像属于 sync 包。",
+          "en": "Can I use third-party libraries? My brain has been spoiled by conc. I only remember conc's WaitGroup. The system's WaitGroup seems to belong to the sync package."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fruitmonster time sleep 只是降低出现这个问题的概率，并没有解决问题。",
+          "en": "@fruitmonster time.sleep only reduces the probability of this problem occurring; it doesn't solve the problem."
+        },
+        {
+          "zh": "如果操作是请求 api 或者其他耗时操作，要 sleep 多久？",
+          "en": "If the operation is requesting an API or other time-consuming operation, how long should you sleep?"
+        },
+        {
+          "zh": "这种方式不好的，还是得 wait group 或者其他方式来同步",
+          "en": "This method is not good; you still have to use wait group or other methods to synchronize."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

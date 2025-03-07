@@ -1,0 +1,219 @@
+{
+  "id": 1109239,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "美的净水器是什么神仙 pcdn",
+          "en": "What kind of magical PCDN is the Midea Water Purifier?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "家里小水管，上下行都吃紧，自己也没做什么管理，只有卡了连进路由，一个一个点点上传下载猜猜谁在占带宽",
+          "en": "My home's small internet connection is struggling with both upload and download speeds. I haven't really managed it, just blocked connections in the router and tried to guess who was hogging the bandwidth by checking upload/download speeds one by one."
+        },
+        {
+          "zh": "\r\n\r\n几个月前某次卡了，发现上行顶满了 4M/s ，没看出是哪个设备，给它禁了 mac 地址上网，之后一直相安无事",
+          "en": "\r\n\r\nMonths ago, I experienced a slowdown, found the upload speed capped at 4M/s, couldn't figure out which device it was, so I blocked its MAC address from accessing the internet, and everything was fine afterwards."
+        },
+        {
+          "zh": "\r\n\r\n过年期间，老爹说净水器一直提示 dts70 多，是不是坏了，我打开 app 一看找不到净水器，折腾半天想起来，打开路由管理把净水器从黑名单放出来，连上网，冲洗，好了",
+          "en": "\r\n\r\nDuring the Spring Festival, my dad said the water purifier kept showing a DTS of over 70, wondering if it was broken. I opened the app and couldn't find the water purifier. After messing around for a while, I remembered to go to the router management interface, remove the water purifier from the blacklist, connect it to the internet, flushed it, and it was fine."
+        },
+        {
+          "zh": "\r\n\r\n昨天下班回到家，爹妈说连不上网，抖音都卡，媳妇说啥也打不开，一瞅路由，上传又顶满了",
+          "en": "\r\n\r\nYesterday, when I got home from work, my parents said they couldn't connect to the internet, Douyin (TikTok) was lagging, and my wife said she couldn't open anything. I checked the router and the upload speed was maxed out again."
+        },
+        {
+          "zh": "\r\n\r\n而且 TPLink 的垃圾路由不能关 Upnp ，这家伙给我在路由上开了 50 多个端口，nas 都给我顶下线了...",
+          "en": "\r\n\r\nAnd TPLink's garbage router can't turn off Upnp. This thing opened over 50 ports on my router, and even took my NAS offline..."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "谁说小水管不能冲浪的🐶",
+          "en": "Who said you can't surf the web with a small internet connection? 🐶"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@laikick #7",
+          "en": "@laikick #7"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@laikick 出了问题就怪国产？",
+          "en": "@laikick Blaming domestic products as soon as there's a problem?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@tolbkni 你是国产的. 我是我爸妈生的. 谢谢",
+          "en": "@tolbkni You are made in China. I was born to my parents. Thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@FreddyLiu #12 不是出了问题怪国产，是国产的就这逼样，谁买谁活该",
+          "en": "@FreddyLiu #12 It's not blaming domestic products when there's a problem, it's that domestic products are just like this. Whoever buys them deserves it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "图便宜买国产是这样的",
+          "en": "That's what happens when you buy domestic products to save money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "[一位自称「金融科技极客」的网友 Johnie 在  X （前 Twitter ）上发布了一则推文：“WTF ！为什么我的 LG 洗衣机每天要用 3.6GB 数据？”] 物联网设备被黑客攻击经常发生",
+          "en": "[A netizen Johnie, who called himself a \"FinTech Geek\", posted a tweet on X (formerly Twitter): \"WTF! Why does my LG washing machine use 3.6GB of data every day?\"] IoT devices are often hacked."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你把这个设备加到 guest 网络，然后 guest 网络设置 1Mbps 限制",
+          "en": "Add this device to the guest network, and then set a 1Mbps limit for the guest network."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "之前我的小米电饭煲有一个月上传 2T ，找了客服报了 mac 就好了，说是 bug 了，咱也不知道真假",
+          "en": "Previously, my Xiaomi rice cooker uploaded 2TB in a month. I contacted customer service, reported the MAC address, and it was fixed. They said it was a bug, but I don't know if it's true."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@laikick #52 好骂。论坛里不知道有多少国产的孤儿天天以己度人",
+          "en": "@laikick #52 Good one. I don't know how many domestic orphans there are on the forum who project their own assumptions onto others every day."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不会被当肉鸡了吧？",
+          "en": "Could it have been turned into a botnet?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "净水器那点内存和硬盘，没法当 PCDN 吧，被当肉鸡做跳板了？",
+          "en": "Water purifiers have so little memory and hard drive space, they can't be used as PCDN, right? Was it taken over to be used as a springboard (botnet)?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "啧啧，有水冷可以超频的 PCDN",
+          "en": "Tsk tsk, a PCDN with water cooling for overclocking."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@LanhuaMa 你和 @laikick 就是 V 站两大 NC ，没看到 18 楼？",
+          "en": "@LanhuaMa You and @laikick are the two biggest idiots on V2EX, didn't you see comment #18?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "极大概率是被黑掉当肉鸡了",
+          "en": "Most likely it was hacked and used as a botnet."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "也是美的，我查了下最近 7 天无任何上传和下载记录。另外怎么做到路由器上开那么多端口的？",
+          "en": "Mine is also Midea. I checked and there are no upload or download records for the last 7 days. Also, how did it open so many ports on the router?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "路由器的问题，以前有个人电饭锅上传几个 T",
+          "en": "It's a router problem. Someone's rice cooker uploaded several TB before."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mc2tap #66 确实楼上那位连对线的必要都没有。。。。",
+          "en": "@mc2tap #66 Indeed, there's no need to even argue with the person above...."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "此事在百度音响与 dnspod 创始人 中就有记载https://www.landiannews.com/archives/101201.html![]( )",
+          "en": "This matter is recorded in the story of Baidu speakers and the founder of dnspod: https://www.landiannews.com/archives/101201.html![]( )"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我特别讨厌洗衣机 电冰箱这些不需要频繁设置的去链接 WiFi ，神经病一样",
+          "en": "I especially hate it when washing machines, refrigerators, and other devices that don't need frequent configuration connect to WiFi. It's like they're crazy."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": 1108703,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "吐槽一下 Nest.js 太复杂了",
+          "en": "Complaining that Nest.js is too complex"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "正在写个项目, 模块一多心智负担较大。",
+          "en": "Currently writing a project, the mental burden is large when there are too many modules."
+        },
+        {
+          "zh": "\r\n\r\n略微吐槽一下,简直是现实版茴字有几种写法。",
+          "en": "\r\n\r\nSlightly complaining, it's like the real-world version of 'how many ways are there to write the character 回'."
+        },
+        {
+          "zh": "\r\n\r\n1.把中间件拆成 Middleware,Guards,Interceptors,Exception,Pipes, 并且他们都能获取请求上下文(Request, Response), 并且有不同的顺序, 但同类别内也有顺序, 并且生命周期是如此的繁琐。",
+          "en": "\r\n\r\n1. Split the middleware into Middleware, Guards, Interceptors, Exception, Pipes, and they can all get the request context (Request, Response), and they have different orders, but there are also orders within the same category, and the life cycle is so complicated."
+        },
+        {
+          "zh": "\r\n\r\n[https://docs.nestjs.com/faq/request-lifecycle]( https://docs.nestjs.com/faq/request-lifecycle)",
+          "en": "\r\n\r\n[https://docs.nestjs.com/faq/request-lifecycle]( https://docs.nestjs.com/faq/request-lifecycle)"
+        },
+        {
+          "zh": "\r\n\r\n2.封装一个三方 API 花样太多了。",
+          "en": "\r\n\r\n2. There are too many tricks to encapsulate a third-party API."
+        },
+        {
+          "zh": "\r\n\r\n单独的 Service, Providers, Dynamic Module, ConfigurableModuleClass",
+          "en": "\r\n\r\nSeparate Service, Providers, Dynamic Module, ConfigurableModuleClass"
+        },
+        {
+          "zh": "\r\n\r\n这里面还有分 Sync 和 Async 导入, Global 模块。",
+          "en": "\r\n\r\nThere are also Sync and Async imports, and Global modules."
+        },
+        {
+          "zh": "\r\n\r\n3.模块系统是 Angular 那一套, 注册繁琐, 还会出现循环依赖。",
+          "en": "\r\n\r\n3. The module system is the same as Angular's, the registration is tedious, and circular dependencies will also occur."
+        },
+        {
+          "zh": "\r\n\r\n\r\n心智负担比 Spring Boot 高太多了。",
+          "en": "\r\n\r\n\r\nThe mental burden is much higher than Spring Boot."
+        },
+        {
+          "zh": "\r\n\r\nJS 的后端框架不像前端那样卷, 真希望能出个好用的。",
+          "en": "\r\n\r\nJS's backend framework is not as competitive as the frontend. I really hope a good one comes out."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "要么 express, 要么 koa, 有心思搞 nest 那套我干嘛不上 Java 呢....",
+          "en": "Either express or koa, if I'm going to bother with the Nest stuff, why don't I just use Java...."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Nest.js 是用在大型后端项目上的，比如几十个人在同一个仓库上迭代，屎山要堆也堆在各自的 module / provider / controller 里面。",
+          "en": "Nest.js is used in large-scale backend projects, such as dozens of people iterating in the same repository, and even if a mess is created, it will be in their respective module / provider / controller."
+        },
+        {
+          "zh": "或者是做乙方，同样的产品针对不同的甲方要搞不同的定制化，这时候 nestjs 的 DI 就非常好用。",
+          "en": "Or, when working as Party B, the same product requires different customizations for different Party A clients, in which case nestjs's DI is very useful."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "spring boot 人称小 Nest.js",
+          "en": "Spring Boot is known as the small Nest.js"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "express 含金量并未下降",
+          "en": "The value of Express has not decreased"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不喜欢 spring boot 的人同样不会喜欢 nest.",
+          "en": "People who don't like Spring Boot won't like Nest either."
+        },
+        {
+          "zh": "我自己 node.js 项目不会太复杂, 复杂项目会直接用 rust 来写, 为啥要用 node.js 写复杂后端项目啊.",
+          "en": "My own Node.js projects are not too complex. I will directly use Rust to write complex projects. Why use Node.js to write complex backend projects?"
+        },
+        {
+          "zh": "逻辑是一样的, 我从来没用过 DI 这种东西.",
+          "en": "The logic is the same, I have never used DI or those kinds of things."
+        },
+        {
+          "zh": "现在的趋势(以及我个人一直的偏好)是简单化, 就像做 agent 开发, 不用 langchain, 直接用最简单的抽象, 基于 api 进行调用.",
+          "en": "The current trend (and my personal preference) is simplification, just like doing agent development, without using Langchain, directly using the simplest abstraction, based on API calls."
+        },
+        {
+          "zh": "另外, 后端新手上来就用 nest 绝对不好, 绝对会让他觉得后端很难的印象.",
+          "en": "In addition, it's definitely not good for backend beginners to start with Nest, it will definitely give them the impression that the backend is difficult."
+        },
+        {
+          "zh": "其实很多抽象, 概念都没必要.",
+          "en": "In fact, many abstractions and concepts are not necessary."
+        },
+        {
+          "zh": "直接根据业务写代码即可.",
+          "en": "Just write code according to the business."
+        },
+        {
+          "zh": "我之前用 hono + bun 写了一个服务, 可以参考 https://github.com/Akagi201/hono-template",
+          "en": "I previously used hono + bun to write a service, you can refer to https://github.com/Akagi201/hono-template"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也用不习惯 nestjs ，最后选了小巧的 fastify",
+          "en": "I'm not used to nestjs either, and finally chose the small fastify"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "所以我用了轻量版的 routing-controllers ，一样的 declarator-based 语法，但没有了那些用不上的概念。",
+          "en": "So I used the lightweight version of Routing-Controllers, the same declarator-based syntax, but without those unnecessary concepts."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kenberkeley declarator-based ？ decorator-based ？",
+          "en": "@kenberkeley declarator-based? decorator-based?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不想恶意攻击，但是评论区很多把 nestjs 看成 nextjs 的真的难绷，名字看错了就算了，内容也不看？",
+          "en": "I don't want to attack maliciously, but it's really hard to hold back when many people in the comments section see nestjs as nextjs. It's okay to misread the name, but don't even look at the content?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议直接让 cursor 给你写哈哈",
+          "en": "Suggest letting cursor write it for you directly, haha"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚接触前段框架这一套，给我的感觉就是前端框架的写法太多太灵活，上手虽然没那么难，但搞懂真挺麻烦的。",
+          "en": "Having just come into contact with this set of front-end frameworks, my feeling is that there are too many and too flexible ways to write them. It's not that difficult to get started, but it's really troublesome to understand."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我感觉这种架构面向的是大型项目。",
+          "en": "I feel that this architecture is geared towards large projects."
+        },
+        {
+          "zh": "平常 crud express 足够了",
+          "en": "Normally, CRUD Express is enough"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "op ，你还上不上 next.js ， 客户等着交付呢。。。赶紧的。",
+          "en": "OP, are you still using Next.js? The client is waiting for delivery... hurry up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "expressjs 公司内部定制一下 , 够了，在上个请求并发分流 全局 session , 其他看什么加什么得了 短小有力",
+          "en": "Customize expressjs internally within the company, that's enough, add request concurrency shunting and global session, and add anything else as needed. Short, powerful, and effective."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@JiRouWaZi 而前端, 我记得 react 远古时期手动绑定 this 、还有其他奇奇怪怪的很多写法；但 我觉得状态管理器和有些东西还是挺有价值的",
+          "en": "@JiRouWaZi As for the front-end, I remember that in the early days of React, there were manual binding of 'this' and many other strange ways of writing; but I think state managers and some other things are still very valuable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SoyaDokio #2 这明明是后端框架, 怎么到你这就成了前端框架了?",
+          "en": "@SoyaDokio #2 This is clearly a backend framework, how did it become a frontend framework with you?"
+        },
+        {
+          "zh": "和语言绑定了, 是 JS 就全都得叫前端框架?",
+          "en": "Is it bound to the language? Does everything that's JS have to be called a frontend framework?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同感，感觉 next.js 太复杂，但又没有好的支持服务器渲染和静态生成的库。",
+          "en": "Same feeling, Next.js feels too complex, but there are no good libraries that support server-side rendering and static generation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是啊，我就无法理解，JS 这么牛逼的语言，一个后端框架怎么就不能根据装饰器自动注册，非要手动 import",
+          "en": "Yeah, I just can't understand, JS is such an awesome language, why can't a backend framework automatically register based on decorators, why force manual imports?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@me1onsoda 之前读 Rails 项目代码经常迷路，所以我不觉得自动注册是好的实践。",
+          "en": "@me1onsoda I used to often get lost when reading Rails project code, so I don't think automatic registration is a good practice."
+        },
+        {
+          "zh": "显式 import 可读性提高很多",
+          "en": "Explicit import improves readability a lot"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@andrew2558 nest 非 next 😆",
+          "en": "@andrew2558 nest, not next 😆"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

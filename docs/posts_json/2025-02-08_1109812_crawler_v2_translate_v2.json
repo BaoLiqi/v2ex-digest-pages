@@ -1,0 +1,235 @@
+{
+  "id": 1109812,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "🆘 **紧急求助！误删服务器数据，求支招！**",
+          "en": "🆘 **Emergency Help! Mistakenly deleted server data, seeking advice!**"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "今天手滑在 Linux 服务器上误用了 rsync 命令，把一块 ext4 格式和 xfs 格式的硬盘的/root 目录删了...😭",
+          "en": "Today, I accidentally used the rsync command on a Linux server and deleted the /root directory of a hard drive with ext4 and xfs formats...😭"
+        },
+        {
+          "zh": "\r\n硬盘已经卸载",
+          "en": "The hard drive has been unmounted."
+        },
+        {
+          "zh": "\r\n江湖救急！！！",
+          "en": "Emergency help needed!!!"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这也有 ai 警察啊，这种坏比，就是上学被人狠揍爱告老师的货，谁现实中跟这种人倒大霉了",
+          "en": "There are AI police here too. This kind of bad person is the type who gets beaten up in school and likes to tell the teacher. Whoever encounters this kind of person in reality is really unlucky."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@tagtag 哈哈，像是太君来了，两位进步人士，争谁是先发挥带路作用的人，逗死了",
+          "en": "@tagtag Haha, it's like the Japanese are here. Two progressive people are arguing about who will be the first to play the role of a guide. It's hilarious."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别的地方有可能，这里谁不会用 AI ？ ChatGPT 都开放匿名使用了，再说国产的也一堆需要你来问？而且上面那又臭又长的一大段他自己估计都没看一眼就复制粘贴了。",
+          "en": "It's possible elsewhere, but who here doesn't know how to use AI? ChatGPT is available anonymously, and there are plenty of domestic ones. Besides, that long, stinky paragraph above, he probably didn't even look at it before copy-pasting it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这世上就是有的人不愿意帮别人百度一下，却很乐意举报别人😁",
+          "en": "There are just some people in this world who are unwilling to help others search on Baidu, but are happy to report them.😁"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Livid #2 AI",
+          "en": "@Livid #2 AI"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@caiyuyu #19 谁不会问 AI, 需要你把答案贴出来污染环境?",
+          "en": "@caiyuyu #19 Who doesn't know how to ask AI? Do you need to paste the answer here and pollute the environment?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就是有人不会问 ai ，人家好心帮回答，也说明了 ai 生成的吵着举报的上学没少打小报告吧",
+          "en": "It's just that some people don't know how to ask AI. Someone kindly helped answer, which also shows that those who clamor to report AI-generated content probably tattled a lot in school."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Lirika 这不是至于不至于问题，是意识问题。他的回答只能看的出很有热心，但是并不能帮楼主直接解决问题。相当于一个不会游泳的人教一个不会游泳的家长下水去就他孩子一样。相比较，如果数据很重要，楼上很多人说直接花钱找专业的人恢复的建议更加可靠。",
+          "en": "@Lirika This isn't a matter of whether it's worth it or not, it's a matter of awareness. His answer only shows enthusiasm, but it can't directly help the original poster solve the problem. It's like someone who can't swim teaching a parent who can't swim to go into the water to save their child. In comparison, if the data is very important, the suggestion from many people upstairs to spend money to find a professional to recover it is more reliable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Livid   输入框 placeholder 添加禁止 ai 回复的警示语吧， 有可能别人根本不知道",
+          "en": "@Livid Add a warning message to the input box placeholder prohibiting AI replies. It's possible some people don't even know about it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@PROJECT #84 你在这里的说法十分伟光正，但是你在#32 的回复让你像一个小丑",
+          "en": "@PROJECT #84 Your statement here is very politically correct and righteous, but your reply in #32 makes you look like a clown."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@PROJECT 至于嘛，别人好心贴下记录，又不是故意地，非要举报？",
+          "en": "@PROJECT Is it necessary? Someone kindly posted a record, it wasn't intentional, why do you have to report them?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Livid #2 AI 回复",
+          "en": "@Livid #2 AI reply"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@liuzemin0607 这也不是 ai 警察的问题吧，主要是贴了一个又臭又长还没有验证过的东西，这和以前那些喜欢在评论区复制一大段段子灌水的人没什么区别",
+          "en": "@liuzemin0607 This isn't an issue of AI police, it's mainly about posting something long, stinky, and unverified. It's no different from those who used to copy and paste long jokes in the comments to flood the forum."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Livid 发个 AI 回答还能被彻底 ban ？过分了，最起码来个警告",
+          "en": "@Livid Can you be completely banned for posting an AI answer? That's too much. At least give a warning."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@caiyuyu 你是喜欢顶风作案的。以前站长直接删号，没公告 我还感觉不太合适，现在都公告了。",
+          "en": "@caiyuyu You like to go against the grain. Before, the administrator directly deleted accounts without an announcement, which I felt was inappropriate. Now it's announced."
+        },
+        {
+          "zh": "![1738999151962.png]( https://s1.locimg.com/2025/02/08/9200b12c376b1.png)op 别整了，你的数据价值估计没有你恢复的成本高。",
+          "en": "![1738999151962.png]( https://s1.locimg.com/2025/02/08/9200b12c376b1.png) OP, don't bother. The value of your data is probably not as high as the cost of recovering it."
+        },
+        {
+          "zh": "碰到这种重大事故，第一时间跟领导汇报，能落一个宽大处理。",
+          "en": "In the event of such a major accident, report to the leadership immediately for lenient treatment."
+        },
+        {
+          "zh": "之前我们组有个哥，数据删了，不是要命的数据，也就那样。",
+          "en": "Before, we had a guy in our group who deleted data, not life-threatening data, but it was like that."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@PROJECT #18@Livid 建议把不允许直接使用 AI 回复的指引做更明显些, 有不少用户可能并不知道有这个规定, 甚至是老用户.",
+          "en": "@PROJECT #18 @Livid I suggest making the guidelines against directly using AI replies more obvious. Many users may not know this rule, even long-time users."
+        },
+        {
+          "zh": "或者, 第一次封禁一周, 第二次再永久封禁, 人非圣贤, 何况不知",
+          "en": "Or, a one-week ban for the first offense, and a permanent ban for the second offense. To err is human, especially when unaware."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mingtdlb #27 刚开始那段时间好像站长有发公告帖子禁止这个, 但很多人没看到; 创建新主题有提示, 但是回帖的时候没有这个提示.",
+          "en": "@mingtdlb #27 In the beginning, it seems the administrator posted an announcement prohibiting this, but many people didn't see it. There's a prompt when creating a new topic, but not when replying."
+        },
+        {
+          "zh": "所以, 很多人可能仍然并不知道有这个规定.",
+          "en": "So, many people may still not know this rule."
+        },
+        {
+          "zh": "很多人被封时一脸懵逼, 被封了才知道有这个规定但为时已晚",
+          "en": "Many people are stunned when they get banned, and only find out about the rule after being banned, but it's too late."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已经提前将某些人 block 了，感觉像是会举报同事摸鱼的人",
+          "en": "I've already blocked some people in advance, it feels like they're the type to report colleagues for slacking off."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "至少警告一下吧，第二次再犯就 ban ，一言不合就 ban 不太合适…… @Livid",
+          "en": "At least give a warning, ban on the second offense. Banning without warning isn't appropriate... @Livid"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@PROJECT #18 看他其他回复基本没用 ai ，人自己不知情的情况下还要举报当 ai 警察，你这种人现实也是舔老板臭脚内斗同事的吧，遇到赶紧远离",
+          "en": "@PROJECT #18 Looking at his other replies, he basically didn't use AI. You're reporting someone as an AI police even when he himself is unaware. You're probably the type in reality who sucks up to the boss and engages in internal strife with colleagues. Stay far away when you encounter this kind of person."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 1114000,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "正在自主开发一款 markdown 所见即所得编辑器，希望大家可以给些建议（需求、优化、体验、未来方向）",
+          "en": "I am independently developing a markdown WYSIWYG editor, and I hope everyone can give some suggestions (requirements, optimization, experience, future direction)"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "- 轻量高性能所见即所得编辑\r\n  - 50000 行 markdown 文本编辑流畅无卡顿\r\n  - 可替换任意文本输入框，具备 markdown 富文本能力\r\n- 高性能手机端支持\r\n- AI 输入支持，可增量渲染 AI 输出的 markdown 文本\r\n- 支持纯文本数据或 CRDT 协同数据存储\r\n\r\n[demo]( https://www.domd.app/)   [vscode 插件]( https://marketplace.visualstudio.com/items?itemName=Jayden.wysiwyg&ssr=false#overview)",
+          "en": "- Lightweight, high-performance WYSIWYG editing\r\n  - Smooth editing of 50,000-line markdown text without lag\r\n  - Can replace any text input box, with markdown rich text capabilities\r\n- High-performance mobile support\r\n- AI input support, incremental rendering of AI-output markdown text\r\n- Supports plain text data or CRDT collaborative data storage\r\n\r\n[demo]( https://www.domd.app/)   [vscode plugin]( https://marketplace.visualstudio.com/items?itemName=Jayden.wysiwyg&ssr=false#overview)"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一出来就是黑色的背景，我还以为你网站  卡了",
+          "en": "The background is black as soon as it appears, and I thought your website was stuck"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "官网上可以加个 placeholder ，不然以为没刷出来",
+          "en": "You can add a placeholder to the official website, otherwise people might think it hasn't loaded"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1. 对中文写作友好2. 支持微信公众号文章编辑和输出3. 支持思维导图",
+          "en": "1. Friendly to Chinese writing 2. Supports WeChat official account article editing and output 3. Supports mind maps"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实现在是缺一款 Ui 新颖，功能能覆盖日常绝大多数场景的文档编辑器",
+          "en": "Actually, what's missing now is a document editor with a novel UI and functions that can cover most everyday scenarios"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jaydenWang 这是我在网上随便搜的一个 markdown 示例（我刚刚也是用的这个），https://gist.github.com/AlanDecode/7d31f3fac75b698ff1fa67240c56832 ， 拷贝内容到上面的 demo 网站中， 就会发现几个问题：1 ）三四五六级标题渲染都不对 2 ）表格没有渲染出来 3 ）无序列表前面没有那个标识（黑点后者空心圆点） 4 ） 有序列表中数字 父级别和子一级别的数字是不是应该区分一下？ 比如夫是 1 ， 子是 1.1 ，1.2 之类的 5) 那个 \"梨“ 前面的 * 号没有识别 6) 块引用似乎没有支持 7 ） 觉得应该支持的功能： 代码语法高亮， 数学公式。",
+          "en": "@jaydenWang This is a markdown example I randomly searched online (I just used this too), https://gist.github.com/AlanDecode/7d31f3fac75b698ff1fa67240c56832, copy the content to the demo website above, and you will find several problems: 1) The rendering of the third, fourth, fifth, and sixth-level titles is incorrect 2) The table is not rendered 3) There is no indicator (black dot or hollow circle dot) in front of the unordered list 4) Should the numbers in the ordered list distinguish between parent and child levels? For example, the husband is 1, and the child is 1.1, 1.2, etc. 5) The * before the \"pear\" is not recognized. 6) Block quotes do not seem to be supported. 7) Functions that I think should be supported: code syntax highlighting, mathematical formulas."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚刚试出来一个 bug ，以下语法会导致文本消失：<https://example.com>",
+          "en": "Just found a bug, the following syntax will cause the text to disappear: <https://example.com>"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我自己的需求，仅供参考哈1 、快捷键和 typora 保持一致，降低迁移成本2 、方便的图床上传功能3 、支持类似于 obsidian 的 vault 仓库，也支持 typora 的快速编辑单个 MD 文件4 、一些细微操作更符合直觉一点，比如可以在代码块内使用 TAB 快速向后缩进想要的内容而不是默认缩进整行（说的就是你 obsidian ）",
+          "en": "My own needs, for reference only. 1. Keep the shortcuts consistent with typora to reduce migration costs. 2. Convenient image upload function. 3. Support a vault repository similar to obsidian and also support quick editing of single MD files in typora. 4. Some subtle operations are more intuitive, such as using TAB in a code block to quickly indent the desired content backwards instead of the default indentation of the entire line (speaking of you, obsidian)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小试一下发现两个问题1. 代码块不知道怎么选择语言, 输入  就直接进入输入块了2. 超链接不知道是怎么判断输出完的, 比如 [baidu](www.baidu.com). 输到 www. 就直接变成预览状态了另外建议增加个代码主题选择",
+          "en": "I tried it out and found two problems. 1. I don't know how to select the language for the code block, and entering ``` goes directly into the input block. 2. I don't know how to determine when the hyperlink is outputted, for example, [baidu](www.baidu.com). When you enter www., it directly changes to the preview state. Also, I suggest adding a code theme option."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HeMaSchool #1 > 功能能覆盖日常绝大多数场景Microsoft Word 。Ui 新颖是伪需求，用几个月什么 Ui 都也不新颖了",
+          "en": "@HeMaSchool #1 > The function can cover most everyday scenarios Microsoft Word. A novel UI is a false demand; after a few months, no matter what UI, it won't be novel anymore"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "首先给个糖果，大佬还是牛，说动就动了。然后给个巴掌，我就稍微用了一下，不超过 10 个字的那种。1.ctrl+a 之后删除不能全删，还是一个一个删的2.官网进去我一脸懵逼，哪怕我看见了评论之后还是没反应过来，后面大概理解了一下看了看左上角有个光标才知道官网就是一个编辑器3.不知道怎么操作的，有时候官网不能输入任何东西，光标也看不见了。bug 还是挺多的，但是比我这种只说不干的人还是牛逼。嘿嘿 苦笑 呲牙 强颜欢笑 憨笑",
+          "en": "First, give a candy. The big guy is still awesome; he just does it. Then give a slap. I just used it a little bit, no more than 10 words. 1. After ctrl+a, you can't delete everything; you still have to delete one by one. 2. I was dumbfounded when I entered the official website, and I didn't react even after seeing the comments. Later, I understood a little bit and looked at the cursor in the upper-left corner and found out that the official website is an editor. 3. I don't know how to operate it, and sometimes I can't enter anything on the official website, and the cursor is also invisible. There are still a lot of bugs, but it's still awesome compared to people like me who only talk and don't do anything. Hehe, wry smile, grin, forced smile, silly smile"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1. 初始化添加打字机效果，不然刚进来会很懵逼😳2. 支持查看 md 原文，可以快捷键唤起隐藏",
+          "en": "1. Add a typewriter effect on initialization, otherwise it will be very confusing when you first enter 😳 2. Support viewing the original MD text, and you can use a shortcut to call up the hidden text"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我这第一个字符删不掉https://s3.ivanli.cc/ivan-public/uPic/2025/GEGRxP.gif",
+          "en": "I can't delete the first character https://s3.ivanli.cc/ivan-public/uPic/2025/GEGRxP.gif"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能不能用 c++写，原生的 ui 真的比现在的套皮界面快的多的多。搜索功能如果能引入 es 的那种全文模糊搜索就更棒了。给每个 md 文件加标签，可以让 ai 自动增加，然后让编辑者自己添加。这样搜索的时候，再也不怕找不到自己的笔记了。",
+          "en": "Can it be written in C++? Native UI is really much faster than the current skin interface. It would be even better if the search function could introduce the full-text fuzzy search like ES. Add tags to each MD file, which can be automatically added by AI, and then let the editor add them himself. This way, you won't be afraid of not being able to find your notes when searching."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "实话说意见和 #33 一样，想象不出编辑超大 md 的场景，但还是给点建议，都不是啥必需功能，可能做成有开关的形式更好：1. 光标移动到修饰符时展开修饰符：具体效果可以参考下 emacs 插件 org-appear ( https://github.com/awth13/org-appear) 里的动图2. 云端同步：或者允许用户自己设置 webdav 同步3. 表格的全面支持（预览、格式化、补全）：感觉比较大的 md 文档一般都会有一堆表格，具体效果可以参考 vscode 插件 markdowntable ( https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable)，但我其实不太熟悉 WRIWS 的表格应该做成啥样，印象里很多编辑器会在这块做一堆近似富文本的控件4. vim like：类似 ace editor 以及 tiddlywiki 的 vim mode ，只提供基础的模态切换和按键模拟，不用支持配置",
+          "en": "To be honest, my opinion is the same as #33. I can't imagine the scenario of editing a very large MD, but I still give some suggestions. These are not essential functions and may be better implemented as switches: 1. Expand the modifier when the cursor moves to the modifier: You can refer to the animation in the emacs plugin org-appear (https://github.com/awth13/org-appear) for the specific effect 2. Cloud synchronization: Or allow users to set webdav synchronization themselves 3. Comprehensive support for tables (preview, formatting, completion): I feel that large MD documents usually have a lot of tables. For the specific effect, you can refer to the vscode plugin markdowntable (https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable), but I am not actually familiar with what WRIWS tables should look like. I have the impression that many editors will make a bunch of controls that are close to rich text in this area 4. vim like: Similar to ace editor and tiddlywiki's vim mode, only providing basic modal switching and key simulation, without supporting configuration."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "目前发现了一些似乎是 BUG 的东西。暂时没有稳定复现1. Mac 、自带输入法、chrome 浏览器的情况下，中文输入法+enter 输入原始文本，会重复（输入 “# asd” 然后回车，预期是一级标题 asd ，实际是一级标题的 asd 外加单独的一个正文 asd ）2. 上面那种情况下，移动到第一行删除字符“#”，无法恢复样式；即使完全删掉依然是标题样式3. 1 的情况下，从最后（正文 asd 后面）删除，有概率触发 2 ，如果没有触发 2 ，那么重新用英文输入 # asd 会无法换行",
+          "en": "I have found some things that seem to be bugs. There is no stable reproduction yet. 1. In the case of Mac, the built-in input method, and chrome browser, the Chinese input method + enter inputs the original text, and it will be repeated (enter \"# asd\" then press Enter, the expected result is a first-level title asd, and the actual result is a first-level title asd plus a separate body asd). 2. In the above situation, moving to the first line and deleting the character \"#\" will not restore the style; even if it is completely deleted, it is still in the title style. 3. In the case of 1, deleting from the end (after the body asd) has a probability of triggering 2. If 2 is not triggered, then re-entering # asd in English will not be able to wrap lines"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是不是把下划线 _ 给忘了，_ 和 * 一样都是一对斜体，两对加粗此外图片语法好像有点问题，输入 ![]() 之后光标往左到括号里面，一两秒又自动跳出来了",
+          "en": "Did you forget the underscore _? _ and * are both a pair of italics, and two pairs are bold. In addition, the image syntax seems to have some problems. After entering ![](), the cursor goes to the left inside the parenthesis, and it jumps out automatically after a second or two."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上下标 ~1~ ^2^ 语法没支持对 HTML 标签解析有大问题，输入<code>直接消失了还有 GFM 风格提示框也没支持",
+          "en": "Superscript ~1~ ^2^ syntax is not supported, and there are major problems with the parsing of HTML tags. Entering <code> disappears directly. Also, the GFM style prompt box is not supported."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我还以为所见即所得指的是像 Typora 那样不分开编辑区域和预览区域呢",
+          "en": "I thought WYSIWYG meant not separating the editing area and the preview area like Typora"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "报个 bug ，光标在列表的第二列的头部，无法删除这一列",
+          "en": "Report a bug, the cursor is at the head of the second column of the list, and this column cannot be deleted"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hing 看到了官网是 Typora 的编辑模式，但插件的预览图不是",
+          "en": "@hing I saw that the official website is in Typora's editing mode, but the plugin preview is not"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

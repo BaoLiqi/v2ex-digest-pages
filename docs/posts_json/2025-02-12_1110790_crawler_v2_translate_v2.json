@@ -1,0 +1,259 @@
+{
+  "id": 1110790,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "八年前端分享最近两周面试情况",
+          "en": "Frontend engineer with 8 years of experience shares interview experiences from the past two weeks"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "**背景**",
+          "en": "**Background**"
+        },
+        {
+          "zh": "985 非科班，17 年毕业 18 年开始做前端",
+          "en": "985 university, non-computer science major, graduated in 2017 and started doing frontend in 2018"
+        },
+        {
+          "zh": "**工作经历**",
+          "en": "**Work Experience**"
+        },
+        {
+          "zh": "18-19 小公司前端 重庆",
+          "en": "18-19 Frontend at a small company in Chongqing"
+        },
+        {
+          "zh": "19-21 字节前端 上海",
+          "en": "19-21 Frontend at ByteDance in Shanghai"
+        },
+        {
+          "zh": "21-23 美团前端 成都",
+          "en": "21-23 Frontend at Meituan in Chengdu"
+        },
+        {
+          "zh": "23 年  上海某公司呆了一周跑路",
+          "en": "2023 - Ran away after staying for a week at a company in Shanghai"
+        },
+        {
+          "zh": "23-24 快手 nodejs 服务端 北京",
+          "en": "23-24 Node.js backend at Kuaishou in Beijing"
+        },
+        {
+          "zh": "24-25 国外创业公司 ai 全栈 远程",
+          "en": "24-25 AI full-stack at a foreign startup, remote"
+        },
+        {
+          "zh": "**面试结果**",
+          "en": "**Interview Results**"
+        },
+        {
+          "zh": "| 公司      | 介绍 | 结果     |\r\n| :---        |    :----:   |          ---: |\r\n| 海外 xx 电商独角兽      | 推荐算法后端，全问的 C++正好我会       | 已拿 offer 背调中   |\r\n| 海外 xx ai   | ai 画布创业公司，python 后端        | 三面 ceo 完了等通知      |\r\n| 海外 xx 硬件 ai   | ai 硬件应用，python 后端        | 二面过等通知      |\r\n| 海外 xx 人工智能   | 大模型开发+应用后端       | ceo 面过了，给个 homework ，不想搞      |\r\n| 月之暗面   | 大模型应用后端       | 二面挂      |",
+          "en": "| Company | Description | Result |\r\n| :--- | :----: | ---: |\r\n| Overseas xx E-commerce Unicorn | Recommendation algorithm backend, all questions were about C++, which I happen to know | Offer received, background check in progress |\r\n| Overseas xx ai | AI canvas startup, Python backend | CEO interview completed, waiting for notification |\r\n| Overseas xx Hardware AI | AI hardware application, Python backend | Second interview passed, waiting for notification |\r\n| Overseas xx Artificial Intelligence | Large model development + application backend | CEO interview passed, given homework, don't want to do it |\r\n| Moonshot AI | Large model application backend | Failed in the second interview |"
+        },
+        {
+          "zh": "**总结**",
+          "en": "**Summary**"
+        },
+        {
+          "zh": "后面还有好几个面试排着，没啥希望做纯前端了，没希望继续大厂了，感觉职业生涯越来越难",
+          "en": "There are still several interviews scheduled, but there is little hope of doing pure frontend anymore, no hope of continuing in a big company, and it feels like my career is getting harder and harder."
+        },
+        {
+          "zh": "最近 ai 方向的工作机会变多起来了，各位大佬可以开始发力了",
+          "en": "Recently, there have been more job opportunities in the AI direction, so everyone can start working hard."
+        },
+        {
+          "zh": "不知道为啥，国外的机会比国内多，面试通过的几率也比国内高",
+          "en": "I don't know why, but there are more opportunities abroad than in China, and the probability of passing the interview is also higher than in China."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Hakari  创业公司，又是远程，工作量翻几倍，做的多就会了。也可以学下开源的，这部分国内也很先进的，https://github.com/ZJU-LLMs/Foundations-of-LLMs  和这个 https://chenzomi12.github.io/01Introduction/README.html",
+          "en": "@Hakari Startup companies, especially remote ones, multiply the workload. You'll learn a lot by doing more. You can also learn about open source, which is also very advanced in China. https://github.com/ZJU-LLMs/Foundations-of-LLMs and this https://chenzomi12.github.io/01Introduction/README.html"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@murmur #19 标题和正文的差距，犹如我和一条狗。",
+          "en": "@murmur #19 The gap between the title and the body is like the gap between me and a dog."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我是不想被温水煮青蛙那种人，永远是第一个跑路的",
+          "en": "I'm the kind of person who doesn't want to be boiled like a frog in warm water; I'm always the first to run away."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你这嘴上说的是前端，背地面试干的都是后端的活我表示震惊了，只能说大佬履历真的很强，难怪能在现在这种环境下脱颖而出顺道说一嘴：国外机会多，是因为国外比较重科技，吹个 ai 投资的人奇多无比",
+          "en": "You say you're a frontend engineer, but you're secretly interviewing for backend jobs, which shocks me. It can only be said that your resume is really strong, no wonder you can stand out in this environment. By the way, there are more opportunities abroad because foreign countries value technology more, and there are so many people investing in AI."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lneoi ai 的算法或者模型训练，如果没有硕士博士特别厉害的背景可以放弃了。大模型基础的东西基本需要特别聪明的那很少几个人做就行，需求很少。程序员能做的，就是能理解他们做出来的东西，然后做上层应用，比如模型部署微调，怎么和服务集成之类的，本质上也是后端的事情",
+          "en": "@lneoi Forget about AI algorithms or model training unless you have a particularly strong background with a master's or doctoral degree. The basic stuff of large models basically only needs a few very smart people to do, and the demand is very small. What programmers can do is understand what they have done, and then do upper-level applications, such as model deployment and fine-tuning, how to integrate with services, etc., which is essentially a backend thing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zaynex 有两种，在国内招的一般是华人要求不高，我就是找的这种。自己到外网找的，面试都需要英语就要求沟通流畅",
+          "en": "@zaynex There are two types. The ones recruited in China are generally Chinese and the requirements are not high. That's the kind I'm looking for. If you find it on foreign websites, the interviews all require English, so fluent communication is required."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shunia 薪资低大概就是我成为 offer 收割机的原因吧，每次都能拿好多 offer 。。。。。。但是好处是不会失业，也没有 35 危机，毕竟性价比很高。说下做过的项目你就知道性价比了，1. 字节 web infra 前端鸡架，同组的开源项目有 modern.js 和 rspack 等  2. 美团外卖前端业务  3. 快手 C 端后端服务，并发 QPS 达到 20W  ，研究过 nodejs 源码，写过 C++底层优化。。。。后端水平也是面试能拿 offer 的那种。性价比太高了",
+          "en": "@shunia Low salary is probably the reason why I've become an offer harvester. I can always get a lot of offers... But the advantage is that I won't lose my job and there's no 35-year-old crisis, after all, the cost performance is very high. If I tell you about the projects I've done, you'll know the cost performance: 1. ByteDance web infra frontend framework, the open source projects in the same group include modern.js and rspack, etc. 2. Meituan Waimai frontend business 3. Kuaishou C-end backend service, concurrent QPS reaches 20W, studied nodejs source code, wrote C++ low-level optimization... The backend level is also the kind that can get an offer in an interview. The cost performance is too high."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "关于跳槽：我这工作经历还是比较奔放的，远程在家办公薪资也挺高。但还是那句话：看清形势，掌握主动权",
+          "en": "Regarding job hopping: My work experience is relatively open, and the salary for remote work at home is also quite high. But again: see the situation clearly and take the initiative."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉楼主计算机基础挺扎实，而且大场也都待过，本身履历还是很优秀的。海外岗对口语要求高么@qingyingwan",
+          "en": "I feel that the poster has a solid foundation in computer science, and has also worked in big companies, so the resume itself is very good. Are the oral English requirements high for overseas positions? @qingyingwan"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@maxwellz 也会问数据库，消息队列，缓存之类的，如果会 python 并且用过大模型相关的库就更 ok",
+          "en": "@maxwellz They will also ask about databases, message queues, caches, etc. It's even better if you know python and have used large model-related libraries."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Danswerme 还是运气和实力吧。一是那时候还不是特别卷相对容易些，二是那一年自学完了计算机专业的课程，我是把核心的课程都在学堂在线慕课网之类的学了一遍，这个基础也是后面转后端比较顺利的原因",
+          "en": "@Danswerme It's still luck and strength. First, it wasn't particularly competitive at that time, so it was relatively easy. Second, I completed the computer science major courses by self-study that year. I studied all the core courses on Xuetang Online, MOOC, etc. This foundation is also the reason why it was relatively smooth to switch to the backend later."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Bazingal 其实一直在大厂卷几年的话，薪资肯定比现在高些。不过一是一直在大厂做前端的话，彻底失业的风险挺大的，现在很多大厂前端跳槽基本没戏。二是想做自己感兴趣的，想年龄大了也继续写代码，长远来说还是值得的",
+          "en": "@Bazingal In fact, if you keep working hard in a big company for a few years, the salary will definitely be higher than it is now. However, first, if you keep doing frontend in a big company, the risk of complete unemployment is quite high. Now, it is basically impossible for many frontend engineers in big companies to job hop. Second, I want to do what I am interested in, and I want to continue writing code when I get older, so it is worth it in the long run."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Blackricky 算法大部分是中等，遇到过一次困难。我是老早力扣就刷了七八百道了，困难大部分能手写",
+          "en": "@Blackricky Most of the algorithms are medium difficulty, and I encountered one difficult one. I had already solved seven or eight hundred LeetCode problems a long time ago, and I can write most of the difficult ones by hand."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "更新：太忙了没啥空逐个回复了，最近远程的三个 offer 都拿到了并且拒了一个，国内的面试都不太顺利。举个例子：面后端，问我 DI(依赖注入)的知识(我用过，没背标准答案)。我回答一个 C++或者 python 库的一些依赖注入的案例，然而面试官只会 java(其实就是问 spring 那一套)，回答其他的就不在一个频道了。。。。。",
+          "en": "Update: I'm too busy to reply to each one. I recently received three remote offers and rejected one. The interviews in China were not very smooth. For example, in a backend interview, they asked me about DI (dependency injection) knowledge (I've used it, but didn't memorize the standard answer). I answered with some dependency injection cases from C++ or Python libraries, but the interviewer only knew Java (basically asking about the Spring framework), so answering other things was not on the same wavelength..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "老哥水平强呀，顺便请教一下大模型开发都问些啥呀，对技术栈有要求吗",
+          "en": "Your level is high, bro. By the way, what are the questions asked in large model development, and are there any requirements for the technology stack?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ai 方向确实热点，大佬咋学这么多的 AI 知识",
+          "en": "AI is indeed a hot topic. How did you learn so much AI knowledge?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "履历真野，请问海外招聘信息在哪找的",
+          "en": "Your resume is really impressive. Where did you find the overseas recruitment information?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dejaldie boss 直聘+linkedin 翻墙版",
+          "en": "@dejaldie Boss Zhipin + LinkedIn (over the wall version)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "海外这些公司工作强度如何。",
+          "en": "What is the workload like in these overseas companies?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "过几天我也要面月之暗面，老哥方便交流一下吗？",
+          "en": "I'm going to interview with Moonshot AI in a few days, is it convenient for you to exchange information?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

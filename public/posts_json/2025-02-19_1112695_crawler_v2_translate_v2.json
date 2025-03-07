@@ -1,0 +1,203 @@
+{
+  "id": 1112695,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "bug 导致公司亏损 7000 美金，心态炸了",
+          "en": "Bug causes the company to lose 7000 USD, mentality collapses."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这几天整个人都很低沉，焦虑，下午 20 几个人开复盘会，讲话的时候身上都在冒汗。\r\n还有 9 天合同就到期了还没续签，也不知道会不会被裁。\r\n大家工作上有遇到这种资损情况吗，心情如何。",
+          "en": "I've been feeling down and anxious these past few days. This afternoon, twenty-some people held a retrospective meeting, and I was sweating while speaking.\r\nMy contract expires in 9 days and hasn't been renewed yet, and I don't know if I'll be laid off.\r\nHas anyone encountered such asset loss situations at work? How do you feel?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "才 7k 美元，就需要 20 几个人开复盘会还是换一家公司吧",
+          "en": "Only 7k USD, and you need twenty-some people to hold a retrospective meeting? Maybe you should switch companies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这算个毛线，反例，我给公司节省一百多万，也没分我一毛钱。",
+          "en": "That's nothing. As a counter-example, I saved the company over a million, and didn't get a single penny."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看成  7000w 美金了。",
+          "en": "I read it as 70 million USD."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "记住一个原则，你在公司上班的时候，只要不能证明是个人恶意的行为，你做的所有事情都代表的公司行为，而非个人行为，不用承担个人责任。复盘会应该重点关注为什么没有发现这个 bug ，流程上有哪些需要优化的环节。以这种 bug 不续签是非法的，要赔偿",
+          "en": "Remember a principle: when you're working at a company, as long as it can't be proven to be malicious personal behavior, everything you do represents the company's behavior, not personal behavior, and you don't need to bear personal responsibility. The retrospective meeting should focus on why this bug wasn't discovered and what aspects of the process need to be optimized. Not renewing the contract because of this bug is illegal and should be compensated."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dji38838c #9 钱的金额是一回事，复盘产生原因和如何避免、尽量降低风险，开会人多有问题？非要 7000 万美金的时候才能 20 多人么",
+          "en": "@dji38838c #9 The amount of money is one thing, but the retrospective is about finding the cause, how to avoid it, and minimize risks. Is there a problem with having a lot of people in the meeting? Do you need 70 million USD before you can have 20+ people?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dji38838c 哪怕 1 毛钱的 bug 都值得复盘，因为 bug 能到线上生产环境，那就不是一个人有问题，整个团队流程都有问题。所以 op 也不用担心，这问题也不是你一个人的锅",
+          "en": "@dji38838c Even a 1-cent bug is worth a retrospective, because if a bug can get to the online production environment, then it's not just one person's problem, the entire team's process has issues. So OP don't worry, this problem isn't just your fault."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "相比于 7000 刀，离合同到期 9 天都还没有谈续签的事，我觉得这个更老火（心态炸了再 + 1 ）",
+          "en": "Compared to the 7000 dollars, the fact that the contract renewal hasn't been discussed with only 9 days left is even more worrying (mentality collapse + 1)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "按理说应该提前一个月就准备续签事宜，还有 9 天很难说是不是不打算续签。听天由命吧。合同到期没有一个月预通知金，赔偿 N",
+          "en": "Logically, renewal matters should be prepared one month in advance. With only 9 days left, it's hard to say if they don't plan to renew. Leave it to fate. If the contract expires without one month's advance notice, you'll get N for compensation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "设计方案没发现问题有责任吧 测试没测出来有责任吧 测试用例没覆盖有责任吧 代码 review 没看出来有责任吧 领导不力有责任吧 面试你进来的有责任吧 这么一分你才几块钱的锅",
+          "en": "The design not finding problems is a responsibility, right? Testing not finding it is a responsibility, right? Test cases not covering it is a responsibility, right? Code review not seeing it is a responsibility, right? The leader being ineffective is a responsibility, right? The person who interviewed you is responsible, right? If you split it up like that, you're only responsible for a few bucks' worth."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "7000 是小钱，但是钱的问题一毛也是大问题，二十几个人复盘也很正常。",
+          "en": "7000 is small money, but when it comes to money, even a penny is a big problem. It's normal to have twenty-some people do a retrospective."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cjd6568358 提前一个月也要赔偿，只要裁人就要赔偿，不管什么方式。提前一个月是老黄历了。",
+          "en": "@cjd6568358 You still need to compensate even with one month's advance notice. As long as there's a layoff, you have to compensate, no matter the method. One month in advance is old news."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这算啥，出去问问每个公司有多少闲置的云服务器",
+          "en": "That's nothing. Go ask how many idle cloud servers each company has."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个小的正常运营费用而已，啥事儿没有通常来说，一个正常公司不会因为这点小事儿开除员工，而且，经历过这种事件以后，这个人以后永远不会犯同样的错误了，把这样的员工送给别的公司，是不是傻也有公司可能有点不伤痛痒的小惩戒，最多最多领导罚个 500 块吧，一线员工不会被罚款",
+          "en": "It's just a small, normal operating expense, nothing's going to happen. Generally speaking, a normal company wouldn't fire an employee over such a small matter. Moreover, after experiencing this incident, this person will never make the same mistake again. Is it stupid to send such an employee to another company? Some companies might have some minor, painless punishments, at most the leader might be fined 500 yuan, front-line employees won't be fined."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hackroad 二十多个人一起开个会，换个平均收入高点的公司，这个会本身的成本说不定都超过 7000 美金了……那是不是要再拉个一百个人的会去复盘怎么降低开会造成的损失啊",
+          "en": "@hackroad If twenty-some people hold a meeting together, in a company with a higher average income, the cost of the meeting itself might exceed 7000 USD... Then should we hold another meeting with a hundred people to review how to reduce the losses caused by the meetings?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "7000 美金。。。我以为是 7000 万。。。这点事就要 20 个人开复盘会，说明厂子不小了啊，这点钱不算啥的。。。",
+          "en": "7000 USD... I thought it was 70 million... To have 20 people holding a retrospective meeting for something like this, it shows that the company is not small, this amount of money is nothing..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想当年，把某中厂的门票业务弄挂了 4 小时，估计大几百万的损失吧还是该晋升晋升，该涨薪涨薪",
+          "en": "Back in the day, I took down a certain mid-sized company's ticket sales for 4 hours, probably costing several million, but I still got promoted and got a raise."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dji38838c 是我们研发部门内部的会议，也算内部反思吧",
+          "en": "@dji38838c It's an internal meeting within our R&D department, it's also an internal reflection."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "7 K 美金真不怕7000 万才是真正可怕你想想巴林银行，真没啥。而且那人后来出狱后又是出书，又是上电视。",
+          "en": "7K USD is nothing to fear, 70 million is the truly terrifying one. Think about Barings Bank, it's really nothing. And that person later published books and went on TV after being released from prison."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "简单把问题都算你头上，下次这公司可不是亏 7000 了",
+          "en": "If they simply blame you for everything, the next time this company loses money, it won't just be 7000."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你的帖子被人搬到小红书了",
+          "en": "Your post was moved to Little Red Book."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

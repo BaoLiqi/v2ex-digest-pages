@@ -1,0 +1,203 @@
+{
+  "id": 1111077,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "各位纯电车主，你们的电车现在电池衰减多少了，想买车参考下。",
+          "en": "To all pure electric vehicle owners, how much has your electric car's battery degraded? I want to use it as a reference before buying a car."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "",
+          "en": ""
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "汽车锂电池，有两个寿命，循环寿命和日历寿命。循环寿命，就是充放电次数，电池容量越大，行驶里程越小，那么完全充放电的次数就越少。日历寿命是不管使用与否，静置的电池都会容量慢慢变少。常见的磷酸铁锂电池循环寿命可达 4000 次以上，而三元锂电池一般在 2000 次以上。一般情况下，锂电池的日历寿命在 8-15 年之间。ps：参考手机电池，前面的衰减是很缓慢的，后面的衰减是断崖式的。所以之前厂商都有 xx 年之内 x 衰减，给你免费更换，是很难达到的。但是过了 xx 年，一定会衰减。",
+          "en": "Automotive lithium batteries have two types of lifespan: cycle life and calendar life. Cycle life refers to the number of charge and discharge cycles. The larger the battery capacity and the smaller the mileage, the fewer complete charge and discharge cycles. Calendar life refers to the gradual decrease in battery capacity over time, regardless of whether it is used or not. Common lithium iron phosphate batteries can have a cycle life of over 4000 cycles, while ternary lithium batteries generally have over 2000 cycles. Under normal circumstances, the calendar life of a lithium battery is between 8-15 years. ps: Refer to mobile phone batteries; the initial degradation is very slow, while the later degradation is drastic. Thus, manufacturers previously offered free replacements for x degradation within xx years, which is difficult to achieve. However, degradation is inevitable after xx years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@pikachu233 有没有一种可能，出厂时的实际容量比标称容量大呢 ？感觉层主的脑袋似乎不是很聪明的样子",
+          "en": "@pikachu233 Is it possible that the actual capacity at the factory is greater than the nominal capacity? It seems like the original poster isn't very smart."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "前排的 5 万公里未衰减的真是看笑了   属实是被车企忽悠瘸了  至少都充了 100 个循环  家用起码 2 年以上了  外星科技都做不到不衰减  笑哭",
+          "en": "The comment about 50,000 kilometers without degradation in the first row made me laugh. It's true that you've been fooled by the car company. It's been charged at least 100 cycles. It's been at least 2 years for home use. Even alien technology can't prevent degradation. Laughing crying."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "23 年 6 月份的车",
+          "en": "Car from June 2023"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Liu4757 #8  https://github.com/teslamate-org/teslamate",
+          "en": "@Liu4757 #8 https://github.com/teslamate-org/teslamate"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://club2.autoimg.cn/album/g17/M08/99/B1/userphotos/2017/05/11/22/500_wKgH51kUbpSAFPzbAAF5iQAAHzI288.jpg这张图是国外某机构对特斯拉车主的实际使用统计图，衰减原因没有说，假设它是综合因素的共同影响。",
+          "en": "https://club2.autoimg.cn/album/g17/M08/99/B1/userphotos/2017/05/11/22/500_wKgH51kUbpSAFPzbAAF5iQAAHzI288.jpg This chart is a statistical graph of actual usage by Tesla owners from a foreign institution. The cause of the degradation is not mentioned, but it is assumed to be a combination of factors."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "9.6w 公里，标称 76.9 度电，家充完全充满 68 度然而到 4s 检测，电表显示充入 70 度，ODB 读取实际充入 58 度电，实际损耗 24.6%，但是 4s 的工作人员以电表显示为准，所以不算损耗严重，笑",
+          "en": "96,000 kilometers, nominally 76.9 kWh, home charging fully charges to 68 kWh. However, when tested at the 4S shop, the meter showed 70 kWh charged, and the ODB read an actual charge of 58 kWh, an actual loss of 24.6%. But the 4S staff used the meter reading as the standard, so it's not considered severe degradation, haha."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很多汽车品牌本身表显续航都不准，更别说给出的衰减数值了，所以才会出现有些人说 x 万公里未衰减",
+          "en": "Many car brands themselves have inaccurate displayed ranges, let alone the degradation figures they provide, which is why some people say they have no degradation after x0,000 kilometers."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "2w 公里未衰减",
+          "en": "20,000 kilometers, no degradation"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "怎么看衰减？",
+          "en": "How do you check for degradation?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "宁德三元锂，5 万公里未衰减",
+          "en": "CATL ternary lithium, 50,000 kilometers, no degradation"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Chenganghui 咋看呢",
+          "en": "@Chenganghui How to check?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@BeforeTooLate #2 预估行驶里程，跟最初的对比",
+          "en": "@BeforeTooLate #2 Estimate the mileage and compare it to the initial mileage."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚过 6 年年检，9w 公里，新车 52 度电，现在开到不显示续航只能冲 48 度。",
+          "en": "Just passed the 6-year inspection, 90,000 kilometers, the new car had 52 kWh, now it can only charge to 48 kWh when the range is not displayed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gbw1992 老哥怎么做的，有教程吗？",
+          "en": "@gbw1992 How did you do it, bro? Is there a tutorial?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "家里两台车，给个参考，一台 18 年的混动，里程十万公里，电居多，估计在 6 万公里以上，电池七度，目前电池容量打八折。一台 22 年的纯电，三万公里，60 度电，打折率 0.998 。电池越小越容易亏损，充放次数太多。",
+          "en": "Two cars at home, for reference. One is a 2018 hybrid, with 100,000 kilometers, mostly electric, estimated to be over 60,000 kilometers, with a 7 kWh battery. The current battery capacity is 80%. The other is a 2022 pure electric car, with 30,000 kilometers, 60 kWh, and a discount rate of 0.998. The smaller the battery, the easier it is to lose capacity, and there are too many charge and discharge cycles."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我有个疑问，之前电车价格普遍偏高，电池设计会有冗余。现在电车价格战，会不会有厂商会将冗余比例缩小，以适宜用价格战？",
+          "en": "I have a question. Previously, electric car prices were generally high, and battery designs had redundancy. Now that there is a price war for electric cars, will manufacturers reduce the redundancy ratio to facilitate the price war?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "001 86 2 万多公里 几乎都是快充 99.3%健康度吧？",
+          "en": "001 86 20,000+ kilometers. Almost all fast charging, 99.3% health, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "电池 5 年后衰减会加速，平均每年 2%左右。",
+          "en": "Battery degradation will accelerate after 5 years, averaging around 2% per year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上文看不到图 看这个 linkhttps://club.autohome.com.cn/bbs/threadowner/12851290bc467667/63019334-1.html",
+          "en": "Can't see the picture above, see this link: https://club.autohome.com.cn/bbs/threadowner/12851290bc467667/63019334-1.html"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

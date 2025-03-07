@@ -1,0 +1,271 @@
+{
+  "id": 1108471,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "腾讯云的 nodejs sdk 安装后 85M",
+          "en": "Tencent Cloud's nodejs sdk is 85M after installation"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最近发现项目的`node_modules`打包越打越大，不看不知道，一看吓一跳。",
+          "en": "Recently, I found that the packing of the project's `node_modules` is getting bigger and bigger. I didn't know it until I looked, and I was shocked."
+        },
+        {
+          "zh": "腾讯云的 sdk 85M ，为了对比，还特地看了下`@aws-sdk`。",
+          "en": "Tencent Cloud's sdk is 85M. For comparison, I also specifically looked at `@aws-sdk`."
+        },
+        {
+          "zh": "\r\n`cd node_modules && du -sh * | sort -h`\r\n\r\n\r\n13M\t    @aws-sdk\r\n.\r\n.\r\n.\r\n12M     prisma\r\n13M     @types\r\n17M     @sentry\r\n23M     typescript\r\n29M     @opentelemetry\r\n38M     @prisma\r\n85M     tencentcloud-sdk-nodejs\r\n```\r\n\r\n进一步去里面看了下`cd node_modules/tencentcloud-sdk-nodejs && du -sh * | sort -h`\r\n```\r\n537K\texamples\r\n3.9M\ttest\r\n4.9M\tSERVICE_CHANGELOG.md\r\n5.1M\tCHANGELOG.md\r\n28M\tsrc\r\n34M\ttencentcloud\r\n```\r\n\r\n这 `src` 和 `tencentcloud` 是不是重复了？",
+          "en": "```\r\ncd node_modules && du -sh * | sort -h\r\n\r\n13M\t@aws-sdk\r\n.\r\n.\r\n.\r\n12M prisma\r\n13M @types\r\n17M @sentry\r\n23M typescript\r\n29M @opentelemetry\r\n38M @prisma\r\n85M tencentcloud-sdk-nodejs\r\n```\r\n\r\nFurther look inside `cd node_modules/tencentcloud-sdk-nodejs && du -sh * | sort -h`\r\n```\r\n537K examples\r\n3.9M test\r\n4.9M SERVICE_CHANGELOG.md\r\n5.1M CHANGELOG.md\r\n28M src\r\n34M tencentcloud\r\n```\r\n\r\nAre `src` and `tencentcloud` duplicated?"
+        },
+        {
+          "zh": "还有一个 CHANGELOG 和 SERVICE_CHANGELOG 都快 10M 了。",
+          "en": "Also, CHANGELOG and SERVICE_CHANGELOG are almost 10M."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然喷人不对，但是支持正义薄纱https://github.com/TencentCloud/tencentcloud-sdk-nodejs/issues/160",
+          "en": "Although it's wrong to criticize people, I support justice https://github.com/TencentCloud/tencentcloud-sdk-nodejs/issues/160"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "好奇去看了下，src 目录和 tencentcloud 目录是大头。src 下是 ts 源码，tencentcloud 下是编译过给 Node.JS 用的 CommonJS 代码。",
+          "en": "I was curious and took a look. The src directory and the tencentcloud directory are the main parts. src is the TS source code, and tencentcloud is the CommonJS code compiled for Node.JS."
+        },
+        {
+          "zh": "然后里面主要内容在 services 里，有各种服务，平均 100k 左右，整个合起来就那么大。",
+          "en": "Then the main content is in services, with various services, averaging about 100k, and the whole thing is that big."
+        },
+        {
+          "zh": "然后 services 里面具体的有的会带日期命名的多个版本，应该是对应给不同版本的服务用的？",
+          "en": "Then the specific ones in services will have multiple versions named with dates, which should correspond to services for different versions?"
+        },
+        {
+          "zh": "如果确实不同版本同时有人用的话，那保留多个版本也还算合理？",
+          "en": "If different versions are indeed used at the same time, is it reasonable to keep multiple versions?"
+        },
+        {
+          "zh": "虽然更常见的做法是拆分不同版本的包，但是对于这种云服务 SDK 来说，我觉得放在一起问题不大。",
+          "en": "Although the more common practice is to split the packages of different versions, I think it's not a big problem to put them together for this kind of cloud service SDK."
+        },
+        {
+          "zh": "然后里面最大的文件大部分都是 models 文件，是数据类型字段定义。",
+          "en": "Then most of the largest files inside are model files, which are data type field definitions."
+        },
+        {
+          "zh": "然后大头是字段的 TSDoc 文档注释。",
+          "en": "And the bulk is the TSDoc documentation comments for the fields."
+        },
+        {
+          "zh": "然后 CHANGELOG 有 5M 大小，内容大头是 commit history 。",
+          "en": "Then CHANGELOG is 5M in size, and the main content is commit history."
+        },
+        {
+          "zh": "src 和 tencentcloud 同时提供我觉得没什么问题，有些人倾向于直接 Node.JS require 使用，就用 tencentcloud 下的 CommonJS ，而有些人倾向于按需打包，用 src 会好一些（用 CommonJS 也不是不行，但 ts 源码更好）。",
+          "en": "I think there is no problem in providing src and tencentcloud at the same time. Some people prefer to use Node.JS require directly, then use the CommonJS under tencentcloud, while others prefer to package on demand, and using src will be better (using CommonJS is also possible, but the TS source code is better)."
+        },
+        {
+          "zh": "不过他们 src 下的导出方法有点问题，有多个版本的时候是 import 两个版本，然后 export 一个对象包含两个版本的 key ，这导致按需引用会出问题，总是会把所有版本都导入。",
+          "en": "However, the export method under their src has some problems. When there are multiple versions, it imports two versions, and then exports an object containing the keys of the two versions, which causes problems with on-demand referencing, and it always imports all versions."
+        },
+        {
+          "zh": "examples 和 tests 目录不算大，大部分库也会带着提供，提供不提供都行的。",
+          "en": "The examples and tests directories are not very large, and most libraries will also provide them. It's okay to provide them or not."
+        },
+        {
+          "zh": "一般闭源的库会提供，开源的库你可以在项目托管的地方找到，就没必要提供。",
+          "en": "Generally, closed-source libraries will provide them, and open-source libraries can be found on the project hosting site, so there's no need to provide them."
+        },
+        {
+          "zh": "CHANGELOG 也是大部分项目都会提供的，但开源的也确实同样没必要。",
+          "en": "CHANGELOG is also provided by most projects, but it is also unnecessary for open source projects."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "都用 node 了还在乎这个...",
+          "en": "If you're already using Node, why care about this..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "然后，楼主的运行方法，tsc 只是把 ts 转成 js ，还是会依赖 node_modules 的。",
+          "en": "Then, the author's method of running, tsc just converts ts to js, and it still depends on node_modules."
+        },
+        {
+          "zh": "按需打包的话，相当于仅保留用到的代码，带上 tree shaking ，最终你用到多少代码就得到多少代码，还会去掉注释，这样 TSDoc 就都没了，最终产物不会很大。",
+          "en": "If you package on demand, it's equivalent to retaining only the code used, with tree shaking. You get how much code you use, and the comments will also be removed, so TSDoc is gone, and the final product will not be very large."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "今天看了 Github 上的 Issue 之后，又回 V2 看了一下，果然是你，哈哈",
+          "en": "After looking at the Issue on Github today, I came back to V2 and took a look, and it turned out to be you, haha"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "他们甚至要追究法律责任，https://github.com/TencentCloud/tencentcloud-sdk-nodejs/issues/210> 腾讯云重视并欢迎反馈问题，同时坚决反对涉及人身攻击的恶意言论，相关帖子内容均已存证，我们保留随时追究法律责任的权利，希望大家共同维护良好的社区氛围。",
+          "en": "They even want to pursue legal responsibility, https://github.com/TencentCloud/tencentcloud-sdk-nodejs/issues/210> Tencent Cloud values and welcomes feedback on issues, and at the same time firmly opposes malicious words involving personal attacks. The content of the relevant posts has been preserved, and we reserve the right to pursue legal responsibility at any time. We hope that everyone will jointly maintain a good community atmosphere."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然 op 的心情可以理解，但有点过激了，后面一堆人跟着发了好多毫无意义的 issue ，最后大家都是打工人互相伤害",
+          "en": "Although the op's feelings can be understood, it was a bit extreme. A bunch of people followed and posted a lot of meaningless issues. In the end, we are all workers hurting each other."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大了说明高级啊。 反正是 sdk 嘛。问题不大。",
+          "en": "Bigger means more advanced. Anyway, it's an SDK. No big deal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "估计是机器生成的代码。不过 disk 反正不贵问题不大，主要关注 build 后多大就行了。",
+          "en": "It is estimated that it is machine-generated code. But the disk is not expensive anyway. The main thing is to focus on how big it is after build."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cj323 build 后是啥意思哦? 我这个 node_modules 就直接是生产环境的依赖, 生产环境里就是这么大哇?",
+          "en": "@cj323 What does build mean? My node_modules is directly the production environment dependency, and it's that big in the production environment?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "见怪不怪。在服务器跑的无所谓。",
+          "en": "It's not surprising. It doesn't matter if it runs on the server."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "跑在服务端其实无所谓，在意的话自己 fork 改一下",
+          "en": "It doesn't really matter to run on the server side. If you care, fork and modify it yourself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@scienhub 生产服务器上是直接 npm run dev 运行的？",
+          "en": "@scienhub Is it running directly with npm run dev on the production server?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@scienhub build 后才是发布用的（通常是 npm run build ），一般打包发布后都不依赖 node_modules 了；你现在项目应该是开发阶段（通常是 npm run dev ），所以才需要 node_modules ，你说的“生产环境” 是指你现在开发的机器是线上的吧? 跟项目的生产发布不是一回事",
+          "en": "@scienhub The build is for release (usually npm run build). Generally, it doesn't depend on node_modules after packaging and release; your project should be in the development stage (usually npm run dev), so you need node_modules. The \"production environment\" you mentioned refers to the machine you are developing on online, right? It's not the same thing as the production release of the project"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大概率只是 tx 这边发布到 npm 的时候没过滤掉多余的文件而已，实际你代码使用到的只是构建产物",
+          "en": "Most likely, it's just that tx didn't filter out the redundant files when publishing to npm. In fact, what your code uses is only the build product."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我咋记得腾讯云的包都是按业务分的？可能这个是总包？",
+          "en": "Why do I remember that Tencent Cloud's packages are divided by business? Maybe this is the overall package?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@darkengine 我这是后端项目，生产环境是 npx tsc && node src/index.js 的。npx tsc 过程并不会删除不需要的文件吧？",
+          "en": "@darkengine This is a backend project, and the production environment is npx tsc && node src/index.js. The npx tsc process will not delete unnecessary files, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@default996 我这是后端项目，生产环境是 npx tsc && node src/index.js 运行的。",
+          "en": "@default996 This is a backend project, and the production environment runs npx tsc && node src/index.js."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@scienhub 在 Node 项目里 build 主要就是 transpile/minify/treeshake 代码，你用 typescript 的话就是 tsc 那步，之后 build 出来的 index.js 体积就小了。",
+          "en": "@scienhub In a Node project, build is mainly to transpile/minify/treeshake code. If you use typescript, it's the tsc step, and the size of the index.js built afterwards will be smaller."
+        },
+        {
+          "zh": "不过后端项目没下载那一步应该没啥影响，除非你是上 serverless ，那不同的 runtime 可能会有体积限制。",
+          "en": "However, it shouldn't have much impact on backend projects without that step, unless you are on serverless, then different runtimes may have size limitations."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@cj323 影响倒是没有大影响，只不过进去一看 dependencies 的大小，吓一跳，tencentcloud 居然接近 100m 。",
+          "en": "@cj323 There is no big impact, but when I looked at the size of dependencies, I was shocked that tencentcloud was close to 100m."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

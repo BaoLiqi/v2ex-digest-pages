@@ -1,0 +1,203 @@
+{
+  "id": 1111465,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "想到我自己花钱买 cursor 上班用 就觉得怪怪的",
+          "en": "It feels weird to think that I'm spending my own money to buy Cursor for work."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个月 20$ 破公司肯定舍不得",
+          "en": "A trashy company definitely wouldn't be willing to spend $20 a month."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我用的 gpt ，现在工作投入就是  我这个 sb 一样的一个人+死死坐班+ai 编程+ctrl cv+爆炸的心态=月薪以前的投入是我这个 sb 一样的一个人+死死坐班+疯狂百度+疯狂骂互联网 cv 来的答案+ctrl cv+时间的沉没成本+有时未必能完成任务=月薪",
+          "en": "I use GPT. Now, my work input is: a stupid person like me + rigidly sitting at work + AI programming + Ctrl+C/Ctrl+V + exploding mentality = monthly salary. Previously, the input was: a stupid person like me + rigidly sitting at work + frantically using Baidu + madly cursing the answers from internet copy-pasting + Ctrl+C/Ctrl+V + sunk cost of time + sometimes not even completing the task = monthly salary."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Sakamakiryo 只要产出的额外时间不用来做额外的任务就可以 不能因为我做的快 你他妈任务也派的快是吧",
+          "en": "@Sakamakiryo As long as the extra time produced isn't used for extra tasks, it's fine. Don't assign me more tasks just because I work faster, you bastard."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "还让研究 ai 提高效率 提高效率然后被多安排几个活是吧  我屮，特么 ai 也要钱 又不出钱得",
+          "en": "They even want me to research AI to improve efficiency. Improve efficiency and then get assigned more tasks, right?  Damn, AI costs money, and they're not willing to pay for it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别说，我们公司就是你做的越快，活就给的越多",
+          "en": "Seriously, at our company, the faster you work, the more work they give you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "公司花钱雇你，你花钱雇 ai   你转差价  这不是很好的一个买卖吗？",
+          "en": "The company pays to hire you, and you pay to hire AI. You pocket the difference. Isn't that a great deal?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qwertyzzz #3 包会的，越能干活，干得活就越多",
+          "en": "@qwertyzzz #3 Guaranteed, the more you can do, the more you'll get to do."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这点钱其实真的不用纠结，代码整齐度有了，也规范了。给自己带来的产出＞支出就好了",
+          "en": "This amount of money really isn't worth worrying about. The code is neater and more standardized. As long as the output it brings you is greater than the expenditure, it's fine."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "所以我没买。。。用用 tabs 功能得了~",
+          "en": "So I didn't buy it... I'll just use the tabs feature~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@youyouzi 没办法 有瘾 习惯了方便的就回不去了",
+          "en": "@youyouzi There's no way around it, I'm addicted. Once you get used to the convenience, there's no going back."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你用 cursor 省下的时间是自己的，你也没多产出什么 公司也没必要给你多花这个钱的 （卑微的牛马发言）",
+          "en": "The time you save using Cursor is your own, and you're not producing any more. The company has no need to spend extra money on that for you. (Humble worker bee speech)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qwertyzzz 在情人节看到这消息，真尼玛笑死我了。真有任务倒还好了，就怕开始砍人头",
+          "en": "@qwertyzzz Seeing this news on Valentine's Day is just hilarious. It would be fine if there were actual tasks, but I'm afraid they'll start firing people."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhangkai1024 所以得一边摸鱼一边装作很忙得样子",
+          "en": "@zhangkai1024 So you have to slack off while pretending to be busy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qwertyzzz #4 可能我还好，对这个东西依赖不高。基建我都弄好了，有什么需求直接复制我之前的代码就好了。",
+          "en": "@qwertyzzz #4 Maybe I'm okay, I'm not very dependent on it. I've already set up the infrastructure, and if there are any needs, I can just copy my previous code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gtese 那应该砍我同事",
+          "en": "@gtese Then they should fire my colleagues."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚到这家公司的时候我自己花了 3000 ，找人弄得网络",
+          "en": "When I first arrived at this company, I spent 3000 yuan of my own money to get the network set up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我老板让我淘宝半价账号给同事们用，然而最近 cursor 又风控了，淘宝涨到 180 。。。",
+          "en": "My boss asked me to get half-price accounts on Taobao for my colleagues to use, but recently Cursor's risk control has tightened, and the price on Taobao has risen to 180..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同破公司",
+          "en": "Same trashy company."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@defunct9 啊。。离谱",
+          "en": "@defunct9 Ah... outrageous."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "v 站还有很多自带电脑/显示器/桌椅板凳上班的呢",
+          "en": "There are also many people on V2EX who bring their own computers/monitors/desks and chairs to work."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gpt5 这个对自己好 不会便宜资本家 我也愿意",
+          "en": "@gpt5 This is good for yourself and won't benefit the capitalists. I'm willing to do it too."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

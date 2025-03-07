@@ -1,0 +1,299 @@
+{
+  "id": 1113414,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "淘宝疑似歧视并频繁封禁类原生 Android 用户",
+          "en": "Taobao suspected of discriminating against and frequently banning AOSP (Android Open Source Project) users"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "# 现象",
+          "en": "# Phenomenon"
+        },
+        {
+          "zh": "\r\n\r\n本人一直使用类原生 Android ，目前使用刷了官方 PixelOS 的 Redmi K40",
+          "en": "\r\n\r\nI have been using AOSP Android, currently using Redmi K40 flashed with official PixelOS"
+        },
+        {
+          "zh": "\r\n\r\n去年下半年开始，淘宝 App 屡次出现打开/使用时弹出全屏滑动验证码",
+          "en": "\r\n\r\nSince the second half of last year, the Taobao App has repeatedly displayed full-screen sliding CAPTCHAs when opening/using it"
+        },
+        {
+          "zh": "\r\n\r\n今年年初开始，淘宝 App 屡次出现无征兆强制下线并封号，理由是 **不当获取使用信息** 和 **帐号异常访问预警**，需要 **人脸识别** 验证解封，且解封后会过一段时间再次封号",
+          "en": "\r\n\r\nSince the beginning of this year, the Taobao App has repeatedly forced users offline and banned accounts without warning, citing reasons such as **improper access to usage information** and **abnormal account access warning**, requiring **facial recognition** verification for unblocking, and the account will be banned again after a period of time after unblocking"
+        },
+        {
+          "zh": "\r\n\r\n在某安上查询，发现有类似情况",
+          "en": "\r\n\r\nI checked on a certain forum and found similar situations"
+        },
+        {
+          "zh": "\r\n\r\n# 设备环境",
+          "en": "\r\n\r\n# Device Environment"
+        },
+        {
+          "zh": "\r\n\r\n- 设备：Redmi K40",
+          "en": "\r\n\r\n- Device: Redmi K40"
+        },
+        {
+          "zh": "\r\n\r\n- 系统：基于 Android 15 的 官方 Pixel OS ，通过 Google Play 认证，user + release-keys",
+          "en": "\r\n\r\n- System: Official Pixel OS based on Android 15, Google Play certified, user + release-keys"
+        },
+        {
+          "zh": "\r\n\r\n- Root：**无任何 Root**，未安装 KernelSU/Magisk/任何模块，未更换内核",
+          "en": "\r\n\r\n- Root: **No Root whatsoever**, no KernelSU/Magisk/any modules installed, no kernel replacement"
+        },
+        {
+          "zh": "\r\n\r\n- 网络：家庭宽带 + 5G 插卡使用，和淘宝绑定手机号一致",
+          "en": "\r\n\r\n- Network: Home broadband + 5G SIM card, consistent with the mobile phone number bound to Taobao"
+        },
+        {
+          "zh": "\r\n\r\n# 总结",
+          "en": "\r\n\r\n# Summary"
+        },
+        {
+          "zh": "\r\n\r\n本人使用淘宝 App 主要是驿站取件，偶尔购物。其他 App 如京东、拼多多正常使用，银行 App 也正常运行",
+          "en": "\r\n\r\nI mainly use the Taobao App to pick up packages at the Cainiao station and occasionally shop. Other Apps such as Jingdong and Pinduoduo work normally, and bank Apps also run normally"
+        },
+        {
+          "zh": "\r\n\r\n只有阿里巴巴的 **淘宝** App ，从今年开始如同发了疯一样，为此尝试过恢复出厂设置但仍无改善",
+          "en": "\r\n\r\nOnly Alibaba's **Taobao** App has been acting crazy since this year, and I have tried restoring to factory settings but still no improvement"
+        },
+        {
+          "zh": "\r\n\r\n你们购物体验不如京东和拼多多就算了，连风控都这么变态吗？",
+          "en": "\r\n\r\nEven if your shopping experience is not as good as Jingdong and Pinduoduo, is your risk control so perverted?"
+        },
+        {
+          "zh": "我寻思官方 ROM + KSU/模块等难道不比类原生可操作性高多了？",
+          "en": "I'm thinking, isn't the operability of the official ROM + KSU/modules etc. much higher than that of AOSP?"
+        },
+        {
+          "zh": "就逮着类原生的普通用户好欺负是吗？",
+          "en": "Are you just bullying ordinary AOSP users?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我是阿里系的应用疯狂跳验证码，感觉单纯的阿里的风控太蠢",
+          "en": "I am experiencing crazy CAPTCHAs from Alibaba-related apps, I feel that Alibaba's risk control is just stupid"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "iOS 非越狱也遇到了 “屡次出现打开/使用时弹出全屏滑动验证码”，饿了么，高德等一众阿里系都弹验证码。",
+          "en": "iOS non-jailbroken also encountered repeated full-screen sliding CAPTCHAs when opening/using, Ele.me, Amap, and a bunch of Alibaba's apps are popping up CAPTCHAs."
+        },
+        {
+          "zh": "我是因为 AdGuardHome 屏蔽了某些域名，包括但不限于：mdap.alipay.comclient-upload.cn-shanghai.log.aliyuncs.com关闭屏蔽后恢复正常",
+          "en": "I had this issue because AdGuardHome blocked certain domains, including but not limited to: mdap.alipay.com client-upload.cn-shanghai.log.aliyuncs.com. It returned to normal after turning off blocking."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "网络环境没提，检查 IP 地址，尤其是直连淘宝的 IP 地址",
+          "en": "Network environment not mentioned, check the IP address, especially the IP address directly connected to Taobao"
+        },
+        {
+          "zh": "另外 Pixel OS 就不用加上“官方”这个头衔了",
+          "en": "Also, there is no need to add the title 'official' to Pixel OS"
+        },
+        {
+          "zh": "驿站取件直接用支付宝就行",
+          "en": "Just use Alipay directly for Cainiao station pickup"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Hypixel #85 你要把这个当”歧视“也不是不行，毕竟谷歌自己都“歧视”。。。",
+          "en": "@Hypixel #85 You can consider this \"discrimination\" if you want, after all, Google itself \"discriminates\"..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我只用闲鱼，闲鱼也是这种情况，有没有可能是没有其他应用关联启动，导致阿里系 APP 获取不到用户的某部分隐私，我相信国内厂商做的出这种事",
+          "en": "I only use Xianyu, and Xianyu also has this situation. Is it possible that other applications are not associated with the startup, resulting in Ali-related APP not being able to obtain some of the user's privacy? I believe that domestic manufacturers can do this"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Hypixel 换 iPhone 吧，其实不算歧视，这个风控策略主要是用来对抗定制 ROM 改机的，误伤比例不高的情况下阿里应该不会改的。",
+          "en": "@Hypixel Switch to iPhone. Actually, it's not discrimination. This risk control strategy is mainly used to combat customized ROM modification, and Ali probably won't change it if the false positive rate is not high."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "楼主，他们没经历过你遭受的那些磨难，你在对牛弹琴。",
+          "en": "OP, they haven't experienced the hardships you've suffered, you're wasting your breath."
+        },
+        {
+          "zh": "你的猜测 100%正确。",
+          "en": "Your guess is 100% correct."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@KingZZZZ 淘寶還有能力知道你手機沒有有解 BL ？",
+          "en": "@KingZZZZ Is Taobao able to know whether your phone has unlocked the bootloader?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "lineage 目前没问题",
+          "en": "Lineage is currently fine"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不知如何安慰，现在都用拼多多，淘宝用的少",
+          "en": "I don't know how to comfort you, I use Pinduoduo now and use Taobao less"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "红米和一加都刷了类原生，没碰到过。",
+          "en": "I have flashed AOSP on both Redmi and OnePlus, and haven't encountered this."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@totoro625 我看淘宝 App 里面的登录 IP 都是我家庭宽带的 IPv6 ，且我的路由器并未安装任何海外加速工具和屏蔽工具",
+          "en": "@totoro625 I see that the login IP in the Taobao App is my home broadband IPv6, and my router does not have any overseas acceleration tools or blocking tools installed"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Hypixel #7 尝试禁用 ipv6 呢？",
+          "en": "@Hypixel #7 Have you tried disabling IPv6?"
+        },
+        {
+          "zh": "我的家宽 ipv6 链接阿里系各类资源总是被 403",
+          "en": "My home broadband IPv6 connection to various Alibaba resources is always 403'd"
+        },
+        {
+          "zh": "顺便检查一下手机 dns 设置情况、vpn 情况",
+          "en": "Also, check your phone's DNS settings and VPN status"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@leo7476040305 我的路由器没有屏蔽任何域名，且测试能正常访问。",
+          "en": "@leo7476040305 My router does not block any domains, and the test can be accessed normally."
+        },
+        {
+          "zh": "阿里系其他 App 如支付宝、高德地图都是正常使用从未弹过验证码，甚至字节系 App 如抖音都一切正常，就只有淘宝疯了一样疯狂弹验证码和下线封号",
+          "en": "Other Alibaba's apps such as Alipay and Amap are used normally and have never popped up CAPTCHA, even ByteDance's apps such as Douyin are all normal, only Taobao pops up CAPTCHA and logs out/bans accounts like crazy"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@totoro625 我先禁用 IPv6 试试，至于手机 DNS 和 VPN 都没有动过，DNS 检测都是正常的，VPN 就没开（即使开了也是绕过直连的，且开的时候不会打开淘宝）",
+          "en": "@totoro625 I will try to disable IPv6 first, as for the phone DNS and VPN, I have not touched them, the DNS test is normal, the VPN is not turned on (even if it is turned on, it will bypass direct connection, and Taobao will not be opened when it is turned on)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我路由器用的 DNS 也是阿里的 223.5.5.5 和 223.6.6.6",
+          "en": "The DNS used by my router is also Alibaba's 223.5.5.5 and 223.6.6.6"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@totoro625 我这边的驿站需要用淘宝的扫码取件的功能，支付宝不支持",
+          "en": "@totoro625 The Cainiao station here requires the Taobao scan code to pick up the package, Alipay does not support it"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "人才，应该是 vpn 导致 ip 乱跳，淘宝风控锁定账号。",
+          "en": "Genius, it should be the VPN causing the IP to jump around, and Taobao risk control locks the account."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也是 K40 MIUI eu ，淘宝高德支付宝都会出，地图现在换百度了",
+          "en": "I also have K40 MIUI eu, Taobao Amap Alipay will appear this issue, I have switched the map to Baidu now"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@JusticeLanding 首先，我路由器没有这个。",
+          "en": "@JusticeLanding First, my router doesn't have this."
+        },
+        {
+          "zh": "其次，我手机上的开了后只代理 Google 相关内容，国内都是绕过直连。",
+          "en": "Secondly, after the VPN is turned on on my phone, it only proxies Google-related content, and domestic content is bypassed for direct connection."
+        },
+        {
+          "zh": "最后，我的 IP 测试没有乱跳。",
+          "en": "Finally, my IP test does not jump around."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

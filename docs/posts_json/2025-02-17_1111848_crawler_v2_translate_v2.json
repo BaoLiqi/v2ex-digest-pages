@@ -1,0 +1,255 @@
+{
+  "id": 1111848,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "mac mini M4 可以做什么？",
+          "en": "What can a Mac mini M4 do?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我的疑问：",
+          "en": "My questions:"
+        },
+        {
+          "zh": ">- 大家有什么好的玩法？",
+          "en": "- What are some good ways to use it?"
+        },
+        {
+          "zh": ">- 是否应该卖掉加钱换个 Macbook air ？",
+          "en": "- Should I sell it and add money to get a Macbook Air?"
+        },
+        {
+          "zh": ">- 是否应该卖掉加钱换一个万兆网口的版本？",
+          "en": "- Should I sell it and add money to get a version with a 10 Gigabit Ethernet port?"
+        },
+        {
+          "zh": ">- 是否应该直接卖掉？",
+          "en": "- Should I just sell it?"
+        },
+        {
+          "zh": "我的现状：",
+          "en": "My current situation:"
+        },
+        {
+          "zh": ">一台 13700k + 4070 + 64G 的静音主机",
+          "en": "> A silent PC with 13700k + 4070 + 64G"
+        },
+        {
+          "zh": ">一台 2019 的 Intel 末代 16 寸 mbp(平时基本不用，回国时用）",
+          "en": "> A 2019 Intel 16-inch MBP (rarely used, used when returning to China)"
+        },
+        {
+          "zh": ">两台 4k 高刷显示器一横一竖",
+          "en": "> Two 4k high refresh rate monitors, one horizontal and one vertical"
+        },
+        {
+          "zh": "我的需求：",
+          "en": "My needs:"
+        },
+        {
+          "zh": ">远程办公 + dota2",
+          "en": "> Remote work + Dota 2"
+        },
+        {
+          "zh": "为什么会有这个问题：",
+          "en": "Why do I have this question:"
+        },
+        {
+          "zh": ">几乎 0 成本获得了一台千兆的全新 M4 Mac mini ，犹豫是拆开玩一玩还是直接不开封出掉。",
+          "en": "> I got a brand new Gigabit M4 Mac mini at almost zero cost, and I'm hesitating whether to take it apart and play with it or just sell it unopened."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我朋友叫我帮问一下“几乎 0 成本获得了一台千兆的全新 M4 Mac mini ” -- 这个是怎么玩的",
+          "en": "My friend asked me to ask how you \"got a brand new Gigabit M4 Mac mini at almost zero cost\" -- how does that work?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我弄了一台复古主机 因为除了树莓派 4 只有 mac mini 有第三方的 nes 外壳替换件加上两个八位糖的手柄和 tvone 连结当年 sony 旗舰特丽珑电视 k29v-j",
+          "en": "I made a retro console because only the Raspberry Pi 4 and Mac mini have third-party NES case replacements, plus two 8BitDo gamepads and a TVOne connected to a Sony flagship Trinitron TV K29V-J from that year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@catalysia 你这个玩法有点太难学了。。",
+          "en": "@catalysia This is a bit too difficult to learn."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当服务器？",
+          "en": "As a server?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有主机的话就直接出掉吧",
+          "en": "If you have a PC, just sell it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我跟你的需求差不多，KVM 那个我用的是一个显示器，然后显示器（ AOC ）自带 KVM ，mac 跟 win 都链接到同一台显示器（或者支持 KVM 的设备），然后就可以切换了。",
+          "en": "My needs are similar to yours. For KVM, I use a single monitor, and the monitor (AOC) has built-in KVM. Both the Mac and Windows are connected to the same monitor (or a KVM-supporting device), and then I can switch between them."
+        },
+        {
+          "zh": "某宝搜索下 KVM 切换器就行了，按键切换。",
+          "en": "Just search for a KVM switch on Taobao, and you can switch between them with a button."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "双屏组队 kvm ？好奇要怎么做",
+          "en": "Dual-screen KVM? I'm curious how to do it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mbooyn 我在国外，运营商活动积分换的",
+          "en": "@mbooyn I'm abroad, and I exchanged it with points from a carrier promotion."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@muzihuaner 已经白嫖了甲骨文服务器…",
+          "en": "@muzihuaner I've already gotten a free Oracle server..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hanksun 打游戏还是主机好一些",
+          "en": "@hanksun It's better to play games on a PC."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lambdaX999 但我的双屏需求还是没解决…",
+          "en": "@lambdaX999 But my dual-screen needs are still not solved..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wangritian 是的，我某宝搜到了双进双出 kvm 不知道靠谱不",
+          "en": "@wangritian Yes, I searched Taobao and found a dual-input dual-output KVM, but I don't know if it's reliable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ysoseriousC 刚好也去 tb 翻了下，双口 8k 版本要小 300 ，应该是能正常工作的吧",
+          "en": "@ysoseriousC I also just checked TB, and the dual-port 8k version costs a little under 300, so it should work fine."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以流畅的跑 deepseek r1 14Bdeepseek.flashai.com.cn 这里下载 mac 版的 14B 的整合包 dmg ，一键在 M4 上部署 14B 大模型",
+          "en": "You can smoothly run DeepSeek R1 14B. Download the Mac version of the 14B integrated package DMG from deepseek.flashai.com.cn to deploy the 14B large model on the M4 with one click."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以拿来跑 home assistant",
+          "en": "It can be used to run Home Assistant."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "sharemouse  搜下这个 app ，能解决你共享键鼠需求，免费版就够用了",
+          "en": "ShareMouse. Search for this app, it can solve your need to share keyboard and mouse, the free version is enough."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我 M2 16G 的也可以试试啊",
+          "en": "I can also try it on my M2 16G."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mumbler 感谢分享，不过不知道本地部署大模型干点啥好啊",
+          "en": "@mumbler Thanks for sharing, but I don't know what's good to do with a large model deployed locally."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SeaTac 有这个想法倒是。。不过目前我的米家就已经都满足需求了=-=",
+          "en": "@SeaTac I do have that idea... but currently my Mijia/Xiaomi ecosystem already meets all my needs =-="
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@miniers 这个看起来是边缘检测做的？我的需求是同一时间双屏都操作同一个主机，而且有游戏需求。。。。",
+          "en": "@miniers Does this look like it's done with edge detection? My need is to operate the same PC on two screens at the same time, and I have gaming needs..."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 1114012,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "吐槽一下，我最近真的烦死了这些大模型公司，有必要这么搞吗",
+          "en": "Just complaining, I'm really annoyed by these large model companies lately. Is it really necessary to do this?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "工作相关，从大年初四到现在几乎没有安静的度过一个晚上，每天晚上休息的时候都在心惊胆战：别一会哪家又出什么新东西了，又得放下一切去干活。\r\n\r\n老板跟着了魔一样，周六早上七点就在群里连环艾特安排工作，我个人手头的工作也变得十分没有条理，节奏变化太快，上一项工作还在等排期，下一项工作就来了而且要马上做完，经常晚上九十点收到任务第二天早上要搞定。\r\n\r\n作为基层牛马我可能确实无法和老板的宏图伟略共情，我也真的很烦大模型行业搞成这样，一个个争来争去的有什么意义吗？尤其是休息日发、半夜发的这种，你们真的好烦人。模型公司们要抢「业内首个」，我们这些周边公司要抢「首发」，抢到什么时候是个头呢？\r\n\r\n面对发展这么快的大模型行业，有些人可能十分兴奋激动，仿佛自己就是新时代的领航员了，但我只有疲惫和烦躁，我只是想过好生活的普通打工仔，AI 对我来说够用就好，发展得多厉害我真的不想关心。\r\n\r\np.s.只是吐槽，该干活还得干😮‍💨",
+          "en": "Work-related, I haven't had a single quiet evening since the fourth day of the Lunar New Year. Every night when I rest, I'm terrified: What if another company comes out with something new, and I have to drop everything to work?\r\n\r\nMy boss is acting like he's possessed. He's been tagging us in the group chat on Saturday mornings at 7 AM to assign work. My personal work has also become very disorganized, and the pace of change is too fast. The previous task is still waiting to be scheduled, and the next task arrives and needs to be completed immediately. I often receive tasks at 9 or 10 PM and have to finish them by the next morning.\r\n\r\nAs a basic-level drone, I may not be able to empathize with my boss's grand vision. I'm also really annoyed that the large model industry has become like this. What's the point of everyone fighting over each other? Especially when they release things on weekends or in the middle of the night, you guys are really annoying. Model companies are trying to grab the 'industry first,' and we, as peripheral companies, have to grab the 'first release.' When will this end?\r\n\r\nFaced with the rapidly developing large model industry, some people may be very excited, as if they are the navigators of the new era, but I only feel tired and irritable. I just want to live a good life as an ordinary worker. AI is good enough for me if it's useful. I really don't want to care how advanced it becomes.\r\n\r\np.s. Just complaining, I still have to work. 😮‍💨"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为啥怪行业？ 不是应该怪你那着了魔一样的老板吗。。。",
+          "en": "Why blame the industry? Shouldn't you blame your possessed boss?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这是你老板吗？",
+          "en": "Is this your boss?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "\"最新大模型可以用啦，分享给你们一个 APIKEY：KFC-THU-VME-50\"=======\"@小张，你们几个研究一下这个能不能用到我们的服务上\"",
+          "en": "'The latest large model is available, here's an APIKEY for you: KFC-THU-VME-50'======='@Xiaozhang, you guys should study whether this can be used in our services'"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@TimPeake deepseek 出来之前知道自己能活嘛，事后谁都是诸葛亮！是不是 openai 一开源，全球都哑火才行？",
+          "en": "@TimPeake Did Deepseek know it could survive before it came out? Everyone is Zhuge Liang in hindsight! Is it only okay if OpenAI open-sources and the whole world goes silent?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "deepseek 这种东西恰好就是大赶快上搞不出来的你们老板还是计划经济体制下的那套思维，以为集中力量就能办大事，疯狂鞭策牛马就能出成果，其实只是体现了他内心疯狂的焦虑罢了",
+          "en": "Deepseek is exactly the kind of thing that can't be created by a large-scale rush. Your boss still has the mindset of a planned economy, thinking that concentrating efforts can accomplish great things, and that frantically whipping the oxen and horses will lead to results. In reality, it only reflects his inner madness and anxiety."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "去怪老板，和大模型公司有毛关系",
+          "en": "Blame your boss, what does it have to do with large model companies?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这和大模型有啥关系 这不是你们公司老板的问题吗？https://imgur.com/a/EafErjy",
+          "en": "What does this have to do with large models? Isn't this a problem with your company's boss? https://imgur.com/a/EafErjy"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实我一直好奇，那些辣鸡/3 线的大模型，不是浪费社会的资源吗 ？有点类似单车崛起时代，3 线品牌的共享单车 ？明知道不会有结果为啥他们还乐此不疲，开源的大模型似乎都比他们自研的强 ？",
+          "en": "I've always been curious, aren't those garbage/tier-3 large models a waste of social resources? It's a bit like the bike-sharing boom, with tier-3 brands of shared bikes? Knowing that there won't be any results, why are they still so enthusiastic? Open-source large models seem to be stronger than their self-developed ones?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你老板焦虑，会一级一级传导的。。。说明你们公司盈利和相关产业不稳固，老板很害怕",
+          "en": "Your boss's anxiety will be transmitted level by level... It shows that your company's profits and related industries are unstable, and the boss is very scared."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "楼主的逻辑和很多 pink 好像，不去吐槽和反抗压迫自己的人，反而去吐槽美国…",
+          "en": "The poster's logic is similar to many pinks, not complaining about and resisting the people who are oppressing them, but instead complaining about the United States..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "都怪这群臭打游戏的，他们不打游戏英伟达就不会造显卡，英伟达不造显卡就不会搞什么 CUDA ，英伟达不搞 CUDA 就没有这群 AI 公司",
+          "en": "It's all the fault of those stinky gamers. If they didn't play games, Nvidia wouldn't make graphics cards. If Nvidia didn't make graphics cards, it wouldn't develop CUDA. If Nvidia didn't develop CUDA, there wouldn't be these AI companies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是你老板有病，和行业有什么关系",
+          "en": "Your boss is sick, what does it have to do with the industry?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对呀，这明明是你老板有病。",
+          "en": "Yeah, it's clearly your boss who is sick."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "拉不出屎怪引力既视感",
+          "en": "It's like blaming gravity for not being able to poop."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我就在 1 个中厂干过 1 年的”垃圾大模型“，这 1 年看似是 996 过来的，实际上强度远不止 996 ，半夜起来跑数的次数比我这辈子加起来还要多",
+          "en": "I worked for one year in a medium-sized factory on a 'garbage large model.' This year seemed to be 996, but in reality, the intensity was far more than 996. I got up in the middle of the night to run numbers more times than I have in my entire life."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "新领域就是卷，你问下经历过当年移动互联网蓬勃发展的那些人，哪家 APP 不是半夜都在抢发版，抢用户，抢时间。现在你再问问他们还卷不卷。",
+          "en": "New fields are competitive. Ask those who experienced the booming development of the mobile internet back then. Which APP wasn't rushing to release versions, grab users, and save time in the middle of the night? Now ask them if they are still competitive."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "给的钱够吗？",
+          "en": "Is the pay enough?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Gress 10 年参加工作以来, 遇到太多了, 从 PC 安全软件大战, 到微博 vs 腾讯微博, 移动互联网 vs 桌面软件, 共享单车, 外面软件更不用提了, 再到餐饮连锁店, 最近的胖东来超市, 哪有行业区别, 不过是资本与权力的玩法罢了",
+          "en": "@Gress Since I started working 10 years ago, I have encountered too many things, from the PC security software wars, to Weibo vs. Tencent Weibo, mobile internet vs. desktop software, shared bicycles, not to mention takeaway software, to catering chain stores, and recently, Pang Donglai Supermarket, there is no industry difference, but it is the game of capital and power."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "算法本来就是顶端优势最明显的行业,开源一个就能干死千千万的同行",
+          "en": "Algorithms are inherently an industry with the most obvious advantages at the top. Open-sourcing one can kill thousands upon thousands of competitors."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我特喵的也是 DeepSeek 爆火的受害者，md 各行各业都在无脑接，接就接吧，又是折腾 PPT 方案，又是一会儿本地部署方案的，规划一星期，实施 2-3 天，特么又不给硬件，又不让通外网，还要效果好，我特喵服了啊艹艹艹",
+          "en": "I'm also a victim of DeepSeek's explosion in popularity. MD, all industries are taking it on without thinking. If they take it, they take it, but then there are PPT schemes, and then local deployment schemes. Planning takes a week, implementation takes 2-3 days. They don't provide hardware, don't allow external network access, and still want good results. I'm so fed up! F**k! F**k! F**k!"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": 1110067,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "28 岁大龄 javaer，失业中迷茫中",
+          "en": "28-year-old senior Java developer, unemployed and feeling lost"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "19 年入行坐标 hz ，去年 24 年职业生涯感觉真是走到了尽头。",
+          "en": "Entered the industry in 2019, located in Hangzhou (hz), and last year, 2024, it really felt like my career had reached its end."
+        },
+        {
+          "zh": "24 年五月底之后一直找到了九月底才入职，中途也陆续面了一些公司（外包 100%）。",
+          "en": "After the end of May 2024, it took until the end of September to finally get a job, and I interviewed with some companies in between (100% outsourcing)."
+        },
+        {
+          "zh": "面试堪比造火箭，不过也怪自己八股文背得不太 6 。",
+          "en": "The interviews were like building a rocket, but I also blame myself for not memorizing the basic interview questions well enough."
+        },
+        {
+          "zh": "九月底入职的也是外包，工作内容全是擦屁股，连一个正经功能开发都没有。",
+          "en": "The job I got at the end of September was also outsourcing, and the work content was all just cleaning up messes, without even a proper feature development task."
+        },
+        {
+          "zh": "本以为可以稳定工作到今年行情好再找一个小自研。",
+          "en": "I thought I could work stably until the market improved this year and then find a small self-developed project."
+        },
+        {
+          "zh": "哪知道 12 月底传出甲方裁员，哈哈哈整个研发部门就剩一人。",
+          "en": "Who knew that at the end of December, there were rumors of layoffs from the client, hahaha, the entire R&D department was left with only one person."
+        },
+        {
+          "zh": "我这个外编自然也没岗位了，现在只能期望今年金三银四运气好点。（个人感觉：真招人的公司看运气，九月底进的外包就是因为项目经理看中我工作年限久经验足才选的我。",
+          "en": "As an outsourced employee, I naturally didn't have a position anymore, and now I can only hope for good luck during the \"Golden March and Silver April\" recruitment season this year. (Personal feeling: Companies that are really hiring depend on luck; I got the outsourcing job at the end of September because the project manager liked my long work experience.)"
+        },
+        {
+          "zh": "难绷！！） java 五六年工作内容都比较杂，后端前端运维都做过。",
+          "en": "Unbelievable!! ) My Java work for the past five or six years has been quite diverse, including backend, frontend, and operations."
+        },
+        {
+          "zh": "面试上真就得靠运气哈哈哈，因为问深了我答不出来。（去年被面试官嘲讽，不如他手底下的实习生。",
+          "en": "I really have to rely on luck in interviews hahaha, because I can't answer if they ask too in-depth. (Last year, I was mocked by an interviewer, who said I was not as good as the interns under him.)"
+        },
+        {
+          "zh": "）唉，工作能力是有的就是好岗位难过面试那关。",
+          "en": "Alas, I have the work ability, but it's hard to pass the interview for a good position."
+        },
+        {
+          "zh": "我这个条件，今年没运气的话也很难有胜算。",
+          "en": "With my conditions, it will be difficult to have a chance of success this year if I don't have luck."
+        },
+        {
+          "zh": "现在也想着转哪个行业，也有物色几个方向。（ 1.抖音微信小游戏方向 2.全干工程师）来这水个帖子，和大家交流一下。",
+          "en": "Now I'm also thinking about switching to another industry, and I've also scouted a few directions. (1. Douyin/WeChat mini-game direction 2. Full-stack engineer) I'm posting here to chat with everyone."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "28 岁失业问题不大，大环境不好慢慢找，28 岁大龄的没救了，早衰症属于基于缺陷，现代医学还治不了。",
+          "en": "Being unemployed at 28 is not a big problem, take your time to find a job in a bad environment, the aging of 28-year-olds is hopeless/joking, progeria is based on defects, and modern medicine cannot cure it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "转行全干吧，顺便熟悉一下业务，底层 spring 仔不可能只靠当螺丝钉存活了。",
+          "en": "Switch to full-stack development, and also familiarize yourself with the business. Low-level Spring developers can't survive just by being cogs in the machine."
+        },
+        {
+          "zh": "我最近投简历，都是专挑小微企业投，有鸟我的基本一上来就问有没有做过某某业务，会不会写 vue 。",
+          "en": "Recently, I've been specifically applying to small and micro enterprises. Those that respond to me basically ask right away if I've done certain businesses and if I can write Vue."
+        },
+        {
+          "zh": "还有一次面试，对面直言：“如果你认为你可以进中大厂，那么 ok 你当一个螺丝钉，钻研后端这块的技术没问题。",
+          "en": "In one interview, the other side bluntly said: \"If you think you can join a medium-sized or large factory, then it's okay for you to be a cog in the machine, and it's no problem to focus on the technology of the backend."
+        },
+        {
+          "zh": "但是你这份简历实际上已经和这些商业公司绝缘了。",
+          "en": "But your resume is actually insulated from these commercial companies."
+        },
+        {
+          "zh": "咱们小公司养不起那么多的中间层级给你拆解业务需求给你写 prd ，咱们需要的是又懂业务全局又懂技术全栈的，需要开发能根据大致的业务需求就快速拉起一个项目。",
+          "en": "Our small company can't afford so many intermediate levels to break down business requirements for you and write PRDs. What we need is someone who understands the overall business and the full technology stack, and the developers need to be able to quickly launch a project based on rough business requirements.\""
+        },
+        {
+          "zh": "只能说这个公司确实很狗，用双非应届生的价格想招到一个懂业务的熟练全栈，但是这也是当前市场的常态吧，只能接受现实。",
+          "en": "It can only be said that this company is really cunning, wanting to hire a skilled full-stack developer who understands the business at the price of a fresh graduate from a non-top-tier university, but this is also the norm in the current market, and can only accept reality."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "什么时候 28 岁成大龄了？",
+          "en": "When did 28 become old?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "28 岁就拿大龄说事，自己先踩自己一脚，该你失业的。",
+          "en": "Talking about being old at 28, kicking yourself first, you deserve to be unemployed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "出门在外身份都是自己给的，他嘲讽你不如实习生，你就直接说你滨江 6 套房，他买了几套？",
+          "en": "When you're out and about, your identity is what you give yourself. He mocked you for not being as good as an intern, you should just say you have 6 apartments in Binjiang, how many did he buy?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "坐标 hz ，是广东惠州吗",
+          "en": "Located in hz, is that Huizhou, Guangdong?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "28 岁在一个行业算大龄的话，那这个行业已经没救了",
+          "en": "If 28 is considered old in an industry, then that industry is hopeless."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同 java 失业一年多，感觉没什么机会了",
+          "en": "Also a Java developer unemployed for more than a year, feeling like there are no opportunities."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在面试是线下多还是线上多",
+          "en": "Are there more offline or online interviews now?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Easylove 外包多线上，自研多线下。",
+          "en": "@Easylove More online for outsourcing, more offline for self-developed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "外包有背调吗",
+          "en": "Do they do background checks for outsourcing?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "28 还大零 我 45 才大龄",
+          "en": "28 is still young! I'm 45 and I'm old."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "按虚岁讲我应该也是大龄了，可我觉得我还是孩子呢。",
+          "en": "Counting by traditional Chinese age, I should also be old, but I still feel like a child."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当年我 28 岁才开始写 java",
+          "en": "I started writing Java when I was 28."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "java 没有机会了吗",
+          "en": "Is there no opportunity in Java?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "28 正香的年纪",
+          "en": "28 is the prime of life."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@helloword001 应该杭州28 岁应该是黄金年龄，简历包装造假一下。",
+          "en": "@helloword001 In Hangzhou, 28 years old should be the golden age, package and falsify your resume a bit."
+        },
+        {
+          "zh": "要会吹。",
+          "en": "You need to know how to brag."
+        },
+        {
+          "zh": "我年后也打算换工作。",
+          "en": "I also plan to change jobs after the new year."
+        },
+        {
+          "zh": "明天开始投简历，骑驴找马。",
+          "en": "Start submitting resumes tomorrow, looking for a better job while still employed."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "生错时代了 十几二十年前开始学渣蛙那真是捡钱",
+          "en": "Born in the wrong era, learning Java a decade or two ago was really like picking up money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "换个语言试试，现在 ai 这么火，学个 python 还能蹭一下热度",
+          "en": "Try switching to another language. Now that AI is so popular, learning Python can also ride the wave."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@leegradyllljjjj 捡钱是什么程度 月薪最高能多少",
+          "en": "@leegradyllljjjj What level is 'picking up money'? What's the maximum monthly salary?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

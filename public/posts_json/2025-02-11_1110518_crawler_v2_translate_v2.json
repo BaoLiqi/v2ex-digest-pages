@@ -1,0 +1,203 @@
+{
+  "id": 1110518,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "写代码的你都知道同行水平吧？敢把自己乘坐的车子交给代码控制？",
+          "en": "As a coder, you all know the level of your peers, right? Dare you entrust the car you're riding in to code control?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最近看到这样一个程序员对国内各种智能驾驶的评价，感觉有点意思的。\r\n\r\n他说，很多人“胆子大”完全信任智驾系统，是他们不了解国内后台实现智驾的代码水平，很多都是用一些开源的方案修修补补，也就是业内人才知道“屎山”。\r\n\r\n反正他是不敢。\r\n\r\n我想问，有汽车行业的程序员朋友吗？你们是不是对代码执行结果的安全比普通软件公司高一些？",
+          "en": "I recently saw this programmer's comments on various domestic intelligent driving systems, and I found it quite interesting.\r\n\r\nHe said that many people are 'bold' and completely trust the intelligent driving system because they don't understand the level of code used in the back-end implementation of intelligent driving in China. Many of them are just patching up some open-source solutions, which insiders know is a 'shit mountain'.\r\n\r\nAnyway, he doesn't dare.\r\n\r\nI want to ask, are there any programmer friends in the automotive industry? Are you more concerned about the safety of code execution results than ordinary software companies?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "错就错在国内做智驾了，要是国外独有的话，就没这个顾虑了",
+          "en": "The mistake is in doing intelligent driving in China. If it were exclusive to foreign countries, there would be no such concerns."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "任何行业的安全从来不是靠「水平」保证的，Google 也有很多「水平」不行的程序员，且厉害的程序员也会犯错误。安全是靠「流程」保证。所以不信任的是流程而不是某个程序员的水平。",
+          "en": "Safety in any industry is never guaranteed by 'skill level'. Google also has many programmers who are not 'skilled', and even skilled programmers make mistakes. Safety is guaranteed by 'process'. So what I don't trust is the process, not the skill level of a certain programmer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "地铁、高铁、飞机、游乐园、电梯很多都是代码运行都别坐嘛自己找个秃毛驴，天天骑着，抱着驴头上班，又安全又美",
+          "en": "Subways, high-speed rails, airplanes, amusement parks, elevators - many of these are run by code, so don't ride them. Just find a mangy donkey, ride it every day, hug the donkey's head to work, it's safe and beautiful."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上路开车开久了你就知道，路上那些妖魔鬼怪的素质，智商，开车水平，肯定没有我的同行写的代码好",
+          "en": "Once you've been driving on the road for a long time, you'll know that the quality, IQ, and driving skills of those demons and monsters on the road are definitely not as good as the code written by my colleagues."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议生病了去看中医，那个没有代码参与",
+          "en": "I suggest you see a traditional Chinese medicine doctor when you're sick, that doesn't involve code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "辅助驾驶就辅助驾驶，硬要营销智驾，营销无人驾驶的氛围。现在好了，那些没脑子的把身家性命搭上了。",
+          "en": "It's just assisted driving, but they insist on marketing intelligent driving and creating an atmosphere of self-driving. Now, things went wrong and those brainless people have risked their lives and fortunes."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "车规的要求确实要高一些，测试也更严苛，但是我还是不信。",
+          "en": "The requirements for automotive standards are indeed higher and the testing is more stringent, but I still don't believe it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "特斯拉一定不是屎山，因为他不是国内的，所以值得完全托付和信任（🐶🐶🐶🐶🐶🐶🐶🐶🐶多加一点",
+          "en": "Tesla is definitely not a shit mountain, because it's not domestic, so it's worthy of complete trust (🐶🐶🐶🐶🐶🐶🐶🐶🐶 add a bit more)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1.功能能跑就行，涉及到人生安全的代码会很严谨，怀疑出现人身安全的问题等于饮鸩止渴2.关于代码屎山，不区分国内国外，都差不多，只要功能一直迭代，都有出现的概率，别迷信外国，看下 github ，烂代码也一堆，没有屎山代码只出现在个人项目，因为会说话的人就一个人",
+          "en": "1. As long as the function can run, the code involving personal safety will be very rigorous. Suspecting personal safety issues is like drinking poison to quench thirst. 2. Regarding code shit mountains, there is no distinction between domestic and foreign. As long as the function is constantly iterated, there is a probability of appearing. Don't be superstitious about foreign countries. Look at GitHub, there are a lot of bad code. The code without shit mountains only appears in personal projects, because there is only one person who can speak."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@x86 国内食品问题那么严重，到车企这里就成白莲花了~~建议挂个号瞧瞧~",
+          "en": "@x86 Domestic food problems are so serious, but here in the car company, it becomes a white lotus ~~ I suggest you make an appointment to check it out~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@DigitaIOcean #23 感觉这几个比车的复杂度低一点，车子在自动驾驶的路段情况太多了，为了照顾各种情况，代码就要写的多和复杂，众所周知越复杂问题越大。只能说你说的这几个出问题概率小，车子出问题概率大罢了",
+          "en": "@DigitaIOcean #23 I feel that these are less complex than cars. There are too many situations on road sections where cars are driving automatically. In order to take care of various situations, a lot of complex code needs to be written. As we all know, the more complex the problem, the bigger it is. It can only be said that the probability of these problems you mentioned is small, and the probability of car problems is high."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "就 v 站前几天针对高速开车的几个热门贴子，我还是愿意把车子交给满是 bug 的代码 https://v2ex.com/t/1108942https://v2ex.com/t/1109246",
+          "en": "Regarding the few popular posts on V2EX a few days ago about driving on the highway, I am still willing to entrust the car to code full of bugs https://v2ex.com/t/1108942https://v2ex.com/t/1109246"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@agagega #7 你提到了“流程”，所以我问，目前国内这些新势力车厂的程序上线“流程”是不是比普通软件公司规范点的。",
+          "en": "@agagega #7 You mentioned 'process', so I ask, are the program launch 'processes' of these new domestic car manufacturers more standardized than ordinary software companies?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我最相信的是自己，可是我也要坐副驾比起他人，我更相信吃透了数十万优秀司机道路经验的代码。那么代码到底哪里不安全呢",
+          "en": "I trust myself the most, but I also have to sit in the passenger seat. Compared to others, I trust the code that has thoroughly understood the road experience of hundreds of thousands of excellent drivers more. So where exactly is the code unsafe?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "别人代码水平高低和你周围人代码水平高低没有联系 如果一个行业总给人 “就像微软能用 electorn 写出 vscode ，你能吗？你不能，你周围人也不能，然后你就开始骂 electorn ” 这样的观感和启示，你大概率已经知道了你自己才是那只井底之蛙",
+          "en": "The coding skills of others have nothing to do with the coding skills of the people around you. If an industry always gives people the impression that 'just like Microsoft can use Electron to write VS Code, can you? You can't, and neither can the people around you, and then you start cursing Electron', you probably already know that you are the frog in the well."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "本人是汽车行业的程序员。总结来说就是，文档多，ut 、it 、sd 、dd 相当多，case 覆盖量也多。不过屎山是真屎山，改代码头疼。不过消费者也不关心你代码质量，无所谓的。",
+          "en": "I am a programmer in the automotive industry. In summary, there are many documents, a lot of ut, it, sd, and dd, and a lot of case coverage. However, the shit mountain is a real shit mountain, and it's a headache to modify the code. But consumers don't care about your code quality, so it doesn't matter."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "屎山不影响代码能跑. 只要有完善的测试用例, 还是能上的.",
+          "en": "Shit mountains don't prevent the code from running. As long as there are complete test cases, it can still be released."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我有学医的朋友，而且我知道她几斤几两，照这么说我是不是不敢去医院看病了",
+          "en": "I have a friend who studies medicine, and I know her capabilities. Does that mean I shouldn't dare to go to the hospital for treatment?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "都是写程序的，怎么会得出这种逆天结论。我建议你远离这个人。 等等。这不会是楼主的观点吧？你这句话套用到任何一个行业都可以。 “写代码的你都知道同行水平吧？敢把自己的钱包交给代码控制？”现代工程里面，代码屎不代表不能跑。你代码写得很屎，但是 1+1 = 2 不会出错。只是后面的人无法重构了。",
+          "en": "You're all programmers, how could you come to such a ridiculous conclusion? I suggest you stay away from this person. Wait. Isn't this the OP's point of view? You can apply this sentence to any industry. 'As a coder, you all know the level of your peers, right? Dare you entrust your wallet to code control?' In modern engineering, code being a mess doesn't mean it can't run. Even if your code is shitty, 1+1 = 2 won't be wrong. It's just that later people can't refactor it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "智驾的对照组是你自己，大众的事故率只不过是一个参考。举个例子，我自己安全驾驶了十几年，我肯定更相信我自己的实力。所以会在低车速的拥挤区域使用智驾来节约精力，而在高车速的车道自己驾驶确保安全。低车速出点事故无所谓，不过是走保险赔钱而已。交给智驾可以节约精力，让我在高车速的危险区域专心驾驶。",
+          "en": "The control group for intelligent driving is yourself, and the accident rate of the general public is just a reference. For example, I have been driving safely for more than ten years, and I definitely trust my own abilities more. So I use intelligent driving in crowded areas with low speeds to save energy, and I drive myself in high-speed lanes to ensure safety. A few accidents at low speeds don't matter, it's just a matter of going through insurance and paying money. Handing it over to intelligent driving can save energy and allow me to concentrate on driving in dangerous high-speed areas."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

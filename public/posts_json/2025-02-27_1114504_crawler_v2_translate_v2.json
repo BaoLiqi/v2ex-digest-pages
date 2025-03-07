@@ -1,0 +1,243 @@
+{
+  "id": 1114504,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "上班没活干的时候大家都在做什么",
+          "en": "What does everyone do when they have nothing to do at work?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最近没有什么活干了，上班有点无聊，大家平时没有任务时都会做些什么？",
+          "en": "Recently, there hasn't been much work to do, and it's a bit boring at work. What do you all usually do when you don't have any tasks?"
+        },
+        {
+          "zh": "是学习新的技术吗？",
+          "en": "Do you learn new technologies?"
+        },
+        {
+          "zh": "还是摸鱼",
+          "en": "Or slack off?"
+        },
+        {
+          "zh": "我自己感觉没有活干的时候反而上一天班更累了，虽然一直在工位坐着啥也不做。",
+          "en": "I personally feel that it's even more tiring to work a day when there's nothing to do, even though I'm just sitting at my desk doing nothing."
+        },
+        {
+          "zh": "如果有任务的时候反而充实一些",
+          "en": "When there are tasks, it feels more fulfilling."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在上 v 站看上班没活干的时候大家都在做什么",
+          "en": "Reading 'What does everyone do when they have nothing to do at work?' on V2EX"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我上了十年班都还没遇到这种时候……",
+          "en": "I've been working for ten years and haven't encountered this situation..."
+        },
+        {
+          "zh": "但是有任务不妨碍我刷 v2",
+          "en": "But having tasks doesn't stop me from browsing V2EX."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "学习，总有一天，你的公司会对你不满意，或者，你会对你的公司不满意，得做知识储备",
+          "en": "Study, because one day your company will be dissatisfied with you, or you will be dissatisfied with your company, so you need to build up your knowledge reserves."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看 pornhub",
+          "en": "Watch Pornhub"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "上班 - 开机 - google - v -回车",
+          "en": "Work - Start up - google - v - Enter"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Watch English video on Youtube, learning English, learning technology and a lot of knowledge.",
+          "en": "Watch English video on Youtube, learning English, learning technology and a lot of knowledge."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1. 翻文档，看看之前每个项目的 README 文件。",
+          "en": "1. Go through the documentation and look at the README files of each previous project."
+        },
+        {
+          "zh": "总结成单独文件，将来卷铺盖交接的时候能更迅速",
+          "en": "Summarize them into separate files so that handover will be faster when you pack up your bags and leave in the future."
+        },
+        {
+          "zh": "2. 继续看学英语的 RSS 文章",
+          "en": "2. Continue reading RSS articles for learning English."
+        },
+        {
+          "zh": "3. 看看项目框架的新版本又有什么新坑等着填",
+          "en": "3. See what new pitfalls the new version of the project framework has waiting to be filled."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "v2 、tophub 、hupu 、zhihu 、bilibili",
+          "en": "v2ex, tophub, hupu, zhihu, bilibili"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhumengyang tophub 这个网站好啊，已收藏",
+          "en": "@zhumengyang Tophub is a great website, I've bookmarked it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "学习→淘汰你的公司",
+          "en": "Study → Your company eliminates you."
+        },
+        {
+          "zh": "摸鱼→公司淘汰你",
+          "en": "Slacking off → The company eliminates you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "摸鱼啊 看帖子 小说 刷抖音",
+          "en": "Slack off, read posts, novels, browse Douyin"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看帖子，群聊，看资讯，看技术",
+          "en": "Read posts, group chats, read news, read technology"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在刷 v2",
+          "en": "Browsing v2ex"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在这里/小红书/无声 Youtube",
+          "en": "Here / Little Red Book / Silent Youtube"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "整本地 LLM 部署,看哪个好用,虽然服务太丐,跑起来的基本都是辣鸡",
+          "en": "Deploy a local LLM and see which one is easy to use. Although the services are too basic, the ones that can run are basically trash."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在上 v 站看上班没活干的时候大家都在做什么",
+          "en": "Reading 'What does everyone do when they have nothing to do at work?' on V2EX"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "每天早上先打开 v2 看看，然后打开 rss 看看有没有博客更新，reddit 随便翻几页，github Trending 之类的翻一翻，然后就被人拉去开会或者拉别人开会去了",
+          "en": "Every morning I open v2ex first, then open rss to see if there are any blog updates, flip through a few pages on reddit, flip through github Trending, and then I get pulled into a meeting or pull others into a meeting."
+        },
+        {
+          "zh": "不过你这种情况，我觉得找个具体的目标，比如做个什么自己的项目之类的，不然大片的时间很容易过去。",
+          "en": "But in your case, I think you should find a specific goal, such as doing your own project or something, otherwise a lot of time will easily pass."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "V 站 L 站 nga 小红书 挨个刷刷一天就过去了",
+          "en": "Browse V2EX, L site (likely bilibili), nga, Little Red Book one by one, and a day will pass."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在刷 v2 看上班没活干的时候大家都在做什么",
+          "en": "Browsing v2ex, reading 'What does everyone do when they have nothing to do at work?'"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "当然是点开这个帖子啦～",
+          "en": "Of course, I'm clicking on this post!～"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

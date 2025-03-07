@@ -1,0 +1,295 @@
+{
+  "id": 1110051,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "被工作占据了大部分精力，下班只想躺平刷手机，看到代码就恶心，如何自救？",
+          "en": "Most of my energy is taken up by work. After work, I just want to lie down and scroll through my phone. I feel disgusted when I see code. How can I save myself?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "公司的上班时间在 965~985 之间徘徊，一个迭代 2 周，迭代内要做本迭代的需求（ 1~3 个），要准备下个迭代需求的评审和方案（也是 1~3 个），期间还要处理各种业务方提过来的琐事。。",
+          "en": "The company's working hours fluctuate between 965 and 985. One iteration is 2 weeks. Within an iteration, I have to work on the requirements of this iteration (1~3), prepare the review and plan for the next iteration's requirements (also 1~3), and handle various trivial matters raised by business parties during this period."
+        },
+        {
+          "zh": "\r\n\r\n老代码的坑很多，经手的人太多导致编码思路也都大相径庭，按照上面的节奏，排期很紧张，有时甚至需要周末写代码追进度（而且周末不能申请加班，所以只能牺牲自己的周末时光）",
+          "en": "\r\n\r\nThere are many pitfalls in the old code. Too many people have been involved, resulting in very different coding ideas. According to the above rhythm, the schedule is very tight. Sometimes I even need to write code on weekends to catch up (and I can't apply for overtime on weekends, so I can only sacrifice my weekend time)."
+        },
+        {
+          "zh": "\r\n\r\n感觉精力被表面上 965 的工作消耗殆尽，如果我没工作，或者业余时间充裕，肯定会去研究 AI 、写自己的开源项目、做自媒体等一系列自己感兴趣的东西。",
+          "en": "\r\n\r\nI feel that my energy is drained by the seemingly 965 work. If I didn't have a job, or if I had plenty of spare time, I would definitely study AI, write my own open source projects, do self-media, and a series of other things I am interested in."
+        },
+        {
+          "zh": "\r\n\r\n为什么不周末做？",
+          "en": "\r\n\r\nWhy not do it on weekends?"
+        },
+        {
+          "zh": "因为被折腾了 5 天后，甚至有时还要周末加班追进度，真的是看到代码就恶心，只想睡大觉刷手机，怎么改善这种状态？",
+          "en": "Because after being tortured for 5 days, and sometimes even having to work overtime on weekends to catch up, I really feel disgusted when I see code. I just want to sleep and scroll through my phone. How can I improve this state?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大部分工作都是这样，只不过严格的朝九晚五还有属于自己的晚 6 早 8 属于自己支配的区间，但是 996 和不定时加班绝对是摧毁打工人精神的毒药，因为你不知道什么时间属于自己或者没有时间属于自己，以及无法安排假期。",
+          "en": "Most jobs are like this, but strict 9-to-5 jobs still have their own 6 PM to 8 AM range that they can control. However, 996 and irregular overtime are definitely poisons that destroy the spirit of workers, because you don't know when you have time for yourself or don't have time for yourself, and you can't arrange vacations."
+        },
+        {
+          "zh": "每个人都不是超人，我的建议是 1.能力强就找一份你相信或者认为有潜力有有价值的公司为之付出早日财务自由，2.找一个工资不高，但是工作也没什么压力能够按时上下班的公司，好好经营自己的生活。",
+          "en": "Everyone is not a Superman. My suggestion is 1. If you are capable, find a company that you believe in or think has potential and is valuable, and work hard to achieve financial freedom as soon as possible. 2. Find a company with a low salary, but not much pressure, where you can get off work on time and manage your life well."
+        },
+        {
+          "zh": "3.既赚不到钱还压力大没时间，那么可以尝试一下做无业游民，先把身体调养好，然后好好想想这辈子想怎么活，钱并不是最重要的，然后找到一个适合自己的谋生手段，平稳的过一辈子。",
+          "en": "3. If you can't make money and are under a lot of pressure and have no time, then you can try being unemployed. First, take care of your health, then think about how you want to live your life, money is not the most important thing, and then find a way to make a living that suits you and live a stable life."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我怕说多了你认为我 Pua 你，就说几句：我还在上班（今天还在加班），俩小孩。",
+          "en": "I'm afraid you'll think I'm Pua-ing you if I say too much, so I'll just say a few words: I'm still at work (still working overtime today), and I have two kids."
+        },
+        {
+          "zh": " 我给自己找的事情是写书。",
+          "en": "The thing I found for myself is writing a book."
+        },
+        {
+          "zh": "三年来，只要是空闲的时候，就埋头写（有时候熬夜到凌晨三四点 ），不看手机、也不刷美剧（我之前特别喜欢看美剧）。",
+          "en": "For three years, whenever I have free time, I bury myself in writing (sometimes staying up until 3 or 4 in the morning), not looking at my phone or watching American dramas (I used to love watching American dramas)."
+        },
+        {
+          "zh": "所幸写完了，上班也没耽误，但过程无比累...",
+          "en": "Fortunately, I finished writing and didn't delay work, but the process was extremely tiring..."
+        },
+        {
+          "zh": "我觉得：- 最重要的，要找到一个强大的驱动力（要驱使你，一到两年没有任何收益，但你仍然要完整某件事）- 戒掉手机、社交（不看任何自媒体、公众号、短视频，也不看新闻）- 你真正爱这件事情然后，把时间拉长（ 2 年、3 年、5 年），那你一定能成某件事情。",
+          "en": "I think: - The most important thing is to find a strong driving force (to drive you to complete something even if there is no benefit for one or two years) - Quit mobile phones and social media (don't read any self-media, public accounts, short videos, or news) - You really love this thing Then, lengthen the time (2 years, 3 years, 5 years), and you will definitely be able to achieve something."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我这里也是，工作是最主要的焦虑来源，于是自己的项目和家庭都只能做到半瓶水。",
+          "en": "It's the same here. Work is the main source of anxiety, so I can only do half-hearted work on my own projects and family."
+        },
+        {
+          "zh": "我在想，等过几年多积累一些钱，看看北美这里经济形势如果能好一些，就辞职一段时间。",
+          "en": "I'm thinking of accumulating some more money in a few years and seeing if the economic situation in North America can improve, then I'll resign for a while."
+        },
+        {
+          "zh": "当然我感觉经济形势是越来越烂了。",
+          "en": "Of course, I feel that the economic situation is getting worse and worse."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "干的越快后面给你排的需求越多",
+          "en": "The faster you work, the more requirements they will put on you later."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉精力被表面上 965 的工作消耗殆尽，如果我没工作，或者业余时间充裕，肯定会去研究 AI 、写自己的开源项目、做自媒体等一系列自己感兴趣的东西。",
+          "en": "I feel that my energy is drained by the seemingly 965 work. If I didn't have a job, or if I had plenty of spare time, I would definitely study AI, write my own open source projects, do self-media, and a series of other things I am interested in."
+        },
+        {
+          "zh": "你这个想法错误的，等真的没工作之后又焦虑、研究 AI, 开源项目无法直接带来收益，很难开头。",
+          "en": "Your idea is wrong. After you really lose your job, you will be anxious again. Studying AI and open source projects cannot directly bring income, so it is difficult to start."
+        },
+        {
+          "zh": "长期没有收益很快就会放弃了",
+          "en": "You will give up quickly if you don't have any benefits for a long time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "985 工时都已经是赢家了",
+          "en": "985 working hours are already a winner."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在大部分公司都这样，公司会尽可能的压榨你的时间和精力，要么躺拿垫底绩效，要么换公司，人的精力是有限的，这种情况下是没办法做自己的东西的。",
+          "en": "Most companies are like this now. The company will try its best to squeeze your time and energy. Either you lie down and get the lowest performance, or you change companies. People's energy is limited. In this case, you can't do your own things."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该增加锻炼身体的时间, 运动能让状态心情大大提升并且预防电子产品相关的慢性疾病",
+          "en": "You should increase the time you spend exercising. Exercise can greatly improve your mood and prevent chronic diseases related to electronic products."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我看到代码就心动",
+          "en": "I get excited when I see code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@meteor957  是的。",
+          "en": "@meteor957 Yes."
+        },
+        {
+          "zh": "写之前得有个酝酿过程，比如看一批同行的书，学习下他们内容组织思路，然后再组织自己的大纲。",
+          "en": "There must be a brewing process before writing, such as reading a batch of books from peers, learning their content organization ideas, and then organizing your own outline."
+        },
+        {
+          "zh": "当你准备充分的时候，下笔就顺利了。",
+          "en": "When you are fully prepared, writing will be smooth."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "休假，调整看代码时间比例",
+          "en": "Take a vacation and adjust the proportion of time spent looking at code."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不然拿点年假出去走走放松一下吧",
+          "en": "Otherwise, take some annual leave to go out and relax."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "换家公司",
+          "en": "Change companies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "换不加班的工作就行了",
+          "en": "Just change to a job that doesn't require overtime."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "换公司",
+          "en": "Change companies."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "需求评审直接开怼，减少需求，说技术实现麻烦。",
+          "en": "Directly confront the demand review, reduce demand, and say that technical implementation is troublesome."
+        },
+        {
+          "zh": "问他是不是无效需求，找找其他解决方案。",
+          "en": "Ask him if it is an invalid requirement and look for other solutions."
+        },
+        {
+          "zh": "很多需求几句话就让你疲惫不堪。",
+          "en": "Many requirements make you exhausted in just a few words."
+        },
+        {
+          "zh": "找上级说明下情况，工作划分下边界，不做其他无关事情，影响效率",
+          "en": "Explain the situation to your superiors, delineate the boundaries of work, do not do other irrelevant things, and affect efficiency."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "换公司。",
+          "en": "Change companies."
+        },
+        {
+          "zh": "如果自己的能力不足以找到好公司，就换行业。",
+          "en": "If you don't have the ability to find a good company, then change industries."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "985 已经是赢家了，我们年前甚至 都不止 996 了，有几次周日也上班。",
+          "en": "985 is already a winner. Before the Chinese New Year, we even worked more than 996, and we even worked on Sundays a few times."
+        },
+        {
+          "zh": "发版的前一两个星期 凌晨 2 点也是正常。",
+          "en": "It is normal to be up at 2 am in the one or two weeks before the release."
+        },
+        {
+          "zh": "游戏行业。",
+          "en": "Game industry."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这是多数行内人士的常态了，大环境如此，除非润或考编，否则很难有改善。",
+          "en": "This is the norm for most people in the industry. The general environment is like this. Unless you run away or take the civil service exam, it is difficult to improve."
+        },
+        {
+          "zh": "珍惜当下不需要 995 吧",
+          "en": "Cherish the present and not need 995."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小组有几个活跃的，瞎扯淡的还是挺好的，减轻工作压力",
+          "en": "It's still good to have a few active and gossiping people in the group to reduce work pressure."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

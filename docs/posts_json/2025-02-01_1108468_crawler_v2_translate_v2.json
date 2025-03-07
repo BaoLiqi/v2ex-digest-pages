@@ -1,0 +1,215 @@
+{
+  "id": 1108468,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "openai 上线了 o3-mini",
+          "en": "openai launched o3-mini"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://openai.com/index/openai-o3-mini/",
+          "en": "https://openai.com/index/openai-o3-mini/"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "要不是 deepseek 还不知道什么时候给上线新模型，一直压箱底，慢慢的放，也开始学老黄刀法了。",
+          "en": "Since DeepSeek hasn't revealed when they'll release new models, they've been holding back updates, slowly releasing them, and even adopting NVIDIA's tactics."
+        },
+        {
+          "zh": "竞争对用户最好的，希望以后有更多更强开源模型出现",
+          "en": "Competition is best for users. I hope more powerful, open-source models become available in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "尽量不给 openAI 提供训练数据。",
+          "en": "Try not to provide training data to OpenAI."
+        },
+        {
+          "zh": "它发展得再好也不愿意开源一点点模型，哪怕是去年的稍微过时的模型，只进不出的巨兽太贪婪了，还时不时搞小动作降智。",
+          "en": "No matter how much it grows, it refuses to open-source even a slightly outdated model from last year, greedily hoarding resources and occasionally undermining intelligence with underhanded moves."
+        },
+        {
+          "zh": "太葛朗台了。",
+          "en": "It's Scrooge-like."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看了下，免费用户点击输入框的 reason 后也能体验到。这是对 deepseek 的反击吗？",
+          "en": "I noticed free users can experience it by clicking 'reason' in the input box. Is this a countermove against DeepSeek?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@randychoi livebench 吧？",
+          "en": "@randychoi LiveBench maybe?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "o3minihigh 强于现在的 o1 吗",
+          "en": "Is o3minihigh stronger than the current o1?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "mini 肯定是小模型喽，还是免费 R1 香o3mini (high) 看上去和 o1 水平差不多。",
+          "en": "Mini is definitely a smaller model. I prefer the free R1. o3mini (high) seems comparable to o1 in performance."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "As part of this upgrade, we’re tripling the rate limit for Plus and Team users from 50 messages per day with o1-mini to 150 messages per day with o3-mini.一天 150 条 messages 限制。一个小模型还对订阅用户限制这么多。葛朗台+夏洛克😂",
+          "en": "As part of this upgrade, we’re tripling the rate limit for Plus and Team users from 50 messages per day with o1-mini to 150 messages per day with o3-mini. A 150-message daily limit for a small model. It's Scrooge + Shylock for subscribers. 😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ovtfkw 根据 livebeach 的数据, o1 综合能力最强，翻译能力 o3 mini high 不如 4o 。编程能力 o1 mini high 最强",
+          "en": "@ovtfkw According to LiveBeach data, o1 has the strongest overall capabilities. The translation capacity of o3 mini high is inferior to 4o's. o1 mini high has the best programming capability."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "closeai：葛朗台+夏洛克",
+          "en": "closeai: Scrooge + Shylock"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@dji38838c 为什么我看 openai 自己发的那篇报告中是 o3 mini 的数学能力最强了.https://openai.com/index/openai-o3-mini/",
+          "en": "@dji38838c But in OpenAI's own report here I saw that o3 mini has the strongest math capabilities. https://openai.com/index/openai-o3-mini/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "#10 @466162659 我是免费用户用的是 o3-mini,开启了推理.问3.11 和 3.9 哪个大?ChatGPT我在比较 3.11 和 3.9 的大小时，3.11 略大。这个差距可能是微不足道的，但显示了微调的重要性。比较两个数让我看看，3.11 和 3.9 哪个大。显然，3.11 明显大于 3.9 ，很容易比较出哪个数更大。3.11 比 3.9 大。",
+          "en": "#10 @466162659 As a free user with o3-mini enabled for inference, I asked: 'Which is larger, 3.11 or 3.9? Comparing their sizes, 3.11 is slightly larger. This difference may be negligible but highlights the importance of refinement.' Comparing the two values, clearly 3.11 is greater than 3.9. 3.11 is larger than 3.9."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感谢 deepseek ~",
+          "en": "Thanks to DeepSeek ~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感谢 deepseek ，以后能用上更便宜的 chatgpt",
+          "en": "Thanks to DeepSeek. Hope to get cheaper ChatGPT access in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "openai: 其实我早就做了，只是被友商捷足先登了",
+          "en": "openai: Well, I did it earlier, but the competitors beat me to the punch."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xbox360 @7LM4liVHIyzvtMyO 根据 livebench 的数据，o1 数学是最强的，其次是 deepseek r1 ，排第三是 o3 mini high",
+          "en": "@xbox360 @7LM4liVHIyzvtMyO | According to LiveBench data, o1 has the strongest math capabilities, followed by DeepSeek R1, with o3 mini high ranking third."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "o3 min high:@xbox360 比较这两个数时，我们可以先看整数部分：3.11 的整数部分是 33.9 的整数部分也是 3由于整数部分相同，我们再比较小数部分。3.11 的小数部分是 0.113.9 的小数部分是 0.9 ，可以写成 0.90显然，0.90 > 0.11 ，所以 3.9 大于 3.11 。",
+          "en": "o3 min high:@xbox360 When comparing these two numbers: first look at the integer parts. 3.11 has an integer part of 3; 3.9 also is 3. Since the integer parts are equal, compare the decimal parts. 3.11 has 0.11 as its decimal part; 3.9's is 0.9 (written as 0.90). Clearly, 0.90 > 0.11. Therefore, 3.9 is greater than 3.11."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@randychoi 好奇这类把 0.9 写为 0.90 再比较的 AI ，遇到：\"3.111 和 3.9 哪个大?\" 会怎么比较",
+          "en": "@randychoi Curious: How would an AI that pads 0.9 to 0.90 to compare numbers handle '3.111 vs 3.9?'"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哦，也许又会把 3.9 写成 3.900 吧",
+          "en": "Hmm, maybe it would write 3.9 as 3.900 again."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Kisesy pi 和 3.9 哪个大🤣",
+          "en": "@Kisesy pi or 3.9 is bigger 🤣"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@FightPig 什么地方先等了？",
+          "en": "@FightPig What location are you waiting for first?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

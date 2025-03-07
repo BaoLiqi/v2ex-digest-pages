@@ -1,0 +1,239 @@
+{
+  "id": 1113979,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "Claude 3.7 Sonnet 横空出世！混合推理暴击编程极限， AI 编码王者再次傲视群雄",
+          "en": "Claude 3.7 Sonnet is born! Hybrid reasoning crushes programming limits, AI coding king once again reigns supreme"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "### 全球首个混合推理模型 Claude 3.7 Sonnet 正式登场！",
+          "en": "### The world's first hybrid reasoning model Claude 3.7 Sonnet officially debuts!"
+        },
+        {
+          "zh": "Anthropic 祭出杀手锏，将即时响应与可扩展思考融为一体，彻底颠覆 AI 能力边界。",
+          "en": "Anthropic unleashes its trump card, integrating instant responsiveness with scalable thinking to completely颠覆 the boundaries of AI capabilities."
+        },
+        {
+          "zh": "![Anthropic 祭出杀手锏]( https://pbs.twimg.com/media/GkksIeKbkAAtRUP?format=jpg&name=large)",
+          "en": "![Anthropic unleashes its trump card]( https://pbs.twimg.com/media/GkksIeKbkAAtRUP?format=jpg&name=large)"
+        },
+        {
+          "zh": "更多信息查看推文: https://x.com/alexalbert__/status/1894093648121532546",
+          "en": "More information can be found in the tweet: https://x.com/alexalbert__/status/1894093648121532546"
+        },
+        {
+          "zh": "### 生态联动升级",
+          "en": "### Ecosystem linkage upgrade"
+        },
+        {
+          "zh": "同步亮相的 cusor （ 0.46.3 ），",
+          "en": "The synchronously released cusor (0.46.3),"
+        },
+        {
+          "zh": "已经接入 Claude 3.7 Sonnet;",
+          "en": "has been connected to Claude 3.7 Sonnet;"
+        },
+        {
+          "zh": "不知道白嫖用户可不可以使用 0.0",
+          "en": "I don't know if free users can use it 0.0"
+        },
+        {
+          "zh": "更多信息查看推文:  https://x.com/alexalbert__/status/1894093648121532546",
+          "en": "More information can be found in the tweet: https://x.com/alexalbert__/status/1894093648121532546"
+        },
+        {
+          "zh": "正式迈入“动嘴指挥”纪元?",
+          "en": "Officially entering the era of 'commanding with your mouth'?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一大波文章即将来袭：《前端已死》、《代码已死》、《编程已死》、《 10 分钟我做了一个网站》、《一周用 cursor 做了 3 个 APP 》……",
+          "en": "A wave of articles is coming soon: 'Frontend is Dead', 'Code is Dead', 'Programming is Dead', 'I made a website in 10 minutes', 'I made 3 APPs with cursor in a week'......"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kw8023cn #59 cursor 是编程的革命，不需要投广告，你还在意 IDE 说明你思想还在手写代码时代，AI 能自动写代码用什么 IDE 已经不重要了，你要不信，那就继续刀耕火种，等你都醒悟过来，已经在败者组了，就像李彦宏进了败者组，现在做什么百度都死路一条",
+          "en": "@kw8023cn #59 cursor is a revolution in programming and doesn't need advertising. If you still care about IDEs, it means your thinking is still in the era of handwriting code. It's not important what IDE you use when AI can automatically write code. If you don't believe it, then continue with your manual labor. By the time you wake up, you'll already be in the loser's bracket, just like Robin Li entered the loser's bracket, and now everything Baidu does is a dead end."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mumbler #28 想听听有多复杂然后 3.7 解决后豁然开朗的故事",
+          "en": "@mumbler #28 I'd like to hear the story of how complex it was and how 3.7 solved it and suddenly enlightened you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已经更新 Claude 3.7 Sonnet ，可以体验 https://datapipe.app",
+          "en": "Claude 3.7 Sonnet has been updated and can be experienced at https://datapipe.app"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "刚刚看到 cursor 可选 3.7 了，实测编码能力肉眼可见的提升",
+          "en": "Just saw that cursor can select 3.7, and the actual coding ability has been improved visibly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "编程已死",
+          "en": "Programming is dead"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "继续吹。",
+          "en": "Keep bragging."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@LoLSilence #25 上周项目卡了个 BUG ，很复杂，人不花个 1 个月根本理不清里面的关系，之前用 o3 mini,o1,claude 3.5,deepseek r1 都没解决，今早用 3.7 一次就解决了",
+          "en": "@LoLSilence #25 Last week the project had a BUG, it was very complex, and it would take a person a month to sort out the relationship. Previously, o3 mini, o1, claude 3.5, deepseek r1 could not solve it, but this morning 3.7 solved it in one go."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@mumbler #28 能专门开个贴说说怎么理清的吗。现在这种 AI 编码工具可以辅助排查那种屎山项目吗 比如那种纯业务代码 跑了 10 年 20 年的 准备重构。缺少文档。几十万行 需要借助 AI 来梳理",
+          "en": "@mumbler #28 Can you open a separate thread to talk about how to sort it out? Can this kind of AI coding tool help to troubleshoot those legacy projects, such as pure business code that has been running for 10 or 20 years and is about to be refactored? Missing documentation. Hundreds of thousands of lines need to be sorted out with the help of AI."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在 anthropic 官方的 workbench 里用 api 试了一下，写代码能力确实强，我有一个 ui 组件库的问题，之前只有 gpt-4o 和 o1-preview 能做出来（ o3-mini, o1, R1 都不行），现在 claude 3.7 也能做出来了，而且做得最好其他普通的 cs 领域的问题，日常问题，没测出来明显优势，但是编程确实好测试记录： https://echoccc.online/posts/llm-test",
+          "en": "I tried it with the API in Anthropic's official workbench, and it's indeed strong at writing code. I had a problem with a UI component library that only gpt-4o and o1-preview could solve before (o3-mini, o1, R1 didn't work), but now claude 3.7 can also do it, and it does it the best. Other ordinary CS field problems, daily problems, didn’t test obvious advantages, but programming is indeed good. Test record: https://echoccc.online/posts/llm-test"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kw8023cn 你自己去用用不就知道了， 被迫害妄想症？",
+          "en": "@kw8023cn Why don't you just try it yourself? Are you having persecution delusions?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "确实可以，编码能力秒杀绝大部分 IT 民工，公司又要裁人了 [😭]",
+          "en": "Indeed, the coding ability kills most IT laborers, and the company is going to lay off people again [😭]"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "cursor 还是 0.45..检查更新超时..官网下载也是 0.45.",
+          "en": "cursor is still 0.45.. Check update timeout.. The official website download is also 0.45."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然但是，这标题一眼百家号啊，营销号的味儿扑面而来😅",
+          "en": "Although, but, this title looks like a Baijiahao article at a glance, the smell of a marketing account is coming at you😅"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "官网还是 0.45 啊，升级后也是 0.45 呢，你的 0.63 是哪里来到呢",
+          "en": "The official website is still 0.45, and it's 0.45 even after the upgrade, where did your 0.63 come from?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "傲视群雄，遥遥领先",
+          "en": "Reigning supreme, far ahead"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xubingok #3 @flyespace #6 我更新升级之后是 0.46.3 (user setup)",
+          "en": "@xubingok #3 @flyespace #6 After my update, it is 0.46.3 (user setup)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@flyespace 已经可以更新了",
+          "en": "@flyespace It can be updated already."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "还没试，打开 cursor 已经可选了",
+          "en": "Haven't tried it yet, but it's already selectable when opening cursor."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "GitHub Copilot 能上 3.7 吗",
+          "en": "Will GitHub Copilot be able to use 3.7?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

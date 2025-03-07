@@ -1,0 +1,475 @@
+{
+  "id": 1112879,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "一款全新的工作流 IDE",
+          "en": "A brand new workflow IDE"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我们基于 VSCode 开发了 OOMOL Studio ，一个支持 Windows 和 macOS 的工作流解决方案。",
+          "en": "We developed OOMOL Studio based on VSCode, a workflow solution that supports Windows and macOS."
+        },
+        {
+          "zh": "## 解决的痛点",
+          "en": "## Pain points solved"
+        },
+        {
+          "zh": "- 本地环境配置繁琐，跨平台开发痛苦",
+          "en": "- Cumbersome local environment configuration, painful cross-platform development"
+        },
+        {
+          "zh": "- 想用 GPU 加速，但容器环境不好配置",
+          "en": "- Want to use GPU acceleration, but container environment is difficult to configure"
+        },
+        {
+          "zh": "- 团队协作时环境不一致，调试很痛苦",
+          "en": "- Inconsistent environment during team collaboration, debugging is painful"
+        },
+        {
+          "zh": "- 想要一个统一的工作区管理各种项目",
+          "en": "- Want a unified workspace to manage various projects"
+        },
+        {
+          "zh": "- 只想写代码，不想折腾环境和 UI",
+          "en": "- Just want to write code, don't want to mess with the environment and UI"
+        },
+        {
+          "zh": "## 核心特性",
+          "en": "## Core features"
+        },
+        {
+          "zh": "- **跨平台支持**:",
+          "en": "- **Cross-platform support**:"
+        },
+        {
+          "zh": "- Windows",
+          "en": "- Windows"
+        },
+        {
+          "zh": "- macOS",
+          "en": "- macOS"
+        },
+        {
+          "zh": "- **虚拟化能力**:",
+          "en": "- **Virtualization capabilities**:"
+        },
+        {
+          "zh": "- 基于 Podman 的容器化方案",
+          "en": "- Containerization solution based on Podman"
+        },
+        {
+          "zh": "- GPU 支持",
+          "en": "- GPU support"
+        },
+        {
+          "zh": "- 同时支持 Mac 的 Apple 芯片和 Intel 芯片",
+          "en": "- Supports both Apple Silicon and Intel chips on Mac"
+        },
+        {
+          "zh": "- **AI**:",
+          "en": "- **AI**:"
+        },
+        {
+          "zh": "- 内置大模型 API",
+          "en": "- Built-in large model API"
+        },
+        {
+          "zh": "- 支持主流大模型",
+          "en": "- Support for mainstream large models"
+        },
+        {
+          "zh": "- 支持 AI 代码补全",
+          "en": "- Support AI code completion"
+        },
+        {
+          "zh": "- 每月送 1M Token",
+          "en": "- Give away 1M Tokens per month"
+        },
+        {
+          "zh": "- **社区驱动的生态**:",
+          "en": "- **Community-driven ecosystem**:"
+        },
+        {
+          "zh": "- 一键分享工作流 (Flows)",
+          "en": "- One-click sharing of workflows (Flows)"
+        },
+        {
+          "zh": "- 即拿即用的脚本库 (Blocks)",
+          "en": "- Ready-to-use script library (Blocks)"
+        },
+        {
+          "zh": "- 拖拽复用他人的优秀方案",
+          "en": "- Drag and drop to reuse other people's excellent solutions"
+        },
+        {
+          "zh": "- 开发者社区",
+          "en": "- Developer Community"
+        },
+        {
+          "zh": "- **现代化技术栈**:",
+          "en": "- **Modern technology stack**:"
+        },
+        {
+          "zh": "- 前端: 基于 VSCode 深度定制",
+          "en": "- Front-end: Deeply customized based on VSCode"
+        },
+        {
+          "zh": "- 后端: Node.js + Golang + Rust + C",
+          "en": "- Back-end: Node.js + Golang + Rust + C"
+        },
+        {
+          "zh": "## 开源",
+          "en": "## Open source"
+        },
+        {
+          "zh": "虽然 OOMOL Studio 本身不开源，但我们深度拥抱开源：",
+          "en": "Although OOMOL Studio itself is not open source, we deeply embrace open source:"
+        },
+        {
+          "zh": "1. 我们开源了多个核心组件：",
+          "en": "1. We have open sourced several core components:"
+        },
+        {
+          "zh": "- [ovm]( https://github.com/oomol-lab/ovm): Mac 平台的虚拟机管理工具",
+          "en": "- [ovm]( https://github.com/oomol-lab/ovm): Virtual machine management tool for Mac platform"
+        },
+        {
+          "zh": "- [ovm-win]( https://github.com/oomol-lab/ovm-win): Windows 平台的虚拟机管理工具",
+          "en": "- [ovm-win]( https://github.com/oomol-lab/ovm-win): Virtual machine management tool for Windows platform"
+        },
+        {
+          "zh": "- [mac-power-monitor]( https://github.com/oomol-lab/mac-power-monitor): 处理 macOS 休眠事件的利器",
+          "en": "- [mac-power-monitor]( https://github.com/oomol-lab/mac-power-monitor): A powerful tool for handling macOS sleep events"
+        },
+        {
+          "zh": "- [ovm-ssh-agent]( https://github.com/oomol-lab/ovm-ssh-agent): 通用 SSH Agent 解决方案",
+          "en": "- [ovm-ssh-agent]( https://github.com/oomol-lab/ovm-ssh-agent): Universal SSH Agent solution"
+        },
+        {
+          "zh": "2. 活跃的社区贡献：",
+          "en": "2. Active community contributions:"
+        },
+        {
+          "zh": "- 为 [VSCode]( https://github.com/microsoft/vscode)、[podman]( https://github.com/containers/podman)、[urfave/cli]( https://github.com/urfave/cli)、[cnpm]( https://github.com/cnpm/cnpmcore)、[vfkit]( https://github.com/crc-org/vfkit) 等知名项目贡献代码",
+          "en": "- Contribute code to well-known projects such as [VSCode]( https://github.com/microsoft/vscode), [podman]( https://github.com/containers/podman), [urfave/cli]( https://github.com/urfave/cli), [cnpm]( https://github.com/cnpm/cnpmcore), [vfkit]( https://github.com/crc-org/vfkit), etc."
+        },
+        {
+          "zh": "- 赞助支持 [vz]( https://github.com/code-Hex/vz) 等优秀开源项目的发展",
+          "en": "- Sponsor and support the development of excellent open source projects such as [vz]( https://github.com/code-Hex/vz)"
+        },
+        {
+          "zh": "- 持续参与开源社区建设",
+          "en": "- Continue to participate in open source community building"
+        },
+        {
+          "zh": "## 实用场景",
+          "en": "## Practical scenarios"
+        },
+        {
+          "zh": "- AI 模型开发（支持 GPU 加速）",
+          "en": "- AI model development (supports GPU acceleration)"
+        },
+        {
+          "zh": "- 跨平台项目开发",
+          "en": "- Cross-platform project development"
+        },
+        {
+          "zh": "- 数据处理与分析",
+          "en": "- Data processing and analysis"
+        },
+        {
+          "zh": "- 团队协作开发",
+          "en": "- Team collaboration development"
+        },
+        {
+          "zh": "- DevOps 工作流",
+          "en": "- DevOps workflow"
+        },
+        {
+          "zh": "- 快速复用社区优秀实践",
+          "en": "- Quickly reuse excellent community practices"
+        },
+        {
+          "zh": "- 分享你的工作流程给他人",
+          "en": "- Share your workflow with others"
+        },
+        {
+          "zh": "## 截图",
+          "en": "## Screenshot"
+        },
+        {
+          "zh": "![]( https://i.v2ex.co/SY2DLSZW.png)",
+          "en": "![]( https://i.v2ex.co/SY2DLSZW.png)"
+        },
+        {
+          "zh": "![]( https://i.v2ex.co/5Y2BGG3s.png)",
+          "en": "![]( https://i.v2ex.co/5Y2BGG3s.png)"
+        },
+        {
+          "zh": "![]( https://i.v2ex.co/i8fJxeRX.png)",
+          "en": "![]( https://i.v2ex.co/i8fJxeRX.png)"
+        },
+        {
+          "zh": "## 福利",
+          "en": "## Welfare"
+        },
+        {
+          "zh": "为感谢 V 友们的支持，我们准备了 20 个小米保温杯，会从评论区抽取 20 位幸运 V 友送出 (2 月 27 号截止)。",
+          "en": "To thank V users for their support, we have prepared 20 Xiaomi thermos cups, and will draw 20 lucky V users from the comment area to send out (deadline is February 27)."
+        },
+        {
+          "zh": "抽奖程序: https://hub.oomol.com/package/v2ex-lottery/0.0.1",
+          "en": "Lottery program: https://hub.oomol.com/package/v2ex-lottery/0.0.1"
+        },
+        {
+          "zh": "## 最后",
+          "en": "## Finally"
+        },
+        {
+          "zh": "如果你对 OOMOL Studio 感兴趣：",
+          "en": "If you are interested in OOMOL Studio:"
+        },
+        {
+          "zh": "1. 欢迎下载试用，和我们交流使用体验",
+          "en": "1. Welcome to download and try it out, and communicate with us about your experience"
+        },
+        {
+          "zh": "2. 给我们的开源项目点个 star ⭐",
+          "en": "2. Give our open source project a star ⭐"
+        },
+        {
+          "zh": "官网: https://oomol.com",
+          "en": "Official website: https://oomol.com"
+        },
+        {
+          "zh": "开源: https://github.com/oomol-lab",
+          "en": "Open source: https://github.com/oomol-lab"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "所以这个主要的使用场景是什么><",
+          "en": "So what is the main usage scenario for this?><"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大屏幕没适配好呀",
+          "en": "The big screen is not well adapted"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "卧槽，一看名字这么熟悉，还记得我吗",
+          "en": "Wow, the name looks so familiar, do you still remember me?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "涉及到 AI 的帖子，现在到处都是一键生成的复制品，这才是专业的工具，非常好用，支持一下，浮躁时代中的一股清流",
+          "en": "Posts involving AI are now full of one-click generated copies. This is a professional tool, very easy to use. Support it, a clear stream in a浮躁 era."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已注册,macos 试用，1.建议官方使用文档细化，快速实践增加例子。目标是看了教程，5 分钟上手。",
+          "en": "Registered, macOS trial, 1. It is recommended that the official user documentation be refined, and examples be added for quick practice. The goal is to get started in 5 minutes after reading the tutorial."
+        },
+        {
+          "zh": "2.应用节点增加各种模型封装 api 节点，包含 openai 、dp 、claude 、mj 、suno 、flux 、grok3 等。",
+          "en": "2. Add various model encapsulation API nodes to the application node, including openai, dp, claude, mj, suno, flux, grok3, etc."
+        },
+        {
+          "zh": "3.节点编辑信息需要放大，优化体检点击弹框。",
+          "en": "3. The node editing information needs to be enlarged, and the pop-up window for optimizing physical examination should be optimized."
+        },
+        {
+          "zh": "4.增加 for 、条件判断节点。",
+          "en": "4. Add for and conditional judgment nodes."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "试用了下，能基于 VSCode 把 IDE 做成这样，厉害了。",
+          "en": "After trying it out, it's amazing to be able to create an IDE like this based on VSCode."
+        },
+        {
+          "zh": "就是学习成本有点高，其实很多人连 dify 或 coze 这种都用不太明白，这个对普通用户来说有点难，可能程序员出身会好点。",
+          "en": "The learning cost is a bit high. In fact, many people don't even understand dify or coze, which is a bit difficult for ordinary users, and it may be better for programmers."
+        },
+        {
+          "zh": "如果能像 cursor 那样，根据自然语言的描述生成基础的工作流，也许受众会更多点。",
+          "en": "If you can generate basic workflows based on natural language descriptions like cursor, maybe the audience will be larger."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "加油啊，已 star ，后面会深度体验下，感谢无私奉献；感觉是一款 ALLINONE 的类似 AI agent 的产品，浅浅的体验了后，有几点建议：1. 突出特点，将一个特性做到极致，目前还没看到哪个特性特别好，能吹出去",
+          "en": "Come on, starred, I will have an in-depth experience later, thank you for your selfless dedication; I feel that it is an ALLINONE product similar to AI agent. After a shallow experience, I have a few suggestions: 1. Highlight the features and make one feature to the extreme. I haven't seen any features that are particularly good and can be bragged about."
+        },
+        {
+          "zh": "2. 文档，易上手方面欠缺些，试用后感觉还是有点摸不着头脑",
+          "en": "2. Documentation, lack of ease of use, I feel a little confused after the trial"
+        },
+        {
+          "zh": "3. 先活下去，做 ide ，想好后面如何盈利这些，b 端企业如何介入，让团队活下去",
+          "en": "3. Survive first, make ide, think about how to make profits later, how to get b-end enterprises to intervene, and let the team survive"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@BlackHole1 明白了明白了   没事儿 你发杯子 我回来自己用激光刻上你们家 logo  和 当前版本号",
+          "en": "@BlackHole1 Understood, understood. It's okay, you send the cup and I'll come back and engrave your logo and the current version number on it with a laser."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持一波，顺带说下官网的图片资源可以考虑压缩下，类似 TinyPNG 这种虽然也没大到一定体积，但我这边打开贼慢 🤣",
+          "en": "Support a wave, and by the way, the image resources on the official website can be considered for compression, similar to TinyPNG, although it is not very large, but it opens very slowly for me🤣"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "跨平台和 GPU 加速真香！团队协作和社区生态也很棒，不用再折腾环境了~ 已去 GitHub 点星，蹲个杯子，祝发展顺利！",
+          "en": "Cross-platform and GPU acceleration are really great! Team collaboration and community ecology are also great, no need to toss the environment anymore~ I have already starred on GitHub, squatting for a cup, I wish you a smooth development!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "IDE 赛道……好像有点太卷了吧，建议还是先做各大 IDE 的基础功能实现插件。",
+          "en": "IDE track... it seems a bit too competitive, it is recommended to first make plug-ins for basic functions of major IDEs."
+        },
+        {
+          "zh": "后面可以引流到全功能 IDE 。",
+          "en": "Later, you can divert traffic to the full-featured IDE."
+        },
+        {
+          "zh": "PS:抽奖必是分子！",
+          "en": "PS: The lottery must be a molecule!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "牛的，测试的时候尝试过，功能很强，现在终于发布了",
+          "en": "Awesome, I tried it during the test, the function is very strong, and now it is finally released"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看着不错，下载试试",
+          "en": "Looks good, download and try it"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已 star ，希望好运",
+          "en": "Starred, I hope good luck"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "下载试下",
+          "en": "Download and try"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一眼看到\"V2EX Lottery\"工作流",
+          "en": "I saw the \"V2EX Lottery\" workflow at a glance"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "试用中，已 star",
+          "en": "Trying, already starred"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "虽然不懂这个是什么东西，但还是 star 啦。好运~",
+          "en": "Although I don't know what this is, I still starred it. Good luck~"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "下载试试",
+          "en": "Download and try"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看着有点炫酷，这是给 devops 用的的低代码编辑器么，可以不用在本地安装虚拟环境了吗",
+          "en": "Looks a bit cool, is this a low-code editor for devops? Can I not install the virtual environment locally?"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

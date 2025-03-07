@@ -1,0 +1,207 @@
+{
+  "id": 1108464,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "不知道为什么，我很厌恶 map()",
+          "en": "I don't know why, I really dislike map()"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "首先声明一下，我承认我是个很烂的程序员。我甚至不愿意承认自己是程序员。（也许这就是原因？）\r\n\r\n因为公司转向 Flink ，所以今天决定学习一下。但是不知道为什么，看到 map()就觉得生理上的厌恶，和看见一只蟑螂一样。\r\n\r\n其实我自己也不能理解这种厌恶--我能理解为什么自己不喜欢，因为 map()本身没有可读性，你看到这个，就得去里头看到底是调用了什么函数。但是我不知道为什么我会有生理上的厌恶。同理，我在 PySpark 里看到 map()，也会极其厌恶，尤其是配合 lambda 食用，则更加厌恶。比如说\r\n\r\n\r\nresult = map(lambda x: x[\"id\"], data[\"item\"])\r\n```\r\n看到一次我就恶心一次。",
+          "en": "First, let me state that I admit I'm a terrible programmer. I don't even want to admit I'm a programmer. (Maybe that's the reason?)\r\n\r\nBecause the company is switching to Flink, I decided to learn it today. But I don't know why, I feel a physical disgust when I see map(), just like seeing a cockroach.\r\n\r\nActually, I can't understand this disgust myself - I can understand why I don't like it, because map() itself doesn't have readability. When you see this, you have to go inside to see exactly what function is being called. But I don't know why I have a physical disgust. Similarly, I'm also extremely disgusted when I see map() in PySpark, especially when used with lambda, which is even more disgusting. For example,\r\n\r\n```\r\nresult = map(lambda x: x[\"id\"], data[\"item\"])\r\n```\r\nI feel sick every time I see it."
+        },
+        {
+          "zh": "不知道有没有类似的朋友，你们是如何克服的？我看了一下，Flink 里似乎无法避免 map()。所以只能自己习惯了。",
+          "en": "I don't know if there are similar friends, how do you overcome this? I've looked, and it seems that map() is unavoidable in Flink. So you can only get used to it."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "跟你相反，我非常喜欢 map/filter/reduce/fold/chunk...，意图+操作，可读性强，且非常直观",
+          "en": "On the contrary, I really like map/filter/reduce/fold/chunk..., intention + operation, strong readability, and very intuitive."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那是因为你用的 Python, 强类型动态语言, 而且传入参数没有 type hint 的原因吧.你试试用用 Scala 不就好多了.",
+          "en": "That's because you're using Python, a dynamically typed language, and the reason the parameters passed in don't have type hints. Why don't you try using Scala, it would be much better."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议写写 ML 语言脱敏。或者写下 scala/kotlin 这种 map 比较好看的语言 e.g. `listOf(1,2,3).map{it * 2} == listOf(2,4,6)`",
+          "en": "It's recommended to write some ML languages to desensitize yourself. Or write Scala/Kotlin, which has better-looking maps, e.g. `listOf(1,2,3).map{it * 2} == listOf(2,4,6)`"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Flink 和 Spark 之所以使用 map 是因为它们受到了谷歌最早的 MapReduce 模型的启发。使用这一套技术编写程序，可以轻松地利用集群的计算能力。map 操作将任务分解，并分发给多台机器同时处理。而 reduce 操作则将计算结果汇总到一个节点，从而得出最终结果。",
+          "en": "The reason Flink and Spark use map is because they were inspired by Google's earliest MapReduce model. Using this set of technologies to write programs, you can easily utilize the computing power of the cluster. The map operation decomposes the task and distributes it to multiple machines for processing at the same time. The reduce operation then aggregates the calculation results into a single node to obtain the final result."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "OP 只是不适应而已，就像第一次学极限的定义的时候，怎么看怎么恶心。但后续理解了习惯了，不也一样用得飞起。另外 python 的语法可读性我觉得太差了（太多 keyword 真影响阅读）。当然最好的适应方式就是去学一个 ML 系的语言，学的过程中抛弃过程式的思考方式。然后你就可以做到过程式和函数式两种思考方式之间任意切换了。虽然只是为了一个 map 就花时间在 ML 上感觉有点浪费，不过程序员就是需要不断接受新东西（所以我本身也不喜欢程序员）。关于 map 的命名。其实首先登场的是 fmap ，意思是对一个 functor 进行映射。functor 可以简单理解为一个复合数据，可以改变其中的元素同时不改变结构。去掉 f 得到 map 的意思就是对一个特定数据映射（一般都是 list 或者 array ）。",
+          "en": "OP is just not used to it, just like when you first learned the definition of limits, it was disgusting no matter how you looked at it. But after understanding and getting used to it, you can also use it very well. In addition, I think the readability of python's syntax is too poor (too many keywords really affect reading). Of course, the best way to adapt is to learn an ML language, and abandon procedural thinking during the learning process. Then you can switch arbitrarily between procedural and functional thinking. Although it feels a little wasteful to spend time on ML just for a map, programmers just need to constantly accept new things (so I don't like programmers myself). Regarding the naming of map. Actually, fmap first appeared, which means mapping a functor. A functor can be simply understood as a composite data, which can change the elements in it without changing the structure. Removing the f gives map the meaning of mapping a specific data (generally a list or array)."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "估计 python 作者不喜欢 lambda 和 fp ，故意把 lambda 和 map 这些设计得非常恶心。别的语言都没那么难看。比如 js 的 map 就爽多了。",
+          "en": "It's estimated that the Python author doesn't like lambda and fp, and intentionally designed lambda and map to be very disgusting. Other languages aren't that ugly. For example, JS's map is much more pleasant."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你都用 python 了  还恶心啥哦",
+          "en": "You're using Python already, what are you disgusted about?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该没记错  Item 27:  Use Comprehensions Instead of map and filter",
+          "en": "I think I remember correctly Item 27: Use Comprehensions Instead of map and filter"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "只针对 python我理解 lambda 是做简单调用（单个表达式）的，例如给函数绑定参数这种没啥重用价值的事，复杂需要的应该用命名函数，不想污染命名空间也可以用内部函数，反正要命名。另外通常 map/filter/reduce 可以展开为 for..in 循环，而且这种更好按行断点。",
+          "en": "Specifically for python I understand that lambda is for simple calls (single expression), such as binding parameters to a function, which has no reuse value. For complex needs, you should use named functions. If you don't want to pollute the namespace, you can also use internal functions, but you need to name them anyway. In addition, map/filter/reduce can usually be expanded into for..in loops, and this is better for breakpoints by line."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "或许了解 fold_left mnist 后就还好",
+          "en": "Maybe it will be okay after understanding fold_left mnist."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不过是个 Functor 而已。或者也许 Python 的 lambda 语法太丑了。要是换成 map (fn x => x + 1) [1,2,3,4] 这不就清晰多了吗。List comprehension 这玩意能出现的前提是它是个 monad ，按照那个著名的话，monad 得先是个 functor ，换句话说能写出 list comprehension 的东西，它也肯定会写得出 map……这不就变成先有鸡还是先有蛋的问题了。",
+          "en": "It's just a Functor. Or maybe Python's lambda syntax is too ugly. If it were replaced with map (fn x => x + 1) [1,2,3,4], wouldn't that be much clearer? The premise for List comprehension to appear is that it's a monad. According to that famous saying, a monad must first be a functor. In other words, if you can write something with list comprehension, you can definitely write map... Isn't this a question of which came first, the chicken or the egg?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@levelworm map 的清晰点在于，我不必定义一个 array/list 数据结构，然后把元素转换后 append 上去，而是直接告诉数据源，对这个集合的每个元素做一个映射，得到一个新集合，剥离了数据结构实现细节。你觉得别扭，可能是因为 python 的 lambda 语法不太友好。",
+          "en": "@levelworm The clarity of map is that I don't have to define an array/list data structure, and then append the element after conversion, but directly tell the data source to do a mapping on each element of this collection and get a new collection, stripping away the implementation details of the data structure. You feel awkward, possibly because Python's lambda syntax is not very friendly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是这个 map 的命名和设计都比较反直觉。看到 map 这个单词，我大脑里的反应顺序是：1. 创建 hashmap ？2. 创建映射？3. 哦都不对，是 ([a], f) -> [f(a)]然后我自然的思考顺序是「对什么做映射？」，然后扫过第一个参数，发现是个很懵逼的 lambda 或者一个变量（然后往上翻了半天才发现这个变量是一个 function ），再仔细一想才发现不对，map 的第一个参数是映射……参数顺序这一点非常反人体工学，因为中文这个语言先说上下文，比如会说「对某物做什么事」，而不常说「做什么事对某物」：我得先知道你在操作什么列表，然后你 lambda 函数里的各种引用、操作对我才有意义。把映射函数放在前面，对我来说是一个非常破坏阅读心智连贯性的设计。",
+          "en": "It's the naming and design of map that is counterintuitive. When I see the word map, the order of reactions in my brain is: 1. Create a hashmap? 2. Create a mapping? 3. Oh, neither is right, it's ([a], f) -> [f(a)] Then my natural thinking order is 'mapping what?', and then I scan the first parameter and find it's a very confusing lambda or a variable (and then I flip up for a long time to find that this variable is a function), and then I think carefully and find that it is wrong, the first parameter of map is the mapping... The order of the parameters is very unergonomic, because the Chinese language speaks the context first, for example, it will say “do something to something”, and it doesn't often say “do something to something”: I have to know what list you're operating on first, and then the various references and operations in your lambda function are meaningful to me. Putting the mapping function in the front is a design that destroys the coherence of reading for me."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@w568w 函數式語言裏面 map 的返回值可以是一個函數，而且是可以組合的，所以例如 Haskell 可以這麼寫：`(map (+1) . map (*2)) [1, 2, 3]` 輸出 [3, 5, 7]。`map (*2)`返回一個可以把每個元素*2 的函數，然後`.`可以把兩個 map 的返回值連起來。不過 python 的 map 不知道有沒有這種性質，如果沒有的話確實沒必要把函數放前面。",
+          "en": "@w568w In functional languages the return value of map can be a function, and it can be composed, so for example Haskell can write this: `(map (+1) . map (*2)) [1, 2, 3]` outputs [3, 5, 7]. `map (*2)` returns a function that can multiply each element by 2, and then `.` can connect the return values of the two maps. However, Python's map doesn't know if it has this property, and if not, there's really no need to put the function first."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "map 大概就是数学上的映射或者函数，当然得有个 f 和集合了，f 在前面不是很自然吗？ apply 和 map 一般不同，用于支持任意多变量的函数。",
+          "en": "map is probably a mapping or function in mathematics, of course there must be an f and a collection, isn't f in the front quite natural? apply and map are generally different, used to support functions with any number of variables."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议多学学数学，我现在受不了用 C 风格的代码计算这个例子，定义一个空数组，然后不断添加元素？",
+          "en": "It's recommended to learn more mathematics. Now I can't stand calculating this example with C-style code, defining an empty array, and then constantly adding elements?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "支持 op 的讨厌。也支持我自己的不讨厌。",
+          "en": "I support OP's dislike. I also support my own indifference."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这些动态语言的 map 跟 lambda 都不怎么好阅读，我觉得只有 C++跟 Java 的才好阅读。",
+          "en": "The map and lambda in these dynamic languages are not very readable, I think only C++ and Java are readable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "语法设计导致的吧，我也非常讨厌 Python 的 lambda ，非常丑陋。但是 Kotlin 的很美",
+          "en": "It's caused by the syntax design, I also really hate Python's lambda, it's very ugly. But Kotlin's is beautiful."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一直印象中 Python community 就是推荐 comprehension over map 。map 唯一实用的场景是 zip 多个 list 的时候可以 map(fn, list1, list2, ...)。非必要不 map",
+          "en": "I've always had the impression that the Python community recommends comprehension over map. The only practical use case for map is when zipping multiple lists you can use map(fn, list1, list2, ...). Don't use map unless necessary."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

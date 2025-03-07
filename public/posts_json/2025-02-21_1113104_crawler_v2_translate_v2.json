@@ -1,0 +1,263 @@
+{
+  "id": 1113104,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "一面出 LRU 算法题算难吗",
+          "en": "Is it difficult to be asked an LRU algorithm question in a first interview?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "面了几个三年经验 bat 大厂的候选人都没做出来，是不是难度高了",
+          "en": "Several candidates with three years of experience at BAT-level companies couldn't solve it, is the difficulty level too high?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "装 B 为难别人谁不会啊，我随便从软考找几道题你能说清楚？",
+          "en": "Who doesn't know how to be pretentious and make things difficult for others? I can pick a few questions from the software qualification exam at random, can you explain them clearly?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你那不叫算法题，叫背诵题不是人家没没做出来，是人家没背诵出来",
+          "en": "That's not an algorithm question, it's a recitation question. It's not that they couldn't do it; it's that they didn't memorize it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "面试出什么题目 问什么问题 是要看你们的产品/团队需要什么样的人才脱离需求的面试问题,也招不来适合团队的人才",
+          "en": "What questions are asked in the interview depends on what kind of talent your product/team needs. Interview questions that deviate from the requirements also won't attract the right people for the team."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "五年经验 也做不出来 倒是应届生有可能写出来",
+          "en": "Someone with five years of experience might not be able to do it, but fresh graduates might be able to write it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "让我想起了在近十年前，我刚毕业找工作的时候，面试遇到 LRU 题目，从来没有见过，面试官给了足够的耐心和提示，一步步的从数据结构设计、接口设计到最终编码实现，整整花了一个多小时完成编码运行成功，我觉得这才是真正的编码考察，当时的面试官面试风格也深深的影响了我。",
+          "en": "It reminds me of when I was just graduating and looking for a job, nearly ten years ago. I encountered the LRU problem in an interview and had never seen it before. The interviewer gave me enough patience and guidance, step by step, from data structure design and interface design to the final code implementation. It took a whole hour to write, compile, and run the code successfully.  I thought that was a real coding assessment, and the interviewer's style deeply influenced me."
+        },
+        {
+          "zh": "可惜到后面大家刷题越来越多，面试节奏越来越快，编程面试成了刷题检验，没了解决问题的考察，所以我现在面试时只出数据结构题目，不出算法题目。",
+          "en": "Unfortunately, as more and more people grind LeetCode and the interview pace became increasingly faster, programming interviews became a test of memorization, and the assessment of problem-solving disappeared.  That's why I only give data structure questions now, and not algorithm questions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不是，楼上一堆人说 LRU 是难、装逼？这不就一个 HashMap+双向链表，就算全手撸 hashmap 和链表，这也叫难吗？",
+          "en": "No, are a bunch of people upstairs saying LRU is difficult and pretentious? Isn't it just a HashMap + doubly linked list?  Even if you write Hashmap and linked lists from scratch, is that difficult?"
+        },
+        {
+          "zh": "还有说工作中用不到的，那你不如说“反正遇到不会的问 AI 就行了”。",
+          "en": "And some say it is not used in work, you might as well say, “just ask AI when you don't know something”."
+        },
+        {
+          "zh": "面试是考察你思维方式，给你描述 LRU 的需求，你按照需求去实现，这和你工作中接一个需求有什么区别？",
+          "en": "The interview is to assess your way of thinking. You are given the requirements of LRU, and you implement it according to the requirements. What is the difference between this and taking on a requirement at work?"
+        },
+        {
+          "zh": "意思是 LRU 这个需求你做不出来，但是除了这个需求你其他的都能做得出来？",
+          "en": "Does that mean you can't do the LRU requirement, but you can do everything else except for this one?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "考算法题就是八股文，因为这玩意工作中很难用到，久而久之就忘掉了，只能说他面经有没有做到这块，做到这块就有跟你成为同事的缘分了，没做到没缘分。",
+          "en": "Asking algorithm questions is like reciting the Eight-Part Essay. Because this stuff is rarely used in work, you forget it over time. You can only say whether he's covered this topic in a previous interview. If he has, you're destined to be colleagues with him; if not, then no such luck."
+        },
+        {
+          "zh": "说白了就是看运气。",
+          "en": "Simply put, it's about luck."
+        },
+        {
+          "zh": "一般来说，要问项目，项目问的细一点。",
+          "en": "Generally speaking, you should ask about projects, and ask more detailed questions about them."
+        },
+        {
+          "zh": "算法的话就问那种肯定能做出来，但是不同的人做出来的效果不太一样的算法，边界条件略微复杂的算法，看看边界条件考虑的怎么样，来看工作中的细心程度。",
+          "en": "As for algorithms, ask the kind that can definitely be done, but the results will be different depending on the person. Algorithms with slightly complex boundary conditions, see how they consider the boundary conditions, to see how meticulous they are in their work."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "像 LRU 这种问题，无论你刷没刷过题，刚毕业还是工作了 10 年，只要还在做程序员就应该能写出来。",
+          "en": "For a problem like LRU, whether you've practiced coding questions or not, whether you're a fresh graduate or have worked for 10 years, you should be able to write it if you're still a programmer."
+        },
+        {
+          "zh": "从直觉上就应该知道用 doubly linked list + hashmap",
+          "en": "You should intuitively know to use doubly linked list + hashmap."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "应该没刷题吧, 没刷题我也写不出来",
+          "en": "Probably never did coding practice, I couldn't write it without having done the practice either."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你现在实际项目中用到 LRU Cache 的地方你是纯手搓一个还是用有测试用例的成熟的三方库？",
+          "en": "In your current projects where you use LRU Cache, do you write it from scratch or use a mature third-party library with test cases?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人认为能讲出来思路就没问题，不过现在就业那么卷，要求给出最优解并且测试通过 也没问题。",
+          "en": "I personally think it's fine as long as you can explain the idea. However, the job market is so competitive now; it's also fine if you're required to provide the optimal solution and pass the tests."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你要把逻辑一并放在题目中，只看是否实现感觉不难",
+          "en": "You have to put the logic in the question as well. Just looking at whether it's implemented doesn't seem difficult."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "面三年的可能写不出来，但是你去面实习生和校招生，绝对给你背下来",
+          "en": "A three-year veteran might not be able to write it, but if you interview interns and fresh graduates, they will definitely have memorized it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@SeaTac #39 你可能记错了, LinkedHashMap 才是 LRU 实现啊, 这是这个类的文档:This implementation differs from HashMap in that it maintains a doubly-linked list running through all of its entries.",
+          "en": "@SeaTac #39 You might have remembered it wrong. LinkedHashMap is the LRU implementation.  This is the documentation for this class: This implementation differs from HashMap in that it maintains a doubly-linked list running through all of its entries."
+        },
+        {
+          "zh": "This linked list defines the encounter order (the order of iteration), which is normally the order in which keys were inserted into the map (insertion-order).",
+          "en": "This linked list defines the encounter order (the order of iteration), which is normally the order in which keys were inserted into the map (insertion-order)."
+        },
+        {
+          "zh": "The least recently inserted entry (the eldest) is first, and the youngest entry is last.",
+          "en": "The least recently inserted entry (the eldest) is first, and the youngest entry is last."
+        },
+        {
+          "zh": "不够 LFU 确实麻烦点, 适合口述实现思路, 自己写我没把握一次写对.",
+          "en": "LFU is indeed more complicated, suitable for describing the implementation idea verbally, but I am not confident of writing it correctly in one go."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "LRU 很简单啊，属于那种初见就能过的题了我 TM 面字节的时候给我出 LFU ，还限制 20-30 分钟，我至今耿耿于怀",
+          "en": "LRU is very simple. It’s the kind of question that can be solved the first time I see it. When I interviewed at ByteDance, they gave me LFU and limited me to 20-30 minutes. I still resent that till this day."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yuanyao 我面试一般会先看项目经历, 考察基础知识.",
+          "en": "@yuanyao I usually look at project experience first during interviews and assess basic knowledge."
+        },
+        {
+          "zh": "再让面试者说说拿到一个需求后他的工作流程是怎么样的, 再结合几个业务上的问题, 大概就能了解这个人的真实水平 以及他有没有系统设计能力.",
+          "en": "Then I ask the interviewee to talk about their work flow after receiving a requirement, and combined with a few business questions, I can basically understand the person's real level and whether they have system design capabilities."
+        },
+        {
+          "zh": "一个需求能不能放心的交给他,考虑问题是否全面, 是否有责任心, 靠不靠谱.",
+          "en": "Whether a requirement can be confidently entrusted to them, whether they consider the problem comprehensively, whether they have a sense of responsibility, and how reliable they are."
+        },
+        {
+          "zh": "虽然说大部分人都是 crud 但写代码跟写可维护的工程是不一样的.",
+          "en": "Although most people are CRUD developers, writing code and writing maintainable projects are different."
+        },
+        {
+          "zh": "现在大部分业务的代码有什么难度可言, 重要的是对待一个需求的态度是怎么样的, 有没有自己的想法, 别给后人挖坑.",
+          "en": "What difficulty is there in the code for most business applications right now? What's important is the attitude towards a requirement, and whether one has their own ideas, and whether they're digging holes for those who come after."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很低，基本功了",
+          "en": "Very low, it's basic."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "薪资范围多少，我能做出来哈哈哈",
+          "en": "What's the salary range? I can do it hahaha"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可能没背这个吧，",
+          "en": "Maybe they didn't memorize this."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能写出来代表该候选人有什么素质，这个素质如果是岗位需要的就合理",
+          "en": "Being able to write it represents what qualities the candidate has, and if those qualities are needed for the role, then it is reasonable."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

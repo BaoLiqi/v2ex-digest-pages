@@ -1,0 +1,343 @@
+{
+  "id": 1114252,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "低层开发仔，越来越担忧被 AI 取代了",
+          "en": "Low-level developers are increasingly worried about being replaced by AI."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "21 年大模型爆发前夕转行做了开发，刚学会的技能还没捂热乎，就肉眼可见地迅速贬值。",
+          "en": "I switched to development just before the explosion of large models in 2021. The skills I just learned are rapidly depreciating at a rate that is visible to the naked eye."
+        },
+        {
+          "zh": "叠加上大环境恶化，择业/大学招生的滞后，不敢想未来有多惨。",
+          "en": "Coupled with the deteriorating macro environment and the lag in career choices/university admissions, I don't dare to imagine how bad the future will be."
+        },
+        {
+          "zh": "乐观预期，大模型这波已经到头。",
+          "en": "Optimistically, this wave of large models is already at its end."
+        },
+        {
+          "zh": "大模型编程的上下文只有万行级别，并且需要人工审核改 bug 。",
+          "en": "The context of large model programming is only at the level of ten thousand lines, and it requires manual review to fix bugs."
+        },
+        {
+          "zh": "这意味着初级程序员的编程技能贬值到白盒测试水平，大公司初级开发测试职位合并，基层开发维护多个微服务，小公司产品开发职位合并。",
+          "en": "This means that the programming skills of junior programmers are depreciated to the level of white-box testing, junior development and testing positions in large companies are merged, grassroots developers maintain multiple microservices, and product development positions in small companies are merged."
+        },
+        {
+          "zh": "初级开发职位缩减 50%。",
+          "en": "Junior development positions are reduced by 50%."
+        },
+        {
+          "zh": "悲观预期，大模型 5 年后到头，并且会出现针对编程做特化训练的大模型（目前看 claude 就在走这条路），编程技能比通用模型强 10 倍。",
+          "en": "Pessimistically, large models will peak in 5 years, and there will be large models specifically trained for programming (currently, Claude seems to be going down this path), with programming skills that are 10 times stronger than general-purpose models."
+        },
+        {
+          "zh": "大模型编程的上下文达到百万行级别，并且可以自行审核改 bug ，只需要人工验收。",
+          "en": "The context of large model programming reaches the level of millions of lines, and it can review and fix bugs on its own, requiring only manual acceptance."
+        },
+        {
+          "zh": "大公司产品开发测试职位合并，基层开发维护多个系统。",
+          "en": "Product development and testing positions in large companies are merged, and grassroots developers maintain multiple systems."
+        },
+        {
+          "zh": "初级开发职位缩减 100%。",
+          "en": "Junior development positions are reduced by 100%."
+        },
+        {
+          "zh": "超乐观预期，AI 热点一波续一波，续到 20 年后，AI 取代程序员之前先取代了 80%的非体力劳动，老爷们决定发善心养活所有人！",
+          "en": "In a super optimistic scenario, AI hotspots continue wave after wave, lasting until 20 years later. Before AI replaces programmers, it will first replace 80% of non-manual labor, and the powers that be will decide to show benevolence and support everyone!"
+        },
+        {
+          "zh": "不是说没有可能，但是职业规划还是不要以此为基准预期了。",
+          "en": "It's not to say it's impossible, but career planning should not be based on this expectation."
+        },
+        {
+          "zh": "不知道接下来要做啥。",
+          "en": "I don't know what to do next."
+        },
+        {
+          "zh": "以前一直是新技术的拥护者，直到砸到自己头上，才感受到被淘汰的恐惧。",
+          "en": "I used to be a supporter of new technologies, but it wasn't until it hit me that I felt the fear of being eliminated."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为什么总是传播焦虑？那怎么不去死？",
+          "en": "Why are you always spreading anxiety? Why don't you just go die?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你就说什么职位不能被取代吧，医生？教师？律师？人行财？金融交易员？",
+          "en": "Tell me, what positions cannot be replaced? Doctors? Teachers? Lawyers? People's Bank of China Treasury? Financial traders?"
+        },
+        {
+          "zh": "失业率因为 AI 超过 1/3 的时候，你信不信 AI 虚拟人也要交社保。",
+          "en": "When the unemployment rate exceeds 1/3 because of AI, do you believe that AI virtual humans will also have to pay social security?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "主要是你菜。",
+          "en": "It's mainly because you're incompetent."
+        },
+        {
+          "zh": "文科生来凑什么热闹？",
+          "en": "What's a liberal arts student doing here?"
+        },
+        {
+          "zh": "真以为咱们这行是公交车？谁来都能上",
+          "en": "Do you really think our industry is a bus? Anyone can just get on?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "危言耸听。",
+          "en": "Alarmist."
+        },
+        {
+          "zh": "AI 只是提高编程效率，我们实际写业务还是要人写的，需要的人还是一个不能少，现在谈取代为时尚早。",
+          "en": "AI only improves programming efficiency. We still need people to actually write business logic. We still need the same number of people, so it's too early to talk about replacement."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "跟风用 Claude3.7 做了生成天气卡片的，效果真的很好： https://chat.vacuity.me/#/share?key=m6v1uov3scia45pq",
+          "en": "I used Claude3.7 to generate weather cards, and the effect is really good: https://chat.vacuity.me/#/share?key=m6v1uov3scia45pq"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "以后这几类可以留下1 真正的技术大牛，引领者2 AI+业务复合人才，不单单是开发者3 凑数骗甲方服务费的，当人头的",
+          "en": "In the future, these types of people can stay: 1. True technology gurus, leaders 2. AI + business compound talents, not just developers 3. People who are there to make up the numbers and scam customers for service fees, just as headcount."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没办法，新技术来的时候，一定会造成行业岗位减少。",
+          "en": "There's no way around it. When new technologies come, they will definitely cause a reduction in industry jobs."
+        },
+        {
+          "zh": "跟财务软件刚刚兴起的时候，一大堆底层会计失业是一样的。",
+          "en": "It's the same as when financial software first emerged, causing a large number of low-level accountants to lose their jobs."
+        },
+        {
+          "zh": "线上缴费、买票，造成线下售票员的减少一样的。",
+          "en": "Online payment and ticket purchases are the same as causing a reduction in offline ticket sellers."
+        },
+        {
+          "zh": "以前都是互联网行业去革别的行业的命，现在搞到自己头上了。",
+          "en": "In the past, the internet industry revolutionized other industries, and now it's happening to itself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果你 5 年后还是保留现在的初级开发水平确实是会被替代，5 年以后的人也不会是这样开发业务系统的。",
+          "en": "If you still maintain your current junior development level in 5 years, you will indeed be replaced. People in 5 years will not be developing business systems in this way."
+        },
+        {
+          "zh": "5 年以后的人也不是现在这样学习使用 ai ，你用现在的认知去想 5 年后的发展并且用现在的能力去匹配 5 年后的技术要求也肯定不行。",
+          "en": "People will not be learning and using AI the same way in 5 years. It's definitely not going to work if you use your current understanding to think about the development in 5 years and use your current abilities to match the technical requirements in 5 years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@xubingok 错了，你跟 Linus 比 AI 编码差据<1 年吗",
+          "en": "@xubingok Wrong, is your difference with Linus in AI coding <1 year?"
+        },
+        {
+          "zh": "linus 甚至可以自己在 AI 帮助下重写个操作系统, 你可以吗",
+          "en": "Linus can even rewrite an operating system with the help of AI. Can you?"
+        },
+        {
+          "zh": "例子极端了些, 意思是这个意思",
+          "en": "The example is a bit extreme, but that's the idea."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是的，AI 目前在编程这方面最拿手编程也是最容易被 AI 替代的工作，没有之一",
+          "en": "Yes, AI is currently best at programming, and programming is also the easiest job to be replaced by AI, bar none."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我觉得未来是这样的：一个大牛，配合 AI ，能代替技术一般的十个甚至二十个。",
+          "en": "I think the future will be like this: one guru, with the help of AI, can replace ten or even twenty average developers."
+        },
+        {
+          "zh": "走一步看一步吧",
+          "en": "Let's take it one step at a time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你和大牛在编码上的差距:>10 年",
+          "en": "Your gap with a guru in coding: >10 years"
+        },
+        {
+          "zh": "你和大牛在使用 AI 编码上的差距:<1 年",
+          "en": "Your gap with a guru in using AI coding: <1 year"
+        },
+        {
+          "zh": "努力吧.",
+          "en": "Work hard."
+        },
+        {
+          "zh": "不要成为被替代的那批人.",
+          "en": "Don't be one of the people who get replaced."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "来吧，要焦虑就焦虑个大的，互联网都要没了https://www.ruanyifeng.com/blog/2025/02/weekly-issue-336.html",
+          "en": "Come on, if you're going to worry, worry big. The internet is going to disappear: https://www.ruanyifeng.com/blog/2025/02/weekly-issue-336.html"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这才两年就达到这么好的效果，再过 10 年、20 年后大模型的确有取代底层职位的可能性，各行各业都会受到大模型的冲击，不仅是开发者。",
+          "en": "It's only been two years and it's already achieved such good results. In another 10 or 20 years, large models will indeed have the possibility of replacing low-level positions. All walks of life will be impacted by large models, not just developers."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "AI 替代脑力，机器人替代体力工作越发少了",
+          "en": "AI is replacing mental labor, and robots are replacing physical labor, so there are fewer and fewer jobs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fengtaida 鸵鸟",
+          "en": "@fengtaida Ostrich"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "强人工智能没来你怕个卵？",
+          "en": "Why are you afraid when strong AI hasn't arrived?"
+        },
+        {
+          "zh": "ai 别人能用你不能用？",
+          "en": "If others can use AI, why can't you?"
+        },
+        {
+          "zh": "强人工智能来了你怕个卵？",
+          "en": "Why are you afraid when strong AI arrives?"
+        },
+        {
+          "zh": "全人类 99%的个体都是命运共同体，天塌下来自有高个的顶着。",
+          "en": "99% of all human beings are a community of shared destiny. If the sky falls, the tall ones will hold it up."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "首先，你的焦虑有没有意义，因为有 AI 的存在，你是比之前强大无数倍的你。",
+          "en": "First of all, is your anxiety meaningful? Because with the existence of AI, you are infinitely more powerful than before."
+        },
+        {
+          "zh": "你又何必在意你为程序员的这个职业呢？",
+          "en": "Why do you care about your profession as a programmer?"
+        },
+        {
+          "zh": "以前你看不懂体检报告，现在有 AI 你基本上能够解决 80%的健康问题。",
+          "en": "In the past, you couldn't understand medical examination reports. Now, with AI, you can basically solve 80% of your health problems."
+        },
+        {
+          "zh": "以前你也不是律师，现在有 AI 的存在，只要不进入法庭，你比最好的律师也差不到哪去。",
+          "en": "In the past, you weren't a lawyer. Now, with the existence of AI, as long as you don't go to court, you're not much different from the best lawyers."
+        },
+        {
+          "zh": "在这种状况下，人再把自己定义为某个职业，不是浪费了这大好的时代吗？",
+          "en": "In this situation, isn't it a waste of this great era for people to define themselves as a certain profession?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "人挪活，总有新的需求产生只要能快速适应不用太担心怕的是原地踏步的",
+          "en": "A change of scenery can bring new opportunities. As long as you can adapt quickly, you don't need to worry too much. What you should be afraid of is standing still."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "保持身体健康，迎接变革的巨浪。",
+          "en": "Stay healthy and embrace the giant wave of change."
+        },
+        {
+          "zh": "低层次内卷毫无意义了",
+          "en": "Low-level involution is meaningless."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

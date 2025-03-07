@@ -1,0 +1,227 @@
+{
+  "id": 1108606,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "IOS 装反炸了，就放手机里摆设被注册，被 pc 电话通知有风险，有人知道原理吗？",
+          "en": "My iOS device with the anti-fraud app installed (but just left as a decoration) was registered, and I received a risk notification via PC phone call. Does anyone know the reason?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1.手机苹果 ios ，巨魔。卡一流量  卡二主卡\r\n2.手机里有 X telegram\r\n3.手机里有反诈 app ，但是没打开过，就是摆在应付",
+          "en": "1. iPhone iOS, TrollStore. SIM 1 for data, SIM 2 is the main card.\r\n2. X and Telegram are on the phone.\r\n3. The anti-fraud app is on the phone, but it has never been opened, just there for show."
+        },
+        {
+          "zh": "\r\n\r\n原由：接到 PC 电话说涉嫌被诈骗，浏览了什么网站，叫我在村里等他们你来，现在去另外一个村也有一个。来这只有加我不要刷单，翻了我手机浏览器，不要下载国外的 app ，帮我反诈的实名认证了，微信关注了反诈。没了",
+          "en": "\r\n\r\nReason: Received a PC phone call saying I was suspected of being scammed, asked about the websites I browsed, and told me to wait for them in the village. Now they are going to another village. The only thing they told me was to add me but not to do any brushing, they checked my phone browser history, told me not to download foreign apps, helped me with real-name authentication for the anti-fraud app, and made me follow the anti-fraud WeChat account. That's it."
+        },
+        {
+          "zh": "\r\n\r\na.我想知道什么原理，那天登录一个 telegram 的账号，但是不在这个手机上的手机号，获取验证码收不到。点了什么网站我忘记了，可能是点了一些不三不四的网站，我都没有输入什么手机号，怎么发现的。",
+          "en": "\r\n\r\na. I want to know the principle behind this. I logged into a Telegram account that day, but not with the phone number on this phone, and I couldn't receive the verification code. I forgot what websites I clicked, probably some dodgy websites, but I didn't enter any phone numbers. How did they find out?"
+        },
+        {
+          "zh": "\r\nb.我用的是卡一流量卡，卡二是我的主卡，打电话通知我卡二",
+          "en": "\r\nb. I am using SIM 1 for data, and SIM 2 is my main card. They called me using SIM 2."
+        },
+        {
+          "zh": "\r\nc.如何避免这个，最近先不卸载反诈了",
+          "en": "\r\nc. How to avoid this? I won't uninstall the anti-fraud app for now."
+        },
+        {
+          "zh": "\r\nd.网上说 ios 改香港地区 语言会好点真假",
+          "en": "\r\nd. Some people say that changing the iOS region to Hong Kong and setting the language will help. Is that true?"
+        },
+        {
+          "zh": "\r\ne.如何避免这些，x 和 telegram 都是正版的，里面的聊天记录应该是不知道的",
+          "en": "\r\ne. How to avoid these things? X and Telegram are both genuine versions; they shouldn't know about the chat history inside."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你只要用了运营商的网络，运营商就会知道你访问了什么网站，https 加密也可以知道你访问的域名是什么。可能你放风了了重点监控的域名。",
+          "en": "As long as you use the carrier's network, the carrier will know what websites you are visiting. Even with HTTPS encryption, they can still know the domain you are accessing. Maybe you accessed a domain that is under key monitoring."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@v2maxwell iOS 不会的，op 都没打开过，都用不了流量，毕竟联网的 app 首次打开就弹是否同意使用网络的弹窗",
+          "en": "@v2maxwell That's not how iOS works. The OP hasn't even opened it, so it can't use data. After all, the app will prompt whether to agree to use the network when it is opened for the first time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@skyrocketing 放风了->访问",
+          "en": "@skyrocketing 放风了 -> 访问 (typo: 放风了 should be 访问)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你都装了反诈了。。。这不是很正常吗？你以为不点开 app ，那个反诈就不会在后台运行了？",
+          "en": "You've already installed the anti-fraud app... Isn't this normal? Did you think that the anti-fraud app wouldn't run in the background if you didn't open it?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ios 主账号用外区的，下载限定国区 app 时登录国区商店账号手机地区选个别的",
+          "en": "Use a foreign region for your main iOS account, and log in to the China region store account when downloading apps limited to the China region, and choose another region for the phone's region."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如何避免，买两个手机，一个日常使用，另一个不插国内的手机卡，不安装任何国产 app 。物理切割",
+          "en": "How to avoid this? Buy two phones, one for daily use, and the other without a domestic SIM card, and without installing any domestic apps. Physical isolation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@chiaf 对，这样才是最安全的。",
+          "en": "@chiaf Yes, that's the safest way."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "放弃现在的 apple id 注册新的港服 id ，应为你下过反炸，系统升级到最新，safari 浏览器里关闭诈骗拦截。手机出厂还原，当新手机用，FT 把+86 手机号关掉，差不多了",
+          "en": "Give up your current Apple ID and register a new Hong Kong ID. Since you have downloaded the anti-fraud app, update the system to the latest version, and turn off fraud prevention in the Safari browser. Restore the phone to factory settings and use it as a new phone. Turn off the +86 phone number for FaceTime. That should be about it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@skyrocketing    1#  他们来的时候，他的手机里有一张照片，我没有看到我访问了什么，我也想了这种可能@v2maxwell 3#  他叫我点开，我都还要点击联网权限，@chiaf   6#现在 ios 都这么夸张吗。",
+          "en": "@skyrocketing 1# When they came, there was a photo on his phone, but I didn't see what I was visiting. I also thought of this possibility. @v2maxwell 3# He asked me to click it, and I still had to click the network access permission. @chiaf 6# Is iOS that exaggerated now?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kyor0 8#  那就是新手机一样，别放国行手机卡",
+          "en": "@kyor0 8# Then it's like a new phone, don't insert a domestic SIM card."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "反诈 app 本身没用 有用的是注册登录那一步 同意了用户协议 就可以直接监控了",
+          "en": "The anti-fraud app itself is useless, what's useful is the registration and login step. Once you agree to the user agreement, they can directly monitor you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我也和你同样情况。问了警察，对方答他们系统上列出了好几个我名下的号码，他打了第一个。你的情况可能是卡二的号段靠前，排在了前面。即便你是卡一涉诈了。当然警察有也可能看你名下几个号码他随便看哪个顺眼打哪个",
+          "en": "I am in the same situation as you. I asked the police, and they replied that their system listed several numbers under my name, and they called the first one. In your case, it is possible that the number segment of SIM 2 is earlier and ranked higher. Even if SIM 1 is involved in fraud. Of course, the police may also look at a few numbers under your name and randomly call whichever one they like."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Winda 话说你有用+86 号注册过国外的媒体么（ X ，电报），有的话那你这手机号肯定是被列入到名单里的，从来没注册过的话其实不拔卡也行",
+          "en": "@Winda Have you ever used a +86 number to register for foreign media (X, Telegram)? If so, then your phone number must be on the list. If you have never registered, you don't actually need to unplug the card."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lmmortal 12#  应该是，也有可能我还没有认证过反诈 app ，重来拒绝注册，只下载给他看看，这次被实名了@kyor0 13#  肯定有的，以后要用 GV 号了，",
+          "en": "@lmmortal 12# Probably. It is also possible that I haven't even authenticated the anti-fraud app yet, and I always refuse to register, just download it to show them. This time I got real-name authenticated. @kyor0 13# Definitely have to, I will use a GV number in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "翻墙软件不够高级，被运营商拦截到的。跟反诈 app 没关系。自己拿个国内的服务器落地中转一下，别直连机场。",
+          "en": "The VPN software is not advanced enough and was intercepted by the carrier. It has nothing to do with the anti-fraud app. Set up a domestic server for relaying, don't directly connect to the airport."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hefish  15#  来个教程链接。",
+          "en": "@hefish 15# Give me a tutorial link."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Winda 就是国内找台 Linux ，装个 mihomo ，然后用机场的配置，起一下。linux 上起一个 http 或者 socks 的代理。这样手机上的翻墙软件就是跟国内的 ip 交互了。。。",
+          "en": "@Winda Find a Linux server in China, install mihomo, and then use the configuration of the airport to start it. Set up an HTTP or SOCKS proxy on Linux. This way, the VPN software on the phone interacts with a domestic IP address."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "> 那天登录一个 telegram 的账号，但是不在这个手机上的手机号雷子能直接调你常用手机号，直接打能联系上你的",
+          "en": "> The other day I logged into a Telegram account, but not with the phone number on this phone. The police can directly access your frequently used phone number and call you directly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看了半天没懂 pc 是啥",
+          "en": "After reading for a long time, I don't understand what PC is."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我前几月把 96110 拦截了,又疯狂发短信给我,我又拦截关键词,现在几个月了没有上门(有很多人拒接就上门)",
+          "en": "I blocked 96110 a few months ago, and then they sent me crazy text messages. I blocked keywords again, and now they haven't come to my door for a few months (they come to the door if many people refuse the call)."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": 1108659,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "二手 m1 m2 主板当家用服务器",
+          "en": "Used M1 M2 motherboards as home servers"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "众所周知苹果 m1 m2 兼顾高性能与低能耗\r\n而且目前网络上存在某些 macbook air/pro 拆机主板\r\n然后 m1m2 cpu 支持 linux\r\n那么 8 核的 m2 是否碾压一切嵌入式服务器\r\n\r\nbcm2712 bcm2711\r\nrk3566 rk3588\r\nn100 n5105\r\n好像没一个有能与装了 linux 的无头 m2 对垒",
+          "en": "It is well known that Apple's M1 and M2 balance high performance and low energy consumption.\r\nMoreover, there are currently some disassembled Macbook Air/Pro motherboards on the internet.\r\nAnd the M1 and M2 CPUs support Linux.\r\nSo, does the 8-core M2 crush all embedded servers?\r\n\r\nbcm2712 bcm2711\r\nrk3566 rk3588\r\nn100 n5105\r\nIt seems that none of them can compete with a headless M2 running Linux."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "x86 的总体性价比、稳定性、配置灵活性和软件生态爆杀一切 arm ，稍微聪明一点的人都不会抓住那一点电费而去瞎折腾这些的。",
+          "en": "x86's overall cost-effectiveness, stability, configuration flexibility, and software ecosystem completely surpasses all ARM. Anyone slightly smarter wouldn't focus on saving a little electricity and waste time tinkering with these."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没有扩展性，玩不转，而且性能过剩，价格太高。",
+          "en": "No expandability, can't handle it, and the performance is overkill, and the price is too high."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "装 Linux 的 Mac..？图啥呢选择 Mac 来做路由和小服务的人也都是跑 macOS 的",
+          "en": "Mac running Linux...? What's the point? People who choose Mac to do routing and small services are also running macOS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "直接买 Mac mini 解君愁啊，如果定位是家用服务器的话虽说稳定性不能和企业级的比，但是高低多少都要来一点的吧。无头的 MacBook Air/Pro 水太深了，在价格和稳定性上比 x86 和 m1/m2 的 Mac mini 来说一点优势都没有，没必要给自己找罪受。",
+          "en": "Just buy a Mac mini to solve your problems. If the positioning is a home server, although the stability cannot be compared with the enterprise level, it should be a little bit better. Headless MacBook Air/Pro is too risky. In terms of price and stability, it has no advantage over x86 and M1/M2 Mac mini. There is no need to suffer yourself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实 ARM 架构的 mac 跑 Linux 服务的生态比树莓派还差，至少树莓派还有大量专门为树莓派适配的软件。",
+          "en": "In fact, the ecosystem of ARM-based Macs running Linux services is worse than Raspberry Pi. At least Raspberry Pi has a lot of software specifically adapted for Raspberry Pi."
+        },
+        {
+          "zh": "mac 的很多优势也是靠 macOS 下的软件针对硬件专门优化来实现的。",
+          "en": "Many of Mac's advantages are also achieved by software under macOS that is specifically optimized for hardware."
+        },
+        {
+          "zh": "有一些专用硬件加速单元只有 macOS 下可以调用，而且因为硬件很统一，苹果提供封装好的上层接口，macOS 下的程序可以简单集成。",
+          "en": "Some dedicated hardware acceleration units can only be called under macOS, and because the hardware is very unified, Apple provides well-packaged upper-layer interfaces, and macOS programs can be easily integrated."
+        },
+        {
+          "zh": "而 Linux 下的软件没有一款会专门针对 mac 优化，跑在 macOS 的 Docker Desktop 、OrbStack 或者各种虚拟机里也是如此。",
+          "en": "However, no software under Linux will be specifically optimized for Mac, and the same is true for running in macOS's Docker Desktop, OrbStack, or various virtual machines."
+        },
+        {
+          "zh": "其他还有扩展性，可维护性等方面，x86 平台的优势明显。",
+          "en": "In addition, x86 platforms have obvious advantages in terms of expandability and maintainability."
+        },
+        {
+          "zh": "Linux 的 x86 生态比其他指令集更好，而且优化更全面。",
+          "en": "The x86 ecosystem of Linux is better than other instruction sets, and the optimization is more comprehensive."
+        },
+        {
+          "zh": "除非你的服务器需要跑一些 macOS 才能跑的东西，比如做 macOS 、iOS 的 CI 服务器，或者你喜欢用 macOS 独占的软件来搭建服务，否则应该考虑 x86 。",
+          "en": "Unless your server needs to run something that macOS can only run, such as a macOS or iOS CI server, or you like to use macOS-exclusive software to build services, otherwise you should consider x86."
+        },
+        {
+          "zh": "如果你想要既省电，性能又强的硬件，可以考虑移动平台的 AMD 处理器。",
+          "en": "If you want hardware that is both energy-saving and powerful, you can consider AMD processors for mobile platforms."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "问题是跟 x86 比没有优势",
+          "en": "The problem is that it has no advantage compared to x86."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同功耗下 m2 应该是无敌的，但问题是 x86 很轻松就能把功耗拉上去。",
+          "en": "M2 should be invincible at the same power consumption, but the problem is that x86 can easily increase the power consumption."
+        },
+        {
+          "zh": "一拉上去就没优势了。",
+          "en": "Once it is increased, there is no advantage."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://radxa.com/products/orion/o6 你是否在找这个",
+          "en": "https://radxa.com/products/orion/o6 Are you looking for this?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@huaweigg 我知道 radxa 家有这样的开发版，可问题是太贵了，非企业用户玩不起这样的板",
+          "en": "@huaweigg I know that Radxa has such a development board, but the problem is that it is too expensive, and non-enterprise users cannot afford such a board."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "苹果那全加密主板缺一个 c 口你都开不了机，无头还能亮的哪个有 n100 便宜，m2 一张丐配秃板子都要三千块吧。。。你别和隔壁兄弟一样咸鱼看个啥都当真的。。。",
+          "en": "Apple's fully encrypted motherboard cannot be turned on if you are missing a C port. Which headless one that can still light up is cheaper than N100. A bare M2 board costs three thousand yuan... Don't be like other people and take everything you see on Xianyu seriously..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "个人用 arm 做服务器纯属给自己找麻烦",
+          "en": "Using ARM as a server for personal use is just asking for trouble."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "是",
+          "en": "Yes"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ntedshen 没折腾过库克的硬件启动 @.@",
+          "en": "@ntedshen Never tinkered with Cook's hardware startup @.@"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "二手价格降到三位数就买来玩玩😆",
+          "en": "I'll buy it and play with it when the used price drops to three digits 😆"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "捡垃圾捡到 mac 上来了这是",
+          "en": "Picking up trash and finding it on Mac, is this?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为啥不买 mac mini m4 3500 左右王炸存在",
+          "en": "Why not buy a Mac mini M4 for around 3500? It's a killer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mac mini m4 已经在当家庭服务器了",
+          "en": "Mac mini M4 is already being used as a home server."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "说得好，我选 AMD",
+          "en": "Well said, I choose AMD."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对个人用户来说，arm 能够用在对能耗极度敏感的手机和 Mac 电脑，也就差不多了，用来折腾就是自找麻烦。",
+          "en": "For personal users, ARM is good enough for mobile phones and Mac computers that are extremely sensitive to energy consumption. Tinkering with it is just asking for trouble."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "家用的，要那么大性能干啥，跑大模型啊。。。随便搞个 10w 的 htpc 拉到了。",
+          "en": "For home use, why do you need so much performance? To run large models? Just get a 10W HTPC."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

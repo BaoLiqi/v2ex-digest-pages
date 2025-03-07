@@ -1,0 +1,259 @@
+{
+  "id": 1108573,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "发现 NAT 这东西挺好用啊",
+          "en": "Discovered that NAT is quite useful"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "发现 NAT 这东西挺好用啊，做一层 nat ，不做端口映射，后面的服务器基本不用担心来自公网的爆破了。",
+          "en": "Discovered that NAT is quite useful. After implementing a layer of NAT without port mapping, the servers behind it basically don't need to worry about brute-force attacks from the public network."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kaedeair #17 一些场景下，组织的出口是动态 IPv6 前缀，而内部有多个子网，想把动态的地址通过 DHCPv6 正常分配到不同子网里，配置会比较麻烦，而且三层交换机上的接口地址前缀可能会不可控。",
+          "en": "@kaedeair #17 In some scenarios, the organization's egress has a dynamic IPv6 prefix, and there are multiple subnets internally. If you want to normally assign the dynamic address to different subnets through DHCPv6, the configuration will be more complicated, and the interface address prefix on the Layer 3 switch may be uncontrollable."
+        },
+        {
+          "zh": "总的来说，越复杂的内部网络越可能要用 ULA ，那么出口就要做 NAT66 。",
+          "en": "In general, the more complex the internal network, the more likely it is to use ULA, so NAT66 should be performed at the egress."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "本来就好用啊，结合防火墙策略使用有很好的隔离效果。",
+          "en": "It's inherently useful. Combining it with firewall policies provides excellent isolation."
+        },
+        {
+          "zh": "我们公司即便 IPv6 也是做要 NAT66 的。",
+          "en": "Even with IPv6, our company still uses NAT66."
+        },
+        {
+          "zh": "但是单独使用 NAT 是没有你以为的安全性的。",
+          "en": "However, using NAT alone does not provide the security you might think."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@loginv2 #8 我这边小公司，出口就是一个 RouterOS ，内部是三层交换机做 IPv6 SLAAC",
+          "en": "@loginv2 #8 I'm at a small company, and the egress is just a RouterOS, with internal Layer 3 switches doing IPv6 SLAAC"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@flyqie 即使是 Full cone NAT 也能防止公网的爆破, 因为往往要求内网设备主动打洞.",
+          "en": "@flyqie Even Full Cone NAT can prevent brute-force attacks from the public network because it often requires the internal network device to actively punch holes."
+        },
+        {
+          "zh": "而且企业网络通常不要求可能不允许员工进行 P2P, 如果是特殊需求那么肯定是能配置网关的.",
+          "en": "Moreover, corporate networks generally don't require or may not allow employees to use P2P. If there are special needs, the gateway can certainly be configured."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "抛开安全性不谈，我就很讨厌 NAT ，20 年前很多软件对 NAT 的适配都不好，每次帮别人做 IT 维护烦得要死",
+          "en": "Putting security aside, I really hate NAT. 20 years ago, many software programs were poorly adapted to NAT, and it was a pain every time I helped others with IT maintenance."
+        },
+        {
+          "zh": "后来学了 CCIE ，才知道 NAT 也分好多种，什么 SNAT,DNAT,PNAT.....感觉也就大陆由于 IPV4 缺乏（还要加上舆论管控）才把 NAT 当个宝",
+          "en": "Later, after studying CCIE, I learned that NAT is also divided into many types, such as SNAT, DNAT, PNAT... I feel that only mainland China regards NAT as a treasure due to the lack of IPv4 (plus public opinion control)."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@rebeccaMyKid #12 首先这里有一个历史遗留问题。",
+          "en": "@rebeccaMyKid #12 First of all, there is a legacy issue here."
+        },
+        {
+          "zh": "早年间的路由器都是 MIPS 架构的，电路是针对路由协议设计的，NAT 性能远低于采用 x86 架构的防火墙。",
+          "en": "Early routers were all MIPS architecture, and the circuits were designed for routing protocols. NAT performance was far lower than that of firewalls using x86 architecture."
+        },
+        {
+          "zh": "很久之前我实测过思科 2811 路由器从外往里访问服的 NAT 性能远低于同级别的 ASA 防火墙（当然防火墙贵非常多）。",
+          "en": "A long time ago, I actually tested the NAT performance of a Cisco 2811 router accessing a server from the outside and found it to be far lower than that of a similarly-rated ASA firewall (of course, firewalls are much more expensive)."
+        },
+        {
+          "zh": "但是现在这个时代，ARM 的算力太强，基本上 NAT 随便算，家用路由器对 NAT 的要求又不高，并不会感觉到什么减速。",
+          "en": "But in this era, the computing power of ARM is too strong, so NAT is basically easy to calculate, and the requirements for NAT on home routers are not high, so you won't feel any slowdown."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "nat 减速，不如开个防火墙更灵活。",
+          "en": "NAT slows down, it's better to open a firewall for more flexibility."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "web 服务可以用反向代理，没必要 nat ，特殊的开防火墙",
+          "en": "Web services can use reverse proxies, there is no need for NAT, open a firewall for special cases"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实，本质上来说，NAT 就是防火墙的一种形式。。。。。。",
+          "en": "Actually, in essence, NAT is a form of firewall... ..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "坏消息是对 p2p 也会有一定影响，不同 nat 锥形对 p2p 打洞的影响是不一样的。",
+          "en": "The bad news is that it will also have some impact on p2p, and different NAT cones have different effects on p2p hole punching."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那你穿 10 层 nat,岂不是天下无敌",
+          "en": "So, if you penetrate 10 layers of NAT, wouldn't you be invincible?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "op 没说到点子上，企业级路由器一条规则就可以丢弃来自外部的请求流量。",
+          "en": "The OP didn't get to the point. Enterprise-class routers can discard incoming traffic from outside with a single rule."
+        },
+        {
+          "zh": "NAT 是需要映射表来做流量转发，这个在连接量大的时候就会成为瓶颈。",
+          "en": "With NAT you need a mapping table to forward the traffic, and this can become a bottleneck when the connection volume is large."
+        },
+        {
+          "zh": "早期的光猫拨号性能不足就是这种情况，所以大家基本上做的第一件事情就是改成桥接。",
+          "en": "The insufficient performance of early optical modem dialing was such a situation, so the first thing everyone basically did was to change to bridge mode."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wheat0r 请问你们是什么硬件和软件方案，我一直想弄这个，但是不太了解 ipv6 好像很多设备也不支持，想换也不知道该换什么",
+          "en": "@wheat0r What hardware and software solution do you use? I've always wanted to do this, but I don't know much about IPv6, and it seems that many devices don't support it. I don't know what to replace."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@churchmice 哈哈哈哈笑死了",
+          "en": "@churchmice Hahahaha, laughed to death"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "将来您还会发现更多好用的，比如 GRE ，OSPF ，IP 。。。",
+          "en": "In the future, you will discover more useful things, such as GRE, OSPF, IP... ..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@pathletboy 你确定吗？",
+          "en": "@pathletboy Are you sure?"
+        },
+        {
+          "zh": "我上个月刚做了简单的测试，家里路由器加一层 NAT ，延迟差别根本无感，网速也没问题。",
+          "en": "I just did a simple test last month, added a layer of NAT to my home router, and the delay difference was imperceptible, and the network speed was fine."
+        },
+        {
+          "zh": "所以减速在哪？",
+          "en": "So where's the slowdown?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "?和 NAT 没关系，是存储转发的基本通信方式，你的包从我手上过，我把它递给下一条还是随手扔了，那还不是我说了算吗，",
+          "en": "? It has nothing to do with NAT. It is the basic communication method of store and forward. Your packet passes through my hand. Whether I pass it on to the next one or throw it away, isn't it up to me to decide?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不穿衣服住山洞里的确挺舒服的。",
+          "en": "Living in a cave without clothes on is indeed quite comfortable."
+        },
+        {
+          "zh": "前提只要你一辈子不用出去。",
+          "en": "Provided that you don't have to go out for the rest of your life."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@rebeccaMyKid #12 包多了转发的时候比较考验设备，当然家庭没所谓了。",
+          "en": "@rebeccaMyKid #12 When there are too many packets, forwarding is more of a test for the device, but of course it doesn't matter at home."
+        },
+        {
+          "zh": "不过防火墙也一样有这个问题。。。",
+          "en": "However, firewalls also have this problem..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@rebeccaMyKid #12 一个是包多，另一个是网络带机量大，NAT 表复杂",
+          "en": "@rebeccaMyKid #12 One is the large number of packets, and the other is the large number of devices on the network, making the NAT table complex."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

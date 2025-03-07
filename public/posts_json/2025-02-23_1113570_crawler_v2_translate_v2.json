@@ -1,0 +1,367 @@
+{
+  "id": 1113570,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "月薪 1.4w 的程序员，应该升级 Mac 吗？",
+          "en": "Should a programmer with a monthly salary of 14k upgrade their Mac?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用了三年多的 M1Pro 14 寸 16 + 512 ，想入手最近国补 M4Pro 的 48 + 1T 。",
+          "en": "I've been using an M1Pro 14-inch with 16+512 for over three years and I'm thinking about getting the recently subsidized M4Pro with 48+1T."
+        },
+        {
+          "zh": "做 Go 开发，未来可能做 Ai 开发（对接 Ai 接口啥的）。",
+          "en": "I do Go development, and in the future, I might do AI development (connecting to AI interfaces, etc.)."
+        },
+        {
+          "zh": "其实我知道现在的也可以用一下，但是内存一致有点少，虽然也没饱满过，不过也不敢开 docker 和虚拟机啦，如果内存够还是想玩的，还有就是存储不够，虽然也没用满，但前提是我一直删东西。",
+          "en": "Actually, I know that what I have now can still be used, but the memory is a bit limited, although it hasn't been fully utilized. However, I don't dare to open Docker and virtual machines. If I had enough memory, I would still like to play around with them. Also, the storage is not enough, although I haven't used it all, but that's because I keep deleting things."
+        },
+        {
+          "zh": "想换新也有消费心理在作怪，我必须承认。",
+          "en": "I must admit that the desire to get something new also has to do with my consumerist mindset."
+        },
+        {
+          "zh": "不过虽然我有 1.4w 月薪，但是我其实没有存款，还有点贷款。",
+          "en": "However, although I have a monthly salary of 14k, I actually have no savings and some loans."
+        },
+        {
+          "zh": "国补后每个月还 1.6k （ 12 期免息）。",
+          "en": "After the national subsidy, I pay back 1.6k per month (12 interest-free installments)."
+        },
+        {
+          "zh": "我应该买吗？",
+          "en": "Should I buy it?"
+        },
+        {
+          "zh": "唉。",
+          "en": "Sigh."
+        },
+        {
+          "zh": "不买心里痒痒。",
+          "en": "If I don't buy it, I feel itchy."
+        },
+        {
+          "zh": "买了就是存不了啥钱。",
+          "en": "If I buy it, I won't be able to save much money."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "真不知道苹果的内存是金子做的还是存储是金子做的，16+512 升级 32+2T 要加 7500 块！",
+          "en": "I really don't know if Apple's memory or storage is made of gold. Upgrading from 16+512 to 32+2T costs an extra 7500 yuan!"
+        },
+        {
+          "zh": "顶级的 32 内存也就一千块不到，顶级存储 2T 一千块。",
+          "en": "Top-tier 32GB memory costs less than a thousand yuan, and top-tier 2TB storage costs a thousand yuan."
+        },
+        {
+          "zh": "我一直搞不懂很多苹果用户的脑回路，“苹果卖的贵是我的问题，我太穷了”，难道不是苹果不把粉丝当人卖的贵吗。",
+          "en": "I never understand the mindset of many Apple users: 'It's my problem that Apple sells things expensively, I'm too poor.' Isn't it because Apple doesn't treat its fans like humans and sells things at a high price?"
+        },
+        {
+          "zh": "换任何一个品牌，升级内存存储有这么大的溢价，早就被人喷的体无完肤了。",
+          "en": "If any other brand had such a large premium for upgrading memory and storage, they would have been criticized relentlessly."
+        },
+        {
+          "zh": "谁给他惯得",
+          "en": "Who spoiled them so much?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "没必要",
+          "en": "Not necessary"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在随便一个 win 笔记本 5000 足够和一万多的 Mac 比较了",
+          "en": "Now any Windows laptop costing 5000 is enough to compare with a Mac costing more than 10,000"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@0x535 #20 没有存款，还有贷款，继续增加负债，你觉得是件合理的事么？",
+          "en": "@0x535 #20 You have no savings and also have a loan. Do you think it's reasonable to continue to increase your debt?"
+        },
+        {
+          "zh": "还是觉得他工作特别稳定？",
+          "en": "Or do you think his job is particularly stable?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ihciah 真的，我之前也折腾了很久，之后还是一台高配 PC + vscode remote ，局域网几乎无感，外出 tailscale 也能直连，再也不用受 Apple 金子内存的气了",
+          "en": "@ihciah Seriously, I struggled for a long time before. After that, I got a high-spec PC + vscode remote. The LAN feels almost seamless, and tailscale can directly connect when I'm out. I don't have to suffer from Apple's golden memory anymore."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "组一个高性能 linux 开发机，vsc remote 多香啊",
+          "en": "Set up a high-performance Linux development machine, vsc remote is so great"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "钱多烧的",
+          "en": "Burning money"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "25 有女朋友。",
+          "en": "25, has a girlfriend."
+        },
+        {
+          "zh": "还有贷款。",
+          "en": "And has a loan."
+        },
+        {
+          "zh": "你这咋结婚啊？",
+          "en": "How are you going to get married?"
+        },
+        {
+          "zh": "手里越没钱越想消费，越有钱反而不想消费，这种心理很正常。",
+          "en": "The less money you have, the more you want to spend. The more money you have, the less you want to spend. This kind of psychology is normal."
+        },
+        {
+          "zh": "你要是能靠 mac 搞副业挣钱不说啥了。",
+          "en": "I wouldn't say anything if you could make money from a side hustle with the Mac."
+        },
+        {
+          "zh": "又带不来额外收入花那么多钱干嘛.",
+          "en": "Why spend so much money if it doesn't bring in extra income?"
+        },
+        {
+          "zh": "现在我们公司的开发机很多还是 M1 16+256 呢, 还不知道接着用几年呢?",
+          "en": "Many of the development machines in our company are still M1 16+256. I don't know how many more years we'll use them?"
+        },
+        {
+          "zh": "你买个 48+1T 才用四五年?",
+          "en": "You're only going to use a 48+1T for four or five years?"
+        },
+        {
+          "zh": "你副业一定很挣钱吧?",
+          "en": "Your side hustle must be very profitable, right?"
+        },
+        {
+          "zh": "你这都不用买新 mac, 上面那么多老哥都说能个高性能 linux 机了.",
+          "en": "You don't even need to buy a new Mac. So many other people have said you can get a high-performance Linux machine."
+        },
+        {
+          "zh": "需求不强买个低功耗的都行.",
+          "en": "If the requirements aren't high, you can buy a low-power one."
+        },
+        {
+          "zh": "都玩 docker 和虚拟机了用 linux 不香吗?",
+          "en": "Isn't it great to use Linux if you're using Docker and virtual machines?"
+        },
+        {
+          "zh": "或者买个云服务器，才 99 一年为啥非用 mac?",
+          "en": "Or buy a cloud server. It's only 99 a year. Why do you have to use a Mac?"
+        },
+        {
+          "zh": "而且还死沉死沉的。",
+          "en": "And it's so heavy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "mac pro 换了，iphone 不换吗？",
+          "en": "If you replace the Mac Pro, won't you replace the iPhone too?"
+        },
+        {
+          "zh": "ipad 是不是也要买一个？",
+          "en": "Do you also have to buy an iPad?"
+        },
+        {
+          "zh": "消费欲望是无穷无尽的",
+          "en": "The desire to consume is endless"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wsssss #34 好兄弟友好交流哦，No 爹味说教。",
+          "en": "@wsssss #34 Let's have a friendly exchange, bro. No patronizing."
+        },
+        {
+          "zh": "25 有女朋友有贷款就不能有点喜好追求了吗？",
+          "en": "Can't a 25-year-old with a girlfriend and a loan have some hobbies and pursuits?"
+        },
+        {
+          "zh": "就只能吃泡面不能吃肉了吗？",
+          "en": "Can you only eat instant noodles and not meat?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我觉得吧，既然月薪是中等的，那就买个经济实惠的，比如存储不要买 1 T 的，等你买好后，过保了，你去自己换成 2T 的。",
+          "en": "I think that since the monthly salary is average, you should buy something economical. For example, don't buy 1TB of storage. After you buy it and the warranty expires, you can replace it with 2TB yourself."
+        },
+        {
+          "zh": "我的 2 台都是 256G 换 2T ，实惠便宜唯一要做的是，一定要开着 time machine ，防止自己换的存储芯片质量不行，突然崩盘。",
+          "en": "Both of my machines had 256G replaced with 2T. It's affordable and cheap. The only thing you need to do is make sure that Time Machine is turned on to prevent the replaced storage chip from being of poor quality and suddenly crashing."
+        },
+        {
+          "zh": "一定要开备份 time machine",
+          "en": "Be sure to enable Time Machine backup"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ryalu #16 (继 16 楼，点错发早了.....)这不是买房买车，没必要那么纠结，按照苹果的贬值速度，你买回来就算没有发挥出买它的想法价值（可以自己折腾本地搭个小模型玩玩，下个 orbstack 或者虚拟机多折腾折腾 k8s ），一年不就相当于亏了个两三千块钱吗？",
+          "en": "@ryalu #16 (Continuing from the 16th floor, I accidentally sent it early...) This isn't buying a house or a car, so there's no need to be so worried. According to Apple's rate of depreciation, even if you buy it and don't realize the value you thought you would (you can play with building a small local model, download orbstack, or mess around with k8s in a virtual machine), wouldn't you only lose two or three thousand yuan in a year?"
+        },
+        {
+          "zh": "更何况你是在置换。",
+          "en": "What's more, you're replacing it."
+        },
+        {
+          "zh": "既然你都选择买了，那就不如好好的肯定自己，就把它当作一次给自己的奖励以及勉励，当你打开它的时候时刻记得买它的初衷，如何真的可以因为这个提升了自己那你会不会觉得很值？",
+          "en": "Since you've already chosen to buy it, you might as well affirm yourself and treat it as a reward and encouragement. When you open it, always remember the original intention of buying it. If it can really improve you, wouldn't you think it's worth it?"
+        },
+        {
+          "zh": "你现在问的这个问题在我看来毫无意义，这里每个人的消费观都不一样，有的人喜欢自己折腾虚拟机，有的人就是 mac 死忠粉，",
+          "en": "In my opinion, the question you're asking now is meaningless. Everyone here has different consumption habits. Some people like to tinker with virtual machines themselves, and some people are die-hard Mac fans."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "奇了怪了，月薪 1.4w 的程序员买 2w 的电脑，是件很不合理的事吗？",
+          "en": "It's strange. Is it unreasonable for a programmer with a monthly salary of 14k to buy a computer for 20k?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Jayleonc 太理解了。",
+          "en": "@Jayleonc I understand so well."
+        },
+        {
+          "zh": "人生在世，还是要对自己好一点。",
+          "en": "In this life, you still have to be good to yourself."
+        },
+        {
+          "zh": "虽然买回来之后发现可能是伪需求，但是不经历一次这样的踩坑，接下来的日子就会一直有个遗憾。",
+          "en": "Although you may find that it's a pseudo-need after you buy it, if you don't experience such a pitfall, there will always be a regret in the days that follow."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买！",
+          "en": "Buy it!"
+        },
+        {
+          "zh": "我发现我情况和你很相似，不过我有啥想买的电子产品，都不带犹豫的。",
+          "en": "I found that my situation is very similar to yours, but when I want to buy some electronic products, I don't hesitate."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你只要能用它挣钱，买吧",
+          "en": "If you can use it to make money, buy it"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "作为一个打工人，生产力工具不都应该公司配置的吗？",
+          "en": "As a wage earner, shouldn't productivity tools be configured by the company?"
+        },
+        {
+          "zh": "反正我毕业开始打工到现在，工作相关的工具没花费过自己一分钱！",
+          "en": "Anyway, from the time I graduated and started working until now, I haven't spent a penny on work-related tools!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "太好了，收到感谢有币详细回复了，我的方案是这样的：硬件：MacBook Pro M1Pro + PC(32G+1T) + 局域网千兆网络软件：VScode 、tailscale 、windows App or Moonlight 、vmware系统：OS X 、Windows 、Ubuntu应用：PC 是 windows 系统，里面安装 vmware ，vmware 安装 Ubuntu ，Mac 安装 windows App 用来远程唤醒 PC 和保持连接避免休眠，安装 vscode+remote ssh ，连接到 Ubuntu 远程开发即可体验",
+          "en": "Great, thanks for the detailed reply with coins. My solution is this: Hardware: MacBook Pro M1Pro + PC (32G+1T) + Gigabit LAN network Software: VScode, tailscale, Windows App or Moonlight, vmware System: OS X, Windows, Ubuntu Application: The PC will be a Windows system, with vmware installed. Vmware will install Ubuntu. The Mac will install a Windows App to remotely wake up the PC and maintain a connection to avoid hibernation. Install vscode+remote ssh and connect to Ubuntu for remote development to experience"
+        },
+        {
+          "zh": "上 MacBook 终于不会因为内存跑满而变卡了，所以运行压力都在 PC 的 vmware 内的 Ubuntu 上，Ubuntu 内可以任意安装 docker 等，统统通过 ssh 和 vscode 远程访问，以后想升级只需要升级 PC 即可",
+          "en": "The MacBook will finally not become slow because of the memory being full, so the running pressure is all on Ubuntu inside the PC's vmware. You can install docker etc. in Ubuntu, and access them all remotely via ssh and vscode. In the future, you only need to upgrade the PC."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买",
+          "en": "Buy"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哈哈，我建议不买，又不是不能用",
+          "en": "Haha, I suggest not buying it. It's not like you can't use what you have."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

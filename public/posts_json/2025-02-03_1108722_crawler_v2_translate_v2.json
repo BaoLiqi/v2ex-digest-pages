@@ -1,0 +1,203 @@
+{
+  "id": 1108722,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "求大佬们推荐入门软路由，之前的 N1 太不稳定了",
+          "en": "Seeking recommendations for an entry-level soft router from experienced users, the previous N1 was too unstable."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "预算最高 800 吧，感谢感谢",
+          "en": "Budget is around 800 at most, thanks!"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "准系统j4125 450n100 650按需选择",
+          "en": "Barebone system J4125 for 450, N100 for 650, choose according to your needs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这预算买软路由你基本随便买了，推荐一个天钡 R3 这种双盘位的 NAS 吧，咸鱼在 500 左右，体积不算大，放电视柜啥的刚刚好，性能基本上也够当软路由的同时做一些简单的 NAS 工作，BT 下载、媒体库啥的它家也有这个造型的 2.5G N100 的，不过裸机就在你预算附近了，配齐估计有点超",
+          "en": "With this budget, you can basically buy any soft router. I recommend a Topton R3, a dual-drive NAS. They're around 500 on Xianyu (a used goods marketplace). The size isn't too big, perfect for placing in a TV cabinet. The performance is basically enough to act as a soft router while also doing some simple NAS tasks, BT downloading, media library, etc. They also have a 2.5G N100 model with the same design, but the barebone is around your budget, so it might be a bit over budget to fully equip it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "ms01 最牛逼.我在用",
+          "en": "MS01 is the most awesome. I'm using it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mikrotik hAP-AX2",
+          "en": "Mikrotik hAP-AX2"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Puteulanus 老哥这个推荐，我闲鱼挂一个你，300U 16GB 内存，一个 2TB 3.5 ，才 550 ，入门真的舒服，可是目前还没卖出去，哈哈哈",
+          "en": "@Puteulanus Bro, regarding this recommendation, I'm listing one on Xianyu: 300U, 16GB memory, a 2TB 3.5' drive, only 550. It's really comfortable for beginners, but it hasn't been sold yet, haha."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Cudy TR3000 ，一百多搞定；树莓派 5 ，PVE ，折腾；其他 X86 ，教程多，简单",
+          "en": "Cudy TR3000, can be done for a little over a hundred; Raspberry Pi 5, PVE, tinkering; other X86, many tutorials, simple."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@M48A1 来，上链接",
+          "en": "@M48A1 Come on, post the link."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@foxk  [闲鱼] https://m.tb.cn/h.TMBoUJr?tk=6HF6e5Ysyai CZ001 「我在闲鱼发布了 [T-bao AMD300U 微型计算机 Router min] 」点击链接直接打开",
+          "en": "@foxk [Xianyu] https://m.tb.cn/h.TMBoUJr?tk=6HF6e5Ysyai CZ001 「I posted [T-bao AMD300U Microcomputer Router min] on Xianyu」Click the link to open directly."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@foxk 一套 520 ，机器，16GB 单内存，3.5 2TB 硬盘",
+          "en": "@foxk A complete set for 520, the machine, 16GB single memory, 3.5' 2TB hard drive."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这预算随便买个 J4125 的工控机，装个 ESXi ，光跑个 OP 对普通用户来说我感觉都性能过剩了...剩下可以跑点其他服务。",
+          "en": "With this budget, you can just buy a J4125 industrial computer, install ESXi. I feel like just running OP is already overkill for the average user... You can run some other services with the rest."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "建议上 J4125 ，功耗低。 峰值才 10w ，待机一般 6w 左右。剩下来的钱买点大鱼大虾吃吃也是极好的。",
+          "en": "Suggest getting a J4125, low power consumption. Peak is only 10w, standby is generally around 6w. It's also great to buy some big fish and prawns to eat with the remaining money."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "入门都是 r2s ，用了几年了，很稳定",
+          "en": "For entry-level, it's all r2s. I've used it for a few years, very stable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "n1 有什么不稳定的？我都用了四五年了",
+          "en": "What's unstable about N1? I've used it for four or five years."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "n100",
+          "en": "N100"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "GL-MT6000 或杂牌 N100前者有硬件加速和无线, 后者可以跑 OPN/Pfsense也可以考虑淘大厂小主机, 外围功耗会比杂牌低",
+          "en": "GL-MT6000 or off-brand N100, the former has hardware acceleration and wireless, the latter can run OPN/Pfsense. You can also consider getting a small host from a major manufacturer, the peripheral power consumption will be lower than off-brands."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "n1 挺稳的啊前提是不要用那个 usb 口",
+          "en": "N1 is quite stable, the premise is not to use that USB port."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不考虑性能、体积可以看下 z240 sff ，去年搞了个跑着挺稳的，而且接口多便于扩展",
+          "en": "If you don't consider performance and size, you can take a look at z240 sff. I got one last year and it runs quite stable, and it has many interfaces for easy expansion."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@jhytxy 老哥能不能推荐个 N1 的最新固件？是不是我固件太老了",
+          "en": "@jhytxy Bro, can you recommend the latest firmware for N1? Is it because my firmware is too old?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "京东云 AX6600",
+          "en": "JD Cloud AX6600"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "BPI-R4 ，我 SFP1 接猫棒，SFP2 用 DAC 接万兆交换机直连走 PPE 硬件加速 0 占用挂代理不走硬件加速，sirq 占用倒也还好（当然你可以国内路由绕过代理",
+          "en": "BPI-R4, I connect SFP1 to a modem stick, SFP2 uses DAC to connect to a 10 Gigabit switch for direct connection using PPE hardware acceleration with 0 utilization. Hanging a proxy without hardware acceleration, sirq utilization is also okay (of course, you can bypass the proxy with domestic routing)."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

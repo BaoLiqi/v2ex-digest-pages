@@ -1,0 +1,235 @@
+{
+  "id": 1108801,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "求推荐百元 mac 可用的游戏手柄",
+          "en": "Recommend a game controller for Mac that costs around 100 yuan"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "对手柄要求不高，但是问了一圈客服都说不支持？\r\n\r\n是真的百元手柄都不支持 mac 吗？",
+          "en": "I don't have high requirements for the controller, but after asking around, customer service all said it's not supported.\n\nIs it true that 100-yuan controllers don't support Mac?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "以前百元级别有支持的,  不过要找第三方/收费的驱动, macOS 升级后貌似都 G 了.",
+          "en": "There used to be 100-yuan level controllers that were supported, but you had to find third-party/paid drivers. It seems like they all failed after macOS upgrades."
+        },
+        {
+          "zh": "直接上 xbox 的手柄吧, 300 多点（也是『百元』:doge:",
+          "en": "Just get an Xbox controller, it's a little over 300 (also 'hundreds of yuan' :doge:"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@NsLib 原来是这样，谢谢。",
+          "en": "@NsLib I see, thank you."
+        },
+        {
+          "zh": "不过据说 ps4 ，ps5 模式的手柄与 mac 兼容性最好，不知道是不是真的。",
+          "en": "However, it is said that PS4 and PS5 mode controllers have the best compatibility with Mac, I don't know if it's true."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小鸡启明星，抖音加入购物车后会通过各种各样的广告渠道推送优惠券，券后价格 ¥49 ，连接 Mac 之后会被识别为 Xbox Controller ，在 Ryujinx 和 OpenEmu 里试了下没发现啥问题",
+          "en": "Xiaoji Qimingxing, after adding it to the shopping cart on Douyin, coupons will be promoted through various advertising channels. The price after the coupon is ¥49. After connecting to Mac, it will be recognized as an Xbox Controller. I tried it in Ryujinx and OpenEmu and didn't find any problems."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mac 也是用 Xbox 兼容的手柄就行了吧，这年头国产便宜手柄挺多的",
+          "en": "Mac just uses Xbox-compatible controllers, right? There are a lot of cheap domestic controllers these days."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "mac 上现在都玩什么游戏呢？",
+          "en": "What games are you playing on Mac now?"
+        },
+        {
+          "zh": "这几天在玩死亡细胞，其他的真不知道玩什么了",
+          "en": "I've been playing Dead Cells these days, I really don't know what else to play."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "任天堂最新的手柄也支持的，还带体感的。",
+          "en": "Nintendo's latest controller is also supported, and it also has motion sensing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Xbox 和 PS5 手柄都有，连 mac 都没问题，不过很多游戏没有适配 PS 手柄，虽然也能用但界面显示的是 Xbox 按键。",
+          "en": "I have both Xbox and PS5 controllers, and they both connect to Mac without any problems, but many games are not adapted to PS controllers, although they can be used, the interface displays Xbox buttons."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hansnow 那也就是说，其实所有的手柄都是支持 mac 的，但是他们客服都跟你说不支持。",
+          "en": "@hansnow So that means, actually, all controllers support Mac, but their customer service tells you they don't."
+        },
+        {
+          "zh": "还挺有意思。",
+          "en": "That's quite interesting."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@killgfat 理论上是的，但是一方面客服会说不支持 mac 。",
+          "en": "@killgfat Theoretically yes, but on the one hand, customer service will say it doesn't support Mac."
+        },
+        {
+          "zh": "另一方面，b 站可以搜到很多评论说他们在 mac 下玩 steam 部分游戏会不支持。",
+          "en": "On the other hand, you can find many comments on Bilibili saying that they cannot be supported when playing some Steam games on Mac."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买个二手的 XBOX 手柄 支持蓝牙",
+          "en": "Buy a used XBOX controller that supports Bluetooth"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "淘宝大把的 xbox 的手柄，好的有线的也就不到 50 一个，有振动，一定要确定电脑识别后是 xbox 的才行，否则退货。",
+          "en": "There are a lot of Xbox controllers on Taobao, good wired ones are less than 50, with vibration. Make sure the computer recognizes it as an Xbox controller, otherwise return it."
+        },
+        {
+          "zh": "使用体验和正品 xbox 差别不大",
+          "en": "The user experience is not much different from the genuine Xbox."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Mac 基本支持大部分手柄吧，如果不支持还有 Steam 的驱动可以支持。",
+          "en": "Mac basically supports most controllers, and if it doesn't support it, there is also a Steam driver that can support it."
+        },
+        {
+          "zh": "最烦的就是 Mac 上 Steam 的游戏自己不支持手柄（比如黑帝斯",
+          "en": "What's most annoying is that Steam games on Mac don't support controllers themselves (like Hades."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "八位堂的手柄都支持 mac, 我用 SN 30 Pro, 二手 100 出头, 外形小巧很好用",
+          "en": "8BitDo controllers all support Mac. I use SN 30 Pro, a used one costs a little over 100, it's small and easy to use."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qdwang 可以参考下这个帖子的第一个回复：https://v2ex.com/t/1046061",
+          "en": "@qdwang You can refer to the first reply in this post: https://v2ex.com/t/1046061"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买的 Xbox 还可以，Mac 蓝牙连接没什么延迟",
+          "en": "The Xbox I bought is okay, there is no lag when connected to Mac via Bluetooth."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@qdwang 我的八位堂和小鸡都能切到一个 Mac 模式，不知道和其他的模式有什么差别",
+          "en": "@qdwang My 8BitDo and Xiaoji can both switch to a Mac mode, I don't know what the difference is from other modes."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@hansnow 我也用的小鸡，但是蓝牙经常出现不可忽略的延迟。",
+          "en": "@hansnow I also use Xiaoji, but Bluetooth often has an un-ignorable delay."
+        },
+        {
+          "zh": "很难受",
+          "en": "It's very uncomfortable."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "贵的选 xbox,便宜的选八位堂,百元级别的只有二手的结论是二手的八位堂或者 xbox",
+          "en": "Choose Xbox if it's expensive, choose 8BitDo if it's cheap, the conclusion for the 100-yuan level is a used 8BitDo or Xbox."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@unclemcz 十分感谢",
+          "en": "@unclemcz Thank you very much"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "小鸡启明星，便宜好用，支持 mac 的游戏大都能用，比如星露谷，哈迪斯，暖雪我都用过，没啥问题。",
+          "en": "Xiaoji Qimingxing, cheap and easy to use, most games that support Mac can be used, such as Stardew Valley, Hades, and Warm Snow, I have used them all without any problems."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

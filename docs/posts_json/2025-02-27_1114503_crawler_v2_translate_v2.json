@@ -1,0 +1,259 @@
+{
+  "id": 1114503,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "如同柯洁大败 AlphaGo 一样沮丧",
+          "en": "As frustrated as Ke Jie being defeated by AlphaGo"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一个经验丰富，敲码如神得程序员能够快速的实现需求和定位处理问题，靠的是丰富的知识储备，和活跃的编程思维，以及准备的问题检索能力。\r\n但是这些靠时间和经历积累来的能力，好像在 ai 面前不值一提。",
+          "en": "An experienced programmer who codes like a god can quickly implement requirements and locate and solve problems, relying on a wealth of knowledge, active programming thinking, and ready problem retrieval capabilities.\r\nBut these abilities accumulated through time and experience seem insignificant in the face of AI."
+        },
+        {
+          "zh": "一个普通的程序员好像也可以直接通过 ai 实现复杂的需求。\r\n这样一个经验丰富的程序员还有多少竞争力吗，就好像柯洁面对 AlphaGo ，太有挫败感了。",
+          "en": "It seems that an ordinary programmer can also directly implement complex requirements through AI.\r\nHow much competitiveness does such an experienced programmer have? It's like Ke Jie facing AlphaGo, too frustrating."
+        },
+        {
+          "zh": "但是围棋毕竟还不是一个只注重比赛结果的项目，更多得还是注重人类之间较量的过程，但是在公司敲代码，老板可是只关心结果。",
+          "en": "But Go is not just a project that focuses on the results of the competition. More attention is paid to the process of human competition. But when coding in a company, the boss only cares about the results."
+        },
+        {
+          "zh": "这还能苟多久呀，好沮丧",
+          "en": "How long can this last? So frustrating"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "其实柯洁沮丧的不是输了。而是自监督强化学习的 AI 会颠覆既有的技术路径。",
+          "en": "In fact, what frustrated Ke Jie was not losing. It is that self-supervised reinforcement learning AI will subvert existing technical paths."
+        },
+        {
+          "zh": "之前他们认为的好棋，在 AI 眼里像垃圾。AI 眼里的好棋，他们根本无法理解。",
+          "en": "The good moves they thought were good are like garbage in the eyes of AI. They simply cannot understand the good moves in the eyes of AI."
+        },
+        {
+          "zh": "AI 在很短的时间内，轻而易举的得到了人类上千年都无法摸索的更优解(是不是最优还有待考量)。",
+          "en": "In a very short period of time, AI easily obtained a better solution that humans have not been able to explore for thousands of years (whether it is the best remains to be considered)."
+        },
+        {
+          "zh": "AI 摧毁了柯洁十几、二十年的知识体系。",
+          "en": "AI has destroyed Ke Jie's knowledge system of more than ten or twenty years."
+        },
+        {
+          "zh": "目前在编程领域还没有到这一步，但这一天会来的。",
+          "en": "This has not yet happened in the field of programming, but that day will come."
+        },
+        {
+          "zh": "比如现在为了软件工程、团队协作所设计的各种框架与开发流程、规则，实际上都是对软件开发效率的桎梏。",
+          "en": "For example, the various frameworks, development processes, and rules designed for software engineering and team collaboration are actually a constraint on software development efficiency."
+        },
+        {
+          "zh": "当 AI 会直接输出二进制可执行文件时，才是编程领域的 AlphaZero 时刻。",
+          "en": "When AI can directly output binary executable files, it will be the AlphaZero moment in the programming field."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "知识分为三种： 你知道你知道的， 你知道你不知道的，和你不知道你不知道的。",
+          "en": "There are three types of knowledge: what you know you know, what you know you don't know, and what you don't know you don't know."
+        },
+        {
+          "zh": "如果是第三种的话即便回答你的是全知全能的神， 但是你连该如何问都不知道。",
+          "en": "If it is the third type, even if the one who answers you is an omniscient and omnipotent god, you don't even know how to ask."
+        },
+        {
+          "zh": "所以在 AI 当道的今天应该尽量拓展知识面， 可以不懂但是得知道有这么个东西，至少知道该问啥，而不是在某些深度上和 AI 死磕。",
+          "en": "Therefore, in today's AI era, we should try to expand our knowledge as much as possible. We may not understand it, but we must know that there is such a thing, at least know what to ask, instead of fighting AI to the death on certain depths."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那就让自己成为普通的程序员，通过 AI 实现复杂需求。这样不就有成就感了吗？",
+          "en": "Then become an ordinary programmer and use AI to implement complex requirements. Wouldn't that give you a sense of accomplishment?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "纠正个小错误：标题“大败”后面加个“于”。柯洁可没有战胜过 AlphaGo😜",
+          "en": "Correct a small mistake: Add '于' after '大败' in the title. Ke Jie has never defeated AlphaGo😜"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@sentinelK 感觉像是指数级的在发展。两三年前 gpt 刚火时候，还信誓旦旦的以为，目前的问答形式，取代程序员还早得很，但是到现在已经发展成可以直接创建可执行的工程了。太可怕了",
+          "en": "@sentinelK It feels like it is developing exponentially. When GPT first became popular two or three years ago, I firmly believed that the current question-and-answer format was far from replacing programmers, but now it has developed to the point where it can directly create executable projects. Too scary."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhangH258 本来还在为靠自己的知识储备和阅历解决的问题沾沾自喜呢，然而让 ai 对自己代码一顿分析，像是漏洞百出不堪一击似的，深受打击",
+          "en": "@zhangH258 I was originally complacent about solving problems with my own knowledge and experience, but then I let AI analyze my code, and it seemed to be full of loopholes and vulnerable. I was deeply shocked."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "人腿跑不过汽车 但是可以成为汽车驾驶员人被 AI 超过也是迟早的事,做好 AI 时代的驾驶员吧",
+          "en": "Human legs cannot run faster than cars, but they can become car drivers. It is only a matter of time before humans are surpassed by AI. Be a driver in the AI ​​era."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "柯洁那是高度自负，把李世石都喷了。你对 AI 也有高度自负吗",
+          "en": "Ke Jie was highly arrogant and even criticized Lee Sedol. Are you also highly arrogant towards AI?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@GeorgeWai “下棋能赢是因为可以通过排列组合计算出最优路径”但目前的大语言模型以及编程模型，都在反复的证明，人类的编程、文章乃至语言，都是有统计学规律的。",
+          "en": "@GeorgeWai \"Winning at chess is because you can calculate the optimal path through permutations and combinations.\" But the current large language models and programming models are repeatedly proving that human programming, writing, and even language have statistical patterns."
+        },
+        {
+          "zh": "你们以为你们在创造、编纂、写意。但实际上只是在某种统计学规律下的发散和随机。",
+          "en": "You think you are creating, compiling, and expressing. But in reality, it is just divergence and randomness under a certain statistical pattern."
+        },
+        {
+          "zh": "人类之所以没有发现，是因为人类的大脑功率太低，不擅长发掘大数据下的统计学联系。",
+          "en": "The reason why humans have not discovered it is because the power of the human brain is too low, and it is not good at discovering statistical connections under big data."
+        },
+        {
+          "zh": "更何况，绝大多数的生产活动，都是在遵循既定的方法论，也就是既有最优路线与经验开展的。只是看你能不能承认与接受罢了。",
+          "en": "What's more, most production activities follow established methodologies, that is, existing optimal routes and experiences. It just depends on whether you can admit and accept it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "DeepMind 几年前的 AlphaGo 纪录片记录了人类面对 AI 时心理上的巨大转变。这种转变不仅在围棋界，未来也必然会在各行各业上演",
+          "en": "DeepMind's AlphaGo documentary from a few years ago recorded the enormous psychological shift humans experience when facing AI. This shift is not only in the Go world, but will inevitably play out in all walks of life in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "并没有。我熟悉的音视频方面，AI 给的很多代码都是幻觉。或者是需求都达不到的，优化性能方面上也是出错的。",
+          "en": "Not really. In the audio and video aspects that I am familiar with, many of the codes given by AI are hallucinations. Or the requirements cannot be met, and there are also errors in optimizing performance."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "那就成为 AI 调教员，鞭策它",
+          "en": "Then become an AI trainer and spur it on."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果 普通程序员+AI = 经验丰富，敲码如神得程序员，AI 又不要工资，那普通程序员何来沮丧",
+          "en": "If Ordinary Programmer + AI = Experienced Programmer, Coding God Programmer, and AI doesn't need a salary, then why are ordinary programmers frustrated?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你怎么努力在知识储备上都不可能拼过 AI ，但是你偶尔蹦出来的点子 AI 可能想不到",
+          "en": "No matter how hard you try to build up your knowledge, you can't compete with AI, but AI may not be able to think of the ideas that pop up in your head occasionally."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感受加一，很早就用 GPT ，最近项目上想要结合，深入研究和了解了结果深深的感觉，自己看这些知识的速度，完全跟不上外面更新的速度",
+          "en": "Feeling plus one, I have been using GPT for a long time. Recently, I wanted to combine it with a project and conduct in-depth research and understanding. As a result, I deeply felt that the speed at which I read this knowledge could not keep up with the speed of external updates."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Pursue9 那老板给你一个普通程序员的工资就行了",
+          "en": "@Pursue9 Then the boss will give you the salary of an ordinary programmer."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ulala 😟是的，大败于",
+          "en": "@ulala 😟 Yes, defeated by"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Cooky 是的，到目前为止 ai 还没有完全取代。但是 ai 发展的速度太迅猛了",
+          "en": "@Cooky Yes, so far AI has not completely replaced it. But the speed of AI development is too rapid."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "反向思考，去当老板",
+          "en": "Think in reverse, become the boss."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "解决问题的能力是不断积累的。虽然 ai 给出的方案看似很正确，但是现实有很多特殊情况。",
+          "en": "The ability to solve problems is constantly accumulated. Although the solutions given by AI seem correct, there are many special circumstances in reality."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": 1108674,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "感觉互联网上错别字变多了",
+          "en": "It feels like there are more typos on the internet."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这种感觉是 24 年开始有的。",
+          "en": "This feeling started in 2024."
+        },
+        {
+          "zh": "当然只是感觉，不知道大家有没有这种感觉。",
+          "en": "Of course, it's just a feeling, I don't know if anyone else feels this way."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "有的是自我审查，有的是输入法打快了，还有的就是从来没写对，比如消费卷（券）、阀（阈）值",
+          "en": "Some are self-censorship, some are because the input method is too fast, and some have never been written correctly, such as consumption '卷' (should be '券'), '阀' (should be '阈') value."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@fanersai 无论在哪里，我自己还是想把字打对",
+          "en": "@fanersai No matter where I am, I still want to type the characters correctly myself."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不是吧，楼上真的以为通假字是错别字？",
+          "en": "No way, does the person upstairs really think phonetic loan characters are typos?"
+        },
+        {
+          "zh": "大多数通假字是因为当时没有这个字啊。",
+          "en": "Most phonetic loan characters are because the character didn't exist at the time."
+        },
+        {
+          "zh": "举例来说：云本字是象形字「云」，后来被借用表示「说」，表示云朵的本意反倒需要加上雨字头区分，也就是「雲」。",
+          "en": "For example: The original character for cloud was the pictograph '云', which was later borrowed to mean 'to say'. The original meaning of cloud now requires the rain radical to distinguish it, which is '雲'."
+        },
+        {
+          "zh": "到现代，因为白话文中「云」字不再表示「说」，只有云朵一个意象，又简化回了「云」。",
+          "en": "In modern times, because the character '云' no longer means 'to say' in vernacular Chinese, only the image of clouds, it has been simplified back to '云'."
+        },
+        {
+          "zh": "文字是动态演化的，通假字的「假」是假借的意思，比如「云」被借用成了「说」的意思，怎么会是错别字呢？",
+          "en": "Characters are dynamically evolving, the '假' in phonetic loan character means borrowing, for example, '云' is borrowed to mean 'to say', how can it be a typo?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "天将降大任于（是->斯）人也所谓错别字，写的人多了，就成了正确字",
+          "en": "'Heaven will entrust a great mission to (是->斯) this person' The so-called typo, if more people write it, it becomes the correct character."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "V2 上都有很多人把“充电”、“充值”打成“冲电”、“冲值”的。",
+          "en": "On V2, many people type '充电' (charge) and '充值' (recharge) as '冲电' and '冲值'."
+        },
+        {
+          "zh": "还有“重制版”基本上都成了“重置版”了",
+          "en": "Also, '重制版' (remastered version) has basically become '重置版' (reset version)."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@saranz 嗯嗯 你开心就好",
+          "en": "@saranz Hmm, hmm, whatever makes you happy."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "也有很多错别字是为了躲审查",
+          "en": "There are also many typos to avoid censorship."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ztstillwater 之前也看到类似的讨论，也许正确字并不是永恒的",
+          "en": "@ztstillwater I've seen similar discussions before, maybe the correct character is not eternal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@YGHMXFAL 这种也确实不少，但无意的错别字也不少",
+          "en": "@YGHMXFAL There are indeed a lot of these, but there are also a lot of unintentional typos."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不止错别字，还有拼音声母和各种黑化",
+          "en": "Not just typos, but also pinyin initials and various obfuscations."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "正式场合通常用 ai 刷一下全文看看，有的场合不严谨就随意了，比如在 V2EX 和 v 友扯淡。",
+          "en": "In formal occasions, I usually use AI to scan the entire text to check. In some informal occasions, I just go with the flow, such as chatting with V2EX users."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ysxb1145 很多字被污染了，有了另外的含义",
+          "en": "@ysxb1145 Many characters have been contaminated and have acquired other meanings."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "确实，有太多人不分在和再。",
+          "en": "Indeed, too many people don't distinguish between '在' (zai - at/in/on) and '再' (zai - again)."
+        },
+        {
+          "zh": "不知道是拼音输入法，还是真不知道区别。",
+          "en": "I don't know if it's the pinyin input method or if they really don't know the difference."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@nothing2 自己最近也刚经历过，想打“的”字，打几次还是“得”",
+          "en": "@nothing2 I just experienced it myself recently, I wanted to type the character '的' (de), but I kept typing '得' (de) several times."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@LieEar 是的，这个不好纠正。",
+          "en": "@LieEar Yes, this is not easy to correct."
+        },
+        {
+          "zh": "要根据语义",
+          "en": "It depends on the semantics."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "为了躲审核，以后都是通假字",
+          "en": "To avoid censorship, everything will be phonetic loan characters in the future."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不是感觉是事实，现在好多人在提交之前都不会再审一遍",
+          "en": "It's not a feeling, it's a fact. Now many people don't review before submitting."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@calloc #11 确实比较难，尤其是像发表意见的时候。",
+          "en": "@calloc #11 It is indeed difficult, especially when expressing opinions."
+        },
+        {
+          "zh": "举个例子，我在 tg 写了一段话，现发出去，然后方向键上，编辑，再上，编辑，通常要好几次。",
+          "en": "For example, I wrote a paragraph in tg, sent it out, then up arrow, edit, up again, edit, usually several times."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@calloc #11 比如我这段，就两个错别字了，我想改，论坛不让",
+          "en": "@calloc #11 For example, in this paragraph of mine, there are two typos. I want to correct them, but the forum won't let me."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "各种奇怪的 AI 配音，不标准的普通话短视频越来越多，耳濡目染，连打拼音的出错率都变高了。",
+          "en": "More and more strange AI voiceovers and short videos with non-standard Mandarin appear, and being exposed to them, makes the error rate of typing pinyin even higher."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

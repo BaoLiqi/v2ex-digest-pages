@@ -1,0 +1,223 @@
+{
+  "id": 1111653,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "CDN 被恶意请求攻击，平白无故烧去很多费用，如何防御？",
+          "en": "CDN is under attack by malicious requests, burning a lot of money for no reason. How to defend against it?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如题",
+          "en": "As the title says"
+        },
+        {
+          "zh": "\r\n\r\n具体情况：楼主昨天一个小博客服务（挂了 aws cloudfront ）忽然烧去一些钱，具体分析是一个区域（平台分析的最细粒度）针对单一的一个图片（ CDN 域名）疯狂的请求（请求数令人发指），在短短的时间里烧去免费额度和部分额外费用，而且貌似平台也没有什么防御（平台说默认开启 WAF + ddos 防御，但看上去并没有，我甚至怀疑是 aws 计费出了问题）。",
+          "en": "\r\n\r\nSpecific situation: Yesterday, the author's small blog service (using AWS CloudFront) suddenly burned some money. A detailed analysis shows that a region (the finest granularity of platform analysis) was making insane requests (the number of requests is outrageous) for a single image (CDN domain), burning through the free tier and some extra fees in a short period of time. Moreover, the platform doesn't seem to have any protection (the platform says WAF + DDoS protection is enabled by default, but it doesn't seem to be working; I even suspect there's a problem with AWS billing)."
+        },
+        {
+          "zh": "\r\n\r\n之前以为开启了 CDN ，流量请求就还算安全，目前来看然并卵啊，还是需要进一步搞不少东西。",
+          "en": "\r\n\r\nI used to think that enabling CDN would make traffic requests relatively safe, but it seems useless. I still need to do a lot more things."
+        },
+        {
+          "zh": "\r\n\r\n问题：CDN 感觉是完全暴露在外面的，被 DDoS 有什么防御手段吗？以及有什么规则可以配置么？（我看了一下 aws sheild advanced 的费用实在是有点贵。其实不是很理解目前 cdn 成本如此高昂的情况下如何处理。）",
+          "en": "\r\n\r\nQuestion: CDN feels completely exposed. What are the defense methods against DDoS? And what rules can I configure? (I checked the cost of AWS Shield Advanced, which is a bit expensive. I don't really understand how to deal with the current high cost of CDN)."
+        },
+        {
+          "zh": "\r\n\r\n类似情况大家是如何处理的？",
+          "en": "\r\n\r\nHow do you guys deal with similar situations?"
+        },
+        {
+          "zh": "\r\n\r\n以及有没有更好的 cdn 供应商（目前是 aws cloudfront ）",
+          "en": "\r\n\r\nAre there any better CDN providers (currently using AWS CloudFront)?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "使用免费 cdn使用 cloudflare",
+          "en": "Use free CDN, use Cloudflare"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@annoygaga 默认免费，不开订阅收费项就永远不会收费。需要留意是开订阅的时候可能在免费额度内，但可能用超产生流量。担心的话可以不用这类功能，如果已经开了，在“管理帐户 > 账单 > 订阅”里取消。默认的 CDN 是不需要订阅的。去年 11 月买了 cf 的股票，现在涨了 85%",
+          "en": "@annoygaga It's free by default. You will never be charged if you don't open subscription items. Note that when you open a subscription, you may be within the free quota, but you may exceed the quota and generate traffic. If you're worried, you don't have to use this feature. If you've already opened it, cancel it in 'Manage Account > Billing > Subscriptions'. The default CDN does not require a subscription. I bought CF stock last November, and it's up 85% now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "用 Cloudflare CDN 挂图片还是有限制的。如果传输的流量中图片等媒体内容的占比多得不成比例的话，Cloudflare 还是可能会清退用户。要“免费”绕过这个限制的话，图片等媒体/二进制文件必须挂在它们家的 R2 （对象存储）或者 Workers （类似于云函数/Serverless ）这样的服务上。详情见：https://www.cloudflare.com/service-specific-terms-application-services/#content-delivery-network-free-pro-or-business对于上面的其他网友提到的一些例子：1. 被 DDoS 攻击消耗了几 TB 流量都还没被清退- 对于除了图片之外的网站/网页内容的确有不计量的 DDoS 防御，例如： https://limbopro.com/archives/2106.html2. /t/967085 中有人称“跑了 1PB 流量”- 这一例子是通过作弊取得的 Cloudflare WARP VPN 账户的流量余额，VPN 和 CDN 完全不是一种产品",
+          "en": "There are still restrictions on using Cloudflare CDN for images. If the proportion of image and other media content in the transmitted traffic is disproportionately high, Cloudflare may still remove users. To bypass this restriction 'for free', images and other media/binary files must be hosted on their R2 (object storage) or Workers (similar to cloud functions/Serverless) services. See: https://www.cloudflare.com/service-specific-terms-application-services/#content-delivery-network-free-pro-or-business Regarding some examples mentioned by other netizens above: 1. Consuming several TB of traffic under DDoS attack without being removed - There is indeed unlimited DDoS protection for website/webpage content other than images, for example: https://limbopro.com/archives/2106.html 2. Someone in /t/967085 claimed to have 'run 1PB of traffic' - This example is the traffic balance of a Cloudflare WARP VPN account obtained by cheating. VPN and CDN are completely different products."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "换成 cf",
+          "en": "Switch to CF"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "DDoS 很多时候本来实际攻击的就是账单，攻击成本远远低于防御成本CloudFront 没什么比较好的防止刷流量的方法纯服务海外就 Cloudflare",
+          "en": "DDoS often actually attacks the bill. The cost of attack is much lower than the cost of defense. CloudFront doesn't have any good way to prevent traffic flooding. If you only serve overseas, use Cloudflare."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lnbiuc 其实没看懂 cf 的 pricing",
+          "en": "@lnbiuc I don't really understand CF's pricing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gaobh 其实没看懂 cf 的价格，他的价格是如何？相比其他 cdn ，会不会有意外的费用",
+          "en": "@gaobh I don't really understand CF's pricing. What is its pricing like? Compared with other CDNs, will there be unexpected costs?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ZeroClover 见识到了，搞得我有点后怕，api 服务还可以拒绝服务，静态文件 cdn 妥妥爆刷流量啊，cf 会有意外费用吗？",
+          "en": "@ZeroClover I've seen it, which makes me a little scared. API services can still be denied service, but a static file CDN will definitely have a burst of traffic. Will CF have unexpected costs?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@annoygaga #5 默认选免费的就行了，CDN 是永远免费的，R2 这种只有超量了才收费",
+          "en": "@annoygaga #5 Just select the free one by default. CDN is always free. R2 only charges for exceeding the limit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "可以根据来源 ip 屏蔽。比如屏蔽美国 ip",
+          "en": "You can block based on the source IP, such as blocking US IPs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@annoygaga #6 Self-serve 层级大部分服务不是按量计费的，如果你只是服务静态文件怎么都不会有额外费用的静态文件部分情况下其实可以做签名校验，签名里面可以包含允许访问的 IP 、有效期等等，可以一定程度上降低脚本小子的攻击影响，但是也不可能完全阻挡就是了",
+          "en": "@annoygaga #6 Most services in the Self-serve tier are not pay-as-you-go. If you only serve static files, there will be no extra costs. In some cases, static files can be signature-verified. The signature can contain the allowed IP, validity period, etc., which can reduce the impact of script kiddies to a certain extent, but it is impossible to completely block them."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gaobh 如果 cf 这么直接，那其他家 cdn 还有饭吃吗。。。应该有什么约束条件吧",
+          "en": "@gaobh If CF is so straightforward, how can other CDNs survive? There should be some constraints."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@vfx666 其实不是很懂这种规则在哪配，cloudfront 的这种规则，同时怎么配置最便宜，aws 的意外支出实在是太多了",
+          "en": "@vfx666 I don't really understand where to configure this rule, this rule of CloudFront, and how to configure the cheapest one. There are too many unexpected expenses in AWS."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ZeroClover 我的场景是静态文件，但如果 cloudflare 如此方便，其他家 cdn 不是没饭吃了，应该有什么约束条件吧，至少网络费用需要？网络费用我也没在 cloudflare 看到",
+          "en": "@ZeroClover My scenario is static files, but if Cloudflare is so convenient, other CDNs won't have any business. There should be some constraints, at least network costs? I haven't seen network costs on Cloudflare."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@annoygaga #11 没有，大家都用它",
+          "en": "@annoygaga #11 No, everyone uses it."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shiny cloudflare 的流量费用我貌似没找到，被 aws 流量搞怕了，很怕这种意外的费用，cloudflare 有什么约束么？",
+          "en": "@shiny I can't seem to find Cloudflare's traffic fees. I'm scared by AWS traffic, and I'm very afraid of such unexpected costs. What are the constraints of Cloudflare?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@gaobh 今晚就切！",
+          "en": "@gaobh Switching tonight!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@annoygaga 只用 CDN 就不会有额外开销，印象中有人甚至一天有 TB 级别都没收费。赛博菩萨的称号不是随随便便来的。之前只见过一个 case ，是做赌博类的网站，说 cf 的人找他说，不买企业版就会封号。原因是这种类型让 cf 有额外成本。https://www.infoq.com/news/2024/06/cloudflare-service-change-impact/",
+          "en": "@annoygaga There will be no extra costs if you only use CDN. I remember someone even had TB levels per day without being charged. The title of Cyber ​​Bodhisattva is not casually obtained. I have only seen one case before, which was a gambling website, and CF people asked him to close the account if he didn't buy the enterprise version. The reason is that this type incurs additional costs for CF. https://www.infoq.com/news/2024/06/cloudflare-service-change-impact/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@shiny 我这次攻击就是上了 TB 级别（ cloudfront free 额度就有 TB ），所以好奇 cloudflare 大 TB 级别也免费吗？",
+          "en": "@shiny This attack was TB level (CloudFront free quota has TB), so I'm curious if Cloudflare is also free for large TB levels?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@annoygaga 前提是不滥用，不会删号，免费，可以参考别人的说法，例如这个帖子里提到 /t/967085 一个月 1PB 都没收费。当然不排除 cf 的商务找上门来让你充值，但是偶尔被 cc 的量肯定不会有这种担心。可以了解下为什么他们的流量费用这么低，是有商业模式的。",
+          "en": "@annoygaga The premise is that you don't abuse it and your account won't be deleted. It's free. You can refer to other people's statements, such as this post mentioning that /t/967085 didn't charge for 1PB a month. Of course, it is possible that CF business will come to you and ask you to recharge, but there is definitely no need to worry about occasional CC attacks. You can understand why their traffic costs are so low; there is a business model."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

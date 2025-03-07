@@ -1,0 +1,211 @@
+{
+  "id": 1109372,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "你在左车道 GPS 速度已经 120 了，后面有车迅速接近你，你让不让？",
+          "en": "You are in the left lane with a GPS speed of 120. A car is rapidly approaching you from behind. Do you yield or not?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这两天讨论高速开车的帖子真是各种思想大碰撞，令我大为震惊。",
+          "en": "The posts discussing highway driving these past few days have been a real clash of ideas, which has greatly shocked me."
+        },
+        {
+          "zh": "\r\n\r\n标题中的问题应该很多人都会碰到，你们会如何处理呢？",
+          "en": "\r\n\r\nThe question in the title is something many people probably encounter. How would you handle it?"
+        },
+        {
+          "zh": "\r\n\r\n如果觉得已经顶着限速开了没问题不让，后面一辆接一辆的车迅速接近，然后大家都是纷纷从你右侧超车。\r\n各别车的驾驶员生气你不让，超车后迅速从右侧往你这边并试图这样吓唬你，你又当如何？",
+          "en": "\r\n\r\nIf you feel you're already driving at the speed limit and don't yield, and then car after car rapidly approaches from behind and everyone overtakes you from the right,\r\nand some drivers get angry that you didn't yield and quickly merge from the right after overtaking to try and scare you, what would you do then?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果我已经压着限速了，其他车道有超车空间的话我不让，如果没有超车空间的话我会提速让道。",
+          "en": "If I'm already driving at the speed limit, I won't yield if there's room to overtake in other lanes. If there's no room to overtake, I'll speed up to let them pass."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哪来的这么多云司机。能快速接近你的车还没等你反应过来已经完成变道准备超车的。",
+          "en": "Where do all these armchair drivers come from? A car that can quickly approach you will have already completed the lane change to prepare for overtaking before you even react."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "评论区让我叹为观止啊，什么时候超车道的行车规则是看你速度了，就是开 150 也不应该占着超车道",
+          "en": "The comments section amazes me. Since when does the rule about the overtaking lane depend on your speed? Even if you're driving at 150, you shouldn't occupy the overtaking lane."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "看了一圈评论难怪路上 SB 这么多。。。。。。。",
+          "en": "After reading a round of comments, no wonder there are so many idiots on the road..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "能让就让，不必赌气，不必争输赢，能避免很大部分交通事故，还有限速 120 ，交规都默许你再超 10%，所以真的不必太较真。",
+          "en": "Yield if you can. No need to be stubborn or argue over winning or losing. It can avoid a large number of traffic accidents. Also, with a speed limit of 120, traffic regulations tacitly allow you to exceed it by 10%, so there's really no need to be so serious."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最离谱的是居然有人觉得 120 就已经非常危险了，车就已经要控制不住了。。。不是，都开的是什么工业垃圾啊",
+          "en": "The most ridiculous thing is that some people actually think that 120 is already very dangerous and that the car is already out of control... Seriously, what kind of industrial garbage are you driving?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@anonydmer > 就是开 150 也不应该占着超车道2025 年国内，什么是超车道？交规里有 “占用超车道” 的说法吗？你臆想的规矩总不能凌驾于官方规定之上吧。",
+          "en": "@anonydmer > Even if you're driving 150, you shouldn't occupy the overtaking lane. In China in 2025, what is an overtaking lane? Does traffic law even contain the phrase 'occupying the overtaking lane'? You can't let your imagined rules override official regulations."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "后方快速来车，你的正确应对是不要做任何动作，保持速度，保持车道，不要加减速，后车能超会超，不能超会减速，你做任何动作都是给他的判断增加难度",
+          "en": "If a car is approaching quickly from behind, your correct response is to do nothing, maintain your speed, stay in your lane, and don't accelerate or decelerate. The car behind will overtake if it can, and if it can't, it will slow down. Any action you take will make it more difficult for them to judge."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如果前方一片空白，你在最左道 120 ，你就是我说的奶奶车。奶奶车请到右道。如果前方有车团，你在最左道 120 ，我不会超你，你也不需要让。",
+          "en": "If the road ahead is clear and you're driving 120 in the far-left lane, you're what I call a 'grandma car.' Grandma cars, please move to the right lane. If there's a group of cars ahead and you're driving 120 in the far-left lane, I won't overtake you, and you don't need to yield."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这种我不会让 让他自己变道过去",
+          "en": "I wouldn't yield in this situation. Let them change lanes themselves."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我操，原来真的很多人都不懂法律法规。现在没有超车道的概念。左右车道都可以超车。绝大部分高速公路最高限速 120 。超速低于 10%一般没事。只要不低于最低限速，想开哪条道都可以。但注意不要并排行驶，长时间并排行驶是真的违法。",
+          "en": "Damn, so many people really don't understand the laws and regulations. There's no concept of an overtaking lane anymore. Both the left and right lanes can be used for overtaking. The speed limit on most highways is 120. Speeding less than 10% over is generally okay. As long as you're not below the minimum speed limit, you can drive in any lane you want. But be careful not to drive side by side. Driving side by side for a long time is actually illegal."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我会让。因为个别车频繁在你面前变道，非常的不安全。行车安全最重要，赌气这些不值得一提。他愿意超速违法，那是他的事。",
+          "en": "I would yield. Because individual cars frequently changing lanes in front of you is very unsafe. Driving safety is the most important thing. Being stubborn isn't worth mentioning. If they're willing to speed and break the law, that's their business."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imshawer 什么交规默认超 10%， 如果限速 120 你开了 121 出了事故，那就存在超速行驶的责任",
+          "en": "@imshawer What traffic law tacitly allows exceeding the speed limit by 10%? If the speed limit is 120 and you drive 121 and have an accident, you are responsible for speeding."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "什么时候开 120 就可以理直气壮在最左道爬行阻碍交通了，你比车流慢当然得让道我高速开 136 巡航如果在左道后面有车冲上来也是毫不犹豫让道",
+          "en": "Since when can you righteously crawl in the leftmost lane at 120 and obstruct traffic? Of course you have to yield if you're slower than the flow of traffic. If I'm cruising at 136 on the highway and a car comes up behind me in the left lane, I'll also yield without hesitation."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这是个伪命题啊先说并排行驶是违法的，有超车空间的情况下，不需要让，变道徒增自己的安全风险，让后车自己变道即可 ，也要注意后车的行驶状态，别真的让后车给追尾了。如果没有超车空间，自己也受阻于车群，也不需要让，没有让的可行性 。如果没有超车空间且自己并排行驶违法了，当然要尽快提速或者减速让出超车空间，也不需要变道 。开车安全第一，紧急情况适当超速，压线甚至走应急车道都行，不要考虑什么违法不违法，比命重要？高速左右车道都可以超车 。早就没有超车道的说法了 。只要不影响其它车辆通行，爱开哪条车道就开哪条，不存在什么长期占用最左车道的说法，那是针对大货车的，因为它们会影响其它车辆通行 。",
+          "en": "This is a false proposition. First of all, driving side by side is illegal. If there's room to overtake, you don't need to yield. Changing lanes only increases your own safety risk. Let the car behind change lanes itself. Also, pay attention to the state of the car behind you. Don't actually let the car behind rear-end you. If there's no room to overtake and you yourself are blocked by a pack of cars, you don't need to yield, and there's no feasibility to yield. If there's no room to overtake and you're illegally driving side by side, then of course you should speed up or slow down as soon as possible to make room for overtaking, and there's no need to change lanes. Driving safety is the most important thing. In an emergency situation, it's okay to speed appropriately, cross lines, or even drive in the emergency lane. Don't consider what's legal or illegal. Is a law more important than your life? Both the left and right highway lanes can be used for overtaking. There's long been no mention of an overtaking lane. As long as you don't affect the passage of other vehicles, drive in whatever lane you want. There's no claim to a long-term occupation of the leftmost lane; this applies to trucks because they affect the movement of other vehicles."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不会在左车道一直保持 120 ，会挡道降低通行效率，规则只是道德的底线就像 op 说其他车从右侧超车并吓唬，也不违法呢😆",
+          "en": "I wouldn't stay at 120 in the left lane all the time. It blocks the road and reduces traffic efficiency. Rules are just a moral baseline, just like the OP said, other cars overtaking from the right and scaring you isn't illegal either 😆."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "主要看我右侧车道的情况。右侧如果没车我就不变道，后车会自己变道。如果右侧车道有车并且速度跟我差不多，会看情况变道避免并排行驶",
+          "en": "It mainly depends on the situation in my right lane. If there's no car to the right, I won't change lanes, and the car behind will change lanes itself. If there's a car in the right lane and it's going about the same speed as me, I'll see how it goes and change lanes to avoid driving side by side."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1.右侧没车就让。2.右侧有车同时没有测速的，提速变道到右侧让行。3.右侧有车，同时又有测速，过完测速再让。",
+          "en": "1. Yield if there's no car to the right. 2. If there's a car to the right and no speed camera, speed up and change lanes to the right to let them pass. 3. If there's a car to the right and a speed camera, let them pass after passing the speed camera."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "1. 速度 120 ，我不让。2. 我感受到了安全危险，我让。",
+          "en": "1. If I'm going 120, I don't yield. 2. If I feel a safety risk, I yield."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我不会长期在左车道，特别是已经 120 的车速，已经很危险了。尽量在中间车道",
+          "en": "I wouldn't stay in the left lane for long, especially at a speed of 120, which is already dangerous. I try to stay in the middle lane."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 1108789,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "中年想去日本，求指点迷津",
+          "en": "Middle-aged and want to go to Japan, seeking guidance"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "技术：\r\n5 年 JAVA & Javascript ，2 年 PHP ，4 年 C#。\r\n现在纯后端做 API ，技术栈 c#, netcore, azure 。\r\n这两天看了下市场上的招聘，c#搞 API 的少，用 azure 的也没几个。\r\n感觉大厂用 Java ，初创小公司 Go 比较多。\r\n\r\n语言:\r\n英语对话和书写都是 Business Level 。\r\n日语考了 N2 。\r\n感觉只能找纯英语的公司。\r\n\r\n薪资：\r\n税后年收换算成日元大概 8M 日元，想找税前最少 10M 的，一是房贷有压力，二是方便申请高才签证。\r\n\r\n这两天脑补了几个方向，选择很多，有点迷茫。\r\n- JAVA ，习惯了 c#之后有点厌恶 JAVA 的语法，好像目前 kotlin 很火，有用这个做 API 的吗，还是大多是移动端\r\n- Go, 个人挺感兴趣的，自己上手应该没问题，但是担心 0 经验没有竞争力\r\n- C# Azure, 继续死磕 azure ，目标日本 MS ，之前投了两次，面试机会都没有。\r\n- C# Unity, 一直有做游戏的梦想，但是工作上没机会实现，而且感觉需要很多 3D 方面的知识。\r\n- 日语，继续学日语，扩大选择面，但是没有环境效率低。\r\n\r\n有没有在日的大佬能指点一下，该往哪个方向努力比较好？",
+          "en": "Technology:\r\n5 years of JAVA & Javascript, 2 years of PHP, 4 years of C#.\r\nNow purely backend API development, tech stack c#, netcore, azure.\r\nI've been looking at job postings these past few days, and there are few C# API jobs, and even fewer using Azure.\r\nIt feels like big companies use Java, and startups use Go more often.\r\n\r\nLanguage:\r\nEnglish conversation and writing are both Business Level.\r\nPassed N2 in Japanese.\r\nI feel like I can only find English-speaking companies.\r\n\r\nSalary:\r\nAfter-tax annual income converted to Japanese Yen is about 8M JPY, I want to find at least 10M JPY before tax, firstly because of mortgage pressure, and secondly to facilitate applying for a Highly Skilled Professional Visa.\r\n\r\nI've been brainstorming a few directions these past few days, there are many choices, and I'm a bit lost.\r\n- JAVA, after getting used to C#, I'm a bit disgusted with JAVA's syntax, it seems like kotlin is very popular now, is it used for API development, or is it mostly mobile?\r\n- Go, I'm quite interested in it personally, I should have no problem getting started, but I'm worried that 0 experience will make me uncompetitive\r\n- C# Azure, continue to focus on Azure, targetting MS Japan, I've applied twice before, but haven't even gotten an interview opportunity.\r\n- C# Unity, I've always dreamed of making games, but I haven't had the opportunity to realize it at work, and I feel like it requires a lot of knowledge in 3D.\r\n- Japanese, continue learning Japanese to widen my options, but it's inefficient without an environment.\r\n\r\nAre there any senior developers in Japan who can give me some guidance on which direction to work towards?"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "你要投在日本的英语公司，需要想清楚：第一、你相比印度人的优势在哪里？人家英语是母语。第二、你相比日本本地人的优势在哪里？人家不用办理工作签证",
+          "en": "If you want to apply for English-speaking companies in Japan, you need to think clearly: First, what are your advantages compared to Indians? Their native language is English. Second, what are your advantages compared to local Japanese? They don't need to apply for work visas."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ne6rd 混个永驻可以，问题在于后者的稳定程度。如果是单独想解决后者的问题在不在日本其实也不重要。但是有一个问题在于如果是想在日本公司工作的话语言一定要过关，因为日本人不 care 你英文",
+          "en": "@ne6rd Getting permanent residency is possible, but the problem lies in the stability of the latter. If you only want to solve the latter problem, whether or not you are in Japan is actually not important. But one problem is that if you want to work for a Japanese company, your language skills must be up to par, because Japanese people don't care about your English."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "真实经历。一个朋友，大数据，03 年来瑞典，待了三个月，没成，回国了，去年三月去日本了，我印象是不会日语，只会英语，一样的成功了。事情只要你想做，就一定能找到办法。",
+          "en": "True experience. A friend, big data, came to Sweden in 2003, stayed for three months, didn't make it, returned to China, went to Japan last March, I remember he didn't know Japanese, only English, and he succeeded the same way. As long as you want to do something, you can definitely find a way."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yuanmomo 感谢鼓励，个人也是这么认为的。但是年纪也经不起折腾和试错了，想在行动前把方向搞清楚。",
+          "en": "@yuanmomo Thanks for the encouragement, I personally think so too. But I'm also too old to afford to mess around and make mistakes, I want to clarify the direction before taking action."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大佬好 考了三次前几天总算把 n1 过了",
+          "en": "Hello, congratulations! After taking the N1 exam three times, I finally passed it a few days ago."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "想找税前最少 10M 的，一是房贷有压力，二是方便申请高才签证。没日语 没啥大机会，英语的公司很少，欧美大厂都在 freeze ，而且你才五年经验，很多普通日企要到管理才有这个薪资，感觉你完全不了解日本的工资情况，程序员薪资比国内要低。先看看这个网站吧： https://opensalary.jp/roles/software-engineer",
+          "en": "Wanting to find at least 10M before tax, firstly because of mortgage pressure, and secondly to facilitate applying for a Highly Skilled Professional Visa. Without Japanese, there is not much opportunity, there are very few English-speaking companies, and large European and American companies are freezing hiring, and you only have five years of experience, many ordinary Japanese companies only offer this salary to management, I feel like you don't understand the salary situation in Japan at all, programmer salaries are lower than in China. Take a look at this website: https://opensalary.jp/roles/software-engineer"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不知道 lz 水平如何，但要求收入 10M ，日本本土能提供这么高工资的企业也没几家，如果水平真的够的话倒无所谓，但日本这种工作机会不太多。降低到 8M ，7M 的话倒是挺多，但是可能对日语要求比较高。不过凡事都可以试试。。。。申请永驻这东西看你高不高兴申请了，我是高才 80 分签证已经 6 年了，到现在都没申请永驻，主要是太麻烦了（嗯，今年我的目标就是对申请永驻这事积极点）。认识的挺多人拿着高才签也没申永驻，主要真的麻烦。而且现在新的无期限高才签可以允许父母过来带娃，我就见过有拿了永驻然后生娃后又换回高才签的",
+          "en": "I don't know what your level is, but asking for a salary of 10M, there are not many companies in Japan that can offer such a high salary, if your level is really good enough then it doesn't matter, but there are not many such job opportunities in Japan. Lowering it to 8M, 7M has quite a few, but may require higher Japanese proficiency. But you can try everything... Applying for permanent residency depends on whether you are happy to apply, I have had a highly skilled 80-point visa for 6 years and have not yet applied for permanent residency, mainly because it is too troublesome (well, this year my goal is to be more proactive about applying for permanent residency). I know quite a few people who have highly skilled visas and haven't applied for permanent residency, mainly because it's really troublesome. And now the new unlimited highly skilled visa can allow parents to come over to take care of children, I have even seen people who got permanent residency and then switched back to a highly skilled visa after having a child."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在日八年，现在拿的高才。不是 it 行业，只能说一下整体情况日企的话，日语达不到可以商务沟通的水平的话几乎可能性都很低。而且只学能力考的话对进行商务沟通几乎没什么帮助，如果确实想去日企还是建议油管上多找一找商务敬语视频啥的看看。不过 N1+英语好的话应该会很加分。高才就三种，研究型，技术型，经营型。op 应该是考虑技术型吧，那加分项目应该集中在学位，专利数量，国家资格。可以考虑考个日本政府承认的国家资格证啥的。收入的话， 现在日元汇率这几年一直在低位，物价也一直在涨，不是太舒服反正",
+          "en": "Eight years in Japan, currently holding a highly skilled professional visa. Not in the IT industry, I can only talk about the overall situation. For Japanese companies, the chances are very low if your Japanese doesn't reach a level where you can communicate in business. And only studying for the proficiency test doesn't help much with business communication, if you really want to go to a Japanese company, I suggest you find some business honorific videos on YouTube. But N1 + good English should be a plus. There are three types of highly skilled professional visas: research, technology, and management. OP should be considering the technology type, then the bonus points should be focused on degrees, number of patents, and national qualifications. You can consider taking a national qualification certificate recognized by the Japanese government. Regarding income, the yen exchange rate has been low in recent years, and prices have been rising, so it's not very comfortable anyway."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "日语不好，技术栈不适合日本，税前想 1000w 日元，还想做骑墙派永驻？我建议不要来日本了。日本职场相当排外国人，日语不好更排斥；至于说 1000w ，别做梦啦~~~日本能赚到 1000w 的人，中国也是前 0.1%的存在。不要抱着“实在混不下去了我就出国，去日本去美国养老”的想法。利益相关：本人在日本。",
+          "en": "Poor Japanese, tech stack unsuitable for Japan, wanting 10 million yen before tax, and still wanting to get permanent residency as a fence-sitter? I suggest you don't come to Japan. The Japanese workplace is quite xenophobic, and even more so if your Japanese is poor; as for 10 million, don't dream about it~~~ People who can earn 10 million in Japan are also in the top 0.1% in China. Don't have the idea of 'if I really can't make it, I'll go abroad, go to Japan or the United States to retire'. Disclosure: I am in Japan."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "在日本 10 来年了，见过的日企技术岗位 1000 万+的说实话极少数（<10%），大部分人能到个 700w 就算不错了，工作时间长点的到个 800-900w 。要么就是做管理岗位空间大不少。主要是 IT 和国内的地位不太一样，不算是高薪行业，还是金融房地产大商社比较赚。体感税前收入：400w-600w 新卒开发 600w-900w 普通开发 900w-1200w Manager 1000w-2000w 开发部长和国内差不多，薪资范围 A ~ B 你默认是 A 就行了",
+          "en": "I've been in Japan for 10 years, and to be honest, I've seen very few (less than 10%) Japanese technical positions that are 10 million+, most people are doing well if they can reach 7 million, and those who have been working for a long time can reach 8-9 million. Either that or the management positions have much more room for growth. Mainly IT and the domestic status are not the same, it is not considered a high-paying industry, finance, real estate, and large trading companies make more. Perceived pre-tax Income: 400w-600w New graduate developer 600w-900w Ordinary developer 900w-1200w Manager 1000w-2000w Development manager is similar to domestic, salary range A ~ B, you default to A."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "不说别的，你至少先把 n1 考下来在思考这么些七七八八的",
+          "en": "Putting everything else aside, at least pass the N1 first before thinking about all these other things."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "劝退有这闲工夫国内也混的不错了",
+          "en": "Discouraging. If you have this free time, you can do well in China too."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "去日本搞 IT 是想做什么啊，不太能理解，日元贬值越来越厉害，是真的觉得日本涨薪幅度能有那么高吗",
+          "en": "What do you want to do in Japan's IT industry? I can't really understand, the yen is depreciating more and more, do you really think the salary increase in Japan can be that high?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kk2syc N1 去年 12 月考了，卡在阅读上。今年继续努力。日语我觉得肯定是要学的，但是即使过了 N1 ，纯塑料日语对找日语环境的工作有多大帮助呢？个人还是偏向找英语环境的公司。",
+          "en": "@kk2syc I took the N1 in December last year and got stuck on the reading comprehension. I will continue to work hard this year. I think I definitely need to learn Japanese, but even if I pass the N1, how much help will purely textbook Japanese be for finding a job in a Japanese-speaking environment? I personally prefer to find a company with an English-speaking environment."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kangyue9999 就想趁年轻混个日本永驻？然后再找 fully remote 的 global 的工作",
+          "en": "@kangyue9999 Just want to get Japanese permanent residency while you are young? And then find a fully remote global job?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ne6rd 薪资的话肯定还是日本公司比非日本（外企）公司要高吧",
+          "en": "@ne6rd Salary-wise, Japanese companies are definitely higher than non-Japanese (foreign-capital) companies, right?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ne6rd 没 N1 就没有入场券，这东西是你达成目的的必要基础",
+          "en": "@ne6rd Without N1, you don't have a ticket to the game, this is a necessary foundation for you to achieve your goals."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@ztstillwater 英语尬聊可能没印度人强，但是工作方面完全应该够用了？比日本人的话，7 年的英语职场工作经验？",
+          "en": "@ztstillwater My English small talk might not be as good as Indian people, but it should be enough for work? Compared to Japanese people, 7 years of English workplace experience?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": ">  8M 日元，想找税前最少 10M 的这个标准不算低啊，哈哈哈，在日本也是人中龙凤了。",
+          "en": "> 8M yen, wanting to find at least 10M before tax, this standard is not low, hahaha, that's a top performer in Japan."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "还是 税后!!!",
+          "en": "It's after tax!!!"
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

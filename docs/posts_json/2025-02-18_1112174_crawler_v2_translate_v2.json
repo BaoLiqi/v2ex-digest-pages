@@ -1,0 +1,227 @@
+{
+  "id": 1112174,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "[送兑换码] 一个 macOS 平台的一键翻译软件，无联网权限，大小不到 1M",
+          "en": "[Sending Redemption Codes] A one-click translation software for macOS, no internet access required, and less than 1MB in size."
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最近写了个小软件，用来实现：划线选中句子后，使用自定义的一个快捷键来触发翻译。",
+          "en": "Recently, I wrote a small piece of software to achieve this: after selecting a sentence with a line, use a custom shortcut key to trigger the translation."
+        },
+        {
+          "zh": "\r\n\r\n特点：上架了 Mac App Store ；无联网权限保护隐私。",
+          "en": "\r\n\r\nFeatures: Listed on the Mac App Store; no internet access required to protect privacy."
+        },
+        {
+          "zh": "\r\n原理：通过调用快捷指令借用 macOS 自带的翻译来实现。",
+          "en": "\r\nPrinciple: Implemented by calling shortcut commands to borrow macOS's built-in translation function."
+        },
+        {
+          "zh": "\r\n\r\n上架审核花了好多时间，踩了不少坑。",
+          "en": "\r\n\r\nIt took a lot of time to get it approved and listed, and I encountered many pitfalls."
+        },
+        {
+          "zh": "\r\nMac App Store:  https://apps.apple.com/cn/app/id6738653169",
+          "en": "\r\nMac App Store:  https://apps.apple.com/cn/app/id6738653169"
+        },
+        {
+          "zh": "\r\n\r\n老规矩，上兑换码, 分批上，第一批 50 个：(尽量按序 使用了的还麻烦留言一下 方便后来者 谢谢)",
+          "en": "\r\n\r\nAs usual, here are the redemption codes, released in batches, the first batch of 50: (Please leave a message if you have used them in order to help others, thank you)"
+        },
+        {
+          "zh": "\r\nHJAL7ELREJKR\r\nEELWAYNYKHTM\r\n97MRAATLT349\r\nXLFYATFJAHL6\r\n7EJK6J9E6KY3\r\nN7YHTJ3K7A3R\r\n769YRW3X7Y3M\r\nPKA6F49M9943\r\n6AM6H7WEKATJ\r\n6K3EXLLA3M9K\r\nWFE66LJYKRRK\r\nFPE3L4WNLW6T\r\nT4R6X3WTMFJY\r\n4XKLXXRFXPF6\r\nMRK43MMPN96P\r\n9YJXLWPPFK3P\r\nPXKHA7LMRWMH\r\n3KFEL3YM47JH\r\nX4LFKH9M9APA\r\nLHFYEPA79YTP\r\nT6NKXXM4MJAE\r\n6RRFWPX9XXKL\r\nAJLHXLPRRL3P\r\n4NL473AWXXWX\r\nAF36FPKYHMJY\r\nFHYYRJNTL4TF\r\nXMHTETHXHTEM\r\nJNXLKY6AFE3N\r\nJ9RP3T3FHWLT\r\n6WRH6AF3LL7T\r\n3R7Y3KEAWAP6\r\nLX3NJ74KRX6A\r\nAMFNRH6NMF76\r\n4EHKAX3NFW73\r\nTJ4LEM7JJT4M\r\n9JHMJ9HFTP9N\r\nKFKRF7P6L34N\r\nN39WX76736AA\r\nTP7L4JWX4FPM\r\nJWX7FPWX9EX7\r\nNFW4W634X7AT\r\nRXYP47TRWNFK\r\nW377TYMYKYNA\r\nFR47HLJ76A4R\r\nATKN7JYLKTKP\r\nR7PK37EP6P79\r\nNAYYHKRLJ4ML\r\nYF3L3ANXH33Y\r\nWXHEF73W46FT\r\n94MNRPKWLJ3L",
+          "en": "\r\nHJAL7ELREJKR\r\nEELWAYNYKHTM\r\n97MRAATLT349\r\nXLFYATFJAHL6\r\n7EJK6J9E6KY3\r\nN7YHTJ3K7A3R\r\n769YRW3X7Y3M\r\nPKA6F49M9943\r\n6AM6H7WEKATJ\r\n6K3EXLLA3M9K\r\nWFE66LJYKRRK\r\nFPE3L4WNLW6T\r\nT4R6X3WTMFJY\r\n4XKLXXRFXPF6\r\nMRK43MMPN96P\r\n9YJXLWPPFK3P\r\nPXKHA7LMRWMH\r\n3KFEL3YM47JH\r\nX4LFKH9M9APA\r\nLHFYEPA79YTP\r\nT6NKXXM4MJAE\r\n6RRFWPX9XXKL\r\nAJLHXLPRRL3P\r\n4NL473AWXXWX\r\nAF36FPKYHMJY\r\nFHYYRJNTL4TF\r\nXMHTETHXHTEM\r\nJNXLKY6AFE3N\r\nJ9RP3T3FHWLT\r\n6WRH6AF3LL7T\r\n3R7Y3KEAWAP6\r\nLX3NJ74KRX6A\r\nAMFNRH6NMF76\r\n4EHKAX3NFW73\r\nTJ4LEM7JJT4M\r\n9JHMJ9HFTP9N\r\nKFKRF7P6L34N\r\nN39WX76736AA\r\nTP7L4JWX4FPM\r\nJWX7FPWX9EX7\r\nNFW4W634X7AT\r\nRXYP47TRWNFK\r\nW377TYMYKYNA\r\nFR47HLJ76A4R\r\nATKN7JYLKTKP\r\nR7PK37EP6P79\r\nNAYYHKRLJ4ML\r\nYF3L3ANXH33Y\r\nWXHEF73W46FT\r\n94MNRPKWLJ3L"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@lihaokey 打开 Mac App Store -> 左下角点击昵称（登录后）-> 右上角点击兑换充值卡 -> 输入代码",
+          "en": "@lihaokey Open Mac App Store -> Click nickname in the lower left corner (after logging in) -> Click Redeem Gift Card in the upper right corner -> Enter code"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "给楼主提个建议，深色模式的 ui 适配问题",
+          "en": "A suggestion for the owner: the UI adaptation issue in dark mode."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉有个 bug 。在外接显示器上任何应用软件上都不会弹出翻译结果框（笔记本主屏上正常） mbp m1 pro:15.0.1 (24A348)",
+          "en": "I feel there is a bug. The translation result box does not pop up on any application software on the external monitor (the notebook's main screen is normal) mbp m1 pro:15.0.1 (24A348)"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "感觉对于看论文很方便，虽然来晚了但想买入🤔",
+          "en": "Feels very convenient for reading papers, although I'm late, I still want to buy it 🤔"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已买入，支持楼主",
+          "en": "Already bought it, supporting the owner."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "好用, 提个小建议, 能不能支持自动双向翻译, 比如 1. 选中中文句子, 自动翻译为英文. 选中英文句子, 自动翻译为中文.",
+          "en": "Easy to use, a small suggestion, can you support automatic bidirectional translation, such as 1. Select a Chinese sentence and automatically translate it into English. Select an English sentence and automatically translate it into Chinese."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "总是来晚，于是我买了一个，🐶，祝楼主大卖！！早日变自由职业者。",
+          "en": "Always late, so I bought one, 🐶, I wish the owner great sales!! Become a freelancer soon."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "已经买了 bob 了，祝楼主大卖",
+          "en": "Already bought bob, I wish the owner great sales."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://imgur.com/a/PuheGCE 这个大小，巨无霸呀",
+          "en": "https://imgur.com/a/PuheGCE This size, it's a behemoth."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@imNull 已更新测试，用起来很舒适，可以方便处理 pdf 翻译。已在 App Store 留好评",
+          "en": "@imNull Updated test, it is very comfortable to use, and it can easily handle PDF translation. I have left a good review on the App Store."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "XLFYATFJAHL6 已用，感谢",
+          "en": "XLFYATFJAHL6 Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "EELWAYNYKHTM 已用，感谢",
+          "en": "EELWAYNYKHTM Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "NAYYHKRLJ4ML 已用，感谢",
+          "en": "NAYYHKRLJ4ML Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "97MRAATLT349 已用  谢谢",
+          "en": "97MRAATLT349 Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "一下载就提示要付费啊，我是土区的 ID ，你们是怎么做到用码不付费的？",
+          "en": "It prompts me to pay as soon as I download it. I am from the Turkey region ID. How do you guys manage to use the code without paying?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "这，一来就是 14+系统😂",
+          "en": "This, it needs 14+ system😂"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "94MNRPKWLJ3L 已用 谢谢",
+          "en": "94MNRPKWLJ3L Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "7EJK6J9E6KY3 已用，感谢",
+          "en": "7EJK6J9E6KY3 Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "JWX7FPWX9EX7 已用，感谢",
+          "en": "JWX7FPWX9EX7 Used, thank you."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "FR47HLJ76A4R 已用，谢谢",
+          "en": "FR47HLJ76A4R Used, thank you."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

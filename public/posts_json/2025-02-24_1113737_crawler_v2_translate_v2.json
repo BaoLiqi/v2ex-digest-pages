@@ -1,0 +1,263 @@
+{
+  "id": 1113737,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "失业近一年的回顾（看我如何自救）",
+          "en": "A review of nearly a year of unemployment (see how I saved myself)"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "快一年了，失业至今。",
+          "en": "It's been almost a year since I became unemployed."
+        },
+        {
+          "zh": "\r\n\r\n上一份工作在 2024 年 3 月 15 日正式结束，从那天起，就一直处于“自由开发者”状态。",
+          "en": "\r\n\r\nMy last job officially ended on March 15, 2024, and since then, I have been in a \"free developer\" state."
+        },
+        {
+          "zh": "\r\n\r\n期间尝试过找工作，但能投的岗位不多，只面试了一家，最终无果。",
+          "en": "\r\n\r\nI tried to find a job during that time, but there weren't many positions I could apply for. I only interviewed at one company, but it didn't work out."
+        },
+        {
+          "zh": "于是，从 7 月开始高强度投入独立开发——只要图书馆开门（周一闭馆），几乎泡一整天，晚上回房间后，有时还会继续干到半夜。",
+          "en": "So, starting in July, I devoted myself to independent development with high intensity. As long as the library was open (closed on Mondays), I would spend almost the whole day there, and sometimes continue working until midnight after returning to my room."
+        },
+        {
+          "zh": "\r\n\r\n我的主攻方向是 币圈，主要做 撸空投 和 套利（本来 6 月在等 zkSync 结果，最终不理想，所以 7 月正式开始独立开发）。",
+          "en": "\r\n\r\nMy main focus is the crypto space, mainly doing airdrop farming and arbitrage (I was waiting for the zkSync results in June, but it was not ideal, so I officially started independent development in July)."
+        },
+        {
+          "zh": "\r\n\r\n💰 收入转正的时间线：\r\n✅ 2024 年 10 月：打新脚本（ Sui 链 meme 打新）开始有收入。\r\n✅ 2024 年 12 月：套利（ Solana 链 各 dex 间套利）开始有收入。\r\n✅ 2024 年 12 月：X 上有人主动私信联系，每周资助我继续开发套利程序（代码也分享给他一起用）。\r\n✅ 2025 年 2 月：接到一份兼职，写一些简单的币圈 bot 。",
+          "en": "\r\n\r\n💰 Timeline of turning income positive:\r\n✅ October 2024: Initial public offering script (Sui chain meme IPO) began to generate income.\r\n✅ December 2024: Arbitrage (Solana chain arbitrage between various DEXs) began to generate income.\r\n✅ December 2024: Someone on X proactively contacted me via private message, sponsoring me weekly to continue developing arbitrage programs (and sharing the code for him to use).\r\n✅ February 2025: Received a part-time job writing some simple crypto bots."
+        },
+        {
+          "zh": "\r\n\r\n其中，打新和套利的收入 不稳定，但资助 + 兼职的“死工资”每月大概 2 万多。",
+          "en": "\r\n\r\nAmong them, the income from IPO and arbitrage is unstable, but the \"fixed salary\" from sponsorship + part-time work is about 20,000+ per month."
+        },
+        {
+          "zh": "\r\n\r\n💡 过去几个月尝试过的项目，主打一个“快速开发，快速上线，快速试错，快速下一个”：\r\n\r\n- 自动 mint Bitcoin Runes 的脚本\r\n- 图片处理网站\r\n- 剪辑几支视频\r\n- 批量质押 Cosmos 的脚本\r\n- Twitter 机器人\r\n- 刷 Sui 交易量 / 交易用户数的机器人\r\n- 还有几个“没啥软用”的网站 😂\r\n- 等...",
+          "en": "\r\n\r\n💡 Projects tried in the past few months, focusing on \"fast development, fast launch, fast trial and error, fast next\":\r\n\r\n- Script to automatically mint Bitcoin Runes\r\n- Image processing website\r\n- Edited a few videos\r\n- Script to batch stake Cosmos\r\n- Twitter bot\r\n- Bot to increase Sui transaction volume / number of transaction users\r\n- And a few \"useless\" websites 😂\r\n- Etc..."
+        },
+        {
+          "zh": "\r\n\r\n📌 现状：\r\n安心在家，全职“自由开发” （虽然收入还是不够稳定）。",
+          "en": "\r\n\r\n📌 Current situation:\r\nComfortably at home, full-time \"free development\" (although the income is still not stable enough)."
+        },
+        {
+          "zh": "\r\n\r\n🚀 未来：\r\n继续努力，争取早日退休。",
+          "en": "\r\n\r\n🚀 Future:\r\nContinue to work hard and strive to retire early."
+        },
+        {
+          "zh": "\r\n\r\n短期期望：找个 套利 / Rust “现实中的”开发搭子，分摊一点工作量！",
+          "en": "\r\n\r\nShort-term expectations: Find an arbitrage / Rust \"real-world\" development partner to share some of the workload!"
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "24 年八月底裸辞的，期间玩了几个月，迷茫了一段时间。",
+          "en": "I quit my job at the end of August 2024, played around for a few months, and was confused for a while."
+        },
+        {
+          "zh": "11 月份开始尝试自由职业，独立开发，个人 IP 等。",
+          "en": "I started trying freelancing, independent development, personal IP, etc. in November."
+        },
+        {
+          "zh": "还在努力变现的路上，不知道这条路能坚持多久，给自己设定的期限是 2 年，加油！",
+          "en": "I am still working hard to monetize, and I don't know how long I can stick with this path. I have set myself a deadline of 2 years. Keep it up!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@glacer 去找类“pump.fun”的 meme 发射平台然后去接收发射🚀成功的消息，自动买入之后就是按你自己的逻辑卖出我统计过 12 月，1 月的数据，这种赚钱概率在 80%以上",
+          "en": "@glacer Find a meme launch platform similar to \"pump.fun\", then receive the news of a successful launch 🚀, automatically buy in, and then sell according to your own logic. I have statistics on December and January data, and the probability of making money is over 80%."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我看楼主说相亲，我如果是女生，我是不可能考虑的……现在女生对稳定性要求很高",
+          "en": "I saw the poster say they are going on blind dates. If I were a girl, I would never consider it... Nowadays, girls have high requirements for stability."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很牛啊，我也是上年 10 月左右开始做撸毛，被带歪了，做了一堆 TG 游戏根本不赚钱",
+          "en": "Amazing, I also started farming airdrops around October last year, but I went astray and made a bunch of TG games that don't make any money at all."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "老哥牛逼啊",
+          "en": "Awesome, bro!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "国内图书馆，屏幕上搞这些不会很敏感吗？",
+          "en": "Aren't you worried about being sensitive doing these things on the screen in a domestic library?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@zhangkai1024 暂时在杭州，老家是金华的，现在不知道该去哪儿",
+          "en": "@zhangkai1024 I'm currently in Hangzhou, my hometown is Jinhua, and I don't know where to go now."
+        },
+        {
+          "zh": "年纪大了，还没谈对象（相亲中）看相亲结果吧，再考虑去哪儿",
+          "en": "I'm getting old and haven't found a partner yet (going on blind dates). I'll see how the blind dates go and then consider where to go."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "大佬 , 很好奇咋做到 2w.... 前后端都会做 求带",
+          "en": "Big shot, I'm very curious how you made 20k... I can do both front-end and back-end, please take me with you!"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同程序员，我做加密交易一般一个月 1w 多",
+          "en": "Same programmer, I usually make 10k+ a month doing crypto trading."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@madantech 可以。同时期 800 个号上到 stark 就麻了。。",
+          "en": "@madantech Sure. At the same time, having 800 accounts on Starknet was a pain..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "貼個防窺膜熱心群眾可太多了",
+          "en": "There would be too many enthusiastic people if you put on a privacy screen protector."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "太厉害了，同失业一年，完全躺平。。。。",
+          "en": "Amazing, same here, unemployed for a year and completely lying flat..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "现在在做 nodepay 空投，已经 100 多个号了。",
+          "en": "I'm currently doing the nodepay airdrop, and I already have 100+ accounts."
+        },
+        {
+          "zh": "大佬觉得还有必要加大力度吗。币圈萌新入门，之前没有弄过。也是脚本刷的",
+          "en": "Do you think it is necessary to increase the effort? Beginner in the crypto space, never done this before. Also using scripts."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@caicaiwoshishui @Akagi201 推荐 solanamevbot 的 discord 群，里面其实好多人都是自己开发的，并没有用这个软件，不少人单纯把它当作交流群了",
+          "en": "@caicaiwoshishui @Akagi201 I recommend the solanamevbot discord group. A lot of people in there developed their own bots and aren't using this software. Many people just use it as a discussion group."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "打新和套利的收入 不稳定，意思是 1w-20w 这样波动？",
+          "en": "Unstable income from IPOs and arbitrage, does that mean fluctuations like 10k-200k?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "同杭州，有空可以线下聚一聚，学习一下也可以给你些建议。",
+          "en": "Also in Hangzhou, if you have time, we can meet offline, learn from you, and give you some suggestions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "也是 24 年 1 月离职后没找过工作，专门做区块链工具配合炒币挣点钱，没有楼主勤奋，搞到点钱就休息。",
+          "en": "Also left my job in January 2024 and haven't looked for a job since. I specialize in making blockchain tools to trade coins and earn some money. Not as diligent as the poster, I rest after making some money."
+        },
+        {
+          "zh": "目前做的有 1.价格监控以及一些链上事件的微信提醒，",
+          "en": "Currently doing: 1. Price monitoring and WeChat reminders for some on-chain events,"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "失业两年了 现在都不知道怎么办",
+          "en": "Unemployed for two years and I don't know what to do now."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "币圈看不懂，一样大龄失业，现在做股票开户，➕v: netqqnet 支持一哈",
+          "en": "I don't understand the crypto space, same situation, unemployed at an older age, now doing stock account openings, ➕v: netqqnet support me a bit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "sol 上套利太卷了，自从 jito 限速之后已经很难玩了",
+          "en": "Arbitrage on SOL is too competitive; it has been difficult to play since jito limited the speed."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": 1113990,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "请问 macOS 下的 Office 有何解决方案",
+          "en": "What are the solutions for Office on macOS?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "最近发现还是隔三岔五的要处理 Office 文件,不得不寻求一个 Office 的解决方案。",
+          "en": "I recently discovered that I still need to deal with Office files every now and then, so I have to seek an Office solution."
+        },
+        {
+          "zh": "硬件是 m2 的 mba.\r\n如果不用 WPS 的话,是不是还是上 Office365 的车最好?",
+          "en": "The hardware is an M2 MBA. If I don't use WPS, is it still best to get on the Office 365 train?"
+        },
+        {
+          "zh": "有没有什么稳定的激活方法呢?",
+          "en": "Are there any stable activation methods?"
+        },
+        {
+          "zh": "其实我对微软的在线分为没什么依赖",
+          "en": "Actually, I don't have much reliance on Microsoft's online features."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Tumblr #14 性质上相同，但使用体验不同，与正版几乎相同的使用体验，操作简单，全程不需要使用来路不明的第三方工具，并且一劳永逸，不知道怎么得出的这样是为了寻找心理救赎的结论。",
+          "en": "@Tumblr #14 They are similar in nature, but the user experience is different. The user experience is almost the same as the genuine version, the operation is simple, there is no need to use third-party tools of unknown origin throughout the process, and it is a one-time solution. I don't know how you came to the conclusion that this is to seek psychological redemption."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "https://massgrave.dev/office_for_mac",
+          "en": "https://massgrave.dev/office_for_mac"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "WPS 或者 office 都行，但是有时候 mac 的文件在 win 上打开会乱码，发送重要文件时发 pdf 就行",
+          "en": "WPS or Office are both fine, but sometimes Mac files will have garbled characters when opened on Windows. Just send important files as PDFs."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "既然你没有完全否定 WPS ，那就直接试试 WPS 呗，我感觉 Mac 上 WPS 用着还可以",
+          "en": "Since you haven't completely denied WPS, just try WPS directly. I feel that WPS works fine on Mac."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我安装的是这个，免费的。",
+          "en": "I installed this one, it's free."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "wps ，然后把所有 in&out 链接都屏蔽掉",
+          "en": "WPS, then block all in&out links."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我用 only office 或者 libre office",
+          "en": "I use OnlyOffice or LibreOffice."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "官网下载 mac 安装包，然后淘宝 10 块钱买个 key 激活  安全可靠 那些 key 好像都是 msdn 高级订阅送的",
+          "en": "Download the Mac installation package from the official website, and then buy a key for 10 RMB on Taobao to activate it. It's safe and reliable. Those keys seem to be from MSDN premium subscriptions."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "Office 有分离线或在线；离线就不说了，免费或收费都有。",
+          "en": "Office can be offline or online; I won't talk about offline, there are free or paid versions."
+        },
+        {
+          "zh": "在线的如果不要求太高，或许也不错。",
+          "en": "Online versions might be good if you don't have too high requirements."
+        },
+        {
+          "zh": "比如飞书等这些在线文档。",
+          "en": "For example, Feishu and other online documents."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "认真的，wps 是恶心，但是，在 mac 上确实比 office 好用。。",
+          "en": "Seriously, WPS is disgusting, but it is indeed easier to use than Office on Mac."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "LibreOffice 或者装个虚拟机装 Win+MS Office",
+          "en": "LibreOffice or install a virtual machine with Win+MS Office."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "买订阅就好了  就当一年内请哥们吃了个饭",
+          "en": "Just buy a subscription, consider it paying for a meal for a friend within a year."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "淘宝买个 2021 专业版激活码，绑定账户的，几十块",
+          "en": "Buy a 2021 Professional Edition activation code on Taobao, bound to the account, for a few tens of RMB."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@kelvansun 请问如何下载和激活的？",
+          "en": "@kelvansun How to download and activate it?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "wps 保平安",
+          "en": "WPS for safety."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@v2tex #10 这种激活，和你自己网上找免费 KMS 激活，性质上没有不同，都是盗版。",
+          "en": "@v2tex #10 This kind of activation is no different in nature from finding a free KMS activation online. They are both pirated."
+        },
+        {
+          "zh": "🤣激活这种事情，要么正规购买，要么完全白嫖，这种自己找心理救赎又让恶人得利的行为不建议采用。",
+          "en": "🤣 When it comes to activation, either buy it legally or get it completely for free. I don't recommend this kind of behavior of seeking psychological redemption while letting bad people profit."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@JingW 网上有详细介绍的。",
+          "en": "@JingW There are detailed introductions online."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "京东买 Microsoft365 家庭许可吧，OneDrive 是真香",
+          "en": "Buy a Microsoft 365 Family license on Jingdong, OneDrive is really good."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "我觉得 WPS 在 macOS 的体验真的比 Microsoft Office 好。",
+          "en": "I think the experience of WPS on macOS is really better than Microsoft Office."
+        },
+        {
+          "zh": "至于 WPS 作恶的那些地方，说实话你都在考虑盗版了。。。",
+          "en": "As for the bad things WPS does, to be honest, you are already considering piracy..."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "公司订阅了 Office365 ，所以一直用。",
+          "en": "The company subscribed to Office 365, so I always use it."
+        },
+        {
+          "zh": "WPS 总觉得比 Office 差点，格式兼容方面一直有一些小问题，不过能用。",
+          "en": "I always feel that WPS is a little worse than Office, and there are always some minor problems in terms of format compatibility, but it is usable."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 1111713,
+  "blocks": [
+    {
+      "chunks": [
+        {
+          "zh": "导师评价网为何难以建立，是有什么不好规避的法规问题吗？",
+          "en": "Why is it difficult to establish a professor evaluation website? Are there any regulatory issues that are difficult to avoid?"
+        }
+      ],
+      "type": "title"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "哦 看看我的大华国 想起几周前看老沈战情室里面讲华国的教授总是把学生当马仔用，总是让学生难以毕业\r\n有感而发\r\n前人做过导师评价网，如今只有 GitHub 存档\r\n是什么让这些网站都河蟹了，在草泥马戈壁\r\n是主机不抗投诉吗？\r\n是名字没有打马子吗？\r\n有什么有效应对隐私？投诉？问题 的 办法\r\n有什么抗投诉主机？\r\n有什么办法规避投诉？\r\n我总不能 css 防爬的方式来规避\r\n说这名字复制下来是星星和月亮，而不是\r\n你的名字\r\n爱死了神奇的世界，希望引发技术性对抗法武器非正义使用的情况",
+          "en": "Oh, look at my great China. It reminds me of what Lao Shen said in his war room a few weeks ago about how Chinese professors always treat students like lackeys, always making it difficult for them to graduate.\r\nJust a thought.\r\nPredecessors have created professor evaluation websites, but now there are only GitHub archives.\r\nWhat made these websites all censored?\r\nIs it because the host is not resistant to complaints?\r\nIs it because the name was not censored?\r\nWhat are effective ways to deal with privacy and complaints?\r\nWhat are some complaint-resistant hosts?\r\nWhat are some ways to avoid complaints?\r\nI can't just use CSS anti-crawling to avoid it.\r\nSaying the name copied down is stars and moon, not\r\nYour Name.\r\nI love this magical world and hope it triggers the unjust use of technological counter-law weapons."
+        }
+      ],
+      "type": "content"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "如何区分评价的真实性一直是个难题",
+          "en": "How to distinguish the authenticity of evaluations has always been a difficult problem."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "脉脉这种匿名职场吐槽区，都要靠招聘业务才能维持公司运转。而且吐槽和点评，很难区分是不是写小作文。前两年我司脉脉同事圈，有个人匿名阴阳某层楼某位领导。然后领导反手报警+律师函，吓得小作文作者立马删除。领导又追发了一篇帖子，公布了来龙去脉，起因就是绩效纠纷，还点评小作文作者又菜又摸鱼，给这个绩效已经是给了低保了。我们私底下熟悉情况的，也觉得领导做的没啥问题，因为那位就真的菜成狗。点评类的应用很难做的，很难识别是不是恶意的",
+          "en": "Maimai, an anonymous workplace complaining area, relies on recruitment business to maintain the company's operation. Moreover, it is difficult to distinguish whether complaints and comments are just writing small essays. A couple of years ago, in our company's Maimai colleague circle, someone anonymously attacked a leader on a certain floor. Then the leader reported it to the police and sent a lawyer's letter, scaring the small essay writer to delete it immediately. The leader then posted a post, revealing the whole story, which was caused by performance disputes, and also commented that the small essay writer was both incompetent and lazy, and giving this performance was already giving subsistence allowance. We, who are familiar with the situation privately, also feel that the leader did nothing wrong, because that person was really incompetent. Review-based applications are difficult to make, and it is difficult to identify whether they are malicious."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "点评导师？副部级导师起码有几十上百个，司厅级估计不下千人。很多导师有兼任官职，我们学校有个导师当年还兼任副国级干部。你再猜猜看这些导师有多少身居高位的弟子。维护这么一个点评服务，还要不要命了？",
+          "en": "Reviewing professors? There are at least hundreds of deputy ministerial-level professors, and it is estimated that there are no less than a thousand bureau-level professors. Many professors also hold concurrent official positions. One of the professors in our school also served as a deputy state-level cadre in the past. Guess how many high-ranking disciples these professors have. Maintaining such a review service, wouldn't that be a death wish?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@june4 纯粹从真假角度来看，抖音小红书里的科普很多也都是假的，但并不影响它比正经科普网站活得更久更深入人心。具体到细分领域的点评网站，第一步也是流量，然后才是量变到质变。科学严谨是态度，但并不能保证带不来好的结果（尤其是起步阶段），起码社交网络上做不到。之前国内倒掉的大部分点评网站核心原因也不是真假难辩（这只是压死骆驼的众多稻草之一）。只要能赚钱赚足够多的钱，类似真假/纠纷/敏感度之类的问题都可以通过技术手段结合专业人士加入的形式进行进一步的筛选。当然，要说甄别真假的完美方法，没人做得到，哪怕你资金足够。随着技术的不断发展，这块的造假和反造假肯定是同时发展博弈前行的。",
+          "en": "@june4 From a purely true or false perspective, many of the popular science videos on Douyin and Xiaohongshu are also fake, but it does not affect them living longer and being more popular than formal popular science websites. Specifically for review websites in subdivided fields, the first step is traffic, and then it is quantitative change to qualitative change. Scientific rigor is an attitude, but it does not guarantee good results (especially in the initial stage), at least social networks cannot do it. The core reason for most of the review websites that collapsed in China before was not that it was difficult to distinguish between true and false (this is just one of the many straws that broke the camel's back). As long as you can make enough money, problems such as true or false/disputes/sensitivity can be further screened through technical means combined with the form of professional personnel joining. Of course, no one can do a perfect way to identify the truth, even if you have enough funds. With the continuous development of technology, the counterfeiting and anti-counterfeiting in this area will definitely develop and game forward at the same time."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@Leon1234567 业务不一样，人家主要是娱乐向的，适合造假的内容和动机很少，也很少目标对人，而且人家实名制的真要整人有后果。 而你这个网站内容 100%是人整人的内容，那场面不能想象，可能类似以前的大字报，真假都不重要了。",
+          "en": "@Leon1234567 The business is different. Their business is mainly entertainment-oriented, and there are few contents and motivations suitable for counterfeiting, and few targets against people. Besides, their real-name system has consequences if they really make trouble. And the content of this website is 100% people making trouble for people. The scene is unimaginable. It may be similar to the big-character posters in the past. The truth and falsehood are not important anymore."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "制度问题试图通过技术方式来解决不过是螳臂挡车。",
+          "en": "Trying to solve systemic problems through technical means is like a mantis trying to stop a chariot."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "因为导师团结，学生仔不团结，一点好处就反叛了，就成了吃力不讨好的事情",
+          "en": "Because the professors are united, but the students are not. They rebel for a little benefit, which becomes a thankless task."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "实名 -> 学生不愿意用不实名 -> 你有法律风险",
+          "en": "Real name -> Students are unwilling to use it. Unnamed -> You have legal risks."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "断人财路 如杀人父母别人导师指望着收一些牛马来帮忙打工搞钱 你这断了人财路别人这些导师有地位有财力有背景 不搞你搞谁就像你怎么不想着有人做一个中国官员评价网 让所有人真实的去打分呢可能吗",
+          "en": "Cutting off someone's financial path is like killing their parents. Other professors are counting on collecting some laborers to help them work and make money. You cut off their financial path, and these professors have status, financial resources, and background. If they don't mess with you, who else would they mess with? Just like why don't you think about someone making a Chinese official evaluation website and letting everyone score it truthfully? Is that possible?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "很简单，因为评价体系本身就不是维护弱者的，这些学生被迫当牛马，没准真的就可以卷出来一些对国家有帮助的东西。正所谓\"天之道，损有余而补不足；人之道，损不足以奉有余\"。",
+          "en": "It's very simple, because the evaluation system itself is not to protect the weak. These students are forced to be laborers, and maybe they can really contribute something helpful to the country. As the saying goes, \"The way of Heaven is to reduce excess and supplement deficiency; the way of man is to reduce deficiency and offer abundance.\""
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "导师不是饭店，学生和导师时强关系，一个导师就那几个学生，无法实现匿名评价。你先别考虑倒是评价平台能不能存在，先搞清楚学生实名点评导师到底有没有可行性。",
+          "en": "Professors are not restaurants. Students and professors have strong relationships. One professor has only a few students, so anonymous evaluation is impossible. Don't consider whether the evaluation platform can exist. First, figure out whether it is feasible for students to evaluate professors with their real names."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@asnldm #28 http://ratemyprofessors.com/",
+          "en": "@asnldm #28 http://ratemyprofessors.com/"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HUZHUANGZHUANG 国际友人？",
+          "en": "@HUZHUANGZHUANG International friend?"
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yexian #36 emmm 这是个评教网站吧？和导师（ advisor ）无关",
+          "en": "@yexian #36 emmm Isn't this a teaching evaluation website? It has nothing to do with the advisor."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "因为这个事情本质上就有一点逻辑不自洽。你辛苦考研我可以说你付出了一年的时间成本以及机会成本，但也就到此为止。读研之后你感觉不对还是可以退出来。沉没成本的本意是你已经付出的成本就没有必要纳入考虑当中了。只不过大家都是成年人，去美国拿奖学金读博的付出代价比读研要相对来说大多了。起码学历顶尖然后又要付出巨大的时间投入，但还不是很多人前赴后继的去读。还不是因为卷出来以后就能拿高薪或者这个途径拿美国签证更容易。不管导师水平低，还是水平高又 push ，你希望碰上和你口味的导师无非就是希望自己能代价小一点拿到学位。当然这样想也是人之常情，只不过现实世界哪里能有这样的好事。在同龄人当中能考上 985 ，211 然后进入非天坑专业统计上来说都已经是 3%之内了。",
+          "en": "Because this matter is essentially a bit logically inconsistent. You worked hard to pass the postgraduate entrance examination, and I can say that you have paid a year's worth of time costs and opportunity costs, but that's it. If you feel something is wrong after studying for a master's degree, you can still withdraw. The original meaning of sunk cost is that the cost you have already paid does not need to be taken into consideration. However, everyone is an adult, and the cost of going to the United States to get a scholarship for a Ph.D. is much higher than studying for a master's degree. At least you have top education and you have to put in a lot of time, but still many people go to study one after another. Isn't it because you can get a high salary after getting a Ph.D. or it is easier to get a US visa through this channel? Whether the professor's level is low or the level is high and pushy, you hope to meet a professor who suits your taste, but you just hope that you can get a degree at a lower price. Of course, this is human nature, but there is no such thing in the real world. Among peers, being admitted to 985, 211 and then entering a non-pit major is statistically within 3%."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@sagaxu 家人归家人的，本人的信息总是公开的风险可以通过在国外网络部署来规避一部分，主要还是收款难，加密货币付款对于大部分用户来说难度太高了这种产品的评价不需要核实，抱着宁可信其有的态度去使用就好了总结产品技术上不难，风险不是最大的问题，变现难是实打实的，目标用户群体付费能力和意愿太差了",
+          "en": "@sagaxu Family members are family members. The risk that my information is always public can be partially avoided by deploying it on a foreign network. The main problem is that it is difficult to collect money. It is too difficult for most users to pay with cryptocurrency. The evaluation of this product does not need to be verified. It is better to use it with the attitude of rather believe it is true. In summary, the product is not technically difficult. The biggest problem is not the risk. It is difficult to monetize. The target user group has poor ability and willingness to pay."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@HUZHUANGZHUANG #45 身边真实例子：我本科室友的师兄，帮导师写了很多论文和专利但都不给挂名，虽然达到学院毕业最低要求，但因为老师间内斗被别的老师挂了导致延毕事业编泡汤",
+          "en": "@HUZHUANGZHUANG #45 A real example around me: The senior of my undergraduate roommate helped the professor write a lot of papers and patents, but did not give him credit. Although he met the minimum requirements for graduation from the college, he was delayed in graduation and the career establishment was ruined because he was targeted by other teachers due to internal struggles between teachers."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@wolffcat 问题是你不加以限制就会出问题 网络吃瓜远比你说的那些更有“人气” 而加以限制估计大多数人就会以你的平台有审查而质疑你平台的公信力和专业性",
+          "en": "@wolffcat The problem is that if you don't limit it, problems will arise. Online gossip is much more \"popular\" than what you said. If you limit it, most people will question the credibility and professionalism of your platform because it has censorship."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@yoiteshaw 的确，我没考虑到这个问题，实名上网有点可怕，真实性和隐秘性是个比较矛盾的问题。我担忧的发现以前运行的网站全没了，大家都闭上了嘴是一个可怕的事情。",
+          "en": "@yoiteshaw Indeed, I didn't consider this issue. It's a bit scary to go online with your real name. Authenticity and privacy are a contradictory issue. I am worried to find that all the websites that used to run are gone, and everyone is shutting their mouths, which is a terrible thing."
+        }
+      ],
+      "type": "replies"
+    },
+    {
+      "chunks": [
+        {
+          "zh": "@sagaxu 有道理，我在想国外主机环境好一点吧，非实名是最大的优势，被喝茶可能需要在 x 上泄漏一张吉普车照片不幸被 osint 比较危险。",
+          "en": "@sagaxu That makes sense. I'm thinking the foreign host environment is better. Non-real name is the biggest advantage. Being summoned by the police may require leaking a photo of a Jeep on X and unfortunately being OSINT is more dangerous."
+        }
+      ],
+      "type": "replies"
+    }
+  ]
+}
