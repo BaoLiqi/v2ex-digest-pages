@@ -46,7 +46,9 @@ function AnalyzedPostDetailPage() {
   const [postInfo, setPostInfo] = useState<PostIndex | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [activeTokens, setActiveTokens] = useState<{ [key: string]: boolean }>({});
+  const [activeTokens, setActiveTokens] = useState<{ [key: string]: boolean }>(
+    {}
+  );
 
   useEffect(() => {
     const fetchPost = async () => {
@@ -91,22 +93,26 @@ function AnalyzedPostDetailPage() {
     fetchPost();
   }, [postId]);
 
-  const toggleTokenActive = (blockIndex: number, chunkIndex: number, tokenIndex: number) => {
+  const toggleTokenActive = (
+    blockIndex: number,
+    chunkIndex: number,
+    tokenIndex: number
+  ) => {
     const tokenKey = `${blockIndex}-${chunkIndex}-${tokenIndex}`;
-    setActiveTokens(prev => {
+    setActiveTokens((prev) => {
       const newActiveTokens = { ...prev };
-      
+
       // If this token is already active, deactivate it
       if (newActiveTokens[tokenKey]) {
         delete newActiveTokens[tokenKey];
       } else {
         // Otherwise activate it and deactivate all others
-        Object.keys(newActiveTokens).forEach(key => {
+        Object.keys(newActiveTokens).forEach((key) => {
           delete newActiveTokens[key];
         });
         newActiveTokens[tokenKey] = true;
       }
-      
+
       return newActiveTokens;
     });
   };
@@ -117,9 +123,9 @@ function AnalyzedPostDetailPage() {
       setActiveTokens({});
     };
 
-    document.addEventListener('click', handleClickOutside);
+    document.addEventListener("click", handleClickOutside);
     return () => {
-      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener("click", handleClickOutside);
     };
   }, []);
 
@@ -138,22 +144,24 @@ function AnalyzedPostDetailPage() {
   return (
     <div className="post-detail-container">
       <div className="post-header">
-        <Link to="/" className="back-button">← Back to Posts</Link>
+        <Link to="/" className="back-button">
+          ← Back to Posts
+        </Link>
         <h2 className="post-title">{postInfo.title || `Post #${post.id}`}</h2>
         <div className="post-meta">
           <span className="post-date">{postInfo.date}</span>
           <span className="post-id">#{post.id}</span>
         </div>
       </div>
-      
+
       <div className="color-legend">
         <div className="color-legend-label">Token Probability:</div>
         <div className="color-gradient-container">
           <div className="color-gradient">
             {colorPalette.map((color, index) => (
-              <div 
-                key={index} 
-                className="color-stop" 
+              <div
+                key={index}
+                className="color-stop"
                 style={{ backgroundColor: color }}
               />
             ))}
@@ -165,7 +173,7 @@ function AnalyzedPostDetailPage() {
           </div>
         </div>
       </div>
-      
+
       <div className="post-content">
         {post.blocks.map((block, blockIndex) => (
           <div key={blockIndex} className={`block block-${block.type}`}>
@@ -176,19 +184,21 @@ function AnalyzedPostDetailPage() {
                     // Find the probability of this token
                     let probability = 0;
                     for (const candidate of tokenAnalysis.candidates) {
-                      if (candidate.token.trim() === tokenAnalysis.token.trim()) {
+                      if (
+                        candidate.token.trim() === tokenAnalysis.token.trim()
+                      ) {
                         probability = candidate.probability;
                         break;
                       }
                     }
-                    
+
                     const tokenKey = `${blockIndex}-${chunkIndex}-${tokenIndex}`;
                     const isActive = activeTokens[tokenKey] || false;
-                    
+
                     return (
-                      <span 
-                        key={tokenIndex} 
-                        className={`token ${isActive ? 'active' : ''}`}
+                      <span
+                        key={tokenIndex}
+                        className={`token ${isActive ? "active" : ""}`}
                         style={{ color: probabilityToColor(probability) }}
                         onClick={(e) => {
                           e.stopPropagation();
@@ -198,12 +208,39 @@ function AnalyzedPostDetailPage() {
                         {tokenAnalysis.token}
                         {isActive && (
                           <div className="token-tooltip">
-                            {tokenAnalysis.candidates.map((candidate, candidateIndex) => (
-                              <div key={candidateIndex} className="candidate">
-                                <span className="candidate-token">{candidate.token}</span>
-                                <span className="candidate-probability">{(candidate.probability * 100).toFixed(2)}%</span>
-                              </div>
-                            ))}
+                            {tokenAnalysis.candidates.map(
+                              (candidate, candidateIndex) => (
+                                <div key={candidateIndex} className="candidate">
+                                  <span className="candidate-token">
+                                    {candidate.token}
+                                  </span>
+                                  <span className="candidate-probability">
+                                    {(candidate.probability * 100).toFixed(2)}%
+                                  </span>
+                                </div>
+                              )
+                            )}
+                            {/* Variance Calculation and Display */}
+                            <div className="candidate">
+                              <span className="candidate-token">Variance:</span>
+                              <span className="candidate-probability">
+                                {(() => {
+                                  const probabilities =
+                                    tokenAnalysis.candidates.map(
+                                      (c) => c.probability
+                                    );
+                                  const mean =
+                                    probabilities.reduce((a, b) => a + b, 0) /
+                                    probabilities.length;
+                                  const variance =
+                                    probabilities.reduce(
+                                      (a, b) => a + (b - mean) ** 2,
+                                      0
+                                    ) / probabilities.length;
+                                  return variance.toFixed(2) + "%";
+                                })()}
+                              </span>
+                            </div>
                           </div>
                         )}
                       </span>
