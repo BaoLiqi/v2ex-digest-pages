@@ -89,7 +89,7 @@ def get_prompt(chinese_text: str, tokenizer):
         return text_prefix[0:start_index]
 
 
-def get_next_word_candidates(input_ids, model, tokenizer, top_k=5, top_p=0.95):
+def get_next_word_candidates(input_ids, model, tokenizer, top_k=5, top_p=1):
     """
     Get the next word candidates based on the input ids.
 
