@@ -23,18 +23,19 @@ def create_post_index(input_dir="public/posts_json", output_dir="src", output_fi
                 # Extract date and post ID from filename
                 match = re.match(r'(\d{4}-\d{2}-\d{2})_(\d+)_', filename)
                 if not match:
-                    print(f"Could not parse date and ID from filename: {filename}")
+                    print(
+                        f"Could not parse date and ID from filename: {filename}")
                     continue
-                
+
                 date_str, post_id = match.groups()
                 try:
                     date = datetime.strptime(date_str, "%Y-%m-%d")
                 except ValueError:
                     print(f"Could not parse date from filename: {filename}")
                     continue
-                
+
                 data = json.load(f)
-                
+
                 # Extract only the essential information for the index
                 post_info = {
                     "id": data["id"],
@@ -42,13 +43,13 @@ def create_post_index(input_dir="public/posts_json", output_dir="src", output_fi
                     "filename": filename,
                     "title": ""
                 }
-                
+
                 # Extract the title from the first block if it exists
                 if data["blocks"] and len(data["blocks"]) > 0:
                     first_block = data["blocks"][0]
                     if first_block["type"] == "title" and first_block["chunks"] and len(first_block["chunks"]) > 0:
                         post_info["title"] = first_block["chunks"][0]["zh"]
-                
+
                 index_data.append(post_info)
         except Exception as e:
             print(f"Error processing {json_file}: {e}")
@@ -72,9 +73,9 @@ def create_post_index(input_dir="public/posts_json", output_dir="src", output_fi
 if __name__ == "__main__":
     # Create regular posts index
     create_post_index()
-    
+
     # Create analyzed posts index
     create_post_index(
         input_dir="public/posts_json_analyzed",
-        output_filename="analyzed_posts_index.json"
+        output_filename="posts_index_analyzed.json"
     )

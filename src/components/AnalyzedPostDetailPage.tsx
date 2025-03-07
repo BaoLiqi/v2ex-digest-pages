@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import analyzedPostsIndex from "../analyzed_posts_index.json";
+import analyzedPostsIndex from "../posts_index_analyzed.json";
 import { colorPalette } from "./colorPalette";
 import "./AnalyzedPostDetailPage.css";
 
