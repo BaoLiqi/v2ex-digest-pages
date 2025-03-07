@@ -1,5 +1,3 @@
-import React from "react";
-
 // Pagination component
 function Pagination({
   currentPage,
